@@ -1,0 +1,65 @@
+Deze week is versie 1.9 uitgekomen van Treintijden.
+
+Dit keer met relatief veel verbeteringen. Als eerste is het invoeren van een station aangepast, dit is nu default met het toetsenbord en een slimmere autocomplete. Je kan ook een stationscode invoeren of een alternatieve naar van het station en dan wordt het station ook gevonden. (Bijvoorbeeld Bijlmer voor Amsterdam Bijlmer ArenA of code Gv voor Den Haag HS).
+
+Ten tweede is het reisadvies scherm op de schop gegaan. De reisdelen van je reis staan nu duidelijker gegroepeerd bij elkaar. Het zal misschien niet zo opvallen, maar het voelt logischer aan.
+
+Een belangrijke verbetering op het planner scherm is dat het "via" veld nu standaard uit staat. Meestal gebruik je dit niet, maar het was altijd zo aanwezig en de kans was groot dat je er perongeluk het "aankomst" station zou invullen. Dit is nu uitgezet en vervangen door een checkbox om het aan te zetten.
+
+
+Volledig overzicht van de wijzigingen:
+- Release notes toegevoegd
+- Station Maarheeze toegevoegd
+- Favoriet knop bij vertrektijden van een station
+- Via station veld vervangen door checkbox bij planner
+- Nieuwe manier van stations kiezen
+- Ondersteuning voor stationsafkortingen bij zoeken naar een station
+- Vernieuwd reisadvies scherm
+
+Download:
+http://www.windowsphone.com/s?appid=a9ebc3af-a0c2-4780-9da3-8ee664981d13
+
+-------
+
+Beste WPHome.nl,
+
+Versie 1.9 van Treintijden is deze week uitgekomen. Misschien is het leuk er een berichtje aan te besteden.
+
+Treintijden is op dit moment de populairste Trein app voor Windows Phone. In versie 1.9 zitten een aantal belangrijke verbeteringen.
+
+Het planner scherm heeft een aantal verbeteringen. Zo is het invoeren van een station makkelijker gemaakt. De autocomplete is verbeterd, sneller en zorgt voor meer matches. Naast de autocomplete is het ook nog mogelijk de stations uit een lijst te kiezen voor degene die het toetsenbord niet willen gebruiken.
+
+Het "via" veld op het planner scherm staat nu standaard uit. Dit is vervangen door een checkbox die je kan aanvinken. Daarna heb je de optie om het via veld in te vullen. Dit moet voorkomen dat het via veld perongeluk wordt ingevuld (in plaats van het aankomst veld).
+
+Tot slot is het reisadvies scherm ook aangepakt. De reisdelen van een reis staan nu logischer bij elkaar.
+Screenshot nieuw:
+http://catalog.zune.net/v3.2/nl-NL/image/ed9ded69-d66c-4b7f-857b-5c0b1ea899e7?width=1280&height=720&resize=true
+
+Screenshot oud:
+http://www.michielpost.nl/Portfolio/WP7/Treintijden/05_reis_open.jpg
+
+
+Volledig overzicht van de wijzigingen:
+- Release notes toegevoegd
+- Station Maarheeze toegevoegd
+- Favoriet knop bij vertrektijden van een station
+- Via station veld vervangen door checkbox bij planner
+- Nieuwe manier van stations kiezen
+- Ondersteuning voor stationsafkortingen bij zoeken naar een station
+- Vernieuwd reisadvies scherm
+
+Download:
+http://www.windowsphone.com/s?appid=a9ebc3af-a0c2-4780-9da3-8ee664981d13
+
+---
+
+Beste PocketInfo.nl,
+
+Een tijd geleden hebben jullie eens aandacht besteed aan Treintijden voor Windows Phone. Inmiddels is update 1.9 uit met een aantal mooie verbeteringen.
+
+
+
+
+
+
+

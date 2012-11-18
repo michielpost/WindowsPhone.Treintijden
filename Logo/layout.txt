@@ -1,0 +1,6 @@
+tijd    Naam            spoor
+        soort via       ??wijzig
+        + vertraging
+------Slide open on Tab
+Volledige via tekst.
+Opmerkingen

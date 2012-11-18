@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>TREINTIJDEN</value>
+  </data>
+  <data name="informatie" xml:space="preserve">
+    <value>informatie</value>
+  </data>
+  <data name="prijs" xml:space="preserve">
+    <value>prijs</value>
+  </data>
+  <data name="reisplanner" xml:space="preserve">
+    <value>reisplanner</value>
+  </data>
+  <data name="stations" xml:space="preserve">
+    <value>stations</value>
+  </data>
+  <data name="StoringenFormat" xml:space="preserve">
+    <value>{0} storingen</value>
+  </data>
+  <data name="StoringFormat" xml:space="preserve">
+    <value>{0} storing</value>
+  </data>
+  <data name="Aan" xml:space="preserve">
+    <value>Aan</value>
+  </data>
+  <data name="AboutApi" xml:space="preserve">
+    <value>Deze applicatie maakt gebruik van de officiële NS api.</value>
+  </data>
+  <data name="AboutCopyright" xml:space="preserve">
+    <value>Copyright © 2012 Michiel Post</value>
+  </data>
+  <data name="AboutEmailButton" xml:space="preserve">
+    <value>e-mail</value>
+  </data>
+  <data name="AboutQuestions" xml:space="preserve">
+    <value>Heb je tips, suggesties of vragen? Neem dan contact op met michiel@michielpost.nl</value>
+  </data>
+  <data name="AboutReview" xml:space="preserve">
+    <value>Maak je met veel plezier gebruik van Treintijden? Laat dan een review achter op de Marketplace.</value>
+  </data>
+  <data name="AboutReviewButton" xml:space="preserve">
+    <value>review</value>
+  </data>
+  <data name="AboutVersion" xml:space="preserve">
+    <value>Treintijden 2.0</value>
+  </data>
+  <data name="actueel" xml:space="preserve">
+    <value>actueel</value>
+  </data>
+  <data name="herinnermij" xml:space="preserve">
+    <value>herinner mij</value>
+  </data>
+  <data name="historie" xml:space="preserve">
+    <value>historie</value>
+  </data>
+  <data name="instellingen" xml:space="preserve">
+    <value>instellingen</value>
+  </data>
+  <data name="LocatieServiceUitgeschakeld" xml:space="preserve">
+    <value>De locatie service is uitgeschakeld op deze telefoon.</value>
+  </data>
+  <data name="MainInformatieButton" xml:space="preserve">
+    <value>informatie</value>
+  </data>
+  <data name="MainIntro1" xml:space="preserve">
+    <value>Dit is de lijst met jouw favoriete stations.</value>
+  </data>
+  <data name="MainIntro2" xml:space="preserve">
+    <value>Voeg meteen een station toe:</value>
+  </data>
+  <data name="MainIntroButton" xml:space="preserve">
+    <value>station toevoegen</value>
+  </data>
+  <data name="MainLocationLoading" xml:space="preserve">
+    <value>Locatie bepaling...</value>
+  </data>
+  <data name="MainReviewButton" xml:space="preserve">
+    <value>beoordeel deze applicatie</value>
+  </data>
+  <data name="MainSettingsButton" xml:space="preserve">
+    <value>instellingen</value>
+  </data>
+  <data name="MainStoringenAppButton" xml:space="preserve">
+    <value>storingen en werkzaamheden</value>
+  </data>
+  <data name="planeenreis" xml:space="preserve">
+    <value>plan een reis</value>
+  </data>
+  <data name="planner" xml:space="preserve">
+    <value>planner</value>
+  </data>
+  <data name="PlannerAankomst" xml:space="preserve">
+    <value>Aankomst</value>
+  </data>
+  <data name="PlannerAankomstOption" xml:space="preserve">
+    <value>aankomst</value>
+  </data>
+  <data name="PlannerCard" xml:space="preserve">
+    <value>NS- of OV-Jaarkaart</value>
+  </data>
+  <data name="PlannerMijnStationsButton" xml:space="preserve">
+    <value>mijn stations</value>
+  </data>
+  <data name="PlannerSearchButton" xml:space="preserve">
+    <value>plan mijn reis</value>
+  </data>
+  <data name="PlannerToonHsl" xml:space="preserve">
+    <value>Toon hogesnelheidstreinen</value>
+  </data>
+  <data name="PlannerVertrek" xml:space="preserve">
+    <value>Vertrek</value>
+  </data>
+  <data name="PlannerVertrekOption" xml:space="preserve">
+    <value>vertrek</value>
+  </data>
+  <data name="PlannerVia" xml:space="preserve">
+    <value>Via</value>
+  </data>
+  <data name="PrijsEersteKlas" xml:space="preserve">
+    <value>eerste klas</value>
+  </data>
+  <data name="PrijsEnkel" xml:space="preserve">
+    <value>enkele reis</value>
+  </data>
+  <data name="PrijsError" xml:space="preserve">
+    <value>Er was een probleem met het ophalen van de prijzen. Mogelijk is er geen internet verbinding beschikbaar.</value>
+  </data>
+  <data name="PrijsLoading" xml:space="preserve">
+    <value>Prijzen ophalen...</value>
+  </data>
+  <data name="PrijsRetour" xml:space="preserve">
+    <value>retour</value>
+  </data>
+  <data name="PrijsTweedeKlas" xml:space="preserve">
+    <value>tweede klas</value>
+  </data>
+  <data name="reisadvies" xml:space="preserve">
+    <value>reisadvies</value>
+  </data>
+  <data name="ReisadviesAankomst" xml:space="preserve">
+    <value>aankomst</value>
+  </data>
+  <data name="ReisadviesDeleteHistory" xml:space="preserve">
+    <value>verwijder zoekhistorie</value>
+  </data>
+  <data name="ReisadviesDoZoek" xml:space="preserve">
+    <value>Voer eerst een zoekopdracht uit met de reisplanner.</value>
+  </data>
+  <data name="ReisadviesEerder" xml:space="preserve">
+    <value>eerder</value>
+  </data>
+  <data name="ReisadviesError" xml:space="preserve">
+    <value>Er was een probleem met het ophalen van dit reisadvies. Mogelijk is er geen internet verbinding beschikbaar.</value>
+  </data>
+  <data name="ReisadviesLater" xml:space="preserve">
+    <value>later</value>
+  </data>
+  <data name="ReisadviesMijnStationsButton" xml:space="preserve">
+    <value>mijn stations</value>
+  </data>
+  <data name="ReisadviesNoHistory" xml:space="preserve">
+    <value>geen zoekgeschiedenis</value>
+  </data>
+  <data name="ReisadviesOverstap" xml:space="preserve">
+    <value>overstap</value>
+  </data>
+  <data name="ReisadviesReistijd" xml:space="preserve">
+    <value>reistijd</value>
+  </data>
+  <data name="ReisadviesRemindMe" xml:space="preserve">
+    <value>herinner mij</value>
+  </data>
+  <data name="ReisadviesRepeatButton" xml:space="preserve">
+    <value>herhaal zoekopdracht</value>
+  </data>
+  <data name="ReisadviesTerugreisButton" xml:space="preserve">
+    <value>terugreis</value>
+  </data>
+  <data name="ReisadviesVertrek" xml:space="preserve">
+    <value>vertrek</value>
+  </data>
+  <data name="ReisplannerLoading" xml:space="preserve">
+    <value>Vertrektijden laden...</value>
+  </data>
+  <data name="ReminderAdded" xml:space="preserve">
+    <value>De herinnering is succesvol toegevoegd.</value>
+  </data>
+  <data name="ReminderAppTitle" xml:space="preserve">
+    <value>Treintijden</value>
+  </data>
+  <data name="ReminderButton" xml:space="preserve">
+    <value>toevoegen</value>
+  </data>
+  <data name="ReminderError" xml:space="preserve">
+    <value>Het is niet mogelijk een herinnering in het verleden toe te voegen.</value>
+  </data>
+  <data name="ReminderIntro" xml:space="preserve">
+    <value>Herinner mij voordat de trein vertrekt.</value>
+  </data>
+  <data name="ReminderServiceFormat" xml:space="preserve">
+    <value>Uw trein naar {0} vertrekt om {1} op station {2} van spoor {3}.</value>
+  </data>
+  <data name="ReminderUpcomming" xml:space="preserve">
+    <value>Aankomende herinneringen</value>
+  </data>
+  <data name="SettingsPrivacy" xml:space="preserve">
+    <value>De locatie gegevens van de telefoon worden alleen gebruikt om automatisch stations bij u in de buurt te tonen. Dit kan uitgeschakeld worden in het instellingen menu.</value>
+  </data>
+  <data name="SettingsStationBuurt" xml:space="preserve">
+    <value>Stations in de buurt tonen</value>
+  </data>
+  <data name="SettingsStoringen" xml:space="preserve">
+    <value>Storingen tonen op live tile</value>
+  </data>
+  <data name="SettingsUseLocation" xml:space="preserve">
+    <value>Locatie gebruiken</value>
+  </data>
+  <data name="SettingsZoeken" xml:space="preserve">
+    <value>Vertrekstation invullen</value>
+  </data>
+  <data name="sluiten" xml:space="preserve">
+    <value>sluiten</value>
+  </data>
+  <data name="stationkeuze" xml:space="preserve">
+    <value>stationkeuze</value>
+  </data>
+  <data name="StationTijdenDeleteButton" xml:space="preserve">
+    <value>verwijder station</value>
+  </data>
+  <data name="StationTijdenError" xml:space="preserve">
+    <value>Er was een probleem met het ophalen van de vertrektijden. Mogelijk is er geen internet verbinding beschikbaar.</value>
+  </data>
+  <data name="StationTijdenLoading" xml:space="preserve">
+    <value>Vertrektijden laden...</value>
+  </data>
+  <data name="StationTijdenMijnStationsButton" xml:space="preserve">
+    <value>mijn stations</value>
+  </data>
+  <data name="StationTijdenPlanReisButton" xml:space="preserve">
+    <value>plan een reis</value>
+  </data>
+  <data name="storingen" xml:space="preserve">
+    <value>storingen</value>
+  </data>
+  <data name="StoringenGeen" xml:space="preserve">
+    <value>geen storingen</value>
+  </data>
+  <data name="StoringenGeenLong" xml:space="preserve">
+    <value>Op dit moment zijn er geen storingen bekend. Zodra er storingen zijn, zal Treintijden dit automatisch aangeven.</value>
+  </data>
+  <data name="StoringenStoringenHeader" xml:space="preserve">
+    <value>storingen</value>
+  </data>
+  <data name="StoringenWerkzaamhedenHeader" xml:space="preserve">
+    <value>werkzaamheden</value>
+  </data>
+  <data name="TaskHelperOmschrijving" xml:space="preserve">
+    <value>Toont het aantal storingen bij de vastgepinde tiles.</value>
+  </data>
+  <data name="TileAdviesControlTitle" xml:space="preserve">
+    <value>Treintijden</value>
+  </data>
+  <data name="TileAppTitle" xml:space="preserve">
+    <value>Trein</value>
+  </data>
+  <data name="TileReisplanner" xml:space="preserve">
+    <value>Reisplanner</value>
+  </data>
+  <data name="toevoegen" xml:space="preserve">
+    <value>toevoegen</value>
+  </data>
+  <data name="Uit" xml:space="preserve">
+    <value>Uit</value>
+  </data>
+  <data name="update" xml:space="preserve">
+    <value>update</value>
+  </data>
+  <data name="vastpinnen" xml:space="preserve">
+    <value>vastpinnen</value>
+  </data>
+  <data name="verwijder" xml:space="preserve">
+    <value>verwijder</value>
+  </data>
+  <data name="StationTijdenAddButton" xml:space="preserve">
+    <value>toevoegen aan favorieten</value>
+  </data>
+  <data name="SettingsLanguageInput" xml:space="preserve">
+    <value>Taal</value>
+  </data>
+  <data name="ReisadviesVertraging" xml:space="preserve">
+    <value>let op: latere vertrek/aankomsttijd</value>
+  </data>
+  <data name="ReisadviesVertragingAankomst" xml:space="preserve">
+    <value>let op: latere aankomsttijd</value>
+  </data>
+  <data name="ReisadviesVertragingVertrek" xml:space="preserve">
+    <value>let op: latere vertrektijd</value>
+  </data>
+  <data name="favoriet" xml:space="preserve">
+    <value>favoriet</value>
+  </data>
+  <data name="ReleaseNotes" xml:space="preserve">
+    <value>Nieuw in 2.0
+- Klaar voor Windows Phone 8
+- Hoge resolutie tiles
+- Station op de kaart tonen
+- Donaties mogelijk via In App Purchase
+
+Nieuw in 1.9
+- Release notes toegevoegd
+- Station Maarheeze toegevoegd
+- Favoriet knop bij vertrektijden van een station
+- Via station veld vervangen door checkbox bij planner
+- Nieuwe manier van stations kiezen
+- Ondersteuning voor stationsafkortingen bij zoeken naar een station
+- Vernieuwd reisadvies scherm
+
+Nieuw in 1.8
+- Layout uitlijning
+
+Nieuw in 1.7
+- Tombstoning support
+- ScheduledTask crash bij geen network fix
+
+Nieuw in 1.6
+- Nieuwe stations toegevoegd: Sassenheim, Westervoort, Hardinxveld Blauwe Zoom, Sliedrecht Baanhoek
+- Extra balk die toont of er vertrek/aankomst vertraging is bij geplande reis
+- Kleine bugfixes
+
+Nieuw in 1.5
+- Vertrek- en aankomstvertraging bij geplande reizen wordt getoond
+- Kleine bugfixes</value>
+  </data>
+  <data name="ViaStation" xml:space="preserve">
+    <value>via station?</value>
+  </data>
+  <data name="AskReview" xml:space="preserve">
+    <value>Steun Treintijden door een goede review achter te laten in de marketplace. Wil je nu een review plaatsen?</value>
+  </data>
+  <data name="Ja" xml:space="preserve">
+    <value>ja</value>
+  </data>
+  <data name="Nooit" xml:space="preserve">
+    <value>nooit</value>
+  </data>
+  <data name="terugreis" xml:space="preserve">
+    <value>terugreis</value>
+  </data>
+  <data name="vertrektijden" xml:space="preserve">
+    <value>vertrektijden</value>
+  </data>
+  <data name="TileStoringen" xml:space="preserve">
+    <value>Storingen</value>
+  </data>
+  <data name="StoringenError" xml:space="preserve">
+    <value>Er was een probleem met het ophalen van de storingen. Mogelijk is er geen internet verbinding beschikbaar.</value>
+  </data>
+  <data name="StoringenLoading" xml:space="preserve">
+    <value>Storingen laden...</value>
+  </data>
+  <data name="DonateTitle" xml:space="preserve">
+    <value>steun deze app</value>
+  </data>
+  <data name="DonateError" xml:space="preserve">
+    <value>Kon geen badges laden, probeer het later nog eens.</value>
+  </data>
+  <data name="DonateIntro" xml:space="preserve">
+    <value>Treintijden is volledig gratis te gebruiken. Je kunt de ontwikkeling van de applicatie steunen door één of meerdere van onderstaande badges te kopen.</value>
+  </data>
+  <data name="DonatePrice" xml:space="preserve">
+    <value>Prijs</value>
+  </data>
+  <data name="MainDonateButton" xml:space="preserve">
+    <value>steun deze applicatie</value>
+  </data>
+  <data name="StationTijdenMapButton" xml:space="preserve">
+    <value>toon op de kaart</value>
+  </data>
+  <data name="showonmap" xml:space="preserve">
+    <value>toon op de kaart</value>
+  </data>
+</root>

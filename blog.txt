@@ -1,0 +1,80 @@
+
+Linkedin:
+Windows Phone Treintijden, achter de schermen
+Gisteren is mijn nieuwe applicatie Treintijden uitgekomen. Ik heb een blogpost geschreven over de technieken die gebruikt zijn in de applicatie. Zoals o.a. het genereren van Tiles, de Async CTP, start up tijd etc.
+
+http://www.michielpost.nl/PostDetail_52.aspx
+
+De Treintijden applicatie zelf is te vinden op de marketplace:
+http://www.windowsphone.com/nl-NL/apps/a9ebc3af-a0c2-4780-9da3-8ee664981d13
+
+
+
+---
+Windows Phone Treintijden, achter de schermen
+
+Na twee intensieve weken, met veel code en passie, staat mijn nieuwe Windows Phone applicatie Treintijden in de marketplace. Treintijden toont de actuele vertrektijden en storingen op het Nederlandse spoor. Ook kan je een reis plannen en ticketprijzen opvragen.
+
+Screenshots en een uitgebreide omschrijving van de applicatie zijn te vinden op de Marketplace.
+
+Deze applicatie was voor mij een speeltuin om een aantal technieken uit te proberen. Ik zal ze kort bespreken.
+
+Performance
+Het doel was de applicatie zo snel mogelijk te laten starten. Dit heb ik vooral gedaan door zo min mogelijk code te draaien tijden het starten van de applicatie. Geen data ophalen, geen code in de constructor van je eerste model/view etc.
+
+Om toch alles te kunnen doen, worden er een aantal asynchrone taken gestart. Deze taken halen bijvoorbeeld de storingen op, laden de stations in etc. De asynchrone taken draaien op een andere thread en tellen niet mee voor je applicatie startup tijd, het beginscherm kan dus sneller getoond worden.
+
+Helaas was dit nog niet snel genoeg. Toen kwam ik uit bij een andere optie: Fake it! Doe gewoon net alsof de applicatie heel snel opstart. Dit heb ik gedaan door in het opstartscherm van de applicatie een screenshot van de echte applicatie te laten zien.
+Het splashscreen wordt direct getoond, je ziet dus direct de applicatie. Ook al staat er dan nog "data laden...". Het lijkt alsof de applicatie al is gestart.
+
+Live Tile
+Een andere uitdaging was het genereren van de Live Tiles. Elk station en elke geplande reis kan je vastpinnen op het startscherm van je telefoon. Ik wilde elk station een eigen icoontje geven. En op de live tile van een geplande reis wilde ik de namen van de stations tonen. Deze plaatjes kan je niet van te voren genereren, dat moet runtime gebeuren.
+Hiervoor heb ik twee UserControls gebruikt, met de exacte afmetingen van een Tile (173x173). Deze vul ik met data en laat ik renderen door de volgende code aan te roepen:
+tileControl.Measure(new Size(173, 173));
+tileControl.Arrange(new Rect(0, 0, 173, 173));
+
+Vervolgens maak ik er een Bitmap van en sla ik de Bitmap met SaveJpeg op in de IsolatedStorage. Op die manier kan de applicatie unieke Tiles generen voor elk station en elke reis!
+
+
+Background Tasks
+Op de Live Tile wil ik tonen hoeveel storingen er zijn. Hiervoor gebruik ik een Background Task die elk half uur opvraagt hoeveel storingen er zijn. Dit wordt getoond met een nummertje rechtsboven bij de Tile op het startscherm.
+De grootste uitdaging was onder de 6 MB geheugen te blijven. Dit is het maximum voor een Background Task. Als de background task begint, ben je direct al 4 MB kwijt, een WebRequest gooit daar al snel bijna 1,5 MB bovenop. Lastig! Door het simpel te houden blijft de Background Task hopelijk onder de 6 MB.
+
+Hoeveel geheugen je gebruikt kan je opvragen met:
+DeviceStatus.ApplicationCurrentMemoryUsage;
+
+Hoeveel er beschikbaar is:
+DeviceStatus.ApplicationMemoryUsageLimit;
+
+
+
+
+MVVM Light Framework
+http://mvvmlight.codeplex.com/
+Het MVVM Light Framework is gebruikt als basis voor de Windows Phone applicatie. Dit framework werkt via het Model-View-ViewModel pattern. Het heeft even een leercurve, maar daarna werkt het erg prettig en snel.
+
+Vooral handig was de ingebakken boilerplate code voor Design-Time-Only code. Je kan code schrijven die alleen design-time wordt uitgevoerd, zodat je dummy data ziet tijdens het ontwerpen van je applicatie (in Visual Studio of Blend). Op die manier maak je je applicatie "Blendable" (toonbaar in Expression Blend). Dit is geen feature van MVVM Light, maar dit framework maakt het wel makkelijker om hier gebruik van te maken.
+
+SimpleIOC
+http://wp7nl.codeplex.com/
+Ik heb SimpleIOC gebruikt uit de wp7nl utilities. Makkelijk om je services te registreren. In combinatie met de Design-Time-Only code kan je andere services registreren dan run-time. Nice!
+
+Async CTP
+http://msdn.microsoft.com/async
+Dit is nog een CTP, maar voor Windows Phone is er een Go Live license. Het is een preview van de nieuwe Async mogelijkheden die met .Net 4.5 / 5 gaan komen. Het maakt asynchrone code overzichtelijk en leesbaar. Een must voor Windows Phone applicaties!
+Enige nadeel was het installeren van de CTP. Eerst SP1 van Visual Studie verwijderen en opnieuw installeren, daarna pas de CTP installeren. Dit moet omdat de CTP alleen goed installeert als het versie nummer van Visual Studio exact gelijk is aan SP1, nieuwe updates gooien roet in het eten.
+
+Tip: Silverlight demo samples van de Async CTP:
+http://www.wischik.com/lu/AsyncSilverlight/AsyncSamples.html
+
+Silverlight Toolkit
+http://silverlight.codeplex.com/
+Veel gebruikte controls voor Windows Phone. 
+
+Coding4Fun Toolkit
+http://coding4fun.codeplex.com/
+Uit deze toolkit heb ik de Round Button gebruikt. Bevat ook nog andere handige controls.
+
+Laat het weten als je nog suggesties hebt voor de applicatie, of laat een review achter op de marketplace.
+http://www.windowsphone.com/nl-NL/apps/a9ebc3af-a0c2-4780-9da3-8ee664981d13
+ 

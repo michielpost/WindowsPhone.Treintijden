@@ -1,0 +1,928 @@
+﻿<phone:PhoneApplicationPage x:Class="ActueelNS.Views.Reisadvies"
+                            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                            xmlns:Controls="clr-namespace:Coding4Fun.Phone.Controls;assembly=Coding4Fun.Phone.Controls"
+                            xmlns:converters="clr-namespace:ActueelNS.Converters"
+                            xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                            xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+                            xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+                            xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+                            x:Name="control"
+                            d:DesignHeight="696"
+                            d:DesignWidth="480"
+                            DataContext="{Binding ReisadviesViewModel,
+                                                  Source={StaticResource Locator}}"
+                            FontFamily="{StaticResource PhoneFontFamilyNormal}"
+                            FontSize="{StaticResource PhoneFontSizeNormal}"
+                            Foreground="{StaticResource PhoneForegroundBrush}"
+                            Orientation="Portrait"
+                            shell:SystemTray.BackgroundColor="{StaticResource SysTrayBackgroundColor}"
+                            shell:SystemTray.ForegroundColor="{StaticResource SysTrayForegroundColor}"
+                            shell:SystemTray.IsVisible="True"
+                            Style="{StaticResource TransitionPageStyle}"
+                            SupportedOrientations="Portrait"
+                            mc:Ignorable="d">
+
+
+
+
+
+    <phone:PhoneApplicationPage.Resources>
+        <!--
+            <converters:InverseVisibilityConverter x:Key="InverseVisibilityConverter" />
+           
+        -->
+
+        <converters:VisibilityConverter x:Key="VisibilityConverter" />
+
+        <Storyboard x:Name="ShowStep1Header" Duration="0:0:0.5">
+
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Step1InfoPanel" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <DoubleAnimation Duration="0:0:0.5"
+                             Storyboard.TargetName="Step1InfoPanel"
+                             Storyboard.TargetProperty="(UIElement.Opacity)"
+                             To="1" />
+            <DoubleAnimation Duration="0:0:0.5"
+                             From="0"
+                             Storyboard.TargetName="Step1InfoPanel"
+                             Storyboard.TargetProperty="(UIElement.Height)"
+                             To="40" />
+
+        </Storyboard>
+        <Storyboard x:Name="HideStep1Header" Duration="0:0:0.5">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Step1InfoPanel" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.5">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+
+            <DoubleAnimation Duration="0:0:0.5"
+                             Storyboard.TargetName="Step1InfoPanel"
+                             Storyboard.TargetProperty="(UIElement.Opacity)"
+                             To="0" />
+            <DoubleAnimation Duration="0:0:0.5"
+                             From="40"
+                             Storyboard.TargetName="Step1InfoPanel"
+                             Storyboard.TargetProperty="(UIElement.Height)"
+                             To="0" />
+
+        </Storyboard>
+        <Storyboard x:Name="ShowStep2Header" Duration="0:0:0.5">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Step2InfoPanel" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+
+            <DoubleAnimation Duration="0:0:0.5"
+                             Storyboard.TargetName="Step2InfoPanel"
+                             Storyboard.TargetProperty="(UIElement.Opacity)"
+                             To="1" />
+            <DoubleAnimation Duration="0:0:0.5"
+                             From="0"
+                             Storyboard.TargetName="Step2InfoPanel"
+                             Storyboard.TargetProperty="(UIElement.Height)"
+                             To="65" />
+
+        </Storyboard>
+        <Storyboard x:Name="HideStep2Header" Duration="0:0:0.5">
+
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Step2InfoPanel" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.5">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+
+            <DoubleAnimation Duration="0:0:0.5"
+                             Storyboard.TargetName="Step2InfoPanel"
+                             Storyboard.TargetProperty="(UIElement.Opacity)"
+                             To="0" />
+            <DoubleAnimation Duration="0:0:0.5"
+                             From="65"
+                             Storyboard.TargetName="Step2InfoPanel"
+                             Storyboard.TargetProperty="(UIElement.Height)"
+                             To="0" />
+
+        </Storyboard>
+
+        <Storyboard x:Name="ShowButtons" Duration="0:0:0.5">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ButtonGrid" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+
+            <DoubleAnimation Duration="0:0:0.5"
+                             Storyboard.TargetName="ButtonGrid"
+                             Storyboard.TargetProperty="(UIElement.Opacity)"
+                             To="1" />
+        </Storyboard>
+        <Storyboard x:Name="HideButtons" Duration="0:0:0.5">
+
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ButtonGrid" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.5">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+
+            <DoubleAnimation Duration="0:0:0.5"
+                             Storyboard.TargetName="ButtonGrid"
+                             Storyboard.TargetProperty="(UIElement.Opacity)"
+                             To="0" />
+        </Storyboard>
+
+
+        <Storyboard x:Name="ShowStep0List" Duration="0:0:0.5">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="SearchHistoryListBox" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <DoubleAnimation Duration="0:0:0.5"
+                             Storyboard.TargetName="SearchHistoryListBox"
+                             Storyboard.TargetProperty="(UIElement.Opacity)"
+                             To="1" />
+
+        </Storyboard>
+        <Storyboard x:Name="HideStep0List" Duration="0:0:0.5">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="SearchHistoryListBox" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.5">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <DoubleAnimation Duration="0:0:0.5"
+                             Storyboard.TargetName="SearchHistoryListBox"
+                             Storyboard.TargetProperty="(UIElement.Opacity)"
+                             To="0" />
+
+        </Storyboard>
+
+        <Storyboard x:Name="ShowStep1List" Duration="0:0:0.5">
+
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="MogelijkhedenPanel" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <DoubleAnimation Duration="0:0:0.5"
+                             Storyboard.TargetName="MogelijkhedenPanel"
+                             Storyboard.TargetProperty="(UIElement.Opacity)"
+                             To="1" />
+
+        </Storyboard>
+        <Storyboard x:Name="HideStep1List" Duration="0:0:0.5">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="MogelijkhedenPanel" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.5">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <DoubleAnimation Duration="0:0:0.5"
+                             Storyboard.TargetName="MogelijkhedenPanel"
+                             Storyboard.TargetProperty="(UIElement.Opacity)"
+                             To="0" />
+
+        </Storyboard>
+
+        <Storyboard x:Name="ShowFinalList" Duration="0:0:0.5">
+
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="AdviesContentPanel" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <DoubleAnimation Duration="0:0:0.5"
+                             Storyboard.TargetName="AdviesContentPanel"
+                             Storyboard.TargetProperty="(UIElement.Opacity)"
+                             To="1" />
+
+        </Storyboard>
+        <Storyboard x:Name="HideFinalList" Duration="0:0:0.5">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="AdviesContentPanel" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.5">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <DoubleAnimation Duration="0:0:0.5"
+                             Storyboard.TargetName="AdviesContentPanel"
+                             Storyboard.TargetProperty="(UIElement.Opacity)"
+                             To="0" />
+
+        </Storyboard>
+
+    </phone:PhoneApplicationPage.Resources>
+
+    <Grid Margin="0,-1,0,0" x:Name="LayoutRoot" Background="{StaticResource BackgroundColor}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <toolkit:GestureService.GestureListener>
+            <toolkit:GestureListener Flick="OnFlick" />
+        </toolkit:GestureService.GestureListener>
+
+        <!--  TitlePanel contains the name of the application and page title  -->
+        <StackPanel x:Name="TitlePanel"
+                    Grid.Row="0"
+                    Margin="12,17,0,12">
+            <TextBlock x:Name="ApplicationTitle"
+                       Style="{StaticResource PhoneTextNormalStyleCustom}"
+                       Text="{Binding ApplicationTitle}" />
+            <TextBlock x:Name="PageTitle"
+                       Margin="9,-7,0,0"
+                       Style="{StaticResource PhoneTextTitle1StyleCustom}"
+                       Tap="PageTitle_Tap"
+                       Text="{Binding PageName}" />
+        </StackPanel>
+
+        <!--  ContentPanel - place additional content here  -->
+        <Grid x:Name="ContentPanel"
+              Grid.Row="1"
+              Margin="0,0,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="auto" />
+
+            </Grid.RowDefinitions>
+
+            <StackPanel x:Name="Step1InfoPanel"
+                        Grid.Row="0"
+                        Margin="0,-1,0,0"
+                        Background="{StaticResource TextColor}"
+                        DataContext="{Binding SelectedSearch}"
+                        Orientation="Horizontal"
+                        Tap="Step1InfoPanel_Tap">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="340" />
+                        <ColumnDefinition Width="140" />
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Grid.Column="0"
+                               FontSize="23"
+                               Foreground="{StaticResource BackgroundColor}"
+                               Style="{StaticResource PhoneTextNormalStyleCustom}"
+                               Text="{Binding DisplayFull}" />
+                    <TextBlock Grid.Column="1"
+                               HorizontalAlignment="Right"
+                               FontSize="23"
+                               Foreground="{StaticResource BackgroundColor}"
+                               Style="{StaticResource PhoneTextNormalStyleCustom}"
+                               Text="{Binding DisplayDag}" />
+
+                </Grid>
+
+            </StackPanel>
+
+            <StackPanel x:Name="Step2InfoPanel"
+                        Grid.Row="1"
+                        Background="{StaticResource TextColor}"
+                        DataContext="{Binding SelectedReisMogelijkheid}"
+                        Orientation="Horizontal"
+                        Tap="Step2InfoPanel_Tap">
+                <Grid Margin="12,3,3,3">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100" />
+                        <ColumnDefinition Width="100" />
+                        <ColumnDefinition Width="80" />
+                        <ColumnDefinition Width="100" />
+                        <ColumnDefinition Width="100" />
+                    </Grid.ColumnDefinitions>
+
+                    <StackPanel Grid.Column="0">
+                        <TextBlock Margin="0"
+                                   Foreground="{StaticResource BackgroundColor}"
+                                   Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                   Text="{Binding Path=LocalizedResources.ReisadviesVertrek,
+                                                  Source={StaticResource LocalizedStrings}}" />
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Margin="0"
+                                       Foreground="{StaticResource BackgroundColor}"
+                                       Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                       Text="{Binding VertrekDisplayTijd}" />
+                            <TextBlock Margin="0"
+                                       Foreground="{StaticResource BackgroundColor}"
+                                       Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                       Text="{Binding VertrekVertraging}" />
+                        </StackPanel>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="1">
+                        <TextBlock Margin="0"
+                                   Foreground="{StaticResource BackgroundColor}"
+                                   Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                   Text="{Binding Path=LocalizedResources.ReisadviesAankomst,
+                                                  Source={StaticResource LocalizedStrings}}" />
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Margin="0"
+                                       Foreground="{StaticResource BackgroundColor}"
+                                       Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                       Text="{Binding AankomstDisplayTijd}" />
+                            <TextBlock Margin="0"
+                                       Foreground="{StaticResource BackgroundColor}"
+                                       Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                       Text="{Binding AankomstVertraging}" />
+                        </StackPanel>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="2">
+                        <TextBlock Margin="0"
+                                   Foreground="{StaticResource BackgroundColor}"
+                                   Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                   Text="{Binding Path=LocalizedResources.ReisadviesOverstap,
+                                                  Source={StaticResource LocalizedStrings}}" />
+                        <TextBlock Margin="0"
+                                   HorizontalAlignment="Center"
+                                   Foreground="{StaticResource BackgroundColor}"
+                                   Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                   Text="{Binding AantalOverstappen}" />
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="3" Margin="20,0,0,0">
+                        <TextBlock Margin="0"
+                                   Foreground="{StaticResource BackgroundColor}"
+                                   Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                   Text="{Binding Path=LocalizedResources.ReisadviesReistijd,
+                                                  Source={StaticResource LocalizedStrings}}" />
+                        <TextBlock Margin="0"
+                                   Foreground="{StaticResource BackgroundColor}"
+                                   Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                   Text="{Binding GeplandeReisTijd}" />
+
+                    </StackPanel>
+
+
+
+
+                    <StackPanel Grid.Column="4" VerticalAlignment="Center">
+                        <Controls:RoundButton Height="50"
+                                              BorderBrush="{StaticResource BackgroundColor}"
+                                              ImageSource="/Toolkit.Content/ApplicationBar.Cancel.png" />
+                    </StackPanel>
+                </Grid>
+            </StackPanel>
+
+            <ListBox x:Name="SearchHistoryListBox"
+                     Grid.Row="2"
+                     Margin="-3"
+                     ItemsSource="{Binding SearchHistory}"
+                     SelectedItem="{Binding SelectedSearch,
+                                            Mode=TwoWay}">
+                <ListBox.ItemContainerStyle>
+                    <Style TargetType="ListBoxItem">
+                        <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                    </Style>
+                </ListBox.ItemContainerStyle>
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Margin="12,3,3,3">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+                            <StackPanel Grid.Column="0" Margin="0,0,0,16">
+                                <toolkit:ContextMenuService.ContextMenu>
+                                    <toolkit:ContextMenu Background="{StaticResource BackgroundColor}"
+                                                         BorderBrush="Black"
+                                                         Foreground="{StaticResource TextColor}">
+                                        <toolkit:MenuItem Command="{Binding ElementName=control,
+                                                                            Path=DataContext.DeleteCommand}"
+                                                          CommandParameter="{Binding Id}"
+                                                          Foreground="{StaticResource TextColor}"
+                                                          Header="{Binding Path=LocalizedResources.verwijder,
+                                                                           Source={StaticResource LocalizedStrings}}" />
+                                    </toolkit:ContextMenu>
+                                </toolkit:ContextMenuService.ContextMenu>
+
+
+                                <TextBlock Grid.Column="0"
+                                           VerticalAlignment="Center"
+                                           Style="{StaticResource PhoneTextLargeStyleCustom}"
+                                           Text="{Binding DisplayFull}" />
+                                <TextBlock Grid.Column="1"
+                                           VerticalAlignment="Center"
+                                           Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                           Text="{Binding DisplayTijd}" />
+                            </StackPanel>
+
+                        </Grid>
+
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+            <Grid x:Name="MogelijkhedenPanel" Grid.Row="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="0" Margin="12,3,3,3">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="120" />
+                        <ColumnDefinition Width="120" />
+                        <ColumnDefinition Width="130" />
+                        <ColumnDefinition Width="100" />
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Grid.Column="0"
+                               Margin="0"
+                               Style="{StaticResource PhoneTextNormalStyleCustom}"
+                               Text="{Binding Path=LocalizedResources.ReisadviesVertrek,
+                                              Source={StaticResource LocalizedStrings}}" />
+                    <TextBlock Grid.Column="1"
+                               Margin="0"
+                               Style="{StaticResource PhoneTextNormalStyleCustom}"
+                               Text="{Binding Path=LocalizedResources.ReisadviesAankomst,
+                                              Source={StaticResource LocalizedStrings}}" />
+                    <TextBlock Grid.Column="2"
+                               Margin="0"
+                               Style="{StaticResource PhoneTextNormalStyleCustom}"
+                               Text="{Binding Path=LocalizedResources.ReisadviesOverstap,
+                                              Source={StaticResource LocalizedStrings}}" />
+                    <TextBlock Grid.Column="3"
+                               Margin="0"
+                               Style="{StaticResource PhoneTextNormalStyleCustom}"
+                               Text="{Binding Path=LocalizedResources.ReisadviesReistijd,
+                                              Source={StaticResource LocalizedStrings}}" />
+                </Grid>
+
+                <ListBox x:Name="MogelijkhedenListBox"
+                         Grid.Row="1"
+                         Margin="-3"
+                         ItemsSource="{Binding ReisMogelijkheden}"
+                         SelectedItem="{Binding SelectedReisMogelijkheid,
+                                                Mode=TwoWay}">
+                    <ListBox.ItemContainerStyle>
+                        <Style TargetType="ListBoxItem">
+                            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                        </Style>
+                    </ListBox.ItemContainerStyle>
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Margin="12,3,3,3" Background="{Binding BackgroundColor}">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="120" />
+                                    <ColumnDefinition Width="120" />
+                                    <ColumnDefinition Width="130" />
+                                    <ColumnDefinition Width="100" />
+                                </Grid.ColumnDefinitions>
+
+                                <TextBlock Grid.Column="0"
+                                           Margin="0"
+                                           Style="{StaticResource PhoneTextLargeStyleCustom}"
+                                           Text="{Binding VertrekDisplayTijd}" />
+                                <TextBlock Grid.Column="1"
+                                           Margin="0"
+                                           Style="{StaticResource PhoneTextLargeStyleCustom}"
+                                           Text="{Binding AankomstDisplayTijd}" />
+                                <TextBlock Grid.Column="2"
+                                           Margin="30,0"
+                                           Style="{StaticResource PhoneTextLargeStyleCustom}"
+                                           Text="{Binding AantalOverstappen}" />
+                                <TextBlock Grid.Column="3"
+                                           Margin="0"
+                                           Style="{StaticResource PhoneTextLargeStyleCustom}"
+                                           Text="{Binding GeplandeReisTijd}" />
+
+                            </Grid>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </Grid>
+
+            <Grid x:Name="AdviesContentPanel"
+                  Grid.Row="2"
+                  Margin="0,6,0,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <ListBox Grid.Row="0"
+                         Margin="0,0,0,0"
+                         x:Name="ReisadviesListBox"
+                         SelectionChanged="ListBox_SelectionChanged"
+                         ItemsSource="{Binding MainReisMogelijkheid.ReisDelen}">
+                    <ListBox.ItemContainerStyle>
+                        <Style TargetType="ListBoxItem">
+                            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                        </Style>
+                    </ListBox.ItemContainerStyle>
+                    <ListBox.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel />
+                        </ItemsPanelTemplate>
+                    </ListBox.ItemsPanel>
+                    <ListBox.ItemTemplate>
+
+                        <DataTemplate>
+
+                            <Grid x:Name="RootItem"
+                                              Width="480"
+                                              Background="{Binding BackgroundColor}"
+                                              Margin="0,0,0,0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="72" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="86" />
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition />
+                                    <RowDefinition />
+                                    <RowDefinition />
+                                </Grid.RowDefinitions>
+
+
+                                <!--RIJ EEN-->
+                                <StackPanel Margin="24,0,0,0">
+                                    <TextBlock Grid.Column="0"
+                                                           Margin="0"
+                                                           Padding="0"
+                                                           Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                                           Text="{Binding FirstStop.DisplayTijd}" />
+                                    <TextBlock Grid.Column="0"
+                                                           Margin="0"
+                                                           Padding="0"
+                                                           Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                                           Text="{Binding FirstStop.VertragingTekst}" />
+                                </StackPanel>
+
+
+                                <StackPanel Grid.Column="1">
+                                    <TextBlock FontSize="23"
+                                                           Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                                           Text="{Binding FirstStop.Naam}" />
+                                    <TextBlock FontSize="18"
+                                                           Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                                           Text="{Binding RegelTwee}" />
+                                    <TextBlock FontSize="18"
+                                                           Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                                           Text="{Binding RegelDrie}" />
+                                </StackPanel>
+
+                                <Border Grid.Column="2"
+                                                    Margin="12,8,12,8"
+                                                    Background="Transparent">
+                                    <Border Width="62"
+                                                        Height="62"
+                                                        HorizontalAlignment="Left"
+                                                        VerticalAlignment="Top"
+                                                        Background="{StaticResource TextColor}"
+                                                        Padding="0,0,0,0">
+
+                                        <Grid Margin="0">
+                                            <Border Width="62"
+                                                                Height="62"
+                                                                HorizontalAlignment="Left"
+                                                                VerticalAlignment="Top"
+                                                                Background="{StaticResource BackgroundColor}"
+                                                                BorderThickness="3,3,3,3"
+                                                                Padding="0,0,0,0" />
+                                            <Border Width="15"
+                                                                Height="15"
+                                                                HorizontalAlignment="Left"
+                                                                VerticalAlignment="Top"
+                                                                Background="{StaticResource TextColor}"
+                                                                BorderThickness="0,0,0,0"
+                                                                Padding="0,0,0,0">
+
+                                                <Border Width="15"
+                                                                    Height="15"
+                                                                    HorizontalAlignment="Left"
+                                                                    VerticalAlignment="Top"
+                                                                    Background="{Binding ElementName=RootItem,
+                                                                         Path=Background}"
+                                                                    BorderThickness="0,0,2,2"
+                                                       Margin="-1,-1,0,0"
+                                                                    Padding="0,0,0,0"
+                                                                    Visibility="{Binding FirstStop.ShowVertrekspoorWijziging}" />
+
+                                            </Border>
+
+
+                                            <TextBlock Margin="0,0,0,0"
+                                                   HorizontalAlignment="Center"
+                                                   VerticalAlignment="Bottom"
+                                                   FontFamily="{StaticResource PhoneFontFamilySemiBold}"
+                                                   FontSize="40"
+                                                   Foreground="{StaticResource TextColor}"
+                                                   Visibility="{Binding FirstStop.Vertrekspoor, Converter={StaticResource VisibilityConverter}}"
+                                                   Text="{Binding FirstStop.Vertrekspoor}" />
+
+                                            <TextBlock Margin="0,0,0,3"
+                                                   HorizontalAlignment="Center"
+                                                   VerticalAlignment="Bottom"
+                                                   FontFamily="{StaticResource PhoneFontFamilySemiBold}"
+                                                   FontSize="33"
+                                                   Foreground="{StaticResource TextColor}"
+                                                   Visibility="{Binding FirstStop.VertrekspoorDrie, Converter={StaticResource VisibilityConverter}}"
+                                                   Text="{Binding FirstStop.VertrekspoorDrie}" />
+                                            
+                                        </Grid>
+                                    </Border>
+                                </Border>
+
+                                <!--RIJ TWEE-->
+                                <StackPanel Grid.Row="1"
+                                    Grid.ColumnSpan="2"
+                                              Visibility="{Binding IsExpanded, Converter={StaticResource VisibilityConverter}}">
+
+                                    <ItemsControl 
+                                    Margin="0,6"
+                                              Visibility="{Binding TussenStops, Converter={StaticResource VisibilityConverter}}"
+                                               ItemsSource="{Binding TussenStops}">
+                                        <ItemsControl.ItemTemplate>
+                                            <DataTemplate>
+                                                <Grid x:Name="ExpanderRootItem"  HorizontalAlignment="Left">
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="72" />
+                                                        <ColumnDefinition Width="*" />
+                                                    </Grid.ColumnDefinitions>
+
+                                                    <TextBlock Grid.Column="0"
+                                                       Margin="24,0,0,0"
+                                                       VerticalAlignment="Center"
+                                                       Padding="0"
+                                                       Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                                       Text="{Binding DisplayTijd}" />
+
+                                                    <TextBlock Grid.Column="1" VerticalAlignment="Center"
+                                                           FontSize="23"
+                                                                           HorizontalAlignment="Left"
+                                                           Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                                           Text="{Binding Naam}" />
+
+
+                                                </Grid>
+                                            </DataTemplate>
+                                        </ItemsControl.ItemTemplate>
+                                    </ItemsControl>
+
+                                
+                                </StackPanel>
+
+                                <!--RIJ DRIE-->
+                                <StackPanel 
+                                                    Grid.Row="2"
+                                                Margin="24,0,0,0">
+                                    <TextBlock Grid.Column="0"
+                                                           Margin="0"
+                                                           Padding="0"
+                                                           Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                                           Text="{Binding LastStop.DisplayTijd}" />
+                                    <TextBlock Grid.Column="0"
+                                                           Margin="0"
+                                                           Padding="0"
+                                                           Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                                           Text="{Binding LastStop.VertragingTekst}" />
+                                </StackPanel>
+
+                                <StackPanel Grid.Row="2" Grid.Column="1">
+                                    <TextBlock FontSize="23"
+                                                           Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                                           Text="{Binding LastStop.Naam}" />
+                                    <TextBlock FontSize="18"
+                                                           Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                                           Text="aankomst" />
+                                    <!--
+                                                    <TextBlock Text="{Binding RegelTwee}" FontSize="18"
+                                                    Style="{StaticResource PhoneTextNormalStyleCustom}">
+                                                    </TextBlock>
+                                                    <TextBlock Text="{Binding RegelDrie}" FontSize="18"
+                                                    Style="{StaticResource PhoneTextNormalStyleCustom}">
+                                                    </TextBlock>
+                                                -->
+                                </StackPanel>
+
+                                <Border Grid.Row="2"
+                                                    Grid.Column="2"
+                                                    Margin="12,8,12,8"
+                                                    Background="Transparent">
+                                    <Border Width="62"
+                                                        Height="62"
+                                                        HorizontalAlignment="Left"
+                                                        VerticalAlignment="Top"
+                                                        Background="{StaticResource TextColor}"
+                                                        Padding="0,0,0,0">
+
+                                        <Grid Margin="0">
+                                            <Border Width="62"
+                                                                Height="62"
+                                                                HorizontalAlignment="Left"
+                                                                VerticalAlignment="Top"
+                                                                Background="{StaticResource BackgroundColor}"
+                                                                BorderThickness="3,3,3,3"
+                                                                Padding="0,0,0,0" />
+                                            <Border Width="15"
+                                                                Height="15"
+                                                                HorizontalAlignment="Left"
+                                                                VerticalAlignment="Top"
+                                                                Background="{StaticResource TextColor}"
+                                                                BorderThickness="0,0,0,0"
+                                                                Padding="0,0,0,0">
+
+                                                <Border Width="15"
+                                                                    Height="15"
+                                                                    HorizontalAlignment="Left"
+                                                                    VerticalAlignment="Top"
+                                                                    Background="{Binding ElementName=RootItem,
+                                                                         Path=Background}"
+                                                                      BorderThickness="0,0,2,2"
+                                                       Margin="-1,-1,0,0"
+                                                                    Padding="0,0,0,0"
+                                                                    Visibility="{Binding LastStop.ShowVertrekspoorWijziging}" />
+
+                                            </Border>
+
+
+
+                                            <TextBlock Margin="0,0,0,0"
+                                                   HorizontalAlignment="Center"
+                                                   VerticalAlignment="Bottom"
+                                                   FontFamily="{StaticResource PhoneFontFamilySemiBold}"
+                                                   FontSize="40"
+                                                   Foreground="{StaticResource TextColor}"
+                                                   Visibility="{Binding LastStop.Vertrekspoor, Converter={StaticResource VisibilityConverter}}"
+                                                   Text="{Binding LastStop.Vertrekspoor}" />
+
+                                            <TextBlock Margin="0,0,0,3"
+                                                   HorizontalAlignment="Center"
+                                                   VerticalAlignment="Bottom"
+                                                   FontFamily="{StaticResource PhoneFontFamilySemiBold}"
+                                                   FontSize="33"
+                                                   Foreground="{StaticResource TextColor}"
+                                                   Visibility="{Binding LastStop.VertrekspoorDrie, Converter={StaticResource VisibilityConverter}}"
+                                                   Text="{Binding LastStop.VertrekspoorDrie}" />
+                                        </Grid>
+                                    </Border>
+                                </Border>
+
+                            </Grid>
+
+                        </DataTemplate>
+                        <!--
+                            </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        -->
+
+                    </ListBox.ItemTemplate>
+                </ListBox>
+
+                <StackPanel x:Name="VertragingPanel"
+                            Grid.Row="1"
+                            Height="40"
+                            VerticalAlignment="Bottom"
+                            Background="{StaticResource TextColor}"
+                            Visibility="Collapsed">
+                    <TextBlock x:Name="VertragingTextBlock"
+                               Margin="24,0,0,0"
+                               Foreground="{StaticResource AlternateTextColor}"
+                               Style="{StaticResource PhoneTextNormalStyleCustom}"
+                               Text="{Binding VertragingTekst}" />
+                </StackPanel>
+            </Grid>
+
+            <StackPanel x:Name="LoaderStackPanel"
+                        Grid.Row="2"
+                        Height="40"
+                        VerticalAlignment="Top"
+                        Background="{StaticResource BackgroundColor}"
+                        Visibility="Collapsed">
+                <TextBlock Margin="12,0,0,0"
+                           Style="{StaticResource PhoneTextNormalStyleCustom}"
+                           Text="{Binding Path=LocalizedResources.ReisplannerLoading,
+                                          Source={StaticResource LocalizedStrings}}" />
+                <toolkit:PerformanceProgressBar x:Name="_performanceProgressBar" VerticalAlignment="Top" />
+            </StackPanel>
+
+            <StackPanel x:Name="GeenDataPanel"
+                        Grid.Row="2"
+                        VerticalAlignment="Top"
+                        Background="{StaticResource BackgroundColor}"
+                        Visibility="Collapsed">
+                <Border Margin="12"
+                        BorderBrush="{StaticResource TextColor}"
+                        BorderThickness="3">
+                    <StackPanel>
+                        <TextBlock Padding="30,30,30,30"
+                                   Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                   Text="{Binding Path=LocalizedResources.ReisadviesError,
+                                                  Source={StaticResource LocalizedStrings}}"
+                                   TextWrapping="Wrap" />
+                        <Button x:Name="CloseGeenDataPanel" Click="CloseGeenDataPanel_Click">sluiten</Button>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+
+            <StackPanel x:Name="GeenHistoryPanel"
+                        Margin="12"
+                        Visibility="Collapsed">
+                <TextBlock Style="{StaticResource PhoneTextLargeStyleCustom}" Text="{Binding Path=LocalizedResources.ReisadviesNoHistory, Source={StaticResource LocalizedStrings}}" />
+                <TextBlock Style="{StaticResource PhoneTextNormalStyleCustom}"
+                           Text="{Binding Path=LocalizedResources.ReisadviesDoZoek,
+                                          Source={StaticResource LocalizedStrings}}"
+                           TextWrapping="Wrap" />
+                <Button x:Name="ReisPlanner" Click="ReisPlanner_Click">reisplanner</Button>
+
+            </StackPanel>
+
+
+            <Grid x:Name="ButtonGrid"
+                  Grid.Row="3"
+                  Visibility="Collapsed">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="0"
+                        Command="{Binding EerderCommand}"
+                        Content="{Binding Path=LocalizedResources.ReisadviesEerder,
+                                          Source={StaticResource LocalizedStrings}}" />
+                <Button Grid.Column="1"
+                        Command="{Binding LaterCommand}"
+                        Content="{Binding Path=LocalizedResources.ReisadviesLater,
+                                          Source={StaticResource LocalizedStrings}}" />
+            </Grid>
+        </Grid>
+    </Grid>
+
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar BackgroundColor="{StaticResource AppBarColor}"
+                              ForegroundColor="{StaticResource AppBarForeColor}"
+                              IsMenuEnabled="True"
+                              IsVisible="True">
+            <shell:ApplicationBarIconButton x:Name="SearchHistory"
+                                            Click="SearchHistory_Click"
+                                            IconUri="/Images/appbar.numberlist.rest.png"
+                                            Text="historie" />
+            <shell:ApplicationBarIconButton x:Name="VertrektijdenAppBarButton"
+                                            Click="VertrektijdenAppBarButton_Click"
+                                            IconUri="/Images/appbar.time.rest.png"
+                                            IsEnabled="False"
+                                            Text="actueel" />
+            <shell:ApplicationBarIconButton x:Name="PrijsAppBarButton"
+                                            Click="PrijsAppBarButton_Click"
+                                            IconUri="/Images/appbar.euro.rest.png"
+                                            IsEnabled="False"
+                                            Text="prijs" />
+            <shell:ApplicationBarIconButton x:Name="PinButton"
+                                            Click="PinButton_Click"
+                                            IconUri="/Images/appbar.pin.rest.png"
+                                            IsEnabled="False"
+                                            Text="vastpinnen" />
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem x:Name="TerugReisAppBarButton"
+                                              Click="TerugReisAppBarButton_Click"
+                                              IsEnabled="False"
+                                              Text="terugreis" />
+                <shell:ApplicationBarMenuItem x:Name="RepeatSearchAppBarButton"
+                                              Click="RepeatSearchAppBarButton_Click"
+                                              IsEnabled="False"
+                                              Text="herhaal zoekopdracht" />
+                <shell:ApplicationBarMenuItem x:Name="ReminderMeAppBarButton"
+                                              Click="ReminderMeAppBarButton_Click"
+                                              IsEnabled="False"
+                                              Text="herinner mij" />
+                <shell:ApplicationBarMenuItem x:Name="DeleteHistoryButton"
+                                              Click="DeleteHistoryButton_Click"
+                                              Text="verwijder zoekhistorie" />
+                <shell:ApplicationBarMenuItem x:Name="MijnStationsButton"
+                                              Click="MijnStationsButton_Click"
+                                              Text="mijn stations" />
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+</phone:PhoneApplicationPage>

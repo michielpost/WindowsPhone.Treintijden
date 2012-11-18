@@ -1,0 +1,179 @@
+﻿<phone:PhoneApplicationPage x:Class="ActueelNS.Views.Reminder"
+                            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                            xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                            xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+                            xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+                            xmlns:sys="clr-namespace:System;assembly=mscorlib"
+                            xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+                            x:Name="control"
+                            d:DesignHeight="768"
+                            d:DesignWidth="480"
+                            DataContext="{Binding ReminderViewModel,
+                                                  Source={StaticResource Locator}}"
+                            FontFamily="{StaticResource PhoneFontFamilyNormal}"
+                            FontSize="{StaticResource PhoneFontSizeNormal}"
+                            Foreground="{StaticResource PhoneForegroundBrush}"
+                            Orientation="Portrait"
+                            shell:SystemTray.BackgroundColor="{StaticResource SysTrayBackgroundColor}"
+                            shell:SystemTray.ForegroundColor="{StaticResource SysTrayForegroundColor}"
+                            shell:SystemTray.IsVisible="True"
+                            Style="{StaticResource TransitionPageStyle}"
+                            SupportedOrientations="Portrait"
+                            mc:Ignorable="d">
+
+    <Grid Margin="0,-1,0,0" x:Name="LayoutRoot" Background="{StaticResource BackgroundColor}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!--  TitlePanel contains the name of the application and page title  -->
+        <StackPanel x:Name="TitlePanel"
+                    Grid.Row="0"
+                    Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationTitle"
+                       Style="{StaticResource PhoneTextNormalStyleCustom}"
+                       Text="{Binding ApplicationTitle}" />
+            <TextBlock x:Name="PageTitle"
+                       Margin="9,-7,0,0"
+                       Style="{StaticResource PhoneTextTitle1StyleCustom}"
+                       Text="{Binding PageName}" />
+        </StackPanel>
+
+        <!--  ContentPanel - place additional content here  -->
+        <Grid Grid.Row="1" Margin="12,0,12,0">
+
+            <Grid x:Name="ContentPanel"
+                  Grid.Row="0"
+                  Margin="0,0,0,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <StackPanel Grid.Row="0">
+
+                    <TextBlock Style="{StaticResource PhoneTextNormalStyleCustom}" Text="{Binding Path=LocalizedResources.ReminderIntro, Source={StaticResource LocalizedStrings}}" />
+
+                    <toolkit:ListPicker Background="{StaticResource ControlBackgroundColor}"
+                                        BorderBrush="{StaticResource ControlBackgroundColor}"
+                                        ExpansionMode="ExpansionAllowed"
+                                        Foreground="{StaticResource TextColor}"
+                                        SelectionChanged="ListPicker_SelectionChanged">
+                        <sys:String>10 minuten</sys:String>
+                        <sys:String>20 minuten</sys:String>
+                        <sys:String>30 minuten</sys:String>
+                        <sys:String>45 minuten</sys:String>
+                        <sys:String>1 uur</sys:String>
+                    </toolkit:ListPicker>
+
+                    <Button x:Name="AddButton"
+                            Click="AddButton_Click"
+                            Content="{Binding Path=LocalizedResources.ReminderButton,
+                                              Source={StaticResource LocalizedStrings}}" />
+                </StackPanel>
+
+                <StackPanel x:Name="OldReminderPanel"
+                            Grid.Row="1"
+                            Margin="0,10,0,0"
+                            Visibility="Collapsed">
+                    <Rectangle Height="3" Fill="{StaticResource TextColor}" />
+
+                    <TextBlock Style="{StaticResource PhoneTextLargeStyleCustom}" Text="{Binding Path=LocalizedResources.ReminderUpcomming, Source={StaticResource LocalizedStrings}}" />
+
+                    <ListBox x:Name="ReminderListBox"
+                             Margin="-3"
+                             ItemsSource="{Binding Reminders}">
+                        <ListBox.ItemContainerStyle>
+                            <Style TargetType="ListBoxItem">
+                                <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                            </Style>
+                        </ListBox.ItemContainerStyle>
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Margin="12,3,3,3">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <StackPanel Grid.Column="0" Margin="0,0,0,16">
+                                        <toolkit:ContextMenuService.ContextMenu>
+                                            <toolkit:ContextMenu Background="{StaticResource BackgroundColor}"
+                                                                 BorderBrush="Black"
+                                                                 Foreground="{StaticResource TextColor}">
+                                                <toolkit:MenuItem Command="{Binding ElementName=control,
+                                                                                    Path=DataContext.DeleteCommand}"
+                                                                  CommandParameter="{Binding Name}"
+                                                                  Foreground="{StaticResource TextColor}"
+                                                                  Header="{Binding Path=LocalizedResources.verwijder,
+                                                                                   Source={StaticResource LocalizedStrings}}" />
+                                            </toolkit:ContextMenu>
+                                        </toolkit:ContextMenuService.ContextMenu>
+
+                                        <TextBlock VerticalAlignment="Center"
+                                                   Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                                   Text="{Binding Path=BeginTime,
+                                                                  StringFormat='{}{0:dd-MM-yyyy HH:mm}'}" />
+                                        <TextBlock VerticalAlignment="Center"
+                                                   Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                                   Text="{Binding Content}"
+                                                   TextWrapping="Wrap" />
+                                    </StackPanel>
+
+                                </Grid>
+
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+
+                </StackPanel>
+
+            </Grid>
+
+            <StackPanel x:Name="ConfirmPanel"
+                        Grid.Row="0"
+                        VerticalAlignment="Top"
+                        Background="{StaticResource BackgroundColor}"
+                        Visibility="Collapsed">
+                <Border Margin="12"
+                        BorderBrush="{StaticResource TextColor}"
+                        BorderThickness="3">
+                    <StackPanel>
+                        <TextBlock Padding="30,30,30,30"
+                                   Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                   Text="{Binding Path=LocalizedResources.ReminderAdded,
+                                                  Source={StaticResource LocalizedStrings}}"
+                                   TextWrapping="Wrap" />
+                        <Button x:Name="BackButton" Command="{Binding BackCommand}">sluiten</Button>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+
+            <StackPanel x:Name="NotPossiblePanel"
+                        Grid.Row="0"
+                        VerticalAlignment="Top"
+                        Background="{StaticResource BackgroundColor}"
+                        Visibility="Collapsed">
+                <Border Margin="12"
+                        BorderBrush="{StaticResource TextColor}"
+                        BorderThickness="3">
+                    <StackPanel>
+                        <TextBlock Padding="30,30,30,30"
+                                   Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                   Text="{Binding Path=LocalizedResources.ReminderError,
+                                                  Source={StaticResource LocalizedStrings}}"
+                                   TextWrapping="Wrap" />
+                        <Button x:Name="NotPossibleClosekButton"
+                                Click="NotPossibleClosekButton_Click"
+                                Content="{Binding Path=LocalizedResources.sluiten,
+                                                  Source={StaticResource LocalizedStrings}}" />
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>

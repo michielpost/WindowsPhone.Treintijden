@@ -1,0 +1,6914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+ 
+<Stations>
+
+	<Station>
+		<Code>HT</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>H'bosch</Kort>
+		  <Middel>'s-Hertogenbosch</Middel>
+		  <Lang>'s-Hertogenbosch</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400319</UICCode>
+		<Lat>51.690556</Lat>
+		<Long>5.293611</Long>
+		<Synoniemen>
+			
+			<Synoniem>Hertogenbosch ('s)</Synoniem>
+			
+			<Synoniem>Den Bosch</Synoniem>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HTO</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>H'bosch O</Kort>
+		  <Middel>Hertogenbosch O</Middel>
+		  <Lang>'s-Hertogenbosch Oost</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400320</UICCode>
+		<Lat>51.700554</Lat>
+		<Long>5.318333</Long>
+		<Synoniemen>
+			
+			<Synoniem>Hertogenbosch Oost ('s)</Synoniem>
+			
+			<Synoniem>Den Bosch Oost</Synoniem>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HDE</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>'t Harde</Kort>
+		  <Middel>'t Harde</Middel>
+		  <Lang>'t Harde</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400388</UICCode>
+		<Lat>52.40917</Lat>
+		<Long>5.893611</Long>
+		<Synoniemen>
+			
+			<Synoniem>Harde ('t)</Synoniem>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ATN</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Aalten</Kort>
+		  <Middel>Aalten</Middel>
+		  <Lang>Aalten</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400045</UICCode>
+		<Lat>51.921326</Lat>
+		<Long>6.578627</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>AC</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Abcoude</Kort>
+		  <Middel>Abcoude</Middel>
+		  <Lang>Abcoude</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400047</UICCode>
+		<Lat>52.2785</Lat>
+		<Long>4.977</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>AKM</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Akkrum</Kort>
+		  <Middel>Akkrum</Middel>
+		  <Lang>Akkrum</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400049</UICCode>
+		<Lat>53.04639</Lat>
+		<Long>5.8436112</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>AMR</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Alkmaar</Kort>
+		  <Middel>Alkmaar</Middel>
+		  <Lang>Alkmaar</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400050</UICCode>
+		<Lat>52.63778</Lat>
+		<Long>4.7397223</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>AMRN</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Alkmaar N</Kort>
+		  <Middel>Alkmaar Noord</Middel>
+		  <Lang>Alkmaar Noord</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400052</UICCode>
+		<Lat>52.64389</Lat>
+		<Long>4.764167</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>AML</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Almelo</Kort>
+		  <Middel>Almelo</Middel>
+		  <Lang>Almelo</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400051</UICCode>
+		<Lat>52.358055</Lat>
+		<Long>6.6538887</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>AMRI</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>de Riet</Kort>
+		  <Middel>Almelo de Riet</Middel>
+		  <Lang>Almelo de Riet</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400520</UICCode>
+		<Lat>52.341946</Lat>
+		<Long>6.6666665</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ALMB</Code>
+		<Type>intercitystation</Type>
+		<Namen>		
+		  <Kort>Buiten</Kort>
+		  <Middel>Almere Buiten</Middel>
+		  <Lang>Almere Buiten</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400081</UICCode>
+		<Lat>52.394165</Lat>
+		<Long>5.2780557</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ALM</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Almere C</Kort>
+		  <Middel>Almere C</Middel>
+		  <Lang>Almere Centrum</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400080</UICCode>
+		<Lat>52.37503</Lat>
+		<Long>5.21764</Long>
+		<Synoniemen>
+			
+			<Synoniem>Almere</Synoniem>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ALMM</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Muziekwijk</Kort>
+		  <Middel>Muziekwijk</Middel>
+		  <Lang>Almere Muziekwijk</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400082</UICCode>
+		<Lat>52.3675</Lat>
+		<Long>5.1902776</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ALMO</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Oostvaard</Kort>
+		  <Middel>Oostvaarders</Middel>
+		  <Lang>Almere Oostvaarders</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400226</UICCode>
+		<Lat>52.40333</Lat>
+		<Long>5.3005557</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ALMP</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Parkwijk</Kort>
+		  <Middel>Parkwijk</Middel>
+		  <Lang>Almere Parkwijk</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400104</UICCode>
+		<Lat>52.376667</Lat>
+		<Long>5.2447224</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ALMS</Code>
+		<Type>facultatiefStation</Type>
+		<Namen>		
+		  <Kort>Alm Strand</Kort>
+		  <Middel>Almere Strand</Middel>
+		  <Lang>Almere Strand</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400083</UICCode>
+		<Lat>52.33278</Lat>
+		<Long>5.1483335</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>APN</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Alphen</Kort>
+		  <Middel>Alphen a/d Rijn</Middel>
+		  <Lang>Alphen a/d Rijn</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400053</UICCode>
+		<Lat>52.124443</Lat>
+		<Long>4.657778</Long>
+		<Synoniemen>
+			
+			<Synoniem>Alphen aan den Rijn</Synoniem>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>AMF</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Amersfoort</Kort>
+		  <Middel>Amersfoort</Middel>
+		  <Lang>Amersfoort</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400055</UICCode>
+		<Lat>52.15389</Lat>
+		<Long>5.3705554</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>AMFS</Code>
+		<Type>sneltreinstation</Type>
+		<Namen>		
+		  <Kort>Schothorst</Kort>
+		  <Middel>Amersfoort Schot</Middel>
+		  <Lang>Amersfoort Schothorst</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400054</UICCode>
+		<Lat>52.174824</Lat>
+		<Long>5.4038887</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>AVAT</Code>
+		<Type>sneltreinstation</Type>
+		<Namen>		
+		  <Kort>Vathorst</Kort>
+		  <Middel>Amersfoort Vath</Middel>
+		  <Lang>Amersfoort Vathorst</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400228</UICCode>
+		<Lat>52.19278</Lat>
+		<Long>5.433889</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ASA</Code>
+		<Type>intercitystation</Type>
+		<Namen>		
+		  <Kort>Amstel</Kort>
+		  <Middel>Amsterdam Amstel</Middel>
+		  <Lang>Amsterdam Amstel</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400057</UICCode>
+		<Lat>52.34667</Lat>
+		<Long>4.917778</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ASDAR</Code>
+		<Type>facultatiefStation</Type>
+		<Namen>		
+		  <Kort>Arena</Kort>
+		  <Middel>Amsterdam Arena</Middel>
+		  <Lang>Amsterdam Arena</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8499999</UICCode>
+		<Lat>52.318054</Lat>
+		<Long>4.9416666</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ASB</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Bijlmer A</Kort>
+		  <Middel>Bijlmer ArenA</Middel>
+		  <Lang>Amsterdam Bijlmer ArenA</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400074</UICCode>
+		<Lat>52.31222</Lat>
+		<Long>4.946944</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ASD</Code>
+		<Type>megastation</Type>
+		<Namen>		
+		  <Kort>A'dam C</Kort>
+		  <Middel>Amsterdam C</Middel>
+		  <Lang>Amsterdam Centraal</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400058</UICCode>
+		<Lat>52.378887</Lat>
+		<Long>4.9002776</Long>
+		<Synoniemen>
+			
+			<Synoniem>Amsterdam</Synoniem>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ASHD</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Holendrcht</Kort>
+		  <Middel>Holendrecht</Middel>
+		  <Lang>Amsterdam Holendrecht</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400231</UICCode>
+		<Lat>52.2981</Lat>
+		<Long>4.9601</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ASDL</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Lelylaan</Kort>
+		  <Middel>Lelylaan</Middel>
+		  <Lang>Amsterdam Lelylaan</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400079</UICCode>
+		<Lat>52.357777</Lat>
+		<Long>4.833889</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ASDM</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Muiderprt</Kort>
+		  <Middel>Muiderpoort</Middel>
+		  <Lang>Amsterdam Muiderpoort</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400060</UICCode>
+		<Lat>52.360554</Lat>
+		<Long>4.9311113</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>RAI</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>A'dam RAI</Kort>
+		  <Middel>Amsterdam RAI</Middel>
+		  <Lang>Amsterdam RAI</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400056</UICCode>
+		<Lat>52.337223</Lat>
+		<Long>4.890278</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ASSP</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Scienceprk</Kort>
+		  <Middel>Science Park</Middel>
+		  <Lang>Amsterdam Science Park</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400235</UICCode>
+		<Lat>52.35296</Lat>
+		<Long>4.9485683</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ASS</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Sloterdijk</Kort>
+		  <Middel>Sloterdijk</Middel>
+		  <Lang>Amsterdam Sloterdijk</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400059</UICCode>
+		<Lat>52.38889</Lat>
+		<Long>4.8377776</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ASDZ</Code>
+		<Type>intercitystation</Type>
+		<Namen>		
+		  <Kort>A'dam Z</Kort>
+		  <Middel>Amsterdam Zuid</Middel>
+		  <Lang>Amsterdam Zuid</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400061</UICCode>
+		<Lat>52.33889</Lat>
+		<Long>4.8716664</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ANA</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Anna Paulo</Kort>
+		  <Middel>Anna Paulowna</Middel>
+		  <Lang>Anna Paulowna</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400065</UICCode>
+		<Lat>52.86722</Lat>
+		<Long>4.811111</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>APD</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Apeldoorn</Kort>
+		  <Middel>Apeldoorn</Middel>
+		  <Lang>Apeldoorn</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400066</UICCode>
+		<Lat>52.209167</Lat>
+		<Long>5.970278</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>APDM</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>De Maten</Kort>
+		  <Middel>De Maten</Middel>
+		  <Lang>Apeldoorn De Maten</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400233</UICCode>
+		<Lat>52.205276</Lat>
+		<Long>6.0005555</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>APDO</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Osseveld</Kort>
+		  <Middel>Osseveld</Middel>
+		  <Lang>Apeldoorn Osseveld</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400229</UICCode>
+		<Lat>52.21528</Lat>
+		<Long>6.0044446</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>APG</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Appingedam</Kort>
+		  <Middel>Appingedam</Middel>
+		  <Lang>Appingedam</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400067</UICCode>
+		<Lat>53.325813</Lat>
+		<Long>6.8619576</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>AKL</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Arkel</Kort>
+		  <Middel>Arkel</Middel>
+		  <Lang>Arkel</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400068</UICCode>
+		<Lat>51.871944</Lat>
+		<Long>4.992778</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ARN</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Arnemuiden</Kort>
+		  <Middel>Arnemuiden</Middel>
+		  <Lang>Arnemuiden</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400069</UICCode>
+		<Lat>51.501667</Lat>
+		<Long>3.6691666</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>AH</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Arnhem</Kort>
+		  <Middel>Arnhem</Middel>
+		  <Lang>Arnhem</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400071</UICCode>
+		<Lat>51.985</Lat>
+		<Long>5.8991666</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>AHPR</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Presikhaaf</Kort>
+		  <Middel>Presikhaaf</Middel>
+		  <Lang>Arnhem Presikhaaf</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400075</UICCode>
+		<Lat>51.988056</Lat>
+		<Long>5.9438887</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>AHP</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Velperprt</Kort>
+		  <Middel>Velperpoort</Middel>
+		  <Lang>Arnhem Velperpoort</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400072</UICCode>
+		<Lat>51.98528</Lat>
+		<Long>5.9194446</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>AHZ</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Arnhem Z</Kort>
+		  <Middel>Arnhem Zuid</Middel>
+		  <Lang>Arnhem Zuid</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400227</UICCode>
+		<Lat>51.955</Lat>
+		<Long>5.8519444</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ASN</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Assen</Kort>
+		  <Middel>Assen</Middel>
+		  <Lang>Assen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400073</UICCode>
+		<Lat>52.991665</Lat>
+		<Long>6.570833</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>BRN</Code>
+		<Type>knooppuntSneltreinstation</Type>
+		<Namen>		
+		  <Kort>Baarn</Kort>
+		  <Middel>Baarn</Middel>
+		  <Lang>Baarn</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400086</UICCode>
+		<Lat>52.208332</Lat>
+		<Long>5.2808332</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>BF</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Baflo</Kort>
+		  <Middel>Baflo</Middel>
+		  <Lang>Baflo</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400089</UICCode>
+		<Lat>53.360897</Lat>
+		<Long>6.518558</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>BRD</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Barendrcht</Kort>
+		  <Middel>Barendrecht</Middel>
+		  <Lang>Barendrecht</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400090</UICCode>
+		<Lat>51.85472</Lat>
+		<Long>4.5533333</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>BNC</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Barnevld C</Kort>
+		  <Middel>Barneveld C</Middel>
+		  <Lang>Barneveld Centrum</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400091</UICCode>
+		<Lat>52.14</Lat>
+		<Long>5.5902777</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>BNN</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Barnevld N</Kort>
+		  <Middel>Barneveld Noord</Middel>
+		  <Lang>Barneveld Noord</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400092</UICCode>
+		<Lat>52.16139</Lat>
+		<Long>5.5980554</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>BDM</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Bedum</Kort>
+		  <Middel>Bedum</Middel>
+		  <Lang>Bedum</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400094</UICCode>
+		<Lat>53.306885</Lat>
+		<Long>6.593054</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>BK</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Beek-E</Kort>
+		  <Middel>Beek-Elsloo</Middel>
+		  <Lang>Beek-Elsloo</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400096</UICCode>
+		<Lat>50.9475</Lat>
+		<Long>5.786667</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>BSD</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Beesd</Kort>
+		  <Middel>Beesd</Middel>
+		  <Lang>Beesd</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400097</UICCode>
+		<Lat>51.899445</Lat>
+		<Long>5.1944447</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>BL</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Beilen</Kort>
+		  <Middel>Beilen</Middel>
+		  <Lang>Beilen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400100</UICCode>
+		<Lat>52.85472</Lat>
+		<Long>6.521111</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>BGN</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Bergen opZ</Kort>
+		  <Middel>Bergen op Zoom</Middel>
+		  <Lang>Bergen op Zoom</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400108</UICCode>
+		<Lat>51.49389</Lat>
+		<Long>4.296111</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>BET</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Best</Kort>
+		  <Middel>Best</Middel>
+		  <Lang>Best</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400112</UICCode>
+		<Lat>51.51</Lat>
+		<Long>5.389167</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>BV</Code>
+		<Type>intercitystation</Type>
+		<Namen>		
+		  <Kort>Beverwijk</Kort>
+		  <Middel>Beverwijk</Middel>
+		  <Lang>Beverwijk</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400113</UICCode>
+		<Lat>52.478333</Lat>
+		<Long>4.6566668</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>BHV</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Bilthoven</Kort>
+		  <Middel>Bilthoven</Middel>
+		  <Lang>Bilthoven</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400114</UICCode>
+		<Lat>52.13</Lat>
+		<Long>5.203889</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>BR</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Blerick</Kort>
+		  <Middel>Blerick</Middel>
+		  <Lang>Blerick</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400117</UICCode>
+		<Lat>51.3725</Lat>
+		<Long>6.155</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>BLL</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Bloemendl</Kort>
+		  <Middel>Bloemendaal</Middel>
+		  <Lang>Bloemendaal</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400118</UICCode>
+		<Lat>52.404167</Lat>
+		<Long>4.6275</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>BDG</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Bodegraven</Kort>
+		  <Middel>Bodegraven</Middel>
+		  <Lang>Bodegraven</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400121</UICCode>
+		<Lat>52.08139</Lat>
+		<Long>4.746111</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>BN</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Borne</Kort>
+		  <Middel>Borne</Middel>
+		  <Lang>Borne</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400124</UICCode>
+		<Lat>52.29889</Lat>
+		<Long>6.7480555</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>BSK</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Boskoop</Kort>
+		  <Middel>Boskoop</Middel>
+		  <Lang>Boskoop</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400125</UICCode>
+		<Lat>52.077778</Lat>
+		<Long>4.6469445</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>BHDV</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Boven-H.</Kort>
+		  <Middel>Boven-Hardinxv.</Middel>
+		  <Lang>Boven-Hardinxveld</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400236</UICCode>
+		<Lat>51.832222</Lat>
+		<Long>4.878056</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>BKF</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Bovenk Flo</Kort>
+		  <Middel>Bovenkarspel Flo</Middel>
+		  <Lang>Bovenkarspel Flora</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400230</UICCode>
+		<Lat>52.69611</Lat>
+		<Long>5.2527776</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>BKG</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Bovenk-Gr</Kort>
+		  <Middel>Bovenkarspel-Gro</Middel>
+		  <Lang>Bovenkarspel-Grootebroek</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400127</UICCode>
+		<Lat>52.695</Lat>
+		<Long>5.2377777</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>BMR</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Boxmeer</Kort>
+		  <Middel>Boxmeer</Middel>
+		  <Lang>Boxmeer</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400128</UICCode>
+		<Lat>51.644524</Lat>
+		<Long>5.939033</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>BTL</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Boxtel</Kort>
+		  <Middel>Boxtel</Middel>
+		  <Lang>Boxtel</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400129</UICCode>
+		<Lat>51.585</Lat>
+		<Long>5.3177776</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>BD</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Breda</Kort>
+		  <Middel>Breda</Middel>
+		  <Lang>Breda</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400131</UICCode>
+		<Lat>51.595554</Lat>
+		<Long>4.78</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>BDPB</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Prinsenbk</Kort>
+		  <Middel>Prinsenbeek</Middel>
+		  <Lang>Breda-Prinsenbeek</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400132</UICCode>
+		<Lat>51.606388</Lat>
+		<Long>4.7208333</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>BKL</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Breukelen</Kort>
+		  <Middel>Breukelen</Middel>
+		  <Lang>Breukelen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400133</UICCode>
+		<Lat>52.169724</Lat>
+		<Long>4.9908333</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>BMN</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Brummen</Kort>
+		  <Middel>Brummen</Middel>
+		  <Lang>Brummen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400136</UICCode>
+		<Lat>52.09111</Lat>
+		<Long>6.1469445</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>BP</Code>
+		<Type>knooppuntSneltreinstation</Type>
+		<Namen>		
+		  <Kort>Buitenpost</Kort>
+		  <Middel>Buitenpost</Middel>
+		  <Lang>Buitenpost</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400139</UICCode>
+		<Lat>53.256454</Lat>
+		<Long>6.1446495</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>BDE</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Bunde</Kort>
+		  <Middel>Bunde</Middel>
+		  <Lang>Bunde</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400140</UICCode>
+		<Lat>50.896946</Lat>
+		<Long>5.7366667</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>BNK</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Bunnik</Kort>
+		  <Middel>Bunnik</Middel>
+		  <Lang>Bunnik</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400141</UICCode>
+		<Lat>52.063057</Lat>
+		<Long>5.1944447</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>BSMZ</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Bussum Z</Kort>
+		  <Middel>Bussum Zuid</Middel>
+		  <Lang>Bussum Zuid</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400145</UICCode>
+		<Lat>52.265835</Lat>
+		<Long>5.1630554</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>CPS</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Schollevr</Kort>
+		  <Middel>Schollevaar</Middel>
+		  <Lang>Capelle Schollevaar</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400147</UICCode>
+		<Lat>51.954166</Lat>
+		<Long>4.5841665</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>CAS</Code>
+		<Type>intercitystation</Type>
+		<Namen>		
+		  <Kort>Castricum</Kort>
+		  <Middel>Castricum</Middel>
+		  <Lang>Castricum</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400151</UICCode>
+		<Lat>52.545834</Lat>
+		<Long>4.6586113</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>CVM</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Chevremont</Kort>
+		  <Middel>Chevremont</Middel>
+		  <Lang>Chevremont</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400152</UICCode>
+		<Lat>50.87611</Lat>
+		<Long>6.0597224</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>CO</Code>
+		<Type>knooppuntSneltreinstation</Type>
+		<Namen>		
+		  <Kort>Coevorden</Kort>
+		  <Middel>Coevorden</Middel>
+		  <Lang>Coevorden</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400153</UICCode>
+		<Lat>52.663612</Lat>
+		<Long>6.7355556</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>CK</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Cuijk</Kort>
+		  <Middel>Cuijk</Middel>
+		  <Lang>Cuijk</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400155</UICCode>
+		<Lat>51.72668</Lat>
+		<Long>5.874295</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>CL</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Culemborg</Kort>
+		  <Middel>Culemborg</Middel>
+		  <Lang>Culemborg</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400154</UICCode>
+		<Lat>51.946667</Lat>
+		<Long>5.2269444</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>DA</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Daarlervn</Kort>
+		  <Middel>Daarlerveen</Middel>
+		  <Lang>Daarlerveen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400164</UICCode>
+		<Lat>52.44077</Lat>
+		<Long>6.5759945</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>DLN</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Dalen</Kort>
+		  <Middel>Dalen</Middel>
+		  <Lang>Dalen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400161</UICCode>
+		<Lat>52.694168</Lat>
+		<Long>6.7580557</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>DL</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Dalfsen</Kort>
+		  <Middel>Dalfsen</Middel>
+		  <Lang>Dalfsen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400167</UICCode>
+		<Lat>52.498333</Lat>
+		<Long>6.258611</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>DVNK</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>De Vink</Kort>
+		  <Middel>De Vink</Middel>
+		  <Lang>De Vink</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400188</UICCode>
+		<Lat>52.14722</Lat>
+		<Long>4.456389</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>DEI</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Deinum</Kort>
+		  <Middel>Deinum</Middel>
+		  <Lang>Deinum</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400168</UICCode>
+		<Lat>53.188812</Lat>
+		<Long>5.728157</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>DDN</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Delden</Kort>
+		  <Middel>Delden</Middel>
+		  <Lang>Delden</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400169</UICCode>
+		<Lat>52.26</Lat>
+		<Long>6.716111</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>DT</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Delft</Kort>
+		  <Middel>Delft</Middel>
+		  <Lang>Delft</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400170</UICCode>
+		<Lat>52.006668</Lat>
+		<Long>4.356389</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>DTZ</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Delft Z</Kort>
+		  <Middel>Delft Zuid</Middel>
+		  <Lang>Delft Zuid</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400166</UICCode>
+		<Lat>51.990833</Lat>
+		<Long>4.3647223</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>DZ</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Delfzijl</Kort>
+		  <Middel>Delfzijl</Middel>
+		  <Lang>Delfzijl</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400171</UICCode>
+		<Lat>53.333664</Lat>
+		<Long>6.92408</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>DZW</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Delfzijl W</Kort>
+		  <Middel>Delfzijl West</Middel>
+		  <Lang>Delfzijl West</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400175</UICCode>
+		<Lat>53.332085</Lat>
+		<Long>6.906909</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>DLD</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Den Dolder</Kort>
+		  <Middel>Den Dolder</Middel>
+		  <Lang>Den Dolder</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400179</UICCode>
+		<Lat>52.140278</Lat>
+		<Long>5.242778</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>GVC</Code>
+		<Type>megastation</Type>
+		<Namen>		
+		  <Kort>Den Haag C</Kort>
+		  <Middel>Den Haag C</Middel>
+		  <Lang>Den Haag Centraal</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400282</UICCode>
+		<Lat>52.080276</Lat>
+		<Long>4.325</Long>
+		<Synoniemen>
+			
+			<Synoniem>'s-Gravenhage</Synoniem>
+			
+			<Synoniem>Den Haag</Synoniem>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>GV</Code>
+		<Type>megastation</Type>
+		<Namen>		
+		  <Kort>Dn Haag HS</Kort>
+		  <Middel>Den Haag HS</Middel>
+		  <Lang>Den Haag HS</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400280</UICCode>
+		<Lat>52.06972</Lat>
+		<Long>4.3225</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>LAA</Code>
+		<Type>sneltreinstation</Type>
+		<Namen>		
+		  <Kort>Laan v NOI</Kort>
+		  <Middel>Laan v NOI</Middel>
+		  <Lang>Den Haag Laan v NOI</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400380</UICCode>
+		<Lat>52.07861</Lat>
+		<Long>4.3427777</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>GVM</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Mariahoeve</Kort>
+		  <Middel>Mariahoeve</Middel>
+		  <Lang>Den Haag Mariahoeve</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400278</UICCode>
+		<Lat>52.090557</Lat>
+		<Long>4.3694444</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>GVMW</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Moerwijk</Kort>
+		  <Middel>Moerwijk</Middel>
+		  <Lang>Den Haag Moerwijk</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400279</UICCode>
+		<Lat>52.05389</Lat>
+		<Long>4.308611</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>YPB</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Ypenburg</Kort>
+		  <Middel>Ypenburg</Middel>
+		  <Lang>Den Haag Ypenburg</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400379</UICCode>
+		<Lat>52.05528</Lat>
+		<Long>4.3922224</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HDR</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Den Helder</Kort>
+		  <Middel>Den Helder</Middel>
+		  <Lang>Den Helder</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400311</UICCode>
+		<Lat>52.955276</Lat>
+		<Long>4.7611113</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HDRZ</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Dn Heldr Z</Kort>
+		  <Middel>Den Helder Zuid</Middel>
+		  <Lang>Den Helder Zuid</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400303</UICCode>
+		<Lat>52.9325</Lat>
+		<Long>4.764167</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>DN</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Deurne</Kort>
+		  <Middel>Deurne</Middel>
+		  <Lang>Deurne</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400172</UICCode>
+		<Lat>51.455833</Lat>
+		<Long>5.788889</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>DV</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Deventer</Kort>
+		  <Middel>Deventer</Middel>
+		  <Lang>Deventer</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400173</UICCode>
+		<Lat>52.2575</Lat>
+		<Long>6.1605554</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>DVC</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Colmschate</Kort>
+		  <Middel>Colmschate</Middel>
+		  <Lang>Deventer Colmschate</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400185</UICCode>
+		<Lat>52.25028</Lat>
+		<Long>6.2144446</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>DVT</Code>
+		<Type>facultatiefStation</Type>
+		<Namen>		
+		  <Kort>De Scheg</Kort>
+		  <Middel>Deventer  Scheg</Middel>
+		  <Lang>Deventer De Scheg</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400000</UICCode>
+		<Lat>52.249176</Lat>
+		<Long>6.213606</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>DID</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Didam</Kort>
+		  <Middel>Didam</Middel>
+		  <Lang>Didam</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400174</UICCode>
+		<Lat>51.933502</Lat>
+		<Long>6.1324105</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>DMN</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Diemen</Kort>
+		  <Middel>Diemen</Middel>
+		  <Lang>Diemen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400165</UICCode>
+		<Lat>52.345833</Lat>
+		<Long>4.9655557</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>DMNZ</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Diemen Z</Kort>
+		  <Middel>Diemen Zuid</Middel>
+		  <Lang>Diemen Zuid</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400163</UICCode>
+		<Lat>52.330276</Lat>
+		<Long>4.9558334</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>DR</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Dieren</Kort>
+		  <Middel>Dieren</Middel>
+		  <Lang>Dieren</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400176</UICCode>
+		<Lat>52.045</Lat>
+		<Long>6.1030555</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>DTC</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Doetinchem</Kort>
+		  <Middel>Doetinchem</Middel>
+		  <Lang>Doetinchem</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400177</UICCode>
+		<Lat>51.958595</Lat>
+		<Long>6.2962146</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>DTCH</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>De Huet</Kort>
+		  <Middel>De Huet</Middel>
+		  <Lang>Doetinchem De Huet</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400184</UICCode>
+		<Lat>51.95914</Lat>
+		<Long>6.259852</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>DDR</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Dordrecht</Kort>
+		  <Middel>Dordrecht</Middel>
+		  <Lang>Dordrecht</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400180</UICCode>
+		<Lat>51.80722</Lat>
+		<Long>4.6683335</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>DDRS</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Stadspldrs</Kort>
+		  <Middel>Stadspolders</Middel>
+		  <Lang>Dordrecht Stadspolders</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400186</UICCode>
+		<Lat>51.801945</Lat>
+		<Long>4.7166667</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>DDZD</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Dordrcht Z</Kort>
+		  <Middel>Dordrecht Zuid</Middel>
+		  <Lang>Dordrecht Zuid</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400181</UICCode>
+		<Lat>51.79</Lat>
+		<Long>4.671389</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>DB</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Driebergen</Kort>
+		  <Middel>Driebergen-Zeist</Middel>
+		  <Lang>Driebergen-Zeist</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400182</UICCode>
+		<Lat>52.065277</Lat>
+		<Long>5.258611</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>DRH</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Driehuis</Kort>
+		  <Middel>Driehuis</Middel>
+		  <Lang>Driehuis</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400183</UICCode>
+		<Lat>52.4425</Lat>
+		<Long>4.6380553</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>DRP</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Dronrijp</Kort>
+		  <Middel>Dronrijp</Middel>
+		  <Lang>Dronrijp</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400192</UICCode>
+		<Lat>53.177807</Lat>
+		<Long>5.6347413</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>DVN</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Duiven</Kort>
+		  <Middel>Duiven</Middel>
+		  <Lang>Duiven</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400193</UICCode>
+		<Lat>51.943333</Lat>
+		<Long>6.0147223</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>DVD</Code>
+		<Type>knooppuntSneltreinstation</Type>
+		<Namen>		
+		  <Kort>Duivendt</Kort>
+		  <Middel>Duivendrecht</Middel>
+		  <Lang>Duivendrecht</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400194</UICCode>
+		<Lat>52.323334</Lat>
+		<Long>4.936389</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>EC</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Echt</Kort>
+		  <Middel>Echt</Middel>
+		  <Lang>Echt</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400195</UICCode>
+		<Lat>51.100555</Lat>
+		<Long>5.878889</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>EDC</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Ede C</Kort>
+		  <Middel>Ede C</Middel>
+		  <Lang>Ede Centrum</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400201</UICCode>
+		<Lat>52.04361</Lat>
+		<Long>5.6683335</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ED</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Ede-Wag</Kort>
+		  <Middel>Ede-Wageningen</Middel>
+		  <Lang>Ede-Wageningen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400200</UICCode>
+		<Lat>52.02778</Lat>
+		<Long>5.6730556</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>EDN</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Eijsden</Kort>
+		  <Middel>Eijsden</Middel>
+		  <Lang>Eijsden</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400219</UICCode>
+		<Lat>50.771946</Lat>
+		<Long>5.71</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>EHV</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Eindhoven</Kort>
+		  <Middel>Eindhoven</Middel>
+		  <Lang>Eindhoven</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400206</UICCode>
+		<Lat>51.443333</Lat>
+		<Long>5.481389</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>EHB</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Beukenlaan</Kort>
+		  <Middel>Beukenlaan</Middel>
+		  <Lang>Eindhoven Beukenlaan</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400196</UICCode>
+		<Lat>51.45111</Lat>
+		<Long>5.4558334</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>EHST</Code>
+		<Type>facultatiefStation</Type>
+		<Namen>		
+		  <Kort>Eindh Sta</Kort>
+		  <Middel>E'hoven Stadion</Middel>
+		  <Lang>Eindhoven Stadion</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8499998</UICCode>
+		<Lat>51.44278</Lat>
+		<Long>5.4688888</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>EST</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Elst</Kort>
+		  <Middel>Elst</Middel>
+		  <Lang>Elst</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400207</UICCode>
+		<Lat>51.916943</Lat>
+		<Long>5.855</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>EMN</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Emmen</Kort>
+		  <Middel>Emmen</Middel>
+		  <Lang>Emmen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400208</UICCode>
+		<Lat>52.79</Lat>
+		<Long>6.8994446</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>EMNZ</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Emmen Z</Kort>
+		  <Middel>Emmen Zuid</Middel>
+		  <Lang>Emmen Zuid</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400407</UICCode>
+		<Lat>52.748867</Lat>
+		<Long>6.8747807</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>EKZ</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Enkhuizen</Kort>
+		  <Middel>Enkhuizen</Middel>
+		  <Lang>Enkhuizen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400210</UICCode>
+		<Lat>52.699165</Lat>
+		<Long>5.286389</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ES</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Enschede</Kort>
+		  <Middel>Enschede</Middel>
+		  <Lang>Enschede</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400212</UICCode>
+		<Lat>52.2225</Lat>
+		<Long>6.89</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ESE</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Eschmarke</Kort>
+		  <Middel>De Eschmarke</Middel>
+		  <Lang>Enschede De Eschmarke</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400217</UICCode>
+		<Lat>52.22139</Lat>
+		<Long>6.9511113</Long>
+		<Synoniemen>
+			
+			<Synoniem>De Eschmarke</Synoniem>
+			
+			<Synoniem>Eschmarke</Synoniem>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ESD</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Drienerlo</Kort>
+		  <Middel>Drienerlo</Middel>
+		  <Lang>Enschede Drienerlo</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400221</UICCode>
+		<Lat>52.2375</Lat>
+		<Long>6.838889</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>EML</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Ermelo</Kort>
+		  <Middel>Ermelo</Middel>
+		  <Lang>Ermelo</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400216</UICCode>
+		<Lat>52.301666</Lat>
+		<Long>5.6147223</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ETN</Code>
+		<Type>intercitystation</Type>
+		<Namen>		
+		  <Kort>Etten-Leur</Kort>
+		  <Middel>Etten-Leur</Middel>
+		  <Lang>Etten-Leur</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400218</UICCode>
+		<Lat>51.575</Lat>
+		<Long>4.6358333</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>EGH</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Eygelshov</Kort>
+		  <Middel>Eygelshoven</Middel>
+		  <Lang>Eygelshoven</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400338</UICCode>
+		<Lat>50.890556</Lat>
+		<Long>6.045</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>EGHM</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Eygelsh M</Kort>
+		  <Middel>Eygelshoven Mrkt</Middel>
+		  <Lang>Eygelshoven Markt</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400234</UICCode>
+		<Lat>50.89605</Lat>
+		<Long>6.0602474</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>FN</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Franeker</Kort>
+		  <Middel>Franeker</Middel>
+		  <Lang>Franeker</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400232</UICCode>
+		<Lat>53.18245</Lat>
+		<Long>5.5483093</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>GDR</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Gaanderen</Kort>
+		  <Middel>Gaanderen</Middel>
+		  <Lang>Gaanderen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400241</UICCode>
+		<Lat>51.931236</Lat>
+		<Long>6.347581</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>GDK</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Geerdijk</Kort>
+		  <Middel>Geerdijk</Middel>
+		  <Lang>Geerdijk</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400239</UICCode>
+		<Lat>52.475285</Lat>
+		<Long>6.5670605</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>GDM</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>G'malsen</Kort>
+		  <Middel>Geldermalsen</Middel>
+		  <Lang>Geldermalsen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400244</UICCode>
+		<Lat>51.88278</Lat>
+		<Long>5.271111</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>GP</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Geldrop</Kort>
+		  <Middel>Geldrop</Middel>
+		  <Lang>Geldrop</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400245</UICCode>
+		<Lat>51.419724</Lat>
+		<Long>5.5505557</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>GLN</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Geleen O</Kort>
+		  <Middel>Geleen Oost</Middel>
+		  <Lang>Geleen Oost</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400246</UICCode>
+		<Lat>50.966946</Lat>
+		<Long>5.8430557</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>LUT</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Geleen-Lut</Kort>
+		  <Middel>Geleen-Lutterade</Middel>
+		  <Lang>Geleen-Lutterade</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400248</UICCode>
+		<Lat>50.975555</Lat>
+		<Long>5.8247223</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>GZ</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Gilze-Rij</Kort>
+		  <Middel>Gilze-Rijen</Middel>
+		  <Lang>Gilze-Rijen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400251</UICCode>
+		<Lat>51.58361</Lat>
+		<Long>4.926111</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>GBR</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Glanerbrug</Kort>
+		  <Middel>Glanerbrug</Middel>
+		  <Lang>Glanerbrug</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400262</UICCode>
+		<Lat>52.218613</Lat>
+		<Long>6.9744444</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>GS</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Goes</Kort>
+		  <Middel>Goes</Middel>
+		  <Lang>Goes</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400253</UICCode>
+		<Lat>51.498055</Lat>
+		<Long>3.8905556</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>GO</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Goor</Kort>
+		  <Middel>Goor</Middel>
+		  <Lang>Goor</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400254</UICCode>
+		<Lat>52.230278</Lat>
+		<Long>6.5844445</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>GR</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Gorinchem</Kort>
+		  <Middel>Gorinchem</Middel>
+		  <Lang>Gorinchem</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400256</UICCode>
+		<Lat>51.83389</Lat>
+		<Long>4.9683332</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>GD</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Gouda</Kort>
+		  <Middel>Gouda</Middel>
+		  <Lang>Gouda</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400258</UICCode>
+		<Lat>52.0175</Lat>
+		<Long>4.7044444</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>GDG</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Goverwelle</Kort>
+		  <Middel>Gouda Goverwelle</Middel>
+		  <Lang>Gouda Goverwelle</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400250</UICCode>
+		<Lat>52.015</Lat>
+		<Long>4.7408333</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>GBG</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Gramsbergn</Kort>
+		  <Middel>Gramsbergen</Middel>
+		  <Lang>Gramsbergen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400259</UICCode>
+		<Lat>52.609165</Lat>
+		<Long>6.675833</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>GK</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Grijpskerk</Kort>
+		  <Middel>Grijpskerk</Middel>
+		  <Lang>Grijpskerk</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400267</UICCode>
+		<Lat>53.25574</Lat>
+		<Long>6.3097787</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>GN</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Groningen</Kort>
+		  <Middel>Groningen</Middel>
+		  <Lang>Groningen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400263</UICCode>
+		<Lat>53.210556</Lat>
+		<Long>6.564722</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>GERP</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Europapark</Kort>
+		  <Middel>Europapark</Middel>
+		  <Lang>Groningen Europapark</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400238</UICCode>
+		<Lat>53.20603</Lat>
+		<Long>6.5828276</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>GNN</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Groning N</Kort>
+		  <Middel>Groningen Noord</Middel>
+		  <Lang>Groningen Noord</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400264</UICCode>
+		<Lat>53.23015</Lat>
+		<Long>6.5563173</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>GW</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Grou-Jirns</Kort>
+		  <Middel>Grou-Jirnsum</Middel>
+		  <Lang>Grou-Jirnsum</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400266</UICCode>
+		<Lat>53.08889</Lat>
+		<Long>5.8225</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HLM</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Haarlem</Kort>
+		  <Middel>Haarlem</Middel>
+		  <Lang>Haarlem</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400285</UICCode>
+		<Lat>52.38778</Lat>
+		<Long>4.6383333</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HLMS</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Spaarnwde</Kort>
+		  <Middel>Spaarnwoude</Middel>
+		  <Lang>Haarlem Spaarnwoude</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400270</UICCode>
+		<Lat>52.38278</Lat>
+		<Long>4.6730556</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HDB</Code>
+		<Type>sneltreinstation</Type>
+		<Namen>		
+		  <Kort>Hardenberg</Kort>
+		  <Middel>Hardenberg</Middel>
+		  <Lang>Hardenberg</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400293</UICCode>
+		<Lat>52.572777</Lat>
+		<Long>6.628611</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HD</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Harderwijk</Kort>
+		  <Middel>Harderwijk</Middel>
+		  <Lang>Harderwijk</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400294</UICCode>
+		<Lat>52.3375</Lat>
+		<Long>5.6197224</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>BZM</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Blauwe Z</Kort>
+		  <Middel>Blauwe Zoom</Middel>
+		  <Lang>Hardinxveld Blauwe Zoom</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400438</UICCode>
+		<Lat>51.829445</Lat>
+		<Long>4.815556</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>GND</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Hardinxvld</Kort>
+		  <Middel>Hardinxveld-Gies</Middel>
+		  <Lang>Hardinxveld-Giessendam</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400295</UICCode>
+		<Lat>51.830555</Lat>
+		<Long>4.8358335</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HRN</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Haren</Kort>
+		  <Middel>Haren</Middel>
+		  <Lang>Haren</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400297</UICCode>
+		<Lat>53.17611</Lat>
+		<Long>6.6172223</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HLG</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Harlingen</Kort>
+		  <Middel>Harlingen</Middel>
+		  <Lang>Harlingen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400296</UICCode>
+		<Lat>53.17042</Lat>
+		<Long>5.4251933</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HLGH</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Harl Haven</Kort>
+		  <Middel>Harlingen Haven</Middel>
+		  <Lang>Harlingen Haven</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400298</UICCode>
+		<Lat>53.174915</Lat>
+		<Long>5.4112887</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HK</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Heemskerk</Kort>
+		  <Middel>Heemskerk</Middel>
+		  <Lang>Heemskerk</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400317</UICCode>
+		<Lat>52.495277</Lat>
+		<Long>4.6869445</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HAD</Code>
+		<Type>sneltreinstation</Type>
+		<Namen>		
+		  <Kort>Heemstede</Kort>
+		  <Middel>Heemstede-Aerden</Middel>
+		  <Lang>Heemstede-Aerdenhout</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400302</UICCode>
+		<Lat>52.359165</Lat>
+		<Long>4.6066666</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HR</Code>
+		<Type>intercitystation</Type>
+		<Namen>		
+		  <Kort>Heerenveen</Kort>
+		  <Middel>Heerenveen</Middel>
+		  <Lang>Heerenveen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400305</UICCode>
+		<Lat>52.961388</Lat>
+		<Long>5.9141665</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HRY</Code>
+		<Type>facultatiefStation</Type>
+		<Namen>		
+		  <Kort>H'veen IJs</Kort>
+		  <Middel>Heerenveen IJs</Middel>
+		  <Lang>Heerenveen IJsstadion</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400301</UICCode>
+		<Lat>52.935276</Lat>
+		<Long>5.9438887</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HWD</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Heerhugow</Kort>
+		  <Middel>Heerhugowaard</Middel>
+		  <Lang>Heerhugowaard</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400306</UICCode>
+		<Lat>52.669724</Lat>
+		<Long>4.8227777</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HRL</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Heerlen</Kort>
+		  <Middel>Heerlen</Middel>
+		  <Lang>Heerlen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400307</UICCode>
+		<Lat>50.890835</Lat>
+		<Long>5.975</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HRLK</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>De Kissel</Kort>
+		  <Middel>Hrl De Kissel</Middel>
+		  <Lang>Heerlen De Kissel</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400409</UICCode>
+		<Lat>50.890167</Lat>
+		<Long>5.9933424</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HRLW</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Heerlen W</Kort>
+		  <Middel>Hrl Woonblvd</Middel>
+		  <Lang>Heerlen Woonboulevard</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400404</UICCode>
+		<Lat>50.89605</Lat>
+		<Long>5.9524655</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HZE</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Heeze</Kort>
+		  <Middel>Heeze</Middel>
+		  <Lang>Heeze</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400308</UICCode>
+		<Lat>51.385</Lat>
+		<Long>5.5694447</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HLO</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Heiloo</Kort>
+		  <Middel>Heiloo</Middel>
+		  <Lang>Heiloo</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400309</UICCode>
+		<Lat>52.599445</Lat>
+		<Long>4.7005553</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HNO</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Heino</Kort>
+		  <Middel>Heino</Middel>
+		  <Lang>Heino</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400310</UICCode>
+		<Lat>52.427223</Lat>
+		<Long>6.2211113</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HM</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Helmond</Kort>
+		  <Middel>Helmond</Middel>
+		  <Lang>Helmond</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400313</UICCode>
+		<Lat>51.475555</Lat>
+		<Long>5.6619444</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HMH</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>'t Hout</Kort>
+		  <Middel>Helmond 't Hout</Middel>
+		  <Lang>Helmond 't Hout</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400300</UICCode>
+		<Lat>51.468056</Lat>
+		<Long>5.6313887</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HMBV</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Brandevrt</Kort>
+		  <Middel>Brandevoort</Middel>
+		  <Lang>Helmond Brandevoort</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400242</UICCode>
+		<Lat>51.462223</Lat>
+		<Long>5.607222</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HMBH</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Brouwhuis</Kort>
+		  <Middel>Helmond Brouwhs</Middel>
+		  <Lang>Helmond Brouwhuis</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400299</UICCode>
+		<Lat>51.470276</Lat>
+		<Long>5.7033334</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HMN</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Hemmen-D</Kort>
+		  <Middel>Hemmen-Dodewaard</Middel>
+		  <Lang>Hemmen-Dodewaard</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400315</UICCode>
+		<Lat>51.922215</Lat>
+		<Long>5.6737256</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HGL</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Hengelo</Kort>
+		  <Middel>Hengelo</Middel>
+		  <Lang>Hengelo</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400316</UICCode>
+		<Lat>52.261665</Lat>
+		<Long>6.793889</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>FKB</Code>
+		<Type>facultatiefStation</Type>
+		<Namen>		
+		  <Kort>Hengelo FB</Kort>
+		  <Middel>Hengelo FBK</Middel>
+		  <Lang>Hengelo FBK stadion</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400000</UICCode>
+		<Lat>52.257412</Lat>
+		<Long>6.7927723</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HGLO</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Hengelo O</Kort>
+		  <Middel>Hengelo Oost</Middel>
+		  <Lang>Hengelo Oost</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400312</UICCode>
+		<Lat>52.26889</Lat>
+		<Long>6.8194447</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HIL</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Hillegom</Kort>
+		  <Middel>Hillegom</Middel>
+		  <Lang>Hillegom</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400329</UICCode>
+		<Lat>52.3025</Lat>
+		<Long>4.5655556</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HVS</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Hilversum</Kort>
+		  <Middel>Hilversum</Middel>
+		  <Lang>Hilversum</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400322</UICCode>
+		<Lat>52.225834</Lat>
+		<Long>5.1819444</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HVSN</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>H'sum N</Kort>
+		  <Middel>Hilversum Noord</Middel>
+		  <Lang>Hilversum Noord</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400324</UICCode>
+		<Lat>52.238056</Lat>
+		<Long>5.1738887</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HVSP</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Sportpark</Kort>
+		  <Middel>Hilversum Sportp</Middel>
+		  <Lang>Hilversum Sportpark</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400570</UICCode>
+		<Lat>52.21611</Lat>
+		<Long>5.187222</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HNP</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Hindeloopn</Kort>
+		  <Middel>Hindeloopen</Middel>
+		  <Lang>Hindeloopen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400323</UICCode>
+		<Lat>52.94649</Lat>
+		<Long>5.423063</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HLD</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>HvH Haven</Kort>
+		  <Middel>Hoek v H Haven</Middel>
+		  <Lang>Hoek van Holland Haven</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400325</UICCode>
+		<Lat>51.975277</Lat>
+		<Long>4.128889</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HLDS</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>HvH Strand</Kort>
+		  <Middel>Hoek v H Strand</Middel>
+		  <Lang>Hoek van Holland Strand</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400342</UICCode>
+		<Lat>51.981667</Lat>
+		<Long>4.1197224</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HB</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Hoensbroek</Kort>
+		  <Middel>Hoensbroek</Middel>
+		  <Lang>Hoensbroek</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400326</UICCode>
+		<Lat>50.905556</Lat>
+		<Long>5.9305553</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HOR</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Hol Rading</Kort>
+		  <Middel>Holl. Rading</Middel>
+		  <Lang>Hollandsche Rading</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400327</UICCode>
+		<Lat>52.177776</Lat>
+		<Long>5.179167</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HON</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Holten</Kort>
+		  <Middel>Holten</Middel>
+		  <Lang>Holten</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400328</UICCode>
+		<Lat>52.28389</Lat>
+		<Long>6.4202776</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HFD</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Hoofddorp</Kort>
+		  <Middel>Hoofddorp</Middel>
+		  <Lang>Hoofddorp</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400332</UICCode>
+		<Lat>52.293335</Lat>
+		<Long>4.7005553</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HGV</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Hoogeveen</Kort>
+		  <Middel>Hoogeveen</Middel>
+		  <Lang>Hoogeveen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400330</UICCode>
+		<Lat>52.73389</Lat>
+		<Long>6.473611</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HGZ</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Hoogezand</Kort>
+		  <Middel>Hoogezand-Sappem</Middel>
+		  <Lang>Hoogezand-Sappemeer</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400331</UICCode>
+		<Lat>53.159817</Lat>
+		<Long>6.770754</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HKS</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Hoogkrspl</Kort>
+		  <Middel>Hoogkarspel</Middel>
+		  <Lang>Hoogkarspel</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400334</UICCode>
+		<Lat>52.690556</Lat>
+		<Long>5.183889</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HN</Code>
+		<Type>knooppuntSneltreinstation</Type>
+		<Namen>		
+		  <Kort>Hoorn</Kort>
+		  <Middel>Hoorn</Middel>
+		  <Lang>Hoorn</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400337</UICCode>
+		<Lat>52.644722</Lat>
+		<Long>5.0555553</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HNK</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Hoorn Kers</Kort>
+		  <Middel>Hoorn Kersenbgrd</Middel>
+		  <Lang>Hoorn Kersenboogerd</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400336</UICCode>
+		<Lat>52.65361</Lat>
+		<Long>5.0855556</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HRT</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Horst-Sev</Kort>
+		  <Middel>Horst-Sevenum</Middel>
+		  <Lang>Horst-Sevenum</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400339</UICCode>
+		<Lat>51.426388</Lat>
+		<Long>6.042222</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HTN</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Houten</Kort>
+		  <Middel>Houten</Middel>
+		  <Lang>Houten</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400340</UICCode>
+		<Lat>52.035</Lat>
+		<Long>5.1675</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HTNC</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Houten C</Kort>
+		  <Middel>Houten Castellum</Middel>
+		  <Lang>Houten Castellum</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400335</UICCode>
+		<Lat>52.01724</Lat>
+		<Long>5.179281</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>SGL</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Houthem-St</Kort>
+		  <Middel>Houthem-St Gerl</Middel>
+		  <Lang>Houthem-St Gerlach</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400341</UICCode>
+		<Lat>50.873333</Lat>
+		<Long>5.797222</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HDG</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Hurdegaryp</Kort>
+		  <Middel>Hurdegaryp</Middel>
+		  <Lang>Hurdegaryp</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400292</UICCode>
+		<Lat>53.218777</Lat>
+		<Long>5.934543</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>IJT</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>IJlst</Kort>
+		  <Middel>IJlst</Middel>
+		  <Lang>IJlst</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400722</UICCode>
+		<Lat>53.01466</Lat>
+		<Long>5.6160803</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>KPN</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Kampen</Kort>
+		  <Middel>Kampen</Middel>
+		  <Lang>Kampen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400353</UICCode>
+		<Lat>52.559723</Lat>
+		<Long>5.9216666</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>BZL</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Kapelle-B</Kort>
+		  <Middel>Kapelle-Biezel</Middel>
+		  <Lang>Kapelle-Biezelinge</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400354</UICCode>
+		<Lat>51.480835</Lat>
+		<Long>3.9561112</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>KRD</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Kerkrade</Kort>
+		  <Middel>Kerkrade C</Middel>
+		  <Lang>Kerkrade Centrum</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400355</UICCode>
+		<Lat>50.861668</Lat>
+		<Long>6.0575</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>KRW</Code>
+		<Type>facultatiefStation</Type>
+		<Namen>		
+		  <Kort>Kerkrade W</Kort>
+		  <Middel>Kerkrade West</Middel>
+		  <Lang>Kerkrade West</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400000</UICCode>
+		<Lat>50.851852</Lat>
+		<Long>6.0206795</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>KTR</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Kesteren</Kort>
+		  <Middel>Kesteren</Middel>
+		  <Lang>Kesteren</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400359</UICCode>
+		<Lat>51.931385</Lat>
+		<Long>5.5833464</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>KBK</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Klarenbk</Kort>
+		  <Middel>Klarenbeek</Middel>
+		  <Lang>Klarenbeek</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400361</UICCode>
+		<Lat>52.178055</Lat>
+		<Long>6.083611</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>KMR</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Klimmen-R</Kort>
+		  <Middel>Klimmen-Ransdaal</Middel>
+		  <Lang>Klimmen-Ransdaal</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400362</UICCode>
+		<Lat>50.86639</Lat>
+		<Long>5.8905554</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>KBW</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Koog Bloem</Kort>
+		  <Middel>Koog Bloemwijk</Middel>
+		  <Lang>Koog Bloemwijk</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400363</UICCode>
+		<Lat>52.45861</Lat>
+		<Long>4.8055553</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>KZD</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Koog Zaand</Kort>
+		  <Middel>Koog-Zaandijk</Middel>
+		  <Lang>Koog-Zaandijk</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400364</UICCode>
+		<Lat>52.469166</Lat>
+		<Long>4.805</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>KMW</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Koudum-M</Kort>
+		  <Middel>Koudum-Molkwerum</Middel>
+		  <Lang>Koudum-Molkwerum</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400366</UICCode>
+		<Lat>52.90282</Lat>
+		<Long>5.4106913</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>KBD</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Krabbendke</Kort>
+		  <Middel>Krabbendijke</Middel>
+		  <Lang>Krabbendijke</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400367</UICCode>
+		<Lat>51.433334</Lat>
+		<Long>4.1169443</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>KMA</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Krommenie</Kort>
+		  <Middel>Krommenie-Assend</Middel>
+		  <Lang>Krommenie-Assendelft</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400368</UICCode>
+		<Lat>52.49454</Lat>
+		<Long>4.761243</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>KW</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Kropswolde</Kort>
+		  <Middel>Kropswolde</Middel>
+		  <Lang>Kropswolde</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400369</UICCode>
+		<Lat>53.161736</Lat>
+		<Long>6.7220883</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>KRG</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Kruiningen</Kort>
+		  <Middel>Kruiningen-Yers</Middel>
+		  <Lang>Kruiningen-Yerseke</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400370</UICCode>
+		<Lat>51.465</Lat>
+		<Long>4.0372224</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ZLW</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Lage Zwalu</Kort>
+		  <Middel>Lage Zwaluwe</Middel>
+		  <Lang>Lage Zwaluwe</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400382</UICCode>
+		<Lat>51.691113</Lat>
+		<Long>4.6630554</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>LG</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Landgraaf</Kort>
+		  <Middel>Landgraaf</Middel>
+		  <Lang>Landgraaf</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400548</UICCode>
+		<Lat>50.89639</Lat>
+		<Long>6.0191665</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>LDM</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Leerdam</Kort>
+		  <Middel>Leerdam</Middel>
+		  <Lang>Leerdam</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400386</UICCode>
+		<Lat>51.894722</Lat>
+		<Long>5.0913887</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>LW</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Leeuwarden</Kort>
+		  <Middel>Leeuwarden</Middel>
+		  <Lang>Leeuwarden</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400387</UICCode>
+		<Lat>53.195835</Lat>
+		<Long>5.792222</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>LWC</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Camminghab</Kort>
+		  <Middel>Leeuwarden Camm</Middel>
+		  <Lang>Leeuwarden Camminghaburen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400389</UICCode>
+		<Lat>53.20218</Lat>
+		<Long>5.8422966</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>LEDN</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Leiden C</Kort>
+		  <Middel>Leiden Centraal</Middel>
+		  <Lang>Leiden Centraal</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400390</UICCode>
+		<Lat>52.16611</Lat>
+		<Long>4.4816666</Long>
+		<Synoniemen>
+			
+			<Synoniem>Leiden</Synoniem>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>LDL</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Leiden Lam</Kort>
+		  <Middel>Leiden Lammensch</Middel>
+		  <Lang>Leiden Lammenschans</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400384</UICCode>
+		<Lat>52.146946</Lat>
+		<Long>4.4925</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>LLS</Code>
+		<Type>intercitystation</Type>
+		<Namen>		
+		  <Kort>Lelystad</Kort>
+		  <Middel>Lelystad C</Middel>
+		  <Lang>Lelystad Centrum</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400394</UICCode>
+		<Lat>52.50778</Lat>
+		<Long>5.472778</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>LTV</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Lichtenv-G</Kort>
+		  <Middel>Lichtenvoorde-Gr</Middel>
+		  <Lang>Lichtenvoorde-Groenlo</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400395</UICCode>
+		<Lat>52.012543</Lat>
+		<Long>6.5946245</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>LIS</Code>
+		<Type>facultatiefStation</Type>
+		<Namen>		
+		  <Kort>Lisse</Kort>
+		  <Middel>Lisse</Middel>
+		  <Lang>Lisse</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400000</UICCode>
+		<Lat>52.269524</Lat>
+		<Long>4.5301867</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>LC</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Lochem</Kort>
+		  <Middel>Lochem</Middel>
+		  <Lang>Lochem</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400399</UICCode>
+		<Lat>52.166668</Lat>
+		<Long>6.4263887</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>LP</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Loppersum</Kort>
+		  <Middel>Loppersum</Middel>
+		  <Lang>Loppersum</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400403</UICCode>
+		<Lat>53.334713</Lat>
+		<Long>6.7472625</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>LTN</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Lunteren</Kort>
+		  <Middel>Lunteren</Middel>
+		  <Lang>Lunteren</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400405</UICCode>
+		<Lat>52.085278</Lat>
+		<Long>5.6244445</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>MZ</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Maarheeze</Kort>
+		  <Middel>Maarheeze</Middel>
+		  <Lang>Maarheeze</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400432</UICCode>
+		<Lat>51.30376</Lat>
+		<Long>5.630343</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>MRN</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Maarn</Kort>
+		  <Middel>Maarn</Middel>
+		  <Lang>Maarn</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400417</UICCode>
+		<Lat>52.064167</Lat>
+		<Long>5.37</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>MAS</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Maarssen</Kort>
+		  <Middel>Maarssen</Middel>
+		  <Lang>Maarssen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400419</UICCode>
+		<Lat>52.135277</Lat>
+		<Long>5.0336113</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>MSS</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Maassluis</Kort>
+		  <Middel>Maassluis</Middel>
+		  <Lang>Maassluis</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400422</UICCode>
+		<Lat>51.91611</Lat>
+		<Long>4.254722</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>MSW</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Maassl W</Kort>
+		  <Middel>Maassluis West</Middel>
+		  <Lang>Maassluis West</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400421</UICCode>
+		<Lat>51.925835</Lat>
+		<Long>4.236111</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>MT</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Maastricht</Kort>
+		  <Middel>Maastricht</Middel>
+		  <Lang>Maastricht</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400424</UICCode>
+		<Lat>50.850277</Lat>
+		<Long>5.7055554</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>MTR</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Maastr Rw</Kort>
+		  <Middel>Maastricht Randw</Middel>
+		  <Lang>Maastricht Randwyck</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400426</UICCode>
+		<Lat>50.83861</Lat>
+		<Long>5.717222</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>MG</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Mantgum</Kort>
+		  <Middel>Mantgum</Middel>
+		  <Lang>Mantgum</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400427</UICCode>
+		<Lat>53.12964</Lat>
+		<Long>5.7131996</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>MRB</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Mari�nberg</Kort>
+		  <Middel>Mari�nberg</Middel>
+		  <Lang>Mari�nberg</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400428</UICCode>
+		<Lat>52.509445</Lat>
+		<Long>6.575278</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>MTH</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Martensh</Kort>
+		  <Middel>Martenshoek</Middel>
+		  <Lang>Martenshoek</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400430</UICCode>
+		<Lat>53.160725</Lat>
+		<Long>6.7402987</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>MES</Code>
+		<Type>sneltreinstation</Type>
+		<Namen>		
+		  <Kort>Meerssen</Kort>
+		  <Middel>Meerssen</Middel>
+		  <Lang>Meerssen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400434</UICCode>
+		<Lat>50.88288</Lat>
+		<Long>5.7509995</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>MP</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Meppel</Kort>
+		  <Middel>Meppel</Middel>
+		  <Lang>Meppel</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400435</UICCode>
+		<Lat>52.690834</Lat>
+		<Long>6.1975</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>MDB</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Middelburg</Kort>
+		  <Middel>Middelburg</Middel>
+		  <Lang>Middelburg</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400436</UICCode>
+		<Lat>51.49472</Lat>
+		<Long>3.6172223</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>MMLH</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Mook Molen</Kort>
+		  <Middel>Mook Molenhoek</Middel>
+		  <Lang>Mook Molenhoek</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400446</UICCode>
+		<Lat>51.76408</Lat>
+		<Long>5.8778143</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>NDB</Code>
+		<Type>knooppuntSneltreinstation</Type>
+		<Namen>		
+		  <Kort>Naarden-B</Kort>
+		  <Middel>Naarden-Bussum</Middel>
+		  <Lang>Naarden-Bussum</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400452</UICCode>
+		<Lat>52.280277</Lat>
+		<Long>5.1569443</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>NA</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Nw A'dam</Kort>
+		  <Middel>Nieuw Amsterdam</Middel>
+		  <Lang>Nieuw Amsterdam</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400454</UICCode>
+		<Lat>52.718613</Lat>
+		<Long>6.848611</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>NVP</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Nw Vennep</Kort>
+		  <Middel>Nieuw Vennep</Middel>
+		  <Lang>Nieuw Vennep</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400460</UICCode>
+		<Lat>52.25889</Lat>
+		<Long>4.6455555</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>NWK</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Nieuwerkrk</Kort>
+		  <Middel>Nieuwerkerk a/d</Middel>
+		  <Lang>Nieuwerkerk a/d IJssel</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400455</UICCode>
+		<Lat>51.96528</Lat>
+		<Long>4.6169443</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>NSCH</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Nweschans</Kort>
+		  <Middel>Nieuweschans</Middel>
+		  <Lang>Nieuweschans</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400457</UICCode>
+		<Lat>53.185207</Lat>
+		<Long>7.200238</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>NKK</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Nijkerk</Kort>
+		  <Middel>Nijkerk</Middel>
+		  <Lang>Nijkerk</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400469</UICCode>
+		<Lat>52.22222</Lat>
+		<Long>5.493889</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>NM</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Nijmegen</Kort>
+		  <Middel>Nijmegen</Middel>
+		  <Lang>Nijmegen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400470</UICCode>
+		<Lat>51.843613</Lat>
+		<Long>5.8522224</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>NMD</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Dukenburg</Kort>
+		  <Middel>Nm Dukenburg</Middel>
+		  <Lang>Nijmegen Dukenburg</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400475</UICCode>
+		<Lat>51.824165</Lat>
+		<Long>5.7955556</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>NMH</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Heyendaal</Kort>
+		  <Middel>Nm Heyendaal</Middel>
+		  <Lang>Nijmegen Heyendaal</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400468</UICCode>
+		<Lat>51.826946</Lat>
+		<Long>5.8675</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>NML</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Lent</Kort>
+		  <Middel>Nijmegen Lent</Middel>
+		  <Lang>Nijmegen Lent</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400451</UICCode>
+		<Lat>51.865276</Lat>
+		<Long>5.8594446</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>NVD</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Nijverdal</Kort>
+		  <Middel>Nijverdal</Middel>
+		  <Lang>Nijverdal</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400472</UICCode>
+		<Lat>52.365555</Lat>
+		<Long>6.4711113</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>NVDW</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Nijverd W</Kort>
+		  <Middel>Nijverdal West</Middel>
+		  <Lang>Nijverdal West</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400472</UICCode>
+		<Lat>52.367085</Lat>
+		<Long>6.449275</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>NS</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Nunspeet</Kort>
+		  <Middel>Nunspeet</Middel>
+		  <Lang>Nunspeet</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400466</UICCode>
+		<Lat>52.370834</Lat>
+		<Long>5.785278</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>NH</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Nuth</Kort>
+		  <Middel>Nuth</Middel>
+		  <Lang>Nuth</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400467</UICCode>
+		<Lat>50.919445</Lat>
+		<Long>5.892778</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>OBD</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Obdam</Kort>
+		  <Middel>Obdam</Middel>
+		  <Lang>Obdam</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400480</UICCode>
+		<Lat>52.678055</Lat>
+		<Long>4.9072223</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>OT</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Oisterwijk</Kort>
+		  <Middel>Oisterwijk</Middel>
+		  <Lang>Oisterwijk</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400482</UICCode>
+		<Lat>51.582222</Lat>
+		<Long>5.1941667</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ODZ</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Oldenzaal</Kort>
+		  <Middel>Oldenzaal</Middel>
+		  <Lang>Oldenzaal</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400483</UICCode>
+		<Lat>52.30639</Lat>
+		<Long>6.9347224</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>OST</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Olst</Kort>
+		  <Middel>Olst</Middel>
+		  <Lang>Olst</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400486</UICCode>
+		<Lat>52.33472</Lat>
+		<Long>6.1130557</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>OMN</Code>
+		<Type>knooppuntSneltreinstation</Type>
+		<Namen>		
+		  <Kort>Ommen</Kort>
+		  <Middel>Ommen</Middel>
+		  <Lang>Ommen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400487</UICCode>
+		<Lat>52.509445</Lat>
+		<Long>6.4158335</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>OLV</Code>
+		<Type>facultatiefStation</Type>
+		<Namen>		
+		  <Kort>Lieve Vrou</Kort>
+		  <Middel>OLV ter Nood</Middel>
+		  <Lang>Onze Lieve Vrouwe t. Nood</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8499997</UICCode>
+		<Lat>52.583332</Lat>
+		<Long>4.686667</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>OTB</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Oosterbeek</Kort>
+		  <Middel>Oosterbeek</Middel>
+		  <Lang>Oosterbeek</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400489</UICCode>
+		<Lat>51.995</Lat>
+		<Long>5.84</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>OP</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Opheusden</Kort>
+		  <Middel>Opheusden</Middel>
+		  <Lang>Opheusden</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400494</UICCode>
+		<Lat>51.926163</Lat>
+		<Long>5.6371145</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>O</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Oss</Kort>
+		  <Middel>Oss</Middel>
+		  <Lang>Oss</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400495</UICCode>
+		<Lat>51.765556</Lat>
+		<Long>5.5322223</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>OW</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Oss W</Kort>
+		  <Middel>Oss West</Middel>
+		  <Lang>Oss West</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400496</UICCode>
+		<Lat>51.758057</Lat>
+		<Long>5.5055556</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ODB</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Oudenbosch</Kort>
+		  <Middel>Oudenbosch</Middel>
+		  <Lang>Oudenbosch</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400498</UICCode>
+		<Lat>51.587776</Lat>
+		<Long>4.5333333</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>OVN</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Overveen</Kort>
+		  <Middel>Overveen</Middel>
+		  <Lang>Overveen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400501</UICCode>
+		<Lat>52.39111</Lat>
+		<Long>4.606111</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>PMR</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Purmerend</Kort>
+		  <Middel>Purmerend</Middel>
+		  <Lang>Purmerend</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400508</UICCode>
+		<Lat>52.503056</Lat>
+		<Long>4.953611</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>PMO</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Overwhere</Kort>
+		  <Middel>Purmerend Overwh</Middel>
+		  <Lang>Purmerend Overwhere</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400506</UICCode>
+		<Lat>52.51139</Lat>
+		<Long>4.9683332</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>PMW</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Weidevenne</Kort>
+		  <Middel>Purmerend Weidev</Middel>
+		  <Lang>Purmerend Weidevenne</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400499</UICCode>
+		<Lat>52.49659</Lat>
+		<Long>4.9356294</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>PT</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Putten</Kort>
+		  <Middel>Putten</Middel>
+		  <Lang>Putten</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400509</UICCode>
+		<Lat>52.265</Lat>
+		<Long>5.575278</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>RAT</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Raalte</Kort>
+		  <Middel>Raalte</Middel>
+		  <Lang>Raalte</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400513</UICCode>
+		<Lat>52.391666</Lat>
+		<Long>6.2775</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>RVS</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Ravenstein</Kort>
+		  <Middel>Ravenstein</Middel>
+		  <Lang>Ravenstein</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400515</UICCode>
+		<Lat>51.794167</Lat>
+		<Long>5.6358333</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>RV</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Reuver</Kort>
+		  <Middel>Reuver</Middel>
+		  <Lang>Reuver</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400518</UICCode>
+		<Lat>51.28322</Lat>
+		<Long>6.0789585</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>RH</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Rheden</Kort>
+		  <Middel>Rheden</Middel>
+		  <Lang>Rheden</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400519</UICCode>
+		<Lat>52.01</Lat>
+		<Long>6.0305557</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>RHN</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Rhenen</Kort>
+		  <Middel>Rhenen</Middel>
+		  <Lang>Rhenen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400517</UICCode>
+		<Lat>51.95861</Lat>
+		<Long>5.5783334</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>RSN</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Rijssen</Kort>
+		  <Middel>Rijssen</Middel>
+		  <Lang>Rijssen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400538</UICCode>
+		<Lat>52.31222</Lat>
+		<Long>6.520278</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>RSW</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Rijswijk</Kort>
+		  <Middel>Rijswijk</Middel>
+		  <Lang>Rijswijk</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400505</UICCode>
+		<Lat>52.039722</Lat>
+		<Long>4.3191667</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>RB</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Rilland-B</Kort>
+		  <Middel>Rilland-Bath</Middel>
+		  <Lang>Rilland-Bath</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400521</UICCode>
+		<Lat>51.42278</Lat>
+		<Long>4.161111</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>RM</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Roermond</Kort>
+		  <Middel>Roermond</Middel>
+		  <Lang>Roermond</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400523</UICCode>
+		<Lat>51.193054</Lat>
+		<Long>5.994167</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>RD</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Roodesch</Kort>
+		  <Middel>Roodeschool</Middel>
+		  <Lang>Roodeschool</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400525</UICCode>
+		<Lat>53.419212</Lat>
+		<Long>6.760617</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>RSD</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Roosendaal</Kort>
+		  <Middel>Roosendaal</Middel>
+		  <Lang>Roosendaal</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400526</UICCode>
+		<Lat>51.54028</Lat>
+		<Long>4.4583335</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>RS</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Rosmalen</Kort>
+		  <Middel>Rosmalen</Middel>
+		  <Lang>Rosmalen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400524</UICCode>
+		<Lat>51.71472</Lat>
+		<Long>5.3680553</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>RTA</Code>
+		<Type>intercitystation</Type>
+		<Namen>		
+		  <Kort>Alexander</Kort>
+		  <Middel>Rotterdam Alexan</Middel>
+		  <Lang>Rotterdam Alexander</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400507</UICCode>
+		<Lat>51.951946</Lat>
+		<Long>4.5536113</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>RTB</Code>
+		<Type>sneltreinstation</Type>
+		<Namen>		
+		  <Kort>Blaak</Kort>
+		  <Middel>Blaak</Middel>
+		  <Lang>Rotterdam Blaak</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400529</UICCode>
+		<Lat>51.920277</Lat>
+		<Long>4.4888887</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>RTD</Code>
+		<Type>megastation</Type>
+		<Namen>		
+		  <Kort>R'dam C</Kort>
+		  <Middel>Rotterdam C</Middel>
+		  <Lang>Rotterdam Centraal</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400530</UICCode>
+		<Lat>51.925</Lat>
+		<Long>4.4688888</Long>
+		<Synoniemen>
+			
+			<Synoniem>Rotterdam</Synoniem>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>RLB</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Lombardije</Kort>
+		  <Middel>Rotterdam Lombar</Middel>
+		  <Lang>Rotterdam Lombardijen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400542</UICCode>
+		<Lat>51.88</Lat>
+		<Long>4.5313888</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>RTN</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>R'dam N</Kort>
+		  <Middel>Rotterdam Noord</Middel>
+		  <Lang>Rotterdam Noord</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400531</UICCode>
+		<Lat>51.942223</Lat>
+		<Long>4.4816666</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>RTST</Code>
+		<Type>facultatiefStation</Type>
+		<Namen>		
+		  <Kort>R'dam Sta</Kort>
+		  <Middel>R'dam Stadion</Middel>
+		  <Lang>Rotterdam Stadion</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400534</UICCode>
+		<Lat>51.89389</Lat>
+		<Long>4.519722</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>RTZ</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>R'dam Z</Kort>
+		  <Middel>Rotterdam Zuid</Middel>
+		  <Lang>Rotterdam Zuid</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400533</UICCode>
+		<Lat>51.904446</Lat>
+		<Long>4.5102777</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>RTDZPL</Code>
+		<Type>facultatiefStation</Type>
+		<Namen>		
+		  <Kort>Zuidplein</Kort>
+		  <Middel>Rotterdam Zuidpl</Middel>
+		  <Lang>Rotterdam Zuidplein</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400000</UICCode>
+		<Lat>51.8864</Lat>
+		<Long>4.488044</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>RL</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Ruurlo</Kort>
+		  <Middel>Ruurlo</Middel>
+		  <Lang>Ruurlo</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400537</UICCode>
+		<Lat>52.08109</Lat>
+		<Long>6.4492655</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>SPTN</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Santprt N</Kort>
+		  <Middel>Santpoort Noord</Middel>
+		  <Lang>Santpoort Noord</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400543</UICCode>
+		<Lat>52.433887</Lat>
+		<Long>4.6325</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>SPTZ</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Santprt Z</Kort>
+		  <Middel>Santpoort Zuid</Middel>
+		  <Lang>Santpoort Zuid</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400544</UICCode>
+		<Lat>52.419724</Lat>
+		<Long>4.6313887</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>SPM</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Sappemr O</Kort>
+		  <Middel>Sappemeer Oost</Middel>
+		  <Lang>Sappemeer Oost</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400545</UICCode>
+		<Lat>53.158916</Lat>
+		<Long>6.7955647</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>SSH</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Sassenheim</Kort>
+		  <Middel>Sassenheim</Middel>
+		  <Lang>Sassenheim</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400603</UICCode>
+		<Lat>52.218334</Lat>
+		<Long>4.531002</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>SWD</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Sauwerd</Kort>
+		  <Middel>Sauwerd</Middel>
+		  <Lang>Sauwerd</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400547</UICCode>
+		<Lat>53.292076</Lat>
+		<Long>6.540288</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>SGN</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Schagen</Kort>
+		  <Middel>Schagen</Middel>
+		  <Lang>Schagen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400549</UICCode>
+		<Lat>52.784443</Lat>
+		<Long>4.805278</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>SDA</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Scheemda</Kort>
+		  <Middel>Scheemda</Middel>
+		  <Lang>Scheemda</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400551</UICCode>
+		<Lat>53.165535</Lat>
+		<Long>6.9777775</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>SDM</Code>
+		<Type>sneltreinstation</Type>
+		<Namen>		
+		  <Kort>Schiedam C</Kort>
+		  <Middel>Schiedam C</Middel>
+		  <Lang>Schiedam Centrum</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400553</UICCode>
+		<Lat>51.921246</Lat>
+		<Long>4.4089937</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>NWL</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Nieuwland</Kort>
+		  <Middel>Schiedam Nieuwl</Middel>
+		  <Lang>Schiedam Nieuwland</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400563</UICCode>
+		<Lat>51.922222</Lat>
+		<Long>4.382222</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>SOG</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Schin op G</Kort>
+		  <Middel>Schin op Geul</Middel>
+		  <Lang>Schin op Geul</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400555</UICCode>
+		<Lat>50.856388</Lat>
+		<Long>5.8722224</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>SN</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Schinnen</Kort>
+		  <Middel>Schinnen</Middel>
+		  <Lang>Schinnen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400554</UICCode>
+		<Lat>50.939167</Lat>
+		<Long>5.8744445</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>SHL</Code>
+		<Type>megastation</Type>
+		<Namen>		
+		  <Kort>Schiphol</Kort>
+		  <Middel>Schiphol</Middel>
+		  <Lang>Schiphol</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400561</UICCode>
+		<Lat>52.309444</Lat>
+		<Long>4.7619443</Long>
+		<Synoniemen>
+			
+			<Synoniem>Amsterdam Airport</Synoniem>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>SPV</Code>
+		<Type>facultatiefStation</Type>
+		<Namen>		
+		  <Kort>Simpelveld</Kort>
+		  <Middel>Simpelveld</Middel>
+		  <Lang>Simpelveld</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400000</UICCode>
+		<Lat>50.831474</Lat>
+		<Long>5.979738</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>STD</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Sittard</Kort>
+		  <Middel>Sittard</Middel>
+		  <Lang>Sittard</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400564</UICCode>
+		<Lat>51.001667</Lat>
+		<Long>5.858611</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>SDT</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Sliedrecht</Kort>
+		  <Middel>Sliedrecht</Middel>
+		  <Lang>Sliedrecht</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400565</UICCode>
+		<Lat>51.829723</Lat>
+		<Long>4.778333</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>SDTB</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Baanhoek</Kort>
+		  <Middel>Sliedr. Baanhoek</Middel>
+		  <Lang>Sliedrecht Baanhoek</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400497</UICCode>
+		<Lat>51.829723</Lat>
+		<Long>4.743333</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>SK</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Sneek</Kort>
+		  <Middel>Sneek</Middel>
+		  <Lang>Sneek</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400566</UICCode>
+		<Lat>53.032867</Lat>
+		<Long>5.6523967</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>SKND</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Sneek N</Kort>
+		  <Middel>Sneek Noord</Middel>
+		  <Lang>Sneek Noord</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400574</UICCode>
+		<Lat>53.04093</Lat>
+		<Long>5.663181</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ST</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Soest</Kort>
+		  <Middel>Soest</Middel>
+		  <Lang>Soest</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400567</UICCode>
+		<Lat>52.173332</Lat>
+		<Long>5.31</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>STZ</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Soest Z</Kort>
+		  <Middel>Soest Zuid</Middel>
+		  <Lang>Soest Zuid</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400571</UICCode>
+		<Lat>52.16528</Lat>
+		<Long>5.303056</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>SD</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Soestdijk</Kort>
+		  <Middel>Soestdijk</Middel>
+		  <Lang>Soestdijk</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400569</UICCode>
+		<Lat>52.183613</Lat>
+		<Long>5.3</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>SBK</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Spaubeek</Kort>
+		  <Middel>Spaubeek</Middel>
+		  <Lang>Spaubeek</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400572</UICCode>
+		<Lat>50.943054</Lat>
+		<Long>5.8516665</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>STV</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Stavoren</Kort>
+		  <Middel>Stavoren</Middel>
+		  <Lang>Stavoren</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400575</UICCode>
+		<Lat>52.886555</Lat>
+		<Long>5.360021</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>STM</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Stedum</Kort>
+		  <Middel>Stedum</Middel>
+		  <Lang>Stedum</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400576</UICCode>
+		<Lat>53.32621</Lat>
+		<Long>6.6875553</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>SWK</Code>
+		<Type>intercitystation</Type>
+		<Namen>		
+		  <Kort>Steenwijk</Kort>
+		  <Middel>Steenwijk</Middel>
+		  <Lang>Steenwijk</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400578</UICCode>
+		<Lat>52.79151</Lat>
+		<Long>6.114556</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>SRN</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Susteren</Kort>
+		  <Middel>Susteren</Middel>
+		  <Lang>Susteren</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400582</UICCode>
+		<Lat>51.06139</Lat>
+		<Long>5.8630557</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>SM</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Swalmen</Kort>
+		  <Middel>Swalmen</Middel>
+		  <Lang>Swalmen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400583</UICCode>
+		<Lat>51.234917</Lat>
+		<Long>6.0308075</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>TG</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Tegelen</Kort>
+		  <Middel>Tegelen</Middel>
+		  <Lang>Tegelen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400591</UICCode>
+		<Lat>51.336365</Lat>
+		<Long>6.1384177</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>TBG</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Terborg</Kort>
+		  <Middel>Terborg</Middel>
+		  <Lang>Terborg</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400592</UICCode>
+		<Lat>51.922455</Lat>
+		<Long>6.3642464</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>TL</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Tiel</Kort>
+		  <Middel>Tiel</Middel>
+		  <Lang>Tiel</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400596</UICCode>
+		<Lat>51.889446</Lat>
+		<Long>5.422222</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>TPSW</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Passewaaij</Kort>
+		  <Middel>Tiel Passewaaij</Middel>
+		  <Lang>Tiel Passewaaij</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400600</UICCode>
+		<Lat>51.87389</Lat>
+		<Long>5.3922224</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>TB</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Tilburg</Kort>
+		  <Middel>Tilburg</Middel>
+		  <Lang>Tilburg</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400597</UICCode>
+		<Lat>51.560555</Lat>
+		<Long>5.083611</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>TBR</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Reeshof</Kort>
+		  <Middel>Tilburg Reeshof</Middel>
+		  <Lang>Tilburg Reeshof</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400598</UICCode>
+		<Lat>51.573612</Lat>
+		<Long>4.9944444</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>TBU</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Tilburg U</Kort>
+		  <Middel>Tilburg Univ</Middel>
+		  <Lang>Tilburg Universiteit</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400594</UICCode>
+		<Lat>51.565</Lat>
+		<Long>5.051111</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>TWL</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Twello</Kort>
+		  <Middel>Twello</Middel>
+		  <Lang>Twello</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400599</UICCode>
+		<Lat>52.237778</Lat>
+		<Long>6.098611</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>UTG</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Uitgeest</Kort>
+		  <Middel>Uitgeest</Middel>
+		  <Lang>Uitgeest</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400615</UICCode>
+		<Lat>52.521667</Lat>
+		<Long>4.701667</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>UHZ</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Uithuizen</Kort>
+		  <Middel>Uithuizen</Middel>
+		  <Lang>Uithuizen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400617</UICCode>
+		<Lat>53.409958</Lat>
+		<Long>6.6748867</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>UHM</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Uithuizerm</Kort>
+		  <Middel>Uithuizermeeden</Middel>
+		  <Lang>Uithuizermeeden</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400618</UICCode>
+		<Lat>53.414585</Lat>
+		<Long>6.7202973</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>UST</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Usquert</Kort>
+		  <Middel>Usquert</Middel>
+		  <Lang>Usquert</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400619</UICCode>
+		<Lat>53.401474</Lat>
+		<Long>6.6093774</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>UT</Code>
+		<Type>megastation</Type>
+		<Namen>		
+		  <Kort>Utrecht C</Kort>
+		  <Middel>Utrecht Centraal</Middel>
+		  <Lang>Utrecht Centraal</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400621</UICCode>
+		<Lat>52.08889</Lat>
+		<Long>5.1102777</Long>
+		<Synoniemen>
+			
+			<Synoniem>Utrecht</Synoniem>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>UTL</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Lunetten</Kort>
+		  <Middel>Utrecht Lunetten</Middel>
+		  <Lang>Utrecht Lunetten</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400623</UICCode>
+		<Lat>52.065556</Lat>
+		<Long>5.1441665</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>UTM</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Maliebaan</Kort>
+		  <Middel>Utrecht Maliebn</Middel>
+		  <Lang>Utrecht Maliebaan</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8499996</UICCode>
+		<Lat>52.087776</Lat>
+		<Long>5.1313887</Long>
+		<Synoniemen>
+			
+			<Synoniem>Utrecht Maliebaan</Synoniem>
+			
+			<Synoniem>Spoorwegmuseum</Synoniem>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>UTO</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Overvecht</Kort>
+		  <Middel>Utrecht Overvcht</Middel>
+		  <Lang>Utrecht Overvecht</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400620</UICCode>
+		<Lat>52.11</Lat>
+		<Long>5.124722</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>UTT</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Terwijde</Kort>
+		  <Middel>Utrecht Terwijde</Middel>
+		  <Lang>Utrecht Terwijde</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400614</UICCode>
+		<Lat>52.100555</Lat>
+		<Long>5.0416665</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>UTWR</Code>
+		<Type>facultatiefStation</Type>
+		<Namen>		
+		  <Kort>Westraven</Kort>
+		  <Middel>Westraven</Middel>
+		  <Lang>Utrecht Westraven</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400000</UICCode>
+		<Lat>52.05668</Lat>
+		<Long>5.10681</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>UTZL</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Zuilen</Kort>
+		  <Middel>Utrecht Zuilen</Middel>
+		  <Lang>Utrecht Zuilen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400613</UICCode>
+		<Lat>52.106667</Lat>
+		<Long>5.083611</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>VK</Code>
+		<Type>knooppuntSneltreinstation</Type>
+		<Namen>		
+		  <Kort>Valkenburg</Kort>
+		  <Middel>Valkenburg</Middel>
+		  <Lang>Valkenburg</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400632</UICCode>
+		<Lat>50.86972</Lat>
+		<Long>5.832222</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>VSV</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Varsseveld</Kort>
+		  <Middel>Varsseveld</Middel>
+		  <Lang>Varsseveld</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400635</UICCode>
+		<Lat>51.937256</Lat>
+		<Long>6.458839</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>VDM</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Veendam</Kort>
+		  <Middel>Veendam</Middel>
+		  <Lang>Veendam</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400636</UICCode>
+		<Lat>53.105118</Lat>
+		<Long>6.8870115</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>VNDC</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Veenendl C</Kort>
+		  <Middel>Veenendaal C</Middel>
+		  <Lang>Veenendaal Centrum</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400627</UICCode>
+		<Lat>52.02</Lat>
+		<Long>5.548611</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>VNDW</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Veenendl W</Kort>
+		  <Middel>Veenendaal West</Middel>
+		  <Lang>Veenendaal West</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400628</UICCode>
+		<Lat>52.028057</Lat>
+		<Long>5.5313888</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>KLP</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>De Klomp</Kort>
+		  <Middel>Veenendaal-De Kl</Middel>
+		  <Lang>Veenendaal-De Klomp</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400637</UICCode>
+		<Lat>52.045834</Lat>
+		<Long>5.573889</Long>
+		<Synoniemen>
+			
+			<Synoniem>Veenendaal De Klomp</Synoniem>
+			
+			<Synoniem>Veenendaal de Klomp</Synoniem>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>VWD</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Veenwouden</Kort>
+		  <Middel>Veenwouden</Middel>
+		  <Lang>Veenwouden</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400638</UICCode>
+		<Lat>53.235184</Lat>
+		<Long>5.9886613</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>VP</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Velp</Kort>
+		  <Middel>Velp</Middel>
+		  <Lang>Velp</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400640</UICCode>
+		<Lat>51.99472</Lat>
+		<Long>5.980278</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>VL</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Venlo</Kort>
+		  <Middel>Venlo</Middel>
+		  <Lang>Venlo</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400644</UICCode>
+		<Lat>51.36361</Lat>
+		<Long>6.1727777</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>VRY</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Venray</Kort>
+		  <Middel>Venray</Middel>
+		  <Lang>Venray</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400646</UICCode>
+		<Lat>51.52657</Lat>
+		<Long>6.014178</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>VLB</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Vierlingsb</Kort>
+		  <Middel>Vierlingsbeek</Middel>
+		  <Lang>Vierlingsbeek</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400647</UICCode>
+		<Lat>51.593422</Lat>
+		<Long>5.9960246</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>VDG</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Vlaard C</Kort>
+		  <Middel>Vlaardingen C</Middel>
+		  <Lang>Vlaardingen Centrum</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400650</UICCode>
+		<Lat>51.903057</Lat>
+		<Long>4.3441668</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>VDO</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Vlaard O</Kort>
+		  <Middel>Vlaardingen Oost</Middel>
+		  <Lang>Vlaardingen Oost</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400649</UICCode>
+		<Lat>51.91028</Lat>
+		<Long>4.3616667</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>VDW</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Vlaard W</Kort>
+		  <Middel>Vlaardingen West</Middel>
+		  <Lang>Vlaardingen West</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400642</UICCode>
+		<Lat>51.904167</Lat>
+		<Long>4.3130555</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>VTN</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Vleuten</Kort>
+		  <Middel>Vleuten</Middel>
+		  <Lang>Vleuten</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400651</UICCode>
+		<Lat>52.103054</Lat>
+		<Long>5.0108333</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>VS</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Vlissingen</Kort>
+		  <Middel>Vlissingen</Middel>
+		  <Lang>Vlissingen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400652</UICCode>
+		<Lat>51.445835</Lat>
+		<Long>3.5952778</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>VSS</Code>
+		<Type>intercitystation</Type>
+		<Namen>		
+		  <Kort>Souburg</Kort>
+		  <Middel>Vlissingen Soubg</Middel>
+		  <Lang>Vlissingen Souburg</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400653</UICCode>
+		<Lat>51.46472</Lat>
+		<Long>3.5952778</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>VDL</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Voerendaal</Kort>
+		  <Middel>Voerendaal</Middel>
+		  <Lang>Voerendaal</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400656</UICCode>
+		<Lat>50.887222</Lat>
+		<Long>5.930278</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>VB</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Voorburg</Kort>
+		  <Middel>Voorburg</Middel>
+		  <Lang>Voorburg</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400658</UICCode>
+		<Lat>52.066666</Lat>
+		<Long>4.3594446</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>VH</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Voorhout</Kort>
+		  <Middel>Voorhout</Middel>
+		  <Lang>Voorhout</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400655</UICCode>
+		<Lat>52.224445</Lat>
+		<Long>4.4844446</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>VST</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Voorschtn</Kort>
+		  <Middel>Voorschoten</Middel>
+		  <Lang>Voorschoten</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400659</UICCode>
+		<Lat>52.12528</Lat>
+		<Long>4.4325</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>VEM</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Voorst-E</Kort>
+		  <Middel>Voorst-Empe</Middel>
+		  <Lang>Voorst-Empe</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400668</UICCode>
+		<Lat>52.1575</Lat>
+		<Long>6.143611</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>VD</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Vorden</Kort>
+		  <Middel>Vorden</Middel>
+		  <Lang>Vorden</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400661</UICCode>
+		<Lat>52.107193</Lat>
+		<Long>6.3170457</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>VZ</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Vriezenvn</Kort>
+		  <Middel>Vriezenveen</Middel>
+		  <Lang>Vriezenveen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400664</UICCode>
+		<Lat>52.40105</Lat>
+		<Long>6.6015267</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>VHP</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Vroomshoop</Kort>
+		  <Middel>Vroomshoop</Middel>
+		  <Lang>Vroomshoop</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400666</UICCode>
+		<Lat>52.45719</Lat>
+		<Long>6.569668</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>VG</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Vught</Kort>
+		  <Middel>Vught</Middel>
+		  <Lang>Vught</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400667</UICCode>
+		<Lat>51.655556</Lat>
+		<Long>5.2919445</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>WAD</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Waddinxv</Kort>
+		  <Middel>Waddinxveen</Middel>
+		  <Lang>Waddinxveen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400675</UICCode>
+		<Lat>52.044167</Lat>
+		<Long>4.649722</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>WADN</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Waddinxv N</Kort>
+		  <Middel>Waddinxveen Nrd</Middel>
+		  <Lang>Waddinxveen Noord</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400674</UICCode>
+		<Lat>52.055</Lat>
+		<Long>4.6483335</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>WFM</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Warffum</Kort>
+		  <Middel>Warffum</Middel>
+		  <Lang>Warffum</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400679</UICCode>
+		<Lat>53.390842</Lat>
+		<Long>6.5671363</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>WT</Code>
+		<Type>intercitystation</Type>
+		<Namen>		
+		  <Kort>Weert</Kort>
+		  <Middel>Weert</Middel>
+		  <Lang>Weert</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400684</UICCode>
+		<Lat>51.24861</Lat>
+		<Long>5.703611</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>WP</Code>
+		<Type>knooppuntSneltreinstation</Type>
+		<Namen>		
+		  <Kort>Weesp</Kort>
+		  <Middel>Weesp</Middel>
+		  <Lang>Weesp</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400685</UICCode>
+		<Lat>52.31278</Lat>
+		<Long>5.0430555</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>WL</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Wehl</Kort>
+		  <Middel>Wehl</Middel>
+		  <Lang>Wehl</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400686</UICCode>
+		<Lat>51.957806</Lat>
+		<Long>6.213844</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>WTV</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Westervrt</Kort>
+		  <Middel>Westervoort</Middel>
+		  <Lang>Westervoort</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400688</UICCode>
+		<Lat>51.960583</Lat>
+		<Long>5.9735584</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>WZ</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Wezep</Kort>
+		  <Middel>Wezep</Middel>
+		  <Lang>Wezep</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400690</UICCode>
+		<Lat>52.454166</Lat>
+		<Long>6.0025</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>WDN</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Wierden</Kort>
+		  <Middel>Wierden</Middel>
+		  <Lang>Wierden</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400691</UICCode>
+		<Lat>52.36139</Lat>
+		<Long>6.5916667</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>WC</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Wijchen</Kort>
+		  <Middel>Wijchen</Middel>
+		  <Lang>Wijchen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400710</UICCode>
+		<Lat>51.81167</Lat>
+		<Long>5.7308335</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>WH</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Wijhe</Kort>
+		  <Middel>Wijhe</Middel>
+		  <Lang>Wijhe</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400711</UICCode>
+		<Lat>52.390278</Lat>
+		<Long>6.1405554</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>WS</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Winschoten</Kort>
+		  <Middel>Winschoten</Middel>
+		  <Lang>Winschoten</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400696</UICCode>
+		<Lat>53.139236</Lat>
+		<Long>7.035101</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>WSM</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Winsum</Kort>
+		  <Middel>Winsum</Middel>
+		  <Lang>Winsum</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400697</UICCode>
+		<Lat>53.3301</Lat>
+		<Long>6.5202904</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>WW</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Winterswk</Kort>
+		  <Middel>Winterswijk</Middel>
+		  <Lang>Winterswijk</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400698</UICCode>
+		<Lat>51.96773</Lat>
+		<Long>6.715518</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>WWW</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Wintersw W</Kort>
+		  <Middel>Winterswijk West</Middel>
+		  <Lang>Winterswijk West</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400700</UICCode>
+		<Lat>51.975464</Lat>
+		<Long>6.7029266</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>WD</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Woerden</Kort>
+		  <Middel>Woerden</Middel>
+		  <Lang>Woerden</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400702</UICCode>
+		<Lat>52.085</Lat>
+		<Long>4.893611</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>WF</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Wolfheze</Kort>
+		  <Middel>Wolfheze</Middel>
+		  <Lang>Wolfheze</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400704</UICCode>
+		<Lat>52.005554</Lat>
+		<Long>5.793611</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>WV</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Wolvega</Kort>
+		  <Middel>Wolvega</Middel>
+		  <Lang>Wolvega</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400705</UICCode>
+		<Lat>52.880833</Lat>
+		<Long>6.003611</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>WK</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Workum</Kort>
+		  <Middel>Workum</Middel>
+		  <Lang>Workum</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400706</UICCode>
+		<Lat>52.972485</Lat>
+		<Long>5.4564285</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>WM</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Wormerveer</Kort>
+		  <Middel>Wormerveer</Middel>
+		  <Lang>Wormerveer</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400707</UICCode>
+		<Lat>52.489166</Lat>
+		<Long>4.792222</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ZD</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Zaandam</Kort>
+		  <Middel>Zaandam</Middel>
+		  <Lang>Zaandam</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400731</UICCode>
+		<Lat>52.43889</Lat>
+		<Long>4.813611</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ZDK</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Kogerveld</Kort>
+		  <Middel>Zaandam Kogerv</Middel>
+		  <Lang>Zaandam Kogerveld</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400728</UICCode>
+		<Lat>52.456665</Lat>
+		<Long>4.8202777</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ZBM</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Zaltbommel</Kort>
+		  <Middel>Zaltbommel</Middel>
+		  <Lang>Zaltbommel</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400732</UICCode>
+		<Lat>51.808887</Lat>
+		<Long>5.2633333</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ZVT</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Zandvoort</Kort>
+		  <Middel>Zandvoort a Zee</Middel>
+		  <Lang>Zandvoort aan Zee</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400733</UICCode>
+		<Lat>52.37528</Lat>
+		<Long>4.532778</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ZA</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Zetten-A</Kort>
+		  <Middel>Zetten-Andelst</Middel>
+		  <Lang>Zetten-Andelst</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400734</UICCode>
+		<Lat>51.920055</Lat>
+		<Long>5.722841</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ZV</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Zevenaar</Kort>
+		  <Middel>Zevenaar</Middel>
+		  <Lang>Zevenaar</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400735</UICCode>
+		<Lat>51.923054</Lat>
+		<Long>6.071944</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ZVB</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Zevenbergn</Kort>
+		  <Middel>Zevenbergen</Middel>
+		  <Lang>Zevenbergen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400737</UICCode>
+		<Lat>51.64111</Lat>
+		<Long>4.609722</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ZTM</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Zoetermeer</Kort>
+		  <Middel>Zoetermeer</Middel>
+		  <Lang>Zoetermeer</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400741</UICCode>
+		<Lat>52.0475</Lat>
+		<Long>4.4772224</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ZTMO</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Z'meer O</Kort>
+		  <Middel>Zoetermeer Oost</Middel>
+		  <Lang>Zoetermeer Oost</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400740</UICCode>
+		<Lat>52.04639</Lat>
+		<Long>4.492778</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ZB</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Zuidbroek</Kort>
+		  <Middel>Zuidbroek</Middel>
+		  <Lang>Zuidbroek</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400742</UICCode>
+		<Lat>53.15961</Lat>
+		<Long>6.867914</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ZH</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Zuidhorn</Kort>
+		  <Middel>Zuidhorn</Middel>
+		  <Lang>Zuidhorn</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400743</UICCode>
+		<Lat>53.24863</Lat>
+		<Long>6.406236</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ZP</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Zutphen</Kort>
+		  <Middel>Zutphen</Middel>
+		  <Lang>Zutphen</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400744</UICCode>
+		<Lat>52.14528</Lat>
+		<Long>6.1941667</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ZWW</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Zwaagwest</Kort>
+		  <Middel>Zwaagwesteinde</Middel>
+		  <Lang>Zwaagwesteinde</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400745</UICCode>
+		<Lat>53.24923</Lat>
+		<Long>6.0353</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ZWD</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Zwijndrcht</Kort>
+		  <Middel>Zwijndrecht</Middel>
+		  <Lang>Zwijndrecht</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400752</UICCode>
+		<Lat>51.815</Lat>
+		<Long>4.641667</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ZL</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Zwolle</Kort>
+		  <Middel>Zwolle</Middel>
+		  <Lang>Zwolle</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400747</UICCode>
+		<Lat>52.504723</Lat>
+		<Long>6.091944</Long>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+</Stations>

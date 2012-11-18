@@ -1,0 +1,39 @@
+http://webservices.ns.nl/ns-api-treinplanner?fromStation=Utrecht+Centraal&toStation=Wierden&departure=true 
+
+public static string Login = "michiel@michielpost.nl";
+public static string Password = "zGTEgMxWXWmGSvTV1M0LU-0Wtb19Kia9Zj4WCZfR5JMkcIPQYUBCpg";
+
+Spoorboekje
+treinapp@live.com:UqI-VF_jwIbp9b3twVhiPnH90Rl8A03uYshxW_WgCT3Z8utSVbzk3Q
+
+Treinplanner
+edwin@phone7apps.nl:cC3qS4k_oATu7jNWU2-molbpNFUhh8bHpCiGs3ErPkzDabIo3L_b7A
+
+Treininformatie
+jens.denbraber@gmail.com:zflrH_fu8pe_vx1WBkddKeuSbr56-Kk_3uuaqO31KbiuQxgrnXGD-w
+
+------
+
+Gebruikersnaam = mailpost@gmail.com
+Wachtwoord = -3u92eVVR0iIc4KjrTT6JxTryJFTGSQ_B3T3fXwDveLMZmyTQi7aGA
+
+-------
+
+
+http://webservices.ns.nl/ns-api-prijzen-v2?from=${Naam of afkorting Station}&to=${Naam of afkorting Station}&via=${Naam of afkorting Station}&date=${Datum in ddMMyyyy formaat}
+------
+
+android
+mvdzig
+
+Andere response!
+
+http://webservices.ns.nl/mobile-api-avt?station=Alkmaar
+
+http://webservices.ns.nl/mobile-api-planner?fromStation=Utrecht+Centraal&toStation=Wierden&departure=true
+
+http://webservices.ns.nl/mobile-api-disruptions?actual=true
+
+
+
+http://webservices.ns.nl/mobile-api-prices-v2?from=Eindhoven&to=Best

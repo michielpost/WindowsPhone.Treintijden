@@ -1,0 +1,2573 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<stations>
+  <station>
+    <name>Abcoude</name>
+    <code>ac</code>
+    <lat>52.278943</lat>
+    <long>4.976769</long>
+  </station>
+  <station>
+    <name>Arnhem</name>
+    <code>ah</code>
+    <lat>51.984537</lat>
+    <long>5.901364</long>
+  </station>
+  <station>
+    <name>Arnhem Velperpoort</name>
+    <code>ahp</code>
+    <lat>51.984897</lat>
+    <long>5.920286</long>
+  </station>
+  <station>
+    <name>Arnhem Presikhaaf</name>
+    <code>ahpr</code>
+    <lat>51.987315</lat>
+    <long>5.943029</long>
+  </station>
+  <station>
+    <name>Arnhem Zuid</name>
+    <code>ahz</code>
+    <lat>51.955169</lat>
+    <long>5.851995</long>
+  </station>
+  <station>
+    <name>Arkel</name>
+    <code>akl</code>
+    <lat>51.872199</lat>
+    <long>4.992968</long>
+  </station>
+  <station>
+    <name>Akkrum</name>
+    <code>akm</code>
+    <lat>53.047619</lat>
+    <long>5.842763</long>
+  </station>  <station>
+    <name>Almere Centrum</name>
+    <code>alm</code>
+
+    <lat>52.375163</lat>
+    <long>5.218921</long>
+
+  </station>  <station>
+    <name>Almere Buiten</name>
+    <code>almb</code>
+
+    <lat>52.394463</lat>
+    <long>5.278339</long>
+
+  </station>  <station>
+    <name>Almere Muziekwijk</name>
+    <code>almm</code>
+
+    <lat>52.367567</lat>
+    <long>5.190605</long>
+
+  </station>  <station>
+    <name>Almere Oostvaarders</name>
+    <code>almo</code>
+
+    <lat>52.403111</lat>
+    <long>5.298305</long>
+
+  </station>  <station>
+    <name>Almere Parkwijk</name>
+    <code>almp</code>
+
+    <lat>52.376997</lat>
+    <long>5.244459</long>
+
+  </station>  <station>
+    <name>Amersfoort</name>
+    <code>amf</code>
+
+    <lat>52.153462</lat>
+    <long>5.373913</long>
+
+  </station>  <station>
+    <name>Amersfoort Schothorst</name>
+    <code>amfs</code>
+
+    <lat>52.175486</lat>
+    <long>5.404899</long>
+
+  </station>  <station>
+    <name>Almelo</name>
+    <code>aml</code>
+
+    <lat>52.357158</lat>
+    <long>6.655820</long>
+
+  </station>  <station>
+    <name>Alkmaar</name>
+    <code>amr</code>
+
+    <lat>52.637846</lat>
+    <long>4.740901</long>
+
+  </station>  <station>
+    <name>Almelo de Riet</name>
+    <code>amri</code>
+
+    <lat>52.342398</lat>
+    <long>6.666256</long>
+
+  </station>  <station>
+    <name>Alkmaar Noord</name>
+    <code>amrn</code>
+
+    <lat>52.643806</lat>
+    <long>4.763860</long>
+
+  </station>  <station>
+    <name>Anna Paulowna</name>
+    <code>ana</code>
+
+    <lat>52.867646</lat>
+    <long>4.811611</long>
+
+  </station>  <station>
+    <name>Apeldoorn</name>
+    <code>apd</code>
+
+    <lat>52.209456</lat>
+    <long>5.970374</long>
+
+  </station>  <station>
+    <name>Apeldoorn De Maten</name>
+    <code>apdm</code>
+
+    <lat>52.205258</lat>
+    <long>6.000749</long>
+
+  </station>  <station>
+    <name>Apeldoorn Osseveld</name>
+    <code>apdo</code>
+    <lat>52.216108</lat>
+    <long>6.006610</long>
+  </station>  <station>
+    <name>Appingedam</name>
+    <code>apg</code>
+
+    <lat>53.325818</lat>
+    <long>6.861960</long>
+
+  </station>  <station>
+    <name>Alphen a/d Rijn</name>
+    <code>apn</code>
+    <lat>52.124337</lat>
+    <long>4.657805</long>
+  </station>  <station>
+    <name>Arnemuiden</name>
+    <code>arn</code>
+    <lat>51.501502</lat>
+    <long>3.669783</long>
+  </station>  <station>
+    <name>Amsterdam Airport</name>
+    <code>shl</code>
+    <lat>52.308293</lat>
+    <long>4.762269</long>
+  </station>  <station>
+    <name>Amsterdam Amstel</name>
+    <code>asa</code>
+    <lat>52.345867</lat>
+    <long>4.918034</long>
+  </station>  <station>
+    <name>Amsterdam Bijlmer ArenA</name>
+    <code>asb</code>
+
+    <lat>52.311556</lat>
+    <long>4.947725</long>
+
+  </station>  <station>
+    <name>Amsterdam Centraal</name>
+    <code>asd</code>
+
+    <lat>52.378687</lat>
+    <long>4.900505</long>
+
+  </station>  <station>
+    <name>Amsterdam Lelylaan</name>
+    <code>asdl</code>
+
+    <lat>52.357904</lat>
+    <long>4.833940</long>
+
+  </station>  <station>
+    <name>Amsterdam Muiderpoort</name>
+    <code>asdm</code>
+
+    <lat>52.360924</lat>
+    <long>4.931230</long>
+
+  </station>  <station>
+    <name>Amsterdam Zuid</name>
+    <code>asdz</code>
+
+    <lat>52.339027</lat>
+    <long>4.873061</long>
+
+  </station>  <station>
+    <name>Amsterdam Holendrecht</name>
+    <code>ashd</code>
+
+    <lat>52.293532</lat>
+    <long>4.960652</long>
+
+  </station>  <station>
+    <name>Amsterdam Science Park</name>
+    <code>assp</code>
+
+    <lat>52.349940</lat>
+    <long>4.949991</long>
+
+  </station>  <station>
+    <name>Assen</name>
+    <code>asn</code>
+
+    <lat>52.992039</lat>
+    <long>6.570764</long>
+
+  </station>  <station>
+    <name>Amsterdam Sloterdijk</name>
+    <code>ass</code>
+
+    <lat>52.389375</lat>
+    <long>4.836780</long>
+
+  </station>  <station>
+    <name>Aalten</name>
+    <code>atn</code>
+
+    <lat>51.921289</lat>
+    <long>6.578647</long>
+
+  </station>  <station>
+    <name>Amersfoort Vathorst</name>
+    <code>avat</code>
+
+    <lat>52.192197</lat>
+    <long>5.433421</long>
+
+  </station>  <station>
+    <name>Breda</name>
+    <code>bd</code>
+
+    <lat>51.595070</lat>
+    <long>4.780049</long>
+
+  </station>  <station>
+    <name>Bunde</name>
+    <code>bde</code>
+
+    <lat>50.896878</lat>
+    <long>5.736430</long>
+
+  </station>  <station>
+    <name>Bodegraven</name>
+    <code>bdg</code>
+
+    <lat>52.081710</lat>
+    <long>4.746034</long>
+
+  </station>  <station>
+    <name>Bedum</name>
+    <code>bdm</code>
+
+    <lat>53.306886</lat>
+    <long>6.593057</long>
+
+  </station>  <station>
+    <name>Breda-Prinsenbeek</name>
+    <code>bdpb</code>
+
+    <lat>51.605273</lat>
+    <long>4.722321</long>
+
+  </station>  <station>
+    <name>Best</name>
+    <code>bet</code>
+
+    <lat>51.509538</lat>
+    <long>5.389221</long>
+
+  </station>  <station>
+    <name>Baflo</name>
+    <code>bf</code>
+
+    <lat>53.360893</lat>
+    <long>6.518554</long>
+
+  </station>  <station>
+    <name>Bergen op Zoom</name>
+    <code>bgn</code>
+
+    <lat>51.495272</lat>
+    <long>4.295935</long>
+
+  </station>  <station>
+    <name>Bilthoven</name>
+    <code>bhv</code>
+
+    <lat>52.129686</lat>
+    <long>5.204214</long>
+
+  </station>  <station>
+    <name>Beek-Elsloo</name>
+    <code>bk</code>
+
+    <lat>50.946966</lat>
+    <long>5.785897</long>
+
+  </station>  <station>
+    <name>Bovenkarspel Flora</name>
+    <code>bkf</code>
+
+    <lat>52.696231</lat>
+    <long>5.253044</long>
+
+  </station>  <station>
+    <name>Bovenkarspel-Grootebroek</name>
+    <code>bkg</code>
+
+    <lat>52.695224</lat>
+    <long>5.236036</long>
+
+  </station>  <station>
+    <name>Breukelen</name>
+    <code>bkl</code>
+
+    <lat>52.171135</lat>
+    <long>4.990622</long>
+
+  </station>  <station>
+    <name>Beilen</name>
+    <code>bl</code>
+
+    <lat>52.855016</lat>
+    <long>6.521026</long>
+
+  </station>  <station>
+    <name>Bloemendaal</name>
+    <code>bll</code>
+
+    <lat>52.404028</lat>
+    <long>4.627044</long>
+
+  </station>  <station>
+    <name>Brummen</name>
+    <code>bmn</code>
+
+    <lat>52.091688</lat>
+    <long>6.147740</long>
+
+  </station>  <station>
+    <name>Boxmeer</name>
+    <code>bmr</code>
+
+    <lat>51.644322</lat>
+    <long>5.939532</long>
+
+  </station>  <station>
+    <name>Borne</name>
+    <code>bn</code>
+
+    <lat>52.298324</lat>
+    <long>6.748705</long>
+
+  </station>  <station>
+    <name>Barneveld Centrum</name>
+    <code>bnc</code>
+
+    <lat>52.140527</lat>
+    <long>5.589519</long>
+
+  </station>  <station>
+    <name>Bunnik</name>
+    <code>bnk</code>
+
+    <lat>52.063336</lat>
+    <long>5.195738</long>
+
+  </station>  <station>
+    <name>Barneveld Noord</name>
+    <code>bnn</code>
+
+    <lat>52.160825</lat>
+    <long>5.598823</long>
+
+  </station>  <station>
+    <name>Buitenpost</name>
+    <code>bp</code>
+
+    <lat>53.256457</lat>
+    <long>6.144648</long>
+
+  </station>  <station>
+    <name>Blerick</name>
+    <code>br</code>
+
+    <lat>51.372183</lat>
+    <long>6.155255</long>
+
+  </station>  <station>
+    <name>Barendrecht</name>
+    <code>brd</code>
+
+    <lat>51.854697</lat>
+    <long>4.552434</long>
+
+  </station>  <station>
+    <name>Baarn</name>
+    <code>brn</code>
+
+    <lat>52.208063</lat>
+    <long>5.282160</long>
+
+  </station>  <station>
+    <name>Beesd</name>
+    <code>bsd</code>
+
+    <lat>51.899391</lat>
+    <long>5.194839</long>
+
+  </station>  <station>
+    <name>Boskoop</name>
+    <code>bsk</code>
+
+    <lat>52.076452</lat>
+    <long>4.646623</long>
+
+  </station>  <station>
+    <name>Bussum Zuid</name>
+    <code>bsmz</code>
+
+    <lat>52.265333</lat>
+    <long>5.163080</long>
+
+  </station>  <station>
+    <name>Boxtel</name>
+    <code>btl</code>
+
+    <lat>51.584850</lat>
+    <long>5.319097</long>
+
+  </station>  <station>
+    <name>Beverwijk</name>
+    <code>bv</code>
+
+    <lat>52.478270</lat>
+    <long>4.655207</long>
+
+  </station>  <station>
+    <name>Kapelle-Biezelinge</name>
+    <code>bzl</code>
+
+    <lat>51.480557</lat>
+    <long>3.956808</long>
+
+  </station>  <station>
+    <name>Castricum</name>
+    <code>cas</code>
+
+    <lat>52.545608</lat>
+    <long>4.659252</long>
+
+  </station>  <station>
+    <name>Cuijk</name>
+    <code>ck</code>
+
+    <lat>51.727221</lat>
+    <long>5.873965</long>
+
+  </station>\
+  r  <station>
+    <name>Culemborg</name>
+    <code>cl</code>
+
+    <lat>51.946719</lat>
+    <long>5.227218</long>
+
+  </station>  <station>
+    <name>Coevorden</name>
+    <code>co</code>
+
+    <lat>52.663133</lat>
+    <long>6.736039</long>
+
+  </station>  <station>
+    <name>Capelle Schollevaar</name>
+    <code>cps</code>
+
+    <lat>51.954154</lat>
+    <long>4.584049</long>
+
+  </station>  <station>
+    <name>Chevremont</name>
+    <code>cvm</code>
+
+    <lat>50.876311</lat>
+    <long>6.059781</long>
+
+  </station>  <station>
+    <name>Daarlerveen</name>
+    <code>da</code>
+
+    <lat>52.440767</lat>
+    <long>6.575995</long>
+
+  </station>  <station>
+    <name>Driebergen-Zeist</name>
+    <code>db</code>
+
+    <lat>52.065134</lat>
+    <long>5.259894</long>
+
+  </station>  <station>
+    <name>Delden</name>
+    <code>ddn</code>
+
+    <lat>52.260146</lat>
+    <long>6.714870</long>
+
+  </station>  <station>
+    <name>Dordrecht</name>
+    <code>ddr</code>
+
+    <lat>51.807557</lat>
+    <long>4.668439</long>
+
+  </station>  <station>
+    <name>Dordrecht Stadspolders</name>
+    <code>ddrs</code>
+
+    <lat>51.802092</lat>
+    <long>4.716666</long>
+
+  </station>  <station>
+    <name>Dordrecht Zuid</name>
+    <code>ddzd</code>
+
+    <lat>51.790055</lat>
+    <long>4.671909</long>
+
+  </station>  <station>
+    <name>Deinum</name>
+    <code>dei</code>
+
+    <lat>53.188813</lat>
+    <long>5.728160</long>
+
+  </station>  <station>
+    <name>Didam</name>
+    <code>did</code>
+
+    <lat>51.933505</lat>
+    <long>6.132414</long>
+
+  </station>  <station>
+    <name>Dalfsen</name>
+    <code>dl</code>
+
+    <lat>52.498441</lat>
+    <long>6.259593</long>
+
+  </station>  <station>
+    <name>Den Dolder</name>
+    <code>dld</code>
+
+    <lat>52.140077</lat>
+    <long>5.241717</long>
+
+  </station>  <station>
+    <name>Dalen</name>
+    <code>dln</code>
+
+    <lat>52.694613</lat>
+    <long>6.758018</long>
+
+  </station>  <station>
+    <name>Diemen</name>
+    <code>dmn</code>
+
+    <lat>52.345598</lat>
+    <long>4.967349</long>
+
+  </station>  <station>
+    <name>Diemen Zuid</name>
+    <code>dmnz</code>
+
+    <lat>52.330460</lat>
+    <long>4.956193</long>
+
+  </station>  <station>
+    <name>Deurne</name>
+    <code>dn</code>
+
+    <lat>51.456358</lat>
+    <long>5.788046</long>
+
+  </station>  <station>
+    <name>Dieren</name>
+    <code>dr</code>
+
+    <lat>52.044693</lat>
+    <long>6.103360</long>
+
+  </station>  <station>
+    <name>Driehuis</name>
+    <code>drh</code>
+
+    <lat>52.443293</lat>
+    <long>4.639314</long>
+
+  </station>  <station>
+    <name>Dronrijp</name>
+    <code>drp</code>
+
+    <lat>53.177810</lat>
+    <long>5.634744</long>
+
+  </station>  <station>
+    <name>Delft</name>
+    <code>dt</code>
+
+    <lat>52.006677</lat>
+    <long>4.356622</long>
+
+  </station>  <station>
+    <name>Doetinchem</name>
+    <code>dtc</code>
+
+    <lat>51.958594</lat>
+    <long>6.296215</long>
+
+  </station>  <station>
+    <name>Doetinchem-De Huet</name>
+    <code>dtch</code>
+
+    <lat>51.959143</lat>
+    <long>6.259854</long>
+
+  </station>  <station>
+    <name>Delft Zuid</name>
+    <code>dtz</code>
+
+    <lat>51.990928</lat>
+    <long>4.364703</long>
+
+  </station>  <station>
+    <name>Deventer</name>
+    <code>dv</code>
+
+    <lat>52.257081</lat>
+    <long>6.160963</long>
+
+  </station>  <station>
+    <name>Deventer Colmschate</name>
+    <code>dvc</code>
+
+    <lat>52.250510</lat>
+    <long>6.215474</long>
+
+  </station>  <station>
+    <name>Duivendrecht</name>
+    <code>dvd</code>
+
+    <lat>52.323556</lat>
+    <long>4.936606</long>
+
+  </station>  <station>
+    <name>Duiven</name>
+    <code>dvn</code>
+
+    <lat>51.943357</lat>
+    <long>6.014619</long>
+
+  </station>  <station>
+    <name>De Vink</name>
+    <code>dvnk</code>
+
+    <lat>52.146649</lat>
+    <long>4.456105</long>
+
+  </station>  <station>
+    <name>Delfzijl</name>
+    <code>dz</code>
+
+    <lat>53.333665</lat>
+    <long>6.924076</long>
+
+  </station>  <station>
+    <name>Delfzijl West</name>
+    <code>dzw</code>
+
+    <lat>53.332083</lat>
+    <long>6.906906</long>
+
+  </station>  <station>
+    <name>Echt</name>
+    <code>ec</code>
+
+    <lat>51.100502</lat>
+    <long>5.878882</long>
+
+  </station>  <station>
+    <name>Ede-Wageningen</name>
+    <code>ed</code>
+
+    <lat>52.028189</lat>
+    <long>5.671636</long>
+
+  </station>  <station>
+    <name>Ede Centrum</name>
+    <code>edc</code>
+
+    <lat>52.043389</lat>
+    <long>5.668381</long>
+
+  </station>
+  <station>
+    <name>Eygelshoven</name>
+    <code>egh</code>
+
+    <lat>50.890046</lat>
+    <long>6.045767</long>
+
+  </station>  <station>
+    <name>Eygelshoven Markt</name>
+    <code>eghm</code>
+
+    <lat>50.896177</lat>
+    <long>6.058082</long>
+
+  </station>  <station>
+    <name>Eindhoven Beukenlaan</name>
+    <code>ehb</code>
+
+    <lat>51.450281</lat>
+    <long>5.457548</long>
+
+  </station>  <station>
+    <name>Eindhoven</name>
+    <code>ehv</code>
+
+    <lat>51.442362</lat>
+    <long>5.479977</long>
+
+  </station>  <station>
+    <name>Enkhuizen</name>
+    <code>ekz</code>
+
+    <lat>52.699593</lat>
+    <long>5.287652</long>
+
+  </station>  <station>
+    <name>Ermelo</name>
+    <code>eml</code>
+
+    <lat>52.300921</lat>
+    <long>5.614293</long>
+
+  </station>  <station>
+    <name>Emmen</name>
+    <code>emn</code>
+
+    <lat>52.790600</lat>
+    <long>6.899490</long>
+
+  </station>  <station>
+    <name>Emmen Zuid</name>
+    <code>emnz</code>
+    <lat>52.757778</lat>
+    <long>6.889444</long>
+  </station>
+  <station>
+    <name>Enschede</name>
+    <code>es</code>
+    <lat>52.222365</lat>
+    <long>6.890258</long>
+  </station>  <station>
+    <name>Enschede Drienerlo</name>
+    <code>esd</code>
+    <lat>52.236936</lat>
+    <long>6.838921</long>
+  </station>  <station>
+    <name>De Eschmarke</name>
+    <code>ese</code>
+    <lat>52.221304</lat>
+    <long>6.951106</long>
+  </station>  <station>
+    <name>Elst</name>
+    <code>est</code>
+
+    <lat>51.916956</lat>
+    <long>5.854800</long>
+
+  </station>  <station>
+    <name>Etten-Leur</name>
+    <code>etn</code>
+
+    <lat>51.575456</lat>
+    <long>4.637355</long>
+
+  </station>  <station>
+    <name>Franeker</name>
+    <code>fn</code>
+
+    <lat>53.182449</lat>
+    <long>5.548313</long>
+
+  </station>  <station>
+    <name>Gramsbergen</name>
+    <code>gbg</code>
+
+    <lat>52.610312</lat>
+    <long>6.676396</long>
+
+  </station>  <station>
+    <name>Glanerbrug</name>
+    <code>gbr</code>
+
+    <lat>52.219030</lat>
+    <long>6.973130</long>
+
+  </station>  <station>
+    <name>Gouda</name>
+    <code>gd</code>
+
+    <lat>52.017213</lat>
+    <long>4.706311</long>
+
+  </station>  <station>
+    <name>Gouda Goverwelle</name>
+    <code>gdg</code>
+
+    <lat>52.015073</lat>
+    <long>4.741306</long>
+
+  </station>  <station>
+    <name>Geerdijk</name>
+    <code>gdk</code>
+
+    <lat>52.475285</lat>
+    <long>6.567060</long>
+
+  </station>  <station>
+    <name>Geldermalsen</name>
+    <code>gdm</code>
+
+    <lat>51.882599</lat>
+    <long>5.271741</long>
+
+  </station>  <station>
+    <name>Gaanderen</name>
+    <code>gdr</code>
+
+    <lat>51.930395</lat>
+    <long>6.349296</long>
+
+  </station>  <station>
+    <name>Groningen Europapark</name>
+    <code>gerp</code>
+
+    <lat>53.206162</lat>
+    <long>6.582315</long>
+
+  </station>  <station>
+    <name>Grijpskerk</name>
+    <code>gk</code>
+
+    <lat>53.255747</lat>
+    <long>6.309762</long>
+
+  </station>  <station>
+    <name>Geleen Oost</name>
+    <code>gln</code>
+
+    <lat>50.967435</lat>
+    <long>5.843303</long>
+
+  </station>  <station>
+    <name>Groningen</name>
+    <code>gn</code>
+
+    <lat>53.210935</lat>
+    <long>6.563734</long>
+
+  </station>
+
+  <station>
+    <name>Hardinxveld Blauwe Zoom</name>
+    <code>BZM</code>
+    <lat>51.8283</lat>
+    <long>4.802377</long>
+  </station>
+  
+  <station>
+    <name>Hardinxveld-Giessendam</name>
+    <code>gnd</code>
+
+    <lat>51.830300</lat>
+    <long>4.835207</long>
+
+  </station>  <station>
+    <name>Groningen Noord</name>
+    <code>gnn</code>
+
+    <lat>53.230145</lat>
+    <long>6.556318</long>
+
+  </station>  <station>
+    <name>Goor</name>
+    <code>go</code>
+
+    <lat>52.230338</lat>
+    <long>6.586036</long>
+
+  </station>  <station>
+    <name>Geldrop</name>
+    <code>gp</code>
+
+    <lat>51.420077</lat>
+    <long>5.550803</long>
+
+  </station>  <station>
+    <name>Gorinchem</name>
+    <code>gr</code>
+
+    <lat>51.833725</lat>
+    <long>4.968203</long>
+
+  </station>  <station>
+    <name>Goes</name>
+    <code>gs</code>
+
+    <lat>51.498337</lat>
+    <long>3.890711</long>
+
+  </station>  <station>
+    <name>Den Haag HS</name>
+    <code>gv</code>
+
+    <lat>52.070285</lat>
+    <long>4.322633</long>
+
+  </station>  <station>
+    <name>Den Haag Centraal</name>
+    <code>gvc</code>
+
+    <lat>52.081261</lat>
+    <long>4.323973</long>
+
+  </station>  <station>
+    <name>Den Haag Mariahoeve</name>
+    <code>gvm</code>
+
+    <lat>52.091194</lat>
+    <long>4.369854</long>
+
+  </station>  <station>
+    <name>Den Haag Moerwijk</name>
+    <code>gvmw</code>
+
+    <lat>
+      52.054518
+    </lat>
+    <long>4.308862</long>
+
+  </station>  <station>
+    <name>Grou-Jirnsum</name>
+    <code>gw</code>
+
+    <lat>53.090111</lat>
+    <long>5.822313</long>
+
+  </station>  <station>
+    <name>Gilze-Rijen</name>
+    <code>gz</code>
+
+    <lat>51.584041</lat>
+    <long>4.924632</long>
+
+  </station>  <station>
+    <name>Heemstede-Aerdenhout</name>
+    <code>had</code>
+
+    <lat>52.359414</lat>
+    <long>4.607259</long>
+
+  </station>  <station>
+    <name>Hoensbroek</name>
+    <code>hb</code>
+
+    <lat>50.905751</lat>
+    <long>5.930120</long>
+
+  </station>  <station>
+    <name>Harderwijk</name>
+    <code>hd</code>
+
+    <lat>52.337579</lat>
+    <long>5.619912</long>
+
+  </station>  <station>
+    <name>Hardenberg</name>
+    <code>hdb</code>
+
+    <lat>52.572369</lat>
+    <long>6.627638</long>
+
+  </station>  <station>
+    <name>Harde ('t)</name>
+    <code>hde</code>
+
+    <lat>52.409080</lat>
+    <long>5.892177</long>
+
+  </station>  <station>
+    <name>Hurdegaryp</name>
+    <code>hdg</code>
+
+    <lat>53.218774</lat>
+    <long>5.934543</long>
+
+  </station>  <station>
+    <name>Den Helder</name>
+    <code>hdr</code>
+
+    <lat>52.956891</lat>
+    <long>4.760732</long>
+
+  </station>  <station>
+    <name>Den Helder Zuid</name>
+    <code>hdrz</code>
+
+    <lat>52.932917</lat>
+    <long>4.764345</long>
+
+  </station>  <station>
+    <name>Hoofddorp</name>
+    <code>hfd</code>
+
+    <lat>52.292391</lat>
+    <long>4.697852</long>
+
+  </station>  <station>
+    <name>Hengelo</name>
+    <code>hgl</code>
+
+    <lat>52.262205</lat>
+    <long>6.793597</long>
+
+  </station>  <station>
+    <name>Hengelo Oost</name>
+    <code>hglo</code>
+
+    <lat>52.269252</lat>
+    <long>6.820484</long>
+
+  </station>  <station>
+    <name>Hoogeveen</name>
+    <code>hgv</code>
+
+    <lat>52.733599</lat>
+    <long>6.472727</long>
+
+  </station>  <station>
+    <name>Hoogezand-Sappemeer</name>
+    <code>hgz</code>
+
+    <lat>53.159832</lat>
+    <long>6.770774</long>
+
+  </station>  <station>
+    <name>Hillegom</name>
+    <code>hil</code>
+
+    <lat>52.302692</lat>
+    <long>4.566025</long>
+
+  </station>  <station>
+    <name>Heemskerk</name>
+    <code>hk</code>
+
+    <lat>52.494540</lat>
+    <long>4.685564</long>
+
+  </station>  <station>
+    <name>Hoogkarspel</name>
+    <code>hks</code>
+
+    <lat>52.690469</lat>
+    <long>5.182362</long>
+
+  </station>  <station>
+    <name>Hoek van Holland Haven</name>
+    <code>hld</code>
+
+    <lat>51.976222</lat>
+    <long>4.127639</long>
+
+  </station>  <station>
+    <name>Hoek van Holland Strand</name>
+    <code>hlds</code>
+
+    <lat>51.981885</lat>
+    <long>4.119324</long>
+
+  </station>  <station>
+    <name>Harlingen</name>
+    <code>hlg</code>
+
+    <lat>53.170421</lat>
+    <long>5.425196</long>
+
+  </station>  <station>
+    <name>Harlingen Haven</name>
+    <code>hlgh</code>
+
+    <lat>53.174916</lat>
+    <long>5.411290</long>
+
+  </station>  <station>
+    <name>Haarlem</name>
+    <code>hlm</code>
+
+    <lat>52.388108</lat>
+    <long>4.638478</long>
+
+  </station>  <station>
+    <name>Haarlem Spaarnwoude</name>
+    <code>hlms</code>
+
+    <lat>52.383002</lat>
+    <long>4.671172</long>
+
+  </station>  <station>
+    <name>Heiloo</name>
+    <code>hlo</code>
+
+    <lat>52.600145</lat>
+    <long>4.701007</long>
+
+  </station>  <station>
+    <name>Helmond</name>
+    <code>hm</code>
+
+    <lat>51.475873</lat>
+    <long>5.661693</long>
+
+  </station>  <station>
+    <name>Helmond Brouwhuis</name>
+    <code>hmbh</code>
+
+    <lat>51.471280</lat>
+    <long>5.700527</long>
+
+  </station>  <station>
+    <name>Helmond Brandevoort</name>
+    <code>hmbv</code>
+
+    <lat>51.462498</lat>
+    <long>5.608810</long>
+
+  </station>  <station>
+    <name>Helmond 't Hout</name>
+    <code>hmh</code>
+
+    <lat>51.467936</lat>
+    <long>5.630851</long>
+
+  </station>  <station>
+    <name>Hemmen-Dodewaard</name>
+    <code>hmn</code>
+
+    <lat>51.922215</lat>
+    <long>5.673721</long>
+
+  </station>  <station>
+    <name>Hoorn</name>
+    <code>hn</code>
+
+    <lat>52.645064</lat>
+    <long>5.054625</long>
+
+  </station>  <station>
+    <name>Hoorn Kersenboogerd</name>
+    <code>hnk</code>
+
+    <lat>52.653146</lat>
+    <long>5.084703</long>
+
+  </station>  <station>
+    <name>Heino</name>
+    <code>hno</code>
+
+    <lat>52.427346</lat>
+    <long>6.221434</long>
+
+  </station>  <station>
+    <name>Hindeloopen</name>
+    <code>hnp</code>
+
+    <lat>52.946491</lat>
+    <long>5.423066</long>
+
+  </station>  <station>
+    <name>Holten</name>
+    <code>hon</code>
+
+    <lat>52.284121</lat>
+    <long>6.421435</long>
+
+  </station>  <station>
+    <name>Hollandsche Rading</name>
+    <code>hor</code>
+
+    <lat>52.178093</lat>
+    <long>5.179162</long>
+
+  </station>  <station>
+    <name>Heerenveen</name>
+    <code>hr</code>
+
+    <lat>52.960694</lat>
+    <long>5.915522</long>
+
+  </station>  <station>
+    <name>Heerlen</name>
+    <code>hrl</code>
+
+    <lat>50.890613</lat>
+    <long>5.975426</long>
+
+  </station>  <station>
+    <name>Heerlen Woonboulevard</name>
+    <code>hrlw</code>
+
+    <lat>50.890613</lat>
+    <long>5.975426</long>
+
+  </station>  <station>
+    <name>Heerlen De Kissel</name>
+    <code>hrlk</code>
+
+    <lat>50.891026</lat>
+    <long>5.998313</long>
+
+  </station>  <station>
+    <name>Haren</name>
+    <code>hrn</code>
+
+    <lat>53.174889</lat>
+    <long>6.618092</long>
+
+  </station>  <station>
+    <name>Horst-Sevenum</name>
+    <code>hrt</code>
+
+    <lat>51.427071</lat>
+    <long>6.041865</long>
+
+  </station>  <station>
+    <name>Hertogenbosch ('s)</name>
+    <code>ht</code>
+
+    <lat>51.690536</lat>
+    <long>5.294790</long>
+
+  </station>  <station>
+    <name>Houten</name>
+    <code>htn</code>
+
+    <lat>52.034715</lat>
+    <long>5.168024</long>
+
+  </station>  <station>
+    <name>Houten Castellum</name>
+    <code>htnc</code>
+
+    <lat>52.017294</lat>
+    <long>5.179467</long>
+
+  </station>  <station>
+    <name>Hertogenbosch ('s) Oost</name>
+    <code>hto</code>
+
+    <lat>51.700802</lat>
+    <long>5.318494</long>
+
+  </station>  <station>
+    <name>Hilversum</name>
+    <code>hvs</code>
+
+    <lat>52.226356</lat>
+    <long>5.181283</long>
+
+  </station>  <station>
+    <name>Hilversum Noord</name>
+    <code>hvsn</code>
+
+    <lat>52.238662</lat>
+    <long>5.174047</long>
+
+  </station>  <station>
+    <name>Hilversum Sportpark</name>
+    <code>hvsp</code>
+
+    <lat>52.216396</lat>
+    <long>5.187324</long>
+
+  </station>  <station>
+    <name>Heerhugowaard</name>
+    <code>hwd</code>
+
+    <lat>52.670621</lat>
+    <long>4.824097</long>
+
+  </station>  <station>
+    <name>Heeze</name>
+    <code>hze</code>
+
+    <lat>51.385262</lat>
+    <long>5.569644</long>
+
+  </station>  <station>
+    <name>IJlst</name>
+    <code>ijt</code>
+
+    <lat>53.014665</lat>
+    <long>5.616082</long>
+
+  </station>  <station>
+    <name>Krabbendijke</name>
+    <code>kbd</code>
+
+    <lat>51.433058</lat>
+    <long>4.117365</long>
+
+  </station>  <station>
+    <name>Klarenbeek</name>
+    <code>kbk</code>
+
+    <lat>52.177832</lat>
+    <long>6.084591</long>
+
+  </station>  <station>
+    <name>Koog Bloemwijk</name>
+    <code>kbw</code>
+
+    <lat>52.457981</lat>
+    <long>4.805911</long>
+
+  </station>  <station>
+    <name>Veenendaal-De Klomp</name>
+    <code>klp</code>
+
+    <lat>52.045826</lat>
+    <long>5.573356</long>
+
+  </station>  <station>
+    <name>Krommenie-Assendelft</name>
+    <code>kma</code>
+
+    <lat>52.495106</lat>
+    <long>4.754178</long>
+
+  </station>  <station>
+    <name>Klimmen-Ransdaal</name>
+    <code>kmr</code>
+
+    <lat>50.866648</lat>
+    <long>5.890316</long>
+
+  </station>  <station>
+    <name>Koudum-Molkwerum</name>
+    <code>kmw</code>
+
+    <lat>52.902821</lat>
+    <long>5.410688</long>
+
+  </station>  <station>
+    <name>Kampen</name>
+    <code>kpn</code>
+
+    <lat>52.559757</lat>
+    <long>5.921769</long>
+
+  </station>  <station>
+    <name>Kerkrade Centrum</name>
+    <code>krd</code>
+
+    <lat>50.861128</lat>
+    <long>6.057282</long>
+
+  </station>  <station>
+    <name>Kruiningen-Yerseke</name>
+    <code>krg</code>
+
+    <lat>51.465320</lat>
+    <long>4.036444</long>
+
+  </station>  <station>
+    <name>Kesteren</name>
+    <code>ktr</code>
+
+    <lat>51.931384</lat>
+    <long>5.583343</long>
+
+  </station>  <station>
+    <name>Kropswolde</name>
+    <code>kw</code>
+
+    <lat>53.161737</lat>
+    <long>6.722088</long>
+
+  </station>  <station>
+    <name>Koog-Zaandijk</name>
+    <code>kzd</code>
+
+    <lat>52.468408</lat>
+    <long>4.805336</long>
+
+  </station>  <station>
+    <name>Den Haag Laan v NOI</name>
+    <code>laa</code>
+
+    <lat>52.079364</lat>
+    <long>4.343425</long>
+
+  </station>  <station>
+    <name>Lochem</name>
+    <code>lc</code>
+
+    <lat>52.165607</lat>
+    <long>6.426136</long>
+
+  </station>  <station>
+    <name>Leiden Lammenschans</name>
+    <code>ldl</code>
+
+    <lat>52.146747</lat>
+    <long>4.492628</long>
+
+  </station>  <station>
+    <name>Leerdam</name>
+    <code>ldm</code>
+
+    <lat>51.894510</lat>
+    <long>5.093449</long>
+
+  </station>  <station>
+    <name>Leiden Centraal</name>
+    <code>ledn</code>
+
+    <lat>52.166542</lat>
+    <long>4.483028</long>
+
+  </station>  <station>
+    <name>Landgraaf</name>
+    <code>lg</code>
+    <lat>50.896492</lat>
+    <long>6.019563</long>
+  </station>  <station>
+    <name>Lelystad Centrum</name>
+    <code>lls</code>
+    <lat>52.507907</lat>
+    <long>5.472785</long>
+  </station>  <station>
+    <name>Loppersum</name>
+    <code>lp</code>
+    <lat>53.334717</lat>
+    <long>6.747258</long>
+  </station>  <station>
+    <name>Lunteren</name>
+    <code>ltn</code>
+    <lat>52.085189</lat>
+    <long>5.623993</long>
+  </station>  <station>
+    <name>Lichtenvoorde-Groenlo</name>
+    <code>ltv</code>
+    <lat>52.012538</lat>
+    <long>6.594621</long>
+  </station>  <station>
+    <name>Geleen-Lutterade</name>
+    <code>lut</code>
+    <lat>50.975318</lat>
+    <long>5.825009</long>
+  </station>  <station>
+    <name>Leeuwarden</name>
+    <code>lw</code>
+    <lat>53.196517</lat>
+    <long>5.792711</long>
+  </station>  <station>
+    <name>Leeuwarden Camminghaburen</name>
+    <code>lwc</code>
+    <lat>53.202180</lat>
+    <long>5.842296</long>
+  </station>  <station>
+    <name>Maarssen</name>
+    <code>mas</code>
+    <lat>52.135592</lat>
+    <long>5.033150</long>
+  </station>  <station>
+    <name>Middelburg</name>
+    <code>mdb</code>
+    <lat>51.495245</lat>
+    <long>3.618176</long>
+  </station>  <station>
+    <name>Meerssen</name>
+    <code>mes</code>
+    <lat>50.882720</lat>
+    <long>5.750813</long>
+  </station>  <station>
+    <name>Mantgum</name>
+    <code>mg</code>
+    <lat>53.129637</lat>
+    <long>5.713202</long>
+  </station>  <station>
+    <name>Mook Molenhoek</name>
+    <code>mmlh</code>
+    <lat>51.749964</lat>
+    <long>5.749959</long>
+  </station>  <station>
+    <name>Meppel</name>
+    <code>mp</code>
+    <lat>52.691925</lat>
+    <long>6.197612</long>
+  </station>  <station>
+    <name>Mariënberg</name>
+    <code>mrb</code>
+    <lat>52.509004</lat>
+    <long>6.574296</long>
+  </station>
+  <station>
+    <name>Maarheeze</name>
+    <code>MZ</code>
+    <lat>51.30376</lat>
+    <long>5.630343</long>
+  </station>
+  <station>
+    <name>Maarn</name>
+    <code>mrn</code>
+    <lat>52.064487</lat>
+    <long>5.370434</long>
+  </station>  <station>
+    <name>Maassluis</name>
+    <code>mss</code>
+    <lat>51.916740</lat>
+    <long>4.253587</long>
+  </station>  <station>
+    <name>Maassluis West</name>
+    <code>msw</code>
+    <lat>51.925999</lat>
+    <long>4.235762</long>
+  </station>  <station>
+    <name>Maastricht</name>
+    <code>mt</code>
+    <lat>50.849955</lat>
+    <long>5.705543</long>
+  </station>  <station>
+    <name>Martenshoek</name>
+    <code>mth</code>
+    <lat>53.160722</lat>
+    <long>6.740300</long>
+  </station>  <station>
+    <name>Maastricht Randwyck</name>
+    <code>mtr</code>
+    <lat>50.837792</lat>
+    <long>5.717669</long>
+
+  </station>  <station>
+    <name>Nieuw Amsterdam</name>
+    <code>na</code>
+
+    <lat>52.718515</lat>
+    <long>6.848755</long>
+
+  </station>  <station>
+    <name>Naarden-Bussum</name>
+    <code>ndb</code>
+
+    <lat>52.280956</lat>
+    <long>5.156994</long>
+
+  </station>  <station>
+    <name>Nuth</name>
+    <code>nh</code>
+
+    <lat>50.920124</lat>
+    <long>5.892186</long>
+
+  </station>  <station>
+    <name>Nijkerk</name>
+    <code>nkk</code>
+
+    <lat>52.222356</lat>
+    <long>5.493892</long>
+
+  </station>  <station>
+    <name>Nijmegen</name>
+    <code>nm</code>
+
+    <lat>51.843263</lat>
+    <long>5.853020</long>
+
+  </station>  <station>
+    <name>Nijmegen Dukenburg</name>
+    <code>nmd</code>
+    <lat>51.823882</lat>
+    <long>5.795084</long>
+  </station>  <station>
+    <name>Nijmegen Heyendaal</name>
+    <code>nmh</code>
+    <lat>51.826749</lat>
+    <long>5.867501</long>
+  </station>  <station>
+    <name>Nijmegen Lent</name>
+    <code>nml</code>
+    <lat>51.864001</lat>
+    <long>5.859474</long>
+  </station>  <station>
+    <name>Nunspeet</name>
+    <code>ns</code>
+    <lat>52.371019</lat>
+    <long>5.784693</long>
+  </station>  <station>
+    <name>Nieuweschans</name>
+    <code>nsch</code>
+    <lat>53.185208</lat>
+    <long>7.200233</long>
+  </station>  <station>
+    <name>Nijverdal</name>
+    <code>nvd</code>
+    <lat>52.365653</lat>
+    <long>6.470174</long>
+  </station>  <station>
+    <name>Nijverdal West</name>
+    <code>nvdw</code>
+    <lat>52.350020</lat>
+    <long>6.449976</long>
+  </station>  <station>
+    <name>Nieuw Vennep</name>
+    <code>nvp</code>
+    <lat>52.259175</lat>
+    <long>4.645778</long>
+  </station>  <station>
+    <name>Nieuwerkerk ad IJssel</name>
+    <code>nwk</code>
+    <lat>51.965336</lat>
+    <long>4.616733</long>
+  </station>  <station>
+    <name>Schiedam Nieuwland</name>
+    <code>nwl</code>
+    <lat>51.922862</lat>
+    <long>4.383697</long>
+  </station>  <station>
+    <name>Oss</name>
+    <code>o</code>
+    <lat>51.764913</lat>
+    <long>5.529606</long>
+  </station>  <station>
+    <name>Obdam</name>
+    <code>obd</code>
+    <lat>52.678001</lat>
+    <long>4.909170</long>
+  </station>  <station>
+    <name>Oudenbosch</name>
+    <code>odb</code>
+    <lat>51.587771</lat>
+    <long>4.533107</long>
+  </station>  <station>
+    <name>Oldenzaal</name>
+    <code>odz</code>
+    <lat>52.306297</lat>
+    <long>6.933712</long>
+  </station>  <station>
+    <name>Ommen</name>
+    <code>omn</code>
+    <lat>52.509930</lat>
+    <long>6.417731</long>
+  </station>  <station>
+    <name>Opheusden</name>
+    <code>op</code>
+    <lat>51.926161</lat>
+    <long>5.637117</long>
+  </station>  <station>
+    <name>Olst</name>
+    <code>ost</code>
+    <lat>52.335755</lat>
+    <long>6.113330</long>
+  </station>  <station>
+    <name>Oisterwijk</name>
+    <code>ot</code>
+    <lat>51.582009</lat>
+    <long>5.193580</long>
+  </station>  <station>
+    <name>Oosterbeek</name>
+    <code>otb</code>
+    <lat>51.994488</lat>
+    <long>5.841190</long>
+  </station>  <station>
+    <name>Overveen</name>
+    <code>ovn</code>
+    <lat>52.390966</lat>
+    <long>4.607582</long>
+  </station>  <station>
+    <name>Oss West</name>
+    <code>ow</code>
+    <lat>51.758288</lat>
+    <long>5.506845</long>
+  </station>  <station>
+    <name>Purmerend Overwhere</name>
+    <code>pmo</code>
+    <lat>52.511422</lat>
+    <long>4.967690</long>
+  </station>  <station>
+    <name>Purmerend</name>
+    <code>pmr</code>
+    <lat>52.503826</lat>
+    <long>4.954206</long>
+  </station>  <station>
+    <name>Purmerend Weidevenne</name>
+    <code>pmw</code>
+    <lat>52.497291</lat>
+    <long>4.938071</long>
+  </station>  <station>
+    <name>Putten</name>
+    <code>pt</code>
+    <lat>52.265576</lat>
+    <long>5.575882</long>
+  </station>  <station>
+    <name>Amsterdam RAI</name>
+    <code>rai</code>
+    <lat>52.337301</lat>
+    <long>4.889511</long>
+  </station>  <station>
+    <name>Raalte</name>
+    <code>rat</code>
+    <lat>52.390984</lat>
+    <long>6.278335</long>
+  </station>  <station>
+    <name>Rilland-Bath</name>
+    <code>rb</code>
+    <lat>51.422190</lat>
+    <long>4.160369</long>
+  </station>  <station>
+    <name>Roodeschool</name>
+    <code>rd</code>
+    <lat>53.419215</lat>
+    <long>6.760616</long>
+  </station>  <station>
+    <name>Rheden</name>
+    <code>rh</code>
+    <lat>52.010228</lat>
+    <long>6.031285</long>
+  </station>  <station>
+    <name>Rhenen</name>
+    <code>rhn</code>
+    <lat>51.957551</lat>
+    <long>5.577932</long>
+  </station>  <station>
+    <name>Ruurlo</name>
+    <code>rl</code>
+    <lat>52.081090</lat>
+    <long>6.449265</long>
+  </station>  <station>
+    <name>Rotterdam Lombardijen</name>
+    <code>rlb</code>
+    <lat>51.879984</lat>
+    <long>4.530761</long>
+  </station>  <station>
+    <name>Roermond</name>
+    <code>rm</code>
+    <lat>51.193172</lat>
+    <long>5.994465</long>
+  </station>  <station>
+    <name>Rosmalen</name>
+    <code>rs</code>
+    <lat>51.715202</lat>
+    <long>5.369113</long>
+  </station>  <station>
+    <name>Roosendaal</name>
+    <code>rsd</code>
+    <lat>51.540470</lat>
+    <long> 4.459323</long>
+  </station>  <station>
+    <name>Rijssen</name>
+    <code>rsn</code>
+    <lat>52.311897</lat>
+    <long>6.519309</long>
+  </station>  <station>
+    <name>Rijswijk</name>
+    <code>rsw</code>
+    <lat>52.039605</lat>
+    <long>4.319721</long>
+  </station>  <station>
+    <name>Rotterdam Alexander</name>
+    <code>rta</code>
+    <lat>51.951412</lat>
+    <long>4.551948</long>
+  </station>  <station>
+    <name>Rotterdam Blaak</name>
+    <code>rtb</code>
+    <lat>51.919851</lat>
+    <long>4.489159</long>
+  </station>  <station>
+    <name>Rotterdam Centraal</name>
+    <code>rtd</code>
+    <lat>51.925091</lat>
+    <long>4.469427</long>
+  </station>  <station>
+    <name>Rotterdam Noord</name>
+    <code>rtn</code>
+
+    <lat>51.942081</lat>
+    <long>4.481149</long>
+
+  </station>   <station>
+    <name>Rotterdam Zuid</name>
+    <code>rtz</code>
+
+    <lat>51.902852</lat>
+    <long>4.511587</long>
+
+  </station>  <station>
+    <name>Reuver</name>
+    <code>rv</code>
+
+    <lat>51.283217</lat>
+    <long>6.079224</long>
+
+  </station>  <station>
+    <name>Ravenstein</name>
+    <code>rvs</code>
+
+    <lat>51.794478</lat>
+    <long>5.636820</long>
+
+  </station>  <station>
+    <name>Spaubeek</name>
+    <code>sbk</code>
+
+    <lat>50.943317</lat>
+    <long>5.849613</long>
+
+  </station>  <station>
+    <name>Soestdijk</name>
+    <code>sd</code>
+
+    <lat>52.183900</lat>
+    <long>5.299617</long>
+
+  </station>  <station>
+    <name>Scheemda</name>
+    <code>sda</code>
+
+    <lat>53.165540</lat>
+    <long>6.977777</long>
+
+  </station>  <station>
+    <name>Schiedam Centrum</name>
+    <code>sdm</code>
+
+    <lat>51.921640</lat>
+    <long>4.409307</long>
+
+  </station>  <station>
+    <name>Sliedrecht</name>
+    <code>sdt</code>
+
+    <lat>51.829752</lat>
+    <long>4.777910</long>
+
+  </station>
+
+  <station>
+    <name>Sliedrecht Baanhoek</name>
+    <code>SDTB</code>
+    <lat>51.825645</lat>
+    <long>4.7415447</long>
+  </station>
+  
+  <station>
+    <name>Houthem-St Gerlach</name>
+    <code>sgl</code>
+
+    <lat>50.873578</lat>
+    <long>5.796487</long>
+
+  </station>  <station>
+    <name>Schagen</name>
+    <code>sgn</code>
+
+    <lat>52.785296</lat>
+    <long>4.805129</long>
+
+  </station>  <station>
+    <name>Schiphol</name>
+    <code>shl</code>
+    <lat>52.308293</lat>
+    <long>4.762269</long>
+  </station>  <station>
+    <name>Sneek</name>
+    <code>sk</code>
+    <lat>53.032473</lat>
+    <long>5.652399</long>
+  </station>  <station>
+    <name>Sneek Noord</name>
+    <code>sknd</code>
+
+    <lat>53.040536</lat>
+    <long>5.663177</long>
+
+  </station>  <station>
+    <name>Swalmen</name>
+    <code>sm</code>
+    <lat>51.235034</lat>
+    <long>6.031815</long>
+  </station>  <station>
+    <name>Schinnen</name>
+    <code>sn</code>
+    <lat>50.938804</lat>
+    <long>5.875879</long>
+  </station>  <station>
+    <name>Schin op Geul</name>
+    <code>sog</code>
+    <lat>50.856121</lat>
+    <long>5.871888</long>
+  </station>  <station>
+    <name>Sappemeer Oost</name>
+    <code>spm</code>
+    <lat>53.158915</lat>
+    <long>6.795566</long>
+  </station>  <station>
+    <name>Santpoort Noord</name>
+    <code>sptn</code>
+    <lat>52.433638</lat>
+    <long>4.632716</long>
+
+  </station>  <station>
+    <name>Santpoort Zuid</name>
+    <code>sptz</code>
+
+    <lat>52.419426</lat>
+    <long>4.631188</long>
+
+  </station>
+
+  <station>
+    <name>Sassenheim</name>
+    <code>SSH</code>
+    <lat>52.218334</lat>
+    <long>4.531002</long>
+  </station>
+  
+  <station>
+    <name>Susteren</name>
+    <code>srn</code>
+
+    <lat>51.060752</lat>
+    <long>5.862629</long>
+
+  </station>  <station>
+    <name>Soest</name>
+    <code>st</code>
+
+    <lat>52.172852</lat>
+    <long>5.310314</long>
+
+  </station>  <station>
+    <name>Sittard</name>
+    <code>std</code>
+
+    <lat>51.002421</lat>
+    <long>5.859456</long>
+
+  </station>  <station>
+    <name>Stedum</name>
+    <code>stm</code>
+
+    <lat>53.326204</lat>
+    <long>6.687551</long>
+
+  </station>  <station>
+    <name>Stavoren</name>
+    <code>stv</code>
+
+    <lat>52.886551</lat>
+    <long>5.360024</long>
+
+  </station>  <station>
+    <name>Soest Zuid</name>
+    <code>stz</code>
+
+    <lat>52.165391</lat>
+    <long>5.303455</long>
+
+  </station>  <station>
+    <name>Sauwerd</name>
+    <code>swd</code>
+
+    <lat>53.291676</lat>
+    <long>6.540290</long>
+
+  </station>  <station>
+    <name>Steenwijk</name>
+    <code>swk</code>
+
+    <lat>52.790950</lat>
+    <long>6.116718</long>
+
+  </station>  <station>
+    <name>Tilburg</name>
+    <code>tb</code>
+
+    <lat>51.560381</lat>
+    <long>5.083930</long>
+
+  </station>  <station>
+    <name>Terborg</name>
+    <code>tbg</code>
+
+    <lat>51.922458</lat>
+    <long>6.364245</long>
+
+  </station>  <station>
+    <name>Tilburg Reeshof</name>
+    <code>tbr</code>
+
+    <lat>51.573865</lat>
+    <long>4.993112</long>
+
+  </station>  <station>
+    <name>Tilburg Universiteit</name>
+    <code>tbu</code>
+
+    <lat>51.565064</lat>
+    <long>5.052027</long>
+
+  </station>  <station>
+    <name>Tegelen</name>
+    <code>tg</code>
+
+    <lat>51.339264</lat>
+    <long>6.143362</long>
+
+  </station>  <station>
+    <name>Tiel</name>
+    <code>tl</code>
+
+    <lat>51.889566</lat>
+    <long>5.423084</long>
+
+  </station>  <station>
+    <name>Tiel Passewaaij</name>
+    <code>tpsw</code>
+
+    <lat>51.874114</lat>
+    <long>5.392574</long>
+
+  </station>  <station>
+    <name>Twello</name>
+    <code>twl</code>
+
+    <lat>52.238752</lat>
+    <long>6.101940</long>
+
+  </station>  <station>
+    <name>Uithuizermeeden</name>
+    <code>uhm</code>
+
+    <lat>53.414181</lat>
+    <long>6.720299</long>
+
+  </station>  <station>
+    <name>Uithuizen</name>
+    <code>uhz</code>
+
+    <lat>53.409552</lat>
+    <long>6.674886</long>
+
+  </station>  <station>
+    <name>Usquert</name>
+    <code>ust</code>
+
+    <lat>53.401075</lat>
+    <long>6.609381</long>
+
+  </station>  <station>
+    <name>Utrecht Centraal</name>
+    <code>ut</code>
+
+    <lat>52.089774</lat>
+    <long>5.110996</long>
+
+  </station>  <station>
+    <name>Uitgeest</name>
+    <code>utg</code>
+
+    <lat>52.522047</lat>
+    <long>4.702374</long>
+
+  </station>  <station>
+    <name>Utrecht Lunetten</name>
+    <code>utl</code>
+
+    <lat>52.065943</lat>
+    <long>5.143519</long>
+
+  </station>  <station>
+    <name>Utrecht Maliebaan</name>
+    <code>utm</code>
+
+    <lat>52.087940</lat>
+    <long>5.131141</long>
+
+  </station>  <station>
+    <name>Utrecht Overvecht</name>
+    <code>uto</code>
+
+    <lat>52.110395</lat>
+    <long>5.125172</long>
+
+  </station>  <station>
+    <name>Utrecht Terwijde</name>
+    <code>utt</code>
+
+    <lat>52.100651</lat>
+    <long>5.040431</long>
+
+  </station>  <station>
+    <name>Utrecht Zuilen</name>
+    <code>utzl</code>
+
+    <lat>52.103213</lat>
+    <long>5.089746</long>
+
+  </station>  <station>
+    <name>Voorburg</name>
+    <code>vb</code>
+
+    <lat>52.066294</lat>
+    <long>4.359480</long>
+
+  </station>  <station>
+    <name>Vorden</name>
+    <code>vd</code>
+
+    <lat>52.107195</lat>
+    <long>6.317043</long>
+
+  </station>  <station>
+    <name>Vlaardingen Centrum</name>
+    <code>vdg</code>
+
+    <lat>51.903553</lat>
+    <long>4.344603</long>
+
+  </station>  <station>
+    <name>Voerendaal</name>
+    <code>vdl</code>
+
+    <lat>50.886693</lat>
+    <long>5.929617</long>
+
+  </station>  <station>
+    <name>Vlaardingen Oost</name>
+    <code>vdo</code>
+
+    <lat>51.910358</lat>
+    <long>4.361449</long>
+
+  </station>  <station>
+    <name>Vlaardingen West</name>
+    <code>vdw</code>
+
+    <lat>51.904102</lat>
+    <long>4.314795</long>
+
+  </station>  <station>
+    <name>Voorst-Empe</name>
+    <code>vem</code>
+
+    <lat>52.157696</lat>
+    <long>6.143461</long>
+
+  </station>  <station>
+    <name>Vught</name>
+    <code>vg</code>
+
+    <lat>51.655658</lat>
+    <long>5.291679</long>
+
+  </station>  <station>
+    <name>Voorhout</name>
+    <code>vh</code>
+
+    <lat>52.223902</lat>
+    <long>4.484493</long>
+
+  </station>  <station>
+    <name>Vroomshoop</name>
+    <code>vhp</code>
+
+    <lat>52.457190</lat>
+    <long>6.569667</long>
+
+  </station>  <station>
+    <name>Valkenburg</name>
+    <code>vk</code>
+
+    <lat>50.869227</lat>
+    <long>5.832812</long>
+
+  </station>  <station>
+    <name>Veendam</name>
+    <code>vdm</code>
+
+    <lat>53.105116</lat>
+    <long>6.887011</long>
+
+  </station>  <station>
+    <name>Venlo</name>
+    <code>vl</code>
+
+    <lat>51.364974</lat>
+    <long>6.171643</long>
+
+  </station>  <station>
+    <name>Vierlingsbeek</name>
+    <code>vlb</code>
+
+    <lat>51.591906</lat>
+    <long>5.997198</long>
+
+  </station>  <station>
+    <name>Veenendaal Centrum</name>
+    <code>vndc</code>
+
+    <lat>52.019883</lat>
+    <long>5.548915</long>
+
+  </station>  <station>
+    <name>Veenendaal West</name>
+    <code>vndw</code>
+
+    <lat>52.027811</lat>
+    <long>5.532914</long>
+
+  </station>  <station>
+    <name>Velp</name>
+    <code>vp</code>
+
+    <lat>51.995576</lat>
+    <long>5.981575</long>
+
+  </station>  <station>
+    <name>Venray</name>
+    <code>vry</code>
+
+    <lat>51.526465</lat>
+    <long>6.014187</long>
+
+  </station>  <station>
+    <name>Vlissingen</name>
+    <code>vs</code>
+
+    <lat>51.444456</lat>
+    <long>3.595253</long>
+
+  </station>  <station>
+    <name>Vlissingen Souburg</name>
+    <code>vss</code>
+
+    <lat>51.464691</lat>
+    <long>3.595325</long>
+
+  </station>  <station>
+    <name>Voorschoten</name>
+    <code>vst</code>
+
+    <lat>52.126063</lat>
+    <long>4.433605</long>
+
+  </station>  <station>
+    <name>Varsseveld</name>
+    <code>vsv</code>
+
+    <lat>51.937182</lat>
+    <long>6.458659</long>
+
+  </station>  <station>
+    <name>Vleuten</name>
+    <code>vtn</code>
+
+    <lat>52.102889</lat>
+    <long>5.009769</long>
+
+  </station>  <station>
+    <name>Veenwouden</name>
+    <code>vwd</code>
+
+    <lat>53.234784</lat>
+    <long>5.988658</long>
+
+  </station>  <station>
+    <name>Vriezenveen</name>
+    <code>vz</code>
+
+    <lat>52.401052</lat>
+    <long>6.601525</long>
+
+  </station>  <station>
+    <name>Waddinxveen</name>
+    <code>wad</code>
+
+    <lat>52.044738</lat>
+    <long>4.650065</long>
+
+  </station>  <station>
+    <name>Waddinxveen Noord</name>
+    <code>wadn</code>
+
+    <lat>52.055336</lat>
+    <long>4.648429</long>
+
+  </station>  <station>
+    <name>Wijchen</name>
+    <code>wc</code>
+
+    <lat>51.811234</lat>
+    <long>5.730155</long>
+
+  </station>  <station>
+    <name>Woerden</name>
+    <code>wd</code>
+
+    <lat>52.085018</lat>
+    <long>4.892909</long>
+
+  </station>  <station>
+    <name>Wierden</name>
+    <code>wdn</code>
+
+    <lat>52.361509</lat>
+    <long>6.592365</long>
+
+  </station>  <station>
+    <name>Wolfheze</name>
+    <code>wf</code>
+
+    <lat>52.005994</lat>
+    <long>5.792666</long>
+
+  </station>  <station>
+    <name>Warffum</name>
+    <code>wfm</code>
+
+    <lat>53.390441</lat>
+    <long>6.567132</long>
+
+  </station>  <station>
+    <name>Wijhe</name>
+    <code>wh</code>
+
+    <lat>52.390948</lat>
+    <long>6.141565</long>
+
+  </station>  <station>
+    <name>Workum</name>
+    <code>wk</code>
+
+    <lat>52.972083</lat>
+    <long>5.456425</long>
+
+  </station>  <station>
+    <name>Wehl</name>
+    <code>wl</code>
+
+    <lat>51.957408</lat>
+    <long>6.213847</long>
+
+  </station>  <station>
+    <name>Wormerveer</name>
+    <code>wm</code>
+
+    <lat>52.489461</lat>
+    <long>4.793273</long>
+
+  </station>  <station>
+    <name>Weesp</name>
+    <code>wp</code>
+
+    <lat>52.312140</lat>
+    <long>5.044206</long>
+
+  </station>  <station>
+    <name>Winschoten</name>
+    <code>ws</code>
+
+    <lat>53.139237</lat>
+    <long>7.035101</long>
+
+  </station>  <station>
+    <name>Winsum</name>
+    <code>wsm</code>
+
+    <lat>53.329701</lat>
+    <long>6.520289</long>
+
+  </station>  <station>
+    <name>Weert</name>
+    <code>wt</code>
+
+    <lat>51.249067</lat>
+    <long>5.704024</long>
+
+  </station>  <station>
+    <name>Wolvega</name>
+    <code>wv</code>
+
+    <lat>52.880015</lat>
+    <long>6.005009</long>
+
+  </station>  <station>
+    <name>Winterswijk</name>
+    <code>ww</code>
+
+    <lat>51.967727</lat>
+    <long>6.715517</long>
+
+  </station>  <station>
+    <name>Winterswijk West</name>
+    <code>www</code>
+
+    <lat>51.975062</lat>
+    <long>6.702923</long>
+
+  </station>  <station>
+    <name>Wezep</name>
+    <code>wz</code>
+
+    <lat>52.453675</lat>
+    <long>6.001692</long>
+
+  </station>
+
+  <station>
+    <name>Westervoort</name>
+    <code>WTV</code>
+    <lat>51.960583</lat>
+    <long>5.9735584</long>
+  </station>
+  
+  <station>
+    <name>Den Haag Ypenburg</name>
+    <code>ypb</code>
+
+    <lat>52.055165</lat>
+    <long>4.392983</long>
+
+  </station>
+  <station>
+    <name>Zetten-Andelst</name>
+    <code>za</code>
+
+    <lat>51.919653</lat>
+    <long>5.722838</long>
+
+  </station>  <station>
+    <name>Zuidbroek</name>
+    <code>zb</code>
+
+    <lat>53.159571</lat>
+    <long>6.867956</long>
+
+  </station>  <station>
+    <name>Zaltbommel</name>
+    <code>zbm</code>
+
+    <lat>51.807989</lat>
+    <long>5.263085</long>
+
+  </station>  <station>
+    <name>Zaandam</name>
+    <code>zd</code>
+
+    <lat>52.438429</lat>
+    <long>4.813813</long>
+
+  </station>  <station>
+    <name>Zaandam Kogerveld</name>
+    <code>zdk</code>
+
+    <lat>52.456615</lat>
+    <long>4.819755</long>
+
+  </station>  <station>
+    <name>Zuidhorn</name>
+    <code>zh</code>
+
+    <lat>53.248232</lat>
+    <long>6.406234</long>
+
+  </station>  <station>
+    <name>Zwolle</name>
+    <code>zl</code>
+
+    <lat>52.505588</lat>
+    <long>6.089760</long>
+
+  </station>  <station>
+    <name>Lage Zwaluwe</name>
+    <code>zlw</code>
+
+    <lat>51.690500</lat>
+    <long>4.663648</long>
+
+  </station>  <station>
+    <name>Zutphen</name>
+    <code>zp</code>
+
+    <lat>52.144680</lat>
+    <long>6.194223</long>
+
+  </station>  <station>
+    <name>Zoetermeer</name>
+    <code>ztm</code>
+
+    <lat>52.047498</lat>
+    <long>4.478138</long>
+  </station>  <station>
+    <name>Zoetermeer Oost</name>
+    <code>ztmo</code>
+    <lat>52.046527</lat>
+    <long>4.492449</long>
+  </station>  <station>
+    <name>Zevenaar</name>
+    <code>zv</code>
+    <lat>51.922889</lat>
+    <long>6.073651</long>
+  </station>  <station>
+    <name>Zevenbergen</name>
+    <code>zvb</code>
+    <lat>51.641796</lat>
+    <long>4.610252</long>
+  </station>  <station>
+    <name>Zandvoort aan Zee</name>
+    <code>zvt</code>
+    <lat>52.375873</lat>
+    <long>4.531039</long>
+  </station>  <station>
+    <name>Zwijndrecht</name>
+    <code>zwd</code>
+    <lat>51.815657</lat>
+    <long>4.640905</long>
+  </station>  <station>
+    <name>Zwaagwesteinde</name>
+    <code>zww</code>
+    <lat>53.248825</lat>
+    <long>6.035303</long>
+  </station>
+</stations>

@@ -1,0 +1,109 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="ActueelNS.Views.Donate"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+   xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+                           xmlns:cmd="clr-namespace:GalaSoft.MvvmLight.Command;assembly=GalaSoft.MvvmLight.Extras.WP8"
+                            
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    xmlns:converters="clr-namespace:ActueelNS.Converters"
+                            SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    x:Name="control"
+    DataContext="{Binding DonateViewModel,
+                                                  Source={StaticResource Locator}}"
+                                shell:SystemTray.BackgroundColor="{StaticResource SysTrayBackgroundColor}"
+                            shell:SystemTray.ForegroundColor="{StaticResource SysTrayForegroundColor}"
+                            shell:SystemTray.IsVisible="True"
+                            Style="{StaticResource TransitionPageStyle}">
+
+    <phone:PhoneApplicationPage.Resources>
+        <converters:VisibilityConverter x:Key="Vis" />
+        <converters:InverseVisibilityConverter x:Key="InverseVis" />
+    </phone:PhoneApplicationPage.Resources>
+    
+    <Grid Margin="0,-1,0,0" x:Name="LayoutRoot" Background="{StaticResource BackgroundColor}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!--  TitlePanel contains the name of the application and page title  -->
+        <StackPanel x:Name="TitlePanel"
+                    Grid.Row="0"
+                    Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationTitle"
+                       Style="{StaticResource PhoneTextNormalStyleCustom}"
+                       Text="{Binding ApplicationTitle}" />
+            <TextBlock x:Name="PageTitle"
+                       Margin="9,-7,0,0"
+                       Style="{StaticResource PhoneTextTitle1StyleCustom}"
+                       Text="{Binding Path=LocalizedResources.DonateTitle, Source={StaticResource LocalizedStrings}}" />
+        </StackPanel>
+
+        <!--  ContentPanel - place additional content here  -->
+        <Grid x:Name="ContentPanel"
+              Grid.Row="1"
+              Margin="12,0,12,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            
+            <StackPanel>
+                <TextBlock TextWrapping="Wrap" Margin="24,0,0,0" 
+                           Style="{StaticResource PhoneTextNormalStyleCustom}" Text="{Binding Path=LocalizedResources.DonateIntro, Source={StaticResource LocalizedStrings}}"></TextBlock>
+            </StackPanel>
+
+
+            <TextBlock Grid.Row="1" Margin="24,24,0,0" TextWrapping="Wrap" Text="{Binding Path=LocalizedResources.DonateError, Source={StaticResource LocalizedStrings}}" Style="{StaticResource PhoneTextNormalStyleCustom}" Visibility="{Binding IsError, Converter={StaticResource Vis}}" />
+            <ProgressBar Grid.Row="1" Margin="24,24,24,0" IsIndeterminate="{Binding IsBusy}" Visibility="{Binding IsBusy, Converter={StaticResource Vis}}" />
+
+
+            <TextBlock Grid.Row="2" Margin="368,24,0,0" Text="{Binding Path=LocalizedResources.DonatePrice, Source={StaticResource LocalizedStrings}}" Style="{StaticResource PhoneTextNormalStyleCustom}"
+                       Visibility="{Binding AvailableProducts, Converter={StaticResource Vis}}"/>
+            <ListBox x:Name="MainListBox"
+                     Margin="24,0,0,0"
+                     Grid.Row="3"
+                     ItemsSource="{Binding AvailableProducts}">
+                <ListBox.ItemContainerStyle>
+                    <Style TargetType="ListBoxItem">
+                        <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                    </Style>
+                </ListBox.ItemContainerStyle>
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="Tap">
+                                    <cmd:EventToCommand Command="{Binding ElementName=control, Path=DataContext.TapCommand}" CommandParameter="{Binding ProductListing.ProductId}" />
+                                </i:EventTrigger>
+                            </i:Interaction.Triggers>
+
+                            <Image VerticalAlignment="Center" Width="48" Height="48" Source="/Images/shop.png" Visibility="{Binding Purchased, Converter={StaticResource InverseVis}}" />
+                            <Image VerticalAlignment="Center" Width="48" Height="48" Source="/Images/checkbox.png" Visibility="{Binding Purchased, Converter={StaticResource Vis}}" />
+
+                            <Image Width="120" Height="120" Source="{Binding ProductListing.ImageUri}" />
+                            <TextBlock VerticalAlignment="Center" Style="{StaticResource PhoneTextNormalStyleCustom}" Text="{Binding ProductListing.Name}" Width="150" TextWrapping="NoWrap" />
+                            <TextBlock VerticalAlignment="Center" Style="{StaticResource PhoneTextNormalStyleCustom}" Width="50" Text="{Binding ProductListing.FormattedPrice}" />
+
+
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+
+
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>

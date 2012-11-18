@@ -1,0 +1,314 @@
+﻿<phone:PhoneApplicationPage x:Class="ActueelNS.Views.Prijs"
+                            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                            xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                            xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+                            xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+                            xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+                            x:Name="control"
+                            d:DesignHeight="768"
+                            d:DesignWidth="480"
+                            DataContext="{Binding PrijsViewModel,
+                                                  Source={StaticResource Locator}}"
+                            FontFamily="{StaticResource PhoneFontFamilyNormal}"
+                            FontSize="{StaticResource PhoneFontSizeNormal}"
+                            Foreground="{StaticResource PhoneForegroundBrush}"
+                            Orientation="Portrait"
+                            shell:SystemTray.BackgroundColor="{StaticResource SysTrayBackgroundColor}"
+                            shell:SystemTray.ForegroundColor="{StaticResource SysTrayForegroundColor}"
+                            shell:SystemTray.IsVisible="True"
+                            Style="{StaticResource TransitionPageStyle}"
+                            SupportedOrientations="Portrait"
+                            mc:Ignorable="d">
+
+    <Grid Margin="0,-1,0,0" x:Name="LayoutRoot" Background="{StaticResource BackgroundColor}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!--  TitlePanel contains the name of the application and page title  -->
+        <StackPanel x:Name="TitlePanel"
+                    Grid.Row="0"
+                    Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationTitle"
+                       Style="{StaticResource PhoneTextNormalStyleCustom}"
+                       Text="{Binding ApplicationTitle}" />
+            <TextBlock x:Name="PageTitle"
+                       Margin="9,-7,0,0"
+                       Style="{StaticResource PhoneTextTitle1StyleCustom}"
+                       Text="{Binding PageName}" />
+        </StackPanel>
+
+        <!--  ContentPanel - place additional content here  -->
+        <Grid x:Name="ContentPanel"
+              Grid.Row="1"
+              Margin="12,0,12,0">
+
+            <StackPanel x:Name="LoaderStackPanel"
+                        Height="40"
+                        VerticalAlignment="Top"
+                        Background="{StaticResource BackgroundColor}"
+                        Visibility="Collapsed">
+                <TextBlock Margin="24,0,0,0"
+                           Style="{StaticResource PhoneTextNormalStyleCustom}"
+                           Text="{Binding Path=LocalizedResources.PrijsLoading,
+                                          Source={StaticResource LocalizedStrings}}" />
+                <toolkit:PerformanceProgressBar x:Name="_performanceProgressBar" VerticalAlignment="Top" />
+            </StackPanel>
+
+            <StackPanel x:Name="GeenDataPanel"
+                        VerticalAlignment="Top"
+                        Background="{StaticResource BackgroundColor}"
+                        Visibility="Collapsed">
+                <Border Margin="12"
+                        BorderBrush="{StaticResource TextColor}"
+                        BorderThickness="3">
+                    <StackPanel>
+                        <TextBlock Padding="30,30,30,30"
+                                   Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                   Text="{Binding Path=LocalizedResources.PrijsError,
+                                                  Source={StaticResource LocalizedStrings}}"
+                                   TextWrapping="Wrap" />
+                        <Button x:Name="CloseGeenDataPanel"
+                                Click="CloseGeenDataPanel_Click"
+                                Content="{Binding Path=LocalizedResources.sluiten,
+                                                  Source={StaticResource LocalizedStrings}}" />
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+
+
+            <StackPanel x:Name="PrijsPanel">
+                <TextBlock Style="{StaticResource PhoneTextLargeStyleCustom}"
+                           Text="{Binding PlannerSearch.DisplayFull}"
+                           TextWrapping="Wrap" />
+
+
+
+                <TextBlock Margin="12,25,12,0"
+                           Style="{StaticResource PhoneTextLargeStyleCustom}"
+                           Text="{Binding Path=LocalizedResources.PrijsTweedeKlas,
+                                          Source={StaticResource LocalizedStrings}}" />
+                <Grid Margin="12,6,12,6">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150" />
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0"
+                          Grid.ColumnSpan="4"
+                          Background="{StaticResource TextColor}">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="150" />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Grid.Row="0"
+                                   Grid.Column="0"
+                                   Foreground="{StaticResource BackgroundColor}"
+                                   Padding="0,3,0,3"
+                                   Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                   TextAlignment="Left" />
+                        <TextBlock Grid.Row="0"
+                                   Grid.Column="1"
+                                   Foreground="{StaticResource BackgroundColor}"
+                                   Padding="0,3,0,3"
+                                   Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                   TextAlignment="Left" />
+                        <TextBlock Grid.Row="0"
+                                   Grid.Column="2"
+                                   Foreground="{StaticResource BackgroundColor}"
+                                   Padding="0,3,0,3"
+                                   Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                   TextAlignment="Center">
+                            20%
+                        </TextBlock>
+                        <TextBlock Grid.Row="0"
+                                   Grid.Column="3"
+                                   Foreground="{StaticResource BackgroundColor}"
+                                   Padding="0,3,0,3"
+                                   Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                   TextAlignment="Center">
+                            40%
+                        </TextBlock>
+
+                    </Grid>
+
+
+                    <TextBlock Grid.Row="1"
+                               Grid.Column="0"
+                               Style="{StaticResource PhoneTextNormalStyleCustom}"
+                               Text="{Binding Path=LocalizedResources.PrijsEnkel,
+                                              Source={StaticResource LocalizedStrings}}"
+                               TextAlignment="Left" />
+                    <TextBlock Grid.Row="1"
+                               Grid.Column="1"
+                               Style="{StaticResource PhoneTextNormalStyleCustom}"
+                               Text="{Binding ReisPrijs.Enkel_2_Vol}"
+                               TextAlignment="Left" />
+                    <TextBlock Grid.Row="1"
+                               Grid.Column="2"
+                               Style="{StaticResource PhoneTextNormalStyleCustom}"
+                               Text="{Binding ReisPrijs.Enkel_2_20}"
+                               TextAlignment="Left" />
+                    <TextBlock Grid.Row="1"
+                               Grid.Column="3"
+                               Style="{StaticResource PhoneTextNormalStyleCustom}"
+                               Text="{Binding ReisPrijs.Enkel_2_40}"
+                               TextAlignment="Left" />
+
+                    <TextBlock Grid.Row="2"
+                               Grid.Column="0"
+                               Style="{StaticResource PhoneTextNormalStyleCustom}"
+                               Text="{Binding Path=LocalizedResources.PrijsRetour,
+                                              Source={StaticResource LocalizedStrings}}"
+                               TextAlignment="Left" />
+                    <TextBlock Grid.Row="2"
+                               Grid.Column="1"
+                               Style="{StaticResource PhoneTextNormalStyleCustom}"
+                               Text="{Binding ReisPrijs.Dag_2_Vol}"
+                               TextAlignment="Left" />
+                    <TextBlock Grid.Row="2"
+                               Grid.Column="2"
+                               Style="{StaticResource PhoneTextNormalStyleCustom}"
+                               Text="{Binding ReisPrijs.Dag_2_20}"
+                               TextAlignment="Left" />
+                    <TextBlock Grid.Row="2"
+                               Grid.Column="3"
+                               Style="{StaticResource PhoneTextNormalStyleCustom}"
+                               Text="{Binding ReisPrijs.Dag_2_40}"
+                               TextAlignment="Left" />
+
+                </Grid>
+
+
+                <TextBlock Margin="12,25,12,0"
+                           Style="{StaticResource PhoneTextLargeStyleCustom}"
+                           Text="{Binding Path=LocalizedResources.PrijsEersteKlas,
+                                          Source={StaticResource LocalizedStrings}}" />
+                <Grid Margin="12,6,12,6">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150" />
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0"
+                          Grid.ColumnSpan="4"
+                          Background="{StaticResource TextColor}">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="150" />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Grid.Row="0"
+                                   Grid.Column="0"
+                                   Foreground="{StaticResource BackgroundColor}"
+                                   Padding="0,3,0,3"
+                                   Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                   TextAlignment="Left" />
+                        <TextBlock Grid.Row="0"
+                                   Grid.Column="1"
+                                   Foreground="{StaticResource BackgroundColor}"
+                                   Padding="0,3,0,3"
+                                   Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                   TextAlignment="Left" />
+                        <TextBlock Grid.Row="0"
+                                   Grid.Column="2"
+                                   Foreground="{StaticResource BackgroundColor}"
+                                   Padding="0,3,0,3"
+                                   Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                   TextAlignment="Center">
+                            20%
+                        </TextBlock>
+                        <TextBlock Grid.Row="0"
+                                   Grid.Column="3"
+                                   Foreground="{StaticResource BackgroundColor}"
+                                   Padding="0,3,0,3"
+                                   Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                   TextAlignment="Center">
+                            40%
+                        </TextBlock>
+
+                    </Grid>
+
+
+                    <TextBlock Grid.Row="1"
+                               Grid.Column="0"
+                               Style="{StaticResource PhoneTextNormalStyleCustom}"
+                               Text="{Binding Path=LocalizedResources.PrijsEnkel,
+                                              Source={StaticResource LocalizedStrings}}"
+                               TextAlignment="Left" />
+                    <TextBlock Grid.Row="1"
+                               Grid.Column="1"
+                               Style="{StaticResource PhoneTextNormalStyleCustom}"
+                               Text="{Binding ReisPrijs.Enkel_1_Vol}"
+                               TextAlignment="Left" />
+                    <TextBlock Grid.Row="1"
+                               Grid.Column="2"
+                               Style="{StaticResource PhoneTextNormalStyleCustom}"
+                               Text="{Binding ReisPrijs.Enkel_1_20}"
+                               TextAlignment="Left" />
+                    <TextBlock Grid.Row="1"
+                               Grid.Column="3"
+                               Style="{StaticResource PhoneTextNormalStyleCustom}"
+                               Text="{Binding ReisPrijs.Enkel_1_40}"
+                               TextAlignment="Left" />
+
+                    <TextBlock Grid.Row="2"
+                               Grid.Column="0"
+                               Style="{StaticResource PhoneTextNormalStyleCustom}"
+                               Text="{Binding Path=LocalizedResources.PrijsRetour,
+                                              Source={StaticResource LocalizedStrings}}"
+                               TextAlignment="Left" />
+                    <TextBlock Grid.Row="2"
+                               Grid.Column="1"
+                               Style="{StaticResource PhoneTextNormalStyleCustom}"
+                               Text="{Binding ReisPrijs.Dag_1_Vol}"
+                               TextAlignment="Left" />
+                    <TextBlock Grid.Row="2"
+                               Grid.Column="2"
+                               Style="{StaticResource PhoneTextNormalStyleCustom}"
+                               Text="{Binding ReisPrijs.Dag_1_20}"
+                               TextAlignment="Left" />
+                    <TextBlock Grid.Row="2"
+                               Grid.Column="3"
+                               Style="{StaticResource PhoneTextNormalStyleCustom}"
+                               Text="{Binding ReisPrijs.Dag_1_40}"
+                               TextAlignment="Left" />
+
+                </Grid>
+
+            </StackPanel>
+        </Grid>
+    </Grid>
+
+
+</phone:PhoneApplicationPage>

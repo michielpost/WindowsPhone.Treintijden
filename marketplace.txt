@@ -1,0 +1,135 @@
+Categorie:
+reizen + naviatie / planning
+
+5 keywords
+trein, NS, vertrektijden, spoorboekje, treintijden
+
+
+Treintijden
+
+Treintijden kan een treinreis plannen en de actuele vertrektijden opvragen. Stations en reizen kan je vastpinnen, zodat deze direct beschikbaar zijn op het startscherm van je telefoon. Geplande reizen blijven offline beschikbaar.
+
+Actuele vertrektijden
+- Toont automatisch stations in de buurt
+- Actuele vertrektijden van alle stations opvragen
+- Toont vertragingen en spoorwijzigingen
+- Automatische melding bij storingen
+- Lijst met "mijn stations" om snel de actuele vertrektijd van je favoriete stations op te vragen
+- Pin een station vast als live tile op het startscherm voor snelle bereikbaarheid
+- De live tile op het startscherm laat zien hoeveel storingen er zijn
+- Overzicht van aankomende werkzaamheden
+
+Reisplanner
+- Treinreizen plannen via de reisplanner
+- Planner vastpinnen op het startscherm van je telefoon (inclusief eventueel ingevulde stations)
+- Duidelijk overzicht van de geplande reis, inclusief tussenstations
+- Swipe eenvoudig naar eerdere of latere reismogelijkheden
+- Overzicht met recente zoekopdrachten
+- Het resultaat van een zoekopdrachten blijft offline beschikbaar. Handig voor onderweg als je geen internet meer hebt.
+- Pin een geplande reis vast op je startscherm
+- Herinnering voor een treinreis toevoegen
+- Overzicht van toegevoegde herinneringen, met mogelijkheid deze weer te verwijderen
+- Deze applicatie maakt geen gebruik van #FFCC33
+
+Instellingen
+- Uitgebreid instelling scherm
+- Storingen tonen op live tile (aan / uit)
+- Locatie gebruik (aan / uit)
+- Automatisch vertrekstation invullen (aan / uit)
+- Aantal stations in de buurt tonen (0 - 9)
+- Invoer van een station via een lijst of met het toetsenbord
+- Taal (Nederlands / Engels)
+
+Er wordt gebruik gemaakt van de locatiebepaling van uw telefoon om automatisch de dichtsbijzijnde stations te tonen. Dit is uit te schakelen op het instellingenscherm.
+
+
+--------
+
+Nieuw in 1.10
+- Storingen zijn pinbaar op het startscherm van je telefoon
+
+Nieuw in 1.9
+- Release notes toegevoegd
+- Station Maarheeze toegevoegd
+- Favoriet knop bij vertrektijden van een station
+- Via station veld vervangen door checkbox bij planner
+- Nieuwe manier van stations kiezen
+- Ondersteuning voor stationsafkortingen bij zoeken naar een station
+- Vernieuwd reisadvies scherm
+
+Nieuw in 1.8
+- Layout uitlijning
+
+Nieuw in 1.7
+- Tombstoning support
+- ScheduledTask crash bij geen network fix
+
+Nieuw in 1.6
+- Nieuwe stations toegevoegd: Sassenheim, Westervoort, Hardinxveld Blauwe Zoom, Sliedrecht Baanhoek
+- Extra balk die toont of er vertrek/aankomst vertraging is bij geplande reis
+- Kleine bugfixes
+
+Nieuw in 1.5
+- Vertrek- en aankomstvertraging bij geplande reizen wordt getoond
+- Kleine bugfixes
+
+
+
+Nieuw in 1.4
+- Engelse versie
+- Keuze tussen stationsinvoer via lijst of keyboard
+- Instelling om aan te geven hoeveel stations er in de buurt getoond worden
+
+Nieuw in 1.3
+- Bugfix station laad scherm
+- Nieuwe release Silverlight Toolkit
+- Via nsproxy.michielpost.nl
+
+Nieuw in 1.2:
+- Instelling om background task / storingen op live tile aan of uit te zetten
+- Overzicht van aankomende werkzaamheden
+- Mogelijkheid om te plannen met OV-Jaarkaart optie
+- Optie OV-Jaarkaart en Hogesnelheidslijn worden onthouden
+- Diverse kleine UI verbeteringen
+
+Nieuw in 1.1:
+- Toont automatisch stations in de buurt
+- Automatisch invullen dichtsbijzijnde station in reisplanner d.m.v. GPS / locatie bepaling
+- Mogelijkheid om gebruik van locatie uit te schakelen in instellingen scherm
+- Planner vastpinnen op het startscherm van je telefoon (inclusief eventueel ingevulde stations)
+- Reminder voor een treinreis toevoegen
+- Overzicht van toegevoegde reminders, met mogelijkheid deze weer te verwijderen
+- Diverse kleine UI verbeteringen
+
+
+-----------
+
+
+Treintijden is a travelplanner for the Dutch railways. It allows you to plan a trip to a station and see the available departure times and trip information.
+Planned trips stay available offline and can be pinnend to the phone's start screen.
+
+English and Dutch are supported.
+
+Current departure times
+- View current departure times for each stations
+- Shows stations near you
+- Pin a station to your home screen
+- Disruptions are automatically shown in the application
+
+Plan a trip
+- Swipe through possible departure times
+- Shows all stops on your trip
+- Keeps search history
+- Planned trips are available offline
+- Add a reminder for a trip
+
+This application uses your location to show nearby stations. This can be turned off in the settings screen.
+
+
+---
+Technical:
+This is a Dutch application. You can use it to get up to date train departure times and plan a trip between two stations.
+The about screen can be reached from the start screen applicationbar using the menu item "information (informatie)".
+Location service settings and privacy statement can be found using the menu item "settings (instellingen)".
+
+

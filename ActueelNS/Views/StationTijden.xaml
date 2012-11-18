@@ -1,0 +1,304 @@
+﻿<phone:PhoneApplicationPage x:Class="ActueelNS.Views.StationTijden"
+                            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                            xmlns:cmd="clr-namespace:GalaSoft.MvvmLight.Command;assembly=GalaSoft.MvvmLight.Extras.WP8"
+                            xmlns:converters="clr-namespace:ActueelNS.Converters"
+                            xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                            xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+                            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                            xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+                            xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+                            xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+                            x:Name="control"
+                            d:DesignHeight="696"
+                            d:DesignWidth="480"
+                            DataContext="{Binding StationTijden,
+                                                  Source={StaticResource Locator}}"
+                            FontFamily="{StaticResource PhoneFontFamilyNormal}"
+                            FontSize="{StaticResource PhoneFontSizeNormal}"
+                            Foreground="{StaticResource PhoneForegroundBrush}"
+                            Orientation="Portrait"
+                            shell:SystemTray.BackgroundColor="{StaticResource SysTrayBackgroundColor}"
+                            shell:SystemTray.ForegroundColor="{StaticResource SysTrayForegroundColor}"
+                            shell:SystemTray.IsVisible="True"
+                            Style="{StaticResource TransitionPageStyle}"
+                            SupportedOrientations="Portrait"
+                            mc:Ignorable="d">
+
+    <phone:PhoneApplicationPage.Resources>
+        <converters:VisibilityConverter x:Key="VisibilityConverter" />
+        <converters:InverseVisibilityConverter x:Key="InverseVisibilityConverter" />
+
+        <Storyboard x:Name="StoringenVisible">
+            <DoubleAnimation Duration="0:0:0.5"
+                             From="0"
+                             Storyboard.TargetName="StoringenPanel"
+                             Storyboard.TargetProperty="(UIElement.Height)"
+                             To="40" />
+        </Storyboard>
+
+    </phone:PhoneApplicationPage.Resources>
+
+    <Grid Margin="0,-1,0,0" x:Name="LayoutRoot" Background="{StaticResource BackgroundColor}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!--  TitlePanel contains the name of the application and page title  -->
+        <StackPanel x:Name="TitlePanel"
+                    Grid.Row="0"
+                    Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationTitle"
+                       Style="{StaticResource PhoneTextNormalStyleCustom}"
+                       Text="{Binding ApplicationTitle}" />
+            <TextBlock x:Name="PageTitle"
+                       Margin="9,-7,0,0"
+                       Style="{StaticResource PhoneTextTitle1StyleCustom}"
+                       Text="{Binding PageName}" />
+        </StackPanel>
+
+        <!--  ContentPanel - place additional content here  -->
+        <Grid x:Name="ContentPanel"
+              Grid.Row="1"
+              Margin="0,0,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <ListBox x:Name="MainListBox"
+                     Margin="-3"
+                     ItemsSource="{Binding TijdList}">
+                <ListBox.ItemContainerStyle>
+                    <Style TargetType="ListBoxItem">
+                        <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                    </Style>
+                </ListBox.ItemContainerStyle>
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Grid x:Name="RootItem"
+                              Margin="0,0,0,5"
+                              Background="{Binding BackgroundColor}">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="72" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="86" />
+                            </Grid.ColumnDefinitions>
+
+
+                            <TextBlock Grid.Column="0"
+                                       Margin="24,0,0,0"
+                                       Padding="0"
+                                       Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                       Text="{Binding DisplayTijd}" />
+
+                            <StackPanel Grid.Column="1">
+                                <TextBlock FontSize="23"
+                                           Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                           Text="{Binding Eindbestemming}" />
+                                <TextBlock FontSize="18"
+                                           Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                           Text="{Binding RegelTwee}"
+                                           TextWrapping="Wrap" />
+
+
+                                <TextBlock FontSize="18"
+                                           Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                           Text="{Binding ReisTip}"
+                                           TextWrapping="Wrap"
+                                           Visibility="{Binding IsReisTipVisible,
+                                                                Converter={StaticResource VisibilityConverter}}" />
+
+
+                                <Grid Margin="12,0,0,0" Visibility="{Binding IsWarningVisible, Converter={StaticResource VisibilityConverter}}">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <StackPanel Background="{StaticResource TextColor}">
+                                        <TextBlock Grid.Column="0"
+                                                   Margin="2,0,6,0"
+                                                   Foreground="{StaticResource AlternateTextColor}"
+                                                   Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                                   Text="{Binding VertragingTekst}" />
+                                    </StackPanel>
+
+                                </Grid>
+
+                                <StackPanel Margin="12,0,0,0"
+                                            Background="{StaticResource TextColor}"
+                                            Visibility="{Binding IsOpmerkingVisible,
+                                                                 Converter={StaticResource VisibilityConverter}}">
+                                    <TextBlock Grid.Column="0"
+                                               Margin="2,0,0,0"
+                                               FontSize="18"
+                                               Foreground="{StaticResource AlternateTextColor}"
+                                               Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                               Text="{Binding Opmerkingen}" />
+                                </StackPanel>
+                            </StackPanel>
+
+                            <Border Grid.Column="2"
+                                    Margin="12,8,12,8"
+                                    Background="Transparent">
+                                <Border Width="62"
+                                        Height="62"
+                                        HorizontalAlignment="Left"
+                                        VerticalAlignment="Top"
+                                        Background="{StaticResource TextColor}"
+                                        Padding="0,0,0,0">
+
+                                    <Grid Margin="0">
+                                        <Border Width="62"
+                                                Height="62"
+                                                HorizontalAlignment="Left"
+                                                VerticalAlignment="Top"
+                                                Background="{StaticResource BackgroundColor}"
+                                                BorderThickness="3"
+                                                Padding="0,0,0,0" />
+                                        <Border Width="15"
+                                                Height="15"
+                                                HorizontalAlignment="Left"
+                                                VerticalAlignment="Top"
+                                                Background="{StaticResource TextColor}"
+                                                BorderThickness="0,0,0,0"
+                                                Padding="0,0,0,0">
+
+                                            <Border Width="15"
+                                                    Height="15"
+                                                    HorizontalAlignment="Left"
+                                                    VerticalAlignment="Top"
+                                                    Background="{Binding ElementName=RootItem,
+                                                                         Path=Background}"
+                                                    BorderThickness="0,0,2,2"
+                                                    Margin="-1,-1,0,0"
+                                                    Padding="0,0,0,0"
+                                                    Visibility="{Binding IsVertrekspoorWijziging,
+                                                                         Converter={StaticResource InverseVisibilityConverter}}" />
+
+                                        </Border>
+
+                                        <TextBlock Margin="0,0,0,0"
+                                                   HorizontalAlignment="Center"
+                                                   VerticalAlignment="Bottom"
+                                                   FontFamily="{StaticResource PhoneFontFamilySemiBold}"
+                                                   FontSize="40"
+                                                   Foreground="{StaticResource TextColor}"
+                                                   Visibility="{Binding Vertrekspoor, Converter={StaticResource VisibilityConverter}}"
+                                                   Text="{Binding Vertrekspoor}" />
+
+                                        <TextBlock Margin="0,0,0,3"
+                                                   HorizontalAlignment="Center"
+                                                   VerticalAlignment="Bottom"
+                                                   FontFamily="{StaticResource PhoneFontFamilySemiBold}"
+                                                   FontSize="33"
+                                                   Foreground="{StaticResource TextColor}"
+                                                   Visibility="{Binding VertrekspoorDrie, Converter={StaticResource VisibilityConverter}}"
+                                                   Text="{Binding VertrekspoorDrie}" />
+                                    </Grid>
+                                </Border>
+                            </Border>
+                        </Grid>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+
+            <StackPanel x:Name="LoaderStackPanel"
+                        Grid.Row="0"
+                        Height="40"
+                        VerticalAlignment="Top"
+                        Background="{StaticResource BackgroundColor}"
+                        Visibility="Collapsed">
+                <TextBlock Margin="24,0,0,0"
+                           Style="{StaticResource PhoneTextNormalStyleCustom}"
+                           Text="{Binding Path=LocalizedResources.StationTijdenLoading,
+                                          Source={StaticResource LocalizedStrings}}" />
+                <toolkit:PerformanceProgressBar x:Name="_performanceProgressBar" VerticalAlignment="Top" />
+            </StackPanel>
+
+            <StackPanel x:Name="GeenDataPanel"
+                        Grid.Row="0"
+                        VerticalAlignment="Top"
+                        Background="{StaticResource BackgroundColor}"
+                        Visibility="Collapsed">
+                <Border Margin="12"
+                        BorderBrush="{StaticResource TextColor}"
+                        BorderThickness="3">
+                    <StackPanel>
+                        <TextBlock Padding="30,30,30,30"
+                                   Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                   Text="{Binding Path=LocalizedResources.StationTijdenError,
+                                                  Source={StaticResource LocalizedStrings}}"
+                                   TextWrapping="Wrap" />
+                        <Button x:Name="CloseGeenDataPanel" Click="CloseGeenDataPanel_Click">sluiten</Button>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+
+
+            <StackPanel x:Name="StoringenPanel"
+                        Grid.Row="1"
+                        Height="40"
+                        VerticalAlignment="Bottom"
+                        Background="{StaticResource TextColor}"
+                        Visibility="{Binding StoringenVisible,
+                                             Converter={StaticResource VisibilityConverter}}">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Tap">
+                        <cmd:EventToCommand Command="{Binding ElementName=control, Path=DataContext.StoringenCommand}" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+                <TextBlock Margin="24,0,0,0"
+                           Foreground="{StaticResource AlternateTextColor}"
+                           Style="{StaticResource PhoneTextNormalStyleCustom}"
+                           Text="{Binding StoringTekst}" />
+            </StackPanel>
+        </Grid>
+
+
+    </Grid>
+
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar BackgroundColor="{StaticResource AppBarColor}"
+                              ForegroundColor="{StaticResource AppBarForeColor}"
+                              IsMenuEnabled="True"
+                              IsVisible="True">
+            <shell:ApplicationBarIconButton x:Name="RefreshButton"
+                                            Click="RefreshButton_Click"
+                                            IconUri="/Images/appbar.refresh.rest.png"
+                                            Text="update" />
+
+            <shell:ApplicationBarIconButton x:Name="FavButton"
+                                            Click="FavButton_Click"
+                                            IconUri="/Images/appbar.favs.addto.rest.png"
+                                            Text="favoriet" />
+
+            <shell:ApplicationBarIconButton x:Name="PinButton"
+                                            Click="PinButton_Click"
+                                            IconUri="/Images/appbar.pin.rest.png"
+                                            Text="vastpinnen" />
+            <shell:ApplicationBarIconButton x:Name="SearchButton"
+                                            Click="PlanButton_Click"
+                                            IconUri="/Images/appbar.feature.search.rest.png"
+                                            Text="planner" />
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem x:Name="PlanButton"
+                                              Click="PlanButton_Click"
+                                              Text="plan een reis" />
+                <shell:ApplicationBarMenuItem x:Name="DeleteButton"
+                                              Click="DeleteButton_Click"
+                                              Text="verwijder station" />
+                <shell:ApplicationBarMenuItem x:Name="MapButton"
+                                              Click="MapButton_Click"
+                                              Text="toon op de kaart" />
+                <shell:ApplicationBarMenuItem x:Name="BackButton"
+                                              Click="BackButton_Click"
+                                              Text="mijn stations" />
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+</phone:PhoneApplicationPage>

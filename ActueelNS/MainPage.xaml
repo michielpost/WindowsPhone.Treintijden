@@ -1,0 +1,273 @@
+﻿<phone:PhoneApplicationPage x:Class="ActueelNS.MainPage"
+                            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                            xmlns:cmd="clr-namespace:GalaSoft.MvvmLight.Command;assembly=GalaSoft.MvvmLight.Extras.WP8"
+                            xmlns:converters="clr-namespace:ActueelNS.Converters"
+                            xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                            xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+                            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                            xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+                            xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+                            xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+                            x:Name="control"
+                            d:DesignHeight="696"
+                            d:DesignWidth="480"
+                            DataContext="{Binding Main,
+                                                  Source={StaticResource Locator}}"
+                            FontFamily="{StaticResource PhoneFontFamilyNormal}"
+                            FontSize="{StaticResource PhoneFontSizeNormal}"
+                            Foreground="Green"
+                            Orientation="Portrait"
+                            shell:SystemTray.BackgroundColor="{StaticResource SysTrayBackgroundColor}"
+                            shell:SystemTray.ForegroundColor="{StaticResource SysTrayForegroundColor}"
+                            shell:SystemTray.IsVisible="True"
+                            Style="{StaticResource TransitionPageStyle}"
+                            SupportedOrientations="Portrait"
+                            mc:Ignorable="d">
+
+    <phone:PhoneApplicationPage.Resources>
+
+        <Storyboard x:Name="StoringenVisible">
+            <DoubleAnimation Duration="0:0:0.5"
+                             From="0"
+                             Storyboard.TargetName="StoringenPanel"
+                             Storyboard.TargetProperty="(UIElement.Height)"
+                             To="40" />
+        </Storyboard>
+
+        <converters:VisibilityConverter x:Key="VisibilityConverter" />
+    </phone:PhoneApplicationPage.Resources>
+
+
+
+    <!--  LayoutRoot contains the root grid where all other page content is placed  -->
+    <Grid x:Name="LayoutRoot" Background="{StaticResource BackgroundColor}" Margin="0,-1,0,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!--  TitlePanel contains the name of the application and page title  -->
+        <StackPanel x:Name="TitlePanel"
+                    Grid.Row="0"
+                    Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationTitle"
+                       Style="{StaticResource PhoneTextNormalStyleCustom}"
+                       Text="{Binding ApplicationTitle}" />
+            <TextBlock x:Name="PageTitle"
+                       Margin="9,-7,0,0"
+                       Style="{StaticResource PhoneTextTitle1StyleCustom}"
+                       Text="{Binding PageName}" />
+        </StackPanel>
+
+        <!--  ContentPanel - place additional content here  -->
+        <Grid x:Name="ContentPanel" Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+
+            <StackPanel x:Name="LoaderStackPanel"
+                        Grid.Row="0"
+                        Height="40"
+                        VerticalAlignment="Top"
+                        Background="{StaticResource BackgroundColor}"
+                        Visibility="Collapsed">
+                <TextBlock Margin="24,0,0,0"
+                           Style="{StaticResource PhoneTextNormalStyleCustom}"
+                           Text="{Binding Path=LocalizedResources.MainLocationLoading,
+                                          Source={StaticResource LocalizedStrings}}" />
+                <toolkit:PerformanceProgressBar x:Name="_performanceProgressBar" VerticalAlignment="Top" />
+            </StackPanel>
+
+            <ListBox x:Name="MainListBox"
+                     Grid.Row="1"
+                     Margin="12,0,12,0"
+                     ItemsSource="{Binding StationList}">
+                <ListBox.ItemContainerStyle>
+                    <Style TargetType="ListBoxItem">
+                        <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                    </Style>
+                </ListBox.ItemContainerStyle>
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel VerticalAlignment="Center"
+                                    Background="Transparent"
+                                    Orientation="Horizontal">
+                            <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="Tap">
+                                    <cmd:EventToCommand Command="{Binding ElementName=control, Path=DataContext.TapCommand}" CommandParameter="{Binding Name}" />
+                                </i:EventTrigger>
+                            </i:Interaction.Triggers>
+
+                            <toolkit:ContextMenuService.ContextMenu>
+                                <toolkit:ContextMenu Background="{StaticResource BackgroundColor}"
+                                                     BorderBrush="Black"
+                                                     Foreground="{StaticResource TextColor}">
+                                    <toolkit:MenuItem Command="{Binding ElementName=control,
+                                                                        Path=DataContext.PlanCommand}"
+                                                      CommandParameter="{Binding Name}"
+                                                      Foreground="{StaticResource TextColor}"
+                                                      Header="{Binding Path=LocalizedResources.planeenreis,
+                                                                       Source={StaticResource LocalizedStrings}}" />
+                                    <toolkit:MenuItem Command="{Binding ElementName=control,
+                                                                        Path=DataContext.MapCommand}"
+                                                      CommandParameter="{Binding Code}"
+                                                      Foreground="{StaticResource TextColor}"
+                                                      Header="{Binding Path=LocalizedResources.showonmap,
+                                                                       Source={StaticResource LocalizedStrings}}" />
+                                    <toolkit:MenuItem Command="{Binding ElementName=control,
+                                                                        Path=DataContext.DeleteCommand}"
+                                                      CommandParameter="{Binding Name}"
+                                                      Foreground="{StaticResource TextColor}"
+                                                      Header="{Binding Path=LocalizedResources.verwijder,
+                                                                       Source={StaticResource LocalizedStrings}}"
+                                                      Visibility="{Binding IsNormal,
+                                                                           Converter={StaticResource VisibilityConverter}}" />
+                                    <toolkit:MenuItem Command="{Binding ElementName=control,
+                                                                        Path=DataContext.PinCommand}"
+                                                      CommandParameter="{Binding Name}"
+                                                      Foreground="{StaticResource TextColor}"
+                                                      Header="{Binding Path=LocalizedResources.vastpinnen,
+                                                                       Source={StaticResource LocalizedStrings}}" />
+                                </toolkit:ContextMenu>
+                            </toolkit:ContextMenuService.ContextMenu>
+
+                            <Canvas Width="62"
+                                    Height="62"
+                                    Margin="12,8,0,0"
+                                    HorizontalAlignment="Left"
+                                    VerticalAlignment="Top"
+                                    Visibility="{Binding IsDistance,
+                                                         Converter={StaticResource VisibilityConverter}}">
+                                <Path Canvas.Left="15"
+                                      Canvas.Top="3"
+                                      Width="34"
+                                      Height="53"
+                                      Data="M28.034,0C12.552,0 0,12.552 0,28.034 0,43.516 28.034,100 28.034,100 28.034,100 56.068,43.517 56.068,28.034 56.068,12.551 43.517,0 28.034,0z M28.034,40.477C21.163,40.477 15.592,34.905 15.592,28.035 15.592,21.163 21.163,15.593 28.034,15.593 34.906,15.593 40.476,21.163 40.476,28.035 40.477,34.905 34.906,40.477 28.034,40.477z"
+                                      Fill="{StaticResource TextColor}"
+                                      RenderTransformOrigin="0.471,0.528"
+                                      Stretch="Fill"
+                                      UseLayoutRounding="False" />
+                            </Canvas>
+
+                            <Border Margin="12,8,0,8"
+                                    Background="Transparent"
+                                    Visibility="{Binding IsNormal,
+                                                         Converter={StaticResource VisibilityConverter}}">
+                                <Border Width="62"
+                                        Height="62"
+                                        HorizontalAlignment="Left"
+                                        VerticalAlignment="Top"
+                                        Background="{StaticResource TextColor}"
+                                        Padding="0,0,0,0">
+
+                                    <Grid Margin="0">
+                                        <Border Width="62"
+                                                Height="62"
+                                                HorizontalAlignment="Left"
+                                                VerticalAlignment="Top"
+                                                Background="{StaticResource BackgroundColor}"
+                                                BorderThickness="3,3,3,3"
+                                                Padding="0,0,0,0" />
+                                        <Border Width="15"
+                                                Height="15"
+                                                HorizontalAlignment="Left"
+                                                VerticalAlignment="Top"
+                                                Background="{StaticResource TextColor}"
+                                                BorderThickness="0,0,0,0"
+                                                Padding="0,0,0,0" />
+                                    </Grid>
+                                </Border>
+                            </Border>
+
+                            <TextBlock VerticalAlignment="Center"
+                                       Style="{StaticResource PhoneTextLargeStyleCustom}"
+                                       Text="{Binding Name}" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+            <StackPanel Grid.Row="1"
+                        Margin="12"
+                        Visibility="{Binding IsNewTextVisible,
+                                             Converter={StaticResource VisibilityConverter}}">
+                <TextBlock Style="{StaticResource PhoneTextNormalStyleCustom}"
+                           Text="{Binding Path=LocalizedResources.MainIntro1,
+                                          Source={StaticResource LocalizedStrings}}"
+                           TextWrapping="Wrap" />
+
+                <TextBlock Margin="12,50,0,0"
+                           Style="{StaticResource PhoneTextNormalStyleCustom}"
+                           Text="{Binding Path=LocalizedResources.MainIntro2,
+                                          Source={StaticResource LocalizedStrings}}"
+                           TextWrapping="Wrap" />
+
+                <Button Command="{Binding AddStationCommand}" Content="{Binding Path=LocalizedResources.MainIntroButton, Source={StaticResource LocalizedStrings}}" />
+            </StackPanel>
+
+            <StackPanel Grid.Row="2">
+                <Button Command="{Binding PlannerCommand}" Content="{Binding Path=LocalizedResources.reisplanner, Source={StaticResource LocalizedStrings}}" />
+
+                <StackPanel x:Name="StoringenPanel"
+                            Height="40"
+                            VerticalAlignment="Bottom"
+                            Background="{StaticResource TextColor}"
+                            Visibility="{Binding StoringenVisible,
+                                                 Converter={StaticResource VisibilityConverter}}">
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="Tap">
+                            <cmd:EventToCommand Command="{Binding ElementName=control, Path=DataContext.StoringenCommand}" />
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+                    <TextBlock Margin="24,0,0,0"
+                               Foreground="{StaticResource AlternateTextColor}"
+                               Style="{StaticResource PhoneTextNormalStyleCustom}"
+                               Text="{Binding StoringTekst}" />
+                </StackPanel>
+            </StackPanel>
+
+        </Grid>
+    </Grid>
+
+
+
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar BackgroundColor="{StaticResource AppBarColor}"
+                              ForegroundColor="{StaticResource AppBarForeColor}"
+                              IsMenuEnabled="True"
+                              IsVisible="True">
+            <shell:ApplicationBarIconButton x:Name="AddButton"
+                                            Click="AddButton_Click"
+                                            IconUri="/Images/appbar.add.rest.png"
+                                            Text="toevoegen" />
+            <shell:ApplicationBarIconButton x:Name="SearchButton"
+                                            Click="SearchButton_Click"
+                                            IconUri="/Images/appbar.feature.search.rest.png"
+                                            Text="planner" />
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem x:Name="StoringenAppButton"
+                                              Click="StoringenAppButton_Click"
+                                              Text="storingen en werkzaamheden" />
+                <shell:ApplicationBarMenuItem x:Name="Review"
+                                              Click="Review_Click"
+                                              Text="beoordeel deze applicatie" />
+
+                <shell:ApplicationBarMenuItem x:Name="Settings"
+                                              Click="Settings_Click"
+                                              Text="instellingen" />
+                <shell:ApplicationBarMenuItem x:Name="Donate"
+                                              Click="Donate_Click"
+                                              Text="steun deze applicatie" />
+                <shell:ApplicationBarMenuItem x:Name="About"
+                                              Click="About_Click"
+                                              Text="informatie" />
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+
+</phone:PhoneApplicationPage>

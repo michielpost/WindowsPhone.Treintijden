@@ -1,0 +1,210 @@
+﻿<phone:PhoneApplicationPage x:Class="ActueelNS.Views.Storingen"
+                            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                            xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+                            xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+                            xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                            xmlns:converters="clr-namespace:ActueelNS.Converters"
+                            xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+                            xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    mc:Ignorable="d"
+                            d:DesignWidth="480"
+                            d:DesignHeight="696"
+                            FontFamily="{StaticResource PhoneFontFamilyNormal}"
+                            FontSize="{StaticResource PhoneFontSizeNormal}"
+                            Foreground="{StaticResource PhoneForegroundBrush}"
+                            SupportedOrientations="Portrait"
+                            Orientation="Portrait"
+                            shell:SystemTray.BackgroundColor="{StaticResource SysTrayBackgroundColor}"
+                            shell:SystemTray.ForegroundColor="{StaticResource SysTrayForegroundColor}"
+                            shell:SystemTray.IsVisible="True"
+                            Style="{StaticResource TransitionPageStyle}"
+                            DataContext="{Binding StoringenViewModel, Source={StaticResource Locator}}">
+
+    <phone:PhoneApplicationPage.Resources>
+        <converters:VisibilityConverter x:Key="VisibilityConverter" />
+    </phone:PhoneApplicationPage.Resources>
+
+    <Grid Margin="0,-1,0,0" x:Name="LayoutRoot" Background="{StaticResource BackgroundColor}" >
+        <!--Pivot Control-->
+        <controls:Pivot Title="{Binding ApplicationTitle}" Foreground="{StaticResource TextColor}">
+            <controls:Pivot.HeaderTemplate>
+                <DataTemplate>
+                    <TextBlock Foreground="{StaticResource TextColor}" Text="{Binding}" />
+                </DataTemplate>
+            </controls:Pivot.HeaderTemplate>
+
+                    
+
+            <!--Pivot item one-->
+            <controls:PivotItem Header="{Binding Path=LocalizedResources.StoringenStoringenHeader, Source={StaticResource LocalizedStrings}}">
+                <Grid x:Name="ContentPanel"
+              Margin="0,0,0,0">
+
+                    <StackPanel x:Name="LoaderStackPanel"
+                        Height="40"
+                        VerticalAlignment="Top"
+                        Background="{StaticResource BackgroundColor}"
+                        Visibility="Collapsed">
+                        <TextBlock Margin="24,0,0,0"
+                           Style="{StaticResource PhoneTextNormalStyleCustom}"
+                           Text="{Binding Path=LocalizedResources.StoringenLoading,
+                                          Source={StaticResource LocalizedStrings}}" />
+                        <toolkit:PerformanceProgressBar x:Name="_performanceProgressBar" VerticalAlignment="Top" />
+                    </StackPanel>
+
+                    <StackPanel x:Name="GeenDataPanel"
+                        VerticalAlignment="Top"
+                        Background="{StaticResource BackgroundColor}"
+                        Visibility="Collapsed">
+                        <Border Margin="12"
+                        BorderBrush="{StaticResource TextColor}"
+                        BorderThickness="3">
+                            <StackPanel>
+                                <TextBlock Padding="30,30,30,30"
+                                   Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                   Text="{Binding Path=LocalizedResources.StoringenError,
+                                                  Source={StaticResource LocalizedStrings}}"
+                                   TextWrapping="Wrap" />
+                            </StackPanel>
+                        </Border>
+                    </StackPanel>
+                    
+
+                    <ItemsControl x:Name="MainListBox" ItemsSource="{Binding CurrentStoringen}">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <VirtualizingStackPanel/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                        <ItemsControl.Template>
+                            <ControlTemplate TargetType="ItemsControl">
+                                <ScrollViewer>
+                                    <ItemsPresenter/>
+                                </ScrollViewer>
+                            </ControlTemplate>
+                        </ItemsControl.Template>
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Grid x:Name="RootItem" Background="{Binding BackgroundColor}" Margin="0,0,0,5">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="72" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+
+
+                                    <TextBlock Grid.Column="0" Text="{Binding DisplayTijd}"
+			           Style="{StaticResource PhoneTextNormalStyleCustom}"  Margin="24,0,0,0" Padding="0">
+                                    </TextBlock>
+
+                                    <StackPanel Grid.Column="1">
+                                        <TextBlock Text="{Binding Traject}" FontSize="23"
+			           Style="{StaticResource PhoneTextNormalStyleCustom}" TextWrapping="Wrap">
+                                        </TextBlock>
+                                        <TextBlock Text="{Binding Reden}" FontSize="18"
+			           Style="{StaticResource PhoneTextNormalStyleCustom}" TextWrapping="Wrap">
+                                        </TextBlock>
+                                        <TextBlock Text="{Binding Bericht}" FontSize="18"
+			           Style="{StaticResource PhoneTextNormalStyleCustom}" TextWrapping="Wrap">
+                                        </TextBlock>
+
+
+
+
+                                    </StackPanel>
+
+                                </Grid>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+
+
+                    <StackPanel x:Name="GeenStoringenPanel" Margin="12" Visibility="Collapsed">
+                        <TextBlock Style="{StaticResource PhoneTextLargeStyleCustom}" Text="{Binding Path=LocalizedResources.StoringenGeen, Source={StaticResource LocalizedStrings}}"></TextBlock>
+                        <TextBlock Style="{StaticResource PhoneTextNormalStyleCustom}" TextWrapping="Wrap" Text="{Binding Path=LocalizedResources.StoringenGeenLong, Source={StaticResource LocalizedStrings}}"></TextBlock>
+
+                    </StackPanel>
+
+
+                </Grid>
+            </controls:PivotItem>
+
+
+ <!--Pivot item two-->
+            <controls:PivotItem Header="{Binding Path=LocalizedResources.StoringenWerkzaamhedenHeader, Source={StaticResource LocalizedStrings}}">
+                <ListBox x:Name="WerkMainListBox" ItemsSource="{Binding Werkzaamheden}" SelectionChanged="WerkMainListBox_SelectionChanged" >
+                    <ListBox.ItemContainerStyle>
+                        <Style TargetType="ListBoxItem">
+                            <Setter Property="HorizontalContentAlignment" Value="Stretch"></Setter>
+                        </Style>
+                    </ListBox.ItemContainerStyle>
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                             
+                            <StackPanel Margin="0,0,0,36">
+                                
+                                <StackPanel Margin="0"
+                                            Background="{StaticResource TextColor}">
+                                    
+                                    <TextBlock Margin="3"  Text="{Binding Traject}" FontSize="23"
+			           Style="{StaticResource PhoneTextNormalStyleCustom}" Foreground="{StaticResource BackgroundColor}" TextWrapping="Wrap">
+                                    </TextBlock>
+
+                                   
+                                </StackPanel>
+
+                                <TextBlock Margin="3" Text="{Binding Periode}" FontSize="18"
+			           Style="{StaticResource PhoneTextNormalStyleCustom}" TextWrapping="Wrap">
+                                </TextBlock>
+
+                                <StackPanel Visibility="{Binding IsExpanded, Converter={StaticResource VisibilityConverter}}">
+                                    <TextBlock Text="{Binding Reden}" FontSize="18" Margin="12,12,0,0"
+			           Style="{StaticResource PhoneTextNormalStyleCustom}" TextWrapping="Wrap">
+                                    </TextBlock>
+
+                                    <TextBlock Text="{Binding Vertraging}" FontSize="18"
+			           Style="{StaticResource PhoneTextNormalStyleCustom}" TextWrapping="Wrap">
+                                    </TextBlock>
+
+                                    <TextBlock Margin="12,16,0,0" Text="{Binding Advies}" FontSize="18"
+			           Style="{StaticResource PhoneTextNormalStyleCustom}" TextWrapping="Wrap">
+                                    </TextBlock>
+
+                                </StackPanel>
+
+                                   
+
+                            </StackPanel>
+                           
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+
+            </controls:PivotItem>
+
+
+        </controls:Pivot>
+    </Grid>
+
+
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar BackgroundColor="{StaticResource AppBarColor}"
+                              ForegroundColor="{StaticResource AppBarForeColor}"
+                              IsMenuEnabled="True"
+                              IsVisible="True">
+
+            <shell:ApplicationBarIconButton x:Name="PinButton"
+                                            Click="PinButton_Click"
+                                            IconUri="/Images/appbar.pin.rest.png"
+                                            Text="vastpinnen" />
+
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem x:Name="BackButton"
+                                              Click="BackButton_Click"
+                                              Text="mijn stations" />
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+</phone:PhoneApplicationPage>

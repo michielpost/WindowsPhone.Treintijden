@@ -1,0 +1,4891 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<stations>
+
+	<station>
+		<name>'s-Gravenhage</name>
+		<code>gvc</code>
+		<country>NL</country>
+		<lat>52.081261</lat>
+		<long>4.323973</long>
+		<alias>true</alias>
+	</station>
+
+	<station>
+		<name>'s-Hertogenbosch</name>
+		<code>ht</code>
+		<country>NL</country>
+		<lat>51.690536</lat>
+		<long>5.294790</long>
+		<alias>true</alias>
+	</station>
+
+	<station>
+		<name>'s-Hertogenbosch Oost</name>
+		<code>hto</code>
+		<country>NL</country>
+		<lat>51.700802</lat>
+		<long>5.318494</long>
+		<alias>true</alias>
+	</station>
+
+	<station>
+		<name>'t Harde</name>
+		<code>hde</code>
+		<country>NL</country>
+		<lat>52.409080</lat>
+		<long>5.892177</long>
+		<alias>true</alias>
+	</station>
+
+	<station>
+		<name>Abcoude</name>
+		<code>ac</code>
+		<country>NL</country>
+		<lat>52.278943</lat>
+		<long>4.976769</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Arnhem</name>
+		<code>ah</code>
+		<country>NL</country>
+		<lat>51.984537</lat>
+		<long>5.901364</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Ahaus</name>
+		<code>ahau</code>
+		<country>DE</country>
+		<lat>52.081585</lat>
+		<long>7.016665</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Aachen Hbf</name>
+		<code>ahbf</code>
+		<country>DE</country>
+		<lat>50.768072</lat>
+		<long>6.090533</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Arnhem Velperpoort</name>
+		<code>ahp</code>
+		<country>NL</country>
+		<lat>51.984897</lat>
+		<long>5.920286</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Arnhem Presikhaaf</name>
+		<code>ahpr</code>
+		<country>NL</country>
+		<lat>51.987315</lat>
+		<long>5.943029</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Arnhem Zuid</name>
+		<code>ahz</code>
+		<country>NL</country>
+		<lat>51.955169</lat>
+		<long>5.851995</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Aime-la-Plagne</name>
+		<code>aime</code>
+		<country>FR</country>
+		<lat>45.549645</lat>
+		<long>6.647603</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Arkel</name>
+		<code>akl</code>
+		<country>NL</country>
+		<lat>51.872199</lat>
+		<long>4.992968</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Akkrum</name>
+		<code>akm</code>
+		<country>NL</country>
+		<lat>53.047619</lat>
+		<long>5.842763</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Albertville</name>
+		<code>albert</code>
+		<country>FR</country>
+		<lat>45.660176</lat>
+		<long>6.384696</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Almere</name>
+		<code>alm</code>
+		<country>NL</country>
+		<lat>52.375163</lat>
+		<long>5.218921</long>
+		<alias>true</alias>
+	</station>
+
+	<station>
+		<name>Almere Centrum</name>
+		<code>alm</code>
+		<country>NL</country>
+		<lat>52.375163</lat>
+		<long>5.218921</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Almere Buiten</name>
+		<code>almb</code>
+		<country>NL</country>
+		<lat>52.394463</lat>
+		<long>5.278339</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Almere Muziekwijk</name>
+		<code>almm</code>
+		<country>NL</country>
+		<lat>52.367567</lat>
+		<long>5.190605</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Almere Oostvaarders</name>
+		<code>almo</code>
+		<country>NL</country>
+		<lat>52.403111</lat>
+		<long>5.298305</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Almere Parkwijk</name>
+		<code>almp</code>
+		<country>NL</country>
+		<lat>52.376997</lat>
+		<long>5.244459</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Altenberge</name>
+		<code>alt</code>
+		<country>DE</country>
+		<lat>52.052226</lat>
+		<long>7.481200</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Amersfoort</name>
+		<code>amf</code>
+		<country>NL</country>
+		<lat>52.153462</lat>
+		<long>5.373913</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Amersfoort Schothorst</name>
+		<code>amfs</code>
+		<country>NL</country>
+		<lat>52.175486</lat>
+		<long>5.404899</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Almelo</name>
+		<code>aml</code>
+		<country>NL</country>
+		<lat>52.357158</lat>
+		<long>6.655820</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Alkmaar</name>
+		<code>amr</code>
+		<country>NL</country>
+		<lat>52.637846</lat>
+		<long>4.740901</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Almelo de Riet</name>
+		<code>amri</code>
+		<country>NL</country>
+		<lat>52.342398</lat>
+		<long>6.666256</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Alkmaar Noord</name>
+		<code>amrn</code>
+		<country>NL</country>
+		<lat>52.643806</lat>
+		<long>4.763860</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Anna Paulowna</name>
+		<code>ana</code>
+		<country>NL</country>
+		<lat>52.867646</lat>
+		<long>4.811611</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Angermuende</name>
+		<code>anger</code>
+		<country>DE</country>
+		<lat>53.015636</lat>
+		<long>1.3996051</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Apeldoorn</name>
+		<code>apd</code>
+		<country>NL</country>
+		<lat>52.209456</lat>
+		<long>5.970374</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Apeldoorn De Maten</name>
+		<code>apdm</code>
+		<country>NL</country>
+		<lat>52.205258</lat>
+		<long>6.000749</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Apeldoorn Osseveld</name>
+		<code>apdo</code>
+		<country>NL</country>
+		<lat>52.216108</lat>
+		<long>6.006610</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Appingedam</name>
+		<code>apg</code>
+		<country>NL</country>
+		<lat>53.325818</lat>
+		<long>6.861960</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Alphen aan den Rijn</name>
+		<code>apn</code>
+		<country>NL</country>
+		<lat>52.124337</lat>
+		<long>4.657805</long>
+		<alias>true</alias>
+	</station>
+
+	<station>
+		<name>Alphen a/d Rijn</name>
+		<code>apn</code>
+		<country>NL</country>
+		<lat>52.124337</lat>
+		<long>4.657805</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Arnemuiden</name>
+		<code>arn</code>
+		<country>NL</country>
+		<lat>51.501502</lat>
+		<long>3.669783</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Amsterdam</name>
+		<code>asd</code>
+		<country>NL</country>
+		<lat>52.378687</lat>
+		<long>4.900505</long>
+		<alias>true</alias>
+	</station>
+
+	<station>
+		<name>Amsterdam Airport</name>
+		<code>shl</code>
+		<country>NL</country>
+		<lat>52.308293</lat>
+		<long>4.762269</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Amsterdam Amstel</name>
+		<code>asa</code>
+		<country>NL</country>
+		<lat>52.345867</lat>
+		<long>4.918034</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Amsterdam Bijlmer ArenA</name>
+		<code>asb</code>
+		<country>NL</country>
+		<lat>52.311556</lat>
+		<long>4.947725</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Aachen Schanz</name>
+		<code>asch</code>
+		<country>BE</country>
+		<lat>50.754417</lat>
+		<long>6.111523</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Amsterdam Centraal</name>
+		<code>asd</code>
+		<country>NL</country>
+		<lat>52.378687</lat>
+		<long>4.900505</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Amsterdam Lelylaan</name>
+		<code>asdl</code>
+		<country>NL</country>
+		<lat>52.357904</lat>
+		<long>4.833940</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Amsterdam Muiderpoort</name>
+		<code>asdm</code>
+		<country>NL</country>
+		<lat>52.360924</lat>
+		<long>4.931230</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Amsterdam Zuid</name>
+		<code>asdz</code>
+		<country>NL</country>
+		<lat>52.339027</lat>
+		<long>4.873061</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Amsterdam Holendrecht</name>
+		<code>ashd</code>
+		<country>NL</country>
+		<lat>52.293532</lat>
+		<long>4.960652</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Amsterdam Science Park</name>
+		<code>assp</code>
+		<country>NL</country>
+		<lat>52.349940</lat>
+		<long>4.949991</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Assen</name>
+		<code>asn</code>
+		<country>NL</country>
+		<lat>52.992039</lat>
+		<long>6.570764</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Amsterdam Sloterdijk</name>
+		<code>ass</code>
+		<country>NL</country>
+		<lat>52.389375</lat>
+		<long>4.836780</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Aalten</name>
+		<code>atn</code>
+		<country>NL</country>
+		<lat>51.921289</lat>
+		<long>6.578647</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Antwerpen-Centraal</name>
+		<code>atw</code>
+		<country>BE</country>
+		<lat>51.216759</lat>
+		<long>4.470038</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Augsburg Hbf</name>
+		<code>augsb</code>
+		<country>DE</country>
+		<lat>48.365444</lat>
+		<long>1.0885568</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Amersfoort Vathorst</name>
+		<code>avat</code>
+		<country>NL</country>
+		<lat>52.192197</lat>
+		<long>5.433421</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Avignon TGV</name>
+		<code>avtgv</code>
+		<country>FR</country>
+		<lat>43.981216</lat>
+		<long>4.923203</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Aachen West</name>
+		<code>aw</code>
+		<country>DE</country>
+		<lat>50.780594</lat>
+		<long>6.071008</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Baden-Baden</name>
+		<code>baden</code>
+		<country>DE</country>
+		<lat>48.790085</lat>
+		<long>8.190467</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Baden</name>
+		<code>badenz</code>
+		<country>CH</country>
+		<lat>47.477202</lat>
+		<long>8.307767</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Basel Bad Bf</name>
+		<code>baselb</code>
+		<country>DE</country>
+		<lat>47.567292</lat>
+		<long>7.607804</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Basel SBB</name>
+		<code>basels</code>
+		<country>CH</country>
+		<lat>47.547291</lat>
+		<long>7.588981</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Breda</name>
+		<code>bd</code>
+		<country>NL</country>
+		<lat>51.595070</lat>
+		<long>4.780049</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Bunde</name>
+		<code>bde</code>
+		<country>NL</country>
+		<lat>50.896878</lat>
+		<long>5.736430</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Bodegraven</name>
+		<code>bdg</code>
+		<country>NL</country>
+		<lat>52.081710</lat>
+		<long>4.746034</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Bedum</name>
+		<code>bdm</code>
+		<country>NL</country>
+		<lat>53.306886</lat>
+		<long>6.593057</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Breda-Prinsenbeek</name>
+		<code>bdpb</code>
+		<country>NL</country>
+		<lat>51.605273</lat>
+		<long>4.722321</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Antwerpen-Berchem</name>
+		<code>berch</code>
+		<country>BE</country>
+		<lat>51.199734</lat>
+		<long>4.425146</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Berlin-Schönefeld Flughafen</name>
+		<code>berfl</code>
+		<country>DE</country>
+		<lat>52.390912</lat>
+		<long>1.3511991</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Berlin Hbf-Lehrter Bahnh.</name>
+		<code>berhbl</code>
+		<country>DE</country>
+		<lat>52.525589</lat>
+		<long>1.3369548</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Berlin-Gesundbrunnen</name>
+		<code>berlig</code>
+		<country>DE</country>
+		<lat>52.548961</lat>
+		<long>1.3388515</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Berlin-Spandau</name>
+		<code>berlis</code>
+		<country>DE</country>
+		<lat>52.534470</lat>
+		<long>1.3197530</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Bernau (B Berlin)</name>
+		<code>bernau</code>
+		<country>DE</country>
+		<lat>52.676230</lat>
+		<long>1.3593137</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Berlin Ostbahnhof</name>
+		<code>berost</code>
+		<country>DE</country>
+		<lat>52.510972</lat>
+		<long>1.3434567</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Best</name>
+		<code>bet</code>
+		<country>NL</country>
+		<lat>51.509538</lat>
+		<long>5.389221</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Baflo</name>
+		<code>bf</code>
+		<country>NL</country>
+		<lat>53.360893</lat>
+		<long>6.518554</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Bergen op Zoom</name>
+		<code>bgn</code>
+		<country>NL</country>
+		<lat>51.495272</lat>
+		<long>4.295935</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Bad Bentheim</name>
+		<code>bh</code>
+		<country>DE</country>
+		<lat>52.310054</lat>
+		<long>7.159557</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Bilthoven</name>
+		<code>bhv</code>
+		<country>NL</country>
+		<lat>52.129686</lat>
+		<long>5.204214</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Beek-Elsloo</name>
+		<code>bk</code>
+		<country>NL</country>
+		<lat>50.946966</lat>
+		<long>5.785897</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Bovenkarspel Flora</name>
+		<code>bkf</code>
+		<country>NL</country>
+		<lat>52.696231</lat>
+		<long>5.253044</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Bovenkarspel-Grootebroek</name>
+		<code>bkg</code>
+		<country>NL</country>
+		<lat>52.695224</lat>
+		<long>5.236036</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Breukelen</name>
+		<code>bkl</code>
+		<country>NL</country>
+		<lat>52.171135</lat>
+		<long>4.990622</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Beilen</name>
+		<code>bl</code>
+		<country>NL</country>
+		<lat>52.855016</lat>
+		<long>6.521026</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Bloemendaal</name>
+		<code>bll</code>
+		<country>NL</country>
+		<lat>52.404028</lat>
+		<long>4.627044</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Brummen</name>
+		<code>bmn</code>
+		<country>NL</country>
+		<lat>52.091688</lat>
+		<long>6.147740</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Boxmeer</name>
+		<code>bmr</code>
+		<country>NL</country>
+		<lat>51.644322</lat>
+		<long>5.939532</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Borne</name>
+		<code>bn</code>
+		<country>NL</country>
+		<lat>52.298324</lat>
+		<long>6.748705</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Barneveld Centrum</name>
+		<code>bnc</code>
+		<country>NL</country>
+		<lat>52.140527</lat>
+		<long>5.589519</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Bunnik</name>
+		<code>bnk</code>
+		<country>NL</country>
+		<lat>52.063336</lat>
+		<long>5.195738</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Barneveld Noord</name>
+		<code>bnn</code>
+		<country>NL</country>
+		<lat>52.160825</lat>
+		<long>5.598823</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Boenen</name>
+		<code>boe</code>
+		<country>DE</country>
+		<lat>51.598019</lat>
+		<long>7.757295</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Boisheim</name>
+		<code>bois</code>
+		<country>DE</country>
+		<lat>51.274443</lat>
+		<long>6.274353</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Bonn Hbf</name>
+		<code>bonn</code>
+		<country>DE</country>
+		<lat>50.732007</lat>
+		<long>7.097136</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Borghorst (Westf)</name>
+		<code>borg</code>
+		<country>DE</country>
+		<lat>52.119195</lat>
+		<long>7.396180</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Bork (Westf)</name>
+		<code>bork</code>
+		<country>DE</country>
+		<lat>51.669879</lat>
+		<long>7.456633</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Bourg-St-Maurice</name>
+		<code>bourg</code>
+		<country>FR</country>
+		<lat>45.616264</lat>
+		<long>6.771870</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Buitenpost</name>
+		<code>bp</code>
+		<country>NL</country>
+		<lat>53.256457</lat>
+		<long>6.144648</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Blerick</name>
+		<code>br</code>
+		<country>NL</country>
+		<lat>51.372183</lat>
+		<long>6.155255</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Barendrecht</name>
+		<code>brd</code>
+		<country>NL</country>
+		<lat>51.854697</lat>
+		<long>4.552434</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Bremen Hbf</name>
+		<code>bremen</code>
+		<country>DE</country>
+		<lat>53.083477</lat>
+		<long>8.813833</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Bressoux</name>
+		<code>bressx</code>
+		<country>BE</country>
+		<lat>50.648075</lat>
+		<long>5.603542</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Breyell</name>
+		<code>brey</code>
+		<country>DE</country>
+		<lat>51.295397</lat>
+		<long>6.239925</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Baarn</name>
+		<code>brn</code>
+		<country>NL</country>
+		<lat>52.208063</lat>
+		<long>5.282160</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Brussel-Centraal</name>
+		<code>brusc</code>
+		<country>BE</country>
+		<lat>50.843168</lat>
+		<long>4.348666</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Brussel-Noord</name>
+		<code>brusn</code>
+		<country>BE</country>
+		<lat>50.855636</lat>
+		<long>4.357682</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Brussel-Zuid/Midi</name>
+		<code>brusz</code>
+		<country>BE</country>
+		<lat>50.834143</lat>
+		<long>4.345484</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Beesd</name>
+		<code>bsd</code>
+		<country>NL</country>
+		<lat>51.899391</lat>
+		<long>5.194839</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Boskoop</name>
+		<code>bsk</code>
+		<country>NL</country>
+		<lat>52.076452</lat>
+		<long>4.646623</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Bussum Zuid</name>
+		<code>bsmz</code>
+		<country>NL</country>
+		<lat>52.265333</lat>
+		<long>5.163080</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Boxtel</name>
+		<code>btl</code>
+		<country>NL</country>
+		<lat>51.584850</lat>
+		<long>5.319097</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Burgsteinfurt</name>
+		<code>burg</code>
+		<country>DE</country>
+		<lat>52.147529</lat>
+		<long>7.329228</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Beverwijk</name>
+		<code>bv</code>
+		<country>NL</country>
+		<lat>52.478270</lat>
+		<long>4.655207</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Kapelle-Biezelinge</name>
+		<code>bzl</code>
+		<country>NL</country>
+		<lat>51.480557</lat>
+		<long>3.956808</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Castricum</name>
+		<code>cas</code>
+		<country>NL</country>
+		<lat>52.545608</lat>
+		<long>4.659252</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Chambery</name>
+		<code>chamb</code>
+		<country>FR</country>
+		<lat>45.571911</lat>
+		<long>5.918632</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Cuijk</name>
+		<code>ck</code>
+		<country>NL</country>
+		<lat>51.727221</lat>
+		<long>5.873965</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Culemborg</name>
+		<code>cl</code>
+		<country>NL</country>
+		<lat>51.946719</lat>
+		<long>5.227218</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Coevorden</name>
+		<code>co</code>
+		<country>NL</country>
+		<lat>52.663133</lat>
+		<long>6.736039</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Coesfeld (Westf)</name>
+		<code>coes</code>
+		<country>DE</country>
+		<lat>51.939025</lat>
+		<long>7.164204</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Capelle Schollevaar</name>
+		<code>cps</code>
+		<country>NL</country>
+		<lat>51.954154</lat>
+		<long>4.584049</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Chevremont</name>
+		<code>cvm</code>
+		<country>NL</country>
+		<lat>50.876311</lat>
+		<long>6.059781</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Daarlerveen</name>
+		<code>da</code>
+		<country>NL</country>
+		<lat>52.440767</lat>
+		<long>6.575995</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Driebergen-Zeist</name>
+		<code>db</code>
+		<country>NL</country>
+		<lat>52.065134</lat>
+		<long>5.259894</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Delden</name>
+		<code>ddn</code>
+		<country>NL</country>
+		<lat>52.260146</lat>
+		<long>6.714870</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Dordrecht</name>
+		<code>ddr</code>
+		<country>NL</country>
+		<lat>51.807557</lat>
+		<long>4.668439</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Dordrecht Stadspolders</name>
+		<code>ddrs</code>
+		<country>NL</country>
+		<lat>51.802092</lat>
+		<long>4.716666</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Dordrecht Zuid</name>
+		<code>ddzd</code>
+		<country>NL</country>
+		<lat>51.790055</lat>
+		<long>4.671909</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Deinum</name>
+		<code>dei</code>
+		<country>NL</country>
+		<lat>53.188813</lat>
+		<long>5.728160</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Didam</name>
+		<code>did</code>
+		<country>NL</country>
+		<lat>51.933505</lat>
+		<long>6.132414</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Dalfsen</name>
+		<code>dl</code>
+		<country>NL</country>
+		<lat>52.498441</lat>
+		<long>6.259593</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Den Bosch</name>
+		<code>ht</code>
+		<country>NL</country>
+		<lat>51.690536</lat>
+		<long>5.294790</long>
+		<alias>true</alias>
+	</station>
+
+	<station>
+		<name>Den Bosch Oost</name>
+		<code>hto</code>
+		<country>NL</country>
+		<lat>51.700802</lat>
+		<long>5.318494</long>
+		<alias>true</alias>
+	</station>
+
+	<station>
+		<name>Den Dolder</name>
+		<code>dld</code>
+		<country>NL</country>
+		<lat>52.140077</lat>
+		<long>5.241717</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Den Haag</name>
+		<code>gvc</code>
+		<country>NL</country>
+		<lat>52.081261</lat>
+		<long>4.323973</long>
+		<alias>true</alias>
+	</station>
+
+	<station>
+		<name>Dalen</name>
+		<code>dln</code>
+		<country>NL</country>
+		<lat>52.694613</lat>
+		<long>6.758018</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Diemen</name>
+		<code>dmn</code>
+		<country>NL</country>
+		<lat>52.345598</lat>
+		<long>4.967349</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Diemen Zuid</name>
+		<code>dmnz</code>
+		<country>NL</country>
+		<lat>52.330460</lat>
+		<long>4.956193</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Deurne</name>
+		<code>dn</code>
+		<country>NL</country>
+		<lat>51.456358</lat>
+		<long>5.788046</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Dortmund-Derne</name>
+		<code>dortd</code>
+		<country>DE</country>
+		<lat>51.567213</lat>
+		<long>7.528348</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Dortmund-Kirchderne</name>
+		<code>dortk</code>
+		<country>DE</country>
+		<lat>51.546987</lat>
+		<long>7.510181</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Dortmund Hbf</name>
+		<code>dortm</code>
+		<country>DE</country>
+		<lat>51.517898</lat>
+		<long>7.459293</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Dieren</name>
+		<code>dr</code>
+		<country>NL</country>
+		<lat>52.044693</lat>
+		<long>6.103360</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Driehuis</name>
+		<code>drh</code>
+		<country>NL</country>
+		<lat>52.443293</lat>
+		<long>4.639314</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Dronrijp</name>
+		<code>drp</code>
+		<country>NL</country>
+		<lat>53.177810</lat>
+		<long>5.634744</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Delft</name>
+		<code>dt</code>
+		<country>NL</country>
+		<lat>52.006677</lat>
+		<long>4.356622</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Doetinchem</name>
+		<code>dtc</code>
+		<country>NL</country>
+		<lat>51.958594</lat>
+		<long>6.296215</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Doetinchem-De Huet</name>
+		<code>dtch</code>
+		<country>NL</country>
+		<lat>51.959143</lat>
+		<long>6.259854</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Delft Zuid</name>
+		<code>dtz</code>
+		<country>NL</country>
+		<lat>51.990928</lat>
+		<long>4.364703</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Duelken</name>
+		<code>duelk</code>
+		<country>DE</country>
+		<lat>51.256986</lat>
+		<long>6.338626</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Dueren</name>
+		<code>dulm</code>
+		<country>DE</country>
+		<lat>51.827927</lat>
+		<long>7.295753</long>
+		<alias>true</alias>
+	</station>
+
+	<station>
+		<name>Duisburg Hbf</name>
+		<code>duisb</code>
+		<country>DE</country>
+		<lat>51.430019</lat>
+		<long>6.774783</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Duelmen</name>
+		<code>dulm</code>
+		<country>DE</country>
+		<lat>51.827927</lat>
+		<long>7.295753</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Duesseldorf Hbf</name>
+		<code>dussel</code>
+		<country>DE</country>
+		<lat>51.219960</lat>
+		<long>6.794316</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Deventer</name>
+		<code>dv</code>
+		<country>NL</country>
+		<lat>52.257081</lat>
+		<long>6.160963</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Deventer Colmschate</name>
+		<code>dvc</code>
+		<country>NL</country>
+		<lat>52.250510</lat>
+		<long>6.215474</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Duivendrecht</name>
+		<code>dvd</code>
+		<country>NL</country>
+		<lat>52.323556</lat>
+		<long>4.936606</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Duiven</name>
+		<code>dvn</code>
+		<country>NL</country>
+		<lat>51.943357</lat>
+		<long>6.014619</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>De Vink</name>
+		<code>dvnk</code>
+		<country>NL</country>
+		<lat>52.146649</lat>
+		<long>4.456105</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Delfzijl</name>
+		<code>dz</code>
+		<country>NL</country>
+		<lat>53.333665</lat>
+		<long>6.924076</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Delfzijl West</name>
+		<code>dzw</code>
+		<country>NL</country>
+		<lat>53.332083</lat>
+		<long>6.906906</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Eberswalde Hbf</name>
+		<code>ebers</code>
+		<country>DE</country>
+		<lat>52.834458</lat>
+		<long>1.3797542</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Echt</name>
+		<code>ec</code>
+		<country>NL</country>
+		<lat>51.100502</lat>
+		<long>5.878882</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Ede-Wageningen</name>
+		<code>ed</code>
+		<country>NL</country>
+		<lat>52.028189</lat>
+		<long>5.671636</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Ede Centrum</name>
+		<code>edc</code>
+		<country>NL</country>
+		<lat>52.043389</lat>
+		<long>5.668381</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Eijsden</name>
+		<code>edn</code>
+		<country>NL</country>
+		<lat>50.772009</lat>
+		<long>5.709975</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Eygelshoven</name>
+		<code>egh</code>
+		<country>NL</country>
+		<lat>50.890046</lat>
+		<long>6.045767</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Eygelshoven Markt</name>
+		<code>eghm</code>
+		<country>NL</country>
+		<lat>50.896177</lat>
+		<long>6.058082</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Eindhoven Beukenlaan</name>
+		<code>ehb</code>
+		<country>NL</country>
+		<lat>51.450281</lat>
+		<long>5.457548</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Eindhoven</name>
+		<code>ehv</code>
+		<country>NL</country>
+		<lat>51.442362</lat>
+		<long>5.479977</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Ekeren</name>
+		<code>ekeren</code>
+		<country>BE</country>
+		<lat>51.266488</lat>
+		<long>4.428077</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Enkhuizen</name>
+		<code>ekz</code>
+		<country>NL</country>
+		<lat>52.699593</lat>
+		<long>5.287652</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Emmerich</name>
+		<code>em</code>
+		<country>DE</country>
+		<lat>51.834327</lat>
+		<long>6.254092</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Ermelo</name>
+		<code>eml</code>
+		<country>NL</country>
+		<lat>52.300921</lat>
+		<long>5.614293</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Emmen</name>
+		<code>emn</code>
+		<country>NL</country>
+		<lat>52.790600</lat>
+		<long>6.899490</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Emmen Zuid</name>
+		<code>emnz</code>
+		<country>NL</country>
+		<lat>52.757778</lat>
+		<long>6.889444</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Emmen Bargeres</name>
+		<code>emnb</code>
+		<country>NL</country>
+		<lat>52.758005</lat>
+		<long>6.889926</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Ennepetal (Gevelsberg)</name>
+		<code>ennep</code>
+		<country>DE</country>
+		<lat>51.304449</lat>
+		<long>7.343243</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Epe (Westf)</name>
+		<code>epe</code>
+		<country>DE</country>
+		<lat>52.183396</lat>
+		<long>7.030013</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Enschede</name>
+		<code>es</code>
+		<country>NL</country>
+		<lat>52.222365</lat>
+		<long>6.890258</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Enschede De Eschmarke</name>
+		<code>ese</code>
+		<country>NL</country>
+		<lat>52.221304</lat>
+		<long>6.951106</long>
+		<alias>true</alias>
+	</station>
+
+	<station>
+		<name>Enschede Drienerlo</name>
+		<code>esd</code>
+		<country>NL</country>
+		<lat>52.236936</lat>
+		<long>6.838921</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>De Eschmarke</name>
+		<code>ese</code>
+		<country>NL</country>
+		<lat>52.221304</lat>
+		<long>6.951106</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Eschmarke</name>
+		<code>ese</code>
+		<country>NL</country>
+		<lat>52.221304</lat>
+		<long>6.951106</long>
+		<alias>true</alias>
+	</station>
+
+	<station>
+		<name>Essen (Belgie)</name>
+		<code>esn</code>
+		<country>BE</country>
+		<lat>51.462462</lat>
+		<long>4.451278</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Elst</name>
+		<code>est</code>
+		<country>NL</country>
+		<lat>51.916956</lat>
+		<long>5.854800</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Etten-Leur</name>
+		<code>etn</code>
+		<country>NL</country>
+		<lat>51.575456</lat>
+		<long>4.637355</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Frankfurt (M) Hbf</name>
+		<code>fffm</code>
+		<country>DE</country>
+		<lat>50.107149</lat>
+		<long>8.663785</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Franeker</name>
+		<code>fn</code>
+		<country>NL</country>
+		<lat>53.182449</lat>
+		<long>5.548313</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Frankfurt Flughafen Fernb</name>
+		<code>fnaf</code>
+		<country>DE</country>
+		<lat>50.053169</lat>
+		<long>8.570180</long>
+		<alias>true</alias>
+	</station>
+
+	<station>
+		<name>Frankfurt Flughafen Fernbf</name>
+		<code>fnaf</code>
+		<country>DE</country>
+		<lat>50.053169</lat>
+		<long>8.570180</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Freiburg (Breisgau) Hbf</name>
+		<code>freibb</code>
+		<country>DE</country>
+		<lat>47.997884</lat>
+		<long>7.841344</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Vise</name>
+		<code>fvs</code>
+		<country>BE</country>
+		<lat>50.749033</lat>
+		<long>5.698621</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Gronau Westf</name>
+		<code>g</code>
+		<country>DE</country>
+		<lat>52.205483</lat>
+		<long>7.017276</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Gramsbergen</name>
+		<code>gbg</code>
+		<country>NL</country>
+		<lat>52.610312</lat>
+		<long>6.676396</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Glanerbrug</name>
+		<code>gbr</code>
+		<country>NL</country>
+		<lat>52.219030</lat>
+		<long>6.973130</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Gouda</name>
+		<code>gd</code>
+		<country>NL</country>
+		<lat>52.017213</lat>
+		<long>4.706311</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Gouda Goverwelle</name>
+		<code>gdg</code>
+		<country>NL</country>
+		<lat>52.015073</lat>
+		<long>4.741306</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Geerdijk</name>
+		<code>gdk</code>
+		<country>NL</country>
+		<lat>52.475285</lat>
+		<long>6.567060</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Geldermalsen</name>
+		<code>gdm</code>
+		<country>NL</country>
+		<lat>51.882599</lat>
+		<long>5.271741</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Gaanderen</name>
+		<code>gdr</code>
+		<country>NL</country>
+		<lat>51.930395</lat>
+		<long>6.349296</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Geislingen</name>
+		<code>geisl</code>
+		<country>DE</country>
+		<lat>48.620288</lat>
+		<long>9.841875</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Groningen Europapark</name>
+		<code>gerp</code>
+		<country>NL</country>
+		<lat>53.206162</lat>
+		<long>6.582315</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Grijpskerk</name>
+		<code>gk</code>
+		<country>NL</country>
+		<lat>53.255747</lat>
+		<long>6.309762</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Geleen Oost</name>
+		<code>gln</code>
+		<country>NL</country>
+		<lat>50.967435</lat>
+		<long>5.843303</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Groningen</name>
+		<code>gn</code>
+		<country>NL</country>
+		<lat>53.210935</lat>
+		<long>6.563734</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Hardinxveld-Giessendam</name>
+		<code>gnd</code>
+		<country>NL</country>
+		<lat>51.830300</lat>
+		<long>4.835207</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Groningen Noord</name>
+		<code>gnn</code>
+		<country>NL</country>
+		<lat>53.230145</lat>
+		<long>6.556318</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Goor</name>
+		<code>go</code>
+		<country>NL</country>
+		<lat>52.230338</lat>
+		<long>6.586036</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Goeppingen</name>
+		<code>gop</code>
+		<country>DE</country>
+		<lat>48.700193</lat>
+		<long>9.651681</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Geldrop</name>
+		<code>gp</code>
+		<country>NL</country>
+		<lat>51.420077</lat>
+		<long>5.550803</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Gorinchem</name>
+		<code>gr</code>
+		<country>NL</country>
+		<lat>51.833725</lat>
+		<long>4.968203</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Goes</name>
+		<code>gs</code>
+		<country>NL</country>
+		<lat>51.498337</lat>
+		<long>3.890711</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Günzburg</name>
+		<code>gunzb</code>
+		<country>DE</country>
+		<lat>48.460226</lat>
+		<long>1.0278706</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Den Haag HS</name>
+		<code>gv</code>
+		<country>NL</country>
+		<lat>52.070285</lat>
+		<long>4.322633</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Den Haag Centraal</name>
+		<code>gvc</code>
+		<country>NL</country>
+		<lat>52.081261</lat>
+		<long>4.323973</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Den Haag Mariahoeve</name>
+		<code>gvm</code>
+		<country>NL</country>
+		<lat>52.091194</lat>
+		<long>4.369854</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Den Haag Moerwijk</name>
+		<code>gvmw</code>
+		<country>NL</country>
+		<lat>52.054518</lat>
+		<long>4.308862</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Grou-Jirnsum</name>
+		<code>gw</code>
+		<country>NL</country>
+		<lat>53.090111</lat>
+		<long>5.822313</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Gilze-Rijen</name>
+		<code>gz</code>
+		<country>NL</country>
+		<lat>51.584041</lat>
+		<long>4.924632</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Heemstede-Aerdenhout</name>
+		<code>had</code>
+		<country>NL</country>
+		<lat>52.359414</lat>
+		<long>4.607259</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Hagen Hbf</name>
+		<code>hagen</code>
+		<country>DE</country>
+		<lat>51.361621</lat>
+		<long>7.459365</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Hamburg Hbf</name>
+		<code>hamh</code>
+		<country>DE</country>
+		<lat>53.552732</lat>
+		<long>1.0006908</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Hamm (Westf.)</name>
+		<code>hamm</code>
+		<country>DE</country>
+		<lat>51.678077</lat>
+		<long>7.807823</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Hannover Hbf</name>
+		<code>hann</code>
+		<country>DE</country>
+		<lat>52.376763</lat>
+		<long>9.741016</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Hoensbroek</name>
+		<code>hb</code>
+		<country>NL</country>
+		<lat>50.905751</lat>
+		<long>5.930120</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Harderwijk</name>
+		<code>hd</code>
+		<country>NL</country>
+		<lat>52.337579</lat>
+		<long>5.619912</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Hardenberg</name>
+		<code>hdb</code>
+		<country>NL</country>
+		<lat>52.572369</lat>
+		<long>6.627638</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Harde ('t)</name>
+		<code>hde</code>
+		<country>NL</country>
+		<lat>52.409080</lat>
+		<long>5.892177</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Hurdegaryp</name>
+		<code>hdg</code>
+		<country>NL</country>
+		<lat>53.218774</lat>
+		<long>5.934543</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Den Helder</name>
+		<code>hdr</code>
+		<country>NL</country>
+		<lat>52.956891</lat>
+		<long>4.760732</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Den Helder Zuid</name>
+		<code>hdrz</code>
+		<country>NL</country>
+		<lat>52.932917</lat>
+		<long>4.764345</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Heide</name>
+		<code>heide</code>
+		<country>BE</country>
+		<lat>51.364929</lat>
+		<long>4.459135</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Hoofddorp</name>
+		<code>hfd</code>
+		<country>NL</country>
+		<lat>52.292391</lat>
+		<long>4.697852</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Hengelo</name>
+		<code>hgl</code>
+		<country>NL</country>
+		<lat>52.262205</lat>
+		<long>6.793597</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Hengelo Oost</name>
+		<code>hglo</code>
+		<country>NL</country>
+		<lat>52.269252</lat>
+		<long>6.820484</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Hoogeveen</name>
+		<code>hgv</code>
+		<country>NL</country>
+		<lat>52.733599</lat>
+		<long>6.472727</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Hoogezand-Sappemeer</name>
+		<code>hgz</code>
+		<country>NL</country>
+		<lat>53.159832</lat>
+		<long>6.770774</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Hillegom</name>
+		<code>hil</code>
+		<country>NL</country>
+		<lat>52.302692</lat>
+		<long>4.566025</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Heemskerk</name>
+		<code>hk</code>
+		<country>NL</country>
+		<lat>52.494540</lat>
+		<long>4.685564</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Hoogkarspel</name>
+		<code>hks</code>
+		<country>NL</country>
+		<lat>52.690469</lat>
+		<long>5.182362</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Hoek van Holland Haven</name>
+		<code>hld</code>
+		<country>NL</country>
+		<lat>51.976222</lat>
+		<long>4.127639</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Hoek van Holland Strand</name>
+		<code>hlds</code>
+		<country>NL</country>
+		<lat>51.981885</lat>
+		<long>4.119324</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Harlingen</name>
+		<code>hlg</code>
+		<country>NL</country>
+		<lat>53.170421</lat>
+		<long>5.425196</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Harlingen Haven</name>
+		<code>hlgh</code>
+		<country>NL</country>
+		<lat>53.174916</lat>
+		<long>5.411290</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Haarlem</name>
+		<code>hlm</code>
+		<country>NL</country>
+		<lat>52.388108</lat>
+		<long>4.638478</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Haarlem Spaarnwoude</name>
+		<code>hlms</code>
+		<country>NL</country>
+		<lat>52.383002</lat>
+		<long>4.671172</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Heiloo</name>
+		<code>hlo</code>
+		<country>NL</country>
+		<lat>52.600145</lat>
+		<long>4.701007</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Helmond</name>
+		<code>hm</code>
+		<country>NL</country>
+		<lat>51.475873</lat>
+		<long>5.661693</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Helmond Brouwhuis</name>
+		<code>hmbh</code>
+		<country>NL</country>
+		<lat>51.471280</lat>
+		<long>5.700527</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Helmond Brandevoort</name>
+		<code>hmbv</code>
+		<country>NL</country>
+		<lat>51.462498</lat>
+		<long>5.608810</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Helmond 't Hout</name>
+		<code>hmh</code>
+		<country>NL</country>
+		<lat>51.467936</lat>
+		<long>5.630851</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Hemmen-Dodewaard</name>
+		<code>hmn</code>
+		<country>NL</country>
+		<lat>51.922215</lat>
+		<long>5.673721</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Hoorn</name>
+		<code>hn</code>
+		<country>NL</country>
+		<lat>52.645064</lat>
+		<long>5.054625</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Hoorn Kersenboogerd</name>
+		<code>hnk</code>
+		<country>NL</country>
+		<lat>52.653146</lat>
+		<long>5.084703</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Heino</name>
+		<code>hno</code>
+		<country>NL</country>
+		<lat>52.427346</lat>
+		<long>6.221434</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Hindeloopen</name>
+		<code>hnp</code>
+		<country>NL</country>
+		<lat>52.946491</lat>
+		<long>5.423066</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Holtwick</name>
+		<code>holt</code>
+		<country>DE</country>
+		<lat>51.998461</lat>
+		<long>7.122647</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Holzwickede</name>
+		<code>holzw</code>
+		<country>DE</country>
+		<lat>51.505061</lat>
+		<long>7.620533</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Holten</name>
+		<code>hon</code>
+		<country>NL</country>
+		<lat>52.284121</lat>
+		<long>6.421435</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Hollandsche Rading</name>
+		<code>hor</code>
+		<country>NL</country>
+		<lat>52.178093</lat>
+		<long>5.179162</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Heerenveen</name>
+		<code>hr</code>
+		<country>NL</country>
+		<lat>52.960694</lat>
+		<long>5.915522</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Heerlen</name>
+		<code>hrl</code>
+		<country>NL</country>
+		<lat>50.890613</lat>
+		<long>5.975426</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Heerlen Woonboulevard</name>
+		<code>hrlw</code>
+		<country>NL</country>
+		<lat>50.890613</lat>
+		<long>5.975426</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Heerlen De Kissel</name>
+		<code>hrlk</code>
+		<country>NL</country>
+		<lat>50.891026</lat>
+		<long>5.998313</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Haren</name>
+		<code>hrn</code>
+		<country>NL</country>
+		<lat>53.174889</lat>
+		<long>6.618092</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Horst-Sevenum</name>
+		<code>hrt</code>
+		<country>NL</country>
+		<lat>51.427071</lat>
+		<long>6.041865</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Hertogenbosch ('s)</name>
+		<code>ht</code>
+		<country>NL</country>
+		<lat>51.690536</lat>
+		<long>5.294790</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Houten</name>
+		<code>htn</code>
+		<country>NL</country>
+		<lat>52.034715</lat>
+		<long>5.168024</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Houten Castellum</name>
+		<code>htnc</code>
+		<country>NL</country>
+		<lat>52.017294</lat>
+		<long>5.179467</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Hertogenbosch ('s) Oost</name>
+		<code>hto</code>
+		<country>NL</country>
+		<lat>51.700802</lat>
+		<long>5.318494</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Hertogenb ('s) Oost</name>
+		<code>hto</code>
+		<country>NL</country>
+		<lat>51.700802</lat>
+		<long>5.318494</long>
+		<alias>true</alias>
+	</station>
+
+	<station>
+		<name>Hilversum</name>
+		<code>hvs</code>
+		<country>NL</country>
+		<lat>52.226356</lat>
+		<long>5.181283</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Hilversum Noord</name>
+		<code>hvsn</code>
+		<country>NL</country>
+		<lat>52.238662</lat>
+		<long>5.174047</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Hilversum Sportpark</name>
+		<code>hvsp</code>
+		<country>NL</country>
+		<lat>52.216396</lat>
+		<long>5.187324</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Heerhugowaard</name>
+		<code>hwd</code>
+		<country>NL</country>
+		<lat>52.670621</lat>
+		<long>4.824097</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Herzogenrath</name>
+		<code>hz</code>
+		<country>DE</country>
+		<lat>50.877111</lat>
+		<long>6.105536</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Heeze</name>
+		<code>hze</code>
+		<country>NL</country>
+		<lat>51.385262</lat>
+		<long>5.569644</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>IJlst</name>
+		<code>ijt</code>
+		<country>NL</country>
+		<lat>53.014665</lat>
+		<long>5.616082</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Kalmthout</name>
+		<code>kalmth</code>
+		<country>BE</country>
+		<lat>51.391024</lat>
+		<long>4.465571</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Kapellen</name>
+		<code>kapell</code>
+		<country>BE</country>
+		<lat>51.310993</lat>
+		<long>4.433434</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Karlsruhe Hbf</name>
+		<code>karls</code>
+		<country>DE</country>
+		<lat>48.993538</lat>
+		<long>8.400374</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Krabbendijke</name>
+		<code>kbd</code>
+		<country>NL</country>
+		<lat>51.433058</lat>
+		<long>4.117365</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Klarenbeek</name>
+		<code>kbk</code>
+		<country>NL</country>
+		<lat>52.177832</lat>
+		<long>6.084591</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Koog Bloemwijk</name>
+		<code>kbw</code>
+		<country>NL</country>
+		<lat>52.457981</lat>
+		<long>4.805911</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Koeln Deutz</name>
+		<code>kkd</code>
+		<country>DE</country>
+		<lat>50.940880</lat>
+		<long>6.974541</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Veenendaal-De Klomp</name>
+		<code>klp</code>
+		<country>NL</country>
+		<lat>52.045826</lat>
+		<long>5.573356</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Krommenie-Assendelft</name>
+		<code>kma</code>
+		<country>NL</country>
+		<lat>52.495106</lat>
+		<long>4.754178</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Klimmen-Ransdaal</name>
+		<code>kmr</code>
+		<country>NL</country>
+		<lat>50.866648</lat>
+		<long>5.890316</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Koudum-Molkwerum</name>
+		<code>kmw</code>
+		<country>NL</country>
+		<lat>52.902821</lat>
+		<long>5.410688</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Kaldenkirchen</name>
+		<code>kn</code>
+		<country>DE</country>
+		<lat>51.336505</lat>
+		<long>6.219663</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Koblenz Hbf</name>
+		<code>koblen</code>
+		<country>DE</country>
+		<lat>50.351080</lat>
+		<long>7.588648</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Kohlscheid</name>
+		<code>kohl</code>
+		<country>DE</country>
+		<lat>50.831724</lat>
+		<long>6.074487</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Koeln Hbf</name>
+		<code>koln</code>
+		<country>DE</country>
+		<lat>50.932520</lat>
+		<long>6.982712</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Koeln-Ehrenfeld</name>
+		<code>kolne</code>
+		<country>DE</country>
+		<lat>50.951676</lat>
+		<long>6.918808</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Kampen</name>
+		<code>kpn</code>
+		<country>NL</country>
+		<lat>52.559757</lat>
+		<long>5.921769</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Kerkrade Centrum</name>
+		<code>krd</code>
+		<country>NL</country>
+		<lat>50.861128</lat>
+		<long>6.057282</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Keulen</name>
+		<code>koln</code>
+		<country>DE</country>
+		<lat>50.932520</lat>
+		<long>6.982712</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Kruiningen-Yerseke</name>
+		<code>krg</code>
+		<country>NL</country>
+		<lat>51.465320</lat>
+		<long>4.036444</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Siegburg</name>
+		<code>ksb</code>
+		<country>DE</country>
+		<lat>50.794024</lat>
+		<long>7.203263</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Kesteren</name>
+		<code>ktr</code>
+		<country>NL</country>
+		<lat>51.931384</lat>
+		<long>5.583343</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Kropswolde</name>
+		<code>kw</code>
+		<country>NL</country>
+		<lat>53.161737</lat>
+		<long>6.722088</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Koog-Zaandijk</name>
+		<code>kzd</code>
+		<country>NL</country>
+		<lat>52.468408</lat>
+		<long>4.805336</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Den Haag Laan v NOI</name>
+		<code>laa</code>
+		<country>NL</country>
+		<lat>52.079364</lat>
+		<long>4.343425</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Landry</name>
+		<code>landry</code>
+		<country>FR</country>
+		<lat>45.570491</lat>
+		<long>6.735833</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Lochem</name>
+		<code>lc</code>
+		<country>NL</country>
+		<lat>52.165607</lat>
+		<long>6.426136</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Leiden</name>
+		<code>ledn</code>
+		<country>NL</country>
+		<lat>52.166542</lat>
+		<long>4.483028</long>
+		<alias>true</alias>
+	</station>
+
+	<station>
+		<name>Leiden Lammenschans</name>
+		<code>ldl</code>
+		<country>NL</country>
+		<lat>52.146747</lat>
+		<long>4.492628</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Leerdam</name>
+		<code>ldm</code>
+		<country>NL</country>
+		<lat>51.894510</lat>
+		<long>5.093449</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Leiden Centraal</name>
+		<code>ledn</code>
+		<country>NL</country>
+		<lat>52.166542</lat>
+		<long>4.483028</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Leer (Ostfriesland)</name>
+		<code>leer</code>
+		<country>DE</country>
+		<lat>53.231332</lat>
+		<long>7.465199</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Legden</name>
+		<code>leg</code>
+		<country>DE</country>
+		<lat>52.034985</lat>
+		<long>7.088470</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Lette (Kr Coesfeld)</name>
+		<code>lette</code>
+		<country>DE</country>
+		<lat>51.892497</lat>
+		<long>7.187001</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Landgraaf</name>
+		<code>lg</code>
+		<country>NL</country>
+		<lat>50.896492</lat>
+		<long>6.019563</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Lelystad Centrum</name>
+		<code>lls</code>
+		<country>NL</country>
+		<lat>52.507907</lat>
+		<long>5.472785</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Loppersum</name>
+		<code>lp</code>
+		<country>NL</country>
+		<lat>53.334717</lat>
+		<long>6.747258</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Lunteren</name>
+		<code>ltn</code>
+		<country>NL</country>
+		<lat>52.085189</lat>
+		<long>5.623993</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Lichtenvoorde-Groenlo</name>
+		<code>ltv</code>
+		<country>NL</country>
+		<lat>52.012538</lat>
+		<long>6.594621</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Luedinghausen</name>
+		<code>lud</code>
+		<country>DE</country>
+		<lat>51.761838</lat>
+		<long>7.431652</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Liege-Guillemins</name>
+		<code>luik</code>
+		<country>BE</country>
+		<lat>50.626887</lat>
+		<long>5.630780</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Luenen Hbf</name>
+		<code>lun</code>
+		<country>DE</country>
+		<lat>51.616573</lat>
+		<long>7.529454</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Geleen-Lutterade</name>
+		<code>lut</code>
+		<country>NL</country>
+		<lat>50.975318</lat>
+		<long>5.825009</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Leeuwarden</name>
+		<code>lw</code>
+		<country>NL</country>
+		<lat>53.196517</lat>
+		<long>5.792711</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Leeuwarden Camminghaburen</name>
+		<code>lwc</code>
+		<country>NL</country>
+		<lat>53.202180</lat>
+		<long>5.842296</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Mainz Hbf</name>
+		<code>mainz</code>
+		<country>DE</country>
+		<lat>50.001112</lat>
+		<long>8.258722</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Mannheim Hbf</name>
+		<code>mannh</code>
+		<country>DE</country>
+		<lat>49.479351</lat>
+		<long>8.468917</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Marne-la-Vallee-Chessy</name>
+		<code>marne</code>
+		<country>FR</country>
+		<lat>48.869802</lat>
+		<long>2.778997</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Marseille-St-Charles</name>
+		<code>mars</code>
+		<country>FR</country>
+		<lat>43.321030</lat>
+		<long>5.392709</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Maarssen</name>
+		<code>mas</code>
+		<country>NL</country>
+		<lat>52.135592</lat>
+		<long>5.033150</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Moenchengladbach Hbf</name>
+		<code>mcgb</code>
+		<country>DE</country>
+		<lat>51.196579</lat>
+		<long>6.446110</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Middelburg</name>
+		<code>mdb</code>
+		<country>NL</country>
+		<lat>51.495245</lat>
+		<long>3.618176</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Mechelen</name>
+		<code>mech</code>
+		<country>BE</country>
+		<lat>51.015617</lat>
+		<long>4.474380</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Meerssen</name>
+		<code>mes</code>
+		<country>NL</country>
+		<lat>50.882720</lat>
+		<long>5.750813</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Metelen Land</name>
+		<code>metel</code>
+		<country>DE</country>
+		<lat>52.162443</lat>
+		<long>7.254420</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Mantgum</name>
+		<code>mg</code>
+		<country>NL</country>
+		<lat>53.129637</lat>
+		<long>5.713202</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Minden (Westf.)</name>
+		<code>minden</code>
+		<country>DE</country>
+		<lat>52.289874</lat>
+		<long>8.935214</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Mook Molenhoek</name>
+		<code>mmlh</code>
+		<country>NL</country>
+		<lat>51.749964</lat>
+		<long>5.749959</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Moutiers-Salins-Brides</name>
+		<code>mout</code>
+		<country>FR</country>
+		<lat>45.480419</lat>
+		<long>6.521368</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Meppel</name>
+		<code>mp</code>
+		<country>NL</country>
+		<lat>52.691925</lat>
+		<long>6.197612</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Marienberg</name>
+		<code>mrb</code>
+		<country>NL</country>
+		<lat>52.509004</lat>
+		<long>6.574296</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Maarn</name>
+		<code>mrn</code>
+		<country>NL</country>
+		<lat>52.064487</lat>
+		<long>5.370434</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Maassluis</name>
+		<code>mss</code>
+		<country>NL</country>
+		<lat>51.916740</lat>
+		<long>4.253587</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Maassluis West</name>
+		<code>msw</code>
+		<country>NL</country>
+		<lat>51.925999</lat>
+		<long>4.235762</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Maastricht</name>
+		<code>mt</code>
+		<country>NL</country>
+		<lat>50.849955</lat>
+		<long>5.705543</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Martenshoek</name>
+		<code>mth</code>
+		<country>NL</country>
+		<lat>53.160722</lat>
+		<long>6.740300</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Maastricht Randwyck</name>
+		<code>mtr</code>
+		<country>NL</country>
+		<lat>50.837792</lat>
+		<long>5.717669</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Muenchen Hbf</name>
+		<code>munchh</code>
+		<country>DE</country>
+		<lat>48.140228</lat>
+		<long>1.1558338</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Muenster (Westf) Hbf</name>
+		<code>munst</code>
+		<country>DE</country>
+		<lat>51.956895</lat>
+		<long>7.635895</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Muenster (W) Zentrum Nord</name>
+		<code>munsz</code>
+		<country>DE</country>
+		<lat>51.984987</lat>
+		<long>7.638610</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Maarheeze</name>
+		<code>mz</code>
+		<country>BE</country>
+		<lat>51.299973</lat>
+		<long>5.616622</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Nieuw Amsterdam</name>
+		<code>na</code>
+		<country>NL</country>
+		<lat>52.718515</lat>
+		<long>6.848755</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Naarden-Bussum</name>
+		<code>ndb</code>
+		<country>NL</country>
+		<lat>52.280956</lat>
+		<long>5.156994</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Neuss Hbf</name>
+		<code>neuss</code>
+		<country>DE</country>
+		<lat>51.204894</lat>
+		<long>6.684630</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Nuth</name>
+		<code>nh</code>
+		<country>NL</country>
+		<lat>50.920124</lat>
+		<long>5.892186</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Muenster-Häger</name>
+		<code>nien</code>
+		<country>DE</country>
+		<lat>52.022328</lat>
+		<long>7.562669</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Nijkerk</name>
+		<code>nkk</code>
+		<country>NL</country>
+		<lat>52.222356</lat>
+		<long>5.493892</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Nijmegen</name>
+		<code>nm</code>
+		<country>NL</country>
+		<lat>51.843263</lat>
+		<long>5.853020</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Nijmegen Dukenburg</name>
+		<code>nmd</code>
+		<country>NL</country>
+		<lat>51.823882</lat>
+		<long>5.795084</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Nijmegen Heyendaal</name>
+		<code>nmh</code>
+		<country>NL</country>
+		<lat>51.826749</lat>
+		<long>5.867501</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Nijmegen Lent</name>
+		<code>nml</code>
+		<country>NL</country>
+		<lat>51.864001</lat>
+		<long>5.859474</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Nordwalde</name>
+		<code>nord</code>
+		<country>DE</country>
+		<lat>52.077620</lat>
+		<long>7.461702</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Nunspeet</name>
+		<code>ns</code>
+		<country>NL</country>
+		<lat>52.371019</lat>
+		<long>5.784693</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Nieuweschans</name>
+		<code>nsch</code>
+		<country>NL</country>
+		<lat>53.185208</lat>
+		<long>7.200233</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Nijverdal</name>
+		<code>nvd</code>
+		<country>NL</country>
+		<lat>52.365653</lat>
+		<long>6.470174</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Nijverdal West</name>
+		<code>nvdw</code>
+		<country>NL</country>
+		<lat>52.350020</lat>
+		<long>6.449976</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Nieuw Vennep</name>
+		<code>nvp</code>
+		<country>NL</country>
+		<lat>52.259175</lat>
+		<long>4.645778</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Nieuwerkerk ad IJssel</name>
+		<code>nwk</code>
+		<country>NL</country>
+		<lat>51.965336</lat>
+		<long>4.616733</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Schiedam Nieuwland</name>
+		<code>nwl</code>
+		<country>NL</country>
+		<lat>51.922862</lat>
+		<long>4.383697</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Oss</name>
+		<code>o</code>
+		<country>NL</country>
+		<lat>51.764913</lat>
+		<long>5.529606</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Obdam</name>
+		<code>obd</code>
+		<country>NL</country>
+		<lat>52.678001</lat>
+		<long>4.909170</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Oberhausen Hbf</name>
+		<code>oberh</code>
+		<country>DE</country>
+		<lat>51.475091</lat>
+		<long>6.851982</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Ochtrup</name>
+		<code>ocht</code>
+		<country>DE</country>
+		<lat>52.201698</lat>
+		<long>7.182641</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Oudenbosch</name>
+		<code>odb</code>
+		<country>NL</country>
+		<lat>51.587771</lat>
+		<long>4.533107</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Oldenzaal</name>
+		<code>odz</code>
+		<country>NL</country>
+		<lat>52.306297</lat>
+		<long>6.933712</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Offenburg</name>
+		<code>offen</code>
+		<country>DE</country>
+		<lat>48.476479</lat>
+		<long>7.946724</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Oldenburg (oldb) Hbf</name>
+		<code>olden</code>
+		<country>DE</country>
+		<lat>53.144685</lat>
+		<long>8.222451</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Onze Lieve Vrouwe t. Nood</name>
+		<code>olv</code>
+		<country>NL</country>
+		<lat>52.584783</lat>
+		<long>4.687083</long>
+		<alias>true</alias>
+	</station>
+
+	<station>
+		<name>Ommen</name>
+		<code>omn</code>
+		<country>NL</country>
+		<lat>52.509930</lat>
+		<long>6.417731</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Opheusden</name>
+		<code>op</code>
+		<country>NL</country>
+		<lat>51.926161</lat>
+		<long>5.637117</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Osnabrueck Hbf</name>
+		<code>osnh</code>
+		<country>DE</country>
+		<lat>52.272686</lat>
+		<long>8.061669</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Olst</name>
+		<code>ost</code>
+		<country>NL</country>
+		<lat>52.335755</lat>
+		<long>6.113330</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Oisterwijk</name>
+		<code>ot</code>
+		<country>NL</country>
+		<lat>51.582009</lat>
+		<long>5.193580</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Oosterbeek</name>
+		<code>otb</code>
+		<country>NL</country>
+		<lat>51.994488</lat>
+		<long>5.841190</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Overveen</name>
+		<code>ovn</code>
+		<country>NL</country>
+		<lat>52.390966</lat>
+		<long>4.607582</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Oss West</name>
+		<code>ow</code>
+		<country>NL</country>
+		<lat>51.758288</lat>
+		<long>5.506845</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Parijs</name>
+		<code>paris</code>
+		<country>FR</country>
+		<lat>48.880508</lat>
+		<long>2.354940</long>
+		<alias>true</alias>
+	</station>
+
+	<station>
+		<name>Paris-Nord</name>
+		<code>paris</code>
+		<country>FR</country>
+		<lat>48.880508</lat>
+		<long>2.354940</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Plochingen</name>
+		<code>ploch</code>
+		<country>DE</country>
+		<lat>48.713344</lat>
+		<long>9.410528</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Purmerend Overwhere</name>
+		<code>pmo</code>
+		<country>NL</country>
+		<lat>52.511422</lat>
+		<long>4.967690</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Purmerend</name>
+		<code>pmr</code>
+		<country>NL</country>
+		<lat>52.503826</lat>
+		<long>4.954206</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Purmerend Weidevenne</name>
+		<code>pmw</code>
+		<country>NL</country>
+		<lat>52.497291</lat>
+		<long>4.938071</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Preussen</name>
+		<code>preus</code>
+		<country>DE</country>
+		<lat>51.588850</lat>
+		<long>7.539306</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Putten</name>
+		<code>pt</code>
+		<country>NL</country>
+		<lat>52.265576</lat>
+		<long>5.575882</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Pulheim</name>
+		<code>pulh</code>
+		<country>DE</country>
+		<lat>50.998492</lat>
+		<long>6.796663</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Amsterdam RAI</name>
+		<code>rai</code>
+		<country>NL</country>
+		<lat>52.337301</lat>
+		<long>4.889511</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Raalte</name>
+		<code>rat</code>
+		<country>NL</country>
+		<lat>52.390984</lat>
+		<long>6.278335</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Rilland-Bath</name>
+		<code>rb</code>
+		<country>NL</country>
+		<lat>51.422190</lat>
+		<long>4.160369</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Roodeschool</name>
+		<code>rd</code>
+		<country>NL</country>
+		<lat>53.419215</lat>
+		<long>6.760616</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Rheden</name>
+		<code>rh</code>
+		<country>NL</country>
+		<lat>52.010228</lat>
+		<long>6.031285</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Rheine</name>
+		<code>rheine</code>
+		<country>DE</country>
+		<lat>52.276102</lat>
+		<long>7.435166</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Rhenen</name>
+		<code>rhn</code>
+		<country>NL</country>
+		<lat>51.957551</lat>
+		<long>5.577932</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Ruurlo</name>
+		<code>rl</code>
+		<country>NL</country>
+		<lat>52.081090</lat>
+		<long>6.449265</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Rotterdam Lombardijen</name>
+		<code>rlb</code>
+		<country>NL</country>
+		<lat>51.879984</lat>
+		<long>4.530761</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Roermond</name>
+		<code>rm</code>
+		<country>NL</country>
+		<lat>51.193172</lat>
+		<long>5.994465</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Rommerskirchen</name>
+		<code>romm</code>
+		<country>DE</country>
+		<lat>51.039708</lat>
+		<long>6.701125</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Rosmalen</name>
+		<code>rs</code>
+		<country>NL</country>
+		<lat>51.715202</lat>
+		<long>5.369113</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Roosendaal</name>
+		<code>rsd</code>
+		<country>NL</country>
+		<lat>51.540470</lat>
+		<long>4.459323</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Rijssen</name>
+		<code>rsn</code>
+		<country>NL</country>
+		<lat>52.311897</lat>
+		<long>6.519309</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Rijswijk</name>
+		<code>rsw</code>
+		<country>NL</country>
+		<lat>52.039605</lat>
+		<long>4.319721</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Rotterdam</name>
+		<code>rtd</code>
+		<country>NL</country>
+		<lat>51.925091</lat>
+		<long>4.469427</long>
+		<alias>true</alias>
+	</station>
+
+	<station>
+		<name>Rotterdam Alexander</name>
+		<code>rta</code>
+		<country>NL</country>
+		<lat>51.951412</lat>
+		<long>4.551948</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Rotterdam Blaak</name>
+		<code>rtb</code>
+		<country>NL</country>
+		<lat>51.919851</lat>
+		<long>4.489159</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Rotterdam Centraal</name>
+		<code>rtd</code>
+		<country>NL</country>
+		<lat>51.925091</lat>
+		<long>4.469427</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Rotterdam Noord</name>
+		<code>rtn</code>
+		<country>NL</country>
+		<lat>51.942081</lat>
+		<long>4.481149</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Rotterdam Stadion</name>
+		<code>rtst</code>
+		<country>NL</country>
+		<lat>51.892757</lat>
+		<long>4.520063</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Rotterdam Zuid</name>
+		<code>rtz</code>
+		<country>NL</country>
+		<lat>51.902852</lat>
+		<long>4.511587</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Reuver</name>
+		<code>rv</code>
+		<country>NL</country>
+		<lat>51.283217</lat>
+		<long>6.079224</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Ravenstein</name>
+		<code>rvs</code>
+		<country>NL</country>
+		<lat>51.794478</lat>
+		<long>5.636820</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Spaubeek</name>
+		<code>sbk</code>
+		<country>NL</country>
+		<lat>50.943317</lat>
+		<long>5.849613</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Schwelm</name>
+		<code>schwe</code>
+		<country>DE</country>
+		<lat>51.290606</lat>
+		<long>7.290710</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Schwerte (Ruhr)</name>
+		<code>schwer</code>
+		<country>DE</country>
+		<lat>51.442236</lat>
+		<long>7.559235</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Soestdijk</name>
+		<code>sd</code>
+		<country>NL</country>
+		<lat>52.183900</lat>
+		<long>5.299617</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Scheemda</name>
+		<code>sda</code>
+		<country>NL</country>
+		<lat>53.165540</lat>
+		<long>6.977777</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Schiedam Centrum</name>
+		<code>sdm</code>
+		<country>NL</country>
+		<lat>51.921640</lat>
+		<long>4.409307</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Sliedrecht</name>
+		<code>sdt</code>
+		<country>NL</country>
+		<lat>51.829752</lat>
+		<long>4.777910</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Selm</name>
+		<code>selm</code>
+		<country>DE</country>
+		<lat>51.708038</lat>
+		<long>7.453145</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Selm-Beifang</name>
+		<code>selmb</code>
+		<country>DE</country>
+		<lat>51.692945</lat>
+		<long>7.454835</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Houthem-St Gerlach</name>
+		<code>sgl</code>
+		<country>NL</country>
+		<lat>50.873578</lat>
+		<long>5.796487</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Schagen</name>
+		<code>sgn</code>
+		<country>NL</country>
+		<lat>52.785296</lat>
+		<long>4.805129</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Schiphol</name>
+		<code>shl</code>
+		<country>NL</country>
+		<lat>52.308293</lat>
+		<long>4.762269</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Sneek</name>
+		<code>sk</code>
+		<country>NL</country>
+		<lat>53.032473</lat>
+		<long>5.652399</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Sneek Noord</name>
+		<code>sknd</code>
+		<country>NL</country>
+		<lat>53.040536</lat>
+		<long>5.663177</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Swalmen</name>
+		<code>sm</code>
+		<country>NL</country>
+		<lat>51.235034</lat>
+		<long>6.031815</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Schinnen</name>
+		<code>sn</code>
+		<country>NL</country>
+		<lat>50.938804</lat>
+		<long>5.875879</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Schin op Geul</name>
+		<code>sog</code>
+		<country>NL</country>
+		<lat>50.856121</lat>
+		<long>5.871888</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Sappemeer Oost</name>
+		<code>spm</code>
+		<country>NL</country>
+		<lat>53.158915</lat>
+		<long>6.795566</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Santpoort Noord</name>
+		<code>sptn</code>
+		<country>NL</country>
+		<lat>52.433638</lat>
+		<long>4.632716</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Santpoort Zuid</name>
+		<code>sptz</code>
+		<country>NL</country>
+		<lat>52.419426</lat>
+		<long>4.631188</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Susteren</name>
+		<code>srn</code>
+		<country>NL</country>
+		<lat>51.060752</lat>
+		<long>5.862629</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Soest</name>
+		<code>st</code>
+		<country>NL</country>
+		<lat>52.172852</lat>
+		<long>5.310314</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Spoorwegmuseum</name>
+		<code>utm</code>
+		<country>NL</country>
+		<lat>52.087940</lat>
+		<long>5.131141</long>
+		<alias>true</alias>
+	</station>
+
+	<station>
+		<name>Sittard</name>
+		<code>std</code>
+		<country>NL</country>
+		<lat>51.002421</lat>
+		<long>5.859456</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Stendal</name>
+		<code>stdal</code>
+		<country>DE</country>
+		<lat>52.594725</lat>
+		<long>1.1854407</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Stedum</name>
+		<code>stm</code>
+		<country>NL</country>
+		<lat>53.326204</lat>
+		<long>6.687551</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Stolberg Altstadt</name>
+		<code>stola</code>
+		<country>DE</country>
+		<lat>50.765168</lat>
+		<long>6.230486</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Stolberg Hbf</name>
+		<code>stolb</code>
+		<country>DE</country>
+		<lat>50.794977</lat>
+		<long>6.218908</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Stommeln</name>
+		<code>stomm</code>
+		<country>DE</country>
+		<lat>51.018161</lat>
+		<long>6.752534</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Stuttgart Hbf</name>
+		<code>stutt</code>
+		<country>DE</country>
+		<lat>48.784081</lat>
+		<long>9.181636</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Stavoren</name>
+		<code>stv</code>
+		<country>NL</country>
+		<lat>52.886551</lat>
+		<long>5.360024</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Soest Zuid</name>
+		<code>stz</code>
+		<country>NL</country>
+		<lat>52.165391</lat>
+		<long>5.303455</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Sauwerd</name>
+		<code>swd</code>
+		<country>NL</country>
+		<lat>53.291676</lat>
+		<long>6.540290</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Steenwijk</name>
+		<code>swk</code>
+		<country>NL</country>
+		<lat>52.790950</lat>
+		<long>6.116718</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Szczecin Glowny</name>
+		<code>szcz</code>
+		<country>PL</country>
+		<lat>53.414433</lat>
+		<long>1.4550056</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Szczecin Gumience</name>
+		<code>szczg</code>
+		<country>PL</country>
+		<lat>53.399880</lat>
+		<long>1.4497056</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Tilburg</name>
+		<code>tb</code>
+		<country>NL</country>
+		<lat>51.560381</lat>
+		<long>5.083930</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Terborg</name>
+		<code>tbg</code>
+		<country>NL</country>
+		<lat>51.922458</lat>
+		<long>6.364245</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Tilburg Reeshof</name>
+		<code>tbr</code>
+		<country>NL</country>
+		<lat>51.573865</lat>
+		<long>4.993112</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Tilburg Universiteit</name>
+		<code>tbu</code>
+		<country>NL</country>
+		<lat>51.565064</lat>
+		<long>5.052027</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Tegelen</name>
+		<code>tg</code>
+		<country>NL</country>
+		<lat>51.339264</lat>
+		<long>6.143362</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Tiel</name>
+		<code>tl</code>
+		<country>NL</country>
+		<lat>51.889566</lat>
+		<long>5.423084</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Tiel Passewaaij</name>
+		<code>tpsw</code>
+		<country>NL</country>
+		<lat>51.874114</lat>
+		<long>5.392574</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Twello</name>
+		<code>twl</code>
+		<country>NL</country>
+		<lat>52.238752</lat>
+		<long>6.101940</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Uithuizermeeden</name>
+		<code>uhm</code>
+		<country>NL</country>
+		<lat>53.414181</lat>
+		<long>6.720299</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Uithuizen</name>
+		<code>uhz</code>
+		<country>NL</country>
+		<lat>53.409552</lat>
+		<long>6.674886</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Ulm Hbf</name>
+		<code>ulm</code>
+		<country>DE</country>
+		<lat>48.399019</lat>
+		<long>9.982161</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Unna</name>
+		<code>unna</code>
+		<country>DE</country>
+		<lat>51.538996</lat>
+		<long>7.692357</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Usquert</name>
+		<code>ust</code>
+		<country>NL</country>
+		<lat>53.401075</lat>
+		<long>6.609381</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Utrecht</name>
+		<code>ut</code>
+		<country>NL</country>
+		<lat>52.089774</lat>
+		<long>5.110996</long>
+		<alias>true</alias>
+	</station>
+
+	<station>
+		<name>Utrecht Centraal</name>
+		<code>ut</code>
+		<country>NL</country>
+		<lat>52.089774</lat>
+		<long>5.110996</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Uitgeest</name>
+		<code>utg</code>
+		<country>NL</country>
+		<lat>52.522047</lat>
+		<long>4.702374</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Utrecht Lunetten</name>
+		<code>utl</code>
+		<country>NL</country>
+		<lat>52.065943</lat>
+		<long>5.143519</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Utrecht Maliebaan</name>
+		<code>utm</code>
+		<country>NL</country>
+		<lat>52.087940</lat>
+		<long>5.131141</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Utrecht Overvecht</name>
+		<code>uto</code>
+		<country>NL</country>
+		<lat>52.110395</lat>
+		<long>5.125172</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Utrecht Terwijde</name>
+		<code>utt</code>
+		<country>NL</country>
+		<lat>52.100651</lat>
+		<long>5.040431</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Utrecht Zuilen</name>
+		<code>utzl</code>
+		<country>NL</country>
+		<lat>52.103213</lat>
+		<long>5.089746</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Valence TGV</name>
+		<code>valtgv</code>
+		<country>FR</country>
+		<lat>44.965571</lat>
+		<long>4.944210</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Voorburg</name>
+		<code>vb</code>
+		<country>NL</country>
+		<lat>52.066294</lat>
+		<long>4.359480</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Vorden</name>
+		<code>vd</code>
+		<country>NL</country>
+		<lat>52.107195</lat>
+		<long>6.317043</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Vlaardingen Centrum</name>
+		<code>vdg</code>
+		<country>NL</country>
+		<lat>51.903553</lat>
+		<long>4.344603</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Voerendaal</name>
+		<code>vdl</code>
+		<country>NL</country>
+		<lat>50.886693</lat>
+		<long>5.929617</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Vlaardingen Oost</name>
+		<code>vdo</code>
+		<country>NL</country>
+		<lat>51.910358</lat>
+		<long>4.361449</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Vlaardingen West</name>
+		<code>vdw</code>
+		<country>NL</country>
+		<lat>51.904102</lat>
+		<long>4.314795</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Voorst-Empe</name>
+		<code>vem</code>
+		<country>NL</country>
+		<lat>52.157696</lat>
+		<long>6.143461</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Vught</name>
+		<code>vg</code>
+		<country>NL</country>
+		<lat>51.655658</lat>
+		<long>5.291679</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Voorhout</name>
+		<code>vh</code>
+		<country>NL</country>
+		<lat>52.223902</lat>
+		<long>4.484493</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Vroomshoop</name>
+		<code>vhp</code>
+		<country>NL</country>
+		<lat>52.457190</lat>
+		<long>6.569667</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Viersen</name>
+		<code>viers</code>
+		<country>DE</country>
+		<lat>51.255008</lat>
+		<long>6.404310</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Valkenburg</name>
+		<code>vk</code>
+		<country>NL</country>
+		<lat>50.869227</lat>
+		<long>5.832812</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Veendam</name>
+		<code>vdm</code>
+		<country>NL</country>
+		<lat>53.105116</lat>
+		<long>6.887011</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Venlo</name>
+		<code>vl</code>
+		<country>NL</country>
+		<lat>51.364974</lat>
+		<long>6.171643</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Vierlingsbeek</name>
+		<code>vlb</code>
+		<country>NL</country>
+		<lat>51.591906</lat>
+		<long>5.997198</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Veenendaal Centrum</name>
+		<code>vndc</code>
+		<country>NL</country>
+		<lat>52.019883</lat>
+		<long>5.548915</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Veenendaal West</name>
+		<code>vndw</code>
+		<country>NL</country>
+		<lat>52.027811</lat>
+		<long>5.532914</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Velp</name>
+		<code>vp</code>
+		<country>NL</country>
+		<lat>51.995576</lat>
+		<long>5.981575</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Venray</name>
+		<code>vry</code>
+		<country>NL</country>
+		<lat>51.526465</lat>
+		<long>6.014187</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Vlissingen</name>
+		<code>vs</code>
+		<country>NL</country>
+		<lat>51.444456</lat>
+		<long>3.595253</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Vlissingen Souburg</name>
+		<code>vss</code>
+		<country>NL</country>
+		<lat>51.464691</lat>
+		<long>3.595325</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Voorschoten</name>
+		<code>vst</code>
+		<country>NL</country>
+		<lat>52.126063</lat>
+		<long>4.433605</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Varsseveld</name>
+		<code>vsv</code>
+		<country>NL</country>
+		<lat>51.937182</lat>
+		<long>6.458659</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Vleuten</name>
+		<code>vtn</code>
+		<country>NL</country>
+		<lat>52.102889</lat>
+		<long>5.009769</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Veenwouden</name>
+		<code>vwd</code>
+		<country>NL</country>
+		<lat>53.234784</lat>
+		<long>5.988658</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Vriezenveen</name>
+		<code>vz</code>
+		<country>NL</country>
+		<lat>52.401052</lat>
+		<long>6.601525</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Waddinxveen</name>
+		<code>wad</code>
+		<country>NL</country>
+		<lat>52.044738</lat>
+		<long>4.650065</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Waddinxveen Noord</name>
+		<code>wadn</code>
+		<country>NL</country>
+		<lat>52.055336</lat>
+		<long>4.648429</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Wijchen</name>
+		<code>wc</code>
+		<country>NL</country>
+		<lat>51.811234</lat>
+		<long>5.730155</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Woerden</name>
+		<code>wd</code>
+		<country>NL</country>
+		<lat>52.085018</lat>
+		<long>4.892909</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Wierden</name>
+		<code>wdn</code>
+		<country>NL</country>
+		<lat>52.361509</lat>
+		<long>6.592365</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Wolfheze</name>
+		<code>wf</code>
+		<country>NL</country>
+		<lat>52.005994</lat>
+		<long>5.792666</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Warffum</name>
+		<code>wfm</code>
+		<country>NL</country>
+		<lat>53.390441</lat>
+		<long>6.567132</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Wijhe</name>
+		<code>wh</code>
+		<country>NL</country>
+		<lat>52.390948</lat>
+		<long>6.141565</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Wien Westbf</name>
+		<code>wienw</code>
+		<country>AT</country>
+		<lat>48.197597</lat>
+		<long>1.6337067</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Workum</name>
+		<code>wk</code>
+		<country>NL</country>
+		<lat>52.972083</lat>
+		<long>5.456425</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Wehl</name>
+		<code>wl</code>
+		<country>NL</country>
+		<lat>51.957408</lat>
+		<long>6.213847</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Wormerveer</name>
+		<code>wm</code>
+		<country>NL</country>
+		<lat>52.489461</lat>
+		<long>4.793273</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Wolfsburg</name>
+		<code>wolfsb</code>
+		<country>DE</country>
+		<lat>52.429494</lat>
+		<long>1.0788197</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Weesp</name>
+		<code>wp</code>
+		<country>NL</country>
+		<lat>52.312140</lat>
+		<long>5.044206</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Weener</name>
+		<code>wr</code>
+		<country>DE</country>
+		<lat>53.162537</lat>
+		<long>7.344348</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Winschoten</name>
+		<code>ws</code>
+		<country>NL</country>
+		<lat>53.139237</lat>
+		<long>7.035101</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Winsum</name>
+		<code>wsm</code>
+		<country>NL</country>
+		<lat>53.329701</lat>
+		<long>6.520289</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Weert</name>
+		<code>wt</code>
+		<country>NL</country>
+		<lat>51.249067</lat>
+		<long>5.704024</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Wuppertal-Barmen</name>
+		<code>wuppb</code>
+		<country>DE</country>
+		<lat>51.267081</lat>
+		<long>7.195927</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Wuppertal Hbf</name>
+		<code>wupph</code>
+		<country>DE</country>
+		<lat>51.254334</lat>
+		<long>7.149381</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Wuppertal Oberbarmen</name>
+		<code>wuppo</code>
+		<country>DE</country>
+		<lat>51.273841</lat>
+		<long>7.221484</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Wolvega</name>
+		<code>wv</code>
+		<country>NL</country>
+		<lat>52.880015</lat>
+		<long>6.005009</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Winterswijk</name>
+		<code>ww</code>
+		<country>NL</country>
+		<lat>51.967727</lat>
+		<long>6.715517</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Winterswijk West</name>
+		<code>www</code>
+		<country>NL</country>
+		<lat>51.975062</lat>
+		<long>6.702923</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Wezep</name>
+		<code>wz</code>
+		<country>NL</country>
+		<lat>52.453675</lat>
+		<long>6.001692</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Den Haag Ypenburg</name>
+		<code>ypb</code>
+		<country>NL</country>
+		<lat>52.055165</lat>
+		<long>4.392983</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Zetten-Andelst</name>
+		<code>za</code>
+		<country>NL</country>
+		<lat>51.919653</lat>
+		<long>5.722838</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Zuidbroek</name>
+		<code>zb</code>
+		<country>NL</country>
+		<lat>53.159571</lat>
+		<long>6.867956</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Zaltbommel</name>
+		<code>zbm</code>
+		<country>NL</country>
+		<lat>51.807989</lat>
+		<long>5.263085</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Zaandam</name>
+		<code>zd</code>
+		<country>NL</country>
+		<lat>52.438429</lat>
+		<long>4.813813</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Zaandam Kogerveld</name>
+		<code>zdk</code>
+		<country>NL</country>
+		<lat>52.456615</lat>
+		<long>4.819755</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Zuidhorn</name>
+		<code>zh</code>
+		<country>NL</country>
+		<lat>53.248232</lat>
+		<long>6.406234</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Zwolle</name>
+		<code>zl</code>
+		<country>NL</country>
+		<lat>52.505588</lat>
+		<long>6.089760</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Lage Zwaluwe</name>
+		<code>zlw</code>
+		<country>NL</country>
+		<lat>51.690500</lat>
+		<long>4.663648</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Zutphen</name>
+		<code>zp</code>
+		<country>NL</country>
+		<lat>52.144680</lat>
+		<long>6.194223</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Zoetermeer</name>
+		<code>ztm</code>
+		<country>NL</country>
+		<lat>52.047498</lat>
+		<long>4.478138</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Zoetermeer Oost</name>
+		<code>ztmo</code>
+		<country>NL</country>
+		<lat>52.046527</lat>
+		<long>4.492449</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Zuerich HB</name>
+		<code>zurich</code>
+		<country>CH</country>
+		<lat>47.377565</lat>
+		<long>8.540147</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Zevenaar</name>
+		<code>zv</code>
+		<country>NL</country>
+		<lat>51.922889</lat>
+		<long>6.073651</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Zevenbergen</name>
+		<code>zvb</code>
+		<country>NL</country>
+		<lat>51.641796</lat>
+		<long>4.610252</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Zandvoort aan Zee</name>
+		<code>zvt</code>
+		<country>NL</country>
+		<lat>52.375873</lat>
+		<long>4.531039</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Zwijndrecht</name>
+		<code>zwd</code>
+		<country>NL</country>
+		<lat>51.815657</lat>
+		<long>4.640905</long>
+		<alias>false</alias>
+	</station>
+
+	<station>
+		<name>Zwaagwesteinde</name>
+		<code>zww</code>
+		<country>NL</country>
+		<lat>53.248825</lat>
+		<long>6.035303</long>
+		<alias>false</alias>
+	</station>
+
+</stations>

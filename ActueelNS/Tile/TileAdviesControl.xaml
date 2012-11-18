@@ -1,0 +1,108 @@
+﻿<UserControl x:Class="ActueelNS.Tile.TileAdviesControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+   FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    d:DesignHeight="336" d:DesignWidth="336">
+
+    <Grid HorizontalAlignment="Left" VerticalAlignment="Top" Width="173" Height="173" x:Name="LayoutRoot" Background="{StaticResource BackgroundColor}">
+        <Grid.RenderTransform>
+            <ScaleTransform ScaleX="1.9422" ScaleY="1.9422" />
+        </Grid.RenderTransform>
+        
+        <StackPanel>
+            <TextBlock
+                                           FontFamily="{StaticResource PhoneFontFamilySemiBold}"
+                                           FontSize="18"
+                        VerticalAlignment="Bottom"
+                        Foreground="{StaticResource TextColor}"
+                        Text="{Binding Path=LocalizedResources.TileAdviesControlTitle, Source={StaticResource LocalizedStrings}}"
+                                           Margin="12,12,0,0"
+                                           />
+
+            <StackPanel Margin="12,6,3,3" Orientation="Horizontal">
+            <Border  Background="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Border Background="{StaticResource TextColor}" 	
+                                        Padding="0,0,0,0" Width="35" Height="35" 				 
+                                        HorizontalAlignment="Left" VerticalAlignment="Top">
+
+                <Grid Margin="0">
+                    <Border Background="{StaticResource BackgroundColor}" 	
+                                        Padding="0,0,0,0" Width="35" Height="35" 	
+                                            BorderThickness="2,2,2,2"
+                                        HorizontalAlignment="Left" VerticalAlignment="Top">
+                    </Border>
+                    <Border Background="{StaticResource TextColor}" 	
+                                        Padding="0,0,0,0" Width="10" Height="10" 	
+                                            BorderThickness="0,0,0,0"
+                                        HorizontalAlignment="Left" VerticalAlignment="Top">
+
+                    </Border>
+                  
+                </Grid>
+            </Border>
+        </Border>
+
+            <TextBlock Text="Amsterdam" 
+                          x:Name="FromText"
+                       Margin="6"
+                       VerticalAlignment="Center"
+			           Style="{StaticResource PhoneTextNormalStyleCustom}"></TextBlock>
+
+      
+        </StackPanel>
+
+
+            <StackPanel Margin="12,6,3,3" Orientation="Horizontal">
+                <Border  Background="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Border Background="{StaticResource TextColor}" 	
+                                        Padding="0,0,0,0" Width="35" Height="35" 				 
+                                        HorizontalAlignment="Left" VerticalAlignment="Top">
+
+                        <Grid Margin="0">
+                            <Border Background="{StaticResource BackgroundColor}" 	
+                                        Padding="0,0,0,0" Width="35" Height="35" 	
+                                            BorderThickness="2,2,2,2"
+                                        HorizontalAlignment="Left" VerticalAlignment="Top">
+                            </Border>
+                            <Border Background="{StaticResource TextColor}" 	
+                                        Padding="0,0,0,0" Width="10" Height="10" 	
+                                            BorderThickness="0,0,0,0"
+                                        HorizontalAlignment="Left" VerticalAlignment="Top">
+
+                            </Border>
+
+                        </Grid>
+                    </Border>
+                </Border>
+
+                <TextBlock Text="Delft" VerticalAlignment="Center"
+                           x:Name="ToText"
+                           Margin="6"
+			           Style="{StaticResource PhoneTextNormalStyleCustom}"></TextBlock>
+
+
+            </StackPanel>
+
+        </StackPanel>
+
+        <TextBlock
+                                           FontFamily="{StaticResource PhoneFontFamilySemiBold}"
+                                           FontSize="18"
+                        VerticalAlignment="Bottom"
+                        Foreground="{StaticResource TextColor}"
+                        x:Name="Tile2TextBlock"
+                        Text="10-11-2011 11:20"
+                                           Margin="12,15,0,3"
+                                           />
+
+      
+
+
+
+    </Grid>
+</UserControl>

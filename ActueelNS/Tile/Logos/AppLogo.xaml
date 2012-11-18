@@ -1,0 +1,57 @@
+﻿<UserControl x:Class="ActueelNS.Tile.Logos.AppLogo"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    d:DesignHeight="480" d:DesignWidth="480">
+
+    <Canvas Height="100" Width="100" Background="Red">
+
+
+        <Grid HorizontalAlignment="Left" VerticalAlignment="Top" Width="113" Height="113" x:Name="LayoutRoot" Background="{StaticResource BackgroundColor}">
+            <Grid.RenderTransform>
+                <ScaleTransform ScaleX="0.885" ScaleY="0.885" />
+            </Grid.RenderTransform>
+
+            <Border Background="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Border Background="{StaticResource TextColor}" 	
+                                        Padding="0,0,0,0" Width="113" Height="113" 				 
+                                        HorizontalAlignment="Left" VerticalAlignment="Top">
+
+                    <Grid Margin="0">
+                        <Border Background="{StaticResource BackgroundColor}" 	
+                                        Padding="0,0,0,0" Width="113" Height="113" 	
+                                            BorderThickness="6,6,6,6"
+                                        HorizontalAlignment="Left" VerticalAlignment="Top">
+                        </Border>
+                        <Border Background="{StaticResource TextColor}" 	
+                                        Padding="0,0,0,0" Width="27" Height="27" 	
+                                            BorderThickness="0,0,0,0"
+                                        HorizontalAlignment="Left" VerticalAlignment="Top">
+
+                        </Border>
+
+                        <TextBlock
+                                           FontFamily="{StaticResource PhoneFontFamilySemiBold}"
+                                           FontSize="40"
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Center"
+                        Foreground="{StaticResource TextColor}"
+                        x:Name="TileTextBlock"
+                        Text="Trein"
+                                           Margin="7,15,7,0"
+                                           />
+                    </Grid>
+                </Border>
+            </Border>
+
+
+
+
+        </Grid>
+    </Canvas>
+</UserControl>
