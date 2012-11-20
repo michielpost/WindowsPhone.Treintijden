@@ -60,6 +60,22 @@ namespace ActueelNS.Views
 
             }
 
+            //Is geo available?
+            try
+            {
+                Geolocator geolocator = new Geolocator();
+
+                if (geolocator.LocationStatus == PositionStatus.Disabled
+                    || geolocator.LocationStatus == PositionStatus.NotAvailable)
+                {
+                    this.ApplicationBar.IsVisible = false;
+                }
+                else
+                    this.ApplicationBar.IsVisible = true;
+            }
+            catch { }
+
+
         }
 
         protected override void OnNavigatedFrom(System.Windows.Navigation.NavigationEventArgs e)
@@ -98,7 +114,8 @@ namespace ActueelNS.Views
         {
             await this.ShowUserLocation();
 
-            this.Map.SetView(this.UserLocationMarker.GeoCoordinate, 16);
+            if(this.UserLocationMarker.GeoCoordinate != null)
+                this.Map.SetView(this.UserLocationMarker.GeoCoordinate, 16);
         }
 
         /// <summary>
@@ -112,12 +129,26 @@ namespace ActueelNS.Views
 
             this.UserLocationMarker = (UserLocationMarker)this.FindName("UserLocationMarker");
 
-            geolocator = new Geolocator();
+            try
+            {
+                geolocator = new Geolocator();
 
-            geoposition = await geolocator.GetGeopositionAsync();
+                if (geolocator.LocationStatus != PositionStatus.Disabled
+                    && geolocator.LocationStatus != PositionStatus.NotAvailable)
+                {
+                    geoposition = await geolocator.GetGeopositionAsync();
 
-            this.UserLocationMarker.GeoCoordinate = geoposition.Coordinate.ToGeoCoordinate();
-            this.UserLocationMarker.Visibility = System.Windows.Visibility.Visible;
+                    if (geoposition != null)
+                    {
+
+                        this.UserLocationMarker.GeoCoordinate = geoposition.Coordinate.ToGeoCoordinate();
+                        this.UserLocationMarker.Visibility = System.Windows.Visibility.Visible;
+                    }
+                }
+            }
+            catch(Exception e) 
+            { 
+            }
         }
 
         /// <summary>
