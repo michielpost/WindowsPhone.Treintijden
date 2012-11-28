@@ -7,13 +7,14 @@ using System.Windows.Media;
 using Microsoft.Phone.Shell;
 using ActueelNS.Resources;
 using ActueelNS.Services.Models;
+using ActueelNS.Views.Base;
 
 namespace ActueelNS.Views
 {
     /// <summary>
     /// Description for Reisadvies.
     /// </summary>
-    public partial class Reisadvies : PhoneApplicationPage
+    public partial class Reisadvies : ViewBase
     {
         private ProgressIndicator _progressIndicator;
 
@@ -44,6 +45,7 @@ namespace ActueelNS.Views
             (ApplicationBar.MenuItems[2] as ApplicationBarMenuItem).Text = AppResources.ReisadviesRemindMe;
             (ApplicationBar.MenuItems[3] as ApplicationBarMenuItem).Text = AppResources.ReisadviesDeleteHistory;
             (ApplicationBar.MenuItems[4] as ApplicationBarMenuItem).Text = AppResources.ReisadviesMijnStationsButton;
+            (ApplicationBar.MenuItems[5] as ApplicationBarMenuItem).Text = AppResources.ReisadviesTapShareButton;
 
         }
 
@@ -158,6 +160,7 @@ namespace ActueelNS.Views
                         (ApplicationBar.MenuItems[0] as ApplicationBarMenuItem).IsEnabled = false;
                         (ApplicationBar.MenuItems[1] as ApplicationBarMenuItem).IsEnabled = false;
                         (ApplicationBar.MenuItems[2] as ApplicationBarMenuItem).IsEnabled = false;
+                        (ApplicationBar.MenuItems[5] as ApplicationBarMenuItem).IsEnabled = false;
                     }
 
                     if (MogelijkhedenPanel.Visibility == System.Windows.Visibility.Visible)
@@ -178,6 +181,8 @@ namespace ActueelNS.Views
                             //(ApplicationBar.Buttons[3] as ApplicationBarIconButton).IsEnabled = true;
                             (ApplicationBar.MenuItems[0] as ApplicationBarMenuItem).IsEnabled = true;
                             (ApplicationBar.MenuItems[1] as ApplicationBarMenuItem).IsEnabled = true;
+                            (ApplicationBar.MenuItems[5] as ApplicationBarMenuItem).IsEnabled = true;
+
                         }
                    
                 }
@@ -408,6 +413,24 @@ namespace ActueelNS.Views
             }
 
 
+        }
+
+        private void TapShareButton_Click_1(object sender, EventArgs e)
+        {
+            if (!SharingViewModel.Instance.IsConnected)
+            {
+                // Let's assume the intention was to connect and send
+                SharingViewModel.Instance.StartSharingSession();
+            }
+            else
+            {
+                ShareSearch s = new ShareSearch();
+                s.PlannerSearch = _vm.SelectedSearch;
+                s.ReisMogelijkheden = _vm.ReisMogelijkheden;
+
+                SharingViewModel.Instance.SendReisadviesToPeer(s.ObjectToByteArray());
+                //ShowSendingArrow();
+            }
         }
        
     }

@@ -8,13 +8,14 @@ using System.Windows.Media.Animation;
 using Microsoft.Phone.Controls;
 using ActueelNS.Services.Models;
 using ActueelNS.ViewModel;
+using ActueelNS.Views.Base;
 
 namespace ActueelNS.Views
 {
     /// <summary>
     /// Description for StationPicker.
     /// </summary>
-    public partial class StationPicker : PhoneApplicationPage
+    public partial class StationPicker : ViewBase
     {
 
         private LongListSelector currentSelector;

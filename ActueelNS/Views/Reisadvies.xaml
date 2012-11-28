@@ -1,4 +1,4 @@
-﻿<phone:PhoneApplicationPage x:Class="ActueelNS.Views.Reisadvies"
+﻿<viewBase:ViewBase x:Class="ActueelNS.Views.Reisadvies"
                             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                             xmlns:Controls="clr-namespace:Coding4Fun.Phone.Controls;assembly=Coding4Fun.Phone.Controls"
@@ -8,6 +8,7 @@
                             xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
                             xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
                             xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+                            xmlns:viewBase="clr-namespace:ActueelNS.Views.Base"
                             x:Name="control"
                             d:DesignHeight="696"
                             d:DesignWidth="480"
@@ -28,7 +29,7 @@
 
 
 
-    <phone:PhoneApplicationPage.Resources>
+    <viewBase:ViewBase.Resources>
         <!--
             <converters:InverseVisibilityConverter x:Key="InverseVisibilityConverter" />
            
@@ -238,7 +239,7 @@
 
         </Storyboard>
 
-    </phone:PhoneApplicationPage.Resources>
+    </viewBase:ViewBase.Resources>
 
     <Grid Margin="0,-1,0,0" x:Name="LayoutRoot" Background="{StaticResource BackgroundColor}">
         <Grid.RowDefinitions>
@@ -878,7 +879,7 @@
         </Grid>
     </Grid>
 
-    <phone:PhoneApplicationPage.ApplicationBar>
+    <viewBase:ViewBase.ApplicationBar>
         <shell:ApplicationBar BackgroundColor="{StaticResource AppBarColor}"
                               ForegroundColor="{StaticResource AppBarForeColor}"
                               IsMenuEnabled="True"
@@ -921,8 +922,11 @@
                 <shell:ApplicationBarMenuItem x:Name="MijnStationsButton"
                                               Click="MijnStationsButton_Click"
                                               Text="mijn stations" />
+                <shell:ApplicationBarMenuItem x:Name="TapShareButton"
+                                              Click="TapShareButton_Click_1"
+                                              Text="tap to share" />
             </shell:ApplicationBar.MenuItems>
         </shell:ApplicationBar>
-    </phone:PhoneApplicationPage.ApplicationBar>
+    </viewBase:ViewBase.ApplicationBar>
 
-</phone:PhoneApplicationPage>
+</viewBase:ViewBase>

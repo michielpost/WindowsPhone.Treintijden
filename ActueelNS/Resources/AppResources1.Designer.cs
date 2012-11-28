@@ -160,6 +160,60 @@ namespace ActueelNS.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Connect.
+        /// </summary>
+        public static string Caption_AppBarConnect {
+            get {
+                return ResourceManager.GetString("Caption_AppBarConnect", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Convert.
+        /// </summary>
+        public static string Caption_AppBarConvert {
+            get {
+                return ResourceManager.GetString("Caption_AppBarConvert", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Disconnect.
+        /// </summary>
+        public static string Caption_AppBarDisconnect {
+            get {
+                return ResourceManager.GetString("Caption_AppBarDisconnect", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Disconnected from peer.
+        /// </summary>
+        public static string Caption_Disconnected {
+            get {
+                return ResourceManager.GetString("Caption_Disconnected", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Click to send picture.
+        /// </summary>
+        public static string Caption_Send {
+            get {
+                return ResourceManager.GetString("Caption_Send", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tap to connect.
+        /// </summary>
+        public static string Caption_TapToConnect {
+            get {
+                return ResourceManager.GetString("Caption_TapToConnect", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Kon geen badges laden, probeer het later nog eens..
         /// </summary>
         public static string DonateError {
@@ -336,6 +390,15 @@ namespace ActueelNS.Resources {
         public static string MainStoringenAppButton {
             get {
                 return ResourceManager.GetString("MainStoringenAppButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You are no longer connected for picture sharing.
+        /// </summary>
+        public static string Message_Disconnected {
+            get {
+                return ResourceManager.GetString("Message_Disconnected", resourceCulture);
             }
         }
         
@@ -624,6 +687,15 @@ namespace ActueelNS.Resources {
         public static string ReisadviesRepeatButton {
             get {
                 return ResourceManager.GetString("ReisadviesRepeatButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to deel via NFC.
+        /// </summary>
+        public static string ReisadviesTapShareButton {
+            get {
+                return ResourceManager.GetString("ReisadviesTapShareButton", resourceCulture);
             }
         }
         
@@ -1102,6 +1174,15 @@ namespace ActueelNS.Resources {
         public static string vastpinnen {
             get {
                 return ResourceManager.GetString("vastpinnen", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please ensure that Bluetooth is enabled.
+        /// </summary>
+        public static string VerifyBluetooth {
+            get {
+                return ResourceManager.GetString("VerifyBluetooth", resourceCulture);
             }
         }
         

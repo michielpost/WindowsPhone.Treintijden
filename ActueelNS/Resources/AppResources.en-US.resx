@@ -465,4 +465,7 @@
   <data name="showonmap" xml:space="preserve">
     <value>show on the map</value>
   </data>
+  <data name="ReisadviesTapShareButton" xml:space="preserve">
+    <value>tap to share</value>
+  </data>
 </root>

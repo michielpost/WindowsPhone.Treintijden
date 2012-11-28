@@ -9,10 +9,11 @@ using GalaSoft.MvvmLight.Ioc;
 using System.Windows;
 using System;
 using ActueelNS.Services;
+using ActueelNS.Views.Base;
 
 namespace ActueelNS
 {
-    public partial class MainPage : PhoneApplicationPage
+    public partial class MainPage : ViewBase
     {
 
         private ProgressIndicator _progressIndicator;

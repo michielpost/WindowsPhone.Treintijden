@@ -18,10 +18,11 @@ using Windows.Foundation;
 using ActueelNS.ViewModel;
 using GalaSoft.MvvmLight.Messaging;
 using ActueelNS.Services.Models;
+using ActueelNS.Views.Base;
 
 namespace ActueelNS.Views
 {
-    public partial class MapPage : PhoneApplicationPage
+    public partial class MapPage : ViewBase
     {
         public MapViewModel ViewModel
         {

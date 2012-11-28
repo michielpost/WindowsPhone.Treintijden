@@ -2,13 +2,14 @@
 using ActueelNS.ViewModel;
 using System.Windows;
 using ActueelNS.Resources;
+using ActueelNS.Views.Base;
 
 namespace ActueelNS.Views
 {
     /// <summary>
     /// Description for Settings.
     /// </summary>
-    public partial class Settings : PhoneApplicationPage
+    public partial class Settings : ViewBase
     {
         private SettingsViewModel _vm;
 

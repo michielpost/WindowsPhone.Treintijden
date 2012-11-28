@@ -1,4 +1,4 @@
-﻿<phone:PhoneApplicationPage x:Class="ActueelNS.Views.Reminder"
+﻿<viewBase:ViewBase x:Class="ActueelNS.Views.Reminder"
                             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -7,6 +7,7 @@
                             xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
                             xmlns:sys="clr-namespace:System;assembly=mscorlib"
                             xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+                            xmlns:viewBase="clr-namespace:ActueelNS.Views.Base"
                             x:Name="control"
                             d:DesignHeight="768"
                             d:DesignWidth="480"
@@ -176,4 +177,4 @@
         </Grid>
     </Grid>
 
-</phone:PhoneApplicationPage>
+</viewBase:ViewBase>

@@ -4,13 +4,14 @@ using Microsoft.Phone.Shell;
 using System.Windows.Controls;
 using System.Windows.Media;
 using ActueelNS.Resources;
+using ActueelNS.Views.Base;
 
 namespace ActueelNS.Views
 {
     /// <summary>
     /// Description for StationTijden.
     /// </summary>
-    public partial class StationTijden : PhoneApplicationPage
+    public partial class StationTijden : ViewBase
     {
         private ProgressIndicator _progressIndicator;
         private StationTijdenViewModel _vm;

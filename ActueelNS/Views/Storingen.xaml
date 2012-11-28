@@ -1,4 +1,4 @@
-﻿<phone:PhoneApplicationPage x:Class="ActueelNS.Views.Storingen"
+﻿<viewBase:ViewBase x:Class="ActueelNS.Views.Storingen"
                             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                             xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
@@ -7,7 +7,8 @@
                             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
                             xmlns:converters="clr-namespace:ActueelNS.Converters"
                             xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
-                            xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+                            xmlns:viewBase="clr-namespace:ActueelNS.Views.Base"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
     mc:Ignorable="d"
                             d:DesignWidth="480"
                             d:DesignHeight="696"
@@ -22,9 +23,9 @@
                             Style="{StaticResource TransitionPageStyle}"
                             DataContext="{Binding StoringenViewModel, Source={StaticResource Locator}}">
 
-    <phone:PhoneApplicationPage.Resources>
+    <viewBase:ViewBase.Resources>
         <converters:VisibilityConverter x:Key="VisibilityConverter" />
-    </phone:PhoneApplicationPage.Resources>
+    </viewBase:ViewBase.Resources>
 
     <Grid Margin="0,-1,0,0" x:Name="LayoutRoot" Background="{StaticResource BackgroundColor}" >
         <!--Pivot Control-->
@@ -188,7 +189,7 @@
     </Grid>
 
 
-    <phone:PhoneApplicationPage.ApplicationBar>
+    <viewBase:ViewBase.ApplicationBar>
         <shell:ApplicationBar BackgroundColor="{StaticResource AppBarColor}"
                               ForegroundColor="{StaticResource AppBarForeColor}"
                               IsMenuEnabled="True"
@@ -205,6 +206,6 @@
                                               Text="mijn stations" />
             </shell:ApplicationBar.MenuItems>
         </shell:ApplicationBar>
-    </phone:PhoneApplicationPage.ApplicationBar>
+    </viewBase:ViewBase.ApplicationBar>
 
-</phone:PhoneApplicationPage>
+</viewBase:ViewBase>

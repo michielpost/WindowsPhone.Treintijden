@@ -13,6 +13,8 @@ using System.Threading;
 using System.Globalization;
 using System;
 using MockIAPLib;
+using ActueelNS.Shared.Controls;
+using System.Windows.Controls;
 
 namespace ActueelNS
 {
@@ -21,13 +23,15 @@ namespace ActueelNS
     /// </summary>
     public partial class App : Application
     {
+        public static NotificationControl NotificationPopup;
 
-        // Easy access to the root frame
-        public PhoneApplicationFrame RootFrame
-        {
-            get;
-            private set;
-        }
+
+        /// <summary>
+        /// Provides easy access to the root frame of the Phone Application.
+        /// </summary>
+        /// <returns>The root frame of the Phone Application.</returns>
+        public static PhoneApplicationFrame RootFrame { get; private set; }
+
 
         // Constructor
         public App()
@@ -44,6 +48,13 @@ namespace ActueelNS
 
             // Phone-specific initialization
             InitializePhoneApplication();
+
+            // Set the template for the RootFrame to the new template we created in the Application.Resources in App.xaml
+            RootFrame.Template = Resources["NewFrameTemplate"] as ControlTemplate;
+            RootFrame.ApplyTemplate();
+
+            NotificationPopup = (VisualTreeHelper.GetChild(RootFrame, 0) as FrameworkElement).FindName("notifyControl") as NotificationControl;
+            NotificationPopup.CloseRequested += NotificationPopup_CloseRequested;
 
             // Show graphics profiling information while debugging.
             if (System.Diagnostics.Debugger.IsAttached)
@@ -70,6 +81,9 @@ namespace ActueelNS
 
 
             SetupMockIAP();
+
+            SharingViewModel.Instance.UIDispatcher = (a) => RootFrame.Dispatcher.BeginInvoke(a);
+
         }
 
         private void SetupMockIAP()
@@ -176,6 +190,11 @@ namespace ActueelNS
 
         }
 
+        void NotificationPopup_CloseRequested(object sender, CloseMeEventArgs e)
+        {
+            VisualStateManager.GoToState(RootFrame, "TapCanceled", false);
+        }
+
         // Code to execute when the application is activated (brought to foreground)
         // This code will not execute when the application is first launched
         private void Application_Activated(object sender, ActivatedEventArgs e)
@@ -194,6 +213,7 @@ namespace ActueelNS
         private void Application_Deactivated(object sender, DeactivatedEventArgs e)
         {
             ViewModelLocator.GpsWatcherStatic.StopWatcher();
+            SharingViewModel.Instance.StopSharingSession();
 
         }
 
@@ -205,6 +225,9 @@ namespace ActueelNS
 
 
             ViewModelLocator.Cleanup();
+
+            SharingViewModel.Instance.StopSharingSession();
+
         }
 
         // Code to execute if a navigation fails

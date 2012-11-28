@@ -2,13 +2,14 @@
 using ActueelNS.ViewModel;
 using Microsoft.Phone.Shell;
 using System;
+using ActueelNS.Views.Base;
 
 namespace ActueelNS.Views
 {
     /// <summary>
     /// Description for Prijs.
     /// </summary>
-    public partial class Prijs : PhoneApplicationPage
+    public partial class Prijs : ViewBase
     {
 
         private ProgressIndicator _progressIndicator;

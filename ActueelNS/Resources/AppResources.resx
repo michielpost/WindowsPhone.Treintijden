@@ -497,4 +497,39 @@ Nieuw in 1.5
   <data name="showonmap" xml:space="preserve">
     <value>toon op de kaart</value>
   </data>
+  <data name="ReisadviesTapShareButton" xml:space="preserve">
+    <value>deel via NFC</value>
+  </data>
+  <data name="Caption_AppBarConnect" xml:space="preserve">
+    <value>Connect</value>
+    <comment>TODO</comment>
+  </data>
+  <data name="Caption_AppBarConvert" xml:space="preserve">
+    <value>Convert</value>
+    <comment>TODO</comment>
+  </data>
+  <data name="Caption_AppBarDisconnect" xml:space="preserve">
+    <value>Disconnect</value>
+    <comment>TODO</comment>
+  </data>
+  <data name="Caption_Disconnected" xml:space="preserve">
+    <value>Disconnected from peer</value>
+    <comment>TODO</comment>
+  </data>
+  <data name="Caption_Send" xml:space="preserve">
+    <value>Click to send picture</value>
+    <comment>TODO</comment>
+  </data>
+  <data name="Caption_TapToConnect" xml:space="preserve">
+    <value>Tap to connect</value>
+    <comment>TODO</comment>
+  </data>
+  <data name="Message_Disconnected" xml:space="preserve">
+    <value>You are no longer connected for picture sharing</value>
+    <comment>TODO</comment>
+  </data>
+  <data name="VerifyBluetooth" xml:space="preserve">
+    <value>Please ensure that Bluetooth is enabled</value>
+    <comment>TODO</comment>
+  </data>
 </root>

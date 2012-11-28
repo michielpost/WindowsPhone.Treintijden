@@ -1,4 +1,4 @@
-﻿<phone:PhoneApplicationPage x:Class="ActueelNS.Views.Planner"
+﻿<viewBase:ViewBase x:Class="ActueelNS.Views.Planner"
                             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                             xmlns:Controls="clr-namespace:Coding4Fun.Phone.Controls;assembly=Coding4Fun.Phone.Controls"
@@ -9,6 +9,7 @@
                             xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
                             xmlns:sys="clr-namespace:System;assembly=mscorlib"
                             xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+                            xmlns:viewBase="clr-namespace:ActueelNS.Views.Base"
                             d:DesignHeight="728"
                             d:DesignWidth="480"
                             DataContext="{Binding PlannerViewModel,
@@ -24,12 +25,12 @@
                             SupportedOrientations="Portrait"
                             mc:Ignorable="d">
 
-    <phone:PhoneApplicationPage.Resources>
+    <viewBase:ViewBase.Resources>
         <converters:GroupToBackgroundBrushValueConverter x:Key="GroupBackground" />
         <converters:GroupToForegroundBrushValueConverter x:Key="GroupForeground" />
         <converters:VisibilityConverter x:Key="Vis" />
         <converters:InverseVisibilityConverter x:Key="InverseVis" />
-    </phone:PhoneApplicationPage.Resources>
+    </viewBase:ViewBase.Resources>
 
     <Grid Margin="0,-1,0,0" x:Name="LayoutRoot" Background="{StaticResource BackgroundColor}">
         <Grid.RowDefinitions>
@@ -499,7 +500,7 @@
     </Grid>
 
     <!--  Sample code showing usage of ApplicationBar  -->
-    <phone:PhoneApplicationPage.ApplicationBar>
+    <viewBase:ViewBase.ApplicationBar>
         <shell:ApplicationBar BackgroundColor="{StaticResource AppBarColor}"
                               ForegroundColor="{StaticResource AppBarForeColor}"
                               IsMenuEnabled="True"
@@ -524,6 +525,6 @@
                                               Text="mijn stations" />
             </shell:ApplicationBar.MenuItems>
         </shell:ApplicationBar>
-    </phone:PhoneApplicationPage.ApplicationBar>
+    </viewBase:ViewBase.ApplicationBar>
 
-</phone:PhoneApplicationPage>
+</viewBase:ViewBase>

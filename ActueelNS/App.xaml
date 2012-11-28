@@ -8,6 +8,7 @@
              xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
               xmlns:Controls="clr-namespace:Coding4Fun.Phone.Controls;assembly=Coding4Fun.Phone.Controls"
             xmlns:primitives="clr-namespace:Microsoft.Phone.Controls.Primitives;assembly=Microsoft.Phone.Controls.Toolkit"
+              xmlns:sharedControls="clr-namespace:ActueelNS.Shared.Controls"
     mc:Ignorable="d" 
              xmlns:vm="clr-namespace:ActueelNS.ViewModel">
 
@@ -31,8 +32,76 @@
         <SolidColorBrush x:Key="ControlBackgroundColor" Color="LightBlue"></SolidColorBrush>
         <SolidColorBrush x:Key="GrayColor" Color="LightGray"></SolidColorBrush>
 
+        <!--Custom Frame template. We want to show a notification control on each page. Rather than defining and adding to each page, we add
+        to the root frame. This enables us to also define the VisualStateManager once, saving duplication required if the control was
+        added to each page. -->
+        <ControlTemplate x:Name="NewFrameTemplate">
+            <Grid x:Name="ClientArea">
 
-        
+                <ContentPresenter/>
+                <Image x:Name="ConnectedImage" Source="Assets\connected.png" Margin="12,0" 
+                       HorizontalAlignment="Right" VerticalAlignment="Top"
+                       Height="40" Visibility="Collapsed"/>
+
+                <!--Custom notification control. This control is used to display connectivity status.
+                    Its state is controlled by the VisualStateManager -->
+                <sharedControls:NotificationControl x:Name="notifyControl" Canvas.ZIndex="2" Visibility="Collapsed" Height="150"
+                     HorizontalAlignment="Stretch" VerticalAlignment="Top"/>
+
+                <VisualStateManager.VisualStateGroups>
+                    <VisualStateGroup>
+                        <VisualState x:Name="ReadyForTap">
+                            <Storyboard>
+                                <ObjectAnimationUsingKeyFrames Storyboard.TargetName="notifyControl" Storyboard.TargetProperty="Visibility">
+                                    <DiscreteObjectKeyFrame KeyTime="0" Value="Visible"/>
+                                </ObjectAnimationUsingKeyFrames>
+                                <ObjectAnimationUsingKeyFrames Storyboard.TargetName="notifyControl" Storyboard.TargetProperty="Status">
+                                    <DiscreteObjectKeyFrame KeyTime="0" Value="ReadyForTap"/>
+                                </ObjectAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </VisualState>
+                        <VisualState x:Name="TapCanceled">
+                            <Storyboard>
+                                <ObjectAnimationUsingKeyFrames Storyboard.TargetName="notifyControl" Storyboard.TargetProperty="Visibility">
+                                    <DiscreteObjectKeyFrame KeyTime="0" Value="Collapsed"/>
+                                </ObjectAnimationUsingKeyFrames>
+                                <ObjectAnimationUsingKeyFrames Storyboard.TargetName="notifyControl" Storyboard.TargetProperty="Status">
+                                    <DiscreteObjectKeyFrame KeyTime="0" Value="Canceled"/>
+                                </ObjectAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </VisualState>
+                        <VisualState x:Name="Connected">
+                            <Storyboard>
+                                <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ConnectedImage" Storyboard.TargetProperty="Visibility">
+                                    <DiscreteObjectKeyFrame KeyTime="0" Value="Visible"/>
+                                </ObjectAnimationUsingKeyFrames>
+                                <ObjectAnimationUsingKeyFrames Storyboard.TargetName="notifyControl" Storyboard.TargetProperty="Visibility">
+                                    <DiscreteObjectKeyFrame KeyTime="0" Value="Collapsed"/>
+                                </ObjectAnimationUsingKeyFrames>
+                                <ObjectAnimationUsingKeyFrames Storyboard.TargetName="notifyControl" Storyboard.TargetProperty="Status">
+                                    <DiscreteObjectKeyFrame KeyTime="0" Value="Completed"/>
+                                </ObjectAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </VisualState>
+                        <VisualState x:Name="Disconnected">
+                            <Storyboard>
+                                <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ConnectedImage" Storyboard.TargetProperty="Visibility">
+                                    <DiscreteObjectKeyFrame KeyTime="0" Value="Collapsed"/>
+                                </ObjectAnimationUsingKeyFrames>
+                                <ObjectAnimationUsingKeyFrames Storyboard.TargetName="notifyControl" Storyboard.TargetProperty="Visibility">
+                                    <DiscreteObjectKeyFrame KeyTime="0" Value="Visible"/>
+                                </ObjectAnimationUsingKeyFrames>
+                                <ObjectAnimationUsingKeyFrames Storyboard.TargetName="notifyControl" Storyboard.TargetProperty="Status">
+                                    <DiscreteObjectKeyFrame KeyTime="0" Value="Disconnected"/>
+                                </ObjectAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateManager.VisualStateGroups>
+            </Grid>
+
+        </ControlTemplate>
+
 
         <!--<SolidColorBrush x:Key="AppBarColor" Color="LightGray"></SolidColorBrush>
         <SolidColorBrush x:Key="AppBarForeColor" Color="Black"></SolidColorBrush>-->

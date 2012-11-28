@@ -16,6 +16,8 @@ namespace ActueelNS.Services.Interfaces
 
         Task<List<ReisMogelijkheid>> GetSearchResult(PlannerSearch search);
 
+        void PermStoreSearchResult(Guid id, List<ReisMogelijkheid> mogelijkheden);
+
         void DeleteSearchHistory();
 
         void DeleteSearch(Guid id);

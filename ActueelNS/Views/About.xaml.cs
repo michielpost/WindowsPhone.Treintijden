@@ -2,13 +2,14 @@
 using Microsoft.Phone.Tasks;
 using ActueelNS.Services.Interfaces;
 using GalaSoft.MvvmLight.Ioc;
+using ActueelNS.Views.Base;
 
 namespace ActueelNS.Views
 {
     /// <summary>
     /// Description for About.
     /// </summary>
-    public partial class About : PhoneApplicationPage
+    public partial class About : ViewBase
     {
         /// <summary>
         /// Initializes a new instance of the About class.

@@ -2,13 +2,14 @@
 using ActueelNS.ViewModel;
 using System;
 using Microsoft.Phone.Scheduler;
+using ActueelNS.Views.Base;
 
 namespace ActueelNS.Views
 {
     /// <summary>
     /// Description for Reminder.
     /// </summary>
-    public partial class Reminder : PhoneApplicationPage
+    public partial class Reminder : ViewBase
     {
         private ReminderViewModel _vm;
 

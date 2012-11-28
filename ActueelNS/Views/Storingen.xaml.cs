@@ -5,13 +5,14 @@ using ActueelNS.Resources;
 using Microsoft.Phone.Shell;
 using GalaSoft.MvvmLight.Ioc;
 using ActueelNS.Services.Interfaces;
+using ActueelNS.Views.Base;
 
 namespace ActueelNS.Views
 {
     /// <summary>
     /// Description for Storingen.
     /// </summary>
-    public partial class Storingen : PhoneApplicationPage
+    public partial class Storingen : ViewBase
     {
 
         private StoringenViewModel _vm;

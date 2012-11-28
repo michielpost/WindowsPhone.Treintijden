@@ -1,4 +1,4 @@
-﻿<phone:PhoneApplicationPage x:Class="ActueelNS.Views.Settings"
+﻿<viewBase:ViewBase x:Class="ActueelNS.Views.Settings"
                             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                             xmlns:converters="clr-namespace:ActueelNS.Converters"
@@ -8,6 +8,7 @@
                             xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
                             xmlns:sys="clr-namespace:System;assembly=mscorlib"
                             xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+                            xmlns:viewBase="clr-namespace:ActueelNS.Views.Base"
                             d:DesignHeight="768"
                             d:DesignWidth="480"
                             DataContext="{Binding SettingsViewModel,
@@ -23,9 +24,9 @@
                             SupportedOrientations="Portrait"
                             mc:Ignorable="d">
 
-    <phone:PhoneApplicationPage.Resources>
+    <viewBase:ViewBase.Resources>
         <converters:BoolToSwitchConverter x:Key="SwitchConverter" />
-    </phone:PhoneApplicationPage.Resources>
+    </viewBase:ViewBase.Resources>
 
     <Grid Margin="0,-1,0,0" x:Name="LayoutRoot" Background="{StaticResource BackgroundColor}">
         <Grid.RowDefinitions>
@@ -214,4 +215,4 @@
         </StackPanel>
     </Grid>
 
-</phone:PhoneApplicationPage>
+</viewBase:ViewBase>

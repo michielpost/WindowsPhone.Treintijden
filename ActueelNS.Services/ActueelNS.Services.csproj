@@ -106,6 +106,9 @@
     <Reference Include="Microsoft.Threading.Tasks.Extensions.Phone">
       <HintPath>..\packages\Microsoft.Bcl.Async.1.0.12-beta\lib\wp8\Microsoft.Threading.Tasks.Extensions.Phone.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.4.5.11\lib\sl3-wp\Newtonsoft.Json.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Constants\NSApi.cs" />
@@ -119,6 +122,7 @@
     <Compile Include="Models\ReisMogelijkheid.cs" />
     <Compile Include="Models\ReisPrijs.cs" />
     <Compile Include="Models\ReisStop.cs" />
+    <Compile Include="Models\ShareSearch.cs" />
     <Compile Include="Models\Station.cs" />
     <Compile Include="Models\StationInGroup.cs" />
     <Compile Include="Models\StationsByName.cs" />

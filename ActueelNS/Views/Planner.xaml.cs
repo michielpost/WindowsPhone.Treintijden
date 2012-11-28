@@ -12,6 +12,7 @@ using ActueelNS.Resources;
 using ActueelNS.Services.Interfaces;
 using GalaSoft.MvvmLight.Ioc;
 using System.Collections;
+using ActueelNS.Views.Base;
 
 namespace ActueelNS.Views
 {
@@ -27,7 +28,7 @@ namespace ActueelNS.Views
     /// <summary>
     /// Description for Planner.
     /// </summary>
-    public partial class Planner : PhoneApplicationPage
+    public partial class Planner : ViewBase
     {
         private LongListSelector currentSelector;
         private PlannerKeuze _waitingForKeuze;

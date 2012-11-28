@@ -162,6 +162,7 @@
     <Compile Include="Services\ReminderService.cs" />
     <Compile Include="Services\ReviewBugger.cs" />
     <Compile Include="Services\TaskHelper.cs" />
+    <Compile Include="Shared Controls\NotificationControl.xaml.cs" />
     <Compile Include="Tile\TileWideControl.xaml.cs">
       <DependentUpon>TileWideControl.xaml</DependentUpon>
     </Compile>
@@ -192,6 +193,9 @@
     <Compile Include="ViewModel\GpsWatcherModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\MapViewModel.cs" />
+    <Compile Include="ViewModel\NFC\CommonEvents.cs" />
+    <Compile Include="ViewModel\NFC\PeerConnector.cs" />
+    <Compile Include="ViewModel\NFC\SharingViewModel.cs" />
     <Compile Include="ViewModel\PlannerViewModel.cs" />
     <Compile Include="ViewModel\PrijsViewModel.cs" />
     <Compile Include="ViewModel\ReisadviesViewModel.cs" />
@@ -204,6 +208,7 @@
     <Compile Include="Views\About.xaml.cs">
       <DependentUpon>About.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\Base\ViewBase.cs" />
     <Compile Include="Views\Donate.xaml.cs">
       <DependentUpon>Donate.xaml</DependentUpon>
     </Compile>
@@ -241,6 +246,10 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Shared Controls\NotificationControl.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
