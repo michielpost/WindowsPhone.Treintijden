@@ -22,7 +22,7 @@ namespace ActueelNS.Views.Base
         protected override void OnNavigatedFrom(System.Windows.Navigation.NavigationEventArgs e)
         {
             SharingViewModel.Instance.ConnectionStatusChanged -= new EventHandler<ConnectionStatusChangedEventArgs>(OnConnectionStatusChanged);
-            SharingViewModel.Instance.ReisadviesReceived -= new EventHandler<ReisadviesReceivedEventArgs>(OnPictureReceived);
+            SharingViewModel.Instance.ReisadviesReceived -= new EventHandler<ReisadviesReceivedEventArgs>(OnReisadviesReceived);
             base.OnNavigatedFrom(e);
         }
         protected override void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)
@@ -33,11 +33,11 @@ namespace ActueelNS.Views.Base
             if (uri.IndexOf("ms_nfp_launchargs") > 0
                 && uri.IndexOf("Windows.Networking.Proximity.PeerFinder:StreamSocket") > 0)
             {
-                SharingViewModel.Instance.StartSharingSession();
+                SharingViewModel.Instance.StartSharingSession(null);
             }
 
             SharingViewModel.Instance.ConnectionStatusChanged += new EventHandler<ConnectionStatusChangedEventArgs>(OnConnectionStatusChanged);
-            SharingViewModel.Instance.ReisadviesReceived += new EventHandler<ReisadviesReceivedEventArgs>(OnPictureReceived);
+            SharingViewModel.Instance.ReisadviesReceived += new EventHandler<ReisadviesReceivedEventArgs>(OnReisadviesReceived);
             App.NotificationPopup.CloseRequested += NotificationPopup_CloseRequested;
 
             if (SharingViewModel.Instance.IsConnected)
@@ -48,7 +48,7 @@ namespace ActueelNS.Views.Base
             base.OnNavigatedTo(e);
         }
 
-        void OnPictureReceived(object sender, ReisadviesReceivedEventArgs e)
+        void OnReisadviesReceived(object sender, ReisadviesReceivedEventArgs e)
         {
             App.RootFrame.Dispatcher.BeginInvoke(() =>
             {
@@ -94,17 +94,7 @@ namespace ActueelNS.Views.Base
                 SharingViewModel.Instance.StopSharingSession();
         }
 
-        internal void Share_Click(object sender, EventArgs e)
-        {
-            if (!SharingViewModel.Instance.IsConnected)
-            {
-                SharingViewModel.Instance.StartSharingSession();
-            }
-            else
-            {
-                SharingViewModel.Instance.StopSharingSession();
-            }
-        }
+        
 
     }
 }

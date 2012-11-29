@@ -639,8 +639,8 @@
                                                    FontFamily="{StaticResource PhoneFontFamilySemiBold}"
                                                    FontSize="40"
                                                    Foreground="{StaticResource TextColor}"
-                                                   Visibility="{Binding FirstStop.Vertrekspoor, Converter={StaticResource VisibilityConverter}}"
-                                                   Text="{Binding FirstStop.Vertrekspoor}" />
+                                                   Visibility="{Binding FirstStop.VertrekspoorTwee, Converter={StaticResource VisibilityConverter}}"
+                                                   Text="{Binding FirstStop.VertrekspoorTwee}" />
 
                                             <TextBlock Margin="0,0,0,3"
                                                    HorizontalAlignment="Center"
@@ -775,8 +775,8 @@
                                                    FontFamily="{StaticResource PhoneFontFamilySemiBold}"
                                                    FontSize="40"
                                                    Foreground="{StaticResource TextColor}"
-                                                   Visibility="{Binding LastStop.Vertrekspoor, Converter={StaticResource VisibilityConverter}}"
-                                                   Text="{Binding LastStop.Vertrekspoor}" />
+                                                   Visibility="{Binding LastStop.VertrekspoorTwee, Converter={StaticResource VisibilityConverter}}"
+                                                   Text="{Binding LastStop.VertrekspoorTwee}" />
 
                                             <TextBlock Margin="0,0,0,3"
                                                    HorizontalAlignment="Center"

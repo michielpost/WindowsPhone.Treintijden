@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Windows;
+using System.Xml.Serialization;
 
 namespace ActueelNS.Services.Models
 {
@@ -18,41 +20,41 @@ namespace ActueelNS.Services.Models
 
         public string VertragingTekst { get; set; }
 
-        private string _vertrekSpoor;
+        public string Vertrekspoor { get; set; }
 
-        public string Vertrekspoor
+        public string VertrekspoorTwee
         {
             get
             {
-                if (_vertrekSpoor == null)
-                    return _vertrekSpoor;
+                if (Vertrekspoor == null)
+                    return Vertrekspoor;
 
-                if (_vertrekSpoor.Length <= 2)
-                    return _vertrekSpoor;
+                if (Vertrekspoor.Length <= 2)
+                    return Vertrekspoor;
                 else
                     return null;
             }
-            set { _vertrekSpoor = value; }
         }
 
         public string VertrekspoorDrie
         {
             get
             {
-                if (_vertrekSpoor == null)
-                    return _vertrekSpoor;
+                if (Vertrekspoor == null)
+                    return Vertrekspoor;
 
-                if (_vertrekSpoor.Length == 3)
-                    return _vertrekSpoor;
+                if (Vertrekspoor.Length == 3)
+                    return Vertrekspoor;
                 else
                     return null;
             }
-            set { _vertrekSpoor = value; }
         }
 
 
         public bool IsVertrekspoorWijziging { get; set; }
 
+        [XmlIgnore]
+        [JsonIgnore]
         public Visibility HeeftVertrekspoor
         {
             get
@@ -64,6 +66,8 @@ namespace ActueelNS.Services.Models
             }
         }
 
+        [XmlIgnore]
+        [JsonIgnore]
         public Visibility ShowVertrekspoorWijziging
         {
             get

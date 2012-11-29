@@ -86,7 +86,7 @@ namespace ActueelNS.Shared.Controls
             if (e.NewValue != null)
             {
                 Debug.WriteLine("new value {0}", e.NewValue);
-              ActueelNS.ViewModel.SharingViewModel.Instance.UIDispatcher(() =>
+              Deployment.Current.Dispatcher.BeginInvoke(() =>
                 {
                     var control = d as Control;
                     switch (e.NewValue.ToString())

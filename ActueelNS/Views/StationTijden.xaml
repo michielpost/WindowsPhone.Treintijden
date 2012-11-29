@@ -187,8 +187,8 @@
                                                    FontFamily="{StaticResource PhoneFontFamilySemiBold}"
                                                    FontSize="40"
                                                    Foreground="{StaticResource TextColor}"
-                                                   Visibility="{Binding Vertrekspoor, Converter={StaticResource VisibilityConverter}}"
-                                                   Text="{Binding Vertrekspoor}" />
+                                                   Visibility="{Binding VertrekspoorTwee, Converter={StaticResource VisibilityConverter}}"
+                                                   Text="{Binding VertrekspoorTwee}" />
 
                                         <TextBlock Margin="0,0,0,3"
                                                    HorizontalAlignment="Center"

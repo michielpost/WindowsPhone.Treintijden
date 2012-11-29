@@ -103,7 +103,7 @@ namespace ActueelNS.ViewModel
         /// Send picture or image bytearray to our peer over the connected socket
         /// </summary>
         /// <param name="imageBytes">The image to send</param>
-        public async void SendPictureAsync([ReadOnlyArray] byte[] imageBytes)
+        public async void SendReisadviesAsync([ReadOnlyArray] byte[] imageBytes)
         {
             if (!_socketClosed)
             {
@@ -181,10 +181,10 @@ namespace ActueelNS.ViewModel
 
             _dataWriter = new DataWriter(_socket.OutputStream);
             _socketClosed = false;
-            StartReceivePic(new DataReader(_socket.InputStream));
+            StartReceiveReisadvies(new DataReader(_socket.InputStream));
         }
 
-        async void StartReceivePic(DataReader socketReader)
+        async void StartReceiveReisadvies(DataReader socketReader)
         {
             try
             {
@@ -209,7 +209,7 @@ namespace ActueelNS.ViewModel
                             ReisadviesReceived(this, args);
                         }
 
-                        StartReceivePic(socketReader); // Start another reader
+                        StartReceiveReisadvies(socketReader); // Start another reader
                     }
                     else
                     {

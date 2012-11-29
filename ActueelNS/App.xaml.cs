@@ -82,7 +82,7 @@ namespace ActueelNS
 
             SetupMockIAP();
 
-            SharingViewModel.Instance.UIDispatcher = (a) => RootFrame.Dispatcher.BeginInvoke(a);
+            //SharingViewModel.Instance.UIDispatcher = (a) => RootFrame.Dispatcher.BeginInvoke(a);
 
         }
 

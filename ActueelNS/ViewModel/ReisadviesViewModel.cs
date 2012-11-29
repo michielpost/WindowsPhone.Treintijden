@@ -573,17 +573,12 @@ namespace ActueelNS.ViewModel
                 List<ReisMogelijkheid> reisMogelijkheden = await PlannerService.GetSearchResult(search);
 
                 //Set color
-                SolidColorBrush backgroundColor = (SolidColorBrush)App.Current.Resources["BackgroundColor"];
-                SolidColorBrush alternateColor = (SolidColorBrush)App.Current.Resources["AlternateColor"];
                 bool useAlternate = false;
 
                 foreach (var mogelijkheid in reisMogelijkheden)
                 {
                     //Set background color here, for performance
-                    if (useAlternate)
-                        mogelijkheid.SetBackground(alternateColor);
-                    else
-                        mogelijkheid.SetBackground(backgroundColor);
+                    mogelijkheid.IsAlternate = useAlternate;
 
                     useAlternate = !useAlternate;
                 }

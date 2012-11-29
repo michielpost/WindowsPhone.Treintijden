@@ -3,6 +3,7 @@ using System.Linq;
 using System.Windows.Media;
 using System.Xml.Serialization;
 using System.ComponentModel;
+using Newtonsoft.Json;
 
 namespace ActueelNS.Services.Models
 {
@@ -105,6 +106,7 @@ namespace ActueelNS.Services.Models
         private bool _isExpanded;
 
         [XmlIgnore]
+        [JsonIgnore]
         public bool IsExpanded
         {
             get { return _isExpanded; }
@@ -118,6 +120,7 @@ namespace ActueelNS.Services.Models
         public bool IsAlternate { get; set; }
 
         [XmlIgnore]
+        [JsonIgnore]
         public SolidColorBrush BackgroundColor
         {
             get

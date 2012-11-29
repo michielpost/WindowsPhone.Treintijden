@@ -417,20 +417,17 @@ namespace ActueelNS.Views
 
         private void TapShareButton_Click_1(object sender, EventArgs e)
         {
-            if (!SharingViewModel.Instance.IsConnected)
-            {
-                // Let's assume the intention was to connect and send
-                SharingViewModel.Instance.StartSharingSession();
-            }
-            else
-            {
+
                 ShareSearch s = new ShareSearch();
                 s.PlannerSearch = _vm.SelectedSearch;
                 s.ReisMogelijkheden = _vm.ReisMogelijkheden;
 
-                SharingViewModel.Instance.SendReisadviesToPeer(s.ObjectToByteArray());
-                //ShowSendingArrow();
-            }
+
+                // Let's assume the intention was to connect and send
+                SharingViewModel.Instance.StartSharingSession(s.ObjectToByteArray());
+          
+
+                //SharingViewModel.Instance.SendReisadviesToPeer(s.ObjectToByteArray());
         }
        
     }

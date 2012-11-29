@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Windows.Media;
 using System.Collections.Generic;
+using Newtonsoft.Json;
+using System.Xml.Serialization;
 
 namespace ActueelNS.Services.Models
 {
@@ -19,19 +21,42 @@ namespace ActueelNS.Services.Models
 
         public List<ReisDeel> ReisDelen { get; set; }
 
-        private SolidColorBrush _backgroundColor;
+        //private SolidColorBrush _backgroundColor;
+
+        //[JsonIgnore]
+        //public SolidColorBrush BackgroundColor
+        //{
+        //    get
+        //    {
+        //        return _backgroundColor;
+        //    }
+        //}
+
+        //public void SetBackground(SolidColorBrush bg)
+        //{
+        //    _backgroundColor = bg;
+        //}
+
+        public bool IsAlternate { get; set; }
+
+        [XmlIgnore]
+        [JsonIgnore]
         public SolidColorBrush BackgroundColor
         {
             get
             {
-                return _backgroundColor;
+                if (IsAlternate)
+                {
+                    Color a = new Color() { R = 242, G = 242, B = 247, A = 255 };
+                    SolidColorBrush alternateColor = new SolidColorBrush(a);
+
+                    return alternateColor;
+                }
+
+                return new SolidColorBrush(Colors.White);
             }
         }
 
-        public void SetBackground(SolidColorBrush bg)
-        {
-            _backgroundColor = bg;
-        }
 
 
         public string VertrekDisplayTijd

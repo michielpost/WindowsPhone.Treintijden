@@ -27,8 +27,10 @@ namespace ActueelNS.ViewModel
     {
         public event EventHandler<ReisadviesReceivedEventArgs> ReisadviesReceived;
         public event EventHandler<ConnectionStatusChangedEventArgs> ConnectionStatusChanged;
-        public Action<Action> UIDispatcher { get; set; }
+        //public Action<Action> UIDispatcher { get; set; }
         public static SharingViewModel Instance { get; private set; }
+
+        private byte[] _queueData;
 
         // Alternate identities so that peer apps can connect from Windows Phone 8 to Windows 8.
         #if NETFX_CORE
@@ -48,7 +50,7 @@ namespace ActueelNS.ViewModel
             IsConnected = false;
             _peerConnector = new PeerConnector();
             _peerConnector.ConnectionStatusChanged += OnConnectionStatusChanged;
-            _peerConnector.ReisadviesReceived += OnPictureReceived;
+            _peerConnector.ReisadviesReceived += OnReisadviesReceived;
         }
 
         /// <summary>
@@ -56,8 +58,10 @@ namespace ActueelNS.ViewModel
         /// </summary>
         /// <remarks>This does not mean we are connected to a peer. It just means we have successfully started the request to share.
         /// The SessionConnectionCompleted event will tell us whether a connection was established.</remarks>
-        public void StartSharingSession()
+        public void StartSharingSession(byte[] imageBytes)
         {
+            _queueData = imageBytes;
+
             if (!IsConnected)
             {
                 // Create a PeerConnector instance if necessary
@@ -69,6 +73,8 @@ namespace ActueelNS.ViewModel
                 // Start the connection
                 _peerConnector.StartConnect();
             }
+            else
+                SendReisadviesToPeer(_queueData);
         }
 
         /// <summary>
@@ -93,15 +99,17 @@ namespace ActueelNS.ViewModel
         /// <param name="imageBytes">The encoded image to send, represented as an array of bytes.</param>
         public void SendReisadviesToPeer(byte[] imageBytes)
         {
+            _queueData = null;
+
             if (!this.IsConnected)
             {
-                StartSharingSession();
+                StartSharingSession(imageBytes);
             }
             else
             {
                 if (_peerConnector != null)
                 {
-                    _peerConnector.SendPictureAsync(imageBytes);
+                    _peerConnector.SendReisadviesAsync(imageBytes);
                 }
             }
         }
@@ -123,7 +131,7 @@ namespace ActueelNS.ViewModel
         //    }
         //}
 
-        void OnPictureReceived(object sender, ReisadviesReceivedEventArgs args)
+        void OnReisadviesReceived(object sender, ReisadviesReceivedEventArgs args)
         {
 
             var plannerService = SimpleIoc.Default.GetInstance<IPlannerService>();
@@ -157,6 +165,8 @@ namespace ActueelNS.ViewModel
             {
                 case ConnectionStatus.Completed:
                     IsConnected = true;
+                    if (_queueData != null)
+                        SendReisadviesToPeer(_queueData);
                     break;
                 case ConnectionStatus.Canceled:
                     // If I am already connected, the canel just means we accidentally tapped again and I want to stay connected.
