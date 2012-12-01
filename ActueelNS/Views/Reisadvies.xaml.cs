@@ -81,7 +81,9 @@ namespace ActueelNS.Views
                     {
                         string indexString = this.NavigationContext.QueryString["index"];
 
-                        index = Int32.Parse(indexString);
+                        int result;
+                        if (Int32.TryParse(indexString, out result))
+                            index = result;
                     }
 
                     SearchHistoryListBox.Visibility = System.Windows.Visibility.Collapsed;
@@ -421,6 +423,9 @@ namespace ActueelNS.Views
                 ShareSearch s = new ShareSearch();
                 s.PlannerSearch = _vm.SelectedSearch;
                 s.ReisMogelijkheden = _vm.ReisMogelijkheden;
+
+                if (_vm.SelectedReisMogelijkheid != null)
+                    s.Index = _vm.ReisMogelijkheden.IndexOf(_vm.SelectedReisMogelijkheid);
 
 
                 // Let's assume the intention was to connect and send

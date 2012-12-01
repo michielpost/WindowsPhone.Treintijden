@@ -22,7 +22,7 @@ namespace ActueelNS.ViewModel
     {
         public byte[] Bytes { get; set; }
         public Guid Id { get;  set; }
-        public int Index { get; set; }
+        public int? Index { get; set; }
     }
 
     public class ConnectionStatusChangedEventArgs : EventArgs

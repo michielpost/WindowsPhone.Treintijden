@@ -82,9 +82,13 @@ namespace ActueelNS.ViewModel
         /// </summary>
         public void StopSharingSession()
         {
-          if (IsConnected && _peerConnector != null)
+          if (_peerConnector != null)
           {
-            _peerConnector.StopConnect();
+              if (IsConnected)
+                  _peerConnector.StopConnect();
+              else
+                  _peerConnector.CancelConnect();
+             
           }
 
           IsConnected = false;
@@ -143,9 +147,11 @@ namespace ActueelNS.ViewModel
             //SetCurrentPicture(args.Bytes);
 
             if (ReisadviesReceived != null)
-                ReisadviesReceived(this, new ReisadviesReceivedEventArgs() { Id = s.PlannerSearch.Id });
+                ReisadviesReceived(this, new ReisadviesReceivedEventArgs() { Id = s.PlannerSearch.Id, Index = s.Index });
 
             Debug.WriteLine("Received {0} bytes", args.Bytes.Length);
+
+            //this.StopSharingSession();
         }
 
         //byte[] _currentSharedPicture;

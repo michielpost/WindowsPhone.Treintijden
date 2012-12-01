@@ -448,7 +448,7 @@
     <value>support this app</value>
   </data>
   <data name="MainDonateButton" xml:space="preserve">
-    <value>support this ap</value>
+    <value>support this app</value>
   </data>
   <data name="DonateError" xml:space="preserve">
     <value>Cannot load badges, please try again later.</value>
@@ -467,5 +467,26 @@
   </data>
   <data name="ReisadviesTapShareButton" xml:space="preserve">
     <value>tap to share</value>
+  </data>
+  <data name="NFCWaitPageText" xml:space="preserve">
+    <value>Waiting for data...</value>
+  </data>
+  <data name="NFCWaitPageTitle" xml:space="preserve">
+    <value>NFC Connection</value>
+  </data>
+  <data name="Caption_Disconnected" xml:space="preserve">
+    <value>Disconnected from peer</value>
+  </data>
+  <data name="Caption_Send" xml:space="preserve">
+    <value>Click to send.</value>
+  </data>
+  <data name="Caption_TapToConnect" xml:space="preserve">
+    <value>Tap to connect</value>
+  </data>
+  <data name="Message_Disconnected" xml:space="preserve">
+    <value>You are no longer connected.</value>
+  </data>
+  <data name="VerifyBluetooth" xml:space="preserve">
+    <value>Please ensure that Bluetooth is enabled.</value>
   </data>
 </root>

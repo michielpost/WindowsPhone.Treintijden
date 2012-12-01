@@ -500,36 +500,25 @@ Nieuw in 1.5
   <data name="ReisadviesTapShareButton" xml:space="preserve">
     <value>deel via NFC</value>
   </data>
-  <data name="Caption_AppBarConnect" xml:space="preserve">
-    <value>Connect</value>
-    <comment>TODO</comment>
-  </data>
-  <data name="Caption_AppBarConvert" xml:space="preserve">
-    <value>Convert</value>
-    <comment>TODO</comment>
-  </data>
-  <data name="Caption_AppBarDisconnect" xml:space="preserve">
-    <value>Disconnect</value>
-    <comment>TODO</comment>
-  </data>
   <data name="Caption_Disconnected" xml:space="preserve">
-    <value>Disconnected from peer</value>
-    <comment>TODO</comment>
+    <value>Verbinding verbroken</value>
   </data>
   <data name="Caption_Send" xml:space="preserve">
-    <value>Click to send picture</value>
-    <comment>TODO</comment>
+    <value>Klik om te verzenden</value>
   </data>
   <data name="Caption_TapToConnect" xml:space="preserve">
-    <value>Tap to connect</value>
-    <comment>TODO</comment>
+    <value>Tap om verbinding te maken</value>
   </data>
   <data name="Message_Disconnected" xml:space="preserve">
-    <value>You are no longer connected for picture sharing</value>
-    <comment>TODO</comment>
+    <value>Connectie verbroken.</value>
   </data>
   <data name="VerifyBluetooth" xml:space="preserve">
-    <value>Please ensure that Bluetooth is enabled</value>
-    <comment>TODO</comment>
+    <value>Zorg dat Bluetooth aan staat.</value>
+  </data>
+  <data name="NFCWaitPageText" xml:space="preserve">
+    <value>Wacht op data...</value>
+  </data>
+  <data name="NFCWaitPageTitle" xml:space="preserve">
+    <value>NFC Connectie</value>
   </data>
 </root>

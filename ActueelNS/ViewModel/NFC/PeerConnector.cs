@@ -93,10 +93,17 @@ namespace ActueelNS.ViewModel
         public void StopConnect()
         {
             PeerFinder.Stop();
-             CloseSocket();
+            CloseSocket();
             _peerFinderStarted = false;
 
             UpdateConnectionStatus(ConnectionStatus.Disconnected);
+        }
+
+        public void CancelConnect()
+        {
+            PeerFinder.Stop();
+            CloseSocket();
+            _peerFinderStarted = false;
         }
 
         /// <summary>
@@ -268,5 +275,7 @@ namespace ActueelNS.ViewModel
 
               handler(this, new ConnectionStatusChangedEventArgs { Status = status });
         }
+
+       
     }
 }

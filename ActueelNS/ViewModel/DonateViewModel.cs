@@ -81,12 +81,21 @@ namespace ActueelNS.ViewModel
         {
             if (!Store.CurrentApp.LicenseInformation.ProductLicenses[key].IsActive)
             {
-                Store.ListingInformation li = await Store.CurrentApp.LoadListingInformationAsync();
-                string pID = li.ProductListings[key].ProductId;
+                try
+                {
+                    Store.ListingInformation li = await Store.CurrentApp.LoadListingInformationAsync();
+                    string pID = li.ProductListings[key].ProductId;
 
-                string receipt = await Store.CurrentApp.RequestProductPurchaseAsync(pID, false);
+                    string receipt = await Store.CurrentApp.RequestProductPurchaseAsync(pID, false);
+                }
+                catch (Exception e)
+                {
+                }
+                finally
+                {
+                    Init();
+                }
 
-                Init();
             }
         }
 

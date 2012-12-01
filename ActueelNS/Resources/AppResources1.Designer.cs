@@ -160,34 +160,7 @@ namespace ActueelNS.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Connect.
-        /// </summary>
-        public static string Caption_AppBarConnect {
-            get {
-                return ResourceManager.GetString("Caption_AppBarConnect", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Convert.
-        /// </summary>
-        public static string Caption_AppBarConvert {
-            get {
-                return ResourceManager.GetString("Caption_AppBarConvert", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Disconnect.
-        /// </summary>
-        public static string Caption_AppBarDisconnect {
-            get {
-                return ResourceManager.GetString("Caption_AppBarDisconnect", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Disconnected from peer.
+        ///   Looks up a localized string similar to Verbinding verbroken.
         /// </summary>
         public static string Caption_Disconnected {
             get {
@@ -196,7 +169,7 @@ namespace ActueelNS.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Click to send picture.
+        ///   Looks up a localized string similar to Klik om te verzenden.
         /// </summary>
         public static string Caption_Send {
             get {
@@ -205,7 +178,7 @@ namespace ActueelNS.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Tap to connect.
+        ///   Looks up a localized string similar to Tap om verbinding te maken.
         /// </summary>
         public static string Caption_TapToConnect {
             get {
@@ -394,11 +367,29 @@ namespace ActueelNS.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to You are no longer connected for picture sharing.
+        ///   Looks up a localized string similar to Connectie verbroken..
         /// </summary>
         public static string Message_Disconnected {
             get {
                 return ResourceManager.GetString("Message_Disconnected", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Wacht op data....
+        /// </summary>
+        public static string NFCWaitPageText {
+            get {
+                return ResourceManager.GetString("NFCWaitPageText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to NFC Connectie.
+        /// </summary>
+        public static string NFCWaitPageTitle {
+            get {
+                return ResourceManager.GetString("NFCWaitPageTitle", resourceCulture);
             }
         }
         
@@ -1178,7 +1169,7 @@ namespace ActueelNS.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Please ensure that Bluetooth is enabled.
+        ///   Looks up a localized string similar to Zorg dat Bluetooth aan staat..
         /// </summary>
         public static string VerifyBluetooth {
             get {

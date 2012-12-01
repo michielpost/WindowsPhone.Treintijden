@@ -13,6 +13,7 @@ namespace ActueelNS.Services.Models
 
         public PlannerSearch PlannerSearch { get; set; }
         public List<ReisMogelijkheid> ReisMogelijkheden { get; set; }
+        public int? Index { get; set; }
 
         // Convert an object to a byte array
         public byte[] ObjectToByteArray()

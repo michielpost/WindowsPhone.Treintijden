@@ -34,6 +34,7 @@ namespace ActueelNS.Views.Base
                 && uri.IndexOf("Windows.Networking.Proximity.PeerFinder:StreamSocket") > 0)
             {
                 SharingViewModel.Instance.StartSharingSession(null);
+                //NavigationService.Navigate(new Uri("/Views/NFCWaitPage.xaml", UriKind.Relative));
             }
 
             SharingViewModel.Instance.ConnectionStatusChanged += new EventHandler<ConnectionStatusChangedEventArgs>(OnConnectionStatusChanged);
@@ -55,7 +56,7 @@ namespace ActueelNS.Views.Base
                 //SoundHelper.PlaySound("Assets/Sounds/picreceived.wav");
                 //if (!App.RootFrame.CurrentSource.OriginalString.Contains("/Views/PictureView.xaml"))
                 //{
-                    App.RootFrame.Navigate(new Uri(string.Format("/Views/Reisadvies.xaml?id={0}", e.Id), UriKind.Relative));
+                    App.RootFrame.Navigate(new Uri(string.Format("/Views/Reisadvies.xaml?id={0}&index={1}", e.Id, e.Index), UriKind.Relative));
                 //}
             });
         }

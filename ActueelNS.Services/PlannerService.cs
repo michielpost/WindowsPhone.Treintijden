@@ -68,9 +68,12 @@ namespace ActueelNS.Services
         {
             List<PlannerSearch> list = GetListFromStore();
 
-            list.Add(search);
-           
-            SaveListToStore(list);
+            if (!list.Where(x => x.Id == search.Id).Any())
+            {
+                list.Add(search);
+
+                SaveListToStore(list);
+            }
         }
 
         public void DeleteSearch(Guid id)

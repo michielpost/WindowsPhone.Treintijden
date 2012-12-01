@@ -23,7 +23,7 @@
         <MediaElement x:Name="soundPlayer" Visibility="Collapsed" AutoPlay="True" />
     </UserControl.Resources>
 
-    <Border BorderBrush="White" BorderThickness="3" Background="#FF7FBA00" x:Name="LayoutRoot" Visibility="Visible">
+    <Border BorderBrush="DarkBlue" BorderThickness="3" Background="White" x:Name="LayoutRoot" Visibility="Visible">
         <Grid >
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
@@ -41,8 +41,8 @@
                 <ColumnDefinition Width="20"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <TextBlock x:Name="Caption" Grid.Row="2" Grid.Column="2"  FontSize="24" HorizontalAlignment="Center" Foreground="White"/>
-            <TextBlock x:Name="Message" Grid.Row="3" Grid.Column="2"  FontSize="16"  HorizontalAlignment="Center" Foreground="White"/>
+            <TextBlock x:Name="Caption" Grid.Row="2" Grid.Column="2"  FontSize="24" HorizontalAlignment="Center" Foreground="DarkBlue"/>
+            <TextBlock x:Name="Message" Grid.Row="3" Grid.Column="2"  FontSize="16"  HorizontalAlignment="Center" Foreground="DarkBlue"/>
             <ProgressBar x:Name="MyProgressBar" Grid.Column="2"  Grid.Row="4"  IsIndeterminate="True"  Margin="0,20">
             </ProgressBar>
         </Grid>
