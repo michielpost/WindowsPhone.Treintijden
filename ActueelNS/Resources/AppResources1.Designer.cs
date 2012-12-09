@@ -124,7 +124,7 @@ namespace ActueelNS.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Treintijden 2.0.
+        ///   Looks up a localized string similar to Treintijden 2.1.
         /// </summary>
         public static string AboutVersion {
             get {
@@ -754,7 +754,11 @@ namespace ActueelNS.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Nieuw in 2.0
+        ///   Looks up a localized string similar to Nieuw in 2.1
+        ///- Deel je reis via NFC
+        ///- Nieuwe stations dienstregeling 2013
+        ///
+        ///Nieuw in 2.0
         ///- Klaar voor Windows Phone 8
         ///- Hoge resolutie tiles
         ///- Station op de kaart tonen
@@ -767,13 +771,7 @@ namespace ActueelNS.Resources {
         ///- Via station veld vervangen door checkbox bij planner
         ///- Nieuwe manier van stations kiezen
         ///- Ondersteuning voor stationsafkortingen bij zoeken naar een station
-        ///- Vernieuwd reisadvies scherm
-        ///
-        ///Nieuw in 1.8
-        ///- Layout uitlijning
-        ///
-        ///Nieuw in 1.7
-        /// [rest of string was truncated]&quot;;.
+        ///- Ver [rest of string was truncated]&quot;;.
         /// </summary>
         public static string ReleaseNotes {
             get {

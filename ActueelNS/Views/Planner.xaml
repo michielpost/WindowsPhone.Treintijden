@@ -240,10 +240,12 @@
 
                     <toolkit:DatePicker Background="{StaticResource ControlBackgroundColor}"
                                         Foreground="{StaticResource TextColor}"
+                                        BorderThickness="0"
                                         ValueChanged="DatePicker_ValueChanged" />
 
                     <toolkit:TimePicker Background="{StaticResource ControlBackgroundColor}"
                                         Foreground="{StaticResource TextColor}"
+                                        BorderThickness="0"
                                         ValueChanged="TimePicker_ValueChanged" />
 
 

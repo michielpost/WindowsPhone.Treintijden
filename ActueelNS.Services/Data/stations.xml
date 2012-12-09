@@ -128,6 +128,13 @@
     </Syns>
   </s>
   <s>
+    <name>Almere Poort</name>
+    <id>ampo</id>
+    <lat>52.348095</lat>
+    <lon>5.15512</lon>
+    <Syns />
+  </s>
+  <s>
     <name>Alphen a/d Rijn</name>
     <id>apn</id>
     <lat>52.124443</lat>
@@ -894,6 +901,13 @@
     <Syns />
   </s>
   <s>
+    <name>Dronten</name>
+    <id>dron</id>
+    <lat>53.521393</lat>
+    <lon>5.7358932</lon>
+    <Syns />
+  </s>
+  <s>
     <name>Duiven</name>
     <id>dvn</id>
     <lat>51.943333</lat>
@@ -1262,6 +1276,13 @@
     </Syns>
   </s>
   <s>
+    <name>Halfweg-Zwanenburg</name>
+    <id>hwzb</id>
+    <lat>52.384453</lat>
+    <lon>4.754505</lon>
+    <Syns />
+  </s>
+  <s>
     <name>Heemskerk</name>
     <id>hk</id>
     <lat>52.495277</lat>
@@ -1571,6 +1592,13 @@
     <id>kpn</id>
     <lat>52.559723</lat>
     <lon>5.9216666</lon>
+    <Syns />
+  </s>
+  <s>
+    <name>Kampen Zuid</name>
+    <id>kpnz</id>
+    <lat>52.55809</lat>
+    <lon>5.8787155</lon>
     <Syns />
   </s>
   <s>
