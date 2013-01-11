@@ -754,7 +754,11 @@ namespace ActueelNS.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Nieuw in 2.1
+        ///   Looks up a localized string similar to Nieuw in 2.1.0.1
+        ///- Station Hoevelaken
+        ///- Bugfix
+        ///
+        ///Nieuw in 2.1
         ///- Deel je reis via NFC
         ///- Nieuwe stations dienstregeling 2013
         ///
@@ -770,8 +774,7 @@ namespace ActueelNS.Resources {
         ///- Favoriet knop bij vertrektijden van een station
         ///- Via station veld vervangen door checkbox bij planner
         ///- Nieuwe manier van stations kiezen
-        ///- Ondersteuning voor stationsafkortingen bij zoeken naar een station
-        ///- Ver [rest of string was truncated]&quot;;.
+        ///- Ondersteuning voor st [rest of string was truncated]&quot;;.
         /// </summary>
         public static string ReleaseNotes {
             get {

@@ -263,7 +263,7 @@ namespace ActueelNS.Services
                         var last = mogelijkheid.ReisDelen.LastOrDefault();
                         if (last != null && last.FirstStop != null)
                         {
-                            last.FirstStop.VertragingTekst = mogelijkheid.AankomstVertraging;
+                            last.LastStop.VertragingTekst = mogelijkheid.AankomstVertraging;
                         }
 
                         reismogelijkheidList.Add(mogelijkheid);

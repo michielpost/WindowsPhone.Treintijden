@@ -1483,6 +1483,13 @@
     <Syns />
   </s>
   <s>
+    <name>Hoevelaken</name>
+    <id>hvl</id>
+    <lat>52.16635</lat>
+    <lon>5.460205</lon>
+    <Syns />
+  </s>
+  <s>
     <name>Hollandsche Rading</name>
     <id>hor</id>
     <lat>52.177776</lat>

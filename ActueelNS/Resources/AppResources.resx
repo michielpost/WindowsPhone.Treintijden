@@ -418,7 +418,11 @@
     <value>favoriet</value>
   </data>
   <data name="ReleaseNotes" xml:space="preserve">
-    <value>Nieuw in 2.1
+    <value>Nieuw in 2.1.0.1
+- Station Hoevelaken
+- Bugfix
+
+Nieuw in 2.1
 - Deel je reis via NFC
 - Nieuwe stations dienstregeling 2013
 
