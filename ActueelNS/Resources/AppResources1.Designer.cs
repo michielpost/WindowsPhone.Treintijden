@@ -331,7 +331,7 @@ namespace ActueelNS.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Locatie bepaling....
+        ///   Looks up a localized string similar to Locatiebepaling....
         /// </summary>
         public static string MainLocationLoading {
             get {

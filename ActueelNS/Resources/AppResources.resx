@@ -190,7 +190,7 @@
     <value>station toevoegen</value>
   </data>
   <data name="MainLocationLoading" xml:space="preserve">
-    <value>Locatie bepaling...</value>
+    <value>Locatiebepaling...</value>
   </data>
   <data name="MainReviewButton" xml:space="preserve">
     <value>beoordeel deze applicatie</value>
