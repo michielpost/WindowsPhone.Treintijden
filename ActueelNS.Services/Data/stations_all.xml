@@ -3260,15 +3260,6 @@
 	</station>
 
 	<station>
-		<name>Nijverdal West</name>
-		<code>nvdw</code>
-		<country>NL</country>
-		<lat>52.350020</lat>
-		<long>6.449976</long>
-		<alias>false</alias>
-	</station>
-
-	<station>
 		<name>Nieuw Vennep</name>
 		<code>nvp</code>
 		<country>NL</country>
