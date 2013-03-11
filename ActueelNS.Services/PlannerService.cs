@@ -205,11 +205,11 @@ namespace ActueelNS.Services
                         if (element.Element("AantalOverstappen") != null)
                             mogelijkheid.AantalOverstappen = int.Parse(element.Element("AantalOverstappen").Value);
 
-                        mogelijkheid.GeplandeVertrekTijd = GetDateTime(element, "GeplandeVertrekTijd");
-                        mogelijkheid.ActueleVertrekTijd = GetDateTime(element, "ActueleVertrekTijd");
+                        mogelijkheid.GeplandeVertrekTijd = GetDateTime(element, "GeplandeVertrekTijd") ?? DateTime.Now;
+                        mogelijkheid.ActueleVertrekTijd = GetDateTime(element, "ActueleVertrekTijd") ?? DateTime.Now;
 
-                        mogelijkheid.GeplandeAankomstTijd = GetDateTime(element, "GeplandeAankomstTijd");
-                        mogelijkheid.ActueleAankomstTijd = GetDateTime(element, "ActueleAankomstTijd");
+                        mogelijkheid.GeplandeAankomstTijd = GetDateTime(element, "GeplandeAankomstTijd") ?? DateTime.Now;
+                        mogelijkheid.ActueleAankomstTijd = GetDateTime(element, "ActueleAankomstTijd") ?? DateTime.Now;
 
                         mogelijkheid.GeplandeReisTijd = GetElementText(element.Element("GeplandeReisTijd"));
 
@@ -275,9 +275,9 @@ namespace ActueelNS.Services
                });
         }
 
-        private static DateTime GetDateTime(XElement element, string name)
+        private static DateTime? GetDateTime(XElement element, string name)
         {
-            DateTime dtime = DateTime.Now;
+            DateTime? dtime = null;
             if (element.Element(name) != null)
             {
                 string time = element.Element(name).Value;
@@ -287,7 +287,8 @@ namespace ActueelNS.Services
                     time = time.Substring(0, zoneIndex);
                 }
 
-                dtime = DateTime.Parse(time);
+                if (!string.IsNullOrEmpty(time))
+                    dtime = DateTime.Parse(time);
             }
 
             return dtime;

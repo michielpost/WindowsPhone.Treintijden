@@ -31,7 +31,7 @@ namespace ActueelNS.Views
         {
             EmailComposeTask emailComposeTask = new EmailComposeTask();
 
-            emailComposeTask.Subject = "Treintijden WP7";
+            emailComposeTask.Subject = "Treintijden WP";
             emailComposeTask.To = "michiel@michielpost.nl";
             emailComposeTask.Show();
 

@@ -8,13 +8,16 @@ namespace ActueelNS.Services.Models
     public class ReisStop
     {
         public string Naam { get; set; }
-        public DateTime Tijd { get; set; }
+        public DateTime? Tijd { get; set; }
 
         public string DisplayTijd
         {
             get
             {
-                return Tijd.ToString("HH:mm");
+                if (Tijd.HasValue)
+                    return Tijd.Value.ToString("HH:mm");
+                else
+                    return null;
             }
         }
 
