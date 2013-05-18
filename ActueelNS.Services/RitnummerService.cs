@@ -53,6 +53,11 @@ namespace ActueelNS.Services
                     stopList.Add(stop);
             }
 
+            if (stopList.Any())
+            {
+                stopList.First().IsFirst = true;
+                stopList.Last().IsLast = true;
+            }
 
             return stopList;
         }

@@ -14,6 +14,10 @@ namespace ActueelNS.Services.Models
         public DateTime? Arrival { get; set; }
         public DateTime? Departure { get; set; }
         public int? Prognose { get; set; }
+
+        public bool IsCurrent { get; set; }
+        public bool IsFirst { get; set; }
+        public bool IsLast { get; set; }
     }
 
 

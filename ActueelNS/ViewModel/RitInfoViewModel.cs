@@ -61,6 +61,9 @@ namespace ActueelNS.ViewModel
                     stop.Station = station.Name;
             }
 
+            //TODO: Set current station
+            //TODO: Markeer waar trein nu is...
+            
             RitStops = stops;
           
 
