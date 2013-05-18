@@ -118,6 +118,7 @@ namespace ActueelNS.Services.ViewModels
                         tijd.TreinSoort = GetElementText(element.Element("TreinSoort"));
                         tijd.Route = GetElementText(element.Element("RouteTekst"));
                         tijd.ReisTip = GetElementText(element.Element("ReisTip"));
+                        tijd.Vervoerder = GetElementText(element.Element("Vervoerder"));
 
                         tijd.Vertrekspoor = GetElementText(element.Element("VertrekSpoor"));
 

@@ -113,6 +113,7 @@
   <ItemGroup>
     <Compile Include="Constants\NSApi.cs" />
     <Compile Include="Interfaces\IPlannerService.cs" />
+    <Compile Include="Interfaces\IRitnummerService.cs" />
     <Compile Include="Interfaces\ISettingService.cs" />
     <Compile Include="IsolatedStorageCacheManager.cs" />
     <Compile Include="Mocks\StationServiceMock.cs" />
@@ -122,6 +123,7 @@
     <Compile Include="Models\ReisMogelijkheid.cs" />
     <Compile Include="Models\ReisPrijs.cs" />
     <Compile Include="Models\ReisStop.cs" />
+    <Compile Include="Models\RitInfo.cs" />
     <Compile Include="Models\ShareSearch.cs" />
     <Compile Include="Models\Station.cs" />
     <Compile Include="Models\StationInGroup.cs" />
@@ -130,6 +132,7 @@
     <Compile Include="Models\Vertrektijd.cs" />
     <Compile Include="Models\Werkzaamheden.cs" />
     <Compile Include="PlannerService.cs" />
+    <Compile Include="RitnummerService.cs" />
     <Compile Include="SettingService.cs" />
     <Compile Include="StationService.cs" />
     <Compile Include="Interfaces\IStationService.cs" />

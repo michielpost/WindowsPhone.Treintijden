@@ -1415,6 +1415,13 @@
     <Syns />
   </s>
   <s>
+    <name>Hengelo Gezondheidspark</name>
+    <id>hglg</id>
+    <lat>52.261593</lat>
+    <lon>6.767235</lon>
+    <Syns />
+  </s>
+  <s>
     <name>Hillegom</name>
     <id>hil</id>
     <lat>52.3025</lat>

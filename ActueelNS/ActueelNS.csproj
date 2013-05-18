@@ -200,6 +200,7 @@
     <Compile Include="ViewModel\PrijsViewModel.cs" />
     <Compile Include="ViewModel\ReisadviesViewModel.cs" />
     <Compile Include="ViewModel\ReminderViewModel.cs" />
+    <Compile Include="ViewModel\RitInfoViewModel.cs" />
     <Compile Include="ViewModel\SettingsViewModel.cs" />
     <Compile Include="ViewModel\StationPickerViewModel.cs" />
     <Compile Include="ViewModel\StationTijdenViewModel.cs" />
@@ -229,6 +230,9 @@
     </Compile>
     <Compile Include="Views\Reminder.xaml.cs">
       <DependentUpon>Reminder.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\RitInfoPage.xaml.cs">
+      <DependentUpon>RitInfoPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Settings.xaml.cs">
       <DependentUpon>Settings.xaml</DependentUpon>
@@ -318,6 +322,10 @@
     </Page>
     <Page Include="Views\Reminder.xaml">
       <SubType>Form</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\RitInfoPage.xaml">
+      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\Settings.xaml">

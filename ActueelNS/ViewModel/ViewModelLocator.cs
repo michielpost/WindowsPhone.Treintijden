@@ -72,6 +72,7 @@ namespace ActueelNS.ViewModel
         private static ReminderViewModel _reminder;
         private static DonateViewModel _donate;
         private static MapViewModel _map;
+        private static RitInfoViewModel _ritInfo;
 
         private static GpsWatcherModel _gpsWatcher;
 
@@ -98,6 +99,7 @@ namespace ActueelNS.ViewModel
             }
 
             SimpleIoc.Default.Register<IPlannerService, PlannerService>();
+            SimpleIoc.Default.Register<IRitnummerService, RitnummerService>();
             //SimpleIoc.Default.Register<IPrijsService, PrijsService>();
 
             SimpleIoc.Default.Register<INavigationService, NavigationService>();
@@ -467,6 +469,45 @@ namespace ActueelNS.ViewModel
             }
         }
 
+
+
+        private static void CreateRitInfo()
+        {
+            if (_ritInfo == null)
+            {
+                _ritInfo = new RitInfoViewModel();
+            }
+        }
+
+        /// <summary>
+        /// Gets the Main property.
+        /// </summary>
+        public static RitInfoViewModel RitInfoStatic
+        {
+            get
+            {
+                if (_ritInfo == null)
+                {
+                    CreateRitInfo();
+                }
+
+                return _ritInfo;
+            }
+        }
+
+        /// <summary>
+        /// Gets the RitInfoViewModel property.
+        /// </summary>
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Performance",
+            "CA1822:MarkMembersAsStatic",
+            Justification = "This non-static member is needed for data binding purposes.")]
+        public RitInfoViewModel RitInfoViewModel
+        {
+            get
+            {
+                return RitInfoStatic;
+            }
+        }
 
 
        

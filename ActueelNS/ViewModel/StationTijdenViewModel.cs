@@ -92,6 +92,7 @@ namespace ActueelNS.ViewModel
         public RelayCommand PinCommand { get; private set; }
         public RelayCommand ToListCommand { get; private set; }
         public RelayCommand StoringenCommand { get; private set; }
+        public RelayCommand<Vertrektijd> RitInfoCommand { get; private set; }
 
 
         private ObservableCollection<Vertrektijd> _tijdList;
@@ -210,6 +211,8 @@ namespace ActueelNS.ViewModel
             PlanCommand = new RelayCommand(() => PlanStation());
             ToListCommand = new RelayCommand(() => ToList());
             StoringenCommand = new RelayCommand(() => ToStoringen());
+            RitInfoCommand = new RelayCommand<Vertrektijd>(x => ToRitInfo(x));
+
 
             DataManager.Current.PropertyChanged += new System.ComponentModel.PropertyChangedEventHandler(Current_PropertyChanged);
 
@@ -257,6 +260,12 @@ namespace ActueelNS.ViewModel
             string name = CurrentStation.Name;
 
             NavigationService.NavigateTo(new Uri(string.Format("/Views/Storingen.xaml?id={0}", name), UriKind.Relative));
+
+        }
+
+        private void ToRitInfo(Vertrektijd tijd)
+        {
+            NavigationService.NavigateTo(new Uri(string.Format("/Views/RitInfoPage.xaml?id={0}&company={1}", tijd.Ritnummer, tijd.Vervoerder), UriKind.Relative));
 
         }
 

@@ -5,6 +5,7 @@ using System.Windows.Controls;
 using System.Windows.Media;
 using ActueelNS.Resources;
 using ActueelNS.Views.Base;
+using ActueelNS.Services.Models;
 
 namespace ActueelNS.Views
 {
@@ -185,6 +186,16 @@ namespace ActueelNS.Views
                 _vm.DeleteCommand.Execute(null);
             else
                 _vm.AddCommand.Execute(null);
+        }
+
+        private void MainListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            Vertrektijd selected = MainListBox.SelectedItem as Vertrektijd;
+
+            if (selected != null)
+            {
+                _vm.RitInfoCommand.Execute(selected);
+            }
         }
 
 

@@ -92,7 +92,8 @@ namespace ActueelNS.Services.Models
         {
             get { return (ReisTip != null && ReisTip.Length > 0); }
         }
-        
 
+
+        public string Vervoerder { get; set; }
     }
 }
