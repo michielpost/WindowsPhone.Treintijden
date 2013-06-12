@@ -108,7 +108,7 @@
                     <StackPanel>
                         <TextBlock Padding="30,30,30,30"
                                    Style="{StaticResource PhoneTextNormalStyleCustom}"
-                                   Text="{Binding Path=LocalizedResources.StationTijdenError,
+                                   Text="{Binding Path=LocalizedResources.RitInfoError,
                                                   Source={StaticResource LocalizedStrings}}"
                                    TextWrapping="Wrap" />
                         <Button x:Name="CloseGeenDataPanel" Click="CloseGeenDataPanel_Click">sluiten</Button>

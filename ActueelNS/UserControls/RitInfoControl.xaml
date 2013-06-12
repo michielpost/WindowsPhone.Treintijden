@@ -31,13 +31,17 @@
             <ColumnDefinition Width="86" />
         </Grid.ColumnDefinitions>
 
-        <Grid>
+        <StackPanel>
             <TextBlock 
                        Margin="24,18,0,0"
                                        Style="{StaticResource PhoneTextNormalStyleCustom}"
                                        Text="{Binding DisplayTijd}" />
-
-        </Grid>
+            <TextBlock 
+                       Margin="24,-6,0,0"
+                FontSize="18"
+                                       Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                       Text="{Binding DisplayDelay}" />
+        </StackPanel>
        
         <Grid Grid.Column="1">
             <Rectangle Width="8" Fill="{StaticResource TextColor}" StrokeThickness="3" />
@@ -78,6 +82,13 @@
                                        Style="{StaticResource PhoneTextNormalStyleCustom}"
                                        Text="{Binding DisplayArrivalTime}" />-->
         </StackPanel>
+        
+            
+        <Canvas Margin="0,15"  Grid.Column="3" HorizontalAlignment="Left">
+            <Image Source="/Images/Men.png" Visibility="{Binding Busy1, Converter={StaticResource Vis}}"  />
+            <Image Source="/Images/Men.png" Canvas.Left="12" Visibility="{Binding Busy2, Converter={StaticResource Vis}}"  />
+            <Image Source="/Images/Men.png" Canvas.Left="24" Visibility="{Binding Busy3, Converter={StaticResource Vis}}"  />
+        </Canvas>
 
 
     </Grid>

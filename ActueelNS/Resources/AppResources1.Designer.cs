@@ -846,6 +846,15 @@ namespace ActueelNS.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Geen ritinformatie beschikbaar..
+        /// </summary>
+        public static string RitInfoError {
+            get {
+                return ResourceManager.GetString("RitInfoError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Treintijden laden....
         /// </summary>
         public static string RitInfoLoading {

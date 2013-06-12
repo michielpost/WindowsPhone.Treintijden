@@ -42,6 +42,9 @@ namespace ActueelNS.Services
                 RitInfoStop stop = new RitInfoStop();
 
                 stop.Code = GetElementText(element.Element("StopCode"));
+                stop.DepartureTimeDelay = GetElementText(element.Element("DepartureTimeDelay"));
+                stop.DeparturePlatform = GetElementText(element.Element("DeparturePlatform"));
+                stop.ArrivalTimeDelay = GetElementText(element.Element("ArrivalTimeDelay"));
 
                 stop.Arrival = GetDateTime(element, "Arrival");
                 stop.Departure = GetDateTime(element, "Departure");

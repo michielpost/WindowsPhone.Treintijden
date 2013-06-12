@@ -492,4 +492,7 @@
   <data name="RitInfoLoading" xml:space="preserve">
     <value>Loading train departur times...</value>
   </data>
+  <data name="RitInfoError" xml:space="preserve">
+    <value>No data available.</value>
+  </data>
 </root>

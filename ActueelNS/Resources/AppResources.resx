@@ -532,4 +532,7 @@ Nieuw in 1.5
   <data name="RitInfoLoading" xml:space="preserve">
     <value>Treintijden laden...</value>
   </data>
+  <data name="RitInfoError" xml:space="preserve">
+    <value>Geen ritinformatie beschikbaar.</value>
+  </data>
 </root>

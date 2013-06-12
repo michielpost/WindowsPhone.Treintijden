@@ -391,6 +391,7 @@
     <Content Include="Images\Logos\logo_wide_336_691.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Images\Men.png" />
     <Content Include="Images\Purchase\upgrade1.png" />
     <Content Include="Images\Purchase\upgrade2.png" />
     <Content Include="Images\Purchase\upgrade3.png" />
