@@ -58,8 +58,17 @@ namespace ActueelNS.ViewModel
             get { return _searchHistory; }
             set { _searchHistory = value;
             RaisePropertyChanged(() => SearchHistory);
+            RaisePropertyChanged(() => SearchHistorySmall);
+
             }
         }
+
+
+        public List<PlannerSearch> SearchHistorySmall
+        {
+            get { return _searchHistory.Take(5).ToList(); }
+        }
+
 
         private PlannerSearch _selectedSearch;
 
@@ -139,6 +148,8 @@ namespace ActueelNS.ViewModel
         public RelayCommand PrijsCommand { get; private set; }
         public RelayCommand MijnStationsCommand { get; private set; }
         public RelayCommand<Guid> DeleteCommand { get; private set; }
+        public RelayCommand<Guid> AdviceTapCommand { get; private set; }
+        public RelayCommand<PlannerSearch> ReplanCommand { get; private set; }
 
 
 
@@ -149,7 +160,26 @@ namespace ActueelNS.ViewModel
         {
 
             SearchHistory = new ObservableCollection<PlannerSearch>();
+            PlannerService = SimpleIoc.Default.GetInstance<IPlannerService>();
+            NavigationService = SimpleIoc.Default.GetInstance<INavigationService>();
+            LiveTileService = SimpleIoc.Default.GetInstance<ILiveTileService>();
 
+            this.PropertyChanged += new System.ComponentModel.PropertyChangedEventHandler(ReisadviesViewModel_PropertyChanged);
+
+            EerderCommand = new RelayCommand(() => DoEerder(), () => CanDoEerder());
+            LaterCommand = new RelayCommand(() => DoLater(), () => CanDoLater());
+            TerugreisCommand = new RelayCommand(() => PlanTerugreis());
+            RepeatSearchCommand = new RelayCommand(() => RepeatSearch());
+            DoSearchCommand = new RelayCommand(() => DoSearch());
+            MijnStationsCommand = new RelayCommand(() => DoMijnStations());
+            PinCommand = new RelayCommand(() => PinSearch());
+            AddReminderCommand = new RelayCommand(() => AddReminder());
+            PrijsCommand = new RelayCommand(() => GoPrijs());
+            VertrektijdenCommand = new RelayCommand(() => GoVertrektijden());
+            DeleteHistoryCommand = new RelayCommand(() => DeleteHistory());
+            DeleteCommand = new RelayCommand<Guid>(x => DeleteSingleHistory(x));
+            AdviceTapCommand = new RelayCommand<Guid>(x => AdviceTapCommandAction(x));
+            ReplanCommand = new RelayCommand<PlannerSearch>(x => RepeatSearch(x));
 
             if (IsInDesignMode)
             {
@@ -226,27 +256,19 @@ namespace ActueelNS.ViewModel
             else
             {
                 // Code runs "for real": Connect to service, etc...
+                RefreshSearchHistory();
             }
 
 
-            PlannerService = SimpleIoc.Default.GetInstance<IPlannerService>();
-            NavigationService = SimpleIoc.Default.GetInstance<INavigationService>();
-            LiveTileService = SimpleIoc.Default.GetInstance<ILiveTileService>();
+          
 
-            this.PropertyChanged += new System.ComponentModel.PropertyChangedEventHandler(ReisadviesViewModel_PropertyChanged);
+           
+        }
 
-            EerderCommand = new RelayCommand(() => DoEerder(), () => CanDoEerder());
-            LaterCommand = new RelayCommand(() => DoLater(), () => CanDoLater());
-            TerugreisCommand = new RelayCommand(() => PlanTerugreis());
-            RepeatSearchCommand = new RelayCommand(() => RepeatSearch());
-            DoSearchCommand = new RelayCommand(() => DoSearch());
-            MijnStationsCommand = new RelayCommand(() => DoMijnStations());
-            PinCommand = new RelayCommand(() => PinSearch());
-            AddReminderCommand = new RelayCommand(() => AddReminder());
-            PrijsCommand = new RelayCommand(() => GoPrijs());
-            VertrektijdenCommand = new RelayCommand(() => GoVertrektijden()); 
-            DeleteHistoryCommand = new RelayCommand(() => DeleteHistory());
-            DeleteCommand = new RelayCommand<Guid>(x => DeleteSingleHistory(x));
+        private void AdviceTapCommandAction(Guid x)
+        {
+            NavigationService.NavigateTo(new Uri(string.Format("/Views/Reisadvies.xaml?id={0}", x), UriKind.Relative));
+
         }
 
         private void DoMijnStations()
@@ -358,20 +380,25 @@ namespace ActueelNS.ViewModel
         {
             if (SelectedSearch != null)
             {
-                string from = null;
-                string to = null;
-                string via = null;
-
-                if (SelectedSearch.VanStation != null)
-                    from = SelectedSearch.VanStation.Name;
-                if (SelectedSearch.NaarStation != null)
-                    to = SelectedSearch.NaarStation.Name;
-                if (SelectedSearch.ViaStation != null)
-                    via = SelectedSearch.ViaStation.Name;
-
-
-                NavigationService.NavigateTo(new Uri(string.Format("/Views/Planner.xaml?from={0}&to={1}&via={2}", from, to, via), UriKind.Relative));
+                RepeatSearch(SelectedSearch);
             }
+        }
+
+        private void RepeatSearch(PlannerSearch search)
+        {
+            string from = null;
+            string to = null;
+            string via = null;
+
+            if (search.VanStation != null)
+                from = search.VanStation.Name;
+            if (search.NaarStation != null)
+                to = search.NaarStation.Name;
+            if (search.ViaStation != null)
+                via = search.ViaStation.Name;
+
+
+            NavigationService.NavigateTo(new Uri(string.Format("/Views/Planner.xaml?from={0}&to={1}&via={2}", from, to, via), UriKind.Relative));
         }
 
         private void DoSearch()
@@ -620,6 +647,7 @@ namespace ActueelNS.ViewModel
             }
 
             RaisePropertyChanged(() => SearchHistory);
+            RaisePropertyChanged(() => SearchHistorySmall);
         }
 
         internal bool CanPin()

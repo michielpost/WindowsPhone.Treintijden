@@ -160,7 +160,7 @@
     <value>review</value>
   </data>
   <data name="AboutVersion" xml:space="preserve">
-    <value>Treintijden 2.1</value>
+    <value>Treintijden 2.2</value>
   </data>
   <data name="actueel" xml:space="preserve">
     <value>current</value>
@@ -494,5 +494,11 @@
   </data>
   <data name="RitInfoError" xml:space="preserve">
     <value>No data available.</value>
+  </data>
+  <data name="MainPageHerplannen" xml:space="preserve">
+    <value>repeat search</value>
+  </data>
+  <data name="MainPageRecent" xml:space="preserve">
+    <value>Recently planned</value>
   </data>
 </root>

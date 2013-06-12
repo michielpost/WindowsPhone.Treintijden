@@ -124,7 +124,7 @@ namespace ActueelNS.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Treintijden 2.1.
+        ///   Looks up a localized string similar to Treintijden 2.2.
         /// </summary>
         public static string AboutVersion {
             get {
@@ -336,6 +336,24 @@ namespace ActueelNS.Resources {
         public static string MainLocationLoading {
             get {
                 return ResourceManager.GetString("MainLocationLoading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to herplannen.
+        /// </summary>
+        public static string MainPageHerplannen {
+            get {
+                return ResourceManager.GetString("MainPageHerplannen", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Recent gepland.
+        /// </summary>
+        public static string MainPageRecent {
+            get {
+                return ResourceManager.GetString("MainPageRecent", resourceCulture);
             }
         }
         
@@ -754,7 +772,11 @@ namespace ActueelNS.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Nieuw in 2.1.0.1
+        ///   Looks up a localized string similar to Nieuw in 2.2
+        ///- Ritinformatie van een trein. Klik bij de actuele vertrektijden op een trein en zie alle stations en aankomsttijden
+        ///- Recent geplande treinreizen op het beginscherm
+        ///
+        ///Nieuw in 2.1.0.1
         ///- Station Hoevelaken
         ///- Bugfix
         ///
@@ -770,11 +792,7 @@ namespace ActueelNS.Resources {
         ///
         ///Nieuw in 1.9
         ///- Release notes toegevoegd
-        ///- Station Maarheeze toegevoegd
-        ///- Favoriet knop bij vertrektijden van een station
-        ///- Via station veld vervangen door checkbox bij planner
-        ///- Nieuwe manier van stations kiezen
-        ///- Ondersteuning voor st [rest of string was truncated]&quot;;.
+        ///- Station Maarh [rest of string was truncated]&quot;;.
         /// </summary>
         public static string ReleaseNotes {
             get {

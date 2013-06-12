@@ -51,7 +51,7 @@
         <!--  TitlePanel contains the name of the application and page title  -->
         <StackPanel x:Name="TitlePanel"
                     Grid.Row="0"
-                    Margin="12,17,0,28">
+                    Margin="12,17,0,12">
             <TextBlock x:Name="ApplicationTitle"
                        Style="{StaticResource PhoneTextNormalStyleCustom}"
                        Text="{Binding ApplicationTitle}" />
@@ -83,10 +83,14 @@
                 <toolkit:PerformanceProgressBar x:Name="_performanceProgressBar" VerticalAlignment="Top" />
             </StackPanel>
 
+            <ScrollViewer Grid.Row="1">
+                <StackPanel>
             <ListBox x:Name="MainListBox"
                      Grid.Row="1"
                      Margin="12,0,12,0"
-                     ItemsSource="{Binding StationList}">
+                     ItemsSource="{Binding StationList}"
+                     ScrollViewer.VerticalScrollBarVisibility="Disabled"
+                      >
                 <ListBox.ItemContainerStyle>
                     <Style TargetType="ListBoxItem">
                         <Setter Property="HorizontalContentAlignment" Value="Stretch" />
@@ -209,6 +213,74 @@
 
                 <Button Command="{Binding AddStationCommand}" Content="{Binding Path=LocalizedResources.MainIntroButton, Source={StaticResource LocalizedStrings}}" />
             </StackPanel>
+
+                    <StackPanel
+                        DataContext="{Binding ReisadviesViewModel,
+                                                  Source={StaticResource Locator}}">
+
+                        <TextBlock Visibility="{Binding SearchHistory.Count, Converter={StaticResource VisibilityConverter}}" Style="{StaticResource PhoneTextLargeStyleCustom}"
+                               Margin="24,18,0,0" Text="{Binding Path=LocalizedResources.MainPageRecent,
+                                                                           Source={StaticResource LocalizedStrings}}" />
+
+                    <ListBox x:Name="SearchHistoryListBox"
+                             SelectionChanged="SearchHistoryListBox_SelectionChanged"
+                             
+                     ItemsSource="{Binding SearchHistory}"
+                              ScrollViewer.VerticalScrollBarVisibility="Disabled">
+                        <ListBox.ItemContainerStyle>
+                            <Style TargetType="ListBoxItem">
+                                <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                            </Style>
+                        </ListBox.ItemContainerStyle>
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Margin="12,3,3,3">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <StackPanel Grid.Column="0" Margin="0,0,0,16">
+                                        <toolkit:ContextMenuService.ContextMenu>
+                                            <toolkit:ContextMenu Background="{StaticResource BackgroundColor}"
+                                                         BorderBrush="Black"
+                                                         Foreground="{StaticResource TextColor}">
+                                                <toolkit:MenuItem Command="{Binding ElementName=SearchHistoryListBox,
+                                                                            Path=DataContext.DeleteCommand}"
+                                                          CommandParameter="{Binding Id}"
+                                                          Foreground="{StaticResource TextColor}"
+                                                          Header="{Binding Path=LocalizedResources.verwijder,
+                                                                           Source={StaticResource LocalizedStrings}}" />
+
+                                                <toolkit:MenuItem Command="{Binding ElementName=SearchHistoryListBox,
+                                                                            Path=DataContext.ReplanCommand}"
+                                                          CommandParameter="{Binding}"
+                                                          Foreground="{StaticResource TextColor}"
+                                                          Header="{Binding Path=LocalizedResources.MainPageHerplannen,
+                                                                           Source={StaticResource LocalizedStrings}}" />
+                                            </toolkit:ContextMenu>
+                                        </toolkit:ContextMenuService.ContextMenu>
+
+
+                                        <TextBlock Grid.Column="0"
+                                           VerticalAlignment="Center"
+                                           Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                                  FontWeight="Bold"
+                                           Text="{Binding DisplayFull}" />
+                                        <TextBlock Grid.Column="1"
+                                           VerticalAlignment="Center"
+                                           Style="{StaticResource PhoneTextNormalStyleCustom}"
+                                           Text="{Binding DisplayTijd}" />
+                                    </StackPanel>
+
+                                </Grid>
+
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                    </StackPanel>
+
+                </StackPanel>
+            </ScrollViewer>
 
             <StackPanel Grid.Row="2">
                 <Button Command="{Binding PlannerCommand}" Content="{Binding Path=LocalizedResources.reisplanner, Source={StaticResource LocalizedStrings}}" />

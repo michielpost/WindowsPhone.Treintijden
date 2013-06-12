@@ -10,6 +10,7 @@ using System.Windows;
 using System;
 using ActueelNS.Services;
 using ActueelNS.Views.Base;
+using ActueelNS.Services.Models;
 
 namespace ActueelNS
 {
@@ -192,6 +193,16 @@ namespace ActueelNS
         private void SearchButton_Click(object sender, System.EventArgs e)
         {
             _vm.PlanCommand.Execute(null);
+        }
+
+        private void SearchHistoryListBox_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
+        {
+            if (SearchHistoryListBox.SelectedItem != null)
+            {
+                ((ReisadviesViewModel)SearchHistoryListBox.DataContext).AdviceTapCommand.Execute(((PlannerSearch)SearchHistoryListBox.SelectedItem).Id);
+
+                SearchHistoryListBox.SelectedItem = null;
+            }
         }
 
         

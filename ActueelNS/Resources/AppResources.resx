@@ -160,7 +160,7 @@
     <value>review</value>
   </data>
   <data name="AboutVersion" xml:space="preserve">
-    <value>Treintijden 2.1</value>
+    <value>Treintijden 2.2</value>
   </data>
   <data name="actueel" xml:space="preserve">
     <value>actueel</value>
@@ -418,7 +418,11 @@
     <value>favoriet</value>
   </data>
   <data name="ReleaseNotes" xml:space="preserve">
-    <value>Nieuw in 2.1.0.1
+    <value>Nieuw in 2.2
+- Ritinformatie van een trein. Klik bij de actuele vertrektijden op een trein en zie alle stations en aankomsttijden
+- Recent geplande treinreizen op het beginscherm
+
+Nieuw in 2.1.0.1
 - Station Hoevelaken
 - Bugfix
 
@@ -534,5 +538,11 @@ Nieuw in 1.5
   </data>
   <data name="RitInfoError" xml:space="preserve">
     <value>Geen ritinformatie beschikbaar.</value>
+  </data>
+  <data name="MainPageHerplannen" xml:space="preserve">
+    <value>herplannen</value>
+  </data>
+  <data name="MainPageRecent" xml:space="preserve">
+    <value>Recent gepland</value>
   </data>
 </root>
