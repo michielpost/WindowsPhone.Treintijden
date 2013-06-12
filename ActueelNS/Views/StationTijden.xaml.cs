@@ -47,6 +47,7 @@ namespace ActueelNS.Views
             
             bool keepValues = (e.NavigationMode == System.Windows.Navigation.NavigationMode.Back);
 
+            MainListBox.SelectedItem = null;
             
 
             if (this.NavigationContext.QueryString.ContainsKey("id"))

@@ -1,6 +1,7 @@
 ﻿using ActueelNS.Services.Interfaces;
 using ActueelNS.Services.Models;
 using GalaSoft.MvvmLight.Ioc;
+using Q42.WinRT.Portable.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,6 +28,19 @@ namespace ActueelNS.ViewModel
             }
         }
 
+        private string _richting;
+
+        public string Richting
+        {
+            get { return _richting; }
+            set
+            {
+                _richting = value;
+                RaisePropertyChanged(() => Richting);
+            }
+        }
+
+
         private List<RitInfoStop> _ritStops;
 
         public List<RitInfoStop> RitStops
@@ -39,34 +53,53 @@ namespace ActueelNS.ViewModel
             }
         }
 
+        public DataLoader DataLoader { get; set; }
+
         public RitInfoViewModel()
         {
             StationService = SimpleIoc.Default.GetInstance<IStationService>();
             RitnummerService = SimpleIoc.Default.GetInstance<IRitnummerService>();
 
-        }
+            DataLoader = new DataLoader(true);
 
-        public async void Initialize(string ritId, string company)
-        {
-            PageName = ritId;
-            RitStops = new List<RitInfoStop>();
-
-            var stops = await RitnummerService.GetRit(ritId, company, DateTime.Now);
-
-            //Fill station name for each stop
-            foreach (var stop in stops)
+            if (IsInDesignMode)
             {
-                var station = StationService.GetStationByCode(stop.Code);
-                if (station != null)
-                    stop.Station = station.Name;
+                var list = new List<RitInfoStop>();
+                list.Add(new RitInfoStop() { Station = "Delft", Arrival = DateTime.Now });
+                list.Add(new RitInfoStop() { Station = "Delft", Arrival = DateTime.Now });
+                list.Add(new RitInfoStop() { Station = "Delft", Arrival = DateTime.Now });
+                list.Add(new RitInfoStop() { Station = "Delft", Arrival = DateTime.Now });
+
+                RitStops = list;
             }
 
-            //TODO: Set current station
-            //TODO: Markeer waar trein nu is...
-            
-            RitStops = stops;
-          
 
+        }
+
+        public async void Initialize(string ritId, string company, string trein, string richting)
+        {
+            PageName = trein;
+            Richting = "richting " + richting;
+            RitStops = new List<RitInfoStop>();
+
+            RitStops = await DataLoader.LoadAsync(async () =>
+                {
+
+                    var stops = await RitnummerService.GetRit(ritId, company, DateTime.Now);
+
+                    //Fill station name for each stop
+                    foreach (var stop in stops)
+                    {
+                        var station = StationService.GetStationByCode(stop.Code);
+                        if (station != null)
+                            stop.Station = station.Name;
+                    }
+
+                    //TODO: Set current station
+                    //TODO: Markeer waar trein nu is...
+
+                    return stops;
+                });
 
         }
     }

@@ -265,7 +265,8 @@ namespace ActueelNS.ViewModel
 
         private void ToRitInfo(Vertrektijd tijd)
         {
-            NavigationService.NavigateTo(new Uri(string.Format("/Views/RitInfoPage.xaml?id={0}&company={1}", tijd.Ritnummer, tijd.Vervoerder), UriKind.Relative));
+            string trein = string.Format("{0} ({1})", tijd.TreinSoort, tijd.Ritnummer);
+            NavigationService.NavigateTo(new Uri(string.Format("/Views/RitInfoPage.xaml?id={0}&company={1}&trein={2}&richting={3}", tijd.Ritnummer, tijd.Vervoerder, trein, tijd.Eindbestemming), UriKind.Relative));
 
         }
 

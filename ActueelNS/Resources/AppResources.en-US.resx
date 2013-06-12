@@ -489,4 +489,7 @@
   <data name="VerifyBluetooth" xml:space="preserve">
     <value>Please ensure that Bluetooth is enabled.</value>
   </data>
+  <data name="RitInfoLoading" xml:space="preserve">
+    <value>Loading train departur times...</value>
+  </data>
 </root>

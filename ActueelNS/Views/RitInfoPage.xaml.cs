@@ -29,8 +29,10 @@ namespace ActueelNS.Views
             {
                 string station = this.NavigationContext.QueryString["id"];
                 string company = this.NavigationContext.QueryString["company"];
+                string trein = this.NavigationContext.QueryString["trein"];
+                string richting = this.NavigationContext.QueryString["richting"];
 
-                vm.Initialize(station, company);
+                vm.Initialize(station, company, trein, richting);
 
             }
 

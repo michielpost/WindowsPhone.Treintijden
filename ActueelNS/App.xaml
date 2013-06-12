@@ -168,8 +168,6 @@
         </Style>-->
 
 
-
-
         <Style TargetType="TextBlock" BasedOn="{StaticResource PhoneTextNormalStyle}" x:Key="PhoneTextNormalStyleCustom">
             <Setter Property="Foreground" Value="{StaticResource TextColor}">
             </Setter>

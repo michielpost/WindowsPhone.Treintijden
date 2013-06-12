@@ -529,4 +529,7 @@ Nieuw in 1.5
   <data name="NFCWaitPageTitle" xml:space="preserve">
     <value>NFC Connectie</value>
   </data>
+  <data name="RitInfoLoading" xml:space="preserve">
+    <value>Treintijden laden...</value>
+  </data>
 </root>

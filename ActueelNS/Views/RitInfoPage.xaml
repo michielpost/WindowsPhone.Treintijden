@@ -10,6 +10,7 @@
                             xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
                             xmlns:viewBase="clr-namespace:ActueelNS.Views.Base"
                             xmlns:converters="clr-namespace:ActueelNS.Converters"
+                            xmlns:userControls="clr-namespace:ActueelNS.UserControls"
                             x:Name="control"
                             d:DesignHeight="768"
                             d:DesignWidth="480"
@@ -49,6 +50,9 @@
                        Margin="9,-7,0,0"
                        Style="{StaticResource PhoneTextTitle1StyleCustom}"
                        Text="{Binding PageName}" />
+            <TextBlock x:Name="Richting"
+                       Style="{StaticResource PhoneTextNormalStyleCustom}"
+                       Text="{Binding Richting}" />
         </StackPanel>
 
         <!--  ContentPanel - place additional content here  -->
@@ -60,85 +64,24 @@
                 <RowDefinition Height="Auto" />
             </Grid.RowDefinitions>
 
-            <ListBox x:Name="MainListBox"
-                     Margin="-3"
+            <ScrollViewer>           
+                <ItemsControl x:Name="MainListBox"
+                     Margin="0,0,0,12"
                      ItemsSource="{Binding RitStops}"
                      >
-                <ListBox.ItemContainerStyle>
+                <!--<ListBox.ItemContainerStyle>
                     <Style TargetType="ListBoxItem">
                         <Setter Property="HorizontalContentAlignment" Value="Stretch" />
                     </Style>
-                </ListBox.ItemContainerStyle>
-                <ListBox.ItemTemplate>
+                </ListBox.ItemContainerStyle>-->
+                <ItemsControl.ItemTemplate>
                     <DataTemplate>
-                        <Grid x:Name="RootItem"
-                              Margin="0,0,0,5"
-                              Background="{Binding BackgroundColor}">
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="72" />
-                                <ColumnDefinition Width="*" />
-                                <ColumnDefinition Width="86" />
-                            </Grid.ColumnDefinitions>
-
-
-                            <TextBlock Grid.Column="0"
-                                       Margin="24,0,0,0"
-                                       Padding="0"
-                                       Style="{StaticResource PhoneTextNormalStyleCustom}"
-                                       Text="{Binding DisplayTijd}" />
-
-                            <StackPanel Grid.Column="1">
-                                <TextBlock FontSize="23"
-                                           Style="{StaticResource PhoneTextNormalStyleCustom}"
-                                           Text="{Binding Station}" />
-                                <TextBlock FontSize="18"
-                                           Style="{StaticResource PhoneTextNormalStyleCustom}"
-                                           Text="{Binding RegelTwee}"
-                                           TextWrapping="Wrap" />
-
-
-                                <TextBlock FontSize="18"
-                                           Style="{StaticResource PhoneTextNormalStyleCustom}"
-                                           Text="{Binding ReisTip}"
-                                           TextWrapping="Wrap"
-                                           Visibility="{Binding IsReisTipVisible,
-                                                                Converter={StaticResource VisibilityConverter}}" />
-
-
-                                <Grid Margin="12,0,0,0" Visibility="{Binding IsWarningVisible, Converter={StaticResource VisibilityConverter}}">
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="Auto" />
-                                        <ColumnDefinition Width="*" />
-                                    </Grid.ColumnDefinitions>
-
-                                    <StackPanel Background="{StaticResource TextColor}">
-                                        <TextBlock Grid.Column="0"
-                                                   Margin="2,0,6,0"
-                                                   Foreground="{StaticResource AlternateTextColor}"
-                                                   Style="{StaticResource PhoneTextNormalStyleCustom}"
-                                                   Text="{Binding VertragingTekst}" />
-                                    </StackPanel>
-
-                                </Grid>
-
-                                <StackPanel Margin="12,0,0,0"
-                                            Background="{StaticResource TextColor}"
-                                            Visibility="{Binding IsOpmerkingVisible,
-                                                                 Converter={StaticResource VisibilityConverter}}">
-                                    <TextBlock Grid.Column="0"
-                                               Margin="2,0,0,0"
-                                               FontSize="18"
-                                               Foreground="{StaticResource AlternateTextColor}"
-                                               Style="{StaticResource PhoneTextNormalStyleCustom}"
-                                               Text="{Binding Opmerkingen}" />
-                                </StackPanel>
-                            </StackPanel>
-
-                           
-                        </Grid>
+                        <userControls:RitInfoControl />
                     </DataTemplate>
-                </ListBox.ItemTemplate>
-            </ListBox>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+            </ScrollViewer>
+
 
 
             <StackPanel x:Name="LoaderStackPanel"
@@ -146,19 +89,19 @@
                         Height="40"
                         VerticalAlignment="Top"
                         Background="{StaticResource BackgroundColor}"
-                        Visibility="Collapsed">
+                        Visibility="{Binding DataLoader.IsBusy, Converter={StaticResource VisibilityConverter}}">
                 <TextBlock Margin="24,0,0,0"
                            Style="{StaticResource PhoneTextNormalStyleCustom}"
-                           Text="{Binding Path=LocalizedResources.StationTijdenLoading,
+                           Text="{Binding Path=LocalizedResources.RitInfoLoading,
                                           Source={StaticResource LocalizedStrings}}" />
-                <toolkit:PerformanceProgressBar x:Name="_performanceProgressBar" VerticalAlignment="Top" />
+                <ProgressBar x:Name="_performanceProgressBar" IsEnabled="{Binding DataLoader.IsBusy}" IsIndeterminate="True" VerticalAlignment="Top" />
             </StackPanel>
 
             <StackPanel x:Name="GeenDataPanel"
                         Grid.Row="0"
                         VerticalAlignment="Top"
                         Background="{StaticResource BackgroundColor}"
-                        Visibility="Collapsed">
+                        Visibility="{Binding DataLoader.IsError, Converter={StaticResource VisibilityConverter}}">
                 <Border Margin="12"
                         BorderBrush="{StaticResource TextColor}"
                         BorderThickness="3">
