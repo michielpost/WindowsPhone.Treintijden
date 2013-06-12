@@ -8,7 +8,6 @@
                             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
                             xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
                             xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
-                            xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
                             xmlns:viewBase="clr-namespace:ActueelNS.Views.Base"
                             x:Name="control"
                             d:DesignHeight="696"
@@ -218,7 +217,8 @@
                            Style="{StaticResource PhoneTextNormalStyleCustom}"
                            Text="{Binding Path=LocalizedResources.StationTijdenLoading,
                                           Source={StaticResource LocalizedStrings}}" />
-                <toolkit:PerformanceProgressBar x:Name="_performanceProgressBar" VerticalAlignment="Top" />
+                <!--<toolkit:PerformanceProgressBar x:Name="_performanceProgressBar" VerticalAlignment="Top" />-->
+                <ProgressBar x:Name="_performanceProgressBar" Foreground="{StaticResource TextColor}" VerticalAlignment="Top" />
             </StackPanel>
 
             <StackPanel x:Name="GeenDataPanel"

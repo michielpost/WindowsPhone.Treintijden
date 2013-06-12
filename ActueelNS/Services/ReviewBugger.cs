@@ -10,7 +10,7 @@ using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using Microsoft.Phone.Tasks;
 using System.IO.IsolatedStorage;
-using Coding4Fun.Phone.Controls;
+using Coding4Fun.Toolkit.Controls;
 using ActueelNS.Resources;
 
 namespace ActueelNS.Services

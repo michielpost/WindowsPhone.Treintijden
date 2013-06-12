@@ -7,7 +7,6 @@
                             xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
                             xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
                             xmlns:sys="clr-namespace:System;assembly=mscorlib"
-                            xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
                             xmlns:viewBase="clr-namespace:ActueelNS.Views.Base"
                             xmlns:converters="clr-namespace:ActueelNS.Converters"
                             xmlns:userControls="clr-namespace:ActueelNS.UserControls"
@@ -94,7 +93,7 @@
                            Style="{StaticResource PhoneTextNormalStyleCustom}"
                            Text="{Binding Path=LocalizedResources.RitInfoLoading,
                                           Source={StaticResource LocalizedStrings}}" />
-                <ProgressBar x:Name="_performanceProgressBar" IsEnabled="{Binding DataLoader.IsBusy}" IsIndeterminate="True" VerticalAlignment="Top" />
+                <ProgressBar x:Name="_performanceProgressBar" Foreground="{StaticResource TextColor}" IsEnabled="{Binding DataLoader.IsBusy}" IsIndeterminate="True" VerticalAlignment="Top" />
             </StackPanel>
 
             <StackPanel x:Name="GeenDataPanel"

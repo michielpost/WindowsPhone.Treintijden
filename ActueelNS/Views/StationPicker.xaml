@@ -11,7 +11,7 @@
                             xmlns:viewBase="clr-namespace:ActueelNS.Views.Base"
                              xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
                             x:Name="control"
-                           xmlns:Controls="clr-namespace:Coding4Fun.Phone.Controls;assembly=Coding4Fun.Phone.Controls"
+                           xmlns:Controls="clr-namespace:Coding4Fun.Toolkit.Controls;assembly=Coding4Fun.Toolkit.Controls"
                             d:DesignHeight="800"
                             d:DesignWidth="480"
                             DataContext="{Binding StationPicker,
@@ -100,8 +100,7 @@
                          />
 
                     <Controls:RoundButton x:Name="ExpandPickerImage"
-                                              Height="50"
-                                              Margin="-3,0,0,0"
+                                              Margin="-3,3,0,-6"
                                                  HorizontalAlignment="Right"
                                               VerticalAlignment="Center"
                                               BorderBrush="{StaticResource TextColor}"
@@ -109,7 +108,6 @@
                                               ImageSource="/Images/appbar.numberlist.rest.png"
                                               Tap="ExpandPickerImage_Tap"
                                                />
-                    
                 </StackPanel>
    
 

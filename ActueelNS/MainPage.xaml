@@ -80,7 +80,8 @@
                            Style="{StaticResource PhoneTextNormalStyleCustom}"
                            Text="{Binding Path=LocalizedResources.MainLocationLoading,
                                           Source={StaticResource LocalizedStrings}}" />
-                <toolkit:PerformanceProgressBar x:Name="_performanceProgressBar" VerticalAlignment="Top" />
+                <!--<toolkit:PerformanceProgressBar x:Name="_performanceProgressBar" VerticalAlignment="Top" />-->
+                <ProgressBar x:Name="_performanceProgressBar" Foreground="{StaticResource TextColor}" VerticalAlignment="Top" />
             </StackPanel>
 
             <ScrollViewer Grid.Row="1">

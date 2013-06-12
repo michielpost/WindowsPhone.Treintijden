@@ -6,7 +6,6 @@
                             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
                             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
                             xmlns:converters="clr-namespace:ActueelNS.Converters"
-                            xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
                             xmlns:viewBase="clr-namespace:ActueelNS.Views.Base"
     xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
     mc:Ignorable="d"
@@ -52,7 +51,8 @@
                            Style="{StaticResource PhoneTextNormalStyleCustom}"
                            Text="{Binding Path=LocalizedResources.StoringenLoading,
                                           Source={StaticResource LocalizedStrings}}" />
-                        <toolkit:PerformanceProgressBar x:Name="_performanceProgressBar" VerticalAlignment="Top" />
+                        <!--<toolkit:PerformanceProgressBar x:Name="_performanceProgressBar" VerticalAlignment="Top" />-->
+                        <ProgressBar x:Name="_performanceProgressBar" Foreground="{StaticResource TextColor}" VerticalAlignment="Top" />
                     </StackPanel>
 
                     <StackPanel x:Name="GeenDataPanel"
