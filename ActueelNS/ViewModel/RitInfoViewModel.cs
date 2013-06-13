@@ -1,4 +1,5 @@
-﻿using ActueelNS.Services.Interfaces;
+﻿using ActueelNS.Resources;
+using ActueelNS.Services.Interfaces;
 using ActueelNS.Services.Models;
 using GalaSoft.MvvmLight.Ioc;
 using Q42.WinRT.Portable.Data;
@@ -79,7 +80,7 @@ namespace ActueelNS.ViewModel
         public async void Initialize(string ritId, string company, string trein, string richting)
         {
             PageName = trein;
-            Richting = "richting " + richting;
+            Richting = AppResources.RitInfoViewModelRichting + " " + richting;
             RitStops = new List<RitInfoStop>();
 
             RitStops = await DataLoader.LoadAsync(async () =>

@@ -44,12 +44,30 @@ namespace ActueelNS.Services.Models
                     var extra = this.DepartureTimeDelay.Replace("PT", string.Empty).Trim();
                     if (!string.IsNullOrEmpty(extra))
                     {
-                        return string.Format("+ {0}", extra).ToLower();
+                        return string.Format("+{0}", extra).ToLower();
                     }
                 }
                
                 
                     return string.Empty;
+            }
+        }
+
+        public string DisplayArrivalDelay
+        {
+            get
+            {
+                if (!string.IsNullOrEmpty(ArrivalTimeDelay))
+                {
+                    var extra = this.ArrivalTimeDelay.Replace("PT", string.Empty).Trim();
+                    if (!string.IsNullOrEmpty(extra))
+                    {
+                        return string.Format("+{0}", extra).ToLower();
+                    }
+                }
+
+
+                return string.Empty;
             }
         }
 
@@ -61,7 +79,7 @@ namespace ActueelNS.Services.Models
                 if (Arrival.HasValue
                     && (!Departure.HasValue || Departure.Value != Arrival.Value)
                     && !IsLast)
-                    return "Aankomst: " + Arrival.Value.ToString("HH:mm");
+                    return "Aankomst: " + Arrival.Value.ToString("HH:mm") + " " + DisplayArrivalDelay;
                 else
                     return string.Empty;
             }

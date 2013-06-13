@@ -501,4 +501,7 @@
   <data name="MainPageRecent" xml:space="preserve">
     <value>Recently planned</value>
   </data>
+  <data name="RitInfoViewModelRichting" xml:space="preserve">
+    <value>to</value>
+  </data>
 </root>
