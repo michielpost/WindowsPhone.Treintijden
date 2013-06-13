@@ -2556,6 +2556,13 @@
     </Syns>
   </s>
   <s>
+    <name>Utrecht Leidsche Rijn</name>
+    <id>utlr</id>
+    <lat>52.09896</lat>
+    <lon>5.06523</lon>
+    <Syns />
+  </s>
+  <s>
     <name>Utrecht Maliebaan</name>
     <id>utm</id>
     <lat>52.087776</lat>
