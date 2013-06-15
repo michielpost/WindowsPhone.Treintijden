@@ -5,7 +5,7 @@
     <Language code="en-US" />
     <Language code="nl" />
   </Languages>
-  <App xmlns="" ProductID="{f5e5d1e8-bad0-46cf-a527-6e25c8d927b5}" Title="Treintijden" RuntimeType="Silverlight" Version="2.1.0.2" Genre="apps.normal" Author="Michiel Post" Description="Met Treintijden kan je de actuele vertrektijden opvragen en een treinreis plannen." Publisher="Michiel Post" PublisherID="{c9174a4c-9d3b-46e9-a897-abf77565c602}">
+  <App xmlns="" ProductID="{f5e5d1e8-bad0-46cf-a527-6e25c8d927b5}" Title="Treintijden" RuntimeType="Silverlight" Version="2.2" Genre="apps.normal" Author="Michiel Post" Description="Met Treintijden kan je de actuele vertrektijden opvragen en een treinreis plannen." Publisher="Michiel Post" PublisherID="{c9174a4c-9d3b-46e9-a897-abf77565c602}">
     <IconPath IsRelative="true" IsResource="false">Images\Logos\logo_100.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />
