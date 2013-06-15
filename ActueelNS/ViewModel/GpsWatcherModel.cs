@@ -164,7 +164,7 @@ namespace ActueelNS.ViewModel
                 {
                     CurrentLocation = e.Position.Location;
 
-                    var stationList = StationService.GetStations("NL");
+                    var stationList = StationService.GetStations();
 
                     //int take = TakeLimit.HasValue ? TakeLimit.Value : 2;
 

@@ -3,8 +3,8 @@
   <s>
     <name>'s-Hertogenbosch</name>
     <id>ht</id>
-    <lat>51.690556</lat>
-    <lon>5.293611</lon>
+    <lat>51.69048</lat>
+    <lon>5.29362</lon>
     <Syns>
       <Sy>Hertogenbosch ('s)</Sy>
       <Sy>Den Bosch</Sy>
@@ -20,7 +20,7 @@
       <Sy>Hertogenbosch Oost ('s)</Sy>
       <Sy>Den Bosch Oost</Sy>
       <Sy>H'bosch O</Sy>
-      <Sy>Hertogenbosch O</Sy>
+      <Sy>Hertogenbosch O.</Sy>
     </Syns>
   </s>
   <s>
@@ -97,7 +97,9 @@
     <id>alm</id>
     <lat>52.37503</lat>
     <lon>5.21764</lon>
-    <Syns />
+    <Syns>
+      <Sy>Almere C.</Sy>
+    </Syns>
   </s>
   <s>
     <name>Almere Muziekwijk</name>
@@ -130,9 +132,11 @@
   <s>
     <name>Almere Poort</name>
     <id>ampo</id>
-    <lat>52.348095</lat>
-    <lon>5.15512</lon>
-    <Syns />
+    <lat>52.34574</lat>
+    <lon>5.1535</lon>
+    <Syns>
+      <Sy>Poort</Sy>
+    </Syns>
   </s>
   <s>
     <name>Alphen a/d Rijn</name>
@@ -194,6 +198,7 @@
     <lon>4.9002776</lon>
     <Syns>
       <Sy>A'dam C</Sy>
+      <Sy>Amsterdam C.</Sy>
     </Syns>
   </s>
   <s>
@@ -232,6 +237,7 @@
     <lon>4.890278</lon>
     <Syns>
       <Sy>A'dam RAI</Sy>
+      <Sy>RAI</Sy>
     </Syns>
   </s>
   <s>
@@ -385,6 +391,7 @@
     <lon>5.5902777</lon>
     <Syns>
       <Sy>Barnevld C</Sy>
+      <Sy>Barneveld C.</Sy>
     </Syns>
   </s>
   <s>
@@ -508,6 +515,7 @@
     <lon>5.2527776</lon>
     <Syns>
       <Sy>Bovenk Flo</Sy>
+      <Sy>Flora</Sy>
     </Syns>
   </s>
   <s>
@@ -517,6 +525,7 @@
     <lon>5.2377777</lon>
     <Syns>
       <Sy>Bovenk-Gr</Sy>
+      <Sy>Bovenkarspel-Gr.</Sy>
     </Syns>
   </s>
   <s>
@@ -529,8 +538,8 @@
   <s>
     <name>Boxtel</name>
     <id>btl</id>
-    <lat>51.585</lat>
-    <lon>5.3177776</lon>
+    <lat>51.58433</lat>
+    <lon>5.31912</lon>
     <Syns />
   </s>
   <s>
@@ -541,7 +550,7 @@
     <Syns />
   </s>
   <s>
-    <name>Breda-Prinsenbeek</name>
+    <name>Breda Prinsenbeek</name>
     <id>bdpb</id>
     <lat>51.606388</lat>
     <lon>4.7208333</lon>
@@ -553,8 +562,8 @@
   <s>
     <name>Breukelen</name>
     <id>bkl</id>
-    <lat>52.169724</lat>
-    <lon>4.9908333</lon>
+    <lat>52.17149</lat>
+    <lon>4.9906</lon>
     <Syns />
   </s>
   <s>
@@ -723,6 +732,7 @@
     <lon>4.325</lon>
     <Syns>
       <Sy>'s-Gravenhage</Sy>
+      <Sy>Den Haag C.</Sy>
     </Syns>
   </s>
   <s>
@@ -903,8 +913,8 @@
   <s>
     <name>Dronten</name>
     <id>dron</id>
-    <lat>53.521393</lat>
-    <lon>5.7358932</lon>
+    <lat>52.5344</lat>
+    <lon>5.72089</lon>
     <Syns />
   </s>
   <s>
@@ -935,7 +945,9 @@
     <id>edc</id>
     <lat>52.04361</lat>
     <lon>5.6683335</lon>
-    <Syns />
+    <Syns>
+      <Sy>Ede C.</Sy>
+    </Syns>
   </s>
   <s>
     <name>Ede-Wageningen</name>
@@ -1062,15 +1074,15 @@
   <s>
     <name>Gaanderen</name>
     <id>gdr</id>
-    <lat>51.931236</lat>
-    <lon>6.347581</lon>
+    <lat>51.93074</lat>
+    <lon>6.3486</lon>
     <Syns />
   </s>
   <s>
     <name>Geerdijk</name>
     <id>gdk</id>
-    <lat>52.475285</lat>
-    <lon>6.5670605</lon>
+    <lat>52.47625</lat>
+    <lon>6.56674</lon>
     <Syns />
   </s>
   <s>
@@ -1180,8 +1192,8 @@
   <s>
     <name>Groningen Europapark</name>
     <id>gerp</id>
-    <lat>53.20603</lat>
-    <lon>6.5828276</lon>
+    <lat>53.20489</lat>
+    <lon>6.58519</lon>
     <Syns>
       <Sy>Europapark</Sy>
     </Syns>
@@ -1220,6 +1232,15 @@
     </Syns>
   </s>
   <s>
+    <name>Halfweg-Zwanenburg</name>
+    <id>hwzb</id>
+    <lat>52.38616</lat>
+    <lon>4.74579</lon>
+    <Syns>
+      <Sy>Halfweg-Zwanenb.</Sy>
+    </Syns>
+  </s>
+  <s>
     <name>Hardenberg</name>
     <id>hdb</id>
     <lat>52.572777</lat>
@@ -1235,9 +1256,9 @@
   </s>
   <s>
     <name>Hardinxveld Blauwe Zoom</name>
-    <id>bzm</id>
-    <lat>51.829445</lat>
-    <lon>4.815556</lon>
+    <id>hbzm</id>
+    <lat>51.82944</lat>
+    <lon>4.81556</lon>
     <Syns>
       <Sy>Blauwe Z</Sy>
       <Sy>Blauwe Zoom</Sy>
@@ -1250,6 +1271,7 @@
     <lon>4.8358335</lon>
     <Syns>
       <Sy>Hardinxvld</Sy>
+      <Sy>Hardinxveld-G.</Sy>
     </Syns>
   </s>
   <s>
@@ -1276,13 +1298,6 @@
     </Syns>
   </s>
   <s>
-    <name>Halfweg-Zwanenburg</name>
-    <id>hwzb</id>
-    <lat>52.384453</lat>
-    <lon>4.754505</lon>
-    <Syns />
-  </s>
-  <s>
     <name>Heemskerk</name>
     <id>hk</id>
     <lat>52.495277</lat>
@@ -1294,7 +1309,9 @@
     <id>had</id>
     <lat>52.359165</lat>
     <lon>4.6066666</lon>
-    <Syns />
+    <Syns>
+      <Sy>Heemstede-A.</Sy>
+    </Syns>
   </s>
   <s>
     <name>Heerenveen</name>
@@ -1371,6 +1388,7 @@
     <lon>5.6313887</lon>
     <Syns>
       <Sy>'t Hout</Sy>
+      <Sy>t Hout</Sy>
     </Syns>
   </s>
   <s>
@@ -1390,7 +1408,6 @@
     <lon>5.7033334</lon>
     <Syns>
       <Sy>Brouwhuis</Sy>
-      <Sy>Helmond Brouwhs</Sy>
     </Syns>
   </s>
   <s>
@@ -1408,17 +1425,19 @@
     <Syns />
   </s>
   <s>
-    <name>Hengelo Oost</name>
-    <id>hglo</id>
-    <lat>52.26889</lat>
-    <lon>6.8194447</lon>
-    <Syns />
-  </s>
-  <s>
     <name>Hengelo Gezondheidspark</name>
     <id>hglg</id>
     <lat>52.261593</lat>
     <lon>6.767235</lon>
+    <Syns>
+      <Sy>Gezondheidspark</Sy>
+    </Syns>
+  </s>
+  <s>
+    <name>Hengelo Oost</name>
+    <id>hglo</id>
+    <lat>52.26889</lat>
+    <lon>6.8194447</lon>
     <Syns />
   </s>
   <s>
@@ -1469,7 +1488,7 @@
     <lon>4.128889</lon>
     <Syns>
       <Sy>HvH Haven</Sy>
-      <Sy>Hoek v H Haven</Sy>
+      <Sy>Hoek v H. Haven</Sy>
     </Syns>
   </s>
   <s>
@@ -1479,7 +1498,7 @@
     <lon>4.1197224</lon>
     <Syns>
       <Sy>HvH Strand</Sy>
-      <Sy>Hoek v H Strand</Sy>
+      <Sy>Hoek v H. Strand</Sy>
     </Syns>
   </s>
   <s>
@@ -1492,8 +1511,8 @@
   <s>
     <name>Hoevelaken</name>
     <id>hvl</id>
-    <lat>52.16635</lat>
-    <lon>5.460205</lon>
+    <lat>52.16652</lat>
+    <lon>5.45718</lon>
     <Syns />
   </s>
   <s>
@@ -1532,7 +1551,9 @@
     <id>hgz</id>
     <lat>53.159817</lat>
     <lon>6.770754</lon>
-    <Syns />
+    <Syns>
+      <Sy>Hoogezand-Sap.</Sy>
+    </Syns>
   </s>
   <s>
     <name>Hoogkarspel</name>
@@ -1556,7 +1577,7 @@
     <lat>52.65361</lat>
     <lon>5.0855556</lon>
     <Syns>
-      <Sy>Hoorn Kersenbgrd</Sy>
+      <Sy>Kersenboogerd</Sy>
     </Syns>
   </s>
   <s>
@@ -1578,14 +1599,18 @@
     <id>htnc</id>
     <lat>52.01724</lat>
     <lon>5.179281</lon>
-    <Syns />
+    <Syns>
+      <Sy>Castellum</Sy>
+    </Syns>
   </s>
   <s>
     <name>Houthem-St Gerlach</name>
     <id>sgl</id>
     <lat>50.873333</lat>
     <lon>5.797222</lon>
-    <Syns />
+    <Syns>
+      <Sy>Houthem-St Gerl.</Sy>
+    </Syns>
   </s>
   <s>
     <name>Hurdegaryp</name>
@@ -1611,8 +1636,8 @@
   <s>
     <name>Kampen Zuid</name>
     <id>kpnz</id>
-    <lat>52.55809</lat>
-    <lon>5.8787155</lon>
+    <lat>52.5331</lat>
+    <lon>5.91309</lon>
     <Syns />
   </s>
   <s>
@@ -1620,14 +1645,18 @@
     <id>bzl</id>
     <lat>51.480835</lat>
     <lon>3.9561112</lon>
-    <Syns />
+    <Syns>
+      <Sy>Kapelle-Biezel.</Sy>
+    </Syns>
   </s>
   <s>
     <name>Kerkrade Centrum</name>
     <id>krd</id>
     <lat>50.861668</lat>
     <lon>6.0575</lon>
-    <Syns />
+    <Syns>
+      <Sy>Kerkrade C.</Sy>
+    </Syns>
   </s>
   <s>
     <name>Kesteren</name>
@@ -1689,7 +1718,9 @@
     <id>kma</id>
     <lat>52.49454</lat>
     <lon>4.761243</lon>
-    <Syns />
+    <Syns>
+      <Sy>Krommenie-Ass.</Sy>
+    </Syns>
   </s>
   <s>
     <name>Kropswolde</name>
@@ -1703,7 +1734,9 @@
     <id>krg</id>
     <lat>51.465</lat>
     <lon>4.0372224</lon>
-    <Syns />
+    <Syns>
+      <Sy>Kruiningen-Y.</Sy>
+    </Syns>
   </s>
   <s>
     <name>Lage Zwaluwe</name>
@@ -1740,6 +1773,7 @@
     <lon>5.8422966</lon>
     <Syns>
       <Sy>Camminghab</Sy>
+      <Sy>Camminghaburen</Sy>
     </Syns>
   </s>
   <s>
@@ -1747,29 +1781,36 @@
     <id>ledn</id>
     <lat>52.16611</lat>
     <lon>4.4816666</lon>
-    <Syns />
+    <Syns>
+      <Sy>Leiden C.</Sy>
+    </Syns>
   </s>
   <s>
     <name>Leiden Lammenschans</name>
     <id>ldl</id>
     <lat>52.146946</lat>
     <lon>4.4925</lon>
-    <Syns />
+    <Syns>
+      <Sy>Lammenschans</Sy>
+    </Syns>
   </s>
   <s>
     <name>Lelystad Centrum</name>
     <id>lls</id>
     <lat>52.50778</lat>
     <lon>5.472778</lon>
-    <Syns />
+    <Syns>
+      <Sy>Lelystad C.</Sy>
+    </Syns>
   </s>
   <s>
     <name>Lichtenvoorde-Groenlo</name>
     <id>ltv</id>
-    <lat>52.012543</lat>
-    <lon>6.5946245</lon>
+    <lat>52.01188</lat>
+    <lon>6.59641</lon>
     <Syns>
       <Sy>Lichtenv-G</Sy>
+      <Sy>Lichtenvoorde-G.</Sy>
     </Syns>
   </s>
   <s>
@@ -1858,7 +1899,9 @@
     <id>mrb</id>
     <lat>52.509445</lat>
     <lon>6.575278</lon>
-    <Syns />
+    <Syns>
+      <Sy>Mariënberg</Sy>
+    </Syns>
   </s>
   <s>
     <name>Martenshoek</name>
@@ -1893,7 +1936,9 @@
     <id>mmlh</id>
     <lat>51.76408</lat>
     <lon>5.8778143</lon>
-    <Syns />
+    <Syns>
+      <Sy>Molenhoek</Sy>
+    </Syns>
   </s>
   <s>
     <name>Naarden-Bussum</name>
@@ -1932,8 +1977,8 @@
   <s>
     <name>Nieuweschans</name>
     <id>nsch</id>
-    <lat>53.185207</lat>
-    <lon>7.200238</lon>
+    <lat>53.1844</lat>
+    <lon>7.19937</lon>
     <Syns>
       <Sy>Nweschans</Sy>
     </Syns>
@@ -1984,8 +2029,8 @@
   <s>
     <name>Nijverdal</name>
     <id>nvd</id>
-    <lat>52.365555</lat>
-    <lon>6.4711113</lon>
+    <lat>52.36555</lat>
+    <lon>6.471111</lon>
     <Syns />
   </s>
   <s>
@@ -2220,6 +2265,7 @@
     <lon>4.4688888</lon>
     <Syns>
       <Sy>R'dam C</Sy>
+      <Sy>Rotterdam C.</Sy>
     </Syns>
   </s>
   <s>
@@ -2229,6 +2275,7 @@
     <lon>4.5313888</lon>
     <Syns>
       <Sy>Lombardije</Sy>
+      <Sy>Lombardijen</Sy>
     </Syns>
   </s>
   <s>
@@ -2286,15 +2333,15 @@
   <s>
     <name>Sassenheim</name>
     <id>ssh</id>
-    <lat>52.218334</lat>
-    <lon>4.531002</lon>
+    <lat>52.21528</lat>
+    <lon>4.517222</lon>
     <Syns />
   </s>
   <s>
     <name>Sauwerd</name>
     <id>swd</id>
-    <lat>53.292076</lat>
-    <lon>6.540288</lon>
+    <lat>53.29113</lat>
+    <lon>6.5404</lon>
     <Syns />
   </s>
   <s>
@@ -2316,7 +2363,9 @@
     <id>sdm</id>
     <lat>51.921246</lat>
     <lon>4.4089937</lon>
-    <Syns />
+    <Syns>
+      <Sy>Schiedam C.</Sy>
+    </Syns>
   </s>
   <s>
     <name>Schiedam Nieuwland</name>
@@ -2371,7 +2420,6 @@
     <lon>4.743333</lon>
     <Syns>
       <Sy>Baanhoek</Sy>
-      <Sy>Sliedr. Baanhoek</Sy>
     </Syns>
   </s>
   <s>
@@ -2447,15 +2495,15 @@
   <s>
     <name>Swalmen</name>
     <id>sm</id>
-    <lat>51.234917</lat>
-    <lon>6.0308075</lon>
+    <lat>51.23582</lat>
+    <lon>6.03228</lon>
     <Syns />
   </s>
   <s>
     <name>Tegelen</name>
     <id>tg</id>
-    <lat>51.336365</lat>
-    <lon>6.1384177</lon>
+    <lat>51.33894</lat>
+    <lon>6.14253</lon>
     <Syns />
   </s>
   <s>
@@ -2502,7 +2550,9 @@
     <id>tbu</id>
     <lat>51.565</lat>
     <lon>5.051111</lon>
-    <Syns />
+    <Syns>
+      <Sy>Tilburg Univers.</Sy>
+    </Syns>
   </s>
   <s>
     <name>Twello</name>
@@ -2544,7 +2594,19 @@
     <id>ut</id>
     <lat>52.08889</lat>
     <lon>5.1102777</lon>
-    <Syns />
+    <Syns>
+      <Sy>Utrecht C.</Sy>
+    </Syns>
+  </s>
+  <s>
+    <name>Utrecht Leidsche Rijn</name>
+    <id>utlr</id>
+    <lat>52.09896</lat>
+    <lon>5.06523</lon>
+    <Syns>
+      <Sy>Leidsche R</Sy>
+      <Sy>Leidsche Rijn</Sy>
+    </Syns>
   </s>
   <s>
     <name>Utrecht Lunetten</name>
@@ -2556,13 +2618,6 @@
     </Syns>
   </s>
   <s>
-    <name>Utrecht Leidsche Rijn</name>
-    <id>utlr</id>
-    <lat>52.09896</lat>
-    <lon>5.06523</lon>
-    <Syns />
-  </s>
-  <s>
     <name>Utrecht Maliebaan</name>
     <id>utm</id>
     <lat>52.087776</lat>
@@ -2570,7 +2625,6 @@
     <Syns>
       <Sy>Spoorwegmuseum</Sy>
       <Sy>Maliebaan</Sy>
-      <Sy>Utrecht Maliebn</Sy>
     </Syns>
   </s>
   <s>
@@ -2580,7 +2634,6 @@
     <lon>5.124722</lon>
     <Syns>
       <Sy>Overvecht</Sy>
-      <Sy>Utrecht Overvcht</Sy>
     </Syns>
   </s>
   <s>
@@ -2595,8 +2648,8 @@
   <s>
     <name>Utrecht Zuilen</name>
     <id>utzl</id>
-    <lat>52.106667</lat>
-    <lon>5.083611</lon>
+    <lat>52.10666</lat>
+    <lon>5.08363</lon>
     <Syns>
       <Sy>Zuilen</Sy>
     </Syns>
@@ -2618,8 +2671,8 @@
   <s>
     <name>Veendam</name>
     <id>vdm</id>
-    <lat>53.105118</lat>
-    <lon>6.8870115</lon>
+    <lat>53.10324</lat>
+    <lon>6.88475</lon>
     <Syns />
   </s>
   <s>
@@ -2629,6 +2682,7 @@
     <lon>5.548611</lon>
     <Syns>
       <Sy>Veenendl C</Sy>
+      <Sy>Veenendaal C.</Sy>
     </Syns>
   </s>
   <s>
@@ -2646,8 +2700,6 @@
     <lat>52.045834</lat>
     <lon>5.573889</lon>
     <Syns>
-      <Sy>Veenendaal De Klomp</Sy>
-      <Sy>Veenendaal de Klomp</Sy>
       <Sy>De Klomp</Sy>
     </Syns>
   </s>
@@ -2682,8 +2734,8 @@
   <s>
     <name>Vierlingsbeek</name>
     <id>vlb</id>
-    <lat>51.593422</lat>
-    <lon>5.9960246</lon>
+    <lat>51.59193</lat>
+    <lon>5.99714</lon>
     <Syns />
   </s>
   <s>
@@ -2693,6 +2745,7 @@
     <lon>4.3441668</lon>
     <Syns>
       <Sy>Vlaard C</Sy>
+      <Sy>Vlaardingen C.</Sy>
     </Syns>
   </s>
   <s>
@@ -2734,7 +2787,6 @@
     <lon>3.5952778</lon>
     <Syns>
       <Sy>Souburg</Sy>
-      <Sy>Vlissingen Soubg</Sy>
     </Syns>
   </s>
   <s>
@@ -2784,8 +2836,8 @@
   <s>
     <name>Vriezenveen</name>
     <id>vz</id>
-    <lat>52.40105</lat>
-    <lon>6.6015267</lon>
+    <lat>52.40203</lat>
+    <lon>6.60041</lon>
     <Syns>
       <Sy>Vriezenvn</Sy>
     </Syns>
@@ -2818,7 +2870,7 @@
     <lon>4.6483335</lon>
     <Syns>
       <Sy>Waddinxv N</Sy>
-      <Sy>Waddinxveen Nrd</Sy>
+      <Sy>Waddinxveen N.</Sy>
     </Syns>
   </s>
   <s>
@@ -2852,8 +2904,8 @@
   <s>
     <name>Westervoort</name>
     <id>wtv</id>
-    <lat>51.960583</lat>
-    <lon>5.9735584</lon>
+    <lat>51.96286</lat>
+    <lon>5.9695</lon>
     <Syns>
       <Sy>Westervrt</Sy>
     </Syns>
@@ -2912,8 +2964,8 @@
   <s>
     <name>Winterswijk West</name>
     <id>www</id>
-    <lat>51.975464</lat>
-    <lon>6.7029266</lon>
+    <lat>51.97453</lat>
+    <lon>6.70417</lon>
     <Syns>
       <Sy>Wintersw W</Sy>
     </Syns>
@@ -3002,8 +3054,8 @@
   <s>
     <name>Zevenbergen</name>
     <id>zvb</id>
-    <lat>51.64111</lat>
-    <lon>4.609722</lon>
+    <lat>51.64042</lat>
+    <lon>4.60904</lon>
     <Syns>
       <Sy>Zevenbergn</Sy>
     </Syns>
@@ -3048,8 +3100,8 @@
   <s>
     <name>Zwaagwesteinde</name>
     <id>zww</id>
-    <lat>53.24923</lat>
-    <lon>6.0353</lon>
+    <lat>53.24817</lat>
+    <lon>6.03463</lon>
     <Syns />
   </s>
   <s>

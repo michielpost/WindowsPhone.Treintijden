@@ -341,7 +341,7 @@ namespace ActueelNS.ViewModel
         {
             if (Stations == null)
             {
-                var all = StationService.GetStations("NL");
+                var all = StationService.GetStations();
 
                 Stations = AlphaKeyGroup<Station>.CreateGroups(
                    all,
@@ -358,11 +358,11 @@ namespace ActueelNS.ViewModel
             {
                 p = p.ToLower();
 
-                var stations = StationService.GetStations("NL").Where(x => x.Name.ToLower().StartsWith(p)).Take(8);
+                var stations = StationService.GetStations().Where(x => x.Name.ToLower().StartsWith(p)).Take(8);
 
                 if (stations.Count() < 8)
                 {
-                    var extraStations = StationService.GetStations("NL").Where(x => x.StartsWith(p)).Take(8 - stations.Count());
+                    var extraStations = StationService.GetStations().Where(x => x.StartsWith(p)).Take(8 - stations.Count());
 
                     stations = stations.Union(extraStations);
                 }

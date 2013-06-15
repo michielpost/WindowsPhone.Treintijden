@@ -5,7 +5,7 @@ namespace ActueelNS.Services.Interfaces
 {
     public interface IStationService
     {
-        List<Station> GetStations(string country);
+        List<Station> GetStations(bool searchInAll = false);
 
         IList<Station> GetMyStations();
 
@@ -16,6 +16,5 @@ namespace ActueelNS.Services.Interfaces
         Station GetStationByName(string name);
         Station GetStationByCode(string code);
 
-        void Test();
     }
 }

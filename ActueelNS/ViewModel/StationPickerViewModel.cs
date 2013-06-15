@@ -263,7 +263,7 @@ namespace ActueelNS.ViewModel
         {
             if (Stations == null)
             {
-                var all = StationService.GetStations("NL");
+                var all = StationService.GetStations();
 
                 Stations = AlphaKeyGroup<Station>.CreateGroups(
                    all,
@@ -283,11 +283,11 @@ namespace ActueelNS.ViewModel
                 //var newStations = await TaskEx.Run<List<Station>>(() =>
                 //    {
 
-                        var stations = StationService.GetStations("NL").Where(x => x.Name.ToLower().StartsWith(p)).Take(7);
+                        var stations = StationService.GetStations().Where(x => x.Name.ToLower().StartsWith(p)).Take(7);
 
                         if (stations.Count() < 7)
                         {
-                            var extraStations = StationService.GetStations("NL").Where(x => x.StartsWith(p)).Take(7 - stations.Count());
+                            var extraStations = StationService.GetStations().Where(x => x.StartsWith(p)).Take(7 - stations.Count());
 
                             stations = stations.Union(extraStations);
                         }

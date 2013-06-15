@@ -7,7 +7,7 @@ namespace ActueelNS.Services.Mocks
     public class StationServiceMock : IStationService
     {
 
-        public List<Station> GetStations(string country)
+        public List<Station> GetStations(bool searchInAll = false)
         {
             List<Station> stationList = new List<Station>();
 

@@ -10,18 +10,22 @@ namespace ActueelNS.Services
     public class StationService : IStationService
     {
         private List<Station> _stationList = null;
+        private List<Station> _stationListAll = null;
 
-        public List<Station> GetStations(string country)
+        public List<Station> GetStations(bool searchInAll = false)
         {
-            if (_stationList != null)
+            if (!searchInAll && _stationList != null)
                 return _stationList;
+            else if (searchInAll && _stationListAll != null)
+                return _stationListAll;
             else
             {
 
-                //StreamResourceInfo xml = Application.GetResourceStream(new Uri("/ActueelNS.Services;component/Data/stations.xml", System.UriKind.Relative));
-                //XElement stationXmlElement = XElement.Load(xml.Stream);
+                var fileName = "Data/stations.xml";
+                if(searchInAll)
+                    fileName = "Data/stations_all.xml";
 
-                XElement stationXmlElement = XDocument.Load("Data/stations.xml").Elements().First();
+                XElement stationXmlElement = XDocument.Load(fileName).Elements().First();
 
                 var list = (from x in stationXmlElement.Descendants("s")                            
                             select new Station
@@ -35,86 +39,48 @@ namespace ActueelNS.Services
                                 Long = double.Parse(x.Element("lon").Value, CultureInfo.InvariantCulture)
                             });
 
-                _stationList = list.ToList();
+                if (!searchInAll)
+                {
+                    _stationList = list.ToList();
+                    return _stationList;
 
-                return _stationList;
+                }
+                else
+                {
+                    _stationListAll = list.ToList();
+                    return _stationListAll;
+                }
 
             }
 
         }
 
-        public void Test()
-        {
-            //var start = DateTime.Now;
-            //for (int i = 0; i < 20; i++)
-            //{
-            //    StreamResourceInfo xml = Application.GetResourceStream(new Uri("/ActueelNS.Services;component/Data/stations_all.xml", System.UriKind.Relative));
-
-            //    XElement stationXmlElement = XElement.Load(xml.Stream);
-
-            //    var list = (from x in stationXmlElement.Descendants("station")
-            //                where x.Element("country").Value == "NL"
-            //                && x.Element("alias").Value == "false"
-            //                select new Station
-            //                {
-            //                    Name = x.Element("name").Value,
-            //                    Code = x.Element("code").Value,
-            //                    //Country = x.Element("country").Value,
-            //                    //Alias = bool.Parse(x.Element("alias").Value),
-            //                    //Lat = x.Element("lat").Value,
-            //                    //Long = x.Element("long").Value
-            //                });
-
-            //    _stationList = list.ToList();
-                
-            //}
-            //var stop = DateTime.Now;
-
-            //MessageBox.Show((stop - start).ToString());
-
-            //var startA = DateTime.Now;
-            //for (int i = 0; i < 20; i++)
-            //{
-            //    StreamResourceInfo xml = Application.GetResourceStream(new Uri("/ActueelNS.Services;component/Data/stations.xml", System.UriKind.Relative));
-
-            //    XElement stationXmlElement = XElement.Load(xml.Stream);
-                             
-
-            //    var list = (from x in stationXmlElement.Descendants("station")
-            //                where x.Element("country").Value == "NL"
-            //                 && x.Element("alias").Value == "false"
-            //                select new Station
-            //                {
-            //                    Name = x.Element("name").Value,
-            //                    Code = x.Element("code").Value,
-            //                    //Country = x.Element("country").Value,
-            //                    //Alias = bool.Parse(x.Element("alias").Value),
-            //                    //Lat = x.Element("lat").Value,
-            //                    //Long = x.Element("long").Value
-            //                });
-
-            //    _stationList = list.ToList();
-
-            //}
-            //var stopA = DateTime.Now;
-
-            //MessageBox.Show((stopA - startA).ToString());
-        }
-
+     
         public Station GetStationByName(string name)
         {
 
-            var allStations = GetStations("NL");
+            var allStations = GetStations();
 
             return allStations.Where(x => x.Name == name).FirstOrDefault();
         }
 
         public Station GetStationByCode(string code)
         {
+            code = code.ToLower();
 
-            var allStations = GetStations("NL");
+            var allStations = GetStations();
 
-            return allStations.Where(x => x.Code == code).FirstOrDefault();
+            var result =  allStations.Where(x => x.Code == code).FirstOrDefault();
+
+            if (result == null)
+            {
+                var allForeignStations = GetStations(true);
+
+                result = allForeignStations.Where(x => x.Code == code).FirstOrDefault();
+
+            }
+
+            return result;
         }
 
 

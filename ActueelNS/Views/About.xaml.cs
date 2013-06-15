@@ -3,6 +3,7 @@ using Microsoft.Phone.Tasks;
 using ActueelNS.Services.Interfaces;
 using GalaSoft.MvvmLight.Ioc;
 using ActueelNS.Views.Base;
+using ActueelNS.Resources;
 
 namespace ActueelNS.Views
 {
@@ -31,7 +32,7 @@ namespace ActueelNS.Views
         {
             EmailComposeTask emailComposeTask = new EmailComposeTask();
 
-            emailComposeTask.Subject = "Treintijden WP";
+            emailComposeTask.Subject = "Treintijden WP v" + AppResources.AboutVersion.ToLower().Replace("treintijden", string.Empty).Trim();
             emailComposeTask.To = "michiel@michielpost.nl";
             emailComposeTask.Show();
 

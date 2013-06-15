@@ -63,15 +63,15 @@ namespace ReadStationXmlConsole
 
             XElement stationXmlElement = XDocument.Load("stations.xml").Elements().First();
 
-            var list = (from x in stationXmlElement.Descendants("station")
+            var list = (from x in stationXmlElement.Descendants("s")
                         select new Station
                         {
                             Name = x.Element("name").Value,
-                            Code = x.Element("code").Value,
+                            Code = x.Element("id").Value,
                             //Country = x.Element("country").Value,
                             //Alias = bool.Parse(x.Element("alias").Value),
                             Lat = double.Parse(x.Element("lat").Value, CultureInfo.InvariantCulture),
-                            Long = double.Parse(x.Element("long").Value, CultureInfo.InvariantCulture)
+                            Long = double.Parse(x.Element("lon").Value, CultureInfo.InvariantCulture)
                         });
 
 
@@ -90,7 +90,7 @@ namespace ReadStationXmlConsole
                             //Country = x.Element("country").Value,
                             //Alias = bool.Parse(x.Element("alias").Value),
                             Lat = double.Parse(x.Element("Lat").Value, CultureInfo.InvariantCulture),
-                            Long = double.Parse(x.Element("Long").Value, CultureInfo.InvariantCulture)
+                            Long = double.Parse(x.Element("Lon").Value, CultureInfo.InvariantCulture)
                         });
 
 
