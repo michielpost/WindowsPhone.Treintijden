@@ -226,7 +226,7 @@
                     <ListBox x:Name="SearchHistoryListBox"
                              SelectionChanged="SearchHistoryListBox_SelectionChanged"
                              
-                     ItemsSource="{Binding SearchHistory}"
+                     ItemsSource="{Binding SearchHistorySmall}"
                               ScrollViewer.VerticalScrollBarVisibility="Disabled">
                         <ListBox.ItemContainerStyle>
                             <Style TargetType="ListBoxItem">
