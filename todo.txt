@@ -1,0 +1,11 @@
+
+Stations selectie scrollbaar als toetsenbord uitgeklapt is
+Favoriete stations tonen bij zoeken, als nog niks getyped is
+
+phone:LongListSelector gebruiken in plaats van ListBox
+
+
+Geplande reis in agenda plaatsen
+
+
+Vervoerder naam / logo tonen (alleen als het niet NS is)

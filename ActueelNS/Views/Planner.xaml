@@ -66,7 +66,7 @@
                     <TextBlock Style="{StaticResource PhoneTextNormalStyleCustom}" Text="{Binding Path=LocalizedResources.PlannerVertrek, Source={StaticResource LocalizedStrings}}" />
 
                     <StackPanel Width="398"
-                                Margin="12,12,12,12"
+                                Margin="12,6,12,12"
                                 HorizontalAlignment="Left"
                                 Background="{StaticResource ControlBackgroundColor}"
                                 Tap="VanTextBlock_Tap">
@@ -83,7 +83,7 @@
 
                     <StackPanel Orientation="Horizontal">
                         <StackPanel Width="398"
-                                    Margin="12"
+                                    Margin="12,6,12,12"
                                     HorizontalAlignment="Left"
                                     Background="{StaticResource ControlBackgroundColor}"
                                     Tap="NaarTextBlock_Tap">
@@ -121,7 +121,7 @@
                         
                         <TextBlock Style="{StaticResource PhoneTextNormalStyleCustom}" Text="{Binding Path=LocalizedResources.PlannerVia, Source={StaticResource LocalizedStrings}}" />
                         <StackPanel Width="398"
-                                    Margin="12"
+                                    Margin="12,6,12,12"
                                     HorizontalAlignment="Left"
                                     Background="{StaticResource ControlBackgroundColor}"
                                     Tap="ViaTextBlock_Tap">
@@ -251,7 +251,7 @@
 
                 </StackPanel>
 
-                <CheckBox Margin="0"
+                <CheckBox Margin="0,-5,0,0"
                           Background="{StaticResource ControlBackgroundColor}"
                           Content="{Binding Path=LocalizedResources.PlannerToonHsl,
                                             Source={StaticResource LocalizedStrings}}"
