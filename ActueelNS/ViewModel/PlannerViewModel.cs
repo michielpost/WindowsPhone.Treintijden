@@ -48,7 +48,7 @@ namespace ActueelNS.ViewModel
             }
         }
 
-       private ObservableCollection<Station> _stationList = new ObservableCollection<Station>();
+        private ObservableCollection<Station> _stationList = new ObservableCollection<Station>();
         public ObservableCollection<Station> StationList
         {
             get
@@ -68,9 +68,11 @@ namespace ActueelNS.ViewModel
         public Station VanStation
         {
             get { return _vanStation; }
-            set { _vanStation = value;
-            RaisePropertyChanged(() => VanStation);
-            //SearchCommand.RaiseCanExecuteChanged();
+            set
+            {
+                _vanStation = value;
+                RaisePropertyChanged(() => VanStation);
+                //SearchCommand.RaiseCanExecuteChanged();
             }
         }
 
@@ -79,9 +81,11 @@ namespace ActueelNS.ViewModel
         public Station NaarStation
         {
             get { return _naarStation; }
-            set { _naarStation = value;
-            RaisePropertyChanged(() => NaarStation);
-            //SearchCommand.RaiseCanExecuteChanged();
+            set
+            {
+                _naarStation = value;
+                RaisePropertyChanged(() => NaarStation);
+                //SearchCommand.RaiseCanExecuteChanged();
             }
         }
 
@@ -90,9 +94,11 @@ namespace ActueelNS.ViewModel
         public Station ViaStation
         {
             get { return _viaStation; }
-            set { _viaStation = value;
-            RaisePropertyChanged(() => ViaStation);
-            RaisePropertyChanged(() => IsViaVisible);
+            set
+            {
+                _viaStation = value;
+                RaisePropertyChanged(() => ViaStation);
+                RaisePropertyChanged(() => IsViaVisible);
             }
         }
 
@@ -125,7 +131,7 @@ namespace ActueelNS.ViewModel
                 RaisePropertyChanged(() => IsViaVisible);
             }
         }
-        
+
 
 
         public DateTime Date { get; set; }
@@ -140,7 +146,7 @@ namespace ActueelNS.ViewModel
         public RelayCommand SearchCommand { get; private set; }
         public RelayCommand MijnStationsCommand { get; private set; }
         public RelayCommand SearchHistoryCommand { get; private set; }
-        
+
 
 
         public string PageName
@@ -322,9 +328,9 @@ namespace ActueelNS.ViewModel
                 IsViaVisible = false;
             }
 
-                       StationList.Clear();
+            StationList.Clear();
 
-          
+
 
         }
 
@@ -334,7 +340,7 @@ namespace ActueelNS.ViewModel
             string to = NaarStation != null ? NaarStation.Name : string.Empty;
             string via = ViaStation != null ? ViaStation.Name : string.Empty;
 
-           return !LiveTileService.ExistsCreatePlanner(from, to, via);
+            return !LiveTileService.ExistsCreatePlanner(from, to, via);
         }
 
         internal void LoadForPicker()
@@ -353,7 +359,11 @@ namespace ActueelNS.ViewModel
         internal void SeachStation(string p)
         {
             if (string.IsNullOrEmpty(p))
+            {
                 StationList.Clear();
+
+                ShowFavoriteStations();
+            }
             else
             {
                 p = p.ToLower();
@@ -372,6 +382,22 @@ namespace ActueelNS.ViewModel
                 foreach (var station in stations)
                     StationList.Add(station);
             }
+        }
+
+        private void ShowFavoriteStations()
+        {
+            //Show favoriete en gps stations
+            var stations = ViewModelLocator.MainStatic.StationList.Distinct().OrderBy(x => x.Name);
+            foreach (var station in stations)
+                StationList.Add(station);
+        }
+
+        internal void InitForNewPick()
+        {
+            StationList.Clear();
+
+            ShowFavoriteStations();
+
         }
     }
 }

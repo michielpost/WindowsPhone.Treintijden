@@ -254,7 +254,7 @@ namespace ActueelNS.Views
 
         private void MakePickerVisible()
         {
-            _vm.StationList.Clear();
+            _vm.InitForNewPick();
             StationAutoComplete.Text = string.Empty;
 
             switch (_waitingForKeuze)
