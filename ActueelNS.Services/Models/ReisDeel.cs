@@ -9,6 +9,7 @@ namespace ActueelNS.Services.Models
 {
     public class ReisDeel : INotifyPropertyChanged
     {
+        public string Vervoerder { get; set; }
         public string VervoerType { get; set; }
         public bool IsAankomst { get; set; }
 
@@ -147,7 +148,8 @@ namespace ActueelNS.Services.Models
             {
                 PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
             }
-        }  
+        }
+
 
     }
 }

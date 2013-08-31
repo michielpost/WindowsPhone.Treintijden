@@ -397,7 +397,6 @@
     <Content Include="Images\Purchase\upgrade2.png" />
     <Content Include="Images\Purchase\upgrade3.png" />
     <Content Include="Images\shop.png" />
-    <Content Include="README_FIRST.txt" />
     <Content Include="Toolkit.Content\ApplicationBar.Add.png" />
     <Content Include="Toolkit.Content\ApplicationBar.Cancel.png" />
     <Content Include="Toolkit.Content\ApplicationBar.Check.png" />

@@ -227,6 +227,7 @@ namespace ActueelNS.Services
                             isAlternate = !isAlternate;
 
                             deel.VervoerType = GetElementText(reisdeelElement.Element("VervoerType"));
+                            deel.Vervoerder = GetElementText(reisdeelElement.Element("Vervoerder"));
 
                             deel.ReisStops = new List<ReisStop>();
                             foreach (var stopElement in reisdeelElement.Descendants("ReisStop"))
