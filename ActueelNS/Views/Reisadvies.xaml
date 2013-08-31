@@ -569,7 +569,7 @@
                                 <!--RIJ EEN-->
                                 <StackPanel Margin="24,0,0,0">
                                     <TextBlock Grid.Column="0"
-                                                           Margin="0"
+                                                           Margin="0,3,0,0"
                                                            Padding="0"
                                                            Style="{StaticResource PhoneTextNormalStyleCustom}"
                                                            Text="{Binding FirstStop.DisplayTijd}" />
@@ -673,7 +673,7 @@
                                                     </Grid.ColumnDefinitions>
 
                                                     <TextBlock Grid.Column="0"
-                                                       Margin="24,0,0,0"
+                                                       Margin="24,2,0,0"
                                                        VerticalAlignment="Center"
                                                        Padding="0"
                                                        Style="{StaticResource PhoneTextNormalStyleCustom}"
@@ -699,7 +699,7 @@
                                                     Grid.Row="2"
                                                 Margin="24,0,0,0">
                                     <TextBlock Grid.Column="0"
-                                                           Margin="0"
+                                                           Margin="0,3,0,0"
                                                            Padding="0"
                                                            Style="{StaticResource PhoneTextNormalStyleCustom}"
                                                            Text="{Binding LastStop.DisplayTijd}" />

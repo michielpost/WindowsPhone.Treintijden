@@ -1,7 +1,6 @@
 
 
+Vervoerder naam tonen (alleen niet NS, of alleen als het anders is dan vorige? of altijd?)
+
 
 Geplande reis in agenda plaatsen
-
-
-Vervoerder naam / logo tonen (alleen als het niet NS is)
