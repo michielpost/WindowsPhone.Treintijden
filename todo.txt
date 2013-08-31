@@ -1,5 +1,4 @@
 
-Stations selectie scrollbaar als toetsenbord uitgeklapt is
 Favoriete stations tonen bij zoeken, als nog niks getyped is
 
 

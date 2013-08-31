@@ -320,6 +320,7 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"></RowDefinition>
                 <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
             </Grid.RowDefinitions>
 
             <StackPanel>
@@ -330,6 +331,8 @@
 
                     <TextBox Width="350" x:Name="StationAutoComplete"
                              Template="{StaticResource InputTextBoxControlTemplate}"
+                              GotFocus="StationAutoComplete_GotFocus"
+                             LostFocus="StationAutoComplete_LostFocus"
                                          HorizontalAlignment="Left"
                                          Background="{StaticResource ControlBackgroundColor}"
                                          Foreground="{StaticResource TextColor}"
@@ -355,6 +358,7 @@
 
             <phone:LongListSelector Name="MainListBox"   
                                     Grid.Row="1"
+                                        HorizontalContentAlignment="Stretch"
                                            ItemsSource="{Binding StationList}"
                                            JumpListStyle="{StaticResource LongListSelectorJumpListStyle}"  
                                            ListHeaderTemplate="{StaticResource LongListSelectorHeaderTemplate}"
@@ -363,62 +367,8 @@
 SelectionChanged="MainListBox_SelectionChanged"
                                     HideEmptyGroups ="true" IsGroupingEnabled ="False" LayoutMode="List">
             </phone:LongListSelector>
-
-
-            <!--<ListBox x:Name="MainListBox"
-                     Grid.Row="1"
-                     ItemsSource="{Binding StationList}"
-                     SelectionChanged="MainListBox_SelectionChanged"
-                     >
-                <ListBox.ItemContainerStyle>
-                    <Style TargetType="ListBoxItem">
-                        <Setter Property="HorizontalContentAlignment" Value="Stretch" />
-                    </Style>
-                </ListBox.ItemContainerStyle>
-                <ListBox.ItemTemplate>
-                    <DataTemplate>
-                        <StackPanel VerticalAlignment="Center"
-                                    Background="Transparent"
-                                    Orientation="Horizontal">
-
-                            <Border Margin="12,8,0,8"
-                                    Background="Transparent">
-                                <Border Width="62"
-                                        Height="62"
-                                        HorizontalAlignment="Left"
-                                        VerticalAlignment="Top"
-                                        Background="{StaticResource TextColor}"
-                                        Padding="0,0,0,0">
-
-                                    <Grid Margin="0">
-                                        <Border Width="62"
-                                                Height="62"
-                                                HorizontalAlignment="Left"
-                                                VerticalAlignment="Top"
-                                                Background="{StaticResource BackgroundColor}"
-                                                BorderThickness="3,3,3,3"
-                                                Padding="0,0,0,0" />
-                                        <Border Width="15"
-                                                Height="15"
-                                                HorizontalAlignment="Left"
-                                                VerticalAlignment="Top"
-                                                Background="{StaticResource TextColor}"
-                                                BorderThickness="0,0,0,0"
-                                                Padding="0,0,0,0" />
-                                    </Grid>
-                                </Border>
-                            </Border>
-
-                            <TextBlock VerticalAlignment="Center"
-                                       Style="{StaticResource PhoneTextLargeStyleCustom}"
-                                       Text="{Binding Name}" />
-                        </StackPanel>
-                    </DataTemplate>
-                </ListBox.ItemTemplate>
-            </ListBox>-->
-
-
-
+            
+            <StackPanel Grid.Row="2" Height="340" Visibility="Collapsed" x:Name="KeyboardCover" />
 
         </Grid>
 
