@@ -94,7 +94,18 @@ namespace ActueelNS.Views
 
         }
 
-       
+        private void StationAutoComplete_LostFocus(object sender, RoutedEventArgs e)
+        {
+            KeyboardCover.Visibility = System.Windows.Visibility.Collapsed;
+            //KeyboardCover.Height = 0;
+
+        }
+
+        private void StationAutoComplete_GotFocus(object sender, RoutedEventArgs e)
+        {
+            KeyboardCover.Visibility = System.Windows.Visibility.Visible;
+            //KeyboardCover.Height = 340;
+        }
 
         
     }

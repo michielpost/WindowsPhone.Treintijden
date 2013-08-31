@@ -85,6 +85,7 @@
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"></RowDefinition>
                     <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
                 </Grid.RowDefinitions>
 
                 <StackPanel Orientation="Horizontal">
@@ -92,6 +93,8 @@
                     <TextBox Width="350" 
                              Template="{StaticResource InputTextBoxControlTemplate}"
                              x:Name="StationAutoComplete"
+                              GotFocus="StationAutoComplete_GotFocus"
+                             LostFocus="StationAutoComplete_LostFocus"
                                          HorizontalAlignment="Left"
                                          Background="{StaticResource ControlBackgroundColor}"
                                          Foreground="{StaticResource TextColor}"
@@ -112,6 +115,7 @@
 
                 <phone:LongListSelector Name="MainListBox"   
                                            Grid.Row="1"
+                                        HorizontalContentAlignment="Stretch"
                      ItemsSource="{Binding StationList}"
                                            JumpListStyle="{StaticResource LongListSelectorJumpListStyle}"  
                                            ListHeaderTemplate="{StaticResource LongListSelectorHeaderTemplate}"
@@ -120,6 +124,7 @@
                                            HideEmptyGroups ="true" IsGroupingEnabled ="False" LayoutMode="List">
                 </phone:LongListSelector>
 
+                <StackPanel Grid.Row="2" Height="340" Visibility="Collapsed" x:Name="KeyboardCover" />
 
             </Grid>
 
