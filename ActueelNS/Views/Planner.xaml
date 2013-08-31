@@ -309,94 +309,6 @@
                 </phone:LongListSelector>
                     
 
-                <!--<phone:LongListSelector x:Name="stations"
-                                          Margin="0,56,0,0"
-                                          Background="Transparent"
-                                          GroupViewClosing="LongListSelector_GroupViewClosing"
-                                          GroupViewOpened="LongListSelector_GroupViewOpened"
-                                          ItemsSource="{Binding Stations}">
-                    <phone:LongListSelector.GroupItemsPanel>
-                            <ItemsPanelTemplate>
-                                <toolkit:WrapPanel Orientation="Horizontal" />
-                            </ItemsPanelTemplate>
-                    </phone:LongListSelector.GroupItemsPanel>
-                    <phone:LongListSelector.GroupItemTemplate>
-                            <DataTemplate>
-                                <Border Width="99"
-                                    Height="99"
-                                    Margin="6"
-                                    Background="{Binding Converter={StaticResource GroupBackground}}"
-                                    IsHitTestVisible="{Binding HasItems}">
-                                    <TextBlock Margin="8,0,0,0"
-                                           VerticalAlignment="Bottom"
-                                           FontFamily="{StaticResource PhoneFontFamilySemiBold}"
-                                           FontSize="48"
-                                           Foreground="{Binding Converter={StaticResource GroupForeground}}"
-                                           Text="{Binding Key}" />
-                                    <Border.Projection>
-                                        <PlaneProjection RotationX="-60" />
-                                    </Border.Projection>
-                                </Border>
-                            </DataTemplate>
-                    </phone:LongListSelector.GroupItemTemplate>
-                    <phone:LongListSelector.GroupHeaderTemplate>
-                            <DataTemplate>
-                                <Border Margin="12,8,0,8" Background="Transparent">
-                                    <Border Width="62"
-                                        Height="62"
-                                        HorizontalAlignment="Left"
-                                        Background="{StaticResource PhoneAccentBrush}"
-                                        Padding="8,0,0,0">
-                                        <TextBlock HorizontalAlignment="Left"
-                                               VerticalAlignment="Bottom"
-                                               FontFamily="{StaticResource PhoneFontFamilySemiLight}"
-                                               FontSize="48"
-                                               Foreground="#FFFFFF"
-                                               Text="{Binding Key}" />
-                                    </Border>
-                                </Border>
-                            </DataTemplate>
-                    </phone:LongListSelector.GroupHeaderTemplate>
-                    <phone:LongListSelector.ItemTemplate>
-                            <DataTemplate>
-                                <StackPanel VerticalAlignment="Center" Orientation="Horizontal">
-
-                                    <Border Margin="12,8,0,8" Background="Transparent">
-                                        <Border Width="62"
-                                            Height="62"
-                                            HorizontalAlignment="Left"
-                                            VerticalAlignment="Top"
-                                            Background="{StaticResource TextColor}"
-                                            Padding="0,0,0,0">
-
-                                            <Grid Margin="0">
-                                                <Border Width="62"
-                                                    Height="62"
-                                                    HorizontalAlignment="Left"
-                                                    VerticalAlignment="Top"
-                                                    Background="{StaticResource BackgroundColor}"
-                                                    BorderThickness="3,3,3,3"
-                                                    Padding="0,0,0,0" />
-                                                <Border Width="15"
-                                                    Height="15"
-                                                    HorizontalAlignment="Left"
-                                                    VerticalAlignment="Top"
-                                                    Background="{StaticResource TextColor}"
-                                                    BorderThickness="0,0,0,0"
-                                                    Padding="0,0,0,0" />
-                                            </Grid>
-                                        </Border>
-                                    </Border>
-
-
-                                    <TextBlock VerticalAlignment="Center"
-                                           Style="{StaticResource PhoneTextLargeStyleCustom}"
-                                           Text="{Binding Name}" />
-                                </StackPanel>
-                            </DataTemplate>
-                    </phone:LongListSelector.ItemTemplate>
-                </phone:LongListSelector>-->
-                   
                 </Grid>
 
            
@@ -439,10 +351,21 @@
                 </StackPanel>
 
             </StackPanel>
-     
 
 
-            <ListBox x:Name="MainListBox"
+            <phone:LongListSelector Name="MainListBox"   
+                                    Grid.Row="1"
+                                           ItemsSource="{Binding StationList}"
+                                           JumpListStyle="{StaticResource LongListSelectorJumpListStyle}"  
+                                           ListHeaderTemplate="{StaticResource LongListSelectorHeaderTemplate}"
+                                           GroupHeaderTemplate="{StaticResource LongListSelectorGroupHeaderTemmplate}"
+                                           ItemTemplate="{StaticResource LongListSelectorItemTemplate}"
+SelectionChanged="MainListBox_SelectionChanged"
+                                    HideEmptyGroups ="true" IsGroupingEnabled ="False" LayoutMode="List">
+            </phone:LongListSelector>
+
+
+            <!--<ListBox x:Name="MainListBox"
                      Grid.Row="1"
                      ItemsSource="{Binding StationList}"
                      SelectionChanged="MainListBox_SelectionChanged"
@@ -492,7 +415,7 @@
                         </StackPanel>
                     </DataTemplate>
                 </ListBox.ItemTemplate>
-            </ListBox>
+            </ListBox>-->
 
 
 
