@@ -228,6 +228,7 @@ namespace ActueelNS.Services
 
                             deel.VervoerType = GetElementText(reisdeelElement.Element("VervoerType"));
                             deel.Vervoerder = GetElementText(reisdeelElement.Element("Vervoerder"));
+                            deel.Status = GetElementText(reisdeelElement.Element("Status"));
 
                             deel.ReisStops = new List<ReisStop>();
                             foreach (var stopElement in reisdeelElement.Descendants("ReisStop"))
@@ -266,6 +267,17 @@ namespace ActueelNS.Services
                         {
                             last.LastStop.VertragingTekst = mogelijkheid.AankomstVertraging;
                         }
+
+                        //Delete vervoerders als het NS is. Tenzij het met iets anders begint. (Bijv Arriva, dan NS daarna wel tonen)
+                        foreach (var deel in mogelijkheid.ReisDelen)
+                        {
+                            if (deel.Vervoerder.ToLower() == "ns" || deel.Vervoerder.ToLower().Contains("spoorwegen"))
+                                deel.Vervoerder = null;
+                            else
+                                break;
+                        }
+
+
 
                         reismogelijkheidList.Add(mogelijkheid);
                     }

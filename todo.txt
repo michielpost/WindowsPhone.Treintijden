@@ -1,6 +1,6 @@
 
 
-Vervoerder naam tonen (alleen niet NS, of alleen als het anders is dan vorige? of altijd?)
+Status van reisdeel ergens tonen
 
 
 Geplande reis in agenda plaatsen

@@ -11,6 +11,7 @@ namespace ActueelNS.Services.Models
     {
         public string Vervoerder { get; set; }
         public string VervoerType { get; set; }
+        public string Status { get; set; }
         public bool IsAankomst { get; set; }
 
         public List<ReisStop> ReisStops { get; set; }
@@ -36,9 +37,11 @@ namespace ActueelNS.Services.Models
                     if (ReisStops.Count <= 1)
                         return VervoerType;
 
-                    string text = string.Format("{0} richting {1}", VervoerType, ReisStops.Skip(1).FirstOrDefault().Naam);
 
-                    return text;
+                    if (!string.IsNullOrEmpty(Vervoerder))
+                        return string.Format("{0} ({2}) richting {1}", VervoerType, ReisStops.Skip(1).FirstOrDefault().Naam, Vervoerder);
+                    else
+                        return string.Format("{0} richting {1}", VervoerType, ReisStops.Skip(1).FirstOrDefault().Naam);
 
                 }
                 else
