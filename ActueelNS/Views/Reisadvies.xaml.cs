@@ -42,7 +42,7 @@ namespace ActueelNS.Views
 
             (ApplicationBar.MenuItems[0] as ApplicationBarMenuItem).Text = AppResources.ReisadviesTerugreisButton;
             (ApplicationBar.MenuItems[1] as ApplicationBarMenuItem).Text = AppResources.ReisadviesRepeatButton;
-            (ApplicationBar.MenuItems[2] as ApplicationBarMenuItem).Text = AppResources.ReisadviesRemindMe;
+            (ApplicationBar.MenuItems[2] as ApplicationBarMenuItem).Text = AppResources.AddToCalendar;
             (ApplicationBar.MenuItems[3] as ApplicationBarMenuItem).Text = AppResources.ReisadviesDeleteHistory;
             (ApplicationBar.MenuItems[4] as ApplicationBarMenuItem).Text = AppResources.ReisadviesMijnStationsButton;
             (ApplicationBar.MenuItems[5] as ApplicationBarMenuItem).Text = AppResources.ReisadviesTapShareButton;

@@ -548,4 +548,7 @@ Nieuw in 1.5
   <data name="RitInfoViewModelRichting" xml:space="preserve">
     <value>richting</value>
   </data>
+  <data name="AddToCalendar" xml:space="preserve">
+    <value>Aan agenda toevoegen</value>
+  </data>
 </root>

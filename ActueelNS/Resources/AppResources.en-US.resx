@@ -504,4 +504,7 @@
   <data name="RitInfoViewModelRichting" xml:space="preserve">
     <value>to</value>
   </data>
+  <data name="AddToCalendar" xml:space="preserve">
+    <value>Add to calendar</value>
+  </data>
 </root>

@@ -163,10 +163,13 @@ namespace ActueelNS.Services.Models
         {
             get
             {
-                if (Status.ToUpper() == "GEANNULEERD")
-                  return "geannuleerd";
-                else if (Status.ToUpper() == "NIEUW")
-                  return "extra trein";
+                if (!string.IsNullOrEmpty(Status))
+                {
+                    if (Status.ToUpper() == "GEANNULEERD")
+                        return "geannuleerd";
+                    else if (Status.ToUpper() == "NIEUW")
+                        return "extra trein";
+                }
 
                 return null;
 

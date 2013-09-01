@@ -13,6 +13,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Media;
 using ActueelNS.Resources;
+using Microsoft.Phone.Tasks;
 
 namespace ActueelNS.ViewModel
 {
@@ -285,8 +286,18 @@ namespace ActueelNS.ViewModel
                     && ReisMogelijkheden != null
                     && SelectedReisMogelijkheid != null)
                 {
-                    int index = ReisMogelijkheden.IndexOf(SelectedReisMogelijkheid);
-                    NavigationService.NavigateTo(new Uri(string.Format("/Views/Reminder.xaml?id={0}&index={1}&time={2}&spoor={3}", SelectedSearch.Id, index, SelectedReisMogelijkheid.GeplandeVertrekTijd, SelectedReisMogelijkheid.ReisDelen.First().ReisStops.First().Vertrekspoor), UriKind.Relative));
+                    //int index = ReisMogelijkheden.IndexOf(SelectedReisMogelijkheid);
+                    //NavigationService.NavigateTo(new Uri(string.Format("/Views/Reminder.xaml?id={0}&index={1}&time={2}&spoor={3}", SelectedSearch.Id, index, SelectedReisMogelijkheid.GeplandeVertrekTijd, SelectedReisMogelijkheid.ReisDelen.First().ReisStops.First().Vertrekspoor), UriKind.Relative));
+
+                    SaveAppointmentTask saveAp = new SaveAppointmentTask();
+                    saveAp.StartTime = SelectedReisMogelijkheid.GeplandeVertrekTijd;
+                    saveAp.EndTime = SelectedReisMogelijkheid.GeplandeAankomstTijd;
+                    saveAp.Subject = SelectedSearch.DisplayFull;
+                    saveAp.Details = SelectedReisMogelijkheid.GetAsText();
+                    saveAp.Location = SelectedSearch.VanStation.Name;
+                    saveAp.IsAllDayEvent = false;
+
+                    saveAp.Show();
 
                 }
             }
