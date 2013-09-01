@@ -10,6 +10,7 @@ namespace ActueelNS.Services.Models
     {
         public int AantalOverstappen { get; set; }
         public string GeplandeReisTijd { get; set; }
+        public string Status { get; set; }
 
         public bool Optimaal { get; set; }
 

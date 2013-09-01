@@ -212,6 +212,8 @@ namespace ActueelNS.Services
                         mogelijkheid.ActueleAankomstTijd = GetDateTime(element, "ActueleAankomstTijd") ?? DateTime.Now;
 
                         mogelijkheid.GeplandeReisTijd = GetElementText(element.Element("GeplandeReisTijd"));
+                        mogelijkheid.Status = GetElementText(element.Element("Status"));
+
 
                         if(element.Element("Optimaal") != null)
                             mogelijkheid.Optimaal = bool.Parse(element.Element("Optimaal").Value);

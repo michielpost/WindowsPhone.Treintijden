@@ -60,6 +60,10 @@ namespace ActueelNS.Services.Models
                     if (TussenStops.Count > 1)
                         text = string.Format("{0} tussenstations", TussenStops.Count);
 
+                    string statusText = this.StatusDisplay;
+                    if (!string.IsNullOrEmpty(statusText))
+                        text = statusText + ", " + text;
+
                     return text;
 
                 }
@@ -154,5 +158,19 @@ namespace ActueelNS.Services.Models
         }
 
 
+
+        public string StatusDisplay
+        {
+            get
+            {
+                if (Status.ToUpper() == "GEANNULEERD")
+                  return "geannuleerd";
+                else if (Status.ToUpper() == "NIEUW")
+                  return "extra trein";
+
+                return null;
+
+            }
+        }
     }
 }
