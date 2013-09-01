@@ -201,8 +201,8 @@ namespace ActueelNS.Services.Models
 
             foreach (var deel in this.ReisDelen)
             {
-                sb.AppendLine(deel.FirstStop.DisplayTijd + "\t" + deel.FirstStop.Naam + "\t\t spoor " + deel.FirstStop.Vertrekspoor);
-                sb.AppendLine(deel.LastStop.DisplayTijd + "\t" + deel.LastStop.Naam + "\t\t spoor " + deel.LastStop.Vertrekspoor);
+                sb.AppendLine(deel.FirstStop.DisplayTijd + " |" + deel.FirstStop.Vertrekspoor + "| \t" + deel.FirstStop.Naam);
+                sb.AppendLine(deel.LastStop.DisplayTijd + " |" + deel.LastStop.Vertrekspoor + "| \t" + deel.LastStop.Naam);
                 sb.Append(Environment.NewLine);
             }
 
