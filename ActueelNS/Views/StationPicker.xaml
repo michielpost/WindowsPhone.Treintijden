@@ -115,7 +115,6 @@
 
                 <phone:LongListSelector Name="MainListBox"   
                                            Grid.Row="1"
-                                        HorizontalContentAlignment="Stretch"
                      ItemsSource="{Binding StationList}"
                                            JumpListStyle="{StaticResource LongListSelectorJumpListStyle}"  
                                            ListHeaderTemplate="{StaticResource LongListSelectorHeaderTemplate}"

@@ -751,7 +751,7 @@
         </DataTemplate>
 
         <DataTemplate x:Key="LongListSelectorItemTemplate">
-            <StackPanel Orientation="Horizontal" Margin="4,4" HorizontalAlignment="Stretch">
+            <StackPanel Orientation="Horizontal" Margin="4,4" HorizontalAlignment="Stretch" Background="Transparent">
 
                     <Border Margin="12,8,0,8" Background="Transparent">
                         <Border Width="62"

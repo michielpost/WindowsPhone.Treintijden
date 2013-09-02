@@ -237,7 +237,7 @@ namespace ActueelNS.ViewModel
             }
             else if (e.PropertyName == "IsBusy")
             {
-                bool busy = ViewModelLocator.GpsWatcherStatic.IsBusy;
+                //bool busy = ViewModelLocator.GpsWatcherStatic.IsBusy;
 
                 if (ViewModelLocator.GpsWatcherStatic.Stations != null 
                     && ViewModelLocator.GpsWatcherStatic.Stations.Count() > 0)
