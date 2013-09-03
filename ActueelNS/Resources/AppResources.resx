@@ -145,7 +145,7 @@
     <value>Deze applicatie maakt gebruik van de officiële NS api.</value>
   </data>
   <data name="AboutCopyright" xml:space="preserve">
-    <value>Copyright © 2012 Michiel Post</value>
+    <value>Copyright © 2013 Michiel Post</value>
   </data>
   <data name="AboutEmailButton" xml:space="preserve">
     <value>e-mail</value>
@@ -160,7 +160,7 @@
     <value>review</value>
   </data>
   <data name="AboutVersion" xml:space="preserve">
-    <value>Treintijden 2.2</value>
+    <value>Treintijden 2.2.1</value>
   </data>
   <data name="actueel" xml:space="preserve">
     <value>actueel</value>
@@ -418,7 +418,12 @@
     <value>favoriet</value>
   </data>
   <data name="ReleaseNotes" xml:space="preserve">
-    <value>Nieuw in 2.2
+    <value>Nieuw in 2.2.1
+- Snelheidsverbeteringen
+- Plaats een treinreis in je agenda
+- Planner scherm bugifxes
+
+Nieuw in 2.2
 - Ritinformatie van een trein. Klik bij de actuele vertrektijden op een trein en zie alle stations en aankomsttijden
 - Recent geplande treinreizen op het beginscherm
 

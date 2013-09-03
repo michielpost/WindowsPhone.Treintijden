@@ -79,7 +79,7 @@ namespace ActueelNS.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Copyright © 2012 Michiel Post.
+        ///   Looks up a localized string similar to Copyright © 2013 Michiel Post.
         /// </summary>
         public static string AboutCopyright {
             get {
@@ -124,7 +124,7 @@ namespace ActueelNS.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Treintijden 2.2.
+        ///   Looks up a localized string similar to Treintijden 2.2.1.
         /// </summary>
         public static string AboutVersion {
             get {
@@ -781,7 +781,12 @@ namespace ActueelNS.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Nieuw in 2.2
+        ///   Looks up a localized string similar to Nieuw in 2.2.1
+        ///- Snelheidsverbeteringen
+        ///- Plaats een treinreis in je agenda
+        ///- Planner scherm bugifxes
+        ///
+        ///Nieuw in 2.2
         ///- Ritinformatie van een trein. Klik bij de actuele vertrektijden op een trein en zie alle stations en aankomsttijden
         ///- Recent geplande treinreizen op het beginscherm
         ///
@@ -796,12 +801,7 @@ namespace ActueelNS.Resources {
         ///Nieuw in 2.0
         ///- Klaar voor Windows Phone 8
         ///- Hoge resolutie tiles
-        ///- Station op de kaart tonen
-        ///- Donaties mogelijk via In App Purchase
-        ///
-        ///Nieuw in 1.9
-        ///- Release notes toegevoegd
-        ///- Station Maarh [rest of string was truncated]&quot;;.
+        ///- Station op de kaart [rest of string was truncated]&quot;;.
         /// </summary>
         public static string ReleaseNotes {
             get {

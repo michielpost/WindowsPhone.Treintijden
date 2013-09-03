@@ -145,7 +145,7 @@
     <value>This application uses the official NS api.</value>
   </data>
   <data name="AboutCopyright" xml:space="preserve">
-    <value>Copyright © 2012 Michiel Post</value>
+    <value>Copyright © 2013 Michiel Post</value>
   </data>
   <data name="AboutEmailButton" xml:space="preserve">
     <value>e-mail</value>
@@ -160,7 +160,7 @@
     <value>review</value>
   </data>
   <data name="AboutVersion" xml:space="preserve">
-    <value>Treintijden 2.2</value>
+    <value>Treintijden 2.2.1</value>
   </data>
   <data name="actueel" xml:space="preserve">
     <value>current</value>
