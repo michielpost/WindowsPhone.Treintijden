@@ -113,6 +113,12 @@ namespace ActueelNS.Views
             _loading = false;
             SetPin();
 
+            try
+            {
+                ViewModelLocator.MainStatic.Update();
+            }
+            catch { }
+
             base.OnNavigatedTo(e);
         }
 

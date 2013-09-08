@@ -70,13 +70,13 @@ namespace ActueelNS.Services
 
             var allStations = GetStations();
 
-            var result =  allStations.Where(x => x.Code == code).FirstOrDefault();
+            var result =  allStations.Where(x => x.Code.ToLower() == code).FirstOrDefault();
 
             if (result == null)
             {
                 var allForeignStations = GetStations(true);
 
-                result = allForeignStations.Where(x => x.Code == code).FirstOrDefault();
+                result = allForeignStations.Where(x => x.Code.ToLower() == code).FirstOrDefault();
 
             }
 
@@ -132,6 +132,16 @@ namespace ActueelNS.Services
             SaveListToStore(stations);
         }
 
-        
+
+
+
+        public IList<Station> GetStationsByCode(IEnumerable<string> stationCodes)
+        {
+            var allStations = GetStations();
+
+            var result = allStations.Where(x => stationCodes.Contains(x.Code.ToLower())).ToList();
+
+            return result;
+        }
     }
 }

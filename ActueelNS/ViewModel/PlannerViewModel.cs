@@ -387,9 +387,14 @@ namespace ActueelNS.ViewModel
         private void ShowFavoriteStations()
         {
             //Show favoriete en gps stations
-            var stations = ViewModelLocator.MainStatic.StationList.Distinct().OrderBy(x => x.Name);
-            foreach (var station in stations)
-                StationList.Add(station);
+            var list = ViewModelLocator.MainStatic.StationList;
+            if (list != null)
+            {
+                var stationCodes = list.Select(x => x.Code.ToLower());
+                var stations = StationService.GetStationsByCode(stationCodes).OrderBy(x => x.Name);
+                foreach (var station in stations)
+                    StationList.Add(station);
+            }
         }
 
         internal void InitForNewPick()

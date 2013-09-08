@@ -83,5 +83,11 @@ namespace ActueelNS.Services.Mocks
         public void Test()
         {
         }
+
+
+        public IList<Station> GetStationsByCode(IEnumerable<string> stationCodes)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

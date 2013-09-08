@@ -124,7 +124,7 @@ namespace ActueelNS.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Treintijden 2.2.1.
+        ///   Looks up a localized string similar to Treintijden 2.2.1.1.
         /// </summary>
         public static string AboutVersion {
             get {

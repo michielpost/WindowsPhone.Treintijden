@@ -16,5 +16,7 @@ namespace ActueelNS.Services.Interfaces
         Station GetStationByName(string name);
         Station GetStationByCode(string code);
 
+
+        IList<Station> GetStationsByCode(IEnumerable<string> stationCodes);
     }
 }
