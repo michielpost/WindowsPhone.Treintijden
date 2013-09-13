@@ -17,6 +17,7 @@ using System.IO;
 using ActueelNS.Tile;
 using ActueelNS.Services.Models;
 using ActueelNS.Resources;
+using System.Globalization;
 
 namespace ActueelNS.Services
 {
@@ -158,7 +159,7 @@ namespace ActueelNS.Services
 
                 var filenameInput = string.Format("/Shared/ShellContent/{0}_{1}.jpg", search.Id, index);
 
-                var filename = GenerateAdviesTile(search.VanStation.Name, search.NaarStation.Name, date.ToString("dd-MM-yyyy HH:mm"), filenameInput);
+                var filename = GenerateAdviesTile(search.VanStation.Name, search.NaarStation.Name, date.ToString("dd-MM-yyyy HH:mm", CultureInfo.InvariantCulture), filenameInput);
                 var isoStoreTileImage = string.Format("isostore:{0}", filename);
 
                 // Create the Tile object and set some initial properties for the Tile.

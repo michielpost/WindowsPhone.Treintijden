@@ -13,6 +13,7 @@ using Microsoft.Phone.Scheduler;
 using System.Collections.Generic;
 using System.Linq;
 using ActueelNS.Resources;
+using System.Globalization;
 
 namespace ActueelNS.Services
 {
@@ -36,7 +37,7 @@ namespace ActueelNS.Services
                     RecurrenceType = RecurrenceInterval.None,
                     NavigationUri = new Uri(url, UriKind.Relative),
                     Title = AppResources.ReminderAppTitle,
-                    Content = string.Format(AppResources.ReminderServiceFormat, search.NaarStation.Name, dateTime.ToString("HH:mm"), search.VanStation.Name, spoor),
+                    Content = string.Format(AppResources.ReminderServiceFormat, search.NaarStation.Name, dateTime.ToString("HH:mm", CultureInfo.InvariantCulture), search.VanStation.Name, spoor),
                 }; ;
 
                 ScheduledActionService.Add(newReminder);

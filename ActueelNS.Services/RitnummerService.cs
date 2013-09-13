@@ -15,6 +15,7 @@ using ActueelNS.Services.Constants;
 using System.Threading.Tasks;
 using System.Linq;
 using System.Collections.Generic;
+using System.Globalization;
 
 namespace ActueelNS.Services
 {
@@ -22,7 +23,7 @@ namespace ActueelNS.Services
     {
         public async Task<List<RitInfoStop>> GetRit(string id, string company, DateTime date)
         {
-            string stringDateTime = date.ToString("yyyy-MM-dd") + "T" + date.ToString("HH:mm:ss");
+            string stringDateTime = date.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture) + "T" + date.ToString("HH:mm:ss", CultureInfo.InvariantCulture);
             string query = string.Format("ritnummer={0}&companycode={1}&datetime={2}", id, company, stringDateTime);
 
 

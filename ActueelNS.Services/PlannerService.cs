@@ -7,6 +7,7 @@ using System.Linq;
 using System.Xml.Linq;
 using System.Threading.Tasks;
 using ActueelNS.Services.Constants;
+using System.Globalization;
 
 namespace ActueelNS.Services
 {
@@ -169,7 +170,7 @@ namespace ActueelNS.Services
             { }
 
 
-            string stringDateTime = search.Date.ToString("yyyy-MM-dd") + "T" + search.Time.ToString("HH:mm:ss");
+            string stringDateTime = search.Date.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture) + "T" + search.Time.ToString("HH:mm:ss", CultureInfo.InvariantCulture);
 
             string query = string.Format("previousAdvices=5&nextAdvices=5&fromStation={0}&toStation={1}&dateTime={2}", search.VanStation.Code, search.NaarStation.Code, stringDateTime);
 

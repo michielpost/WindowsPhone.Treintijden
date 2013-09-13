@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace ActueelNS.Services.Models
 {
@@ -18,7 +19,7 @@ namespace ActueelNS.Services.Models
         {
             get
             {
-                return Datum.ToString("HH:mm");
+                return Datum.ToString("HH:mm", CultureInfo.InvariantCulture);
             }
         }
 

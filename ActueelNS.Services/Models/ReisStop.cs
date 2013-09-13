@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using System;
+using System.Globalization;
 using System.Windows;
 using System.Xml.Serialization;
 
@@ -15,7 +16,7 @@ namespace ActueelNS.Services.Models
             get
             {
                 if (Tijd.HasValue)
-                    return Tijd.Value.ToString("HH:mm");
+                    return Tijd.Value.ToString("HH:mm", CultureInfo.InvariantCulture);
                 else
                     return null;
             }

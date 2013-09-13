@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -27,9 +28,9 @@ namespace ActueelNS.Services.Models
             get
             {
                 if (Departure.HasValue)
-                    return Departure.Value.ToString("HH:mm");
+                    return Departure.Value.ToString("HH:mm", CultureInfo.InvariantCulture);
                 else if (Arrival.HasValue)
-                    return Arrival.Value.ToString("HH:mm");
+                    return Arrival.Value.ToString("HH:mm", CultureInfo.InvariantCulture);
                 else
                     return string.Empty;
             }
@@ -79,7 +80,7 @@ namespace ActueelNS.Services.Models
                 if (Arrival.HasValue
                     && (!Departure.HasValue || Departure.Value != Arrival.Value)
                     && !IsLast)
-                    return "Aankomst: " + Arrival.Value.ToString("HH:mm") + " " + DisplayArrivalDelay;
+                    return "Aankomst: " + Arrival.Value.ToString("HH:mm", CultureInfo.InvariantCulture) + " " + DisplayArrivalDelay;
                 else
                     return string.Empty;
             }

@@ -67,7 +67,7 @@ namespace ActueelNS.Services.Models
         {
             get
             {
-                return GeplandeVertrekTijd.ToString("HH:mm");
+                return GeplandeVertrekTijd.ToString("HH:mm", CultureInfo.InvariantCulture);
             }
         }
 
@@ -75,7 +75,7 @@ namespace ActueelNS.Services.Models
         {
             get
             {
-                return GeplandeAankomstTijd.ToString("HH:mm");
+                return GeplandeAankomstTijd.ToString("HH:mm", CultureInfo.InvariantCulture);
             }
         }
 

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using System.Windows.Media;
 
 namespace ActueelNS.Services.Models
@@ -13,7 +14,7 @@ namespace ActueelNS.Services.Models
         {
             get
             {
-                return Tijd.ToString("HH:mm");
+                return Tijd.ToString("HH:mm", CultureInfo.InvariantCulture);
             }
         }
 
