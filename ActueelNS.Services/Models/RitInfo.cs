@@ -8,6 +8,14 @@ using System.Threading.Tasks;
 namespace ActueelNS.Services.Models
 {
 
+  public class ServiceRitInfo
+  {
+    public List<RitInfoStop> Stops { get; set; }
+    public string CompanyCode { get; set; }
+    public string ServiceCode { get; set; }
+
+  }
+
     public class RitInfoStop
     {
         public string Code { get; set; }

@@ -86,14 +86,21 @@ namespace ActueelNS.ViewModel
             RitStops = await DataLoader.LoadAsync(async () =>
                 {
 
-                    var stops = await RitnummerService.GetRit(ritId, company, DateTime.Now);
+                    var serviceInfo = await RitnummerService.GetRit(ritId, company, DateTime.Now);
 
-                    //Fill station name for each stop
-                    foreach (var stop in stops)
+                    List<RitInfoStop> stops = null;
+
+                    if (serviceInfo.FirstOrDefault() != null)
                     {
+                      stops = serviceInfo.First().Stops;
+
+                      //Fill station name for each stop
+                      foreach (var stop in stops)
+                      {
                         var station = StationService.GetStationByCode(stop.Code);
                         if (station != null)
-                            stop.Station = station.Name;
+                          stop.Station = station.Name;
+                      }
                     }
 
                     //TODO: Set current station

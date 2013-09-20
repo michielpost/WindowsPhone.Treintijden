@@ -16,6 +16,6 @@ namespace ActueelNS.Services.Interfaces
 {
     public interface IRitnummerService
     {
-        Task<List<RitInfoStop>> GetRit(string id, string company, DateTime date);
+      Task<List<ServiceRitInfo>> GetRit(string id, string company, DateTime date);
     }
 }

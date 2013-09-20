@@ -21,7 +21,7 @@ namespace ActueelNS.Services
 {
     public class RitnummerService : IRitnummerService
     {
-        public async Task<List<RitInfoStop>> GetRit(string id, string company, DateTime date)
+      public async Task<List<ServiceRitInfo>> GetRit(string id, string company, DateTime date)
         {
             string stringDateTime = date.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture) + "T" + date.ToString("HH:mm:ss", CultureInfo.InvariantCulture);
             string query = string.Format("ritnummer={0}&companycode={1}&datetime={2}", id, company, stringDateTime);
@@ -36,34 +36,45 @@ namespace ActueelNS.Services
 
             XElement tijdenXmlElement = XElement.Parse(response);
 
-            List<RitInfoStop> stopList = new List<RitInfoStop>();
+            List<ServiceRitInfo> serviceList = new List<ServiceRitInfo>();
 
-            foreach (var element in tijdenXmlElement.Descendants("Stop"))
+            foreach (var serviceElement in tijdenXmlElement.Descendants("ServiceInfo"))
             {
-                RitInfoStop stop = new RitInfoStop();
+              ServiceRitInfo info = new ServiceRitInfo();
+              info.CompanyCode = GetElementText(serviceElement.Element("CompanyCode"));
 
-                stop.Code = GetElementText(element.Element("StopCode"));
-                stop.DepartureTimeDelay = GetElementText(element.Element("DepartureTimeDelay"));
-                stop.DeparturePlatform = GetElementText(element.Element("DeparturePlatform"));
-                stop.ArrivalTimeDelay = GetElementText(element.Element("ArrivalTimeDelay"));
+              List<RitInfoStop> stopList = new List<RitInfoStop>();
+              info.Stops = stopList;
 
-                stop.Arrival = GetDateTime(element, "Arrival");
-                stop.Departure = GetDateTime(element, "Departure");
+              foreach (var element in serviceElement.Descendants("Stop"))
+              {
+                  RitInfoStop stop = new RitInfoStop();
 
-                if (element.Element("prognose") != null)
+                  stop.Code = GetElementText(element.Element("StopCode"));
+                  stop.DepartureTimeDelay = GetElementText(element.Element("DepartureTimeDelay"));
+                  stop.DeparturePlatform = GetElementText(element.Element("DeparturePlatform"));
+                  stop.ArrivalTimeDelay = GetElementText(element.Element("ArrivalTimeDelay"));
+
+                  stop.Arrival = GetDateTime(element, "Arrival");
+                  stop.Departure = GetDateTime(element, "Departure");
+
+                  if (element.Element("prognose") != null)
                     stop.Prognose = int.Parse(element.Element("prognose").Value);
 
-                if (stop.Arrival.HasValue || stop.Departure.HasValue)
+                  if (stop.Arrival.HasValue || stop.Departure.HasValue)
                     stopList.Add(stop);
-            }
+              }
 
-            if (stopList.Any())
-            {
+              if (stopList.Any())
+              {
                 stopList.First().IsFirst = true;
                 stopList.Last().IsLast = true;
+
+                serviceList.Add(info);
+              }
             }
 
-            return stopList;
+            return serviceList;
         }
 
 
