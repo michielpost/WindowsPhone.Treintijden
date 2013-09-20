@@ -368,13 +368,24 @@ namespace ActueelNS.ViewModel
             {
                 p = p.ToLower();
 
+                //Do a normal starts with
                 var stations = StationService.GetStations().Where(x => x.Name.ToLower().StartsWith(p)).Take(8);
 
                 if (stations.Count() < 8)
                 {
+                    //Search extra names codes etc
                     var extraStations = StationService.GetStations().Where(x => x.StartsWith(p)).Take(8 - stations.Count());
 
                     stations = stations.Union(extraStations);
+                }
+
+                //No results? Search international 
+                if (stations.Count() == 0)
+                {
+                  //Search extra names codes etc
+                  var extraStations = StationService.GetStations(true).Where(x => x.StartsWith(p)).Take(8);
+
+                  stations = stations.Union(extraStations);
                 }
 
                 StationList.Clear();

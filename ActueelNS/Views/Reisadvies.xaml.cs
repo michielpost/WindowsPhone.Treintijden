@@ -184,7 +184,12 @@ namespace ActueelNS.Views
                         {
                             ShowStep1Header.Begin();
 
+                          if(_vm.SelectedSearch.VanStation.Country == "NL")
                             (ApplicationBar.Buttons[VertrektijdenIndex] as ApplicationBarIconButton).IsEnabled = true;
+                          else
+                            (ApplicationBar.Buttons[VertrektijdenIndex] as ApplicationBarIconButton).IsEnabled = false;
+
+
                             (ApplicationBar.Buttons[PrijsIndex] as ApplicationBarIconButton).IsEnabled = true;
                             //(ApplicationBar.Buttons[3] as ApplicationBarIconButton).IsEnabled = true;
                             (ApplicationBar.MenuItems[0] as ApplicationBarMenuItem).IsEnabled = true;

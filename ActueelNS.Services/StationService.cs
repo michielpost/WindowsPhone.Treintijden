@@ -33,7 +33,7 @@ namespace ActueelNS.Services
                                 Name = x.Element("name").Value,
                                 Code = x.Element("id").Value,
                                 NamesExtra = x.Descendants("Sy").Select(s => s.Value).ToArray(),
-                                //Country = x.Element("country").Value,
+                                Country = x.Element("c") != null ? x.Element("c").Value : null,
                                 //Alias = bool.Parse(x.Element("alias").Value),
                                 Lat = double.Parse(x.Element("lat").Value, CultureInfo.InvariantCulture),
                                 Long = double.Parse(x.Element("lon").Value, CultureInfo.InvariantCulture)
@@ -58,10 +58,19 @@ namespace ActueelNS.Services
      
         public Station GetStationByName(string name)
         {
-
             var allStations = GetStations();
 
-            return allStations.Where(x => x.Name == name).FirstOrDefault();
+            var station = allStations.Where(x => x.Name == name).FirstOrDefault();
+
+              if(station != null)
+                return station;
+              else
+              {
+                //Try international
+                allStations = GetStations(true);
+
+                return allStations.Where(x => x.Name == name).FirstOrDefault();
+              }
         }
 
         public Station GetStationByCode(string code)

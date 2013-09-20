@@ -19,7 +19,7 @@ namespace ActueelNS.Services.Models
 
         public string Code { get; set; }
 
-        //public string Country { get; set; }
+        public string Country { get; set; }
 
         public double Lat { get; set; }
 
