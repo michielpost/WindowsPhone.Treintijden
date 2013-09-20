@@ -418,10 +418,13 @@
     <value>favoriet</value>
   </data>
   <data name="ReleaseNotes" xml:space="preserve">
-    <value>Nieuw in 2.2.1
+    <value>Nieuw in 2.3
+- Plan internationale reizen
+
+Nieuw in 2.2.1
 - Snelheidsverbeteringen
 - Plaats een treinreis in je agenda
-- Planner scherm bugifxes
+- Planner scherm bugfixes
 
 Nieuw in 2.2
 - Ritinformatie van een trein. Klik bij de actuele vertrektijden op een trein en zie alle stations en aankomsttijden
