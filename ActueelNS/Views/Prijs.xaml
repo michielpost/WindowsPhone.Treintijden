@@ -153,6 +153,7 @@
 
                     <TextBlock Grid.Row="1"
                                Grid.Column="0"
+                               Margin="0"
                                Style="{StaticResource PhoneTextNormalStyleCustom}"
                                Text="{Binding Path=LocalizedResources.PrijsEnkel,
                                               Source={StaticResource LocalizedStrings}}"
@@ -175,6 +176,7 @@
 
                     <TextBlock Grid.Row="2"
                                Grid.Column="0"
+                               Margin="0" 
                                Style="{StaticResource PhoneTextNormalStyleCustom}"
                                Text="{Binding Path=LocalizedResources.PrijsRetour,
                                               Source={StaticResource LocalizedStrings}}"
@@ -263,6 +265,7 @@
 
                     <TextBlock Grid.Row="1"
                                Grid.Column="0"
+                               Margin="0" 
                                Style="{StaticResource PhoneTextNormalStyleCustom}"
                                Text="{Binding Path=LocalizedResources.PrijsEnkel,
                                               Source={StaticResource LocalizedStrings}}"
@@ -285,6 +288,7 @@
 
                     <TextBlock Grid.Row="2"
                                Grid.Column="0"
+                               Margin="0"
                                Style="{StaticResource PhoneTextNormalStyleCustom}"
                                Text="{Binding Path=LocalizedResources.PrijsRetour,
                                               Source={StaticResource LocalizedStrings}}"
