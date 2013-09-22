@@ -15,8 +15,10 @@ namespace ActueelNS.Services.Interfaces
 {
     public interface ILiveTileService
     {
-        void Create(string name, string code);
-        bool Exists(string name);
+        void CreateStation(string name, string code);
+        bool ExistsStation(string name);
+
+        //bool Exists(string name);
 
         void CreateAdvies(PlannerSearch search, int index, DateTime date);
         bool ExistsCreateAdvies(PlannerSearch SelectedSearch, int p, DateTime dateTime);

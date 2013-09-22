@@ -316,7 +316,7 @@ namespace ActueelNS.ViewModel
         private void PinStation()
         {
             string name = CurrentStation.Name;
-            LiveTileService.Create(name, CurrentStation.Code);
+            LiveTileService.CreateStation(name, CurrentStation.Code);
         }
 
         private void PlanStation()
@@ -387,7 +387,7 @@ namespace ActueelNS.ViewModel
             get
             {
                 if (CurrentStation != null)
-                    return LiveTileService.Exists(CurrentStation.Name);
+                    return LiveTileService.ExistsStation(CurrentStation.Name);
                 else
                     return false;
             }

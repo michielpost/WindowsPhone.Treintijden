@@ -24,9 +24,18 @@ namespace ActueelNS.Services
     public class LiveTileService : ILiveTileService
     {
 
-        public void Create(string name, string code)
+        public bool ExistsStation(string name)
         {
-            if (!Exists(name))
+            string uri = string.Format("/Views/StationTijden.xaml?id={0}", name);
+
+            return Exists(uri);
+        }
+
+        public void CreateStation(string name, string code)
+        {
+            string uri = string.Format("/Views/StationTijden.xaml?id={0}", name);
+
+            if (!Exists(uri))
             {
 
                 var filenameInput = string.Format("/Shared/ShellContent/{0}.jpg", code);
@@ -58,7 +67,7 @@ namespace ActueelNS.Services
 
               
                 // Create the Tile and pin it to Start. This will cause a navigation to Start and a deactivation of our application.
-                ShellTile.Create(new Uri(string.Format("/Views/StationTijden.xaml?id={0}", name), UriKind.Relative), NewTileData, true);
+                ShellTile.Create(new Uri(uri, UriKind.Relative), NewTileData, true);
             }
         }
 
@@ -143,7 +152,7 @@ namespace ActueelNS.Services
             return filename;
         }
 
-        public bool Exists(string name)
+        private bool Exists(string name)
         {
             return ShellTile.ActiveTiles.Any(x => x.NavigationUri.ToString().Contains(name));
         }

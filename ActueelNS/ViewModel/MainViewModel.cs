@@ -254,7 +254,7 @@ namespace ActueelNS.ViewModel
         {
             if (name != null)
             {
-                return !LiveTileService.Exists(name);
+                return !LiveTileService.ExistsStation(name);
             }
 
             return false;
@@ -269,7 +269,7 @@ namespace ActueelNS.ViewModel
         private void PinStation(string name)
         {
             var station = StationService.GetStationByName(name);
-            LiveTileService.Create(name, station.Code);
+            LiveTileService.CreateStation(name, station.Code);
         }
 
         private void PlanStation(string name)

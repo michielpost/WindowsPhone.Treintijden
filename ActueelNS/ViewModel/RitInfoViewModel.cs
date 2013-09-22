@@ -99,7 +99,7 @@ namespace ActueelNS.ViewModel
                       {
                         var station = StationService.GetStationByCode(stop.Code);
                         if (station != null)
-                          stop.Station = station.Name;
+                            stop.Station = station.Name;
                       }
                     }
 
