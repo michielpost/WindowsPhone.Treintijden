@@ -160,7 +160,7 @@
     <value>review</value>
   </data>
   <data name="AboutVersion" xml:space="preserve">
-    <value>Treintijden 2.2.1.1</value>
+    <value>Treintijden 2.3</value>
   </data>
   <data name="actueel" xml:space="preserve">
     <value>actueel</value>
@@ -420,6 +420,7 @@
   <data name="ReleaseNotes" xml:space="preserve">
     <value>Nieuw in 2.3
 - Plan internationale reizen
+- Kleine verbeteringen en bugfixes
 
 Nieuw in 2.2.1
 - Snelheidsverbeteringen
