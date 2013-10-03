@@ -14,6 +14,8 @@ namespace ActueelNS.Views
 {
     public partial class RitInfoPage : ViewBase
     {
+        RitInfoViewModel _vm;
+
         public RitInfoPage()
         {
             InitializeComponent();
@@ -23,7 +25,8 @@ namespace ActueelNS.Views
         {
             base.OnNavigatedTo(e);
 
-            var vm = (RitInfoViewModel)DataContext;
+            _vm = (RitInfoViewModel)DataContext;
+            _vm.RitInfoAvailable += _vm_RitInfoAvailable;
 
             if (this.NavigationContext.QueryString.ContainsKey("id"))
             {
@@ -31,11 +34,27 @@ namespace ActueelNS.Views
                 string company = this.NavigationContext.QueryString["company"];
                 string trein = this.NavigationContext.QueryString["trein"];
                 string richting = this.NavigationContext.QueryString["richting"];
+                string stationCode = this.NavigationContext.QueryString["stationCode"];
 
-                vm.Initialize(station, company, trein, richting);
+                _vm.Initialize(station, company, trein, richting, stationCode);
 
             }
 
+        }
+
+        protected override void OnNavigatedFrom(System.Windows.Navigation.NavigationEventArgs e)
+        {
+            _vm.RitInfoAvailable -= _vm_RitInfoAvailable;
+
+            base.OnNavigatedFrom(e);
+        }
+
+        void _vm_RitInfoAvailable(object sender, EventArgs e)
+        {
+            //Scroll to current station
+            var currentItem = _vm.RitStops.Where(x => x.IsCurrent).FirstOrDefault();
+            if (currentItem != null)
+                MainListBox.ScrollTo(currentItem);
         }
 
         private void CloseGeenDataPanel_Click(object sender, System.Windows.RoutedEventArgs e)
@@ -45,5 +64,7 @@ namespace ActueelNS.Views
             else
                 GeenDataPanel.Visibility = System.Windows.Visibility.Collapsed;
         }
+
+
     }
 }

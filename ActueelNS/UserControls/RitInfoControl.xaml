@@ -31,7 +31,8 @@
             <ColumnDefinition Width="86" />
         </Grid.ColumnDefinitions>
 
-        <StackPanel>
+      
+       <StackPanel>
             <TextBlock 
                        Margin="24,18,0,0"
                                        Style="{StaticResource PhoneTextNormalStyleCustom}"
@@ -42,7 +43,7 @@
                                        Style="{StaticResource PhoneTextNormalStyleCustom}"
                                        Text="{Binding DisplayDelay}" />
         </StackPanel>
-       
+
         <Grid Grid.Column="1">
             <Rectangle Width="8" Fill="{StaticResource TextColor}" StrokeThickness="3" />
 
@@ -53,6 +54,13 @@
          Fill="{StaticResource TextColor}"
          Height="30"
          Width="30"
+         StrokeThickness="2"
+         />
+            <Ellipse
+                Visibility="{Binding IsCurrent, Converter={StaticResource Vis}}"
+         Fill="{StaticResource BackgroundColor}"
+         Height="18"
+         Width="18"
          StrokeThickness="2"
          />
 

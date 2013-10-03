@@ -63,23 +63,31 @@
                 <RowDefinition Height="Auto" />
             </Grid.RowDefinitions>
 
-            <ScrollViewer>           
+
+            <phone:LongListSelector Name="MainListBox"   
+                                           Margin="0,0,0,12"
+                     ItemsSource="{Binding RitStops}"
+                                           HideEmptyGroups ="true" IsGroupingEnabled ="False" LayoutMode="List"
+                                    >
+                <phone:LongListSelector.ItemTemplate>
+                    <DataTemplate>
+                        <userControls:RitInfoControl />
+                    </DataTemplate>
+                </phone:LongListSelector.ItemTemplate>
+            </phone:LongListSelector>
+
+            <!--<ScrollViewer>           
                 <ItemsControl x:Name="MainListBox"
                      Margin="0,0,0,12"
                      ItemsSource="{Binding RitStops}"
                      >
-                <!--<ListBox.ItemContainerStyle>
-                    <Style TargetType="ListBoxItem">
-                        <Setter Property="HorizontalContentAlignment" Value="Stretch" />
-                    </Style>
-                </ListBox.ItemContainerStyle>-->
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
                         <userControls:RitInfoControl />
                     </DataTemplate>
                 </ItemsControl.ItemTemplate>
             </ItemsControl>
-            </ScrollViewer>
+            </ScrollViewer>-->
 
 
 

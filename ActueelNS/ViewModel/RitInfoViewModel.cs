@@ -15,6 +15,9 @@ namespace ActueelNS.ViewModel
     {
         public IStationService StationService { get; set; }
         public IRitnummerService RitnummerService { get; set; }
+        public event EventHandler<EventArgs> RitInfoAvailable;
+
+
 
 
         private string _pageName;
@@ -77,7 +80,7 @@ namespace ActueelNS.ViewModel
 
         }
 
-        public async void Initialize(string ritId, string company, string trein, string richting)
+        public async void Initialize(string ritId, string company, string trein, string richting, string stationCode)
         {
             PageName = trein;
             Richting = AppResources.RitInfoViewModelRichting + " " + richting;
@@ -100,6 +103,9 @@ namespace ActueelNS.ViewModel
                         var station = StationService.GetStationByCode(stop.Code);
                         if (station != null)
                             stop.Station = station.Name;
+
+                        if (stop.Code.ToLower() == stationCode.ToLower())
+                            stop.IsCurrent = true;
                       }
                     }
 
@@ -108,6 +114,9 @@ namespace ActueelNS.ViewModel
 
                     return stops;
                 });
+
+            if (RitInfoAvailable != null)
+                RitInfoAvailable(null, null);
 
         }
     }
