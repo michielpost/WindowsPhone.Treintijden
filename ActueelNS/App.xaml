@@ -647,10 +647,22 @@
             </Border>
         </DataTemplate>
 
-        <DataTemplate x:Key="LongListSelectorItemTemplate">
+        <DataTemplate x:Key="LongListSelectorItemWithContextMenuTemplate">
             <StackPanel Orientation="Horizontal" Margin="4,4" HorizontalAlignment="Stretch" Background="Transparent">
-
-                    <Border Margin="12,8,0,8" Background="Transparent">
+                <toolkit:ContextMenuService.ContextMenu>
+                    <toolkit:ContextMenu Background="{StaticResource BackgroundColor}"
+                                                    BorderBrush="Black"
+                                                    Foreground="{StaticResource TextColor}">
+                      <toolkit:MenuItem Command="{Binding ElementName=control,
+                                                                       Path=DataContext.VertrektijdenCommand}"
+                                                     CommandParameter="{Binding}"
+                                                     Foreground="{StaticResource TextColor}"
+                                                     Header="{Binding Path=LocalizedResources.vertrektijden,
+                                                                      Source={StaticResource LocalizedStrings}}" />
+                    </toolkit:ContextMenu>
+                </toolkit:ContextMenuService.ContextMenu>
+                
+                <Border Margin="12,8,0,8" Background="Transparent">
                         <Border Width="62"
                                         Height="62"
                                         HorizontalAlignment="Left"
@@ -679,6 +691,42 @@
 
 
                     <TextBlock VerticalAlignment="Center"
+                                       Style="{StaticResource PhoneTextLargeStyleCustom}"
+                                       Text="{Binding Name}" />
+            </StackPanel>
+        </DataTemplate>
+
+        <DataTemplate x:Key="LongListSelectorItemTemplate">
+            <StackPanel Orientation="Horizontal" Margin="4,4" HorizontalAlignment="Stretch" Background="Transparent">
+                <Border Margin="12,8,0,8" Background="Transparent">
+                    <Border Width="62"
+                                        Height="62"
+                                        HorizontalAlignment="Left"
+                                        VerticalAlignment="Top"
+                                        Background="{StaticResource TextColor}"
+                                        Padding="0,0,0,0">
+
+                        <Grid Margin="0">
+                            <Border Width="62"
+                                                Height="62"
+                                                HorizontalAlignment="Left"
+                                                VerticalAlignment="Top"
+                                                Background="{StaticResource BackgroundColor}"
+                                                BorderThickness="3,3,3,3"
+                                                Padding="0,0,0,0" />
+                            <Border Width="15"
+                                                Height="15"
+                                                HorizontalAlignment="Left"
+                                                VerticalAlignment="Top"
+                                                Background="{StaticResource TextColor}"
+                                                BorderThickness="0,0,0,0"
+                                                Padding="0,0,0,0" />
+                        </Grid>
+                    </Border>
+                </Border>
+
+
+                <TextBlock VerticalAlignment="Center"
                                        Style="{StaticResource PhoneTextLargeStyleCustom}"
                                        Text="{Binding Name}" />
             </StackPanel>

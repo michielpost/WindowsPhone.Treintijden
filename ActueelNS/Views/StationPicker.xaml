@@ -119,7 +119,7 @@
                                            JumpListStyle="{StaticResource LongListSelectorJumpListStyle}"  
                                            ListHeaderTemplate="{StaticResource LongListSelectorHeaderTemplate}"
                                            GroupHeaderTemplate="{StaticResource LongListSelectorGroupHeaderTemmplate}"
-                                           ItemTemplate="{StaticResource LongListSelectorItemTemplate}"
+                                           ItemTemplate="{StaticResource LongListSelectorItemWithContextMenuTemplate}"
                                            HideEmptyGroups ="true" IsGroupingEnabled ="False" LayoutMode="List">
                 </phone:LongListSelector>
 
@@ -132,7 +132,7 @@
                                            JumpListStyle="{StaticResource LongListSelectorJumpListStyle}"  
                                            ListHeaderTemplate="{StaticResource LongListSelectorHeaderTemplate}"
                                            GroupHeaderTemplate="{StaticResource LongListSelectorGroupHeaderTemmplate}"
-                                           ItemTemplate="{StaticResource LongListSelectorItemTemplate}"
+                                           ItemTemplate="{StaticResource LongListSelectorItemWithContextMenuTemplate}"
                                            HideEmptyGroups ="true" IsGroupingEnabled ="true" LayoutMode="List">
             </phone:LongListSelector>
 
