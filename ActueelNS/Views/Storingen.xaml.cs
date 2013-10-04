@@ -14,10 +14,7 @@ namespace ActueelNS.Views
     /// </summary>
     public partial class Storingen : ViewBase
     {
-
         private StoringenViewModel _vm;
-
-        private ProgressIndicator _progressIndicator;
 
         /// <summary>
         /// Initializes a new instance of the Storingen class.
@@ -35,11 +32,7 @@ namespace ActueelNS.Views
         {
             _vm = (StoringenViewModel)DataContext;
 
-            _vm.PropertyChanged += new System.ComponentModel.PropertyChangedEventHandler(_vm_PropertyChanged);
-            CheckBusy();
-            CheckError();
-            CheckShowGeenStoringen();
-
+           
             if (SimpleIoc.Default.GetInstance<ILiveTileService>().ExistsCreateStoringen())
                 (ApplicationBar.Buttons[0] as ApplicationBarIconButton).IsEnabled = false;
 
@@ -51,95 +44,6 @@ namespace ActueelNS.Views
             //}
 
             base.OnNavigatedTo(e);
-        }
-
-        private void CheckError()
-        {
-            if (_vm.ShowError)
-                GeenDataPanel.Visibility = System.Windows.Visibility.Visible;
-            else
-                GeenDataPanel.Visibility = System.Windows.Visibility.Collapsed;
-        }
-
-        private void CheckBusy()
-        {
-            if (null == _progressIndicator)
-            {
-                _progressIndicator = new ProgressIndicator();
-                _progressIndicator.IsVisible = true;
-                SystemTray.ProgressIndicator = _progressIndicator;
-
-            }
-
-            if (_vm.IsBusy)
-            {
-                _progressIndicator.IsVisible = true;
-                _progressIndicator.IsIndeterminate = true;
-
-                _performanceProgressBar.IsEnabled = true;
-                _performanceProgressBar.IsIndeterminate = true;
-                LoaderStackPanel.Visibility = System.Windows.Visibility.Visible;
-
-
-            }
-            else
-            {
-                LoaderStackPanel.Visibility = System.Windows.Visibility.Collapsed;
-                _performanceProgressBar.IsIndeterminate = false;
-                _performanceProgressBar.IsEnabled = false;
-
-                _progressIndicator.IsIndeterminate = false;
-                _progressIndicator.IsVisible = false;
-
-                CheckShowGeenStoringen();
-
-
-            }
-        }
-
-        protected override void OnNavigatedFrom(System.Windows.Navigation.NavigationEventArgs e)
-        {
-            _vm.PropertyChanged -= new System.ComponentModel.PropertyChangedEventHandler(_vm_PropertyChanged);
-
-            base.OnNavigatedFrom(e);
-        }
-
-        void _vm_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
-        {
-            //if (e.PropertyName == "CurrentStoringen")
-            //{
-            //    CheckShowGeenStoringen();
-            //}
-
-            if (e.PropertyName == "IsBusy")
-            {
-                CheckBusy();
-            }
-            else if (e.PropertyName == "ShowError")
-            {
-                CheckError();
-            }
-
-        }
-
-        private void CheckShowGeenStoringen()
-        {
-            if (_vm.IsBusy || _vm.ShowError)
-            {
-                GeenStoringenPanel.Visibility = System.Windows.Visibility.Collapsed;
-                return;
-            }
-
-
-            if (_vm.CurrentStoringen == null || _vm.CurrentStoringen.Count == 0)
-            {
-                GeenStoringenPanel.Visibility = System.Windows.Visibility.Visible;
-            }
-            else
-            {
-                GeenStoringenPanel.Visibility = System.Windows.Visibility.Collapsed;
-
-            }
         }
 
         private void WerkMainListBox_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)

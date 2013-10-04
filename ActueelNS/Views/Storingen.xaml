@@ -23,7 +23,8 @@
                             DataContext="{Binding StoringenViewModel, Source={StaticResource Locator}}">
 
     <viewBase:ViewBase.Resources>
-        <converters:VisibilityConverter x:Key="VisibilityConverter" />
+        <converters:VisibilityConverter x:Key="Vis" />
+        <converters:InverseVisibilityConverter x:Key="InverseVis" />
     </viewBase:ViewBase.Resources>
 
     <Grid Margin="0,-1,0,0" x:Name="LayoutRoot" Background="{StaticResource BackgroundColor}" >
@@ -46,19 +47,19 @@
                         Height="40"
                         VerticalAlignment="Top"
                         Background="{StaticResource BackgroundColor}"
-                        Visibility="Collapsed">
+                        Visibility="{Binding IsBusy, Converter={StaticResource Vis}}">
                         <TextBlock Margin="24,0,0,0"
                            Style="{StaticResource PhoneTextNormalStyleCustom}"
                            Text="{Binding Path=LocalizedResources.StoringenLoading,
                                           Source={StaticResource LocalizedStrings}}" />
                         <!--<toolkit:PerformanceProgressBar x:Name="_performanceProgressBar" VerticalAlignment="Top" />-->
-                        <ProgressBar x:Name="_performanceProgressBar" Foreground="{StaticResource TextColor}" VerticalAlignment="Top" />
+                        <ProgressBar IsIndeterminate="{Binding IsBusy}" Foreground="{StaticResource TextColor}" VerticalAlignment="Top" />
                     </StackPanel>
 
                     <StackPanel x:Name="GeenDataPanel"
                         VerticalAlignment="Top"
                         Background="{StaticResource BackgroundColor}"
-                        Visibility="Collapsed">
+                        Visibility="{Binding ShowError, Converter={StaticResource Vis}}">
                         <Border Margin="12"
                         BorderBrush="{StaticResource TextColor}"
                         BorderThickness="3">
@@ -71,9 +72,11 @@
                             </StackPanel>
                         </Border>
                     </StackPanel>
-                    
 
-                    <ItemsControl x:Name="MainListBox" ItemsSource="{Binding CurrentStoringen}">
+                    <StackPanel Visibility="{Binding IsBusy, Converter={StaticResource InverseVis}}">
+                        
+                   
+                        <ItemsControl x:Name="MainListBox" ItemsSource="{Binding CurrentStoringen}">
                         <ItemsControl.ItemsPanel>
                             <ItemsPanelTemplate>
                                 <VirtualizingStackPanel/>
@@ -121,10 +124,11 @@
                     </ItemsControl>
 
 
-                    <StackPanel x:Name="GeenStoringenPanel" Margin="12" Visibility="Collapsed">
-                        <TextBlock Style="{StaticResource PhoneTextLargeStyleCustom}" Text="{Binding Path=LocalizedResources.StoringenGeen, Source={StaticResource LocalizedStrings}}"></TextBlock>
-                        <TextBlock Style="{StaticResource PhoneTextNormalStyleCustom}" TextWrapping="Wrap" Text="{Binding Path=LocalizedResources.StoringenGeenLong, Source={StaticResource LocalizedStrings}}"></TextBlock>
+                        <StackPanel x:Name="GeenStoringenPanel" Margin="12" Visibility="{Binding CurrentStoringen.Count, Converter={StaticResource InverseVis}}">
+                            <TextBlock Style="{StaticResource PhoneTextLargeStyleCustom}" Text="{Binding Path=LocalizedResources.StoringenGeen, Source={StaticResource LocalizedStrings}}"></TextBlock>
+                            <TextBlock Style="{StaticResource PhoneTextNormalStyleCustom}" TextWrapping="Wrap" Text="{Binding Path=LocalizedResources.StoringenGeenLong, Source={StaticResource LocalizedStrings}}"></TextBlock>
 
+                        </StackPanel>
                     </StackPanel>
 
 
@@ -159,7 +163,7 @@
 			           Style="{StaticResource PhoneTextNormalStyleCustom}" TextWrapping="Wrap">
                                 </TextBlock>
 
-                                <StackPanel Visibility="{Binding IsExpanded, Converter={StaticResource VisibilityConverter}}">
+                                <StackPanel Visibility="{Binding IsExpanded, Converter={StaticResource Vis}}">
                                     <TextBlock Text="{Binding Reden}" FontSize="18" Margin="12,12,0,0"
 			           Style="{StaticResource PhoneTextNormalStyleCustom}" TextWrapping="Wrap">
                                     </TextBlock>

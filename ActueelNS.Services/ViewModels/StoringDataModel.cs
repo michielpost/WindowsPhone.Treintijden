@@ -9,7 +9,7 @@ using ActueelNS.Services.Constants;
 
 namespace ActueelNS.Services.ViewModels
 {
-    //[CachePolicy(CachePolicy.ValidCacheOnly, 60 * 15)]
+    [CachePolicy(CachePolicy.ValidCacheOnly, 60 * 5)]
     public class StoringDataModel : ModelItemBase<LoadContext>
     {
         public StoringDataModel()

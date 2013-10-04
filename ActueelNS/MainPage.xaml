@@ -297,7 +297,7 @@
                             <cmd:EventToCommand Command="{Binding ElementName=control, Path=DataContext.StoringenCommand}" />
                         </i:EventTrigger>
                     </i:Interaction.Triggers>
-                    <TextBlock Margin="24,0,0,0"
+                    <TextBlock Margin="24,3,0,0"
                                Foreground="{StaticResource AlternateTextColor}"
                                Style="{StaticResource PhoneTextNormalStyleCustom}"
                                Text="{Binding StoringTekst}" />

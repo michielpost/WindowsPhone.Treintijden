@@ -57,7 +57,6 @@ namespace ActueelNS.ViewModel
             }
         }
 
-
         private bool _isBusy;
 
         public bool IsBusy
@@ -161,6 +160,8 @@ namespace ActueelNS.ViewModel
 
                 }, ex => {
                     ShowError = true;
+                    IsBusy = false;
+
                 });
                 
             }
