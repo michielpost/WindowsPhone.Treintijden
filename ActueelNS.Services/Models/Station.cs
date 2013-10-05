@@ -50,6 +50,15 @@ namespace ActueelNS.Services.Models
             return (Station)this.MemberwiseClone();
         }
 
+        //public override bool Equals(object obj)
+        //{
+        //    if (this != null && obj != null && obj is Station)
+        //    {
+        //        return this.Code.ToLowerInvariant() == ((Station)obj).Code.ToLowerInvariant();
+        //    }
+        //    else
+        //        return base.Equals(obj);
+        //}
 
 
         public static string GetFirstNameKey(Station person)

@@ -199,22 +199,5 @@ namespace ActueelNS.Views
             }
         }
 
-
-        //private void RootItem_Loaded(object sender, System.Windows.RoutedEventArgs e)
-        //{
-        //    Grid ItemRef = sender as Grid;      // get the reference to the control 
-
-        //    SolidColorBrush backgroundColor = (SolidColorBrush)App.Current.Resources["BackgroundColor"];
-        //    SolidColorBrush alternateColor = (SolidColorBrush)App.Current.Resources["AlternateColor"];
-
-        //    if (_useAlternate)
-        //        ItemRef.Background = alternateColor;
-        //    else
-        //        ItemRef.Background = backgroundColor;
-
-        //    _useAlternate = !_useAlternate; 
-
-        //}
-                
     }
 }

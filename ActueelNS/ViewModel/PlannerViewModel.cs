@@ -380,10 +380,14 @@ namespace ActueelNS.ViewModel
                 }
 
                 //No results? Search international 
-                if (stations.Count() == 0)
+                if (stations.Count() <= 2)
                 {
                   //Search extra names codes etc
                   var extraStations = StationService.GetStations(true).Where(x => x.StartsWith(p)).Take(8);
+
+                //Remove stations already found from extraStations
+                  var dubbel = extraStations.Where(x => stations.Select(s => s.Code).Contains(x.Code)).ToList();
+                  extraStations = extraStations.Except(dubbel);
 
                   stations = stations.Union(extraStations);
                 }
