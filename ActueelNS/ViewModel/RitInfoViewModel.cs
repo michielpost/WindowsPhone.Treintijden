@@ -113,9 +113,6 @@ namespace ActueelNS.ViewModel
                       }
                     }
 
-                    //TODO: Set current station
-                    //TODO: Markeer waar trein nu is...
-
                     return stops;
                 });
 

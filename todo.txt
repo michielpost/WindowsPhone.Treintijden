@@ -1,4 +1,15 @@
 
+TODOs wegwerken
+
+Zoek op IsBusy property, weghalen en DataLoader gebruiken
+
+Storingen testen, komen die mooi omhoog als er storingen zijn?
+
+Hele app doorlopen en kijken naar output window voor BindingErrors 
+
+White theme testen op telefoon!
+
+
 
 
 

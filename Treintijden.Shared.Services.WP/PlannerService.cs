@@ -116,6 +116,10 @@ namespace Treintijden.Shared.Services
             return search;
         }
 
+        public List<ReisMogelijkheid> GetPermStoreSearchResult(Guid id)
+        {
+            return IsolatedStorageCacheManager<List<ReisMogelijkheid>>.Retrieve(string.Format("/SearchResult_{0}.xml", id));
+        }
 
         public void AddPermSearch(PlannerSearch search, List<ReisMogelijkheid> mogelijkheden)
         {
@@ -140,12 +144,6 @@ namespace Treintijden.Shared.Services
             }
             catch { }
         }
-
-        public List<ReisMogelijkheid> GetPermStoreSearchResult(Guid id)
-        {
-            return IsolatedStorageCacheManager<List<ReisMogelijkheid>>.Retrieve(string.Format("/SearchResult_{0}.xml", id));
-        }
-
 
         private void DeletePermStoredSearchResult(Guid id)
         {

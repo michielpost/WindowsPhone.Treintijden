@@ -7,21 +7,41 @@ using System.Text;
 using System.Threading.Tasks;
 using Treintijden.PCL.Api.Interfaces;
 using Treintijden.PCL.Api.Models;
+using Treintijden.Shared.Services.Interfaces;
 
 namespace Treintijden.Shared.Services.WP
 {
     public class CachedNSApiService : INSApiService
     {
         public INSApiService Original { get; set; }
+        public IPlannerService PlannerService { get; set; }
 
-        public CachedNSApiService(INSApiService original)
+        public CachedNSApiService(INSApiService original, IPlannerService plannerService)
         {
             Original = original;
+            PlannerService = plannerService;
         }
 
-        public Task<List<ReisMogelijkheid>> GetSearchResult(PlannerSearch search)
+        public async Task<List<ReisMogelijkheid>> GetSearchResult(PlannerSearch search)
         {
-            return Original.GetSearchResult(search);
+            try
+            {
+                var result = PlannerService.GetPermStoreSearchResult(search.Id);
+                if (result != null)
+                    return result;
+            }
+            catch
+            { }
+
+            var searchResult = await Original.GetSearchResult(search);
+
+            try
+            {
+                PlannerService.PermStoreSearchResult(search.Id, searchResult);
+            }
+            catch{}
+
+            return searchResult;
         }
 
         public Task<ReisPrijs> GetPrijs(PlannerSearch search)

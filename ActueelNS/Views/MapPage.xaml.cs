@@ -88,7 +88,6 @@ namespace ActueelNS.Views
 
         private void OnShowStation(Station station)
         {
-            //TODO
             this.StationPushPin.GeoCoordinate = new GeoCoordinate(station.Lat, station.Long);
 
             this.StationPushPin.Content = station.Name;

@@ -126,9 +126,6 @@ namespace Treintijden.PCL.Api
                             break;
                     }
 
-                    //TODO: Perm store reis result
-                    //PermStoreSearchResult(search.Id, reismogelijkheidList);
-
                     reismogelijkheidList.Add(mogelijkheid);
                 }
 

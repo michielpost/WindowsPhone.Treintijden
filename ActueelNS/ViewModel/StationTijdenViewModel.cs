@@ -226,10 +226,14 @@ namespace ActueelNS.ViewModel
 
         }
 
-        private void LoadTijden()
+        private async void LoadTijden()
         {
-            //TODO
-            //DataManager.Current.Load<VertrektijdenDataModel>(new StationLoadContext(this.CurrentStation.Code)).Refresh();
+            //TODO DataLoader
+            var result = await NSApiService.GetVertrektijden(this.CurrentStation.Code);
+
+            TijdList.Clear();
+            foreach (var s in result)
+                TijdList.Add(s);
         }
 
         void Current_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)

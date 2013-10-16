@@ -104,7 +104,7 @@ namespace ActueelNS.ViewModel
             }
 
             SimpleIoc.Default.Register<IPlannerService, PlannerService>();
-            SimpleIoc.Default.Register<INSApiService>(() => new CachedNSApiService(new NSApiService()));
+            SimpleIoc.Default.Register<INSApiService>(() => new CachedNSApiService(new NSApiService(), SimpleIoc.Default.GetInstance<IPlannerService>()));
 
             SimpleIoc.Default.Register<INavigationService, NavigationService>();
             SimpleIoc.Default.Register<ILiveTileService, LiveTileService>();

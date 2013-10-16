@@ -12,6 +12,7 @@ namespace Treintijden.Shared.Services.Interfaces
 
         List<PlannerSearch> GetListFromStore();
         PlannerSearch GetSearch(Guid id);
+        List<ReisMogelijkheid> GetPermStoreSearchResult(Guid id);
 
         void PermStoreSearchResult(Guid id, List<ReisMogelijkheid> mogelijkheden);
 
