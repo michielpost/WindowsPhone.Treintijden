@@ -115,40 +115,7 @@ namespace ActueelNS.Views
 
         void _vm_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
-            if (e.PropertyName == "IsBusy")
-            {
-                if (null == _progressIndicator)
-                {
-                    _progressIndicator = new ProgressIndicator();
-                    _progressIndicator.IsVisible = true;
-                    SystemTray.ProgressIndicator = _progressIndicator;
-
-                }
-
-                if (_vm.IsBusy)
-                {
-                    _progressIndicator.IsVisible = true;
-                    _progressIndicator.IsIndeterminate = true;
-
-                    _performanceProgressBar.IsEnabled = true;
-                    _performanceProgressBar.IsIndeterminate = true;
-                    LoaderStackPanel.Visibility = System.Windows.Visibility.Visible;
-
-
-                }
-                else
-                {
-                    LoaderStackPanel.Visibility = System.Windows.Visibility.Collapsed;
-                    _performanceProgressBar.IsIndeterminate = false;
-                    _performanceProgressBar.IsEnabled = false;
-
-                    _progressIndicator.IsIndeterminate = false;
-                    _progressIndicator.IsVisible = false;
-
-                }
-
-            }
-            else if (e.PropertyName == "SelectedSearch")
+            if (e.PropertyName == "SelectedSearch")
             {
                 if (_vm.SelectedSearch == null)
                 {
@@ -289,14 +256,6 @@ namespace ActueelNS.Views
                     (ApplicationBar.Buttons[PinIndex] as ApplicationBarIconButton).IsEnabled = false;
 
                 }
-
-            }
-            else if (e.PropertyName == "ShowError")
-            {
-                if (_vm.ShowError)
-                    GeenDataPanel.Visibility = System.Windows.Visibility.Visible;
-                else
-                    GeenDataPanel.Visibility = System.Windows.Visibility.Collapsed;
 
             }
             else if (e.PropertyName == "SearchHistory")

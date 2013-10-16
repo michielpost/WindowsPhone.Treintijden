@@ -38,33 +38,6 @@ namespace ActueelNS.ViewModel
 
         public DataLoader DataLoader { get; set; }
 
-        //private bool _sowError;
-
-        //public bool ShowError
-        //{
-        //    get { return _sowError; }
-        //    set
-        //    {
-        //        _sowError = value;
-        //        RaisePropertyChanged(() => ShowError);
-        //    }
-        //}
-
-
-        //private bool _isBusy;
-
-        //public bool IsBusy
-        //{
-        //    get { return _isBusy; }
-        //    set
-        //    {
-        //        _isBusy = value;
-        //        RaisePropertyChanged(() => IsBusy);
-        //    }
-        //}
-
-
-
         private ReisPrijs _reisPrijs;
 
         public ReisPrijs ReisPrijs

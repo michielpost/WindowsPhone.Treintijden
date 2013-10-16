@@ -16,6 +16,7 @@ using Microsoft.Phone.Tasks;
 using Treintijden.Shared.Services.Interfaces;
 using Treintijden.PCL.Api.Models;
 using Treintijden.PCL.Api.Interfaces;
+using Q42.WinRT.Portable.Data;
 
 namespace ActueelNS.ViewModel
 {
@@ -41,19 +42,6 @@ namespace ActueelNS.ViewModel
         public bool IsInit { get; set; }
 
         private int? _tempIndex;
-
-        private bool _sowError;
-
-        public bool ShowError
-        {
-            get { return _sowError; }
-            set
-            {
-                _sowError = value;
-                RaisePropertyChanged(() => ShowError);
-            }
-        }
-
 
         private ObservableCollection<PlannerSearch> _searchHistory;
 
@@ -115,21 +103,10 @@ namespace ActueelNS.ViewModel
                 RaisePropertyChanged(() => MainReisMogelijkheid);
             }
         }
-        
 
 
-        private bool _isBusy;
 
-        public bool IsBusy
-        {
-            get { return _isBusy; }
-            set
-            {
-                _isBusy = value;
-                RaisePropertyChanged(() => IsBusy);
-            }
-        }
-
+        public DataLoader DataLoader { get; set; }
 
 
         public string PageName
@@ -162,6 +139,7 @@ namespace ActueelNS.ViewModel
         /// </summary>
         public ReisadviesViewModel()
         {
+            DataLoader = new DataLoader();
 
             SearchHistory = new ObservableCollection<PlannerSearch>();
             PlannerService = SimpleIoc.Default.GetInstance<IPlannerService>();
@@ -607,48 +585,33 @@ namespace ActueelNS.ViewModel
 
         private async void GetSearchResult(PlannerSearch search)
         {
+            List<ReisMogelijkheid> reisMogelijkheden = await DataLoader.LoadAsync(() => NSApiService.GetSearchResult(search));
 
-            try
+            //Set color
+            bool useAlternate = false;
+
+            foreach (var mogelijkheid in reisMogelijkheden)
             {
-                IsBusy = true;
+                //Set background color here, for performance
+                mogelijkheid.IsAlternate = useAlternate;
 
-                List<ReisMogelijkheid> reisMogelijkheden = await NSApiService.GetSearchResult(search);
-
-                //Set color
-                bool useAlternate = false;
-
-                foreach (var mogelijkheid in reisMogelijkheden)
-                {
-                    //Set background color here, for performance
-                    mogelijkheid.IsAlternate = useAlternate;
-
-                    useAlternate = !useAlternate;
-                }
-
-
-                ReisMogelijkheden = reisMogelijkheden;
-
-                if (_tempIndex.HasValue && ReisMogelijkheden.Count > _tempIndex.Value)
-                {
-                    SelectedReisMogelijkheid = ReisMogelijkheden[_tempIndex.Value];
-                    _tempIndex = null;
-                }
-                else
-                {
-                    SelectedReisMogelijkheid = reisMogelijkheden.Where(x => x.Optimaal).FirstOrDefault();
-                }
-
-                ShowError = false;
-
+                useAlternate = !useAlternate;
             }
-            catch (Exception e)
+
+
+            ReisMogelijkheden = reisMogelijkheden;
+
+            if (_tempIndex.HasValue && ReisMogelijkheden.Count > _tempIndex.Value)
             {
-                ShowError = true;
+                SelectedReisMogelijkheid = ReisMogelijkheden[_tempIndex.Value];
+                _tempIndex = null;
             }
-            finally
+            else
             {
-                IsBusy = false;
+                SelectedReisMogelijkheid = reisMogelijkheden.Where(x => x.Optimaal).FirstOrDefault();
             }
+
+
         }
 
         private void RefreshSearchHistory()
