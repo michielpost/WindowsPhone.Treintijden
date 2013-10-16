@@ -73,23 +73,10 @@ namespace ActueelNS.Views
 
         void _vm_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
-            if (e.PropertyName == "IsBusy")
-            {
-                ShowBusy(_vm.IsBusy);
-
-            }
-            else if (e.PropertyName == "StoringenVisible")
+            if (e.PropertyName == "StoringenVisible")
             {
                 if (_vm.StoringenVisible)
                     StoringenVisible.Begin();
-            }
-            else if (e.PropertyName == "ShowError")
-            {
-                if (_vm.ShowError)
-                    GeenDataPanel.Visibility = System.Windows.Visibility.Visible;
-                else
-                    GeenDataPanel.Visibility = System.Windows.Visibility.Collapsed;
-
             }
             else if (e.PropertyName == "InMyStations")
             {
@@ -106,37 +93,6 @@ namespace ActueelNS.Views
             }
         }
 
-        private void ShowBusy(bool isBusy)
-        {
-            if (null == _progressIndicator)
-            {
-                _progressIndicator = new ProgressIndicator();
-                _progressIndicator.IsVisible = true;
-                SystemTray.ProgressIndicator = _progressIndicator;
-
-
-            }
-
-            if (isBusy)
-            {
-                _progressIndicator.IsVisible = true;
-                _progressIndicator.IsIndeterminate = true;
-
-                _performanceProgressBar.IsEnabled = true;
-                _performanceProgressBar.IsIndeterminate = true;
-                LoaderStackPanel.Visibility = System.Windows.Visibility.Visible;
-
-            }
-            else
-            {
-                _progressIndicator.IsIndeterminate = false;
-                _progressIndicator.IsVisible = false;
-
-                LoaderStackPanel.Visibility = System.Windows.Visibility.Collapsed;
-                _performanceProgressBar.IsIndeterminate = false;
-                _performanceProgressBar.IsEnabled = false;
-            }
-        }
 
         private void RefreshButton_Click(object sender, System.EventArgs e)
         {

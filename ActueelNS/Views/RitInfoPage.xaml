@@ -101,7 +101,7 @@
                            Style="{StaticResource PhoneTextNormalStyleCustom}"
                            Text="{Binding Path=LocalizedResources.RitInfoLoading,
                                           Source={StaticResource LocalizedStrings}}" />
-                <ProgressBar x:Name="_performanceProgressBar" Foreground="{StaticResource TextColor}" IsEnabled="{Binding DataLoader.IsBusy}" IsIndeterminate="True" VerticalAlignment="Top" />
+                <ProgressBar x:Name="_performanceProgressBar" Foreground="{StaticResource TextColor}" IsEnabled="{Binding DataLoader.IsBusy}" IsIndeterminate="{Binding DataLoader.IsBusy}" VerticalAlignment="Top" />
             </StackPanel>
 
             <StackPanel x:Name="GeenDataPanel"

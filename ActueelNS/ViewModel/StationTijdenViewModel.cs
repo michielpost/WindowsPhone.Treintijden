@@ -25,6 +25,7 @@ using ActueelNS.Resources;
 using Treintijden.Shared.Services.Interfaces;
 using Treintijden.PCL.Api.Models;
 using Treintijden.PCL.Api.Interfaces;
+using Q42.WinRT.Portable.Data;
 
 namespace ActueelNS.ViewModel
 {
@@ -40,30 +41,7 @@ namespace ActueelNS.ViewModel
         //public IVertrektijdenService VertrektijdenService { get; set; }
         public ILiveTileService LiveTileService { get; set; }
 
-        private bool _isBusy;
-
-        public bool IsBusy
-        {
-            get { return _isBusy; }
-            set
-            {
-                _isBusy = value;
-                RaisePropertyChanged(() => IsBusy);
-            }
-        }
-
-        private bool _sowError;
-
-        public bool ShowError
-        {
-            get { return _sowError; }
-            set
-            {
-                _sowError = value;
-                RaisePropertyChanged(() => ShowError);
-            }
-        }
-
+        public DataLoader DataLoader { get; set; }
 
         private Station _currentStation;
 
@@ -148,6 +126,8 @@ namespace ActueelNS.ViewModel
         {
             //TijdList = new ObservableCollection<Vertrektijd>();
 
+            DataLoader = new DataLoader();
+
             if (IsInDesignMode)
             {
                 // Code runs in Blend --> create design time data.
@@ -218,8 +198,6 @@ namespace ActueelNS.ViewModel
             RitInfoCommand = new RelayCommand<Vertrektijd>(x => ToRitInfo(x));
 
 
-            DataManager.Current.PropertyChanged += new System.ComponentModel.PropertyChangedEventHandler(Current_PropertyChanged);
-
             //TODO
             //ViewModelLocator.StoringenStatic.CurrentStoringen.CollectionChanged += new System.Collections.Specialized.NotifyCollectionChangedEventHandler(CurrentStoringen_CollectionChanged);
             InitStoringen();
@@ -229,18 +207,14 @@ namespace ActueelNS.ViewModel
         private async void LoadTijden()
         {
             //TODO DataLoader
-            var result = await NSApiService.GetVertrektijden(this.CurrentStation.Code);
+            var result = await DataLoader.LoadAsync(() => NSApiService.GetVertrektijden(this.CurrentStation.Code));
 
             TijdList.Clear();
             foreach (var s in result)
                 TijdList.Add(s);
         }
 
-        void Current_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
-        {
-            if (e.PropertyName == "IsLoading")
-                IsBusy = DataManager.Current.IsLoading;
-        }
+       
 
         void CurrentStoringen_CollectionChanged(object sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
         {
@@ -343,19 +317,8 @@ namespace ActueelNS.ViewModel
 
             TijdList = null;
 
-            IsBusy = true;
 
-            try
-            {
-                TijdList = new ObservableCollection<Vertrektijd>(await NSApiService.GetVertrektijden(this.CurrentStation.Code));
-                IsBusy = false;
-            }
-            catch (Exception ex)
-            {
-                ShowError = true;
-                IsBusy = false;
-            }
-
+            TijdList = new ObservableCollection<Vertrektijd>(await DataLoader.LoadAsync(() => NSApiService.GetVertrektijden(this.CurrentStation.Code)));
 
             InMyStations = StationService.GetMyStations().Where(x => x.Code == CurrentStation.Code).Any();
 

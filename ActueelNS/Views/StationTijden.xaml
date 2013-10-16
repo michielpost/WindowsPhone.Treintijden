@@ -25,6 +25,12 @@
                             SupportedOrientations="Portrait"
                             mc:Ignorable="d">
 
+    <shell:SystemTray.ProgressIndicator>
+        <shell:ProgressIndicator 
+            IsIndeterminate="{Binding DataLoader.IsBusy}"
+            IsVisible="{Binding DataLoader.IsBusy}" />
+    </shell:SystemTray.ProgressIndicator>
+
     <viewBase:ViewBase.Resources>
         <converters:VisibilityConverter x:Key="VisibilityConverter" />
         <converters:InverseVisibilityConverter x:Key="InverseVisibilityConverter" />
@@ -213,20 +219,20 @@
                         Height="40"
                         VerticalAlignment="Top"
                         Background="{StaticResource BackgroundColor}"
-                        Visibility="Collapsed">
+                        Visibility="{Binding DataLoader.IsBusy, Converter={StaticResource VisibilityConverter}}">
                 <TextBlock Margin="24,0,0,0"
                            Style="{StaticResource PhoneTextNormalStyleCustom}"
                            Text="{Binding Path=LocalizedResources.StationTijdenLoading,
                                           Source={StaticResource LocalizedStrings}}" />
                 <!--<toolkit:PerformanceProgressBar x:Name="_performanceProgressBar" VerticalAlignment="Top" />-->
-                <ProgressBar x:Name="_performanceProgressBar" Foreground="{StaticResource TextColor}" VerticalAlignment="Top" />
+                <ProgressBar x:Name="_performanceProgressBar" Foreground="{StaticResource TextColor}" VerticalAlignment="Top" IsIndeterminate="{Binding DataLoader.IsBusy}" />
             </StackPanel>
 
             <StackPanel x:Name="GeenDataPanel"
                         Grid.Row="0"
                         VerticalAlignment="Top"
                         Background="{StaticResource BackgroundColor}"
-                        Visibility="Collapsed">
+                        Visibility="{Binding DataLoader.IsError, Converter={StaticResource VisibilityConverter}}">
                 <Border Margin="12"
                         BorderBrush="{StaticResource TextColor}"
                         BorderThickness="3">
