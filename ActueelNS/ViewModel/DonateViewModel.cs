@@ -45,6 +45,8 @@ namespace ActueelNS.ViewModel
         /// </summary>
         public DonateViewModel()
         {
+            DataLoader = new DataLoader();
+
             ////if (IsInDesignMode)
             ////{
             ////    // Code runs in Blend --> create design time data.

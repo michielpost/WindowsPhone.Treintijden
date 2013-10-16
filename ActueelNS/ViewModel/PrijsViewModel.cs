@@ -100,6 +100,8 @@ namespace ActueelNS.ViewModel
             PlannerService = SimpleIoc.Default.GetInstance<IPlannerService>();
             NSApiService = SimpleIoc.Default.GetInstance<INSApiService>();
 
+            DataLoader = new DataLoader();
+
             if (IsInDesignMode)
             {
                 // Code runs in Blend --> create design time data.

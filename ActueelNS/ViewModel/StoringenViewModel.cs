@@ -76,32 +76,6 @@ namespace ActueelNS.ViewModel
 
         public DataLoader DataLoader { get; set; }
 
-
-        //private bool _showError;
-
-        //public bool ShowError
-        //{
-        //    get { return _showError; }
-        //    set
-        //    {
-        //        _showError = value;
-        //        RaisePropertyChanged(() => ShowError);
-        //    }
-        //}
-
-        //private bool _isBusy;
-
-        //public bool IsBusy
-        //{
-        //    get { return _isBusy; }
-        //    set
-        //    {
-        //        _isBusy = value;
-        //        RaisePropertyChanged(() => IsBusy);
-        //    }
-        //}
-
-
         private string _pageName;
 
         public string PageName
@@ -126,6 +100,9 @@ namespace ActueelNS.ViewModel
             LiveTileService = SimpleIoc.Default.GetInstance<ILiveTileService>();
             NavigationService = SimpleIoc.Default.GetInstance<INavigationService>();
             NSApiService = SimpleIoc.Default.GetInstance<INSApiService>();
+
+            DataLoader = new DataLoader();
+
 
             if (IsInDesignMode)
             {
