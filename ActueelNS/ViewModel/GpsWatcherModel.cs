@@ -93,6 +93,8 @@ namespace ActueelNS.ViewModel
                 {
                     Instance.Start();
                 }
+                else
+                    Instance.Stop();
             }
             catch { }
         }

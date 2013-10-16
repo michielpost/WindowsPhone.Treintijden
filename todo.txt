@@ -1,8 +1,3 @@
-
-
-
-Locatiebepaling mag nooit aangaan als it in de instellingen uitstaat
-
 Hele app doorlopen en kijken naar output window voor BindingErrors 
 
 Testen zonder internet connectie
