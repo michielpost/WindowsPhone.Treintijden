@@ -10,8 +10,6 @@ namespace Treintijden.Shared.Services
     {
         public IList<Station> GetMyStations()
         {
-            //TaskEx.Delay(TimeSpan.FromSeconds(5)).Wait();  
- 
             List<Station> names = GetListFromStore();
 
             return names;
@@ -54,6 +52,10 @@ namespace Treintijden.Shared.Services
                 stations.Remove(station);
 
             SaveListToStore(stations);
+        }
+        public void DeleteStation(string name)
+        {
+            SaveListToStore(new List<Station>());
         }
 
 

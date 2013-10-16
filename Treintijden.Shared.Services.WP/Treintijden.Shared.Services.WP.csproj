@@ -86,17 +86,22 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="CachedNSApiService.cs" />
+    <Compile Include="Interfaces\ILastStationService.cs" />
     <Compile Include="Interfaces\IPlannerService.cs" />
     <Compile Include="Interfaces\ISettingService.cs" />
     <Compile Include="Interfaces\IStationNameService.cs" />
     <Compile Include="Interfaces\IStationService.cs" />
+    <Compile Include="Interfaces\IMyTrajectService.cs" />
+    <Compile Include="LastStationService.cs" />
     <Compile Include="Models\AppSetting.cs" />
+    <Compile Include="Models\Traject.cs" />
     <Compile Include="PlannerService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SettingService.cs" />
     <Compile Include="StationNameService.cs" />
     <Compile Include="StationService.cs" />
     <Compile Include="TEMP\IsolatedStorageCacheManager.cs" />
+    <Compile Include="MyTrajectService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">

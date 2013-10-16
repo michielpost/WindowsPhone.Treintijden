@@ -12,6 +12,8 @@ namespace Treintijden.Shared.Services.Interfaces
 
         void DeleteStation(string name);
 
+        void Clear();
+
     
     }
 }

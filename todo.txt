@@ -2,6 +2,8 @@
 
 Nieuwe Q42 lib: Testen zonder internet connectie
 
+Hoe netjes settings opslaan?
+
 
 
 
