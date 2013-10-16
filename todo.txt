@@ -1,11 +1,11 @@
 
-TODOs wegwerken
 
 
-
-Storingen testen, komen die mooi omhoog als er storingen zijn?
+Locatiebepaling mag nooit aangaan als it in de instellingen uitstaat
 
 Hele app doorlopen en kijken naar output window voor BindingErrors 
+
+Testen zonder internet connectie
 
 White theme testen op telefoon!
 

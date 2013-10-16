@@ -513,13 +513,7 @@ namespace ActueelNS.ViewModel
             if (e.PropertyName == "SelectedReisMogelijkheid")
             {
 
-                //MessageBox.Show("A");
-
-
                 int delay = 30;
-                //if (MainReisMogelijkheid == null)
-                //int   delay = 120;
-
 
                 LaterCommand.RaiseCanExecuteChanged();
                 EerderCommand.RaiseCanExecuteChanged();

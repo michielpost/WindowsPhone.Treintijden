@@ -44,20 +44,23 @@ namespace ActueelNS.ViewModel
             {
                 _storingenDataModel = value;
                 RaisePropertyChanged(() => StoringDataModel);
-                RaisePropertyChanged(() => CurrentStoringen);
                 RaisePropertyChanged(() => Werkzaamheden);
+
+                if (value != null)
+                {
+                    foreach (var s in value.Storingen)
+                        CurrentStoringen.Add(s);
+                }
             }
         }
 
 
-        public List<Storing> CurrentStoringen
+        private ObservableCollection<Storing> _currentStoringe = new ObservableCollection<Storing>();
+        public ObservableCollection<Storing> CurrentStoringen
         {
             get
             {
-                if (StoringDataModel != null)
-                    return StoringDataModel.Storingen;
-
-                return null;
+                return _currentStoringe;
             }
 
         }

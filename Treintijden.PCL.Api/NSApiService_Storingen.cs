@@ -39,6 +39,10 @@ namespace Treintijden.PCL.Api
 
             string response = await webclient.GetStringAsync(address);
 
+#if DEBUG
+            await Task.Delay(TimeSpan.FromSeconds(2));
+#endif
+
             return await Task.Run(() =>
             {
                 //System.Threading.Thread.Sleep(5000);
@@ -49,7 +53,10 @@ namespace Treintijden.PCL.Api
 
                 List<Werkzaamheden> werkzaamhedenLijst = ParseWerkzaamheden(storingenXmlElement);
 
-                //await TaskEx.Delay(TimeSpan.FromSeconds(5));  
+#if DEBUG
+                storingLijst.Add(new Storing() { Bericht = "Test" });
+#endif
+
 
                 _syncDate = DateTime.Now;
                 _data = new StoringenEnWerkzaamheden();

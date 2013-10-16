@@ -197,15 +197,13 @@ namespace ActueelNS.ViewModel
             RitInfoCommand = new RelayCommand<Vertrektijd>(x => ToRitInfo(x));
 
 
-            //TODO
-            //ViewModelLocator.StoringenStatic.CurrentStoringen.CollectionChanged += new System.Collections.Specialized.NotifyCollectionChangedEventHandler(CurrentStoringen_CollectionChanged);
+            ViewModelLocator.StoringenStatic.CurrentStoringen.CollectionChanged += new System.Collections.Specialized.NotifyCollectionChangedEventHandler(CurrentStoringen_CollectionChanged);
             InitStoringen();
 
         }
 
         private async void LoadTijden()
         {
-            //TODO DataLoader
             var result = await DataLoader.LoadAsync(() => NSApiService.GetVertrektijden(this.CurrentStation.Code));
 
             TijdList.Clear();
