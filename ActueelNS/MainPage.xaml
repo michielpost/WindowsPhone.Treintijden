@@ -26,6 +26,12 @@
                             SupportedOrientations="Portrait"
                             mc:Ignorable="d">
 
+    <shell:SystemTray.ProgressIndicator>
+        <shell:ProgressIndicator 
+            IsIndeterminate="{Binding GpsWatcherViewModel.IsBusy, Source={StaticResource Locator}}"
+            IsVisible="{Binding GpsWatcherViewModel.IsBusy, Source={StaticResource Locator}}" />
+    </shell:SystemTray.ProgressIndicator>
+
     <viewBase:ViewBase.Resources>
 
         <Storyboard x:Name="StoringenVisible">
@@ -75,13 +81,13 @@
                         Height="40"
                         VerticalAlignment="Top"
                         Background="{StaticResource BackgroundColor}"
-                        Visibility="Collapsed">
+                        Visibility="{Binding GpsWatcherViewModel.IsBusy, Source={StaticResource Locator}, Converter={StaticResource VisibilityConverter}}">
                 <TextBlock Margin="24,0,0,0"
                            Style="{StaticResource PhoneTextNormalStyleCustom}"
                            Text="{Binding Path=LocalizedResources.MainLocationLoading,
                                           Source={StaticResource LocalizedStrings}}" />
                 <!--<toolkit:PerformanceProgressBar x:Name="_performanceProgressBar" VerticalAlignment="Top" />-->
-                <ProgressBar x:Name="_performanceProgressBar" Foreground="{StaticResource TextColor}" VerticalAlignment="Top" />
+                <ProgressBar x:Name="_performanceProgressBar" Foreground="{StaticResource TextColor}" VerticalAlignment="Top" IsIndeterminate="{Binding GpsWatcherViewModel.IsBusy, Source={StaticResource Locator}}" />
             </StackPanel>
 
             <ScrollViewer Grid.Row="1">

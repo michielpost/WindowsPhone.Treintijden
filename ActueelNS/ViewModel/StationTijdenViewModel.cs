@@ -20,7 +20,6 @@ using System.Linq;
 using System.Threading;
 using System.Windows.Media.Imaging;
 using ActueelNS.Tile;
-using AgFx;
 using ActueelNS.Resources;
 using Treintijden.Shared.Services.Interfaces;
 using Treintijden.PCL.Api.Models;

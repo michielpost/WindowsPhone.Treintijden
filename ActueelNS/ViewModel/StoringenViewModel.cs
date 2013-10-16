@@ -3,7 +3,6 @@ using System;
 using ActueelNS.Services.Interfaces;
 using GalaSoft.MvvmLight.Ioc;
 using System.Collections.ObjectModel;
-using AgFx;
 using Microsoft.Phone.Net.NetworkInformation;
 using ActueelNS.Resources;
 using GalaSoft.MvvmLight.Command;

@@ -2,7 +2,6 @@
 using ActueelNS.Services.Interfaces;
 using GalaSoft.MvvmLight.Ioc;
 using System;
-using AgFx;
 using ActueelNS.Resources;
 using Treintijden.Shared.Services.Interfaces;
 using Treintijden.PCL.Api.Models;

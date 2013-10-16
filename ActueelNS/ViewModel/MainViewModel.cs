@@ -49,19 +49,6 @@ namespace ActueelNS.ViewModel
             }
         }
 
-       
-
-        private bool _isBusy;
-
-        public bool IsBusy
-        {
-            get { return _isBusy; }
-            set { 
-                _isBusy = value;
-                RaisePropertyChanged(() => IsBusy);
-            }
-        }
-
         public IEnumerable<Station> GpsStationList
         {
             get
@@ -238,20 +225,8 @@ namespace ActueelNS.ViewModel
                 RaisePropertyChanged(() => IsNewTextVisible);
                 RaisePropertyChanged(() => StationList);
 
-                IsBusy = false;
             }
-            else if (e.PropertyName == "IsBusy")
-            {
-                //bool busy = ViewModelLocator.GpsWatcherStatic.IsBusy;
-
-                if (ViewModelLocator.GpsWatcherStatic.Stations != null 
-                    && ViewModelLocator.GpsWatcherStatic.Stations.Count() > 0)
-                    IsBusy = false;
-                else
-                {
-                    IsBusy = ViewModelLocator.GpsWatcherStatic.IsBusy;
-                }
-            }
+           
            
         }
 
@@ -338,19 +313,13 @@ namespace ActueelNS.ViewModel
                 else
                 {
 
-                    if (SettingService.GetSettings().AllowGps
-                        && SettingService.GetSettings().ShowList)
-                    {
-                        IsBusy = true;
-                    }
+                   
 
                     Task.Run(() =>
                         {
                             ViewModelLocator.GpsWatcherStatic.StartWatcher();
                         });
 
-                    await Task.Delay(3 * 1000);
-                    IsBusy = false;
                 }
             }
 

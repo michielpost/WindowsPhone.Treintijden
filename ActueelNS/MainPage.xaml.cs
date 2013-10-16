@@ -103,7 +103,6 @@ namespace ActueelNS
 
             _vm.Update();
 
-            CheckBusy();
             CheckStoringenVisible();
 
             base.OnNavigatedTo(e);
@@ -119,12 +118,7 @@ namespace ActueelNS
 
         void _vm_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
-            if (e.PropertyName == "IsBusy")
-            {
-                CheckBusy();
-
-            }
-            else if (e.PropertyName == "StoringenVisible")
+           if (e.PropertyName == "StoringenVisible")
             {
                 CheckStoringenVisible();
             }
@@ -136,38 +130,6 @@ namespace ActueelNS
             {
                 _animationPlayed = true;
                 StoringenVisible.Begin();
-            }
-        }
-
-        private void CheckBusy()
-        {
-            if (null == _progressIndicator)
-            {
-                _progressIndicator = new ProgressIndicator();
-                _progressIndicator.IsVisible = true;
-                SystemTray.ProgressIndicator = _progressIndicator;
-
-
-            }
-
-            if (_vm.IsBusy)
-            {
-                _progressIndicator.IsVisible = true;
-                _progressIndicator.IsIndeterminate = true;
-
-                _performanceProgressBar.IsEnabled = true;
-                _performanceProgressBar.IsIndeterminate = true;
-                LoaderStackPanel.Visibility = System.Windows.Visibility.Visible;
-
-            }
-            else
-            {
-                _progressIndicator.IsIndeterminate = false;
-                _progressIndicator.IsVisible = false;
-
-                LoaderStackPanel.Visibility = System.Windows.Visibility.Collapsed;
-                _performanceProgressBar.IsIndeterminate = false;
-                _performanceProgressBar.IsEnabled = false;
             }
         }
 
