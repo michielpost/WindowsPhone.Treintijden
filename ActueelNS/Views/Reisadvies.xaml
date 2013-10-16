@@ -816,7 +816,7 @@
                                Margin="24,0,0,0"
                                Foreground="{StaticResource AlternateTextColor}"
                                Style="{StaticResource PhoneTextNormalStyleCustom}"
-                               Text="{Binding VertragingTekst}" />
+                                />
                 </StackPanel>
             </Grid>
 

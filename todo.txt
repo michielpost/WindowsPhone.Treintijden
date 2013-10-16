@@ -1,8 +1,8 @@
-Hele app doorlopen en kijken naar output window voor BindingErrors 
 
-Testen zonder internet connectie
 
-White theme testen op telefoon!
+Nieuwe Q42 lib: Testen zonder internet connectie
+
+
 
 
 
