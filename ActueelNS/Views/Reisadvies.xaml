@@ -36,6 +36,7 @@
         -->
 
         <converters:VisibilityConverter x:Key="VisibilityConverter" />
+        <converters:AlternateColorConverter x:Key="AlternateColorConverter" />
 
         <Storyboard x:Name="ShowStep1Header" Duration="0:0:0.5">
 
@@ -492,7 +493,7 @@
                     </ListBox.ItemContainerStyle>
                     <ListBox.ItemTemplate>
                         <DataTemplate>
-                            <Grid Margin="12,3,3,3" Background="{Binding BackgroundColor}">
+                            <Grid Margin="12,3,3,3" Background="{Binding IsAlternate, Converter={StaticResource AlternateColorConverter}}">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="120" />
                                     <ColumnDefinition Width="120" />
@@ -552,8 +553,8 @@
 
                             <Grid x:Name="RootItem"
                                               Width="480"
-                                              Background="{Binding BackgroundColor}"
-                                              Margin="0,0,0,0">
+                                Background="{Binding IsAlternate, Converter={StaticResource AlternateColorConverter}}"
+                                Margin="0,0,0,0">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="72" />
                                     <ColumnDefinition Width="*" />
@@ -628,7 +629,7 @@
                                                                     BorderThickness="0,0,2,2"
                                                        Margin="-1,-1,0,0"
                                                                     Padding="0,0,0,0"
-                                                                    Visibility="{Binding FirstStop.ShowVertrekspoorWijziging}" />
+                                                                    Visibility="{Binding FirstStop.ShowVertrekspoorWijziging, Converter={StaticResource VisibilityConverter}}" />
 
                                             </Border>
 
@@ -763,7 +764,7 @@
                                                                       BorderThickness="0,0,2,2"
                                                        Margin="-1,-1,0,0"
                                                                     Padding="0,0,0,0"
-                                                                    Visibility="{Binding LastStop.ShowVertrekspoorWijziging}" />
+                                                                    Visibility="{Binding LastStop.ShowVertrekspoorWijziging, Converter={StaticResource VisibilityConverter}}" />
 
                                             </Border>
 

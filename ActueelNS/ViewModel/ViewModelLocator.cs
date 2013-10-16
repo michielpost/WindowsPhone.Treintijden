@@ -18,7 +18,11 @@ using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Ioc;
 using ActueelNS.Services.Interfaces;
 using ActueelNS.Services;
-using ActueelNS.Services.Mocks;
+using Treintijden.Shared.Services.Interfaces;
+using Treintijden.Shared.Services;
+using Treintijden.PCL.Api.Interfaces;
+using Treintijden.Shared.Services.WP;
+using Treintijden.PCL.Api;
 namespace ActueelNS.ViewModel
 {
     /// <summary>
@@ -85,7 +89,7 @@ namespace ActueelNS.ViewModel
             if (ViewModelBase.IsInDesignModeStatic)
             {
                 // Create design time view models
-                SimpleIoc.Default.Register<IStationService, StationServiceMock>();
+                //SimpleIoc.Default.Register<IStationService, StationServiceMock>();
                 //SimpleIoc.Default.Register<IStoringenService, StoringenServiceMock>();
                 //SimpleIoc.Default.Register<IVertrektijdenService, VertrektijdenServiceMock>();
                 
@@ -94,13 +98,13 @@ namespace ActueelNS.ViewModel
             {
                 // Create run time view models
                 SimpleIoc.Default.Register<IStationService, StationService>();
+                SimpleIoc.Default.Register<IStationNameService, StationNameService>();
                 //SimpleIoc.Default.Register<IStoringenService, StoringenService>();
                 //SimpleIoc.Default.Register<IVertrektijdenService, VertrektijdenService>();
             }
 
             SimpleIoc.Default.Register<IPlannerService, PlannerService>();
-            SimpleIoc.Default.Register<IRitnummerService, RitnummerService>();
-            //SimpleIoc.Default.Register<IPrijsService, PrijsService>();
+            SimpleIoc.Default.Register<INSApiService>(() => new CachedNSApiService(new NSApiService()));
 
             SimpleIoc.Default.Register<INavigationService, NavigationService>();
             SimpleIoc.Default.Register<ILiveTileService, LiveTileService>();

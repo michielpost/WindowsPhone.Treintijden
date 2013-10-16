@@ -1,6 +1,5 @@
 ﻿using ActueelNS.Resources;
 using ActueelNS.Services.Interfaces;
-using ActueelNS.Services.Models;
 using GalaSoft.MvvmLight.Ioc;
 using Q42.WinRT.Portable.Data;
 using System;
@@ -8,13 +7,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Treintijden.PCL.Api.Interfaces;
+using Treintijden.PCL.Api.Models;
+using Treintijden.Shared.Services.Interfaces;
 
 namespace ActueelNS.ViewModel
 {
     public class RitInfoViewModel : CustomViewModelBase
     {
         public IStationService StationService { get; set; }
-        public IRitnummerService RitnummerService { get; set; }
+        public IStationNameService StationNameService { get; set; }
+        public INSApiService RitnummerService { get; set; }
         public event EventHandler<EventArgs> RitInfoAvailable;
 
 
@@ -62,7 +65,8 @@ namespace ActueelNS.ViewModel
         public RitInfoViewModel()
         {
             StationService = SimpleIoc.Default.GetInstance<IStationService>();
-            RitnummerService = SimpleIoc.Default.GetInstance<IRitnummerService>();
+            StationNameService = SimpleIoc.Default.GetInstance<IStationNameService>();
+            RitnummerService = SimpleIoc.Default.GetInstance<INSApiService>();
 
             DataLoader = new DataLoader(true);
 
@@ -100,7 +104,7 @@ namespace ActueelNS.ViewModel
                       //Fill station name for each stop
                       foreach (var stop in stops)
                       {
-                        var station = StationService.GetStationByCode(stop.Code);
+                        var station = StationNameService.GetStationByCode(stop.Code);
                         if (station != null)
                             stop.Station = station.Name;
 

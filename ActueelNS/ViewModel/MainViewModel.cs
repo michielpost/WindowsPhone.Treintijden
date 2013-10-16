@@ -3,12 +3,14 @@ using ActueelNS.Services.Interfaces;
 using GalaSoft.MvvmLight.Command;
 using System;
 using System.Threading.Tasks;
-using ActueelNS.Services.Models;
 using System.Collections.Generic;
 using GalaSoft.MvvmLight.Ioc;
 using Microsoft.Phone.Tasks;
 using System.Linq;
 using ActueelNS.Resources;
+using Treintijden.Shared.Services.Interfaces;
+using Treintijden.PCL.Api.Models;
+using Treintijden.PCL.Api.Interfaces;
 
 namespace ActueelNS.ViewModel
 {
@@ -28,6 +30,7 @@ namespace ActueelNS.ViewModel
     {
         public INavigationService NavigationService { get; set; }
         public IStationService StationService { get; set; }
+        public IStationNameService StationNameService { get; set; }
        // public IStoringenService StoringenService { get; set; }
         public ILiveTileService LiveTileService { get; set; }
         public ISettingService SettingService { get; set; }
@@ -155,6 +158,7 @@ namespace ActueelNS.ViewModel
         {
 
             StationService = SimpleIoc.Default.GetInstance<IStationService>();
+            StationNameService = SimpleIoc.Default.GetInstance<IStationNameService>();
             //StoringenService = SimpleIoc.Default.GetInstance<IStoringenService>();
             NavigationService = SimpleIoc.Default.GetInstance<INavigationService>();
             LiveTileService = SimpleIoc.Default.GetInstance<ILiveTileService>();
@@ -170,7 +174,8 @@ namespace ActueelNS.ViewModel
             {
                 ViewModelLocator.GpsWatcherStatic.PropertyChanged += new System.ComponentModel.PropertyChangedEventHandler(GpsWatcherStatic_PropertyChanged);
 
-                ViewModelLocator.StoringenStatic.CurrentStoringen.CollectionChanged += new System.Collections.Specialized.NotifyCollectionChangedEventHandler(CurrentStoringen_CollectionChanged);
+                //TODO:
+                //ViewModelLocator.StoringenStatic.CurrentStoringen.CollectionChanged += new System.Collections.Specialized.NotifyCollectionChangedEventHandler(CurrentStoringen_CollectionChanged);
                 InitStoringen();
 
             }
@@ -210,7 +215,7 @@ namespace ActueelNS.ViewModel
 
         private void InitStoringen()
         {
-            if (ViewModelLocator.StoringenStatic.CurrentStoringen.Count == 0)
+            if (ViewModelLocator.StoringenStatic.CurrentStoringen == null || ViewModelLocator.StoringenStatic.CurrentStoringen.Count == 0)
             {
                 StoringenVisible = false;
             }
@@ -268,7 +273,7 @@ namespace ActueelNS.ViewModel
 
         private void PinStation(string name)
         {
-            var station = StationService.GetStationByName(name);
+            var station = StationNameService.GetStationByName(name);
             LiveTileService.CreateStation(name, station.Code);
         }
 

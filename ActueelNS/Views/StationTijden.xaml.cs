@@ -5,7 +5,7 @@ using System.Windows.Controls;
 using System.Windows.Media;
 using ActueelNS.Resources;
 using ActueelNS.Views.Base;
-using ActueelNS.Services.Models;
+using Treintijden.PCL.Api.Models;
 
 namespace ActueelNS.Views
 {

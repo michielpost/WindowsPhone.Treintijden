@@ -1,5 +1,4 @@
 ﻿using ActueelNS.Services.Interfaces;
-using ActueelNS.Services.Models;
 using GalaSoft.MvvmLight.Ioc;
 using GalaSoft.MvvmLight.Messaging;
 using System;
@@ -7,6 +6,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Treintijden.PCL.Api.Interfaces;
+using Treintijden.PCL.Api.Models;
+using Treintijden.Shared.Services.Interfaces;
 
 namespace ActueelNS.ViewModel
 {
@@ -33,9 +35,10 @@ namespace ActueelNS.ViewModel
         //    RaisePropertyChanged(() => Stations);
         //    }
         //}
-        
+
 
         public IStationService StationService { get; set; }
+        public IStationNameService StationNameService { get; set; }
 
         /// <summary>
         /// Initializes a new instance of the AboutViewModel class.
@@ -52,6 +55,7 @@ namespace ActueelNS.ViewModel
             ////}
 
             StationService = SimpleIoc.Default.GetInstance<IStationService>();
+            StationNameService = SimpleIoc.Default.GetInstance<IStationNameService>();
 
             //Stations = StationService.GetStations("NL");
 
@@ -69,7 +73,7 @@ namespace ActueelNS.ViewModel
 
         internal void LoadStation(string stationCode)
         {
-            CurrentStation = StationService.GetStationByCode(stationCode);
+            CurrentStation = StationNameService.GetStationByCode(stationCode);
 
             //if(CurrentStation != null)
             //    Messenger.Default.Send<Station>(CurrentStation, "showmap");

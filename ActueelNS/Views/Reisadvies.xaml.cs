@@ -6,8 +6,8 @@ using System.Windows.Controls;
 using System.Windows.Media;
 using Microsoft.Phone.Shell;
 using ActueelNS.Resources;
-using ActueelNS.Services.Models;
 using ActueelNS.Views.Base;
+using Treintijden.PCL.Api.Models;
 
 namespace ActueelNS.Views
 {

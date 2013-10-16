@@ -13,15 +13,18 @@ using System.Collections.ObjectModel;
 using ActueelNS.Services.Interfaces;
 using GalaSoft.MvvmLight.Ioc;
 using System.Linq;
-using ActueelNS.Services.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Treintijden.Shared.Services.Interfaces;
+using Treintijden.PCL.Api.Models;
+using Treintijden.PCL.Api.Interfaces;
 
 namespace ActueelNS.ViewModel
 {
     public class GpsWatcherModel : CustomViewModelBase
     {
         public IStationService StationService { get; set; }
+        public IStationNameService StationNameService { get; set; }
         public ISettingService SettingService { get; set; }
 
 
@@ -77,6 +80,7 @@ namespace ActueelNS.ViewModel
         {
             StationService = SimpleIoc.Default.GetInstance<IStationService>();
             SettingService = SimpleIoc.Default.GetInstance<ISettingService>();
+            StationNameService = SimpleIoc.Default.GetInstance<IStationNameService>();
 
             
         }
@@ -164,7 +168,7 @@ namespace ActueelNS.ViewModel
                 {
                     CurrentLocation = e.Position.Location;
 
-                    var stationList = StationService.GetStations();
+                    var stationList = StationNameService.GetStations();
 
                     //int take = TakeLimit.HasValue ? TakeLimit.Value : 2;
 

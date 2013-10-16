@@ -14,13 +14,14 @@ using System.Collections.Generic;
 using System.Linq;
 using ActueelNS.Resources;
 using System.Globalization;
+using Treintijden.PCL.Api.Models;
 
 namespace ActueelNS.Services
 {
     public class ReminderService : IReminderService
     {
 
-        public void CreateReminder(Models.PlannerSearch search, int? index, DateTime dateTime, string spoor, DateTime reminderTime)
+        public void CreateReminder(PlannerSearch search, int? index, DateTime dateTime, string spoor, DateTime reminderTime)
         {
 
             try

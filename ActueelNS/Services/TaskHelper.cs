@@ -12,6 +12,7 @@ using Microsoft.Phone.Scheduler;
 using GalaSoft.MvvmLight.Ioc;
 using ActueelNS.Services.Interfaces;
 using ActueelNS.Resources;
+using Treintijden.Shared.Services.Interfaces;
 
 namespace ActueelNS.Services
 {

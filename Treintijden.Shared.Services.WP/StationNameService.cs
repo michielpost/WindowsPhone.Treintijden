@@ -2,10 +2,10 @@
 using System.Linq;
 using System.Collections.Generic;
 using System.Globalization;
-using Treintijden.PCL.Api.Interfaces;
 using Treintijden.PCL.Api.Models;
+using Treintijden.Shared.Services.Interfaces;
 
-namespace Treintijden.PCL.Api
+namespace Treintijden.Shared.Services
 {
     public class StationNameService : IStationNameService
     {

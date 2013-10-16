@@ -10,7 +10,7 @@ namespace Treintijden.PCL.Api.Interfaces
         Task<List<ReisMogelijkheid>> GetSearchResult(PlannerSearch search);
         Task<ReisPrijs> GetPrijs(PlannerSearch search);
         Task<List<ServiceRitInfo>> GetRit(string id, string company, DateTime date);
-        Task<List<Storing>> GetStoringen(string station);
+        Task<StoringenEnWerkzaamheden> GetStoringenEnWerkzaamheden(string station);
         Task<List<Vertrektijd>> GetVertrektijden(string station);
     }
 }

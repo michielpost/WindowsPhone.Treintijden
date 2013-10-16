@@ -1,24 +1,15 @@
 ﻿using System;
-using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Device.Location;
-using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 using System.Windows;
-using Microsoft.Phone.Controls;
 using Microsoft.Phone.Maps.Controls;
-using Microsoft.Phone.Maps.Services;
 using Microsoft.Phone.Maps.Toolkit;
-using Microsoft.Phone.Shell;
-using Microsoft.Phone.Tasks;
 using Windows.Devices.Geolocation;
-using Windows.Foundation;
 using ActueelNS.ViewModel;
-using GalaSoft.MvvmLight.Messaging;
-using ActueelNS.Services.Models;
 using ActueelNS.Views.Base;
+using Treintijden.PCL.Api.Models;
 
 namespace ActueelNS.Views
 {
@@ -97,7 +88,8 @@ namespace ActueelNS.Views
 
         private void OnShowStation(Station station)
         {
-            this.StationPushPin.GeoCoordinate = station.GeoCoordinate;
+            //TODO
+            this.StationPushPin.GeoCoordinate = new GeoCoordinate(station.Lat, station.Long);
 
             this.StationPushPin.Content = station.Name;
             this.StationPushPin.Visibility = Visibility.Visible;

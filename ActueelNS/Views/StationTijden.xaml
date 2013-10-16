@@ -28,6 +28,7 @@
     <viewBase:ViewBase.Resources>
         <converters:VisibilityConverter x:Key="VisibilityConverter" />
         <converters:InverseVisibilityConverter x:Key="InverseVisibilityConverter" />
+        <converters:AlternateColorConverter x:Key="AlternateColorConverter" />
 
         <Storyboard x:Name="StoringenVisible">
             <DoubleAnimation Duration="0:0:0.5"
@@ -80,7 +81,7 @@
                     <DataTemplate>
                         <Grid x:Name="RootItem"
                               Margin="0,0,0,5"
-                              Background="{Binding BackgroundColor}">
+                              Background="{Binding IsAlternate,Converter={StaticResource AlternateColorConverter}}">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="72" />
                                 <ColumnDefinition Width="*" />

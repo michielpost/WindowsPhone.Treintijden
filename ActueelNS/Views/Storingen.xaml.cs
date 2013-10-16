@@ -1,11 +1,11 @@
 ﻿using Microsoft.Phone.Controls;
 using ActueelNS.ViewModel;
-using ActueelNS.Services.Models;
 using ActueelNS.Resources;
 using Microsoft.Phone.Shell;
 using GalaSoft.MvvmLight.Ioc;
 using ActueelNS.Services.Interfaces;
 using ActueelNS.Views.Base;
+using Treintijden.PCL.Api.Models;
 
 namespace ActueelNS.Views
 {

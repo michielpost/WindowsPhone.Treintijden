@@ -1,7 +1,6 @@
 ﻿using GalaSoft.MvvmLight;
 using ActueelNS.Services.Interfaces;
 using GalaSoft.MvvmLight.Ioc;
-using ActueelNS.Services.Models;
 using System;
 using GalaSoft.MvvmLight.Command;
 using ActueelNS.Services;
@@ -10,6 +9,10 @@ using System.Threading.Tasks;
 using System.Collections.Generic;
 using ActueelNS.Resources;
 using System.Collections.ObjectModel;
+using Treintijden.Shared.Services.Interfaces;
+using Treintijden.PCL.Api.Models;
+using Treintijden.Shared.Services.Models;
+using Treintijden.PCL.Api.Interfaces;
 
 namespace ActueelNS.ViewModel
 {
@@ -28,6 +31,7 @@ namespace ActueelNS.ViewModel
     public class PlannerViewModel : CustomViewModelBase
     {
         public IStationService StationService { get; set; }
+        public IStationNameService StationNameService { get; set; }
         public INavigationService NavigationService { get; set; }
         public IPlannerService PlannerService { get; set; }
         public ILiveTileService LiveTileService { get; set; }
@@ -172,6 +176,7 @@ namespace ActueelNS.ViewModel
             ////}
 
             StationService = SimpleIoc.Default.GetInstance<IStationService>();
+            StationNameService = SimpleIoc.Default.GetInstance<IStationNameService>();
             NavigationService = SimpleIoc.Default.GetInstance<INavigationService>();
             PlannerService = SimpleIoc.Default.GetInstance<IPlannerService>();
             LiveTileService = SimpleIoc.Default.GetInstance<ILiveTileService>();
@@ -300,7 +305,7 @@ namespace ActueelNS.ViewModel
             Settings = SettingService.GetSettings();
 
             if (!keepValues && !string.IsNullOrEmpty(from))
-                VanStation = StationService.GetStationByName(from);
+                VanStation = StationNameService.GetStationByName(from);
             else if (!keepValues)
             {
                 VanStation = null;
@@ -309,12 +314,12 @@ namespace ActueelNS.ViewModel
             }
 
             if (!keepValues && !string.IsNullOrEmpty(to))
-                NaarStation = StationService.GetStationByName(to);
+                NaarStation = StationNameService.GetStationByName(to);
             else if (!keepValues)
                 NaarStation = null;
 
             if (!keepValues && !string.IsNullOrEmpty(via))
-                ViaStation = StationService.GetStationByName(via);
+                ViaStation = StationNameService.GetStationByName(via);
             else if (!keepValues)
                 ViaStation = null;
 
@@ -347,7 +352,7 @@ namespace ActueelNS.ViewModel
         {
             if (Stations == null)
             {
-                var all = StationService.GetStations();
+                var all = StationNameService.GetStations();
 
                 Stations = AlphaKeyGroup<Station>.CreateGroups(
                    all,
@@ -369,12 +374,12 @@ namespace ActueelNS.ViewModel
                 p = p.ToLower();
 
                 //Do a normal starts with
-                var stations = StationService.GetStations().Where(x => x.Name.ToLower().StartsWith(p)).Take(8);
+                var stations = StationNameService.GetStations().Where(x => x.Name.ToLower().StartsWith(p)).Take(8);
 
                 if (stations.Count() < 8)
                 {
                     //Search extra names codes etc
-                    var extraStations = StationService.GetStations().Where(x => x.StartsWith(p)).Take(8 - stations.Count());
+                    var extraStations = StationNameService.GetStations().Where(x => x.StartsWith(p)).Take(8 - stations.Count());
 
                     stations = stations.Union(extraStations);
                 }
@@ -383,7 +388,7 @@ namespace ActueelNS.ViewModel
                 if (stations.Count() <= 2)
                 {
                   //Search extra names codes etc
-                  var extraStations = StationService.GetStations(true).Where(x => x.StartsWith(p)).Take(8);
+                    var extraStations = StationNameService.GetStations(true).Where(x => x.StartsWith(p)).Take(8);
 
                 //Remove stations already found from extraStations
                   var dubbel = extraStations.Where(x => stations.Select(s => s.Code).Contains(x.Code)).ToList();
@@ -406,7 +411,7 @@ namespace ActueelNS.ViewModel
             if (list != null)
             {
                 var stationCodes = list.Select(x => x.Code.ToLower());
-                var stations = StationService.GetStationsByCode(stationCodes).OrderBy(x => x.Name);
+                var stations = StationNameService.GetStationsByCode(stationCodes).OrderBy(x => x.Name);
                 foreach (var station in stations)
                     StationList.Add(station);
             }

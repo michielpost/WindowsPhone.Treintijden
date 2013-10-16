@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Treintijden.PCL.Api.Models;
 
-namespace Treintijden.PCL.Api.Interfaces
+namespace Treintijden.Shared.Services.Interfaces
 {
     public interface IStationNameService
     {

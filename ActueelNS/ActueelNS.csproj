@@ -154,6 +154,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Converters\AlternateColorConverter.cs" />
     <Compile Include="Converters\GroupToBackgroundBrushValueConverter.cs" />
     <Compile Include="Converters\GroupToForegroundBrushValueConverter.cs" />
     <Compile Include="Converters\InverseVisibilityConverter.cs" />
@@ -423,10 +424,6 @@
     <Folder Include="Model\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ActueelNS.Services\ActueelNS.Services.csproj">
-      <Project>{E44C16FC-0C8E-4A92-8DEA-9085B8BF1352}</Project>
-      <Name>ActueelNS.Services</Name>
-    </ProjectReference>
     <ProjectReference Include="..\ActueelNS.TaskAgents\ActueelNS.TaskAgents.csproj">
       <Project>{2CECC807-AD0F-4051-9A23-F0DAD22B8663}</Project>
       <Name>ActueelNS.TaskAgents</Name>
@@ -434,6 +431,14 @@
     <ProjectReference Include="..\MockIAPLib\MockIAPLib.csproj">
       <Project>{015E3DFE-EB56-429F-95EF-BAB5D41B23BE}</Project>
       <Name>MockIAPLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Treintijden.PCL.Api\Treintijden.PCL.Api.csproj">
+      <Project>{BA02D578-57B9-4B83-90BA-2D1B33207FFC}</Project>
+      <Name>Treintijden.PCL.Api</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Treintijden.Shared.Services.WP\Treintijden.Shared.Services.WP.csproj">
+      <Project>{5A7FFDEC-5069-4CF4-A4B7-CF818E47DE83}</Project>
+      <Name>Treintijden.Shared.Services.WP</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

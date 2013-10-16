@@ -10,7 +10,8 @@ using System.Windows;
 using System;
 using ActueelNS.Services;
 using ActueelNS.Views.Base;
-using ActueelNS.Services.Models;
+using Treintijden.Shared.Services.Interfaces;
+using Treintijden.PCL.Api.Models;
 
 namespace ActueelNS
 {

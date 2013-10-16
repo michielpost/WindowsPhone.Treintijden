@@ -61,7 +61,7 @@ namespace Treintijden.PCL.Api.Models
         public string Opmerkingen { get; set; }
 
 
-        public bool AlternateBackground { get; set; }
+        public bool IsAlternate { get; set; }
 
 
         public string RegelTwee

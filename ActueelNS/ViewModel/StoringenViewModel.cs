@@ -1,14 +1,15 @@
-﻿using ActueelNS.Services.Models;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System;
 using ActueelNS.Services.Interfaces;
 using GalaSoft.MvvmLight.Ioc;
 using System.Collections.ObjectModel;
 using AgFx;
-using ActueelNS.Services.ViewModels;
 using Microsoft.Phone.Net.NetworkInformation;
 using ActueelNS.Resources;
 using GalaSoft.MvvmLight.Command;
+using Treintijden.PCL.Api.Models;
+using Treintijden.PCL.Api.Interfaces;
+using System.Threading.Tasks;
 
 namespace ActueelNS.ViewModel
 {
@@ -30,18 +31,45 @@ namespace ActueelNS.ViewModel
         //public IStoringenService StoringenService { get; set; }
         public ILiveTileService LiveTileService { get; set; }
         public INavigationService NavigationService { get; set; }
+        public INSApiService NSApiService { get; set; }
 
-        public StoringDataModel StoringDataModel { get; set; }
 
-        public ObservableCollection<Storing> CurrentStoringen
+
+        private StoringenEnWerkzaamheden _storingenDataModel;
+
+        public StoringenEnWerkzaamheden StoringDataModel
         {
-            get { return StoringDataModel.Storingen; }
+            get { return _storingenDataModel; }
+            set
+            {
+                _storingenDataModel = value;
+                RaisePropertyChanged(() => StoringDataModel);
+                RaisePropertyChanged(() => CurrentStoringen);
+                RaisePropertyChanged(() => Werkzaamheden);
+            }
+        }
+
+
+        public List<Storing> CurrentStoringen
+        {
+            get
+            {
+                if (StoringDataModel != null)
+                    return StoringDataModel.Storingen;
+
+                return null;
+            }
 
         }
 
-        public ObservableCollection<Werkzaamheden> Werkzaamheden
+        public List<Werkzaamheden> Werkzaamheden
         {
-            get { return StoringDataModel.Werkzaamheden; }
+            get {
+                if (StoringDataModel != null)
+                    return StoringDataModel.Werkzaamheden;
+
+                return null; 
+            }
 
         }
 
@@ -93,6 +121,7 @@ namespace ActueelNS.ViewModel
         {
             LiveTileService = SimpleIoc.Default.GetInstance<ILiveTileService>();
             NavigationService = SimpleIoc.Default.GetInstance<INavigationService>();
+            NSApiService = SimpleIoc.Default.GetInstance<INSApiService>();
 
             if (IsInDesignMode)
             {
@@ -148,22 +177,7 @@ namespace ActueelNS.ViewModel
             }
             else
             {
-                ShowError = false;
-                IsBusy = true;
-                
-                StoringDataModel = DataManager.Current.Load<StoringDataModel>(string.Empty, (vm) =>
-                {
-                    IsBusy = false;
-
-                    RaisePropertyChanged(() => CurrentStoringen);
-                    RaisePropertyChanged(() => Werkzaamheden);
-
-                }, ex => {
-                    ShowError = true;
-                    IsBusy = false;
-
-                });
-                
+                LoadStoringen();
             }
 
             PinCommand = new RelayCommand(() => DoPin());
@@ -171,6 +185,27 @@ namespace ActueelNS.ViewModel
 
             PageName = AppResources.storingen;
 
+        }
+
+        private async Task LoadStoringen()
+        {
+            ShowError = false;
+            IsBusy = true;
+
+            try
+            {
+                StoringDataModel = await NSApiService.GetStoringenEnWerkzaamheden(string.Empty);
+
+                IsBusy = false;
+
+                RaisePropertyChanged(() => CurrentStoringen);
+                RaisePropertyChanged(() => Werkzaamheden);
+            }
+            catch (Exception ex)
+            {
+                ShowError = true;
+                IsBusy = false;
+            }
         }
 
 

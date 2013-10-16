@@ -10,12 +10,13 @@ using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using System.Collections.Generic;
 using Microsoft.Phone.Scheduler;
+using Treintijden.PCL.Api.Models;
 
 namespace ActueelNS.Services.Interfaces
 {
     public interface IReminderService
     {
-        void CreateReminder(Models.PlannerSearch SelectedSearch, int? Index, DateTime dateTime, string spoor, DateTime reminderTime);
+        void CreateReminder(PlannerSearch SelectedSearch, int? Index, DateTime dateTime, string spoor, DateTime reminderTime);
 
         IList<Reminder> GetReminders();
 

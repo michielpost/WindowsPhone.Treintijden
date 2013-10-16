@@ -6,9 +6,9 @@ using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Media.Animation;
 using Microsoft.Phone.Controls;
-using ActueelNS.Services.Models;
 using ActueelNS.ViewModel;
 using ActueelNS.Views.Base;
+using Treintijden.PCL.Api.Models;
 
 namespace ActueelNS.Views
 {
@@ -18,7 +18,6 @@ namespace ActueelNS.Views
     public partial class StationPicker : ViewBase
     {
 
-        private LongListSelector currentSelector;
         private StationPickerViewModel _vm;
 
 

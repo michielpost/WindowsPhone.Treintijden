@@ -36,11 +36,11 @@ namespace Treintijden.Shared.Services.WP
             return Original.GetRit(id, company, date);
         }
 
-        public Task<List<Storing>> GetStoringen(string station)
+        public Task<StoringenEnWerkzaamheden> GetStoringenEnWerkzaamheden(string station)
         {
-            string cacheKey = "GetStoringen_" + station;
+            string cacheKey = "GetStoringenEnWerkzaamheden_" + station;
 
-            return JsonCache.GetAsync(cacheKey, () => Original.GetStoringen(station), DateTime.Now.AddMinutes(5));
+            return JsonCache.GetAsync(cacheKey, () => Original.GetStoringenEnWerkzaamheden(station), DateTime.Now.AddMinutes(5));
         }
 
         public Task<List<Vertrektijd>> GetVertrektijden(string station)

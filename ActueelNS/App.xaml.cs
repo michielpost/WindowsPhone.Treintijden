@@ -15,6 +15,7 @@ using System;
 using MockIAPLib;
 using ActueelNS.Shared.Controls;
 using System.Windows.Controls;
+using Treintijden.Shared.Services.Interfaces;
 
 namespace ActueelNS
 {

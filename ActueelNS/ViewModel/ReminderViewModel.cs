@@ -1,5 +1,4 @@
 ﻿using GalaSoft.MvvmLight;
-using ActueelNS.Services.Models;
 using System.Collections.Generic;
 using System;
 using ActueelNS.Services;
@@ -8,6 +7,8 @@ using GalaSoft.MvvmLight.Ioc;
 using GalaSoft.MvvmLight.Command;
 using Microsoft.Phone.Scheduler;
 using ActueelNS.Resources;
+using Treintijden.Shared.Services.Interfaces;
+using Treintijden.PCL.Api.Models;
 
 namespace ActueelNS.ViewModel
 {

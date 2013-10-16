@@ -88,10 +88,13 @@
     <Compile Include="CachedNSApiService.cs" />
     <Compile Include="Interfaces\IPlannerService.cs" />
     <Compile Include="Interfaces\ISettingService.cs" />
+    <Compile Include="Interfaces\IStationNameService.cs" />
     <Compile Include="Interfaces\IStationService.cs" />
     <Compile Include="Models\AppSetting.cs" />
     <Compile Include="PlannerService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SettingService.cs" />
+    <Compile Include="StationNameService.cs" />
     <Compile Include="StationService.cs" />
     <Compile Include="TEMP\IsolatedStorageCacheManager.cs" />
   </ItemGroup>
@@ -123,6 +126,10 @@
       <Project>{BA02D578-57B9-4B83-90BA-2D1B33207FFC}</Project>
       <Name>Treintijden.PCL.Api</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\stations.xml" />
+    <Content Include="Data\stations_all.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />

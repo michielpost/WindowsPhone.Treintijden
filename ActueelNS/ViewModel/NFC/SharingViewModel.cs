@@ -15,10 +15,44 @@ using System.Diagnostics;
 using System.Collections.Generic;
 using ActueelNS.Services.Interfaces;
 using GalaSoft.MvvmLight.Ioc;
-using ActueelNS.Services.Models;
+using Treintijden.PCL.Api.Interfaces;
+using Treintijden.Shared.Services.Interfaces;
+using Treintijden.PCL.Api.Models;
+using Newtonsoft.Json;
 
 namespace ActueelNS.ViewModel
 {
+
+    public class ShareSearch
+    {
+
+        public PlannerSearch PlannerSearch { get; set; }
+        public List<ReisMogelijkheid> ReisMogelijkheden { get; set; }
+        public int? Index { get; set; }
+
+        // Convert an object to a byte array
+        public byte[] ObjectToByteArray()
+        {
+            string str = JsonConvert.SerializeObject(this);
+
+            byte[] bytes = new byte[str.Length * sizeof(char)];
+            System.Buffer.BlockCopy(str.ToCharArray(), 0, bytes, 0, bytes.Length);
+            return bytes;
+
+        }
+
+        public static ShareSearch Desserialize(byte[] bytes)
+        {
+            char[] chars = new char[bytes.Length / sizeof(char)];
+            System.Buffer.BlockCopy(bytes, 0, chars, 0, bytes.Length);
+            var str = new string(chars);
+
+            return JsonConvert.DeserializeObject<ShareSearch>(str);
+
+        }
+
+    }
+
     /// <summary>
     /// Singleton class that contains the logic to control the connection 
     /// between peer apps and to send pictures between them.

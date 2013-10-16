@@ -42,7 +42,6 @@
     <Compile Include="Constants\NSApi.cs" />
     <Compile Include="Helpers\XmlHelper.cs" />
     <Compile Include="Interfaces\INSApiService.cs" />
-    <Compile Include="Interfaces\IStationNameService.cs" />
     <Compile Include="Models\PlannerSearch.cs" />
     <Compile Include="Models\ReisDeel.cs" />
     <Compile Include="Models\ReisMogelijkheid.cs" />
@@ -52,6 +51,7 @@
     <Compile Include="Models\Station.cs" />
     <Compile Include="Models\StationInGroup.cs" />
     <Compile Include="Models\Storing.cs" />
+    <Compile Include="Models\StoringenEnWerkzaamheden.cs" />
     <Compile Include="Models\Vertrektijd.cs" />
     <Compile Include="Models\Werkzaamheden.cs" />
     <Compile Include="NSApiService_Planner.cs" />
@@ -60,7 +60,6 @@
     <Compile Include="NSApiService_Ritnummer.cs" />
     <Compile Include="NSApiService_Storingen.cs" />
     <Compile Include="NSApiService_Vertrektijden.cs" />
-    <Compile Include="StationNameService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">
@@ -75,10 +74,6 @@
     <Reference Include="System.Net.Http.Primitives">
       <HintPath>..\packages\Microsoft.Net.Http.2.2.15\lib\portable-net40+sl4+win8+wp71\System.Net.Http.Primitives.dll</HintPath>
     </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Data\stations.xml" />
-    <Content Include="Data\stations_all.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />

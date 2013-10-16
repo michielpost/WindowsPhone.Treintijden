@@ -1,13 +1,14 @@
 ﻿using GalaSoft.MvvmLight;
 using ActueelNS.Services.Interfaces;
 using GalaSoft.MvvmLight.Ioc;
-using ActueelNS.Services.Models;
 using GalaSoft.MvvmLight.Command;
 using System.Device.Location;
 using System.Windows;
 using System.Threading.Tasks;
 using ActueelNS.Services;
 using ActueelNS.Resources;
+using Treintijden.Shared.Services.Interfaces;
+using Treintijden.Shared.Services.Models;
 
 namespace ActueelNS.ViewModel
 {

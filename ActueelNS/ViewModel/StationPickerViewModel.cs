@@ -2,7 +2,6 @@
 using ActueelNS.Services.Interfaces;
 using System.Collections.ObjectModel;
 using ActueelNS.Services;
-using ActueelNS.Services.Models;
 using System.Collections.Generic;
 using GalaSoft.MvvmLight.Command;
 using System;
@@ -13,6 +12,10 @@ using System.Threading.Tasks;
 using GalaSoft.MvvmLight.Threading;
 using Microsoft.Phone.Globalization;
 using System.Globalization;
+using Treintijden.Shared.Services.Interfaces;
+using Treintijden.PCL.Api.Models;
+using Treintijden.Shared.Services.Models;
+using Treintijden.PCL.Api.Interfaces;
 
 namespace ActueelNS.ViewModel
 {
@@ -138,6 +141,7 @@ namespace ActueelNS.ViewModel
     {
 
         public IStationService StationService { get; set; }
+        public IStationNameService StationNameService { get; set; }
         public INavigationService NavigationService { get; set; }
         public ISettingService SettingService { get; set; }
 
@@ -212,6 +216,7 @@ namespace ActueelNS.ViewModel
             }
 
             StationService = SimpleIoc.Default.GetInstance<IStationService>();
+            StationNameService = SimpleIoc.Default.GetInstance<IStationNameService>();
             NavigationService = SimpleIoc.Default.GetInstance<INavigationService>();
             SettingService = SimpleIoc.Default.GetInstance<ISettingService>();
 
@@ -263,7 +268,7 @@ namespace ActueelNS.ViewModel
         {
             if (Stations == null)
             {
-                var all = StationService.GetStations();
+                var all = StationNameService.GetStations();
 
                 Stations = AlphaKeyGroup<Station>.CreateGroups(
                    all,
@@ -283,11 +288,11 @@ namespace ActueelNS.ViewModel
                 //var newStations = await TaskEx.Run<List<Station>>(() =>
                 //    {
 
-                        var stations = StationService.GetStations().Where(x => x.Name.ToLower().StartsWith(p)).Take(7);
+                var stations = StationNameService.GetStations().Where(x => x.Name.ToLower().StartsWith(p)).Take(7);
 
                         if (stations.Count() < 7)
                         {
-                            var extraStations = StationService.GetStations().Where(x => x.StartsWith(p)).Take(7 - stations.Count());
+                            var extraStations = StationNameService.GetStations().Where(x => x.StartsWith(p)).Take(7 - stations.Count());
 
                             stations = stations.Union(extraStations);
                         }

@@ -2,7 +2,6 @@
 using ActueelNS.Services;
 using GalaSoft.MvvmLight.Ioc;
 using ActueelNS.Services.Interfaces;
-using ActueelNS.Services.Models;
 using System.Collections.ObjectModel;
 using System;
 using System.Linq;
@@ -14,6 +13,9 @@ using System.Windows;
 using System.Windows.Media;
 using ActueelNS.Resources;
 using Microsoft.Phone.Tasks;
+using Treintijden.Shared.Services.Interfaces;
+using Treintijden.PCL.Api.Models;
+using Treintijden.PCL.Api.Interfaces;
 
 namespace ActueelNS.ViewModel
 {
@@ -32,6 +34,7 @@ namespace ActueelNS.ViewModel
     public class ReisadviesViewModel : CustomViewModelBase
     {
         public IPlannerService PlannerService { get; set; }
+        public INSApiService NSApiService { get; set; }
         public INavigationService NavigationService { get; set; }
         public ILiveTileService LiveTileService { get; set; }
 
@@ -162,6 +165,7 @@ namespace ActueelNS.ViewModel
 
             SearchHistory = new ObservableCollection<PlannerSearch>();
             PlannerService = SimpleIoc.Default.GetInstance<IPlannerService>();
+            NSApiService = SimpleIoc.Default.GetInstance<INSApiService>();
             NavigationService = SimpleIoc.Default.GetInstance<INavigationService>();
             LiveTileService = SimpleIoc.Default.GetInstance<ILiveTileService>();
 
@@ -608,7 +612,7 @@ namespace ActueelNS.ViewModel
             {
                 IsBusy = true;
 
-                List<ReisMogelijkheid> reisMogelijkheden = await PlannerService.GetSearchResult(search);
+                List<ReisMogelijkheid> reisMogelijkheden = await NSApiService.GetSearchResult(search);
 
                 //Set color
                 bool useAlternate = false;

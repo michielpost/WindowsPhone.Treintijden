@@ -13,16 +13,15 @@ namespace Treintijden.PCL.Api
 {
     public partial class NSApiService : INSApiService
     {
-        private List<Storing> _storingen;
-        private List<Werkzaamheden> _werkzaamheden;
+        private StoringenEnWerkzaamheden _data;
         private DateTime? _syncDate;
 
-        public async Task<List<Storing>> GetStoringen(string station)
+        public async Task<StoringenEnWerkzaamheden> GetStoringenEnWerkzaamheden(string station)
         {
             if (_syncDate.HasValue
                 && ((DateTime.Now - _syncDate.Value) < new TimeSpan(1, 0, 0))
-                && _storingen != null)
-                return _storingen;
+                && _data != null)
+                return _data;
 
             //ignore station
             station = string.Empty;
@@ -53,17 +52,13 @@ namespace Treintijden.PCL.Api
                 //await TaskEx.Delay(TimeSpan.FromSeconds(5));  
 
                 _syncDate = DateTime.Now;
-                _storingen = storingLijst;
-                _werkzaamheden = werkzaamhedenLijst;
+                _data = new StoringenEnWerkzaamheden();
+                _data.Storingen = storingLijst;
+                _data.Werkzaamheden = werkzaamhedenLijst;
 
-                return storingLijst;
+                return _data;
             });
 
-        }
-
-        public List<Werkzaamheden> GetWerkzaamheden()
-        {
-                return _werkzaamheden;
         }
 
         private List<Storing> ParseStoringen(XElement storingenXmlElement)

@@ -1,12 +1,12 @@
 ﻿using GalaSoft.MvvmLight;
-using ActueelNS.Services.Models;
 using ActueelNS.Services.Interfaces;
 using GalaSoft.MvvmLight.Ioc;
 using System;
 using AgFx;
-using ActueelNS.Services.ViewModels;
-using ActueelNS.Services.ViewModels.Context;
 using ActueelNS.Resources;
+using Treintijden.Shared.Services.Interfaces;
+using Treintijden.PCL.Api.Models;
+using Treintijden.PCL.Api.Interfaces;
 
 namespace ActueelNS.ViewModel
 {
@@ -25,8 +25,8 @@ namespace ActueelNS.ViewModel
     public class PrijsViewModel : CustomViewModelBase
     {
         public INavigationService NavigationService { get; set; }
-        //public IPrijsService PrijsService { get; set; }
         public IPlannerService PlannerService { get; set; }
+        public INSApiService NSApiService { get; set; }
 
 
         public string PageName
@@ -94,8 +94,8 @@ namespace ActueelNS.ViewModel
         public PrijsViewModel()
         {
             NavigationService = SimpleIoc.Default.GetInstance<INavigationService>();
-            //PrijsService = SimpleIoc.Default.GetInstance<IPrijsService>();
             PlannerService = SimpleIoc.Default.GetInstance<IPlannerService>();
+            NSApiService = SimpleIoc.Default.GetInstance<INSApiService>();
 
             if (IsInDesignMode)
             {
@@ -146,7 +146,7 @@ namespace ActueelNS.ViewModel
         ////    base.Cleanup();
         ////}
 
-        internal void Initialize(Guid? id)
+        internal async void Initialize(Guid? id)
         {
             PlannerSearch = null;
 
@@ -158,12 +158,17 @@ namespace ActueelNS.ViewModel
                 {
                     PlannerSearch = search;
 
-                    DataManager.Current.Load<PrijsDataModel>(new PrijsLoadContext(PlannerSearch), (vm) =>
+                    try
                     {
+                        ReisPrijs = await NSApiService.GetPrijs(PlannerSearch);
                         ShowError = false;
-                        ReisPrijs = vm.Prijs;
+                    }
+                    catch (Exception ex)
+                    {
+                        ShowError = true;
+                    }
 
-                    }, ex => { ShowError = true; });
+                
                 }
 
             }

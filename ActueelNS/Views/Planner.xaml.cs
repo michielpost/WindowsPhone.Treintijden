@@ -1,5 +1,4 @@
 ﻿using Microsoft.Phone.Controls;
-using ActueelNS.Services.Models;
 using System.Windows.Controls;
 using System.Windows.Media.Animation;
 using System.Windows;
@@ -13,6 +12,7 @@ using ActueelNS.Services.Interfaces;
 using GalaSoft.MvvmLight.Ioc;
 using System.Collections;
 using ActueelNS.Views.Base;
+using Treintijden.PCL.Api.Models;
 
 namespace ActueelNS.Views
 {

@@ -15,9 +15,9 @@ using System.Windows.Media.Imaging;
 using System.IO.IsolatedStorage;
 using System.IO;
 using ActueelNS.Tile;
-using ActueelNS.Services.Models;
 using ActueelNS.Resources;
 using System.Globalization;
+using Treintijden.PCL.Api.Models;
 
 namespace ActueelNS.Services
 {

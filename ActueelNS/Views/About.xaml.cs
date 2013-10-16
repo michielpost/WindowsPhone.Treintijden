@@ -4,6 +4,7 @@ using ActueelNS.Services.Interfaces;
 using GalaSoft.MvvmLight.Ioc;
 using ActueelNS.Views.Base;
 using ActueelNS.Resources;
+using Treintijden.Shared.Services.Interfaces;
 
 namespace ActueelNS.Views
 {

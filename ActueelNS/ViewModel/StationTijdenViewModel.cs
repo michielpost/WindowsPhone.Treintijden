@@ -10,7 +10,6 @@ using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using ActueelNS.Services.Interfaces;
 using System.Collections.ObjectModel;
-using ActueelNS.Services.Models;
 using ActueelNS.Services;
 using System.Collections.Generic;
 using GalaSoft.MvvmLight.Ioc;
@@ -22,9 +21,10 @@ using System.Threading;
 using System.Windows.Media.Imaging;
 using ActueelNS.Tile;
 using AgFx;
-using ActueelNS.Services.ViewModels;
-using ActueelNS.Services.ViewModels.Context;
 using ActueelNS.Resources;
+using Treintijden.Shared.Services.Interfaces;
+using Treintijden.PCL.Api.Models;
+using Treintijden.PCL.Api.Interfaces;
 
 namespace ActueelNS.ViewModel
 {
@@ -34,6 +34,8 @@ namespace ActueelNS.ViewModel
 
         public INavigationService NavigationService { get; set; }
         public IStationService StationService { get; set; }
+        public IStationNameService StationNameService { get; set; }
+        public INSApiService NSApiService { get; set; }
         //public IStoringenService StoringenService { get; set; }
         //public IVertrektijdenService VertrektijdenService { get; set; }
         public ILiveTileService LiveTileService { get; set; }
@@ -198,6 +200,8 @@ namespace ActueelNS.ViewModel
             }
 
             StationService = SimpleIoc.Default.GetInstance<IStationService>();
+            StationNameService = SimpleIoc.Default.GetInstance<IStationNameService>();
+            NSApiService = SimpleIoc.Default.GetInstance<INSApiService>();
             //VertrektijdenService = SimpleIoc.Default.GetInstance<IVertrektijdenService>();
             NavigationService = SimpleIoc.Default.GetInstance<INavigationService>();
             LiveTileService = SimpleIoc.Default.GetInstance<ILiveTileService>();
@@ -216,14 +220,16 @@ namespace ActueelNS.ViewModel
 
             DataManager.Current.PropertyChanged += new System.ComponentModel.PropertyChangedEventHandler(Current_PropertyChanged);
 
-            ViewModelLocator.StoringenStatic.CurrentStoringen.CollectionChanged += new System.Collections.Specialized.NotifyCollectionChangedEventHandler(CurrentStoringen_CollectionChanged);
+            //TODO
+            //ViewModelLocator.StoringenStatic.CurrentStoringen.CollectionChanged += new System.Collections.Specialized.NotifyCollectionChangedEventHandler(CurrentStoringen_CollectionChanged);
             InitStoringen();
 
         }
 
         private void LoadTijden()
         {
-            DataManager.Current.Load<VertrektijdenDataModel>(new StationLoadContext(this.CurrentStation.Code)).Refresh();
+            //TODO
+            //DataManager.Current.Load<VertrektijdenDataModel>(new StationLoadContext(this.CurrentStation.Code)).Refresh();
         }
 
         void Current_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
@@ -326,58 +332,28 @@ namespace ActueelNS.ViewModel
             NavigationService.NavigateTo(new Uri(string.Format("/Views/Planner.xaml?from={0}", name), UriKind.Relative));
         }
 
-        internal void LoadStation(string station)
+        internal async void LoadStation(string station)
         {
             PageName = station;
-            CurrentStation = StationService.GetStationByName(station);
+            CurrentStation = StationNameService.GetStationByName(station);
 
             TijdList = null;
 
             IsBusy = true;
 
-            var loader = DataManager.Current.Load<VertrektijdenDataModel>(new StationLoadContext(this.CurrentStation.Code),
-                 (vm) =>
-                 {
-                     IsBusy = false;
-                 },
-                     ex =>
-                     {
-                         ShowError = true;
-                     }
-                 );
+            try
+            {
+                TijdList = new ObservableCollection<Vertrektijd>(await NSApiService.GetVertrektijden(this.CurrentStation.Code));
+                IsBusy = false;
+            }
+            catch (Exception ex)
+            {
+                ShowError = true;
+                IsBusy = false;
+            }
 
-            TijdList = loader.Vertrektijden;
 
             InMyStations = StationService.GetMyStations().Where(x => x.Code == CurrentStation.Code).Any();
-
-
-
-            //TaskEx.Run(() =>
-            //{
-
-            //    var loader = DataManager.Current.Load<VertrektijdenDataModel>(new StationLoadContext(this.CurrentStation.Code),
-            //         (vm) =>
-            //         {
-            //             IsBusy = false;
-            //         },
-            //             ex =>
-            //             {
-            //                 Deployment.Current.Dispatcher.BeginInvoke(() =>
-            //                 {
-            //                     ShowError = true;
-            //                 });
-            //             }
-            //         );
-
-            //    Deployment.Current.Dispatcher.BeginInvoke(() =>
-            //                 {
-            //                     TijdList = loader.Vertrektijden;
-
-            //                     InMyStations = StationService.GetMyStations().Where(x => x.Code == CurrentStation.Code).Any();
-
-            //                 });
-
-            //});
 
         }
 

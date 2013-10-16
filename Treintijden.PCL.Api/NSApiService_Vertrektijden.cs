@@ -91,7 +91,7 @@ namespace Treintijden.PCL.Api
                 foreach (var tijd in vertrektijdList)
                 {
                     ////Set background color here, for performance
-                    tijd.AlternateBackground = _useAlternate;
+                    tijd.IsAlternate = _useAlternate;
                     _useAlternate = !_useAlternate;
 
                 }
