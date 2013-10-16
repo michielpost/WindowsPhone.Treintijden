@@ -8,6 +8,7 @@ using GalaSoft.MvvmLight.Command;
 #if DEBUG
 using MockIAPLib;
 using Store = MockIAPLib;
+using Q42.WinRT.Portable.Data;
 #else
 using Store = Windows.ApplicationModel.Store;
 #endif
@@ -23,27 +24,8 @@ namespace ActueelNS.ViewModel
 
     public class DonateViewModel : CustomViewModelBase
     {
-        private bool _isError;
 
-        public bool IsError
-        {
-            get { return _isError; }
-            set { _isError = value;
-            RaisePropertyChanged(() => IsError);
-            }
-        }
-
-        private bool _isBusy;
-
-        public bool IsBusy
-        {
-            get { return _isBusy; }
-            set { _isBusy = value;
-            RaisePropertyChanged(() => IsBusy);
-            }
-        }
-        
-        
+        public DataLoader DataLoader { get; set; }
 
         private List<StoreItem> _availableProducts;
 
@@ -102,45 +84,31 @@ namespace ActueelNS.ViewModel
 
         private async void Init()
         {
-            try
+            AvailableProducts = await DataLoader.LoadAsync(() => GetAvailableProducts());
+        }
+
+        private async Task<List<StoreItem>> GetAvailableProducts()
+        {
+            var prodLit = await Store.CurrentApp.LoadListingInformationAsync();
+            var own = Store.CurrentApp.LicenseInformation.ProductLicenses;
+
+            List<StoreItem> list = new List<StoreItem>();
+
+            foreach (var item in prodLit.ProductListings.Values)
             {
-                IsError = false;
-                IsBusy = true;
+                StoreItem pr = new StoreItem();
+                pr.ProductListing = item;
 
-                //var prodLit = await CurrentApp.LicenseInformation.ProductLicenses.First().;
-
-                var prodLit = await Store.CurrentApp.LoadListingInformationAsync();
-                var own = Store.CurrentApp.LicenseInformation.ProductLicenses;
-
-                List<StoreItem> list = new List<StoreItem>();
-
-                foreach (var item in prodLit.ProductListings.Values)
+                if (Store.CurrentApp.LicenseInformation.ProductLicenses.Keys.Contains(item.ProductId)
+                    && Store.CurrentApp.LicenseInformation.ProductLicenses[item.ProductId].IsActive)
                 {
-                    StoreItem pr = new StoreItem();
-                    pr.ProductListing = item;
-
-                    if (Store.CurrentApp.LicenseInformation.ProductLicenses.Keys.Contains(item.ProductId)
-                        && Store.CurrentApp.LicenseInformation.ProductLicenses[item.ProductId].IsActive)
-                    {
-                        pr.Purchased = true;
-                    }
-
-                    list.Add(pr);
+                    pr.Purchased = true;
                 }
 
-                AvailableProducts = list.OrderBy(x => x.ProductListing.FormattedPrice).ToList();
-
-            }
-            catch
-            {
-                IsError = true;
-            }
-            finally
-            {
-                IsBusy = false;
-
+                list.Add(pr);
             }
 
+            return list.OrderBy(x => x.ProductListing.FormattedPrice).ToList();
         }
     }
 }

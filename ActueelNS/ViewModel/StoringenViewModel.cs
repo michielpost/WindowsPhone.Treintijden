@@ -10,6 +10,7 @@ using GalaSoft.MvvmLight.Command;
 using Treintijden.PCL.Api.Models;
 using Treintijden.PCL.Api.Interfaces;
 using System.Threading.Tasks;
+using Q42.WinRT.Portable.Data;
 
 namespace ActueelNS.ViewModel
 {
@@ -73,29 +74,32 @@ namespace ActueelNS.ViewModel
 
         }
 
-        private bool _showError;
+        public DataLoader DataLoader { get; set; }
 
-        public bool ShowError
-        {
-            get { return _showError; }
-            set
-            {
-                _showError = value;
-                RaisePropertyChanged(() => ShowError);
-            }
-        }
 
-        private bool _isBusy;
+        //private bool _showError;
 
-        public bool IsBusy
-        {
-            get { return _isBusy; }
-            set
-            {
-                _isBusy = value;
-                RaisePropertyChanged(() => IsBusy);
-            }
-        }
+        //public bool ShowError
+        //{
+        //    get { return _showError; }
+        //    set
+        //    {
+        //        _showError = value;
+        //        RaisePropertyChanged(() => ShowError);
+        //    }
+        //}
+
+        //private bool _isBusy;
+
+        //public bool IsBusy
+        //{
+        //    get { return _isBusy; }
+        //    set
+        //    {
+        //        _isBusy = value;
+        //        RaisePropertyChanged(() => IsBusy);
+        //    }
+        //}
 
 
         private string _pageName;
@@ -189,23 +193,7 @@ namespace ActueelNS.ViewModel
 
         private async Task LoadStoringen()
         {
-            ShowError = false;
-            IsBusy = true;
-
-            try
-            {
-                StoringDataModel = await NSApiService.GetStoringenEnWerkzaamheden(string.Empty);
-
-                IsBusy = false;
-
-                RaisePropertyChanged(() => CurrentStoringen);
-                RaisePropertyChanged(() => Werkzaamheden);
-            }
-            catch (Exception ex)
-            {
-                ShowError = true;
-                IsBusy = false;
-            }
+            StoringDataModel = await DataLoader.LoadAsync(() => NSApiService.GetStoringenEnWerkzaamheden(string.Empty));
         }
 
 

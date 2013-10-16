@@ -7,6 +7,7 @@ using ActueelNS.Resources;
 using Treintijden.Shared.Services.Interfaces;
 using Treintijden.PCL.Api.Models;
 using Treintijden.PCL.Api.Interfaces;
+using Q42.WinRT.Portable.Data;
 
 namespace ActueelNS.ViewModel
 {
@@ -35,30 +36,32 @@ namespace ActueelNS.ViewModel
 
         }
 
-        private bool _sowError;
+        public DataLoader DataLoader { get; set; }
 
-        public bool ShowError
-        {
-            get { return _sowError; }
-            set
-            {
-                _sowError = value;
-                RaisePropertyChanged(() => ShowError);
-            }
-        }
+        //private bool _sowError;
+
+        //public bool ShowError
+        //{
+        //    get { return _sowError; }
+        //    set
+        //    {
+        //        _sowError = value;
+        //        RaisePropertyChanged(() => ShowError);
+        //    }
+        //}
 
 
-        private bool _isBusy;
+        //private bool _isBusy;
 
-        public bool IsBusy
-        {
-            get { return _isBusy; }
-            set
-            {
-                _isBusy = value;
-                RaisePropertyChanged(() => IsBusy);
-            }
-        }
+        //public bool IsBusy
+        //{
+        //    get { return _isBusy; }
+        //    set
+        //    {
+        //        _isBusy = value;
+        //        RaisePropertyChanged(() => IsBusy);
+        //    }
+        //}
 
 
 
@@ -127,17 +130,8 @@ namespace ActueelNS.ViewModel
                 // Code runs "for real": Connect to service, etc...
             }
 
-            DataManager.Current.PropertyChanged += new System.ComponentModel.PropertyChangedEventHandler(Current_PropertyChanged);
 
         }
-
-        void Current_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
-        {
-            if (e.PropertyName == "IsLoading")
-                IsBusy = DataManager.Current.IsLoading;
-        }
-       
-
 
         ////public override void Cleanup()
         ////{
@@ -158,22 +152,11 @@ namespace ActueelNS.ViewModel
                 {
                     PlannerSearch = search;
 
-                    try
-                    {
-                        ReisPrijs = await NSApiService.GetPrijs(PlannerSearch);
-                        ShowError = false;
-                    }
-                    catch (Exception ex)
-                    {
-                        ShowError = true;
-                    }
-
-                
+                    ReisPrijs = await DataLoader.LoadAsync(() => NSApiService.GetPrijs(PlannerSearch));
                 }
 
             }
         }
-
        
     }
 }

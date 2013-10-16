@@ -5,6 +5,7 @@
                             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
                             xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
                             xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+                            xmlns:converters="clr-namespace:ActueelNS.Converters"
                             xmlns:viewBase="clr-namespace:ActueelNS.Views.Base"
                             x:Name="control"
                             d:DesignHeight="768"
@@ -21,6 +22,16 @@
                             Style="{StaticResource TransitionPageStyle}"
                             SupportedOrientations="Portrait"
                             mc:Ignorable="d">
+    
+    <shell:SystemTray.ProgressIndicator>
+        <shell:ProgressIndicator 
+            IsIndeterminate="{Binding DataLoader.IsBusy}"
+            IsVisible="{Binding DataLoader.IsBusy}" />
+    </shell:SystemTray.ProgressIndicator>
+
+    <viewBase:ViewBase.Resources>
+        <converters:VisibilityConverter x:Key="VisibilityConverter" />
+    </viewBase:ViewBase.Resources>
 
     <Grid Margin="0,-1,0,0" x:Name="LayoutRoot" Background="{StaticResource BackgroundColor}">
         <Grid.RowDefinitions>
@@ -50,7 +61,7 @@
                         Height="40"
                         VerticalAlignment="Top"
                         Background="{StaticResource BackgroundColor}"
-                        Visibility="Collapsed">
+                        Visibility="{Binding DataLoader.IsBusy, Converter={StaticResource VisibilityConverter}}">
                 <TextBlock Margin="24,0,0,0"
                            Style="{StaticResource PhoneTextNormalStyleCustom}"
                            Text="{Binding Path=LocalizedResources.PrijsLoading,
@@ -62,7 +73,7 @@
             <StackPanel x:Name="GeenDataPanel"
                         VerticalAlignment="Top"
                         Background="{StaticResource BackgroundColor}"
-                        Visibility="Collapsed">
+                        Visibility="{Binding DataLoader.IsError, Converter={StaticResource VisibilityConverter}}">
                 <Border Margin="12"
                         BorderBrush="{StaticResource TextColor}"
                         BorderThickness="3">
@@ -81,7 +92,7 @@
             </StackPanel>
 
 
-            <StackPanel x:Name="PrijsPanel">
+            <StackPanel x:Name="PrijsPanel"  Visibility="{Binding ReisPrijs, Converter={StaticResource VisibilityConverter}}">
                 <TextBlock Style="{StaticResource PhoneTextLargeStyleCustom}"
                            Text="{Binding PlannerSearch.DisplayFull}"
                            TextWrapping="Wrap" />

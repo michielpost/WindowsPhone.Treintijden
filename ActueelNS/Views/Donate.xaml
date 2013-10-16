@@ -65,8 +65,8 @@
             </StackPanel>
 
 
-            <TextBlock Grid.Row="1" Margin="24,24,0,0" TextWrapping="Wrap" Text="{Binding Path=LocalizedResources.DonateError, Source={StaticResource LocalizedStrings}}" Style="{StaticResource PhoneTextNormalStyleCustom}" Visibility="{Binding IsError, Converter={StaticResource Vis}}" />
-            <ProgressBar Grid.Row="1" Margin="24,24,24,0" IsIndeterminate="{Binding IsBusy}" Visibility="{Binding IsBusy, Converter={StaticResource Vis}}" />
+            <TextBlock Grid.Row="1" Margin="24,24,0,0" TextWrapping="Wrap" Text="{Binding Path=LocalizedResources.DonateError, Source={StaticResource LocalizedStrings}}" Style="{StaticResource PhoneTextNormalStyleCustom}" Visibility="{Binding DataLoader.IsError, Converter={StaticResource Vis}}" />
+            <ProgressBar Grid.Row="1" Margin="24,24,24,0" IsIndeterminate="{Binding DataLoader.IsBusy}" Visibility="{Binding DataLoader.IsBusy, Converter={StaticResource Vis}}" />
 
 
             <TextBlock Grid.Row="2" Margin="368,24,0,0" Text="{Binding Path=LocalizedResources.DonatePrice, Source={StaticResource LocalizedStrings}}" Style="{StaticResource PhoneTextNormalStyleCustom}"
