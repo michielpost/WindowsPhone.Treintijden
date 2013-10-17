@@ -45,7 +45,7 @@ namespace Treintijden.Shared.Services.WP
         {
             string cacheKey = "GetPrijs_" + search.GetUniqueId();
 
-            return JsonCache.GetAsync(cacheKey, () => Original.GetPrijs(search), new DateTime(DateTime.Now.Year + 1, 1, 1));
+            return DataCache.GetAsync(cacheKey, () => Original.GetPrijs(search), new DateTime(DateTime.Now.Year + 1, 1, 1));
         }
 
         public Task<List<ServiceRitInfo>> GetRit(string id, string company, DateTime date)
@@ -57,14 +57,14 @@ namespace Treintijden.Shared.Services.WP
         {
             string cacheKey = "GetStoringenEnWerkzaamheden_" + station;
 
-            return JsonCache.GetAsync(cacheKey, () => Original.GetStoringenEnWerkzaamheden(station), DateTime.Now.AddMinutes(5));
+            return DataCache.GetAsync(cacheKey, () => Original.GetStoringenEnWerkzaamheden(station), DateTime.Now.AddMinutes(5));
         }
 
         public Task<List<Vertrektijd>> GetVertrektijden(string station)
         {
             string cacheKey = "GetVertrektijden_" + station;
 
-            return JsonCache.GetAsync(cacheKey, () => Original.GetVertrektijden(station), DateTime.Now.AddSeconds(30));
+            return DataCache.GetAsync(cacheKey, () => Original.GetVertrektijden(station), DateTime.Now.AddSeconds(30));
         }
     }
 }

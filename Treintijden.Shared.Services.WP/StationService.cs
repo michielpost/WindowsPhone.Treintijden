@@ -53,7 +53,8 @@ namespace Treintijden.Shared.Services
 
             SaveListToStore(stations);
         }
-        public void DeleteStation(string name)
+
+        public void Clear()
         {
             SaveListToStore(new List<Station>());
         }
