@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Net;
 using System.Collections.Generic;
-using System.Xml.Linq;
-using System.Threading.Tasks;
-using System.Globalization;
 using Treintijden.Shared.Services.Interfaces;
 using Treintijden.PCL.Api.Models;
 using TEMP;
