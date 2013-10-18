@@ -68,7 +68,7 @@ namespace ActueelNS.ViewModel
             StationNameService = SimpleIoc.Default.GetInstance<IStationNameService>();
             RitnummerService = SimpleIoc.Default.GetInstance<INSApiService>();
 
-            DataLoader = new DataLoader(true);
+            DataLoader = new DataLoader();
 
             if (IsInDesignMode)
             {

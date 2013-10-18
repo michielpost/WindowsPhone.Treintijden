@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using GalaSoft.MvvmLight.Command;
+using Q42.WinRT.Portable.Data;
 
 #if DEBUG
 using MockIAPLib;
 using Store = MockIAPLib;
-using Q42.WinRT.Portable.Data;
 #else
 using Store = Windows.ApplicationModel.Store;
 #endif
