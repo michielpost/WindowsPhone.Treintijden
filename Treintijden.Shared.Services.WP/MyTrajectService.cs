@@ -28,7 +28,7 @@ namespace Treintijen.Shared.Services
 
             current = AddSingleTraject(traject, current);
 
-            SaveList(current);
+            await SaveList(current);
 
             return current;
 
@@ -36,7 +36,7 @@ namespace Treintijen.Shared.Services
 
         public async Task SaveList(List<Traject> current)
         {
-            sh.SaveAsync(current, fileName);
+            await sh.SaveAsync(current, fileName);
 
             AllInMemmory = current;
         }

@@ -166,35 +166,32 @@ namespace ActueelNS.ViewModel
         /// </summary>
         public PlannerViewModel()
         {
-            ////if (IsInDesignMode)
-            ////{
-            ////    // Code runs in Blend --> create design time data.
-            ////}
-            ////else
-            ////{
-            ////    // Code runs "for real": Connect to service, etc...
-            ////}
+          ////if (IsInDesignMode)
+          ////{
+          ////    // Code runs in Blend --> create design time data.
+          ////}
+          ////else
+          ////{
+          ////    // Code runs "for real": Connect to service, etc...
+          ////}
 
-            StationService = SimpleIoc.Default.GetInstance<IStationService>();
-            StationNameService = SimpleIoc.Default.GetInstance<IStationNameService>();
-            NavigationService = SimpleIoc.Default.GetInstance<INavigationService>();
-            PlannerService = SimpleIoc.Default.GetInstance<IPlannerService>();
-            LiveTileService = SimpleIoc.Default.GetInstance<ILiveTileService>();
-            SettingService = SimpleIoc.Default.GetInstance<ISettingService>();
+          StationService = SimpleIoc.Default.GetInstance<IStationService>();
+          StationNameService = SimpleIoc.Default.GetInstance<IStationNameService>();
+          NavigationService = SimpleIoc.Default.GetInstance<INavigationService>();
+          PlannerService = SimpleIoc.Default.GetInstance<IPlannerService>();
+          LiveTileService = SimpleIoc.Default.GetInstance<ILiveTileService>();
+          SettingService = SimpleIoc.Default.GetInstance<ISettingService>();
 
 
-            SearchCommand = new RelayCommand(() => DoSearch());
-            MijnStationsCommand = new RelayCommand(() => DoMijnStations());
-            SwitchCommand = new RelayCommand(() => DoSwitch());
-            PinCommand = new RelayCommand(() => DoPin());
-            SearchHistoryCommand = new RelayCommand(() => NavigationService.NavigateTo(new Uri("/Views/Reisadvies.xaml", UriKind.Relative)));
+          SearchCommand = new RelayCommand(async () => await DoSearch());
+          MijnStationsCommand = new RelayCommand(() => DoMijnStations());
+          SwitchCommand = new RelayCommand(() => DoSwitch());
+          PinCommand = new RelayCommand(() => DoPin());
+          SearchHistoryCommand = new RelayCommand(() => NavigationService.NavigateTo(new Uri("/Views/Reisadvies.xaml", UriKind.Relative)));
 
-            ViewModelLocator.GpsWatcherStatic.PropertyChanged += new System.ComponentModel.PropertyChangedEventHandler(GpsWatcherStatic_PropertyChanged);
+          ViewModelLocator.GpsWatcherStatic.PropertyChanged += new System.ComponentModel.PropertyChangedEventHandler(GpsWatcherStatic_PropertyChanged);
 
-            Task.Run(() =>
-            {
-                ViewModelLocator.GpsWatcherStatic.StartWatcher();
-            });
+          ViewModelLocator.GpsWatcherStatic.StartWatcherAsync();
         }
 
         private bool CanDoSearch()
@@ -252,7 +249,7 @@ namespace ActueelNS.ViewModel
             }
         }
 
-        private void DoSearch()
+        private async Task DoSearch()
         {
             if (Date == DateTime.MinValue)
                 Date = DateTime.Now;
@@ -280,12 +277,12 @@ namespace ActueelNS.ViewModel
                 && search.NaarStation != null)
             {
                 //Save planner object
-                PlannerService.AddSearch(search);
+                await PlannerService.AddSearchAsync(search);
 
-                var settings = SettingService.GetSettings();
+                var settings = await SettingService.GetSettingsAsync();
                 settings.HasYearCard = IsYearCard;
                 settings.UseHsl = IsHogesnelheid;
-                SettingService.SaveSettings(settings);
+                await SettingService.SaveSettingsAsync(settings);
 
                 //Navigate to new page and pass GUID
                 string url = string.Format("/Views/Reisadvies.xaml?id={0}", search.Id);
@@ -300,9 +297,9 @@ namespace ActueelNS.ViewModel
         ////    base.Cleanup();
         ////}
 
-        internal void InitValues(string from, string to, string via, bool keepValues)
+        internal async Task InitValuesAsync(string from, string to, string via, bool keepValues)
         {
-            Settings = SettingService.GetSettings();
+            Settings = await SettingService.GetSettingsAsync();
 
             if (!keepValues && !string.IsNullOrEmpty(from))
                 VanStation = StationNameService.GetStationByName(from);

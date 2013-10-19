@@ -62,12 +62,15 @@ namespace ActueelNS.ViewModel
         public IEnumerable<Station> StationList
         {
             get {
+              
+              //TODO: Eenmalig ophalen en luisteren naar wijzigingen....
+              //var settings = SettingService.GetSettingsAsync().Result;
 
-                //No Gps allowed?
-                if(!_isLoaded
-                    || !SettingService.GetSettings().ShowList
-                    || !SettingService.GetSettings().AllowGps)
-                     return _stationList;
+              ////No Gps allowed?
+              //if (!_isLoaded
+              //    || !settings.ShowList
+              //    || !settings.AllowGps)
+              //  return _stationList;
 
                 if (GpsStationList == null && _stationList == null)
                     return _stationList;
@@ -155,7 +158,7 @@ namespace ActueelNS.ViewModel
             if (IsInDesignMode)
             {
                 // Code runs in Blend --> create design time data.
-                StationList = StationService.GetMyStations();
+                StationList = StationService.GetMyStationsAsync().Result;
             }
             else
             {
@@ -173,7 +176,7 @@ namespace ActueelNS.ViewModel
             //TapCommand = new RelayCommand<string>(x => LoadTijden(x));
             TapCommand = new RelayCommand<string>(x => NavigationService.NavigateTo(new Uri(string.Format("/Views/StationTijden.xaml?id={0}", x), UriKind.Relative)));
 
-            DeleteCommand = new RelayCommand<string>(x => DeleteStation(x));
+            DeleteCommand = new RelayCommand<string>(async x => await DeleteStationAsync(x));
             PinCommand = new RelayCommand<string>(x => PinStation(x), x => CanExecute(x));
             PlanCommand = new RelayCommand<string>(x => PlanStation(x));
             MapCommand = new RelayCommand<string>(x => MapAction(x));
@@ -239,10 +242,10 @@ namespace ActueelNS.ViewModel
             return false;
         }
 
-        private void DeleteStation(string x)
+        private async Task DeleteStationAsync(string x)
         {
-            StationService.DeleteStation(x);
-            Update();
+            await StationService.DeleteStationAsync(x);
+            await Update();
         }
 
         private void PinStation(string name)
@@ -261,16 +264,14 @@ namespace ActueelNS.ViewModel
             NavigationService.NavigateTo(new Uri(string.Format("/Views/MapPage.xaml?id={0}", code), UriKind.Relative));
         }
 
-        public async void Update()
+        public async Task Update()
         {
             try
             {
-                TakeLimit = SettingService.GetSettings().GpsListCount.HasValue ? SettingService.GetSettings().GpsListCount.Value : 2;
+              var settings = await SettingService.GetSettingsAsync();
+              TakeLimit = settings.GpsListCount.HasValue ? settings.GpsListCount.Value : 2;
                  
-                var list = await Task.Run<IList<Station>>(() =>
-                {
-                    return StationService.GetMyStations();
-                });
+                var list = await StationService.GetMyStationsAsync();
 
                 _isInit = true;
 
@@ -296,7 +297,7 @@ namespace ActueelNS.ViewModel
 
        
 
-        async internal void EnableGps()
+        internal void EnableGpsAsync()
         {
 
             if (!_isLoaded)
@@ -306,18 +307,16 @@ namespace ActueelNS.ViewModel
                 //Already loaded
                 if (ViewModelLocator.GpsWatcherStatic.Stations != null)
                 {
-                    RaisePropertyChanged(() => StationList);
-                    RaisePropertyChanged(() => IsNewTextVisible);
+                  RaisePropertyChanged(() => StationList);
+                  RaisePropertyChanged(() => IsNewTextVisible);
                 }
                 else
                 {
 
-                   
 
-                    Task.Run(() =>
-                        {
-                            ViewModelLocator.GpsWatcherStatic.StartWatcher();
-                        });
+
+                  ViewModelLocator.GpsWatcherStatic.StartWatcherAsync();
+
 
                 }
             }

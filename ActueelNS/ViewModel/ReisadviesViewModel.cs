@@ -40,6 +40,8 @@ namespace ActueelNS.ViewModel
         public ILiveTileService LiveTileService { get; set; }
 
         public bool IsInit { get; set; }
+        public bool InitNewSearch { get; set; }
+
 
         private int? _tempIndex;
 
@@ -160,7 +162,7 @@ namespace ActueelNS.ViewModel
             PrijsCommand = new RelayCommand(() => GoPrijs());
             VertrektijdenCommand = new RelayCommand(() => GoVertrektijden());
             DeleteHistoryCommand = new RelayCommand(() => DeleteHistory());
-            DeleteCommand = new RelayCommand<Guid>(x => DeleteSingleHistory(x));
+            DeleteCommand = new RelayCommand<Guid>(async x => await DeleteSingleHistoryAsync(x));
             AdviceTapCommand = new RelayCommand<Guid>(x => AdviceTapCommandAction(x));
             ReplanCommand = new RelayCommand<PlannerSearch>(x => RepeatSearch(x));
 
@@ -239,7 +241,7 @@ namespace ActueelNS.ViewModel
             else
             {
                 // Code runs "for real": Connect to service, etc...
-                RefreshSearchHistory();
+                RefreshSearchHistoryAsync();
             }
 
 
@@ -303,7 +305,7 @@ namespace ActueelNS.ViewModel
 
                 if (index.HasValue && mogelijkheid != null)
                 {
-                    PlannerService.AddPermSearch(SelectedSearch, ReisMogelijkheden);
+                    PlannerService.AddPermSearchAsync(SelectedSearch, ReisMogelijkheden);
 
                     LiveTileService.CreateAdvies(SelectedSearch, index.Value, mogelijkheid.GeplandeVertrekTijd);
                 }
@@ -333,15 +335,15 @@ namespace ActueelNS.ViewModel
             }
         }
 
-        private void DeleteSingleHistory(Guid id)
+        private async Task DeleteSingleHistoryAsync(Guid id)
         {
-            PlannerService.DeleteSearch(id);
-            RefreshSearchHistory();
+            await PlannerService.DeleteSearchAsync(id);
+            await RefreshSearchHistoryAsync();
         }
 
         private void DeleteHistory()
         {
-            PlannerService.DeleteSearchHistory();
+            PlannerService.DeleteSearchHistoryAsync();
             SearchHistory.Clear();
             RaisePropertyChanged(() => SearchHistory);
 
@@ -555,18 +557,20 @@ namespace ActueelNS.ViewModel
         ////    base.Cleanup();
         ////}
 
-        internal void Initialize(Guid? id, int? index)
+        internal async Task InitializeAsync(Guid? id, int? index)
         {
             IsInit = true;
+            InitNewSearch = true;
 
             SelectedSearch = null;
             SelectedReisMogelijkheid = null;
 
-            RefreshSearchHistory();
+            InitNewSearch = false;
+
 
             if (id.HasValue)
             {
-                var search = PlannerService.GetSearch(id.Value);
+                var search = await PlannerService.GetSearchAsync(id.Value);
 
                 if (search != null)
                 {
@@ -575,6 +579,9 @@ namespace ActueelNS.ViewModel
                 }
                 
             }
+
+            RefreshSearchHistoryAsync();
+
         }
 
         private async void GetSearchResult(PlannerSearch search)
@@ -612,11 +619,12 @@ namespace ActueelNS.ViewModel
 
         }
 
-        private void RefreshSearchHistory()
+        private async Task RefreshSearchHistoryAsync()
         {
-            var items = PlannerService.GetListFromStore();
+            var items = await PlannerService.GetListFromStoreAsync();
 
             SearchHistory.Clear();
+
             foreach (var item in items)
             {
                     SearchHistory.Add(item);
@@ -654,5 +662,6 @@ namespace ActueelNS.ViewModel
 
             return false;
         }
+
     }
 }

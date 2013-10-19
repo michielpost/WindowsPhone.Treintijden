@@ -2,25 +2,27 @@
 using System.Collections.Generic;
 using Treintijden.Shared.Services.Interfaces;
 using Treintijden.PCL.Api.Models;
-using TEMP;
 using System.Linq;
+using Q42.WinRT.Storage;
+using System.Threading.Tasks;
 
 namespace Treintijden.Shared.Services
 {
     public class PlannerService : IPlannerService
     {
 
-        public List<PlannerSearch> GetListFromStore()
-        {
-            var list = IsolatedStorageCacheManager<List<PlannerSearch>>.Retrieve("planning_searches.xml");
+      public async Task<List<PlannerSearch>> GetListFromStoreAsync()
+      {
+        var sh = new StorageHelper<List<PlannerSearch>>(StorageType.Local, serializerType: StorageSerializer.XML);
+        var list = await sh.LoadAsync("planning_searches");
 
-            if (list == null)
-                list = new List<PlannerSearch>();
+        if (list == null)
+          list = new List<PlannerSearch>();
 
-            return list;
-        }
+        return list;
+      }
 
-        private void SaveListToStore(List<PlannerSearch> list, int count = 20)
+      private async Task SaveListToStoreAsync(List<PlannerSearch> list, int count = 20)
         {
             //Always save ordered
             List<PlannerSearch> saveList = list.OrderByDescending(x => x.SearchDateTime).Take(count).ToList();
@@ -31,24 +33,26 @@ namespace Treintijden.Shared.Services
                 //Delete all searches from perm isolated storage
                 //Except saved searched
 
-                var permSearches = GetPermListFromStore().Select(x => x.Id).ToList();
+              var permSearches = (await GetPermListFromStoreAsync()).Select(x => x.Id).ToList();
 
                 notSaved = notSaved.Where(x => !permSearches.Contains(x.Id)).ToList();
 
                 foreach (var item in notSaved)
                 {
-                    DeletePermStoredSearchResult(item.Id);
+                  await DeletePermStoredSearchResultAsync(item.Id);
                 }
             }
 
-            IsolatedStorageCacheManager<List<PlannerSearch>>.Store("planning_searches.xml", saveList);
+            var sh = new StorageHelper<List<PlannerSearch>>(StorageType.Local, serializerType: StorageSerializer.XML);
+            await sh.SaveAsync(saveList, "planning_searches");
         }
 
-       
 
-        public List<PlannerSearch> GetPermListFromStore()
+
+        public async Task<List<PlannerSearch>> GetPermListFromStoreAsync()
         {
-            var list = IsolatedStorageCacheManager<List<PlannerSearch>>.Retrieve("perm_searches.xml");
+          var sh = new StorageHelper<List<PlannerSearch>>(StorageType.Local, serializerType: StorageSerializer.XML);
+          var list = await sh.LoadAsync("perm_searches");
 
             if (list == null)
                 list = new List<PlannerSearch>();
@@ -56,55 +60,56 @@ namespace Treintijden.Shared.Services
             return list;
         }
 
-        private void SavePermListToStore(List<PlannerSearch> list)
+        private Task SavePermListToStoreAsync(List<PlannerSearch> list)
         {
-            IsolatedStorageCacheManager<List<PlannerSearch>>.Store("perm_searches.xml", list);
+          var sh = new StorageHelper<List<PlannerSearch>>(StorageType.Local, serializerType: StorageSerializer.XML);
+          return sh.SaveAsync(list, "perm_searches");
         }
 
-        public void AddSearch(PlannerSearch search)
+        public async Task AddSearchAsync(PlannerSearch search)
         {
-            List<PlannerSearch> list = GetListFromStore();
+          List<PlannerSearch> list = await GetListFromStoreAsync();
 
             if (!list.Where(x => x.Id == search.Id).Any())
             {
                 list.Add(search);
 
-                SaveListToStore(list);
+                await SaveListToStoreAsync(list);
             }
         }
 
-        public void DeleteSearch(Guid id)
+        public async Task DeleteSearchAsync(Guid id)
         {
-            List<PlannerSearch> list = GetListFromStore();
+          List<PlannerSearch> list = await GetListFromStoreAsync();
 
             var search = list.Where(x => x.Id == id).FirstOrDefault();
             if (search != null)
                 list.Remove(search);
 
-            SaveListToStore(list);
+            await SaveListToStoreAsync(list);
 
             //Can delete perm result?
 
-            list = GetPermListFromStore();
+            list = await GetPermListFromStoreAsync();
             search = list.Where(x => x.Id == id).FirstOrDefault();
 
             if (search == null)
             {
                 //Safe delete from perm result
-                DeletePermStoredSearchResult(id);
+              await DeletePermStoredSearchResultAsync(id);
 
             }
         }
 
-        public PlannerSearch GetSearch(Guid id)
+        public async Task<PlannerSearch> GetSearchAsync(Guid id)
         {
-            List<PlannerSearch> list = GetListFromStore();
+          List<PlannerSearch> list = await GetListFromStoreAsync();
 
             var search = list.Where(x => x.Id == id).FirstOrDefault();
 
             if(search == null)
             {
-                list = GetPermListFromStore();
+              list = await GetPermListFromStoreAsync();
 
                 search = list.Where(x => x.Id == id).FirstOrDefault();
             }
@@ -112,48 +117,54 @@ namespace Treintijden.Shared.Services
             return search;
         }
 
-        public List<ReisMogelijkheid> GetPermStoreSearchResult(Guid id)
+        public Task<List<ReisMogelijkheid>> GetPermStoreSearchResultAsync(Guid id)
         {
-            return IsolatedStorageCacheManager<List<ReisMogelijkheid>>.Retrieve(string.Format("/SearchResult_{0}.xml", id));
+          var sh = new StorageHelper<List<ReisMogelijkheid>>(StorageType.Local, serializerType: StorageSerializer.XML);
+
+          return sh.LoadAsync(string.Format("SearchResult_{0}", id));
         }
 
-        public void AddPermSearch(PlannerSearch search, List<ReisMogelijkheid> mogelijkheden)
+        public async Task AddPermSearchAsync(PlannerSearch search, List<ReisMogelijkheid> mogelijkheden)
         {
-            List<PlannerSearch> list = GetPermListFromStore();
+          List<PlannerSearch> list = await GetPermListFromStoreAsync();
 
             if (!list.Where(x => x.Id == search.Id).Any())
             {
                 list.Add(search);
 
-                SavePermListToStore(list);
+                await SavePermListToStoreAsync(list);
 
-                PermStoreSearchResult(search.Id, mogelijkheden);
+                await PermStoreSearchResultAsync(search.Id, mogelijkheden);
             }
         }
-              
 
-        public void PermStoreSearchResult(Guid id, List<ReisMogelijkheid> mogelijkheden)
+
+        public async Task PermStoreSearchResultAsync(Guid id, List<ReisMogelijkheid> mogelijkheden)
         {
             try
             {
-                IsolatedStorageCacheManager<List<ReisMogelijkheid>>.Store(string.Format("/SearchResult_{0}.xml", id), mogelijkheden);
+              var sh = new StorageHelper<List<ReisMogelijkheid>>(StorageType.Local, serializerType: StorageSerializer.XML);
+
+              await sh.SaveAsync(mogelijkheden, string.Format("SearchResult_{0}", id));
             }
             catch { }
         }
 
-        private void DeletePermStoredSearchResult(Guid id)
+        private async Task DeletePermStoredSearchResultAsync(Guid id)
         {
             try
             {
-                IsolatedStorageCacheManager<string>.Delete(string.Format("/SearchResult_{0}.xml", id));
+              var sh = new StorageHelper<string>(StorageType.Local, serializerType: StorageSerializer.XML);
+
+                await sh.DeleteAsync(string.Format("SearchResult_{0}", id));
             }
             catch { }
         }
 
 
-        public void DeleteSearchHistory()
+        public async Task DeleteSearchHistoryAsync()
         {
-            SaveListToStore(GetListFromStore(), 0);
+          await SaveListToStoreAsync(await GetListFromStoreAsync(), 0);
         }
     }
 }

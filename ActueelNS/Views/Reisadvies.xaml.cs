@@ -16,8 +16,6 @@ namespace ActueelNS.Views
     /// </summary>
     public partial class Reisadvies : ViewBase
     {
-        private ProgressIndicator _progressIndicator;
-
         private ReisadviesViewModel _vm;
 
         private const  int HistoryIndex = 0;
@@ -60,7 +58,7 @@ namespace ActueelNS.Views
         }
 
 
-        protected override void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)
+        protected override async void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)
         {
             _vm = (ReisadviesViewModel)DataContext;
             _vm.PropertyChanged += new System.ComponentModel.PropertyChangedEventHandler(_vm_PropertyChanged);
@@ -92,12 +90,12 @@ namespace ActueelNS.Views
                     }
 
                     SearchHistoryListBox.Visibility = System.Windows.Visibility.Collapsed;
-                    _vm.Initialize(id, index);
+                    await _vm.InitializeAsync(id, index);
 
                 }
                 else
                 {
-                    _vm.Initialize(null, null);
+                  await _vm.InitializeAsync(null, null);
 
                 }
             }
@@ -120,7 +118,8 @@ namespace ActueelNS.Views
                 if (_vm.SelectedSearch == null)
                 {
                     //Show all search history
-                    if(SearchHistoryListBox.Visibility == System.Windows.Visibility.Collapsed)
+                    if(SearchHistoryListBox.Visibility == System.Windows.Visibility.Collapsed
+                      && !_vm.InitNewSearch)
                         ShowStep0List.Begin();
 
                     if (Step1InfoPanel.Visibility == System.Windows.Visibility.Visible)

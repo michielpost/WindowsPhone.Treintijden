@@ -225,14 +225,14 @@ namespace ActueelNS.ViewModel
 
 
 
-            StationAddCommand = new RelayCommand<Station>(x => AddStation(x));
+            StationAddCommand = new RelayCommand<Station>(async x => await AddStation(x));
             VertrektijdenCommand = new RelayCommand<Station>(x => GoVertrektijdenStation(x));
            
         }
 
-        private void AddStation(Station station)
+        private async Task AddStation(Station station)
         {
-            StationService.AddStation(station);
+            await StationService.AddStationAsync(station);
 
             if (NavigationService.CanGoBack)
                 NavigationService.GoBack();
@@ -255,9 +255,9 @@ namespace ActueelNS.ViewModel
         ////    base.Cleanup();
         ////}
 
-        internal void Load()
+        internal async Task Load()
         {
-            Settings = SettingService.GetSettings();
+            Settings = await SettingService.GetSettingsAsync();
 
             StationList.Clear();
 
@@ -277,40 +277,30 @@ namespace ActueelNS.ViewModel
             }
         }
 
-        internal async void SeachStation(string p)
+        internal void SeachStation(string p)
         {
-            if (string.IsNullOrEmpty(p))
-                StationList.Clear();
-            else
+          if (string.IsNullOrEmpty(p))
+            StationList.Clear();
+          else
+          {
+            p = p.ToLower();
+
+
+            var stations = StationNameService.GetStations().Where(x => x.Name.ToLower().StartsWith(p)).Take(7);
+
+            if (stations.Count() < 7)
             {
-                p = p.ToLower();
-                
-                //var newStations = await TaskEx.Run<List<Station>>(() =>
-                //    {
+              var extraStations = StationNameService.GetStations().Where(x => x.StartsWith(p)).Take(7 - stations.Count());
 
-                var stations = StationNameService.GetStations().Where(x => x.Name.ToLower().StartsWith(p)).Take(7);
-
-                        if (stations.Count() < 7)
-                        {
-                            var extraStations = StationNameService.GetStations().Where(x => x.StartsWith(p)).Take(7 - stations.Count());
-
-                            stations = stations.Union(extraStations);
-                        }
-
-                        //return stations.ToList();
-
-                        
-                   // });
-
-                    StationList.Clear();
-
-                    //newStations.ForEach(x => StationList.Add(x));
-
-                foreach(var s in stations)
-                    StationList.Add(s);
-
-                //StationList = stations;
+              stations = stations.Union(extraStations);
             }
+
+            StationList.Clear();
+
+            foreach (var s in stations)
+              StationList.Add(s);
+
+          }
 
 
         }

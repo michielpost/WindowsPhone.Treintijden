@@ -169,14 +169,14 @@ namespace ActueelNS.ViewModel
         //    }
         //}
 
-        void OnReisadviesReceived(object sender, ReisadviesReceivedEventArgs args)
+        async void OnReisadviesReceived(object sender, ReisadviesReceivedEventArgs args)
         {
 
             var plannerService = SimpleIoc.Default.GetInstance<IPlannerService>();
             ShareSearch s = ShareSearch.Desserialize(args.Bytes);
 
-            plannerService.AddSearch(s.PlannerSearch);
-            plannerService.PermStoreSearchResult(s.PlannerSearch.Id, s.ReisMogelijkheden);
+            await plannerService.AddSearchAsync(s.PlannerSearch);
+            await plannerService.PermStoreSearchResultAsync(s.PlannerSearch.Id, s.ReisMogelijkheden);
 
             //SetCurrentPicture(args.Bytes);
 

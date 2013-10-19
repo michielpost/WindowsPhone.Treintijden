@@ -1,4 +1,5 @@
-﻿using TEMP;
+﻿using Q42.WinRT.Storage;
+using System.Threading.Tasks;
 using Treintijden.Shared.Services.Interfaces;
 using Treintijden.Shared.Services.Models;
 
@@ -8,13 +9,14 @@ namespace Treintijden.Shared.Services
     {
         private AppSetting _settings;
 
-        public AppSetting GetSettings()
+        public async Task<AppSetting> GetSettingsAsync()
         {
             //Return from memory
             if (_settings != null)
                 return _settings;
 
-            var settings = IsolatedStorageCacheManager<AppSetting>.Retrieve("settings.xml");
+            var sh = new StorageHelper<AppSetting>(StorageType.Local, serializerType: StorageSerializer.XML);
+            var settings = await sh.LoadAsync("settings");
 
             if (settings == null)
             {
@@ -44,12 +46,14 @@ namespace Treintijden.Shared.Services
             return settings;
         }
 
-        public void SaveSettings(Models.AppSetting settings)
+        public Task SaveSettingsAsync(AppSetting settings)
         {
-            IsolatedStorageCacheManager<AppSetting>.Store("settings.xml", settings);
+          //Save in memory
+          _settings = settings;
 
-            //Save in memory
-            _settings = settings;
+          var sh = new StorageHelper<AppSetting>(StorageType.Local, serializerType: StorageSerializer.XML);
+          return sh.SaveAsync(settings, "settings");
+
         }
     }
 }

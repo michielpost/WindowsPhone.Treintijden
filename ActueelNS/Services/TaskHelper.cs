@@ -13,13 +13,14 @@ using GalaSoft.MvvmLight.Ioc;
 using ActueelNS.Services.Interfaces;
 using ActueelNS.Resources;
 using Treintijden.Shared.Services.Interfaces;
+using System.Threading.Tasks;
 
 namespace ActueelNS.Services
 {
     public static class TaskHelper
     {
 
-        public static void ResetTask(bool force)
+        public static async Task ResetTask(bool force)
         {
             try
             {
@@ -37,7 +38,8 @@ namespace ActueelNS.Services
 
                 if (force)
                 {
-                    var settings = SimpleIoc.Default.GetInstance<ISettingService>().GetSettings();
+                  var settingsService = SimpleIoc.Default.GetInstance<ISettingService>();
+                  var settings = await settingsService.GetSettingsAsync();
                     // Create the Task
                     if (settings.AllowBackgroundTask.HasValue && settings.AllowBackgroundTask.Value)
                     {
@@ -48,7 +50,7 @@ namespace ActueelNS.Services
                             try
                             {
                                 settings.AllowBackgroundTask = false;
-                                SimpleIoc.Default.GetInstance<ISettingService>().SaveSettings(settings);
+                                settingsService.SaveSettingsAsync(settings);
                             }
                             catch
                             {

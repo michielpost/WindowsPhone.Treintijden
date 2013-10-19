@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using Treintijden.PCL.Api.Models;
 
 namespace Treintijden.Shared.Services.Interfaces
@@ -6,13 +7,13 @@ namespace Treintijden.Shared.Services.Interfaces
     public interface IStationService
     {
 
-        IList<Station> GetMyStations();
+      Task<List<Station>> GetMyStationsAsync();
 
-        void AddStation(Station name);
+      Task AddStationAsync(Station name);
 
-        void DeleteStation(string name);
+      Task DeleteStationAsync(string name);
 
-        void Clear();
+      Task ClearAsync();
 
     
     }

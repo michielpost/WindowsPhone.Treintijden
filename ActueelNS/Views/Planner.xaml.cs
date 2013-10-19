@@ -84,7 +84,7 @@ namespace ActueelNS.Views
         }
         
 
-        protected override void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)
+        protected override async void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)
         {
             _loading = true;
 
@@ -106,7 +106,7 @@ namespace ActueelNS.Views
             if (this.NavigationContext.QueryString.ContainsKey("via"))
                 via = this.NavigationContext.QueryString["via"];
 
-            _vm.InitValues(from, to, via, keepValues);
+            await _vm.InitValuesAsync(from, to, via, keepValues);
 
             
 
@@ -115,7 +115,7 @@ namespace ActueelNS.Views
 
             try
             {
-                ViewModelLocator.MainStatic.Update();
+                await ViewModelLocator.MainStatic.Update();
             }
             catch { }
 

@@ -14,7 +14,6 @@ namespace ActueelNS.Views
     /// </summary>
     public partial class StationTijden : ViewBase
     {
-        private ProgressIndicator _progressIndicator;
         private StationTijdenViewModel _vm;
 
         /// <summary>
@@ -37,7 +36,7 @@ namespace ActueelNS.Views
 
         }
 
-        protected override void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)
+        protected override async void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)
         {
             base.OnNavigatedTo(e);
 
@@ -56,7 +55,7 @@ namespace ActueelNS.Views
 
                 if (!keepValues || _vm.CurrentStation == null)
                 {
-                    _vm.LoadStation(station);
+                    await _vm.LoadStation(station);
                 }
 
                 (ApplicationBar.Buttons[2] as ApplicationBarIconButton).IsEnabled = !_vm.IsPinned;

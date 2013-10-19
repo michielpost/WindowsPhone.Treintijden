@@ -2,22 +2,22 @@
 using System.Collections.Generic;
 using Treintijden.Shared.Services.Interfaces;
 using Treintijden.PCL.Api.Models;
-using TEMP;
+using Q42.WinRT.Storage;
+using System.Threading.Tasks;
 
 namespace Treintijden.Shared.Services
 {
     public class StationService : IStationService
     {
-        public IList<Station> GetMyStations()
+      public Task<List<Station>> GetMyStationsAsync()
         {
-            List<Station> names = GetListFromStore();
-
-            return names;
+          return GetListFromStoreAsync();
         }
 
-        private List<Station> GetListFromStore()
+      private async Task<List<Station>> GetListFromStoreAsync()
         {
-            var list = IsolatedStorageCacheManager<List<Station>>.Retrieve("favorite.xml");
+          var sh = new StorageHelper<List<Station>>(StorageType.Local, serializerType: StorageSerializer.XML);
+          var list = await sh.LoadAsync("favorite");
 
             if(list == null)
                 list = new List<Station>();
@@ -25,38 +25,39 @@ namespace Treintijden.Shared.Services
             return list;
         }
 
-        private void SaveListToStore(List<Station> stations)
+      private Task SaveListToStoreAsync(List<Station> stations)
         {
             //Always save ordered
             stations = stations.OrderBy(x => x.Name).ToList();
 
-            IsolatedStorageCacheManager<List<Station>>.Store("favorite.xml", stations);
+            var sh = new StorageHelper<List<Station>>(StorageType.Local, serializerType: StorageSerializer.XML);
+            return sh.SaveAsync(stations, "favorite");
         }
 
-        public void AddStation(Station station)
+      public async Task AddStationAsync(Station station)
         {
-            List<Station> stations = GetListFromStore();
+          List<Station> stations = await GetListFromStoreAsync();
 
-            if (!stations.Where(x => x.Name == station.Name).Any())
-                stations.Add(station);
+          if (!stations.Where(x => x.Name == station.Name).Any())
+            stations.Add(station);
 
-            SaveListToStore(stations);
+          await SaveListToStoreAsync(stations);
         }
 
-        public void DeleteStation(string name)
+      public async Task DeleteStationAsync(string name)
         {
-            List<Station> stations = GetListFromStore();
+          List<Station> stations = await GetListFromStoreAsync();
 
-            var station = stations.Where(x => x.Name == name).FirstOrDefault();
-            if (station != null)
-                stations.Remove(station);
+          var station = stations.Where(x => x.Name == name).FirstOrDefault();
+          if (station != null)
+            stations.Remove(station);
 
-            SaveListToStore(stations);
+          await SaveListToStoreAsync(stations);
         }
 
-        public void Clear()
+      public Task ClearAsync()
         {
-            SaveListToStore(new List<Station>());
+          return SaveListToStoreAsync(new List<Station>());
         }
 
 

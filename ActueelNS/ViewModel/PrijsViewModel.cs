@@ -7,6 +7,7 @@ using Treintijden.Shared.Services.Interfaces;
 using Treintijden.PCL.Api.Models;
 using Treintijden.PCL.Api.Interfaces;
 using Q42.WinRT.Portable.Data;
+using System.Threading.Tasks;
 
 namespace ActueelNS.ViewModel
 {
@@ -114,13 +115,13 @@ namespace ActueelNS.ViewModel
         ////    base.Cleanup();
         ////}
 
-        internal async void Initialize(Guid? id)
+        internal async Task Initialize(Guid? id)
         {
             PlannerSearch = null;
 
             if (id.HasValue)
             {
-                var search = PlannerService.GetSearch(id.Value);
+                var search = await PlannerService.GetSearchAsync(id.Value);
 
                 if (search != null)
                 {

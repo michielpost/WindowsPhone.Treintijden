@@ -1,11 +1,12 @@
-﻿using Treintijden.Shared.Services.Models;
+﻿using System.Threading.Tasks;
+using Treintijden.Shared.Services.Models;
 
 namespace Treintijden.Shared.Services.Interfaces
 {
     public interface ISettingService
     {
-        AppSetting GetSettings();
+      Task<AppSetting> GetSettingsAsync();
 
-        void SaveSettings(AppSetting settings);
+      Task SaveSettingsAsync(AppSetting settings);
     }
 }

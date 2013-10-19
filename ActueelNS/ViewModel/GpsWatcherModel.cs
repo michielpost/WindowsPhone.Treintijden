@@ -85,11 +85,12 @@ namespace ActueelNS.ViewModel
             
         }
 
-        public void StartWatcher()
+        public async Task StartWatcherAsync()
         {
             try
             {
-                if (SettingService.GetSettings().AllowGps)
+              var settings = await SettingService.GetSettingsAsync();
+              if (settings.AllowGps)
                 {
                     Instance.Start();
                 }

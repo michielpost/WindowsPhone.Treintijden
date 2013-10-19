@@ -187,8 +187,8 @@ namespace ActueelNS.ViewModel
             //StoringenService = SimpleIoc.Default.GetInstance<IStoringenService>();
 
             RefreshCommand = new RelayCommand(() => LoadTijden());
-            DeleteCommand = new RelayCommand(() => DeleteStation());
-            AddCommand = new RelayCommand(() => AddStation());
+            DeleteCommand = new RelayCommand(async () => await DeleteStation());
+            AddCommand = new RelayCommand(async () => await AddStationAsync());
             MapCommand = new RelayCommand(() => MapAction());
             PinCommand = new RelayCommand(() => PinStation());
             PlanCommand = new RelayCommand(() => PlanStation());
@@ -273,11 +273,11 @@ namespace ActueelNS.ViewModel
 
                
 
-        private void DeleteStation()
+        private async Task DeleteStation()
         {
             string name = CurrentStation.Name;
 
-            StationService.DeleteStation(name);
+            await StationService.DeleteStationAsync(name);
 
             if(NavigationService.CanGoBack)
                 NavigationService.GoBack();
@@ -285,10 +285,10 @@ namespace ActueelNS.ViewModel
                 NavigationService.NavigateTo(new Uri("/MainPage.xaml", UriKind.Relative));
         }
 
-        private void AddStation()
+        private async Task AddStationAsync()
         {
 
-            StationService.AddStation(CurrentStation);
+            await StationService.AddStationAsync(CurrentStation);
 
             if (NavigationService.CanGoBack)
                 NavigationService.GoBack();
@@ -310,7 +310,7 @@ namespace ActueelNS.ViewModel
             NavigationService.NavigateTo(new Uri(string.Format("/Views/Planner.xaml?from={0}", name), UriKind.Relative));
         }
 
-        internal async void LoadStation(string station)
+        internal async Task LoadStation(string station)
         {
           PageName = station;
           CurrentStation = StationNameService.GetStationByName(station);
@@ -325,8 +325,8 @@ namespace ActueelNS.ViewModel
             TijdList = new ObservableCollection<Vertrektijd>(list);
           }
 
-
-          InMyStations = StationService.GetMyStations().Where(x => x.Code == CurrentStation.Code).Any();
+          var mystations = await StationService.GetMyStationsAsync();
+          InMyStations = mystations.Where(x => x.Code == CurrentStation.Code).Any();
 
         }
 

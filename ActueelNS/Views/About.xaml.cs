@@ -5,6 +5,7 @@ using GalaSoft.MvvmLight.Ioc;
 using ActueelNS.Views.Base;
 using ActueelNS.Resources;
 using Treintijden.Shared.Services.Interfaces;
+using System.Threading.Tasks;
 
 namespace ActueelNS.Views
 {
@@ -20,12 +21,18 @@ namespace ActueelNS.Views
         {
             InitializeComponent();
 
-            ISettingService settingService = SimpleIoc.Default.GetInstance<ISettingService>();
-            if (settingService.GetSettings().Culture != "nl-NL")
-                ReleaseNotesPivot.Visibility = System.Windows.Visibility.Collapsed;
+            LoadSettingsForReleaseNotes();
 
 
 
+        }
+
+        private async Task LoadSettingsForReleaseNotes()
+        {
+          ISettingService settingService = SimpleIoc.Default.GetInstance<ISettingService>();
+          var settings = await settingService.GetSettingsAsync();
+          if (settings.Culture != "nl-NL")
+            ReleaseNotesPivot.Visibility = System.Windows.Visibility.Collapsed;
         }
 
       

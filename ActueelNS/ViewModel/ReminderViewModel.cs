@@ -9,6 +9,7 @@ using Microsoft.Phone.Scheduler;
 using ActueelNS.Resources;
 using Treintijden.Shared.Services.Interfaces;
 using Treintijden.PCL.Api.Models;
+using System.Threading.Tasks;
 
 namespace ActueelNS.ViewModel
 {
@@ -134,7 +135,7 @@ namespace ActueelNS.ViewModel
 
 
 
-        internal void Initialize(Guid? id, int? index, DateTime? startTime, string spoor)
+        internal async Task Initialize(Guid? id, int? index, DateTime? startTime, string spoor)
         {
             SelectedSearch = null;
             StartDate = startTime;
@@ -144,7 +145,7 @@ namespace ActueelNS.ViewModel
 
             if (id.HasValue)
             {
-                var search = PlannerService.GetSearch(id.Value);
+                var search = await PlannerService.GetSearchAsync(id.Value);
 
                 if (search != null)
                 {

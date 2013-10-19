@@ -156,32 +156,29 @@ namespace ActueelNS
         {
             TiltEffect.SetIsTiltEnabled(RootFrame, true);
 
-            Task.Run(() =>
-            {
-                TaskHelper.ResetTask(false);
-            });
+            TaskHelper.ResetTask(false);
 
             //Set culture
-            ISettingService settingService = SimpleIoc.Default.GetInstance<ISettingService>();
-            var settings = settingService.GetSettings();
+            //ISettingService settingService = SimpleIoc.Default.GetInstance<ISettingService>();
+            //var settings = settingService.GetSettingsAsync().Result;
 
-            if (string.IsNullOrEmpty(settings.Culture))
-            {
+            //if (string.IsNullOrEmpty(settings.Culture))
+            //{
 
-                if (Thread.CurrentThread.CurrentUICulture.CompareInfo.Name.IndexOf("nl-") >= 0
-                    || Thread.CurrentThread.CurrentCulture.CompareInfo.Name.IndexOf("nl-") >= 0)
-                    settings.Culture = "nl-NL";
-                else if (Thread.CurrentThread.CurrentUICulture.CompareInfo.Name.IndexOf("en-") >= 0
-                    || Thread.CurrentThread.CurrentCulture.CompareInfo.Name.IndexOf("en-") >= 0)
-                    settings.Culture = "en-US";
+            //  if (Thread.CurrentThread.CurrentUICulture.CompareInfo.Name.IndexOf("nl-") >= 0
+            //      || Thread.CurrentThread.CurrentCulture.CompareInfo.Name.IndexOf("nl-") >= 0)
+            //    settings.Culture = "nl-NL";
+            //  else if (Thread.CurrentThread.CurrentUICulture.CompareInfo.Name.IndexOf("en-") >= 0
+            //      || Thread.CurrentThread.CurrentCulture.CompareInfo.Name.IndexOf("en-") >= 0)
+            //    settings.Culture = "en-US";
 
-                settingService.SaveSettings(settings);
-            }
+            //  settingService.SaveSettingsAsync(settings).Wait();
+            //}
 
-            if (!string.IsNullOrEmpty(settings.Culture))
-            {
-                Thread.CurrentThread.CurrentUICulture = new CultureInfo(settings.Culture);
-            }
+            //if (!string.IsNullOrEmpty(settings.Culture))
+            //{
+            //  Thread.CurrentThread.CurrentUICulture = new CultureInfo(settings.Culture);
+            //}
 
             try
             {
@@ -200,12 +197,9 @@ namespace ActueelNS
         // This code will not execute when the application is first launched
         private void Application_Activated(object sender, ActivatedEventArgs e)
         {
-            TiltEffect.SetIsTiltEnabled(RootFrame, true);
+          TiltEffect.SetIsTiltEnabled(RootFrame, true);
 
-            Task.Run(() =>
-            {
-                ViewModelLocator.GpsWatcherStatic.StartWatcher();
-            });
+          ViewModelLocator.GpsWatcherStatic.StartWatcherAsync();
 
         }
 

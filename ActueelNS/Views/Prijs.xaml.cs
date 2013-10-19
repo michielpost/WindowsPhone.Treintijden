@@ -21,7 +21,7 @@ namespace ActueelNS.Views
             InitializeComponent();
         }
 
-        protected override void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)
+        protected override async void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)
         {
             _vm = (PrijsViewModel)DataContext;
 
@@ -32,12 +32,12 @@ namespace ActueelNS.Views
 
                 Guid id = Guid.Parse(guidIdString);
 
-                _vm.Initialize(id);
+                await _vm.Initialize(id);
 
             }
             else
             {
-                _vm.Initialize(null);
+                await _vm.Initialize(null);
 
             }
 

@@ -23,11 +23,11 @@ namespace ActueelNS.Views
 
         }
 
-        protected override void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)
+        protected override async void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)
         {
             _vm = (SettingsViewModel)DataContext;
 
-            _vm.Initialize();
+            await _vm.Initialize();
 
             SetSwitches(true);
 

@@ -39,7 +39,7 @@ namespace Treintijen.Shared.Services
             current.Reverse();
             current = current.Take(10).ToList();
 
-            sh.SaveAsync(current.Select(x => x.Code).ToArray(), fileName);
+            await sh.SaveAsync(current.Select(x => x.Code).ToArray(), fileName);
 
             AllInMemmory = current;
 

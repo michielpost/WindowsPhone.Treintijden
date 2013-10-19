@@ -23,7 +23,7 @@ namespace Treintijden.Shared.Services.WP
         {
             try
             {
-                var result = PlannerService.GetPermStoreSearchResult(search.Id);
+              var result = await PlannerService.GetPermStoreSearchResultAsync(search.Id);
                 if (result != null)
                     return result;
             }
@@ -34,7 +34,7 @@ namespace Treintijden.Shared.Services.WP
 
             try
             {
-                PlannerService.PermStoreSearchResult(search.Id, searchResult);
+              PlannerService.PermStoreSearchResultAsync(search.Id, searchResult);
             }
             catch{}
 

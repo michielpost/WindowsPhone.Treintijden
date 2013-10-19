@@ -29,7 +29,7 @@ namespace ActueelNS.Views
             base.OnNavigatedFrom(e);
         }
 
-        protected override void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)
+        protected override async void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)
         {
             _vm = (ReminderViewModel)DataContext;
             _vm.PropertyChanged += new System.ComponentModel.PropertyChangedEventHandler(_vm_PropertyChanged);
@@ -59,12 +59,12 @@ namespace ActueelNS.Views
 
                 string spoor = this.NavigationContext.QueryString["spoor"];
 
-                _vm.Initialize(id, index, time, spoor);
+                await _vm.Initialize(id, index, time, spoor);
 
             }
             else
             {
-                _vm.Initialize(null, null, null, null);
+                await _vm.Initialize(null, null, null, null);
 
             }
 

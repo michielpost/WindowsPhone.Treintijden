@@ -17,8 +17,6 @@ namespace ActueelNS
 {
     public partial class MainPage : ViewBase
     {
-
-        private ProgressIndicator _progressIndicator;
         private MainViewModel _vm;
         private bool _animationPlayed = false;
 
@@ -39,15 +37,15 @@ namespace ActueelNS
             (ApplicationBar.MenuItems[4] as ApplicationBarMenuItem).Text = AppResources.MainInformatieButton;
 
 
-            SetCulture();
+            //SetCulture();
 
         }
 
-        private async void SetCulture()
+        private async Task SetCulture()
         {
             await Task.Delay(1000);
             ISettingService settingService = SimpleIoc.Default.GetInstance<ISettingService>();
-            var settings = settingService.GetSettings();
+            var settings = await settingService.GetSettingsAsync();
 
             if (string.IsNullOrEmpty(settings.Culture))
             {
@@ -72,7 +70,7 @@ namespace ActueelNS
                         settings.Culture = "nl-NL";
                 }
 
-                settingService.SaveSettings(settings);
+                await settingService.SaveSettingsAsync(settings);
 
                 if (shouldRestart)
                     MessageBox.Show("Please restart the application to apply the language changes.");
@@ -82,7 +80,7 @@ namespace ActueelNS
 
         void MainPage_Loaded(object sender, System.Windows.RoutedEventArgs e)
         {
-            _vm.EnableGps();
+            _vm.EnableGpsAsync();
             
             try
             {
@@ -96,12 +94,12 @@ namespace ActueelNS
         }
 
 
-        protected override void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)
+        protected override async void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)
         {
             _vm = (MainViewModel)DataContext;
             _vm.PropertyChanged += new System.ComponentModel.PropertyChangedEventHandler(_vm_PropertyChanged);
 
-            _vm.Update();
+            await _vm.Update();
 
             CheckStoringenVisible();
 

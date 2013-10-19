@@ -40,11 +40,11 @@ namespace ActueelNS.Views
                 StationAutoComplete.Focus();
         }
 
-        protected override void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)
+        protected override async void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)
         {
             _vm = (StationPickerViewModel)DataContext;
 
-            _vm.Load();
+            await _vm.Load();
 
             
             stations.Visibility = System.Windows.Visibility.Collapsed;
