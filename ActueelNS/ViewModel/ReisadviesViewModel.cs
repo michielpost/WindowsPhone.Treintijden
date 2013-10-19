@@ -581,30 +581,34 @@ namespace ActueelNS.ViewModel
         {
             List<ReisMogelijkheid> reisMogelijkheden = await DataLoader.LoadAsync(() => NSApiService.GetSearchResult(search));
 
-            //Set color
-            bool useAlternate = false;
-
-            foreach (var mogelijkheid in reisMogelijkheden)
+            if (reisMogelijkheden != null)
             {
+              //Set color
+              bool useAlternate = false;
+
+              foreach (var mogelijkheid in reisMogelijkheden)
+              {
                 //Set background color here, for performance
                 mogelijkheid.IsAlternate = useAlternate;
 
                 useAlternate = !useAlternate;
-            }
+              }
 
 
-            ReisMogelijkheden = reisMogelijkheden;
+              ReisMogelijkheden = reisMogelijkheden;
 
-            if (_tempIndex.HasValue && ReisMogelijkheden.Count > _tempIndex.Value)
-            {
+              if (_tempIndex.HasValue && ReisMogelijkheden.Count > _tempIndex.Value)
+              {
                 SelectedReisMogelijkheid = ReisMogelijkheden[_tempIndex.Value];
                 _tempIndex = null;
+              }
+              else
+              {
+                SelectedReisMogelijkheid = reisMogelijkheden.Where(x => x.Optimaal).FirstOrDefault();
+              }
             }
             else
-            {
-                SelectedReisMogelijkheid = reisMogelijkheden.Where(x => x.Optimaal).FirstOrDefault();
-            }
-
+              ReisMogelijkheden = reisMogelijkheden;
 
         }
 

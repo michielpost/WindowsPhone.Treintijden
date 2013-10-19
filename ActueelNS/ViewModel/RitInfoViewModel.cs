@@ -116,7 +116,7 @@ namespace ActueelNS.ViewModel
                     return stops;
                 });
 
-            if (RitInfoAvailable != null)
+            if (RitStops != null && RitInfoAvailable != null)
                 RitInfoAvailable(null, null);
 
         }

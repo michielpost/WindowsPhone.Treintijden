@@ -124,10 +124,12 @@
                     </ItemsControl>
 
 
-                        <StackPanel x:Name="GeenStoringenPanel" Margin="12" Visibility="{Binding CurrentStoringen.Count, Converter={StaticResource InverseVis}}">
-                            <TextBlock Style="{StaticResource PhoneTextLargeStyleCustom}" Text="{Binding Path=LocalizedResources.StoringenGeen, Source={StaticResource LocalizedStrings}}"></TextBlock>
-                            <TextBlock Style="{StaticResource PhoneTextNormalStyleCustom}" TextWrapping="Wrap" Text="{Binding Path=LocalizedResources.StoringenGeenLong, Source={StaticResource LocalizedStrings}}"></TextBlock>
-
+                        <StackPanel Margin="12" Visibility="{Binding CurrentStoringen.Count, Converter={StaticResource InverseVis}}">
+                            <StackPanel Visibility="{Binding DataLoader.IsFinished, Converter={StaticResource Vis}}">
+                                <TextBlock Style="{StaticResource PhoneTextLargeStyleCustom}" Text="{Binding Path=LocalizedResources.StoringenGeen, Source={StaticResource LocalizedStrings}}">
+                                </TextBlock>
+                                <TextBlock Style="{StaticResource PhoneTextNormalStyleCustom}" TextWrapping="Wrap" Text="{Binding Path=LocalizedResources.StoringenGeenLong, Source={StaticResource LocalizedStrings}}"></TextBlock>
+                            </StackPanel>
                         </StackPanel>
                     </StackPanel>
 

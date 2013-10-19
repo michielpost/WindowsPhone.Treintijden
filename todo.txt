@@ -1,6 +1,6 @@
 
 
-Nieuwe Q42 lib: Testen zonder internet connectie
+Storingen en prijs, hoe gaat caching als dit fout gaat?
 
 Hoe netjes settings opslaan?
 

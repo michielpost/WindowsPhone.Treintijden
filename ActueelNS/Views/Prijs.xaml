@@ -62,7 +62,7 @@
                         VerticalAlignment="Top"
                         Background="{StaticResource BackgroundColor}"
                         Visibility="{Binding DataLoader.IsBusy, Converter={StaticResource VisibilityConverter}}">
-                <TextBlock Margin="24,0,0,0"
+                <TextBlock Margin="12,0,0,0"
                            Style="{StaticResource PhoneTextNormalStyleCustom}"
                            Text="{Binding Path=LocalizedResources.PrijsLoading,
                                           Source={StaticResource LocalizedStrings}}" />

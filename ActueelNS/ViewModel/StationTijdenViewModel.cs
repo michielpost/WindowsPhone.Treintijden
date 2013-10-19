@@ -207,8 +207,11 @@ namespace ActueelNS.ViewModel
             var result = await DataLoader.LoadAsync(() => NSApiService.GetVertrektijden(this.CurrentStation.Code));
 
             TijdList.Clear();
-            foreach (var s in result)
+            if (result != null)
+            {
+              foreach (var s in result)
                 TijdList.Add(s);
+            }
         }
 
        
@@ -309,15 +312,21 @@ namespace ActueelNS.ViewModel
 
         internal async void LoadStation(string station)
         {
-            PageName = station;
-            CurrentStation = StationNameService.GetStationByName(station);
+          PageName = station;
+          CurrentStation = StationNameService.GetStationByName(station);
 
-            TijdList = null;
+          TijdList = null;
 
 
-            TijdList = new ObservableCollection<Vertrektijd>(await DataLoader.LoadAsync(() => NSApiService.GetVertrektijden(this.CurrentStation.Code)));
+          var list = await DataLoader.LoadAsync(() => NSApiService.GetVertrektijden(this.CurrentStation.Code));
 
-            InMyStations = StationService.GetMyStations().Where(x => x.Code == CurrentStation.Code).Any();
+          if (list != null)
+          {
+            TijdList = new ObservableCollection<Vertrektijd>(list);
+          }
+
+
+          InMyStations = StationService.GetMyStations().Where(x => x.Code == CurrentStation.Code).Any();
 
         }
 
