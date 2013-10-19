@@ -813,7 +813,7 @@
                             Background="{StaticResource TextColor}"
                             Visibility="Collapsed">
                     <TextBlock x:Name="VertragingTextBlock"
-                               Margin="24,0,0,0"
+                               Margin="24,3,0,0"
                                Foreground="{StaticResource AlternateTextColor}"
                                Style="{StaticResource PhoneTextNormalStyleCustom}"
                                 />
