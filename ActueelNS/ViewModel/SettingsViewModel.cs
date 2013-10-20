@@ -124,11 +124,11 @@ namespace ActueelNS.ViewModel
 
         private void DoSave()
         {
-            SettingService.SaveSettingsAsync(this.Settings);
+            SettingService.SaveSettings(this.Settings);
 
             if (this.Settings.AllowGps)
             {
-              ViewModelLocator.GpsWatcherStatic.StartWatcherAsync();
+              ViewModelLocator.GpsWatcherStatic.StartWatcher();
             }
             else
               ViewModelLocator.GpsWatcherStatic.StopWatcher();
@@ -138,9 +138,9 @@ namespace ActueelNS.ViewModel
 
         }
 
-        public async Task Initialize()
+        public void Initialize()
         {
-            Settings = await SettingService.GetSettingsAsync();
+            Settings = SettingService.GetSettings();
             SetStatus();
 
         }

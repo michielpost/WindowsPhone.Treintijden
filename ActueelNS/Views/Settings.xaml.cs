@@ -23,15 +23,15 @@ namespace ActueelNS.Views
 
         }
 
-        protected override async void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)
+        protected override void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)
         {
             _vm = (SettingsViewModel)DataContext;
 
-            await _vm.Initialize();
+            _vm.Initialize();
 
             SetSwitches(true);
 
-            if (_vm.Settings.Culture == "en-US")
+            if (_vm.SettingService.GetCulture() == "en-US")
                 LanguageInputPicker.SelectedIndex = 1;
             else
                 LanguageInputPicker.SelectedIndex = 0;
@@ -93,14 +93,14 @@ namespace ActueelNS.Views
             if (_vm != null && _vm.Settings != null && e.AddedItems.Count > 0)
             {
                 bool notify = false;
-                if ((string)e.AddedItems[0] == "English" && _vm.Settings.Culture != "en-US")
+                if ((string)e.AddedItems[0] == "English" && _vm.SettingService.GetCulture() != "en-US")
                 {
-                    _vm.Settings.Culture = "en-US";
+                    _vm.SettingService.SetCulture("en-US");
                     notify = true;
                 }
-                else if ((string)e.AddedItems[0] == "Nederlands" && _vm.Settings.Culture != "nl-NL")
+                else if ((string)e.AddedItems[0] == "Nederlands" && _vm.SettingService.GetCulture() != "nl-NL")
                 {
-                    _vm.Settings.Culture = "nl-NL";
+                    _vm.SettingService.SetCulture("nl-NL");
                     notify = true;
                 }
 

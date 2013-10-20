@@ -20,7 +20,7 @@ namespace ActueelNS.Services
     public static class TaskHelper
     {
 
-        public static async Task ResetTask(bool force)
+        public static void ResetTask(bool force)
         {
             try
             {
@@ -39,7 +39,7 @@ namespace ActueelNS.Services
                 if (force)
                 {
                   var settingsService = SimpleIoc.Default.GetInstance<ISettingService>();
-                  var settings = await settingsService.GetSettingsAsync();
+                  var settings = settingsService.GetSettings();
                     // Create the Task
                     if (settings.AllowBackgroundTask.HasValue && settings.AllowBackgroundTask.Value)
                     {
@@ -50,7 +50,7 @@ namespace ActueelNS.Services
                             try
                             {
                                 settings.AllowBackgroundTask = false;
-                                settingsService.SaveSettingsAsync(settings);
+                                settingsService.SaveSettings(settings);
                             }
                             catch
                             {

@@ -16,6 +16,7 @@ using MockIAPLib;
 using ActueelNS.Shared.Controls;
 using System.Windows.Controls;
 using Treintijden.Shared.Services.Interfaces;
+using System.IO.IsolatedStorage;
 
 namespace ActueelNS
 {
@@ -159,26 +160,28 @@ namespace ActueelNS
             TaskHelper.ResetTask(false);
 
             //Set culture
-            //ISettingService settingService = SimpleIoc.Default.GetInstance<ISettingService>();
-            //var settings = settingService.GetSettingsAsync().Result;
+            ISettingService settingService = SimpleIoc.Default.GetInstance<ISettingService>();
+            //    
+            var settingsCulture = settingService.GetCulture();
+           
+            if (string.IsNullOrEmpty(settingsCulture))
+            {
 
-            //if (string.IsNullOrEmpty(settings.Culture))
-            //{
+              if (Thread.CurrentThread.CurrentUICulture.CompareInfo.Name.IndexOf("nl-") >= 0
+                  || Thread.CurrentThread.CurrentCulture.CompareInfo.Name.IndexOf("nl-") >= 0)
+                settingsCulture = "nl-NL";
+              else if (Thread.CurrentThread.CurrentUICulture.CompareInfo.Name.IndexOf("en-") >= 0
+                  || Thread.CurrentThread.CurrentCulture.CompareInfo.Name.IndexOf("en-") >= 0)
+                settingsCulture = "en-US";
 
-            //  if (Thread.CurrentThread.CurrentUICulture.CompareInfo.Name.IndexOf("nl-") >= 0
-            //      || Thread.CurrentThread.CurrentCulture.CompareInfo.Name.IndexOf("nl-") >= 0)
-            //    settings.Culture = "nl-NL";
-            //  else if (Thread.CurrentThread.CurrentUICulture.CompareInfo.Name.IndexOf("en-") >= 0
-            //      || Thread.CurrentThread.CurrentCulture.CompareInfo.Name.IndexOf("en-") >= 0)
-            //    settings.Culture = "en-US";
+              settingService.SetCulture(settingsCulture);
 
-            //  settingService.SaveSettingsAsync(settings).Wait();
-            //}
+            }
 
-            //if (!string.IsNullOrEmpty(settings.Culture))
-            //{
-            //  Thread.CurrentThread.CurrentUICulture = new CultureInfo(settings.Culture);
-            //}
+            if (!string.IsNullOrEmpty(settingsCulture))
+            {
+              Thread.CurrentThread.CurrentUICulture = new CultureInfo(settingsCulture);
+            }
 
             try
             {
@@ -199,7 +202,10 @@ namespace ActueelNS
         {
           TiltEffect.SetIsTiltEnabled(RootFrame, true);
 
-          ViewModelLocator.GpsWatcherStatic.StartWatcherAsync();
+          Task.Run(() =>
+          {
+            ViewModelLocator.GpsWatcherStatic.StartWatcher();
+          });
 
         }
 

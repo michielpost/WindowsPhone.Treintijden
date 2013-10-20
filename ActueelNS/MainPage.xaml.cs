@@ -41,42 +41,42 @@ namespace ActueelNS
 
         }
 
-        private async Task SetCulture()
-        {
-            await Task.Delay(1000);
-            ISettingService settingService = SimpleIoc.Default.GetInstance<ISettingService>();
-            var settings = await settingService.GetSettingsAsync();
+        //private async Task SetCulture()
+        //{
+        //    await Task.Delay(1000);
+        //    ISettingService settingService = SimpleIoc.Default.GetInstance<ISettingService>();
+        //    var settings = await settingService.GetSettingsAsync();
 
-            if (string.IsNullOrEmpty(settings.Culture))
-            {
-                bool shouldRestart = false;
+        //    if (string.IsNullOrEmpty(settings.Culture))
+        //    {
+        //        bool shouldRestart = false;
 
-                if (Thread.CurrentThread.CurrentUICulture.CompareInfo.Name.IndexOf("nl-") >= 0
-                    || Thread.CurrentThread.CurrentCulture.CompareInfo.Name.IndexOf("nl-") >= 0)
-                    settings.Culture = "nl-NL";
-                else if (Thread.CurrentThread.CurrentUICulture.CompareInfo.Name.IndexOf("en-") >= 0
-                    || Thread.CurrentThread.CurrentCulture.CompareInfo.Name.IndexOf("en-") >= 0)
-                    settings.Culture = "en-US";
-                else
-                {
-                    var result = MessageBox.Show("Set the application language to English?", string.Empty, MessageBoxButton.OKCancel);
+        //        if (Thread.CurrentThread.CurrentUICulture.CompareInfo.Name.IndexOf("nl-") >= 0
+        //            || Thread.CurrentThread.CurrentCulture.CompareInfo.Name.IndexOf("nl-") >= 0)
+        //            settings.Culture = "nl-NL";
+        //        else if (Thread.CurrentThread.CurrentUICulture.CompareInfo.Name.IndexOf("en-") >= 0
+        //            || Thread.CurrentThread.CurrentCulture.CompareInfo.Name.IndexOf("en-") >= 0)
+        //            settings.Culture = "en-US";
+        //        else
+        //        {
+        //            var result = MessageBox.Show("Set the application language to English?", string.Empty, MessageBoxButton.OKCancel);
 
-                    if (result == MessageBoxResult.OK)
-                    {
-                        settings.Culture = "en-US";
-                        shouldRestart = true;
-                    }
-                    else
-                        settings.Culture = "nl-NL";
-                }
+        //            if (result == MessageBoxResult.OK)
+        //            {
+        //                settings.Culture = "en-US";
+        //                shouldRestart = true;
+        //            }
+        //            else
+        //                settings.Culture = "nl-NL";
+        //        }
 
-                await settingService.SaveSettingsAsync(settings);
+        //        await settingService.SaveSettingsAsync(settings);
 
-                if (shouldRestart)
-                    MessageBox.Show("Please restart the application to apply the language changes.");
-            }
+        //        if (shouldRestart)
+        //            MessageBox.Show("Please restart the application to apply the language changes.");
+        //    }
            
-        }
+        //}
 
         void MainPage_Loaded(object sender, System.Windows.RoutedEventArgs e)
         {

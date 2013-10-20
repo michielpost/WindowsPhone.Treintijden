@@ -106,7 +106,7 @@ namespace ActueelNS.Views
             if (this.NavigationContext.QueryString.ContainsKey("via"))
                 via = this.NavigationContext.QueryString["via"];
 
-            await _vm.InitValuesAsync(from, to, via, keepValues);
+            _vm.InitValues(from, to, via, keepValues);
 
             
 

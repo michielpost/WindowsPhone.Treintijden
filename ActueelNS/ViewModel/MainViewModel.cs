@@ -64,13 +64,13 @@ namespace ActueelNS.ViewModel
             get {
               
               //TODO: Eenmalig ophalen en luisteren naar wijzigingen....
-              //var settings = SettingService.GetSettingsAsync().Result;
+              var settings = SettingService.GetSettings();
 
-              ////No Gps allowed?
-              //if (!_isLoaded
-              //    || !settings.ShowList
-              //    || !settings.AllowGps)
-              //  return _stationList;
+              //No Gps allowed?
+              if (!_isLoaded
+                  || !settings.ShowList
+                  || !settings.AllowGps)
+                return _stationList;
 
                 if (GpsStationList == null && _stationList == null)
                     return _stationList;
@@ -268,7 +268,7 @@ namespace ActueelNS.ViewModel
         {
             try
             {
-              var settings = await SettingService.GetSettingsAsync();
+              var settings = SettingService.GetSettings();
               TakeLimit = settings.GpsListCount.HasValue ? settings.GpsListCount.Value : 2;
                  
                 var list = await StationService.GetMyStationsAsync();
@@ -313,10 +313,11 @@ namespace ActueelNS.ViewModel
                 else
                 {
 
+                  Task.Run(() =>
+                  {
+                    ViewModelLocator.GpsWatcherStatic.StartWatcher();
 
-
-                  ViewModelLocator.GpsWatcherStatic.StartWatcherAsync();
-
+                  });
 
                 }
             }

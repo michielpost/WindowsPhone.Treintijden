@@ -191,7 +191,7 @@ namespace ActueelNS.ViewModel
 
           ViewModelLocator.GpsWatcherStatic.PropertyChanged += new System.ComponentModel.PropertyChangedEventHandler(GpsWatcherStatic_PropertyChanged);
 
-          ViewModelLocator.GpsWatcherStatic.StartWatcherAsync();
+          ViewModelLocator.GpsWatcherStatic.StartWatcher();
         }
 
         private bool CanDoSearch()
@@ -279,10 +279,10 @@ namespace ActueelNS.ViewModel
                 //Save planner object
                 await PlannerService.AddSearchAsync(search);
 
-                var settings = await SettingService.GetSettingsAsync();
+                var settings = SettingService.GetSettings();
                 settings.HasYearCard = IsYearCard;
                 settings.UseHsl = IsHogesnelheid;
-                await SettingService.SaveSettingsAsync(settings);
+                SettingService.SaveSettings(settings);
 
                 //Navigate to new page and pass GUID
                 string url = string.Format("/Views/Reisadvies.xaml?id={0}", search.Id);
@@ -297,9 +297,9 @@ namespace ActueelNS.ViewModel
         ////    base.Cleanup();
         ////}
 
-        internal async Task InitValuesAsync(string from, string to, string via, bool keepValues)
+        internal void InitValues(string from, string to, string via, bool keepValues)
         {
-            Settings = await SettingService.GetSettingsAsync();
+            Settings = SettingService.GetSettings();
 
             if (!keepValues && !string.IsNullOrEmpty(from))
                 VanStation = StationNameService.GetStationByName(from);

@@ -337,8 +337,14 @@ namespace ActueelNS.ViewModel
 
         private async Task DeleteSingleHistoryAsync(Guid id)
         {
-            await PlannerService.DeleteSearchAsync(id);
-            await RefreshSearchHistoryAsync();
+          var item = SearchHistory.Where(x => x.Id == id).FirstOrDefault();
+          if (item != null)
+          {
+            SearchHistory.Remove(item);
+          }
+
+          await PlannerService.DeleteSearchAsync(id);
+          await RefreshSearchHistoryAsync();
         }
 
         private void DeleteHistory()

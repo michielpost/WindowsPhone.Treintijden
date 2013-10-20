@@ -30,8 +30,7 @@ namespace ActueelNS.Views
         private async Task LoadSettingsForReleaseNotes()
         {
           ISettingService settingService = SimpleIoc.Default.GetInstance<ISettingService>();
-          var settings = await settingService.GetSettingsAsync();
-          if (settings.Culture != "nl-NL")
+          if (settingService.GetCulture() != "nl-NL")
             ReleaseNotesPivot.Visibility = System.Windows.Visibility.Collapsed;
         }
 

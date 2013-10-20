@@ -101,6 +101,7 @@
     <Compile Include="StationNameService.cs" />
     <Compile Include="StationService.cs" />
     <Compile Include="MyTrajectService.cs" />
+    <Compile Include="TEMP\Settings.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">

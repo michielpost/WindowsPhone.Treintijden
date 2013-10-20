@@ -5,8 +5,11 @@ namespace Treintijden.Shared.Services.Interfaces
 {
     public interface ISettingService
     {
-      Task<AppSetting> GetSettingsAsync();
+      AppSetting GetSettings();
 
-      Task SaveSettingsAsync(AppSetting settings);
+      void SaveSettings(AppSetting settings);
+
+      string GetCulture();
+      void SetCulture(string culture);
     }
 }

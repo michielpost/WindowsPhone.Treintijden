@@ -255,9 +255,9 @@ namespace ActueelNS.ViewModel
         ////    base.Cleanup();
         ////}
 
-        internal async Task Load()
+        internal void Load()
         {
-            Settings = await SettingService.GetSettingsAsync();
+            Settings = SettingService.GetSettings();
 
             StationList.Clear();
 

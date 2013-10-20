@@ -11,7 +11,7 @@ namespace Treintijden.Shared.Services.Models
         public bool UseHsl { get; set; }
         public bool HasYearCard { get; set; }
 
-        public string Culture { get; set; }
+        //public string Culture { get; set; }
 
         public int? GpsListCount { get; set; }
     }

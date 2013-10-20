@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using Treintijden.Shared.Services.Interfaces;
 using Treintijden.Shared.Services.Models;
+using Treintijden.Shared.Services.WP.TEMP;
 
 namespace Treintijden.Shared.Services
 {
@@ -9,14 +10,13 @@ namespace Treintijden.Shared.Services
     {
         private AppSetting _settings;
 
-        public async Task<AppSetting> GetSettingsAsync()
+        public AppSetting GetSettings()
         {
             //Return from memory
             if (_settings != null)
                 return _settings;
 
-            var sh = new StorageHelper<AppSetting>(StorageType.Local, serializerType: StorageSerializer.XML);
-            var settings = await sh.LoadAsync("settings");
+            var settings = SettingsHelper.Get<AppSetting>("settings");
 
             if (settings == null)
             {
@@ -46,14 +46,24 @@ namespace Treintijden.Shared.Services
             return settings;
         }
 
-        public Task SaveSettingsAsync(AppSetting settings)
+        public void SaveSettings(AppSetting settings)
         {
           //Save in memory
           _settings = settings;
 
-          var sh = new StorageHelper<AppSetting>(StorageType.Local, serializerType: StorageSerializer.XML);
-          return sh.SaveAsync(settings, "settings");
+          SettingsHelper.Set("settings", settings);
 
+        }
+
+
+        public string GetCulture()
+        {
+          return SettingsHelper.Get<string>("culture");
+        }
+
+        public void SetCulture(string culture)
+        {
+          SettingsHelper.Set("culture", culture);
         }
     }
 }
