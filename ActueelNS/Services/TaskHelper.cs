@@ -22,10 +22,11 @@ namespace ActueelNS.Services
 
         public static void ResetTask(bool force)
         {
+          var taskName = "BackgroundTask";
+
             try
             {
                 // A unique name for your task. It is used to // locate it in from the service.
-                var taskName = "BackgroundTask";
                 // If the task exists
                 var oldTask = ScheduledActionService.Find(taskName) as PeriodicTask;
                 if (oldTask != null)
@@ -63,8 +64,10 @@ namespace ActueelNS.Services
             }
             catch { }
 
+#if DEBUG
             //Test
             //ScheduledActionService.LaunchForTest(taskName, TimeSpan.FromMilliseconds(1500));
+#endif
         }
 
         private static bool CreateTask(string taskName)

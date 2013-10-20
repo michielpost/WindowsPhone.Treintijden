@@ -3,9 +3,7 @@ Migratie checken
 
 Settings is nog een troep
 
-Hoe netjes settings opslaan?
-
-Background task checken
+Legenda maken voor drukte indicator
 
 
 

@@ -71,6 +71,9 @@ namespace ActueelNS.TaskAgents
                     {
                         resultInt = CountStringOccurrences(eventArgs.Result.Substring(begin, end - begin), "<Storing");
 
+#if DEBUG
+                        //resultInt = 1;
+#endif
 
                         //resultInt = storingenXmlElement.Element("Ongepland").Descendants("Storing").Count();
 
