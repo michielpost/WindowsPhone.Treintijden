@@ -490,7 +490,7 @@
     <value>Please ensure that Bluetooth is enabled.</value>
   </data>
   <data name="RitInfoLoading" xml:space="preserve">
-    <value>Loading train departur times...</value>
+    <value>Loading train departure times...</value>
   </data>
   <data name="RitInfoError" xml:space="preserve">
     <value>No data available.</value>
@@ -506,5 +506,14 @@
   </data>
   <data name="AddToCalendar" xml:space="preserve">
     <value>Add to calendar</value>
+  </data>
+  <data name="RitInfoDruk" xml:space="preserve">
+    <value>busy</value>
+  </data>
+  <data name="RitInfoGemiddeld" xml:space="preserve">
+    <value>average</value>
+  </data>
+  <data name="RitInfoRustig" xml:space="preserve">
+    <value>quiet</value>
   </data>
 </root>

@@ -419,7 +419,8 @@
   </data>
   <data name="ReleaseNotes" xml:space="preserve">
     <value>Nieuw in 2.3.1
-- Bugfixes
+- Drukte-indicator legenda
+- Kleine verbeteringen en bugfixes
 
 Nieuw in 2.3
 - Plan internationale reizen
@@ -562,5 +563,14 @@ Nieuw in 1.5
   </data>
   <data name="AddToCalendar" xml:space="preserve">
     <value>Aan agenda toevoegen</value>
+  </data>
+  <data name="RitInfoDruk" xml:space="preserve">
+    <value>druk</value>
+  </data>
+  <data name="RitInfoGemiddeld" xml:space="preserve">
+    <value>gemiddeld</value>
+  </data>
+  <data name="RitInfoRustig" xml:space="preserve">
+    <value>rustig</value>
   </data>
 </root>
