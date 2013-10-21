@@ -50,7 +50,10 @@ namespace Treintijden.Shared.Services.WP
 
         public Task<List<ServiceRitInfo>> GetRit(string id, string company, DateTime date)
         {
-            return Original.GetRit(id, company, date);
+          string cacheKey = "GetRit_" + id;
+
+          return DataCache.GetAsync(cacheKey, () => Original.GetRit(id, company, date), DateTime.Now.AddMinutes(5));
+
         }
 
         public Task<StoringenEnWerkzaamheden> GetStoringenEnWerkzaamheden(string station)
