@@ -116,7 +116,7 @@ namespace ActueelNS.Views
 
             try
             {
-                await ViewModelLocator.MainStatic.Update();
+                ViewModelLocator.MainStatic.Update();
             }
             catch { }
 
