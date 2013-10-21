@@ -13,7 +13,7 @@ using System.Xml.Linq;
 using System.Linq;
 using Microsoft.Phone.Shell;
 using ActueelNS.TaskAgents.AsyncWorkloadHelper;
-using ActueelNS.Services.Constants;
+using Treintijden.PCL.Api.Constants;
 
 namespace ActueelNS.TaskAgents
 {
