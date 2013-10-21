@@ -77,37 +77,40 @@
                 <phone:LongListSelector.ListFooter>
                     <Grid Height="45">
                         <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="9" />
                             <ColumnDefinition Width="60" />
-                            <ColumnDefinition Width="70" />
+                            <ColumnDefinition Width="80" />
                             <ColumnDefinition Width="50" />
                             <ColumnDefinition />
                             <ColumnDefinition Width="40" />
                             <ColumnDefinition />
                         </Grid.ColumnDefinitions>
 
-                        <Canvas Grid.Column="0"  HorizontalAlignment="Left">
+                        <StackPanel  Grid.Column="0"></StackPanel>
+
+                        <Canvas Grid.Column="1"  HorizontalAlignment="Left">
                             <Image Source="/Images/Men.png"  />
                             <Image Source="/Images/Men.png" Canvas.Left="12" />
                             <Image Source="/Images/Men.png" Canvas.Left="24" />
                         </Canvas>
 
-                        <TextBlock Margin="6,9" Grid.Column="1" Style="{StaticResource PhoneTextNormalStyleCustom}" Text="{Binding Path=LocalizedResources.RitInfoDruk,
+                        <TextBlock Margin="6,9" Grid.Column="2" Style="{StaticResource PhoneTextNormalStyleCustom}" Text="{Binding Path=LocalizedResources.RitInfoDruk,
                                                   Source={StaticResource LocalizedStrings}}"></TextBlock>
 
 
-                        <Canvas  Grid.Column="2" HorizontalAlignment="Left">
+                        <Canvas  Grid.Column="3" HorizontalAlignment="Left">
                             <Image Source="/Images/Men.png"  />
                             <Image Source="/Images/Men.png" Canvas.Left="12" />
                         </Canvas>
 
-                        <TextBlock Grid.Column="3" Margin="6,9" Style="{StaticResource PhoneTextNormalStyleCustom}" Text="{Binding Path=LocalizedResources.RitInfoGemiddeld,
+                        <TextBlock Grid.Column="4" Margin="6,9" Style="{StaticResource PhoneTextNormalStyleCustom}" Text="{Binding Path=LocalizedResources.RitInfoGemiddeld,
                                                   Source={StaticResource LocalizedStrings}}"></TextBlock>
 
-                        <Canvas Grid.Column="4" HorizontalAlignment="Left">
+                        <Canvas Grid.Column="5" HorizontalAlignment="Left">
                             <Image Source="/Images/Men.png"  />
                         </Canvas>
 
-                        <TextBlock Grid.Column="5" Margin="6,9" Style="{StaticResource PhoneTextNormalStyleCustom}" Text="{Binding Path=LocalizedResources.RitInfoRustig,
+                        <TextBlock Grid.Column="6" Margin="6,9" Style="{StaticResource PhoneTextNormalStyleCustom}" Text="{Binding Path=LocalizedResources.RitInfoRustig,
                                                   Source={StaticResource LocalizedStrings}}"></TextBlock>
                     </Grid>
 
