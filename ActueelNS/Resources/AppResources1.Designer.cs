@@ -782,7 +782,8 @@ namespace ActueelNS.Resources {
         
         /// <summary>
         ///   Looks up a localized string similar to Nieuw in 2.3.1
-        ///- Bugfixes
+        ///- Drukte-indicator legenda
+        ///- Kleine verbeteringen en bugfixes
         ///
         ///Nieuw in 2.3
         ///- Plan internationale reizen
@@ -801,9 +802,7 @@ namespace ActueelNS.Resources {
         ///- Station Hoevelaken
         ///- Bugfix
         ///
-        ///Nieuw in 2.1
-        ///- Deel je reis via NFC
-        ///- Nieuwe stations  [rest of string was truncated]&quot;;.
+        ///Nieu [rest of string was truncated]&quot;;.
         /// </summary>
         public static string ReleaseNotes {
             get {
@@ -875,6 +874,15 @@ namespace ActueelNS.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to druk.
+        /// </summary>
+        public static string RitInfoDruk {
+            get {
+                return ResourceManager.GetString("RitInfoDruk", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Geen ritinformatie beschikbaar..
         /// </summary>
         public static string RitInfoError {
@@ -884,11 +892,29 @@ namespace ActueelNS.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to gemiddeld.
+        /// </summary>
+        public static string RitInfoGemiddeld {
+            get {
+                return ResourceManager.GetString("RitInfoGemiddeld", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Treintijden laden....
         /// </summary>
         public static string RitInfoLoading {
             get {
                 return ResourceManager.GetString("RitInfoLoading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to rustig.
+        /// </summary>
+        public static string RitInfoRustig {
+            get {
+                return ResourceManager.GetString("RitInfoRustig", resourceCulture);
             }
         }
         

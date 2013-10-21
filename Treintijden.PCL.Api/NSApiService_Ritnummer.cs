@@ -58,7 +58,7 @@ namespace Treintijden.PCL.Api
                     stopList.Add(stop);
               }
 
-              if (stopList.Any())
+              if (stopList.Any() && stopList.Count > 1)
               {
                 stopList.First().IsFirst = true;
                 stopList.Last().IsLast = true;

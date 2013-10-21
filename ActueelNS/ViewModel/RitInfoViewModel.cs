@@ -116,6 +116,12 @@ namespace ActueelNS.ViewModel
                     return stops;
                 });
 
+            if (RitStops == null || !RitStops.Any())
+            {
+              RitStops = null;
+              DataLoader.LoadingState = LoadingState.Error;
+            }
+
             if (RitStops != null && RitInfoAvailable != null)
                 RitInfoAvailable(null, null);
 
