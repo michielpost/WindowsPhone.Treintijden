@@ -1,29 +1,17 @@
 ﻿using System;
-using System.Net;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Documents;
-using System.Windows.Ink;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Animation;
-using System.Windows.Shapes;
 using System.Device.Location;
-using System.Collections.ObjectModel;
-using ActueelNS.Services.Interfaces;
 using GalaSoft.MvvmLight.Ioc;
 using System.Linq;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Treintijden.Shared.Services.Interfaces;
 using Treintijden.PCL.Api.Models;
-using Treintijden.PCL.Api.Interfaces;
 
 namespace ActueelNS.ViewModel
 {
     public class GpsWatcherModel : CustomViewModelBase
     {
-        public IStationService StationService { get; set; }
         public IStationNameService StationNameService { get; set; }
         public ISettingService SettingService { get; set; }
 
@@ -78,10 +66,8 @@ namespace ActueelNS.ViewModel
 
         public GpsWatcherModel()
         {
-            StationService = SimpleIoc.Default.GetInstance<IStationService>();
             SettingService = SimpleIoc.Default.GetInstance<ISettingService>();
             StationNameService = SimpleIoc.Default.GetInstance<IStationNameService>();
-
             
         }
 

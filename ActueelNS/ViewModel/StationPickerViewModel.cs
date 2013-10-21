@@ -1,5 +1,4 @@
-﻿using GalaSoft.MvvmLight;
-using ActueelNS.Services.Interfaces;
+﻿using ActueelNS.Services.Interfaces;
 using System.Collections.ObjectModel;
 using ActueelNS.Services;
 using System.Collections.Generic;
@@ -9,13 +8,11 @@ using GalaSoft.MvvmLight.Ioc;
 using ActueelNS.Resources;
 using System.Linq;
 using System.Threading.Tasks;
-using GalaSoft.MvvmLight.Threading;
 using Microsoft.Phone.Globalization;
 using System.Globalization;
 using Treintijden.Shared.Services.Interfaces;
 using Treintijden.PCL.Api.Models;
 using Treintijden.Shared.Services.Models;
-using Treintijden.PCL.Api.Interfaces;
 
 namespace ActueelNS.ViewModel
 {

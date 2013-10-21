@@ -1,5 +1,4 @@
-﻿using GalaSoft.MvvmLight;
-using ActueelNS.Services.Interfaces;
+﻿using ActueelNS.Services.Interfaces;
 using GalaSoft.MvvmLight.Ioc;
 using System;
 using GalaSoft.MvvmLight.Command;
@@ -12,7 +11,6 @@ using System.Collections.ObjectModel;
 using Treintijden.Shared.Services.Interfaces;
 using Treintijden.PCL.Api.Models;
 using Treintijden.Shared.Services.Models;
-using Treintijden.PCL.Api.Interfaces;
 
 namespace ActueelNS.ViewModel
 {

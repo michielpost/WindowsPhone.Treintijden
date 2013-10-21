@@ -1,5 +1,4 @@
-﻿using GalaSoft.MvvmLight;
-using ActueelNS.Services.Interfaces;
+﻿using ActueelNS.Services.Interfaces;
 using GalaSoft.MvvmLight.Ioc;
 using System;
 using ActueelNS.Resources;

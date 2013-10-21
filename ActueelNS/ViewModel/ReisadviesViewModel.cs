@@ -1,16 +1,12 @@
-﻿using GalaSoft.MvvmLight;
-using ActueelNS.Services;
+﻿using ActueelNS.Services;
 using GalaSoft.MvvmLight.Ioc;
 using ActueelNS.Services.Interfaces;
 using System.Collections.ObjectModel;
 using System;
 using System.Linq;
 using System.Collections.Generic;
-using System.Windows.Threading;
 using GalaSoft.MvvmLight.Command;
 using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Media;
 using ActueelNS.Resources;
 using Microsoft.Phone.Tasks;
 using Treintijden.Shared.Services.Interfaces;

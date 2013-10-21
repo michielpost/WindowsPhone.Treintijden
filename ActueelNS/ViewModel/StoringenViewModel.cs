@@ -3,7 +3,6 @@ using System;
 using ActueelNS.Services.Interfaces;
 using GalaSoft.MvvmLight.Ioc;
 using System.Collections.ObjectModel;
-using Microsoft.Phone.Net.NetworkInformation;
 using ActueelNS.Resources;
 using GalaSoft.MvvmLight.Command;
 using Treintijden.PCL.Api.Models;
@@ -28,7 +27,6 @@ namespace ActueelNS.ViewModel
     public class StoringenViewModel : CustomViewModelBase
     {
 
-        //public IStoringenService StoringenService { get; set; }
         public ILiveTileService LiveTileService { get; set; }
         public INavigationService NavigationService { get; set; }
         public INSApiService NSApiService { get; set; }
@@ -185,8 +183,6 @@ namespace ActueelNS.ViewModel
         {
             NavigationService.NavigateTo(new Uri("/MainPage.xaml", UriKind.Relative));
         }
-
-
 
     }
 }

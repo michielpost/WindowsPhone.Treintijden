@@ -1,5 +1,4 @@
-﻿using GalaSoft.MvvmLight;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System;
 using ActueelNS.Services;
 using ActueelNS.Services.Interfaces;

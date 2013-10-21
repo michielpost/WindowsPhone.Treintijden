@@ -1,13 +1,10 @@
-﻿using Microsoft.Phone.Controls;
-using Microsoft.Phone.Shell;
+﻿using Microsoft.Phone.Shell;
 using ActueelNS.ViewModel;
 using ActueelNS.Resources;
 using System.Threading.Tasks;
-using ActueelNS.Services.Interfaces;
 using System.Threading;
 using GalaSoft.MvvmLight.Ioc;
 using System.Windows;
-using System;
 using ActueelNS.Services;
 using ActueelNS.Views.Base;
 using Treintijden.Shared.Services.Interfaces;
@@ -43,7 +40,7 @@ namespace ActueelNS
 
         private async Task SetCulture()
         {
-          await Task.Delay(1000);
+          await Task.Delay(2500);
           ISettingService settingService = SimpleIoc.Default.GetInstance<ISettingService>();
           var settingsCulture = settingService.GetCulture();
 
@@ -99,7 +96,7 @@ namespace ActueelNS
             _vm = (MainViewModel)DataContext;
             _vm.PropertyChanged += new System.ComponentModel.PropertyChangedEventHandler(_vm_PropertyChanged);
 
-            await _vm.Update();
+            _vm.Update();
 
             CheckStoringenVisible();
 

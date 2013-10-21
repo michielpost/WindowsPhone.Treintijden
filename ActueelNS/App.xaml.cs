@@ -5,18 +5,13 @@ using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using ActueelNS.ViewModel;
 using System.Threading.Tasks;
-using Microsoft.Phone.Scheduler;
 using ActueelNS.Services;
 using GalaSoft.MvvmLight.Ioc;
-using ActueelNS.Services.Interfaces;
 using System.Threading;
 using System.Globalization;
-using System;
-using MockIAPLib;
 using ActueelNS.Shared.Controls;
 using System.Windows.Controls;
 using Treintijden.Shared.Services.Interfaces;
-using System.IO.IsolatedStorage;
 
 namespace ActueelNS
 {
@@ -81,8 +76,9 @@ namespace ActueelNS
                 //Application.Current.Host.Settings.EnableRedrawRegions = true;
             }
 
-
+#if DEBUG
             SetupMockIAP();
+#endif
 
             //SharingViewModel.Instance.UIDispatcher = (a) => RootFrame.Dispatcher.BeginInvoke(a);
 

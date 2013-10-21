@@ -10,7 +10,6 @@ using System.Linq;
 using ActueelNS.Resources;
 using Treintijden.Shared.Services.Interfaces;
 using Treintijden.PCL.Api.Models;
-using Treintijden.PCL.Api.Interfaces;
 
 namespace ActueelNS.ViewModel
 {

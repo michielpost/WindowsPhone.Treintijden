@@ -1,12 +1,4 @@
-﻿using ActueelNS.Services.Interfaces;
-using GalaSoft.MvvmLight.Ioc;
-using GalaSoft.MvvmLight.Messaging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Treintijden.PCL.Api.Interfaces;
+﻿using GalaSoft.MvvmLight.Ioc;
 using Treintijden.PCL.Api.Models;
 using Treintijden.Shared.Services.Interfaces;
 

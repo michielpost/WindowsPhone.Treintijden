@@ -1,12 +1,9 @@
 ﻿using ActueelNS.Resources;
-using ActueelNS.Services.Interfaces;
 using GalaSoft.MvvmLight.Ioc;
 using Q42.WinRT.Portable.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Treintijden.PCL.Api.Interfaces;
 using Treintijden.PCL.Api.Models;
 using Treintijden.Shared.Services.Interfaces;
