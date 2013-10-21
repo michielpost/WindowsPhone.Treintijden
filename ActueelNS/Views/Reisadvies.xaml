@@ -848,7 +848,8 @@
                                    Text="{Binding Path=LocalizedResources.ReisadviesError,
                                                   Source={StaticResource LocalizedStrings}}"
                                    TextWrapping="Wrap" />
-                        <Button x:Name="CloseGeenDataPanel" Click="CloseGeenDataPanel_Click">sluiten</Button>
+                        <Button x:Name="CloseGeenDataPanel" Click="CloseGeenDataPanel_Click" Content="{Binding Path=LocalizedResources.sluiten,
+                                                  Source={StaticResource LocalizedStrings}}"></Button>
                     </StackPanel>
                 </Border>
             </StackPanel>
