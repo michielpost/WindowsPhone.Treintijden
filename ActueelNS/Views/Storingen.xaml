@@ -73,10 +73,9 @@
                         </Border>
                     </StackPanel>
 
-                    <StackPanel Visibility="{Binding DataLoader.IsBusy, Converter={StaticResource InverseVis}}">
-                        
-                   
-                        <ItemsControl x:Name="MainListBox" ItemsSource="{Binding CurrentStoringen}">
+                    <ItemsControl x:Name="MainListBox" 
+                                      Visibility="{Binding DataLoader.IsBusy, Converter={StaticResource InverseVis}}"
+                                      ItemsSource="{Binding CurrentStoringen}">
                         <ItemsControl.ItemsPanel>
                             <ItemsPanelTemplate>
                                 <VirtualizingStackPanel/>
@@ -123,7 +122,7 @@
                         </ItemsControl.ItemTemplate>
                     </ItemsControl>
 
-
+                    <StackPanel Visibility="{Binding DataLoader.IsBusy, Converter={StaticResource InverseVis}}">
                         <StackPanel Margin="12" Visibility="{Binding CurrentStoringen.Count, Converter={StaticResource InverseVis}}">
                             <StackPanel Visibility="{Binding DataLoader.IsFinished, Converter={StaticResource Vis}}">
                                 <TextBlock Style="{StaticResource PhoneTextLargeStyleCustom}" Text="{Binding Path=LocalizedResources.StoringenGeen, Source={StaticResource LocalizedStrings}}">

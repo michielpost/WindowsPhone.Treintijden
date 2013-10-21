@@ -94,11 +94,11 @@ namespace Treintijden.PCL.Api
                 storing.Bericht = XmlHelper.GetElementText(element.Element("Bericht"));
 
 #if DEBUG
-                //for (int i = 0; i < 15; i++)
-                //{
-                //    storingLijst.Add(storing);
+                for (int i = 0; i < 15; i++)
+                {
+                  storingLijst.Add(storing);
 
-                //}
+                }
 #endif
 
                 storingLijst.Add(storing);
