@@ -71,6 +71,7 @@ namespace ActueelNS.Views
                 KeyboardPanel.Visibility = System.Windows.Visibility.Collapsed;
                 StationSelectorGrid.Visibility = System.Windows.Visibility.Collapsed;
                 PlannerPanel.Visibility = System.Windows.Visibility.Visible;
+                ApplicationBar.IsVisible = true;
                 currentSelector = null;
                 _waitingForKeuze = PlannerKeuze.None;
 
@@ -210,6 +211,7 @@ namespace ActueelNS.Views
                 StationSelectorGrid.Visibility = System.Windows.Visibility.Collapsed;
                 KeyboardPanel.Visibility = System.Windows.Visibility.Collapsed;
                 PlannerPanel.Visibility = System.Windows.Visibility.Visible;
+                ApplicationBar.IsVisible = true;
                 currentSelector = null;
                 _waitingForKeuze = PlannerKeuze.None;
             }
@@ -291,6 +293,7 @@ namespace ActueelNS.Views
 
             KeyboardPanel.Visibility = Visibility.Visible;
             PlannerPanel.Visibility = System.Windows.Visibility.Collapsed;
+            ApplicationBar.IsVisible = false;
 
            
         }
