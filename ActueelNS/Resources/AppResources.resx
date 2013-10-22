@@ -570,4 +570,7 @@ Nieuw in 1.5
   <data name="RitInfoRustig" xml:space="preserve">
     <value>rustig</value>
   </data>
+  <data name="PrijsGeenPrijs" xml:space="preserve">
+    <value>Geen prijsinformatie beschikbaar voor deze reis.</value>
+  </data>
 </root>

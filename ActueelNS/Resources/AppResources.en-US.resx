@@ -513,4 +513,7 @@
   <data name="RitInfoRustig" xml:space="preserve">
     <value>quiet</value>
   </data>
+  <data name="PrijsGeenPrijs" xml:space="preserve">
+    <value>No price info available for this trip.</value>
+  </data>
 </root>

@@ -556,6 +556,15 @@ namespace ActueelNS.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Geen prijsinformatie beschikbaar voor deze reis..
+        /// </summary>
+        public static string PrijsGeenPrijs {
+            get {
+                return ResourceManager.GetString("PrijsGeenPrijs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Prijzen ophalen....
         /// </summary>
         public static string PrijsLoading {

@@ -117,6 +117,7 @@ namespace ActueelNS.ViewModel
         internal async Task Initialize(Guid? id)
         {
             PlannerSearch = null;
+            ReisPrijs = null;
 
             if (id.HasValue)
             {
