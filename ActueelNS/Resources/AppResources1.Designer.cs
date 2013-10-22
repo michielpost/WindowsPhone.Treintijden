@@ -79,15 +79,6 @@ namespace ActueelNS.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Copyright © 2013 Michiel Post.
-        /// </summary>
-        public static string AboutCopyright {
-            get {
-                return ResourceManager.GetString("AboutCopyright", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to e-mail.
         /// </summary>
         public static string AboutEmailButton {

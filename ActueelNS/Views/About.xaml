@@ -33,9 +33,13 @@
                     <StackPanel>
 
                         <TextBlock Style="{StaticResource PhoneTextLargeStyleCustom}" Text="{Binding Path=LocalizedResources.AboutVersion, Source={StaticResource LocalizedStrings}}" />
-                        <TextBlock Style="{StaticResource PhoneTextNormalStyleCustom}" Text="{Binding Path=LocalizedResources.AboutCopyright, Source={StaticResource LocalizedStrings}}" />
+                    <TextBlock Style="{StaticResource PhoneTextNormalStyleCustom}">
+                    <Run>Copyright © </Run>
+                    <Run x:Name="YearRun"></Run>
+                    <Run> Michiel Post</Run>
+                    </TextBlock>
 
-                        <TextBlock Margin="12,16,12,0"
+                    <TextBlock Margin="12,16,12,0"
                        Style="{StaticResource PhoneTextNormalStyleCustom}"
                        Text="{Binding Path=LocalizedResources.AboutApi,
                                       Source={StaticResource LocalizedStrings}}"

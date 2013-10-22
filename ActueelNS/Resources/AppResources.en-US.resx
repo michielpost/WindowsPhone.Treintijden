@@ -144,9 +144,6 @@
   <data name="AboutApi" xml:space="preserve">
     <value>This application uses the official NS api.</value>
   </data>
-  <data name="AboutCopyright" xml:space="preserve">
-    <value>Copyright © 2013 Michiel Post</value>
-  </data>
   <data name="AboutEmailButton" xml:space="preserve">
     <value>e-mail</value>
   </data>

@@ -6,6 +6,7 @@ using ActueelNS.Views.Base;
 using ActueelNS.Resources;
 using Treintijden.Shared.Services.Interfaces;
 using System.Threading.Tasks;
+using System;
 
 namespace ActueelNS.Views
 {
@@ -23,6 +24,7 @@ namespace ActueelNS.Views
 
             LoadSettingsForReleaseNotes();
 
+            YearRun.Text = DateTime.Now.Year.ToString();
 
 
         }
