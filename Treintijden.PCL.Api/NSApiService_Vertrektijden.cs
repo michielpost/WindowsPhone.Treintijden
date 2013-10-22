@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Xml.Linq;
@@ -86,15 +87,29 @@ namespace Treintijden.PCL.Api
 
             if (vertrektijdList != null)
             {
-                bool _useAlternate = false;
 
-                foreach (var tijd in vertrektijdList)
-                {
-                    ////Set background color here, for performance
-                    tijd.IsAlternate = _useAlternate;
-                    _useAlternate = !_useAlternate;
+              //var vervoerders = vertrektijdList.GroupBy(x => x.Vervoerder).Select(x => x.Key).ToList();
 
-                }
+              bool showVervoerder = vertrektijdList.GroupBy(x => x.Vervoerder).Select(x => x.Key)
+                .Where(x => !string.IsNullOrEmpty(x))
+                .Where(x => !x.ToLower().Contains("hispeed"))
+                .Where(x => !x.ToLower().Contains("spoorwegen"))
+                .Count() > 1;
+
+
+              bool _useAlternate = false;
+
+              foreach (var tijd in vertrektijdList)
+              {
+                ////Set background color here, for performance
+                tijd.IsAlternate = _useAlternate;
+                _useAlternate = !_useAlternate;
+
+                if (!showVervoerder)
+                  tijd.Vervoerder = null;
+
+
+              }
             }
 
             //await TaskEx.Delay(TimeSpan.FromSeconds(5));  

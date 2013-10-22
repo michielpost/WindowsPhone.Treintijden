@@ -68,10 +68,22 @@ namespace Treintijden.PCL.Api.Models
         {
             get 
             {
-                if (Route != null && Route.Length > 0)
-                    return string.Format("{0} via {1}", TreinSoort, Route);
+              if (Route != null && Route.Length > 0)
+              {
+                if (string.IsNullOrEmpty(Vervoerder))
+                  return string.Format("{0} via {1}", TreinSoort, Route);
                 else
-                    return TreinSoort;
+                  return string.Format("{0} ({2}) via {1}", TreinSoort, Route, Vervoerder);
+
+              }
+              else
+              {
+
+                if (string.IsNullOrEmpty(Vervoerder))
+                  return TreinSoort;
+                else
+                  return string.Format("{0} ({1})", TreinSoort, Vervoerder);
+              }
             }
            
         }
