@@ -70,19 +70,19 @@ namespace Treintijden.PCL.Api.Models
             {
               if (Route != null && Route.Length > 0)
               {
-                if (string.IsNullOrEmpty(Vervoerder))
+                if (string.IsNullOrEmpty(VervoerderDisplay))
                   return string.Format("{0} via {1}", TreinSoort, Route);
                 else
-                  return string.Format("{0} ({2}) via {1}", TreinSoort, Route, Vervoerder);
+                  return string.Format("{0} ({2}) via {1}", TreinSoort, Route, VervoerderDisplay);
 
               }
               else
               {
 
-                if (string.IsNullOrEmpty(Vervoerder))
+                if (string.IsNullOrEmpty(VervoerderDisplay))
                   return TreinSoort;
                 else
-                  return string.Format("{0} ({1})", TreinSoort, Vervoerder);
+                  return string.Format("{0} ({1})", TreinSoort, VervoerderDisplay);
               }
             }
            
@@ -107,5 +107,6 @@ namespace Treintijden.PCL.Api.Models
 
 
         public string Vervoerder { get; set; }
+        public string VervoerderDisplay { get; set; }
     }
 }

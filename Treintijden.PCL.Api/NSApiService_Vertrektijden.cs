@@ -57,6 +57,9 @@ namespace Treintijden.PCL.Api
                 tijd.Route = XmlHelper.GetElementText(element.Element("RouteTekst"));
                 tijd.ReisTip = XmlHelper.GetElementText(element.Element("ReisTip"));
                 tijd.Vervoerder = XmlHelper.GetElementText(element.Element("Vervoerder"));
+                if (string.IsNullOrEmpty(tijd.Vervoerder))
+                  tijd.Vervoerder = "NS";
+                tijd.VervoerderDisplay = tijd.Vervoerder;
 
                 tijd.Vertrekspoor = XmlHelper.GetElementText(element.Element("VertrekSpoor"));
 
@@ -106,7 +109,7 @@ namespace Treintijden.PCL.Api
                 _useAlternate = !_useAlternate;
 
                 if (!showVervoerder)
-                  tijd.Vervoerder = null;
+                  tijd.VervoerderDisplay = null;
 
 
               }
