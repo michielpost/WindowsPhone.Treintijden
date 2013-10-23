@@ -152,9 +152,9 @@ namespace ActueelNS.Services
             return filename;
         }
 
-        private bool Exists(string name)
+        private bool Exists(string uri)
         {
-            return ShellTile.ActiveTiles.Any(x => x.NavigationUri.ToString().Contains(name));
+            return ShellTile.ActiveTiles.Any(x => x.NavigationUri.ToString().ToLower() == uri.ToLower());
         }
 
         ////////////////////////////////////////////////////////////////////////////////////////////////

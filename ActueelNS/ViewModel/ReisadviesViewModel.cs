@@ -567,6 +567,8 @@ namespace ActueelNS.ViewModel
             SelectedSearch = null;
             SelectedReisMogelijkheid = null;
 
+            DataLoader.LoadingState = LoadingState.None;
+
             InitNewSearch = false;
 
 
