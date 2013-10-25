@@ -101,7 +101,6 @@
     <Compile Include="StationNameService.cs" />
     <Compile Include="StationService.cs" />
     <Compile Include="MyTrajectService.cs" />
-    <Compile Include="TEMP\Settings.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
@@ -110,7 +109,7 @@
     </Reference>
     <Reference Include="Q42.WinRT.Phone, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Q42.WinRT.Phone.1.2.1.42\lib\wp80\Q42.WinRT.Phone.dll</HintPath>
+      <HintPath>..\packages\Q42.WinRT.Phone.1.2.2.42\lib\wp80\Q42.WinRT.Phone.dll</HintPath>
     </Reference>
     <Reference Include="Q42.WinRT.Portable, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>

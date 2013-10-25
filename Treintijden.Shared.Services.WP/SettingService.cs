@@ -2,7 +2,6 @@
 using System.Threading.Tasks;
 using Treintijden.Shared.Services.Interfaces;
 using Treintijden.Shared.Services.Models;
-using Treintijden.Shared.Services.WP.TEMP;
 
 namespace Treintijden.Shared.Services
 {
