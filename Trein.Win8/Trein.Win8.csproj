@@ -120,7 +120,17 @@
     <Compile Include="Common\ObservableDictionary.cs" />
     <Compile Include="Common\NavigationHelper.cs" />
     <Compile Include="Common\SuspensionManager.cs" />
+    <Compile Include="ViewModel\CustomViewModelBase.cs" />
+    <Compile Include="ViewModel\DepartureTimesViewModel.cs" />
+    <Compile Include="ViewModel\DonateViewModel.cs" />
+    <Compile Include="ViewModel\GpsWatcherModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
+    <Compile Include="ViewModel\MapViewModel.cs" />
+    <Compile Include="ViewModel\PlannerViewModel.cs" />
+    <Compile Include="ViewModel\SearchResultsViewModel.cs" />
+    <Compile Include="ViewModel\StoringenViewModel.cs" />
+    <Compile Include="ViewModel\TravelAdviceSingleViewModel.cs" />
+    <Compile Include="ViewModel\TravelAdviceViewModel.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />
     <Compile Include="Views\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>

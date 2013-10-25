@@ -6,7 +6,7 @@ using Q42.WinRT.Storage;
 using Treintijden.Shared.Services.Interfaces;
 using Treintijden.PCL.Api.Models;
 
-namespace Treintijen.Shared.Services
+namespace Treintijden.Shared.Services
 {
     public class LastStationService : ILastStationService
     {

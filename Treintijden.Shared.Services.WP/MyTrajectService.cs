@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using ActueelNS.Services.Interfaces;
 using Treintijden.Shared.Services.Models;
 
-namespace Treintijen.Shared.Services
+namespace Treintijden.Shared.Services
 {
     public class MyTrajectService : IMyTrajectService
     {
