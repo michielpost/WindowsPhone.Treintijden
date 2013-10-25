@@ -3,11 +3,17 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Trein.Win8"
-    xmlns:localData="using:Trein.Win8.Data">
+    xmlns:converters="using:Q42.WinRT.Converters"
+    >
 
     <Application.Resources>
 
+        <vm:ViewModelLocator x:Key="Locator" xmlns:vm="using:Trein.Win8.ViewModel" />
+        
+        <converters:VisibilityConverter x:Key="Vis" />
+        <converters:InverseVisibilityConverter x:Key="InverseVis" />
+
         <!-- Application-specific resources -->
-        <x:String x:Key="AppName">Trein.Win8</x:String>
+        <x:String x:Key="AppName">Trein</x:String>
     </Application.Resources>
 </Application>

@@ -120,6 +120,8 @@
     <Compile Include="Common\ObservableDictionary.cs" />
     <Compile Include="Common\NavigationHelper.cs" />
     <Compile Include="Common\SuspensionManager.cs" />
+    <Compile Include="ViewModel\MainViewModel.cs" />
+    <Compile Include="ViewModel\ViewModelLocator.cs" />
     <Compile Include="Views\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -187,6 +189,17 @@
     </Reference>
     <Reference Include="Microsoft.Practices.ServiceLocation">
       <HintPath>..\packages\MvvmLightLibs.4.1.27.1\lib\netcore45\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.5.0.8\lib\netcore45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Q42.WinRT, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Q42.WinRT.1.2.2.42\lib\win81\Q42.WinRT.dll</HintPath>
+    </Reference>
+    <Reference Include="Q42.WinRT.Portable">
+      <HintPath>..\packages\Q42.WinRT.Portable.1.2.0.42\lib\portable-net45+wp80+win\Q42.WinRT.Portable.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup />
