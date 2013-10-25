@@ -14,6 +14,7 @@ using Treintijden.PCL.Api.Models;
 using Treintijden.Shared.Services.Interfaces;
 using Treintijden.PCL.Api.Interfaces;
 using Treintijden.Shared.Services.Models;
+using Q42.WinRT.Portable.Data;
 
 namespace Trein.Win8.ViewModel
 {
@@ -22,6 +23,8 @@ namespace Trein.Win8.ViewModel
         private readonly INSApiService _plannerService;
         private readonly IMyTrajectService _trajectService;
         private readonly IPlannerService _searchHistoryService;
+        public DataLoader DataLoader { get; set; }
+
 
 
         private List<ReisMogelijkheid> _reisMogelijkheden = new List<ReisMogelijkheid>();
@@ -92,6 +95,8 @@ namespace Trein.Win8.ViewModel
             _plannerService = plannerService;
             _trajectService = trajectService;
             _searchHistoryService = searchHistoryService;
+
+            DataLoader = new DataLoader();
 
             if (ViewModelBase.IsInDesignModeStatic)
             {
@@ -185,8 +190,7 @@ namespace Trein.Win8.ViewModel
         internal void Initialize(PlannerSearch searchHistory)
         {
             //ReisMogelijkheden.Clear();
-            LoadingState = ViewModel.LoadingState.None;
-
+          DataLoader.LoadingState = LoadingState.None;
             //TODO
           //this.CurrentSearch = searchHistory.PlannerSearch;
             //ReisMogelijkheden = new List<ReisMogelijkheid>(searchHistory.Reismogelijkheden);
@@ -205,11 +209,8 @@ namespace Trein.Win8.ViewModel
         private async void GetSearchResult(PlannerSearch search)
         {
 
-            try
-            {
-                LoadingState = ViewModel.LoadingState.Loading;
 
-                List<ReisMogelijkheid> reisMogelijkheden = await _plannerService.GetSearchResult(search);
+                List<ReisMogelijkheid> reisMogelijkheden = await DataLoader.LoadAsync(() => _plannerService.GetSearchResult(search));
 
                 SimpleIoc.Default.GetInstance<MainViewModel>().SearchHistory = new System.Collections.ObjectModel.ObservableCollection<PlannerSearch>(await _searchHistoryService.GetListFromStoreAsync());
 
@@ -242,14 +243,7 @@ namespace Trein.Win8.ViewModel
                 var optimaal = reisMogelijkheden.Where(x => x.Optimaal).FirstOrDefault();
                 Messenger.Default.Send<ReisMogelijkheid>(optimaal, "SetOptimaal");
 
-                LoadingState = ViewModel.LoadingState.Finished;
-                
-
-            }
-            catch (Exception e)
-            {
-                LoadingState = ViewModel.LoadingState.Error;
-            }
+            
         }
 
 

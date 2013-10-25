@@ -12,12 +12,15 @@ using GalaSoft.MvvmLight.Threading;
 using GalaSoft.MvvmLight.Messaging;
 using Treintijden.Shared.Services.Interfaces;
 using Treintijden.PCL.Api.Models;
+using Q42.WinRT.Portable.Data;
 
 namespace Trein.Win8.ViewModel
 {
     public class GpsWatcherModel : CustomViewModelBase
     {
         public IStationNameService StationService { get; set; }
+
+        public DataLoader DataLoader { get; set; }
 
 
         private Geolocator _instance;
@@ -34,6 +37,7 @@ namespace Trein.Win8.ViewModel
                     _instance.StatusChanged += _instance_StatusChanged;
                     _instance.PositionChanged += _instance_PositionChanged;
 
+
                 }
 
                 return _instance;
@@ -45,6 +49,7 @@ namespace Trein.Win8.ViewModel
         {
           StationService = SimpleIoc.Default.GetInstance<IStationNameService>();
 
+          DataLoader = new DataLoader();
             
         }
 
@@ -166,10 +171,10 @@ namespace Trein.Win8.ViewModel
             {
                 DispatcherHelper.UIDispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
                 {
-                    if (isBusy)
-                        LoadingState = ViewModel.LoadingState.Loading;
-                    else
-                        LoadingState = ViewModel.LoadingState.Finished;
+                  if (isBusy)
+                    DataLoader.LoadingState = LoadingState.Loading;
+                  else
+                    DataLoader.LoadingState = LoadingState.Finished;
 
 
                 });

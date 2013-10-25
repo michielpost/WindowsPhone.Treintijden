@@ -4,6 +4,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Trein.Win8"
     xmlns:converters="using:Q42.WinRT.Converters"
+    RequestedTheme="Light" 
     >
 
     <Application.Resources>
@@ -15,5 +16,22 @@
 
         <!-- Application-specific resources -->
         <x:String x:Key="AppName">Trein</x:String>
+
+
+
+        <SolidColorBrush x:Key="BackgroundColor" Color="White"></SolidColorBrush>
+        <SolidColorBrush x:Key="AlternateColor" Color="#6FA7BD"></SolidColorBrush>
+        <SolidColorBrush x:Key="SideBarBackgroundColor" Color="#3F89A7"></SolidColorBrush>
+        <SolidColorBrush x:Key="TextColor" Color="#333333"></SolidColorBrush>
+        <SolidColorBrush x:Key="ForegroundColor" Color="White"></SolidColorBrush>
+        <SolidColorBrush x:Key="AlternateTextColor" Color="White"></SolidColorBrush>
+        <SolidColorBrush x:Key="NotFilled" Color="Gray"></SolidColorBrush>
+        <SolidColorBrush x:Key="ControlBackgroundColor" Color="White"></SolidColorBrush>
+        <SolidColorBrush x:Key="GrayColor" Color="LightGray"></SolidColorBrush>
+        <SolidColorBrush x:Key="AppBarColor" Color="#395E6D"></SolidColorBrush>
+
+
+
+
     </Application.Resources>
 </Application>

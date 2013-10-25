@@ -9,12 +9,14 @@ using GalaSoft.MvvmLight;
 using Windows.ApplicationModel.Resources;
 using Treintijden.PCL.Api.Models;
 using Treintijden.PCL.Api.Interfaces;
+using Q42.WinRT.Portable.Data;
 
 namespace Trein.Win8.ViewModel
 {
     public class StoringenViewModel : CustomViewModelBase
     {
         private readonly INSApiService _storingenService;
+        public DataLoader DataLoader { get; set; }
 
         private ResourceLoader _resourceLoader = new ResourceLoader("Resources");
 
@@ -60,6 +62,7 @@ namespace Trein.Win8.ViewModel
         public StoringenViewModel(INSApiService storingenService)
         {
             _storingenService = storingenService;
+            DataLoader = new DataLoader();
 
             if (ViewModelBase.IsInDesignModeStatic)
             {
@@ -120,24 +123,11 @@ namespace Trein.Win8.ViewModel
 
         private async Task LoadData()
         {
-            LoadingState = ViewModel.LoadingState.Loading;
+          var StoringenEnWerkzaamheden = DataLoader.LoadAsync(() => _storingenService.GetStoringenEnWerkzaamheden(""));
 
-            try
-            {
-
-              var StoringenEnWerkzaamheden = await _storingenService.GetStoringenEnWerkzaamheden("");
-                
-              //TODO
-              //CurrentStoringen = await 
-                //Werkzaamheden = _storingenService.GetWerkzaamheden();
-
-               LoadingState = ViewModel.LoadingState.Finished;
-
-            }
-            catch
-            {
-                LoadingState = ViewModel.LoadingState.Error;
-            }
+          //TODO
+          //CurrentStoringen = await 
+          //Werkzaamheden = _storingenService.GetWerkzaamheden();
         }
     }
 }

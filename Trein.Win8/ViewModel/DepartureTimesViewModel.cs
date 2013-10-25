@@ -15,6 +15,7 @@ using Windows.UI.Xaml.Media;
 using Treintijden.Shared.Services.Interfaces;
 using Treintijden.PCL.Api.Interfaces;
 using Treintijden.PCL.Api.Models;
+using Q42.WinRT.Portable.Data;
 
 namespace Trein.Win8.ViewModel
 {
@@ -23,6 +24,8 @@ namespace Trein.Win8.ViewModel
         private readonly IStationNameService _stationService;
         private readonly INSApiService _vertrektijdenService;
         private readonly IStationService _favStationService;
+
+        public DataLoader DataLoader { get; set; }
 
         private DispatcherTimer _refreshTimer = new DispatcherTimer();
 
@@ -103,6 +106,8 @@ namespace Trein.Win8.ViewModel
             _stationService = stationService;
             _vertrektijdenService = vertrektijdenService;
             _favStationService = favStationService;
+
+            DataLoader = new DataLoader();
 
             if (ViewModelBase.IsInDesignModeStatic)
             {
@@ -240,34 +245,20 @@ namespace Trein.Win8.ViewModel
 
         private async Task LoadDepartureTimes(bool first)
         {
+          var vertrektijden = await DataLoader.LoadAsync(() => _vertrektijdenService.GetVertrektijden(this.CurrentStation.Code));
 
-            try
-            {
-                //if(first)
-                    LoadingState = ViewModel.LoadingState.Loading;
+          TijdList.Clear();
 
+          bool alternative = false;
+          foreach (var item in vertrektijden)
+          {
+            item.IsAlternate = alternative;
 
-                var vertrektijden = await _vertrektijdenService.GetVertrektijden(this.CurrentStation.Code);
+            this.TijdList.Add(item);
 
-                TijdList.Clear();
+            alternative = !alternative;
+          }
 
-                bool alternative = false;
-                foreach (var item in vertrektijden)
-                {
-                  item.IsAlternate = alternative;
-
-                    this.TijdList.Add(item);
-
-                    alternative = !alternative;
-                }
-
-                LoadingState = ViewModel.LoadingState.Finished;
-
-            }
-            catch
-            {
-                LoadingState = ViewModel.LoadingState.Error;
-            }
         }
 
         internal SecondaryTile CreateTileForStation()

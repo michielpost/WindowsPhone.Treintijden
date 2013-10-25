@@ -267,7 +267,9 @@
       <HintPath>..\packages\Q42.WinRT.Portable.1.2.0.42\lib\portable-net45+wp80+win\Q42.WinRT.Portable.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="UserControls\" />
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
     <VisualStudioVersion>12.0</VisualStudioVersion>
   </PropertyGroup>
