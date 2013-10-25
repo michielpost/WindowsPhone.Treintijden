@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>	
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+  <data name="AboutTitleTextBlock.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="AboutUserControlLocationDisclaimer.Text" xml:space="preserve">
+    <value>Location data is only used to show stations nearby. The data is not stored or sent over the internet.</value>
+    <comment>De locatie gegevens worden alleen gebruikt om automatisch stations in de buurt te tonen en worden niet opgeslagen.</comment>
+  </data>
+  <data name="AppBarAboutTitle" xml:space="preserve">
+    <value>About this app</value>
+  </data>
+  <data name="AppSearchPlaceHolder" xml:space="preserve">
+    <value>Station</value>
+  </data>
+  <data name="apr" xml:space="preserve">
+    <value>apr</value>
+  </data>
+  <data name="aug" xml:space="preserve">
+    <value>aug</value>
+  </data>
+  <data name="dec" xml:space="preserve">
+    <value>dec</value>
+  </data>
+  <data name="DepartureTimesPageAppBarDel.Tag" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="DepartureTimesPageAppBarFav.Tag" xml:space="preserve">
+    <value>Favorite</value>
+  </data>
+  <data name="DepartureTimesPageAppBarPin.Tag" xml:space="preserve">
+    <value>Pin</value>
+  </data>
+  <data name="DepartureTimesPageAppBarUnPin.Tag" xml:space="preserve">
+    <value>Unpin</value>
+  </data>
+  <data name="DepartureTimesPageError.Text" xml:space="preserve">
+    <value>Could not load departure times.</value>
+  </data>
+  <data name="DepartureTimesPageLoading.Text" xml:space="preserve">
+    <value>Loading departure times...</value>
+  </data>
+  <data name="DepartureTimesPageRichting.Text" xml:space="preserve">
+    <value>Direction</value>
+  </data>
+  <data name="DepartureTimesPageSpoor.Text" xml:space="preserve">
+    <value>Track</value>
+  </data>
+  <data name="DepartureTimesPageTreintype.Text" xml:space="preserve">
+    <value>Train type</value>
+  </data>
+  <data name="DepartureTimesPageVia.Text" xml:space="preserve">
+    <value>Via</value>
+  </data>
+  <data name="feb" xml:space="preserve">
+    <value>feb</value>
+  </data>
+  <data name="jan" xml:space="preserve">
+    <value>jan</value>
+  </data>
+  <data name="jul" xml:space="preserve">
+    <value>jul</value>
+  </data>
+  <data name="jun" xml:space="preserve">
+    <value>jun</value>
+  </data>
+  <data name="MainPageAppBarAddStation.Tag" xml:space="preserve">
+    <value>station</value>
+  </data>
+  <data name="MainPageGeenStoringen.Text" xml:space="preserve">
+    <value>No disruptions</value>
+  </data>
+  <data name="MainPagePopupAddStation.Text" xml:space="preserve">
+    <value>Add station</value>
+  </data>
+  <data name="mei" xml:space="preserve">
+    <value>may</value>
+  </data>
+  <data name="mrt" xml:space="preserve">
+    <value>mar</value>
+  </data>
+  <data name="nov" xml:space="preserve">
+    <value>nov</value>
+  </data>
+  <data name="okt" xml:space="preserve">
+    <value>oct</value>
+  </data>
+  <data name="PlannerControlAankomstCheck.Content" xml:space="preserve">
+    <value>arrival</value>
+  </data>
+  <data name="PlannerControlButton.Content" xml:space="preserve">
+    <value>Plan my trip</value>
+  </data>
+  <data name="PlannerControlNaarTextBox.Text" xml:space="preserve">
+    <value>Destination</value>
+  </data>
+  <data name="PlannerControlVanTextBox.Text" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="PlannerControlVertrekCheck.Content" xml:space="preserve">
+    <value>departure</value>
+  </data>
+  <data name="PlannerControlViaCheckBox.Content" xml:space="preserve">
+    <value>via station</value>
+  </data>
+  <data name="PlannerControlWanneerTextBox.Text" xml:space="preserve">
+    <value>When?</value>
+  </data>
+  <data name="SearchResultsPageNotFound.Text" xml:space="preserve">
+    <value>No results.</value>
+  </data>
+  <data name="SearchResultsViewModelNoInput" xml:space="preserve">
+    <value>No search query.</value>
+  </data>
+  <data name="SearchResultsViewModelSearchFor" xml:space="preserve">
+    <value>Results for '{0}'</value>
+  </data>
+  <data name="sep" xml:space="preserve">
+    <value>sep</value>
+  </data>
+  <data name="Storingen" xml:space="preserve">
+    <value>Disruptions</value>
+  </data>
+  <data name="StoringenCount" xml:space="preserve">
+    <value>Disruptions ({0})</value>
+  </data>
+  <data name="StoringenErrorTextBlock.Text" xml:space="preserve">
+    <value>Could not load disruptions.</value>
+  </data>
+  <data name="StoringenLadenTextBlock.Text" xml:space="preserve">
+    <value>Loading disruptions...</value>
+  </data>
+  <data name="StoringenPageError.Text" xml:space="preserve">
+    <value>Could not load disruptions at this moment.</value>
+  </data>
+  <data name="StoringenPageGeenStoringen.Text" xml:space="preserve">
+    <value>No known disruptions.</value>
+  </data>
+  <data name="StoringenPageLoading.Text" xml:space="preserve">
+    <value>Loading disruptions...</value>
+  </data>
+  <data name="TravelAdvicePageError.Text" xml:space="preserve">
+    <value>Could not load train times.</value>
+  </data>
+  <data name="TravelAdvicePageLoading.Text" xml:space="preserve">
+    <value>Loading trip data...</value>
+  </data>
+  <data name="TravelAdviceSinglePageReisinformatie.Text" xml:space="preserve">
+    <value>Travel info</value>
+  </data>
+  <data name="TravelAdviceSinglePageRichting.Text" xml:space="preserve">
+    <value>Direction</value>
+  </data>
+  <data name="TravelAdviceSinglePageSpoor.Text" xml:space="preserve">
+    <value>Track</value>
+  </data>
+  <data name="TravelAdviceSinglePageTraject.Text" xml:space="preserve">
+    <value>Route</value>
+  </data>
+  <data name="TravelAdviceSinglePageTreintype.Text" xml:space="preserve">
+    <value>Train type</value>
+  </data>
+  <data name="TravelAdviceSingleViewModelTitle" xml:space="preserve">
+    <value>Departure {0} › Arrival {1}</value>
+  </data>
+  <data name="VertrektijdListControlLaden.Text" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="ShareError" xml:space="preserve">
+    <value>Nothing to share at this moment.</value>
+  </data>
+  <data name="ShareErrorDataType" xml:space="preserve">
+    <value>Could not share data with this application.</value>
+  </data>
+  <data name="DepartureTimesPageAppBarRefresh.Tag" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="StoringenPageTitle.Text" xml:space="preserve">
+    <value>Disruptions and maintenance</value>
+  </data>
+  <data name="StoringenPageGeenWerkzaamheden.Text" xml:space="preserve">
+    <value>No maintenance work.</value>
+  </data>
+  <data name="StoringenPageStoringen.Text" xml:space="preserve">
+    <value>Disruptions</value>
+  </data>
+  <data name="StoringenPageWerkzaamheden.Text" xml:space="preserve">
+    <value>Maintenance</value>
+  </data>
+  <data name="StoringFlyoutTitle.Text" xml:space="preserve">
+    <value>Disruption</value>
+  </data>
+  <data name="WerkFlyoutTitle.Text" xml:space="preserve">
+    <value>Track maintenance</value>
+  </data>
+  <data name="PlannerControlNotTextBox.Text" xml:space="preserve">
+    <value>Now</value>
+  </data>
+  <data name="PlannerControlDatumTextBox.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="PlannerControlTijdTextBox.Text" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="MainPageLaatstGebruikt.Text" xml:space="preserve">
+    <value>Last used</value>
+  </data>
+  <data name="MainPageSuggesties.Text" xml:space="preserve">
+    <value>Suggestions</value>
+  </data>
+  <data name="TravelAdvicePageNoTrips.Text" xml:space="preserve">
+    <value>No travel options found.</value>
+  </data>
+  <data name="PlannerControlError.Text" xml:space="preserve">
+    <value>Please enter a departure and arrival station.</value>
+  </data>
+  <data name="PlannerControlErrorNotDifferent.Text" xml:space="preserve">
+    <value>Use a different departure and arrival station.</value>
+  </data>
+  <data name="AppBarSettingsTitle" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="SettingsTitleTextBlock.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="SettingsUserControlReisplanner.Text" xml:space="preserve">
+    <value>Planner</value>
+  </data>
+  <data name="SettingsUserControlShowHslToggle.Header" xml:space="preserve">
+    <value>Show highspeed train in travel advice</value>
+  </data>
+  <data name="SettingsUserControlShowHslToggle.OffContent" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="SettingsUserControlShowHslToggle.OnContent" xml:space="preserve">
+    <value>yes</value>
+  </data>
+  <data name="SettingsUserControlUseOvToggle.Header" xml:space="preserve">
+    <value>Use my NS- or OV-yearcard</value>
+  </data>
+  <data name="SettingsUserControlUseOvToggle.OffContent" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="SettingsUserControlUseOvToggle.OnContent" xml:space="preserve">
+    <value>yes</value>
+  </data>
+  <data name="AddTrajectAppBar.Tag" xml:space="preserve">
+    <value>Route</value>
+  </data>
+  <data name="DeleteHistoryButon.Content" xml:space="preserve">
+    <value>Delete Search History</value>
+  </data>
+  <data name="DeleteTrajectAppBar.Tag" xml:space="preserve">
+    <value>Route</value>
+  </data>
+  <data name="EersteKlas.Text" xml:space="preserve">
+    <value>first class</value>
+  </data>
+  <data name="HerplanAppBar.Tag" xml:space="preserve">
+    <value>Replan</value>
+  </data>
+  <data name="LaatstGelpandEmpty.Text" xml:space="preserve">
+    <value>When you plan a trip, it will be saved in this list.</value>
+  </data>
+  <data name="LaatstGelpandHeader.Text" xml:space="preserve">
+    <value>Last trips</value>
+  </data>
+  <data name="MijnStationsHeader.Text" xml:space="preserve">
+    <value>My stations</value>
+  </data>
+  <data name="MijnTrajectenEmpty.Text" xml:space="preserve">
+    <value>Plan a trip and add a favorite route using the AppBar.</value>
+  </data>
+  <data name="MijnTrajectenHeader.Text" xml:space="preserve">
+    <value>My routes</value>
+  </data>
+  <data name="MyStationsEmpy.Text" xml:space="preserve">
+    <value>Add a station using the AppBar.</value>
+  </data>
+  <data name="ReturnTrip.Text" xml:space="preserve">
+    <value>two way</value>
+  </data>
+  <data name="SingleTrip,Text" xml:space="preserve">
+    <value>single trip</value>
+  </data>
+  <data name="TweedeKlas.Text" xml:space="preserve">
+    <value>second class</value>
+  </data>
+  <data name="NearbyHeader.Text" xml:space="preserve">
+    <value>Nearby</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>Trein</value>
+  </data>
+  <data name="DeleteTrajectMultipleAppBar.Tag" xml:space="preserve">
+    <value>Delete routes</value>
+  </data>
+  <data name="DeleteStationMultipleAppBar.Tag" xml:space="preserve">
+    <value>Delete stations</value>
+  </data>
+  <data name="DeleteTripMultipleAppBar.Tag" xml:space="preserve">
+    <value>Delete trips</value>
+  </data>
+  <data name="PlannerAskFyra" xml:space="preserve">
+    <value>Enable searching for high speed trains using the settings screen.</value>
+  </data>
+  <data name="PlannerFyraJa" xml:space="preserve">
+    <value>Show settings</value>
+  </data>
+  <data name="PlannerFyraNee" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Conducteur" xml:space="preserve">
+    <value>Conductor</value>
+  </data>
+  <data name="DonatePageBuy" xml:space="preserve">
+    <value>buy</value>
+  </data>
+  <data name="DonatePageIntro" xml:space="preserve">
+    <value>This application is completely free. You can support the development of this app by buying one or more badges.</value>
+  </data>
+  <data name="DonatePageTitle" xml:space="preserve">
+    <value>Support this app</value>
+  </data>
+  <data name="gratis" xml:space="preserve">
+    <value>free</value>
+  </data>
+  <data name="Machinist" xml:space="preserve">
+    <value>Machinist</value>
+  </data>
+  <data name="PlannerControlUserType" xml:space="preserve">
+    <value>User type:</value>
+  </data>
+  <data name="Reiziger" xml:space="preserve">
+    <value>Traveler</value>
+  </data>
+  <data name="ShareDefaultText" xml:space="preserve">
+    <value>Plan a trip to share it.</value>
+  </data>
+  <data name="MainPageStationToevoegenButton.Content" xml:space="preserve">
+    <value>Add</value>
+  </data>
+</root>

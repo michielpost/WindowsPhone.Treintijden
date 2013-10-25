@@ -192,6 +192,12 @@
     <None Include="Package.StoreAssociation.xml" />
     <None Include="Common\ReadMe.txt" />
     <None Include="packages.config" />
+    <PRIResource Include="Resources\en\Resources.resw">
+      <SubType>Designer</SubType>
+    </PRIResource>
+    <PRIResource Include="Resources\nl\Resources.resw">
+      <SubType>Designer</SubType>
+    </PRIResource>
     <None Include="Trein.Win8_StoreKey.pfx" />
     <None Include="Trein.Win8_TemporaryKey.pfx" />
   </ItemGroup>
