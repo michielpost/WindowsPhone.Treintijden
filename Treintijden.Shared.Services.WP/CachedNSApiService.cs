@@ -34,7 +34,7 @@ namespace Treintijden.Shared.Services.WP
 
             try
             {
-              PlannerService.PermStoreSearchResultAsync(search.Id, searchResult);
+              await PlannerService.PermStoreSearchResultAsync(search.Id, searchResult);
             }
             catch{}
 

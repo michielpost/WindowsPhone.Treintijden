@@ -511,44 +511,43 @@ namespace ActueelNS.ViewModel
 
         async void ReisadviesViewModel_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
-            if (e.PropertyName == "SelectedSearch" && SelectedSearch != null)
-                GetSearchResult(this.SelectedSearch);
+          if (e.PropertyName == "SelectedSearch" && SelectedSearch != null)
+            GetSearchResult(this.SelectedSearch);
 
-            if (e.PropertyName == "SelectedReisMogelijkheid")
+          if (e.PropertyName == "SelectedReisMogelijkheid")
+          {
+
+            int delay = 30;
+
+            LaterCommand.RaiseCanExecuteChanged();
+            EerderCommand.RaiseCanExecuteChanged();
+
+            //Does not work. Sometimes shows blank.
+            try
             {
+              if (MainReisMogelijkheid != null)
+              {
 
-                int delay = 30;
-
-                LaterCommand.RaiseCanExecuteChanged();
-                EerderCommand.RaiseCanExecuteChanged();
-
-                //Does not work. Sometimes shows blank.
+                MainReisMogelijkheid = null;
                 try
                 {
-                    if (MainReisMogelijkheid != null)
-                    {
-
-                        MainReisMogelijkheid = null;
-                        try
-                        {
-                            await Task.Delay(TimeSpan.FromMilliseconds(delay));
-                        }
-                        catch { }
-                        finally{
-                        MainReisMogelijkheid = SelectedReisMogelijkheid;
-                            }
-                    }
+                  await Task.Delay(TimeSpan.FromMilliseconds(delay));
                 }
-                catch (Exception ex)
-                {
-                }
+                catch { }
                 finally
                 {
+                  MainReisMogelijkheid = SelectedReisMogelijkheid;
                 }
-
-
-
+              }
             }
+            catch (Exception ex)
+            {
+            }
+            finally
+            {
+            }
+
+          }
         }
 
 

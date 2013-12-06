@@ -249,51 +249,53 @@ namespace ActueelNS.ViewModel
 
         private async Task DoSearch()
         {
-            if (Date == DateTime.MinValue)
-                Date = DateTime.Now;
-            if (Time == DateTime.MinValue)
-                Time = DateTime.Now;
-            if (string.IsNullOrEmpty(Type))
-                Type = "vertrek";
+          if (Date == DateTime.MinValue)
+            Date = DateTime.Now;
+          if (Time == DateTime.MinValue)
+            Time = DateTime.Now;
+          if (string.IsNullOrEmpty(Type))
+            Type = "vertrek";
 
-            //Create planner object with GUID
-            PlannerSearch search = new PlannerSearch()
+          //Create planner object with GUID
+          PlannerSearch search = new PlannerSearch()
+          {
+            Id = Guid.NewGuid(),
+            SearchDateTime = DateTime.Now,
+            VanStation = VanStation,
+            NaarStation = NaarStation,
+            ViaStation = ViaStation,
+            IsHogesnelheid = IsHogesnelheid,
+            IsYearCard = IsYearCard,
+            Type = Type,
+            Date = Date,
+            Time = Time
+          };
+
+          if (search.VanStation != null
+              && search.NaarStation != null)
+          {
+
+            try
             {
-                Id = Guid.NewGuid(),
-                SearchDateTime = DateTime.Now,
-                VanStation = VanStation,
-                NaarStation = NaarStation,
-                ViaStation = ViaStation,
-                IsHogesnelheid = IsHogesnelheid,
-                IsYearCard = IsYearCard,
-                Type = Type,
-                Date = Date,
-                Time = Time
-            };
-
-            if (search.VanStation != null
-                && search.NaarStation != null)
-            {
-                //Save planner object
-                await PlannerService.AddSearchAsync(search);
-
-                var settings = SettingService.GetSettings();
-                settings.HasYearCard = IsYearCard;
-                settings.UseHsl = IsHogesnelheid;
-                SettingService.SaveSettings(settings);
-
-                //Navigate to new page and pass GUID
-                string url = string.Format("/Views/Reisadvies.xaml?id={0}", search.Id);
-                NavigationService.NavigateTo(new Uri(url, UriKind.Relative));
+              //Save settings
+              var settings = SettingService.GetSettings();
+              settings.HasYearCard = IsYearCard;
+              settings.UseHsl = IsHogesnelheid;
+              SettingService.SaveSettings(settings);
             }
+            catch
+            {
+              //never allow it to crash, this is really important
+            }
+
+            //Save planner object
+            await PlannerService.AddSearchAsync(search);
+
+            //Navigate to new page and pass GUID
+            string url = string.Format("/Views/Reisadvies.xaml?id={0}", search.Id);
+            NavigationService.NavigateTo(new Uri(url, UriKind.Relative));
+          }
         }
-
-        ////public override void Cleanup()
-        ////{
-        ////    // Clean own resources if needed
-
-        ////    base.Cleanup();
-        ////}
 
         internal void InitValues(string from, string to, string via, bool keepValues)
         {
@@ -330,10 +332,12 @@ namespace ActueelNS.ViewModel
 
             StationList.Clear();
 
-
-
         }
 
+      /// <summary>
+      /// Check if this search can be pinned
+      /// </summary>
+      /// <returns></returns>
         internal bool CanPin()
         {
             string from = VanStation != null ? VanStation.Name : string.Empty;
@@ -356,6 +360,10 @@ namespace ActueelNS.ViewModel
             }
         }
 
+      /// <summary>
+      /// Search a station
+      /// </summary>
+      /// <param name="p"></param>
         internal void SeachStation(string p)
         {
             if (string.IsNullOrEmpty(p))
@@ -399,6 +407,9 @@ namespace ActueelNS.ViewModel
             }
         }
 
+      /// <summary>
+      /// Show favorite stations
+      /// </summary>
         private void ShowFavoriteStations()
         {
             //Show favoriete en gps stations
@@ -412,6 +423,9 @@ namespace ActueelNS.ViewModel
             }
         }
 
+      /// <summary>
+      /// Reset before a new pick
+      /// </summary>
         internal void InitForNewPick()
         {
             StationList.Clear();
