@@ -98,7 +98,7 @@
 
 
                                     <TextBlock Grid.Column="0" Text="{Binding DisplayTijd}"
-			           Style="{StaticResource PhoneTextNormalStyleCustom}"  Margin="24,0,0,0" Padding="0">
+			           Style="{StaticResource PhoneTextNormalStyleCustom}"  Margin="12,0,0,0" Padding="0">
                                     </TextBlock>
 
                                     <StackPanel Grid.Column="1">
@@ -125,9 +125,9 @@
                     <StackPanel Visibility="{Binding DataLoader.IsBusy, Converter={StaticResource InverseVis}}">
                         <StackPanel Margin="12" Visibility="{Binding CurrentStoringen.Count, Converter={StaticResource InverseVis}}">
                             <StackPanel Visibility="{Binding DataLoader.IsFinished, Converter={StaticResource Vis}}">
-                                <TextBlock Style="{StaticResource PhoneTextLargeStyleCustom}" Text="{Binding Path=LocalizedResources.StoringenGeen, Source={StaticResource LocalizedStrings}}">
+                                <TextBlock  Style="{StaticResource PhoneTextLargeStyleCustom}" Text="{Binding Path=LocalizedResources.StoringenGeen, Source={StaticResource LocalizedStrings}}">
                                 </TextBlock>
-                                <TextBlock Style="{StaticResource PhoneTextNormalStyleCustom}" TextWrapping="Wrap" Text="{Binding Path=LocalizedResources.StoringenGeenLong, Source={StaticResource LocalizedStrings}}"></TextBlock>
+                                <TextBlock Style="{StaticResource PhoneTextNormalStyleCustom}" TextWrapping="Wrap" Text="{Binding Path=LocalizedResources.StoringenGeenLong, Source={StaticResource LocalizedStrings}}" d:IsHidden="True"></TextBlock>
                             </StackPanel>
                         </StackPanel>
                     </StackPanel>
@@ -148,7 +148,7 @@
                     <ListBox.ItemTemplate>
                         <DataTemplate>
                              
-                            <StackPanel Margin="0,0,0,36">
+                            <StackPanel Margin="12,0,0,36">
                                 
                                 <StackPanel Margin="0"
                                             Background="{StaticResource TextColor}">
@@ -165,15 +165,15 @@
                                 </TextBlock>
 
                                 <StackPanel Visibility="{Binding IsExpanded, Converter={StaticResource Vis}}">
-                                    <TextBlock Text="{Binding Reden}" FontSize="18" Margin="12,12,0,0"
+                                    <TextBlock Text="{Binding Reden}" FontSize="18" Margin="6,12,0,0"
 			           Style="{StaticResource PhoneTextNormalStyleCustom}" TextWrapping="Wrap">
                                     </TextBlock>
 
-                                    <TextBlock Text="{Binding Vertraging}" FontSize="18"
+                                    <TextBlock Margin="6" Text="{Binding Vertraging}" FontSize="18"
 			           Style="{StaticResource PhoneTextNormalStyleCustom}" TextWrapping="Wrap">
                                     </TextBlock>
 
-                                    <TextBlock Margin="12,16,0,0" Text="{Binding Advies}" FontSize="18"
+                                    <TextBlock Margin="6,16,0,0" Text="{Binding Advies}" FontSize="18"
 			           Style="{StaticResource PhoneTextNormalStyleCustom}" TextWrapping="Wrap">
                                     </TextBlock>
 

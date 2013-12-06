@@ -84,7 +84,9 @@ namespace Treintijden.Shared.Services
           var sh = new StorageHelper<List<PlannerSearch>>(StorageType.Local, serializerType: StorageSerializer.XML);
           return sh.SaveAsync(list, "perm_searches");
         }
-        catch { }
+        catch {
+          return Task.FromResult("");
+        }
       }
 
         public async Task AddSearchAsync(PlannerSearch search)
@@ -148,7 +150,7 @@ namespace Treintijden.Shared.Services
           }
           catch
           {
-            return new List<ReisMogelijkheid>();
+            return Task.FromResult(new List<ReisMogelijkheid>());
           }
         }
 
