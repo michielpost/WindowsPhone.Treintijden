@@ -297,7 +297,7 @@ namespace ActueelNS.ViewModel
           }
         }
 
-        internal void InitValues(string from, string to, string via, bool keepValues)
+        internal void InitValues(string from, string to, string via, bool keepValues, DateTime? dateTime)
         {
             Settings = SettingService.GetSettings();
 
@@ -322,8 +322,16 @@ namespace ActueelNS.ViewModel
 
             if (!keepValues)
             {
+              if (dateTime.HasValue)
+              {
+                Date = dateTime.Value.Date;
+                Time = dateTime.Value;
+              }
+              else
+              {
                 Date = DateTime.Now;
                 Time = DateTime.Now;
+              }
 
                 IsYearCard = Settings.HasYearCard;
                 IsHogesnelheid = Settings.UseHsl;

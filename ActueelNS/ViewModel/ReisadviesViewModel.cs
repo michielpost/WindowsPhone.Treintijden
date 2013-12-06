@@ -13,6 +13,7 @@ using Treintijden.Shared.Services.Interfaces;
 using Treintijden.PCL.Api.Models;
 using Treintijden.PCL.Api.Interfaces;
 using Q42.WinRT.Portable.Data;
+using System.Globalization;
 
 namespace ActueelNS.ViewModel
 {
@@ -360,6 +361,11 @@ namespace ActueelNS.ViewModel
                 string from = null;
                 string to = null;
                 string via = null;
+                string dateTime = null;
+              if(SelectedReisMogelijkheid != null)
+                dateTime = SelectedReisMogelijkheid.GeplandeAankomstTijd.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture) + "T" + SelectedReisMogelijkheid.GeplandeAankomstTijd.ToString("HH:mm", CultureInfo.InvariantCulture);
+              else
+                dateTime = SelectedSearch.Date.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture) + "T" + SelectedSearch.Time.ToString("HH:mm", CultureInfo.InvariantCulture);
 
                 if (SelectedSearch.VanStation != null)
                     from = SelectedSearch.VanStation.Name;
@@ -369,7 +375,7 @@ namespace ActueelNS.ViewModel
                     via = SelectedSearch.ViaStation.Name;
 
 
-                NavigationService.NavigateTo(new Uri(string.Format("/Views/Planner.xaml?from={0}&to={1}&via={2}", to, from, via), UriKind.Relative));
+                NavigationService.NavigateTo(new Uri(string.Format("/Views/Planner.xaml?from={0}&to={1}&via={2}&dateTime={3}", to, from, via, dateTime), UriKind.Relative));
             }
         }
 

@@ -13,6 +13,7 @@ using GalaSoft.MvvmLight.Ioc;
 using System.Collections;
 using ActueelNS.Views.Base;
 using Treintijden.PCL.Api.Models;
+using System.Globalization;
 
 namespace ActueelNS.Views
 {
@@ -99,6 +100,7 @@ namespace ActueelNS.Views
             string from = null;
             string to = null;
             string via = null;
+            DateTime? dateTime = null;
 
             if (this.NavigationContext.QueryString.ContainsKey("from"))
                 from = this.NavigationContext.QueryString["from"];
@@ -106,8 +108,17 @@ namespace ActueelNS.Views
                 to = this.NavigationContext.QueryString["to"];
             if (this.NavigationContext.QueryString.ContainsKey("via"))
                 via = this.NavigationContext.QueryString["via"];
+            if (this.NavigationContext.QueryString.ContainsKey("dateTime"))
+            {
+              string d = this.NavigationContext.QueryString["dateTime"];
+              DateTime tryDate;
+              if(DateTime.TryParse(d,CultureInfo.InvariantCulture, DateTimeStyles.AssumeLocal, out tryDate))
+              {
+                dateTime = DateTime.Parse(d, CultureInfo.InvariantCulture);
+              }
+            }
 
-            _vm.InitValues(from, to, via, keepValues);
+            _vm.InitValues(from, to, via, keepValues, dateTime);
 
             
 
@@ -218,22 +229,22 @@ namespace ActueelNS.Views
         }
        
 
-        private void DatePicker_ValueChanged(object sender, DateTimeValueChangedEventArgs e)
-        {
-            if (e.NewDateTime.HasValue)
-                _vm.Date = e.NewDateTime.Value;
-            else
-                _vm.Date = DateTime.Now;
-        }
+        //private void DatePicker_ValueChanged(object sender, DateTimeValueChangedEventArgs e)
+        //{
+        //    if (e.NewDateTime.HasValue)
+        //        _vm.Date = e.NewDateTime.Value;
+        //    else
+        //        _vm.Date = DateTime.Now;
+        //}
 
-        private void TimePicker_ValueChanged(object sender, DateTimeValueChangedEventArgs e)
-        {
-            if (e.NewDateTime.HasValue)
-                _vm.Time = e.NewDateTime.Value;
-            else
-                _vm.Time = DateTime.Now;
+        //private void TimePicker_ValueChanged(object sender, DateTimeValueChangedEventArgs e)
+        //{
+        //    if (e.NewDateTime.HasValue)
+        //        _vm.Time = e.NewDateTime.Value;
+        //    else
+        //        _vm.Time = DateTime.Now;
 
-        }
+        //}
 
         private void VanTextBlock_Tap(object sender, System.Windows.Input.GestureEventArgs e)
         {

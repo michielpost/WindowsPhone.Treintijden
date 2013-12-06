@@ -137,98 +137,6 @@
 
                 </StackPanel>
 
-                <!--<StackPanel x:Name="KeyboardPanel">
-                    <TextBlock Style="{StaticResource PhoneTextNormalStyleCustom}" Text="{Binding Path=LocalizedResources.PlannerVertrek, Source={StaticResource LocalizedStrings}}" />
-
-                    <toolkit:AutoCompleteBox x:Name="VanAutoComplete"
-                                             Width="350"
-                                             Margin="-3,0,0,0"
-                                             HorizontalAlignment="Left"
-                                             Background="{StaticResource ControlBackgroundColor}"
-                                             DropDownOpening="AutoCompleteBox_DropDownOpening"
-                                             FilterMode="StartsWith"
-                                             Foreground="{StaticResource TextColor}"
-                                             InputScope="AddressCity"
-                                             ItemsSource="{Binding StationList}"
-                                             SelectedItem="{Binding VanStation,
-                                                                    Mode=TwoWay}"
-                                             SelectionChanged="AutoCompleteBox_SelectionChanged">
-                        <toolkit:AutoCompleteBox.ItemTemplate>
-                            <DataTemplate>
-                                <TextBlock Margin="8,7" Text="{Binding Name}" />
-                            </DataTemplate>
-                        </toolkit:AutoCompleteBox.ItemTemplate>
-                    </toolkit:AutoCompleteBox>
-
-
-                    <TextBlock Style="{StaticResource PhoneTextNormalStyleCustom}" Text="{Binding Path=LocalizedResources.PlannerAankomst, Source={StaticResource LocalizedStrings}}" />
-
-                    <StackPanel Orientation="Horizontal">
-                        <toolkit:AutoCompleteBox x:Name="NaarAutoComplete"
-                                                 Width="350"
-                                                 Margin="-3,0,0,0"
-                                                 HorizontalAlignment="Left"
-                                                 Background="{StaticResource ControlBackgroundColor}"
-                                                 DropDownOpening="AutoCompleteBox_DropDownOpening"
-                                                 FilterMode="StartsWith"
-                                                 Foreground="{StaticResource TextColor}"
-                                                 InputScope="AddressCity"
-                                                 IsDropDownOpen="False"
-                                                 ItemsSource="{Binding StationList}"
-                                                 SelectedItem="{Binding NaarStation,
-                                                                        Mode=TwoWay}"
-                                                 SelectionChanged="AutoCompleteBox_SelectionChanged">
-                            <toolkit:AutoCompleteBox.ItemTemplate>
-                                <DataTemplate>
-                                    <TextBlock Margin="8,7" Text="{Binding Name}" />
-                                </DataTemplate>
-                            </toolkit:AutoCompleteBox.ItemTemplate>
-                        </toolkit:AutoCompleteBox>
-                       
-
-                    </StackPanel>
-
-
-                    <StackPanel Visibility="{Binding IsViaVisible, Converter={StaticResource InverseVis}}">
-                        <CheckBox
-                            Background="{StaticResource ControlBackgroundColor}"
-                          Content="{Binding Path=LocalizedResources.ViaStation,
-                                            Source={StaticResource LocalizedStrings}}"
-                          Foreground="{StaticResource TextColor}"
-                          IsChecked="{Binding IsViaVisible,
-                                              Mode=TwoWay}" />
-                    </StackPanel>
-                    <StackPanel Visibility="{Binding IsViaVisible, Converter={StaticResource Vis}}">
-
-                        <TextBlock Style="{StaticResource PhoneTextNormalStyleCustom}" Text="{Binding Path=LocalizedResources.PlannerVia, Source={StaticResource LocalizedStrings}}" />
-                        <toolkit:AutoCompleteBox x:Name="ViaAutoComplete"
-                                             Width="350"
-                                             HorizontalAlignment="Left"
-                                             Background="{StaticResource ControlBackgroundColor}"
-                                             DropDownOpening="AutoCompleteBox_DropDownOpening"
-                                             FilterMode="StartsWith"
-                                             Foreground="{StaticResource TextColor}"
-                                             InputScope="AddressCity"
-                                             IsDropDownOpen="False"
-                                             ItemsSource="{Binding StationList}"
-                                             SelectedItem="{Binding ViaStation,
-                                                                    Mode=TwoWay}"
-                                             SelectionChanged="AutoCompleteBox_SelectionChanged">
-                            <toolkit:AutoCompleteBox.ItemTemplate>
-                                <DataTemplate>
-                                    <TextBlock Margin="8,7" Text="{Binding Name}" />
-                                </DataTemplate>
-                            </toolkit:AutoCompleteBox.ItemTemplate>
-                        </toolkit:AutoCompleteBox>
-                    </StackPanel>
-
-
-
-                  
-                    
-                    
-                </StackPanel>-->
-
                 <StackPanel Orientation="Horizontal">
                     <toolkit:ListPicker x:Name="ListPicker"
                                         Width="130"
@@ -241,12 +149,13 @@
                     <toolkit:DatePicker Background="{StaticResource ControlBackgroundColor}"
                                         Foreground="{StaticResource TextColor}"
                                         BorderThickness="0"
-                                        ValueChanged="DatePicker_ValueChanged" />
+                                        Value="{Binding Date, Mode=TwoWay}"
+                                        />
 
                     <toolkit:TimePicker Background="{StaticResource ControlBackgroundColor}"
                                         Foreground="{StaticResource TextColor}"
                                         BorderThickness="0"
-                                        ValueChanged="TimePicker_ValueChanged" />
+                                       Value="{Binding Time, Mode=TwoWay}" />
 
 
                 </StackPanel>
