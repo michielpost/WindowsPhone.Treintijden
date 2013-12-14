@@ -157,7 +157,7 @@
     <value>review</value>
   </data>
   <data name="AboutVersion" xml:space="preserve">
-    <value>Treintijden 2.3.1</value>
+    <value>Treintijden 2.3.2</value>
   </data>
   <data name="actueel" xml:space="preserve">
     <value>current</value>
@@ -515,5 +515,8 @@
   </data>
   <data name="PrijsGeenPrijs" xml:space="preserve">
     <value>No price info available for this trip.</value>
+  </data>
+  <data name="ReisadviesEmailMenu" xml:space="preserve">
+    <value>E-mail...</value>
   </data>
 </root>

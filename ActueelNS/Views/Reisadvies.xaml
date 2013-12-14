@@ -919,6 +919,10 @@
                                               Click="ReminderMeAppBarButton_Click"
                                               IsEnabled="False"
                                               Text="herinner mij" />
+                <shell:ApplicationBarMenuItem x:Name="ShareAppBarButton"
+                                              Click="ShareAppBarButton_Click"
+                                              IsEnabled="False"
+                                              Text="Deel..." />
                 <shell:ApplicationBarMenuItem x:Name="RepeatSearchAppBarButton"
                                               Click="RepeatSearchAppBarButton_Click"
                                               IsEnabled="False"

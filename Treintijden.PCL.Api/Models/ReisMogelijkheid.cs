@@ -190,6 +190,7 @@ namespace Treintijden.PCL.Api.Models
             StringBuilder sb = new StringBuilder();
 
             sb.AppendLine(VanNaar);
+            sb.AppendLine(GeplandeVertrekTijd.Date.ToString("dd-MM-yyyy", CultureInfo.InvariantCulture));
             sb.AppendLine(VanTot);
             sb.AppendLine(DisplayReisduur);
             sb.AppendLine(DisplayOverstappen);

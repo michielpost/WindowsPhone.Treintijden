@@ -125,6 +125,7 @@ namespace ActueelNS.ViewModel
         public RelayCommand VertrektijdenCommand { get; private set; }
         public RelayCommand PinCommand { get; private set; }
         public RelayCommand AddReminderCommand { get; private set; }
+        public RelayCommand EmailCommand { get; private set; }
         public RelayCommand PrijsCommand { get; private set; }
         public RelayCommand MijnStationsCommand { get; private set; }
         public RelayCommand<Guid> DeleteCommand { get; private set; }
@@ -156,6 +157,7 @@ namespace ActueelNS.ViewModel
             MijnStationsCommand = new RelayCommand(() => DoMijnStations());
             PinCommand = new RelayCommand(() => PinSearch());
             AddReminderCommand = new RelayCommand(() => AddReminder());
+            EmailCommand = new RelayCommand(() => EmailAction());
             PrijsCommand = new RelayCommand(() => GoPrijs());
             VertrektijdenCommand = new RelayCommand(() => GoVertrektijden());
             DeleteHistoryCommand = new RelayCommand(() => DeleteHistory());
@@ -283,6 +285,27 @@ namespace ActueelNS.ViewModel
                 }
             }
             catch { }
+        }
+
+        private void EmailAction()
+        {
+          try
+          {
+            if (SelectedSearch != null
+                && ReisMogelijkheden != null
+                && SelectedReisMogelijkheid != null)
+            {
+              //int index = ReisMogelijkheden.IndexOf(SelectedReisMogelijkheid);
+              //NavigationService.NavigateTo(new Uri(string.Format("/Views/Reminder.xaml?id={0}&index={1}&time={2}&spoor={3}", SelectedSearch.Id, index, SelectedReisMogelijkheid.GeplandeVertrekTijd, SelectedReisMogelijkheid.ReisDelen.First().ReisStops.First().Vertrekspoor), UriKind.Relative));
+
+              EmailComposeTask task = new EmailComposeTask();
+              task.Body = SelectedReisMogelijkheid.GetAsText();
+              task.Subject = SelectedSearch.DisplayFull + string.Format(" ({0} {1} - {2})", SelectedReisMogelijkheid.GeplandeVertrekTijd.ToString("dd-MM-yyyy", CultureInfo.InvariantCulture), SelectedReisMogelijkheid.VertrekDisplayTijd, SelectedReisMogelijkheid.AankomstDisplayTijd);
+              task.Show();
+
+            }
+          }
+          catch { }
         }
 
         private void PinSearch()

@@ -18,14 +18,20 @@ namespace ActueelNS.Views
     {
         private ReisadviesViewModel _vm;
 
+        //Button
         private const  int HistoryIndex = 0;
         private const  int VertrektijdenIndex = 1;
         private const int PrijsIndex = 2;
         private const int PinIndex = 3;
+     
 
-        private const int ReisAdviesRepeatMenuIndex = 2;
+        //Menu
         private const int AddCalendarMenuIndex = 1;
-        private const int DeleteHistoryMenuIndex = 3;
+        private const int EmailMenuIndex = 2;
+        private const int ReisAdviesRepeatMenuIndex = 3;
+        private const int DeleteHistoryMenuIndex = 4;
+        private const int MijnStationsIndex = 5;
+        private const int NfcIndex = 6;
 
 
 
@@ -46,9 +52,10 @@ namespace ActueelNS.Views
             (ApplicationBar.MenuItems[0] as ApplicationBarMenuItem).Text = AppResources.ReisadviesTerugreisButton;
             (ApplicationBar.MenuItems[ReisAdviesRepeatMenuIndex] as ApplicationBarMenuItem).Text = AppResources.ReisadviesRepeatButton;
             (ApplicationBar.MenuItems[AddCalendarMenuIndex] as ApplicationBarMenuItem).Text = AppResources.AddToCalendar;
+            (ApplicationBar.MenuItems[EmailMenuIndex] as ApplicationBarMenuItem).Text = AppResources.ReisadviesEmailMenu;
             (ApplicationBar.MenuItems[DeleteHistoryMenuIndex] as ApplicationBarMenuItem).Text = AppResources.ReisadviesDeleteHistory;
-            (ApplicationBar.MenuItems[4] as ApplicationBarMenuItem).Text = AppResources.ReisadviesMijnStationsButton;
-            (ApplicationBar.MenuItems[5] as ApplicationBarMenuItem).Text = AppResources.ReisadviesTapShareButton;
+            (ApplicationBar.MenuItems[MijnStationsIndex] as ApplicationBarMenuItem).Text = AppResources.ReisadviesMijnStationsButton;
+            (ApplicationBar.MenuItems[NfcIndex] as ApplicationBarMenuItem).Text = AppResources.ReisadviesTapShareButton;
 
         }
 
@@ -133,8 +140,9 @@ namespace ActueelNS.Views
                         (ApplicationBar.MenuItems[0] as ApplicationBarMenuItem).IsEnabled = false;
                         (ApplicationBar.MenuItems[ReisAdviesRepeatMenuIndex] as ApplicationBarMenuItem).IsEnabled = false;
                         (ApplicationBar.MenuItems[AddCalendarMenuIndex] as ApplicationBarMenuItem).IsEnabled = false;
+                        (ApplicationBar.MenuItems[EmailMenuIndex] as ApplicationBarMenuItem).IsEnabled = false;
                         (ApplicationBar.MenuItems[DeleteHistoryMenuIndex] as ApplicationBarMenuItem).IsEnabled = true;
-                        (ApplicationBar.MenuItems[5] as ApplicationBarMenuItem).IsEnabled = false;
+                        (ApplicationBar.MenuItems[NfcIndex] as ApplicationBarMenuItem).IsEnabled = false;
                     }
 
                     if (MogelijkhedenPanel.Visibility == System.Windows.Visibility.Visible)
@@ -160,7 +168,7 @@ namespace ActueelNS.Views
                             //(ApplicationBar.Buttons[3] as ApplicationBarIconButton).IsEnabled = true;
                             (ApplicationBar.MenuItems[0] as ApplicationBarMenuItem).IsEnabled = true;
                             (ApplicationBar.MenuItems[ReisAdviesRepeatMenuIndex] as ApplicationBarMenuItem).IsEnabled = true;
-                            (ApplicationBar.MenuItems[5] as ApplicationBarMenuItem).IsEnabled = true;
+                            (ApplicationBar.MenuItems[NfcIndex] as ApplicationBarMenuItem).IsEnabled = true;
                             (ApplicationBar.MenuItems[DeleteHistoryMenuIndex] as ApplicationBarMenuItem).IsEnabled = false;
 
 
@@ -196,6 +204,7 @@ namespace ActueelNS.Views
                     }
 
                     (ApplicationBar.MenuItems[AddCalendarMenuIndex] as ApplicationBarMenuItem).IsEnabled = false; //Reminder
+                    (ApplicationBar.MenuItems[EmailMenuIndex] as ApplicationBarMenuItem).IsEnabled = false; //Share
 
                 }
                 else
@@ -211,6 +220,7 @@ namespace ActueelNS.Views
                     }
 
                     (ApplicationBar.MenuItems[AddCalendarMenuIndex] as ApplicationBarMenuItem).IsEnabled = true; //Reminder
+                    (ApplicationBar.MenuItems[EmailMenuIndex] as ApplicationBarMenuItem).IsEnabled = true; //Reminder
 
                     if (!string.IsNullOrEmpty(_vm.SelectedReisMogelijkheid.VertrekVertraging)
                         || !string.IsNullOrEmpty(_vm.SelectedReisMogelijkheid.AankomstVertraging))
@@ -365,6 +375,11 @@ namespace ActueelNS.Views
         private void ReminderMeAppBarButton_Click(object sender, EventArgs e)
         {
             _vm.AddReminderCommand.Execute(null);
+        }
+
+        private void ShareAppBarButton_Click(object sender, EventArgs e)
+        {
+          _vm.EmailCommand.Execute(null);
         }
 
         private void MijnStationsButton_Click(object sender, EventArgs e)

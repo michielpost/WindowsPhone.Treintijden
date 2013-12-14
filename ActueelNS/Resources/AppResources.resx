@@ -157,7 +157,7 @@
     <value>review</value>
   </data>
   <data name="AboutVersion" xml:space="preserve">
-    <value>Treintijden 2.3.1</value>
+    <value>Treintijden 2.3.2</value>
   </data>
   <data name="actueel" xml:space="preserve">
     <value>actueel</value>
@@ -415,7 +415,11 @@
     <value>favoriet</value>
   </data>
   <data name="ReleaseNotes" xml:space="preserve">
-    <value>Nieuw in 2.3.1
+    <value>Nieuw in 2.3.2
+- Station Maastricht Noord
+- Deel een geplande reis via e-mail
+
+Nieuw in 2.3.1
 - Drukte-indicator legenda
 - Kleine verbeteringen en bugfixes
 
@@ -572,5 +576,8 @@ Nieuw in 1.5
   </data>
   <data name="PrijsGeenPrijs" xml:space="preserve">
     <value>Geen prijsinformatie beschikbaar voor deze reis.</value>
+  </data>
+  <data name="ReisadviesEmailMenu" xml:space="preserve">
+    <value>E-mail...</value>
   </data>
 </root>

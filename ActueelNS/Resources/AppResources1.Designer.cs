@@ -115,7 +115,7 @@ namespace ActueelNS.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Treintijden 2.3.1.
+        ///   Looks up a localized string similar to Treintijden 2.3.2.
         /// </summary>
         public static string AboutVersion {
             get {
@@ -637,6 +637,15 @@ namespace ActueelNS.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to E-mail....
+        /// </summary>
+        public static string ReisadviesEmailMenu {
+            get {
+                return ResourceManager.GetString("ReisadviesEmailMenu", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Er was een probleem met het ophalen van dit reisadvies. Mogelijk is er geen internet verbinding beschikbaar..
         /// </summary>
         public static string ReisadviesError {
@@ -781,7 +790,11 @@ namespace ActueelNS.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Nieuw in 2.3.1
+        ///   Looks up a localized string similar to Nieuw in 2.3.2
+        ///- Station Maastricht Noord
+        ///- Deel een geplande reis via e-mail
+        ///
+        ///Nieuw in 2.3.1
         ///- Drukte-indicator legenda
         ///- Kleine verbeteringen en bugfixes
         ///
@@ -796,13 +809,7 @@ namespace ActueelNS.Resources {
         ///
         ///Nieuw in 2.2
         ///- Ritinformatie van een trein. Klik bij de actuele vertrektijden op een trein en zie alle stations en aankomsttijden
-        ///- Recent geplande treinreizen op het beginscherm
-        ///
-        ///Nieuw in 2.1.0.1
-        ///- Station Hoevelaken
-        ///- Bugfix
-        ///
-        ///Nieu [rest of string was truncated]&quot;;.
+        ///- Recent geplande treinre [rest of string was truncated]&quot;;.
         /// </summary>
         public static string ReleaseNotes {
             get {
