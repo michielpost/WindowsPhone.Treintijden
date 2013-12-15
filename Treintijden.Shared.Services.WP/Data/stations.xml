@@ -148,8 +148,8 @@
     <name>Almere Poort</name>
     <id>ampo</id>
     <c>NL</c>
-    <lat>52.34574</lat>
-    <lon>5.1535</lon>
+    <lat>52.342777</lat>
+    <lon>5.151944</lon>
     <Syns>
       <Sy>Poort</Sy>
     </Syns>
@@ -228,8 +228,8 @@
     <name>Amsterdam Holendrecht</name>
     <id>ashd</id>
     <c>NL</c>
-    <lat>52.2981</lat>
-    <lon>4.9601</lon>
+    <lat>52.29844</lat>
+    <lon>4.95972</lon>
     <Syns>
       <Sy>Holendrcht</Sy>
       <Sy>Holendrecht</Sy>
@@ -271,8 +271,8 @@
     <name>Amsterdam Science Park</name>
     <id>assp</id>
     <c>NL</c>
-    <lat>52.35296</lat>
-    <lon>4.9485683</lon>
+    <lat>52.35526</lat>
+    <lon>4.94651</lon>
     <Syns>
       <Sy>Scienceprk</Sy>
       <Sy>Science Park</Sy>
@@ -410,6 +410,17 @@
     <lat>52.208332</lat>
     <lon>5.2808332</lon>
     <Syns />
+  </s>
+  <s>
+    <name>Bad Nieuweschans</name>
+    <id>nsch</id>
+    <c>NL</c>
+    <lat>53.1844</lat>
+    <lon>7.19937</lon>
+    <Syns>
+      <Sy>Nieuweschans</Sy>
+      <Sy>Nweschans</Sy>
+    </Syns>
   </s>
   <s>
     <name>Baflo</name>
@@ -1390,8 +1401,8 @@
     <name>Halfweg-Zwanenburg</name>
     <id>hwzb</id>
     <c>NL</c>
-    <lat>52.38616</lat>
-    <lon>4.74579</lon>
+    <lat>52.384724</lat>
+    <lon>4.751667</lon>
     <Syns>
       <Sy>Halfweg-Zwanenb.</Sy>
     </Syns>
@@ -1517,8 +1528,8 @@
     <name>Heerlen Woonboulevard</name>
     <id>hrlw</id>
     <c>NL</c>
-    <lat>50.89605</lat>
-    <lon>5.9524655</lon>
+    <lat>50.896667</lat>
+    <lon>5.952222</lon>
     <Syns>
       <Sy>Hrl Woonblvd</Sy>
     </Syns>
@@ -1607,8 +1618,8 @@
     <name>Hengelo Gezondheidspark</name>
     <id>hglg</id>
     <c>NL</c>
-    <lat>52.261593</lat>
-    <lon>6.767235</lon>
+    <lat>52.261665</lat>
+    <lon>6.773611</lon>
     <Syns>
       <Sy>Gezondheidspark</Sy>
     </Syns>
@@ -1638,13 +1649,15 @@
     <Syns />
   </s>
   <s>
-    <name>Hilversum Noord</name>
-    <id>hvsn</id>
+    <name>Hilversum Media Park</name>
+    <id>hvsm</id>
     <c>NL</c>
     <lat>52.238056</lat>
     <lon>5.1738887</lon>
     <Syns>
-      <Sy>H'sum N</Sy>
+      <Sy>Hilversum Noord</Sy>
+      <Sy>Media Park</Sy>
+      <Sy>H'sum Media Park</Sy>
     </Syns>
   </s>
   <s>
@@ -2115,6 +2128,16 @@
     <Syns />
   </s>
   <s>
+    <name>Maastricht Noord</name>
+    <id>mtn</id>
+    <c>NL</c>
+    <lat>50.87087</lat>
+    <lon>5.71774</lon>
+    <Syns>
+      <Sy>Maastr N</Sy>
+    </Syns>
+  </s>
+  <s>
     <name>Maastricht Randwyck</name>
     <id>mtr</id>
     <c>NL</c>
@@ -2176,8 +2199,8 @@
     <name>Mook Molenhoek</name>
     <id>mmlh</id>
     <c>NL</c>
-    <lat>51.76408</lat>
-    <lon>5.8778143</lon>
+    <lat>51.756943</lat>
+    <lon>5.872778</lon>
     <Syns>
       <Sy>Molenhoek</Sy>
     </Syns>
@@ -2218,16 +2241,6 @@
     <lon>4.6169443</lon>
     <Syns>
       <Sy>Nieuwerkrk</Sy>
-    </Syns>
-  </s>
-  <s>
-    <name>Nieuweschans</name>
-    <id>nsch</id>
-    <c>NL</c>
-    <lat>53.1844</lat>
-    <lon>7.19937</lon>
-    <Syns>
-      <Sy>Nweschans</Sy>
     </Syns>
   </s>
   <s>
@@ -2982,8 +2995,8 @@
     <name>Utrecht Zuilen</name>
     <id>utzl</id>
     <c>NL</c>
-    <lat>52.10666</lat>
-    <lon>5.08363</lon>
+    <lat>52.103054</lat>
+    <lon>5.09</lon>
     <Syns>
       <Sy>Zuilen</Sy>
     </Syns>

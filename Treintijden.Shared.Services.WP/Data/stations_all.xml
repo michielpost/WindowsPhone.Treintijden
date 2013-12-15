@@ -227,8 +227,8 @@
     <name>Almere Poort</name>
     <id>ampo</id>
     <c>NL</c>
-    <lat>52.34574</lat>
-    <lon>5.1535</lon>
+    <lat>52.342777</lat>
+    <lon>5.151944</lon>
     <Syns>
       <Sy>Poort</Sy>
     </Syns>
@@ -315,8 +315,8 @@
     <name>Amsterdam Holendrecht</name>
     <id>ashd</id>
     <c>NL</c>
-    <lat>52.2981</lat>
-    <lon>4.9601</lon>
+    <lat>52.29844</lat>
+    <lon>4.95972</lon>
     <Syns>
       <Sy>Holendrcht</Sy>
       <Sy>Holendrecht</Sy>
@@ -358,8 +358,8 @@
     <name>Amsterdam Science Park</name>
     <id>assp</id>
     <c>NL</c>
-    <lat>52.35296</lat>
-    <lon>4.9485683</lon>
+    <lat>52.35526</lat>
+    <lon>4.94651</lon>
     <Syns>
       <Sy>Scienceprk</Sy>
       <Sy>Science Park</Sy>
@@ -536,16 +536,6 @@
     <Syns />
   </s>
   <s>
-    <name>Ashford International</name>
-    <id>ashfd</id>
-    <c>GB</c>
-    <lat>51.14371</lat>
-    <lon>0.87612</lon>
-    <Syns>
-      <Sy>AshfordINT</Sy>
-    </Syns>
-  </s>
-  <s>
     <name>Assen</name>
     <id>asn</id>
     <c>NL</c>
@@ -588,11 +578,30 @@
     </Syns>
   </s>
   <s>
+    <name>Bad Nieuweschans</name>
+    <id>nsch</id>
+    <c>NL</c>
+    <lat>53.1844</lat>
+    <lon>7.19937</lon>
+    <Syns>
+      <Sy>Nieuweschans</Sy>
+      <Sy>Nweschans</Sy>
+    </Syns>
+  </s>
+  <s>
     <name>Bad Oeynhausen</name>
     <id>oeynh</id>
     <c>D</c>
     <lat>52.20546</lat>
     <lon>8.796932</lon>
+    <Syns />
+  </s>
+  <s>
+    <name>Bad Schandau</name>
+    <id>badsch</id>
+    <c>D</c>
+    <lat>50.91851</lat>
+    <lon>14.14</lon>
     <Syns />
   </s>
   <s>
@@ -739,6 +748,25 @@
     <lon>13.434699</lon>
     <Syns>
       <Sy>Berlin Ostbhf</Sy>
+    </Syns>
+  </s>
+  <s>
+    <name>Berlin Südkreuz</name>
+    <id>bersud</id>
+    <c>D</c>
+    <lat>52.475</lat>
+    <lon>13.364721</lon>
+    <Syns />
+  </s>
+  <s>
+    <name>Berlin-Schönefeld Flug.</name>
+    <id>berfl</id>
+    <c>D</c>
+    <lat>52.3915</lat>
+    <lon>13.513</lon>
+    <Syns>
+      <Sy>Berlin-Fl.</Sy>
+      <Sy>Berlin-S Flug.</Sy>
     </Syns>
   </s>
   <s>
@@ -992,14 +1020,6 @@
     <Syns />
   </s>
   <s>
-    <name>Brig</name>
-    <id>brig</id>
-    <c>CH</c>
-    <lat>46.31942</lat>
-    <lon>7.98809</lon>
-    <Syns />
-  </s>
-  <s>
     <name>Brugge</name>
     <id>fr</id>
     <c>B</c>
@@ -1141,6 +1161,14 @@
     <Syns />
   </s>
   <s>
+    <name>Chur</name>
+    <id>chur</id>
+    <c>CH</c>
+    <lat>46.853333</lat>
+    <lon>9.528333</lon>
+    <Syns />
+  </s>
+  <s>
     <name>Coesfeld (Westf)</name>
     <id>ecmf</id>
     <c>D</c>
@@ -1212,6 +1240,14 @@
     <c>NL</c>
     <lat>52.14722</lat>
     <lon>4.456389</lon>
+    <Syns />
+  </s>
+  <s>
+    <name>Decin hl.n.</name>
+    <id>decin</id>
+    <c>CZ</c>
+    <lat>50.77342</lat>
+    <lon>14.20125</lon>
     <Syns />
   </s>
   <s>
@@ -1491,6 +1527,24 @@
     </Syns>
   </s>
   <s>
+    <name>Dresden Hbf</name>
+    <id>dresd</id>
+    <c>D</c>
+    <lat>51.04056</lat>
+    <lon>13.73203</lon>
+    <Syns>
+      <Sy>Dresden H.</Sy>
+    </Syns>
+  </s>
+  <s>
+    <name>Dresden-Neustadt</name>
+    <id>dresdn</id>
+    <c>D</c>
+    <lat>51.06581</lat>
+    <lon>13.741</lon>
+    <Syns />
+  </s>
+  <s>
     <name>Driebergen-Zeist</name>
     <id>db</id>
     <c>NL</c>
@@ -1588,14 +1642,6 @@
       <Sy>Dusseldorf</Sy>
       <Sy>Düsseldrf</Sy>
     </Syns>
-  </s>
-  <s>
-    <name>Ebbsfleet International</name>
-    <id>ebbs</id>
-    <c>GB</c>
-    <lat>51.44297</lat>
-    <lon>0.32095</lon>
-    <Syns />
   </s>
   <s>
     <name>Echt</name>
@@ -1847,6 +1893,14 @@
     </Syns>
   </s>
   <s>
+    <name>Fieberbrunn</name>
+    <id>fieber</id>
+    <c>A</c>
+    <lat>47.49111</lat>
+    <lon>12.528</lon>
+    <Syns />
+  </s>
+  <s>
     <name>Franeker</name>
     <id>fn</id>
     <c>NL</c>
@@ -1894,14 +1948,6 @@
     <Syns>
       <Sy>Freiburg (B.)</Sy>
     </Syns>
-  </s>
-  <s>
-    <name>Frutigen</name>
-    <id>frutig</id>
-    <c>CH</c>
-    <lat>46.58877</lat>
-    <lon>7.6516</lon>
-    <Syns />
   </s>
   <s>
     <name>Gaanderen</name>
@@ -2003,16 +2049,6 @@
     <lat>52.230278</lat>
     <lon>6.5844445</lon>
     <Syns />
-  </s>
-  <s>
-    <name>Goppenstein</name>
-    <id>goppen</id>
-    <c>CH</c>
-    <lat>46.36774</lat>
-    <lon>7.75501</lon>
-    <Syns>
-      <Sy>Goppenst.</Sy>
-    </Syns>
   </s>
   <s>
     <name>Gorinchem</name>
@@ -2153,8 +2189,8 @@
     <name>Halfweg-Zwanenburg</name>
     <id>hwzb</id>
     <c>NL</c>
-    <lat>52.38616</lat>
-    <lon>4.74579</lon>
+    <lat>52.384724</lat>
+    <lon>4.751667</lon>
     <Syns>
       <Sy>Halfweg-Zwanenb.</Sy>
     </Syns>
@@ -2306,8 +2342,8 @@
     <name>Heerlen Woonboulevard</name>
     <id>hrlw</id>
     <c>NL</c>
-    <lat>50.89605</lat>
-    <lon>5.9524655</lon>
+    <lat>50.896667</lat>
+    <lon>5.952222</lon>
     <Syns>
       <Sy>Hrl Woonblvd</Sy>
     </Syns>
@@ -2412,8 +2448,8 @@
     <name>Hengelo Gezondheidspark</name>
     <id>hglg</id>
     <c>NL</c>
-    <lat>52.261593</lat>
-    <lon>6.767235</lon>
+    <lat>52.261665</lat>
+    <lon>6.773611</lon>
     <Syns>
       <Sy>Gezondheidspark</Sy>
     </Syns>
@@ -2451,13 +2487,15 @@
     <Syns />
   </s>
   <s>
-    <name>Hilversum Noord</name>
-    <id>hvsn</id>
+    <name>Hilversum Media Park</name>
+    <id>hvsm</id>
     <c>NL</c>
     <lat>52.238056</lat>
     <lon>5.1738887</lon>
     <Syns>
-      <Sy>H'sum N</Sy>
+      <Sy>Hilversum Noord</Sy>
+      <Sy>Media Park</Sy>
+      <Sy>H'sum Media Park</Sy>
     </Syns>
   </s>
   <s>
@@ -2734,14 +2772,6 @@
     <Syns />
   </s>
   <s>
-    <name>Kandersteg</name>
-    <id>kander</id>
-    <c>CH</c>
-    <lat>46.49552</lat>
-    <lon>7.67126</lon>
-    <Syns />
-  </s>
-  <s>
     <name>Kapelle-Biezelinge</name>
     <id>bzl</id>
     <c>NL</c>
@@ -2987,6 +3017,14 @@
     <Syns />
   </s>
   <s>
+    <name>Landquart</name>
+    <id>landq</id>
+    <c>CH</c>
+    <lat>46.96722</lat>
+    <lon>9.5538</lon>
+    <Syns />
+  </s>
+  <s>
     <name>Landry</name>
     <id>landry</id>
     <c>F</c>
@@ -3107,6 +3145,16 @@
     </Syns>
   </s>
   <s>
+    <name>Lille Europe</name>
+    <id>lillee</id>
+    <c>F</c>
+    <lat>50.639442</lat>
+    <lon>3.074722</lon>
+    <Syns>
+      <Sy>Lille E.</Sy>
+    </Syns>
+  </s>
+  <s>
     <name>Limburg Süd</name>
     <id>flb</id>
     <c>D</c>
@@ -3142,16 +3190,6 @@
     <lat>52.166668</lat>
     <lon>6.4263887</lon>
     <Syns />
-  </s>
-  <s>
-    <name>London St. Pancras</name>
-    <id>londs</id>
-    <c>GB</c>
-    <lat>51.53239</lat>
-    <lon>0.12716</lon>
-    <Syns>
-      <Sy>London StP</Sy>
-    </Syns>
   </s>
   <s>
     <name>Loppersum</name>
@@ -3239,6 +3277,16 @@
     <lat>50.850277</lat>
     <lon>5.7055554</lon>
     <Syns />
+  </s>
+  <s>
+    <name>Maastricht Noord</name>
+    <id>mtn</id>
+    <c>NL</c>
+    <lat>50.87087</lat>
+    <lon>5.71774</lon>
+    <Syns>
+      <Sy>Maastr N</Sy>
+    </Syns>
   </s>
   <s>
     <name>Maastricht Randwyck</name>
@@ -3379,8 +3427,8 @@
     <name>Mook Molenhoek</name>
     <id>mmlh</id>
     <c>NL</c>
-    <lat>51.76408</lat>
-    <lon>5.8778143</lon>
+    <lat>51.756943</lat>
+    <lon>5.872778</lon>
     <Syns>
       <Sy>Molenhoek</Sy>
     </Syns>
@@ -3435,15 +3483,13 @@
     </Syns>
   </s>
   <s>
-    <name>Munster (Westf.) Hbf</name>
+    <name>Münster (Westf.) Hbf</name>
     <id>munst</id>
     <c>D</c>
     <lat>51.95689</lat>
     <lon>7.635895</lon>
     <Syns>
       <Sy>Munster (Westf) Hbf</Sy>
-      <Sy>Münster</Sy>
-      <Sy>Münster (Westf.)</Sy>
     </Syns>
   </s>
   <s>
@@ -3520,16 +3566,6 @@
     <lon>4.6169443</lon>
     <Syns>
       <Sy>Nieuwerkrk</Sy>
-    </Syns>
-  </s>
-  <s>
-    <name>Nieuweschans</name>
-    <id>nsch</id>
-    <c>NL</c>
-    <lat>53.1844</lat>
-    <lon>7.19937</lon>
-    <Syns>
-      <Sy>Nweschans</Sy>
     </Syns>
   </s>
   <s>
@@ -3773,6 +3809,24 @@
     <lat>52.40199</lat>
     <lon>16.91087</lon>
     <Syns />
+  </s>
+  <s>
+    <name>Praha hl.n.</name>
+    <id>praha</id>
+    <c>CZ</c>
+    <lat>50.08306</lat>
+    <lon>14.435</lon>
+    <Syns />
+  </s>
+  <s>
+    <name>Praha-Holesovice</name>
+    <id>prahol</id>
+    <c>CZ</c>
+    <lat>50.1102</lat>
+    <lon>14.44</lon>
+    <Syns>
+      <Sy>Praha-Hol.</Sy>
+    </Syns>
   </s>
   <s>
     <name>Preussen</name>
@@ -4287,14 +4341,6 @@
     <Syns />
   </s>
   <s>
-    <name>Spiez</name>
-    <id>spiez</id>
-    <c>CH</c>
-    <lat>46.68639</lat>
-    <lon>7.67966</lon>
-    <Syns />
-  </s>
-  <s>
     <name>St-Mariaburg</name>
     <id>maria</id>
     <c>B</c>
@@ -4488,14 +4534,6 @@
     <Syns />
   </s>
   <s>
-    <name>Thun</name>
-    <id>thun</id>
-    <c>CH</c>
-    <lat>46.75553</lat>
-    <lon>7.62945</lon>
-    <Syns />
-  </s>
-  <s>
     <name>Tiel</name>
     <id>tl</id>
     <c>NL</c>
@@ -4598,6 +4636,14 @@
     <Syns />
   </s>
   <s>
+    <name>Usti nad Labem</name>
+    <id>usti</id>
+    <c>CZ</c>
+    <lat>50.65956</lat>
+    <lon>14.04473</lon>
+    <Syns />
+  </s>
+  <s>
     <name>Utrecht Centraal</name>
     <id>ut</id>
     <c>NL</c>
@@ -4663,8 +4709,8 @@
     <name>Utrecht Zuilen</name>
     <id>utzl</id>
     <c>NL</c>
-    <lat>52.10666</lat>
-    <lon>5.08363</lon>
+    <lat>52.103054</lat>
+    <lon>5.09</lon>
     <Syns>
       <Sy>Zuilen</Sy>
     </Syns>

@@ -107,7 +107,7 @@
 		  <Lang>Aachen Schanz</Lang>
 		</Namen>
 		<Land>D</Land>
-		<UICCode>8081003</UICCode>
+		<UICCode>8031372</UICCode>
 		<Lat>50.76987</Lat>
 		<Lon>6.07383</Lon>
 		<Synoniemen>
@@ -209,7 +209,7 @@
 		  <Lang>Aix-en-Provence</Lang>
 		</Namen>
 		<Land>F</Land>
-		<UICCode>8700157</UICCode>
+		<UICCode>8731901</UICCode>
 		<Lat>43.52282</Lat>
 		<Lon>5.4453135</Lon>
 		<Synoniemen>
@@ -433,8 +433,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400450</UICCode>
-		<Lat>52.34574</Lat>
-		<Lon>5.1535</Lon>
+		<Lat>52.342777</Lat>
+		<Lon>5.151944</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -590,8 +590,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400231</UICCode>
-		<Lat>52.2981</Lat>
-		<Lon>4.9601</Lon>
+		<Lat>52.29844</Lat>
+		<Lon>4.95972</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -658,8 +658,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400235</UICCode>
-		<Lat>52.35296</Lat>
-		<Lon>4.9485683</Lon>
+		<Lat>52.35526</Lat>
+		<Lon>4.94651</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -972,23 +972,6 @@
 	</Station>
 
 	<Station>
-		<Code>ASHFD</Code>
-		<Type>intercitystation</Type>
-		<Namen>		
-		  <Kort>AshfordINT</Kort>
-		  <Middel>Ashford Internat</Middel>
-		  <Lang>Ashford International</Lang>
-		</Namen>
-		<Land>GB</Land>
-		<UICCode>7054660</UICCode>
-		<Lat>51.14371</Lat>
-		<Lon>0.87612</Lon>
-		<Synoniemen>
-			
-		</Synoniemen>
-	</Station>
-
-	<Station>
 		<Code>ASN</Code>
 		<Type>knooppuntIntercitystation</Type>
 		<Namen>		
@@ -1074,6 +1057,25 @@
 	</Station>
 
 	<Station>
+		<Code>NSCH</Code>
+		<Type>knooppuntStoptreinstation</Type>
+		<Namen>		
+		  <Kort>Nweschans</Kort>
+		  <Middel>Bad Nieuweschans</Middel>
+		  <Lang>Bad Nieuweschans</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400457</UICCode>
+		<Lat>53.1844</Lat>
+		<Lon>7.19937</Lon>
+		<Synoniemen>
+			
+			<Synoniem>Nieuweschans</Synoniem>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
 		<Code>OEYNH</Code>
 		<Type>intercitystation</Type>
 		<Namen>		
@@ -1085,6 +1087,23 @@
 		<UICCode>8013585</UICCode>
 		<Lat>52.20546</Lat>
 		<Lon>8.796932</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>BADSCH</Code>
+		<Type>intercitystation</Type>
+		<Namen>		
+		  <Kort>Bad Schand</Kort>
+		  <Middel>Bad Schandau</Middel>
+		  <Lang>Bad Schandau</Lang>
+		</Namen>
+		<Land>D</Land>
+		<UICCode>8006006</UICCode>
+		<Lat>50.91851</Lat>
+		<Lon>14.14</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -1337,7 +1356,7 @@
 		  <Lang>Berlin Hbf</Lang>
 		</Namen>
 		<Land>D</Land>
-		<UICCode>8011160</UICCode>
+		<UICCode>8065969</UICCode>
 		<Lat>52.52503</Lat>
 		<Lon>13.36946</Lon>
 		<Synoniemen>
@@ -1359,6 +1378,40 @@
 		<UICCode>8007817</UICCode>
 		<Lat>52.510498</Lat>
 		<Lon>13.434699</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>BERSUD</Code>
+		<Type>intercitystation</Type>
+		<Namen>		
+		  <Kort>Berlin Süd</Kort>
+		  <Middel>Berlin Südkreuz</Middel>
+		  <Lang>Berlin Südkreuz</Lang>
+		</Namen>
+		<Land>D</Land>
+		<UICCode>8065971</UICCode>
+		<Lat>52.475</Lat>
+		<Lon>13.364721</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>BERFL</Code>
+		<Type>intercitystation</Type>
+		<Namen>		
+		  <Kort>Berlin-Fl.</Kort>
+		  <Middel>Berlin-S Flug.</Middel>
+		  <Lang>Berlin-Schönefeld Flug.</Lang>
+		</Namen>
+		<Land>D</Land>
+		<UICCode>8000000</UICCode>
+		<Lat>52.3915</Lat>
+		<Lon>13.513</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -1858,23 +1911,6 @@
 	</Station>
 
 	<Station>
-		<Code>BRIG</Code>
-		<Type>intercitystation</Type>
-		<Namen>		
-		  <Kort>Brig</Kort>
-		  <Middel>Brig</Middel>
-		  <Lang>Brig</Lang>
-		</Namen>
-		<Land>CH</Land>
-		<UICCode>8501609</UICCode>
-		<Lat>46.31942</Lat>
-		<Lon>7.98809</Lon>
-		<Synoniemen>
-			
-		</Synoniemen>
-	</Station>
-
-	<Station>
 		<Code>FR</Code>
 		<Type>intercitystation</Type>
 		<Namen>		
@@ -2151,6 +2187,23 @@
 	</Station>
 
 	<Station>
+		<Code>CHUR</Code>
+		<Type>intercitystation</Type>
+		<Namen>		
+		  <Kort>Chur</Kort>
+		  <Middel>Chur</Middel>
+		  <Lang>Chur</Lang>
+		</Namen>
+		<Land>CH</Land>
+		<UICCode>8509000</UICCode>
+		<Lat>46.853333</Lat>
+		<Lon>9.528333</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
 		<Code>ECMF</Code>
 		<Type>stoptreinstation</Type>
 		<Namen>		
@@ -2298,6 +2351,23 @@
 		<UICCode>8400188</UICCode>
 		<Lat>52.14722</Lat>
 		<Lon>4.456389</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>DECIN</Code>
+		<Type>intercitystation</Type>
+		<Namen>		
+		  <Kort>Decin hl.n</Kort>
+		  <Middel>Decin hl.n.</Middel>
+		  <Lang>Decin hl.n.</Lang>
+		</Namen>
+		<Land>CZ</Land>
+		<UICCode>5455659</UICCode>
+		<Lat>50.77342</Lat>
+		<Lon>14.20125</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2809,7 +2879,7 @@
 		  <Lang>Dortmund Hbf</Lang>
 		</Namen>
 		<Land>D</Land>
-		<UICCode>8010340</UICCode>
+		<UICCode>8010053</UICCode>
 		<Lat>51.517895</Lat>
 		<Lon>7.45929</Lon>
 		<Synoniemen>
@@ -2829,6 +2899,40 @@
 		<UICCode>8010102</UICCode>
 		<Lat>51.547077</Lat>
 		<Lon>7.510099</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>DRESD</Code>
+		<Type>intercitystation</Type>
+		<Namen>		
+		  <Kort>Dresden H.</Kort>
+		  <Middel>Dresden Hbf</Middel>
+		  <Lang>Dresden Hbf</Lang>
+		</Namen>
+		<Land>D</Land>
+		<UICCode>8006050</UICCode>
+		<Lat>51.04056</Lat>
+		<Lon>13.73203</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>DRESDN</Code>
+		<Type>intercitystation</Type>
+		<Namen>		
+		  <Kort>Dresden-N</Kort>
+		  <Middel>Dresden-Neustadt</Middel>
+		  <Lang>Dresden-Neustadt</Lang>
+		</Namen>
+		<Land>D</Land>
+		<UICCode>8006216</UICCode>
+		<Lat>51.06581</Lat>
+		<Lon>13.741</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2887,7 +2991,7 @@
 
 	<Station>
 		<Code>DRON</Code>
-		<Type>knooppuntStoptreinstation</Type>
+		<Type>stoptreinstation</Type>
 		<Namen>		
 		  <Kort>Dronten</Kort>
 		  <Middel>Dronten</Middel>
@@ -3025,23 +3129,6 @@
 		<Synoniemen>
 			
 			<Synoniem>Dusseldorf</Synoniem>
-			
-		</Synoniemen>
-	</Station>
-
-	<Station>
-		<Code>EBBS</Code>
-		<Type>intercitystation</Type>
-		<Namen>		
-		  <Kort>Ebbsfleet</Kort>
-		  <Middel>Ebbsfleet Intern</Middel>
-		  <Lang>Ebbsfleet International</Lang>
-		</Namen>
-		<Land>GB</Land>
-		<UICCode>7015440</UICCode>
-		<Lat>51.44297</Lat>
-		<Lon>0.32095</Lon>
-		<Synoniemen>
 			
 		</Synoniemen>
 	</Station>
@@ -3544,6 +3631,23 @@
 	</Station>
 
 	<Station>
+		<Code>FIEBER</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Fieberbrun</Kort>
+		  <Middel>Fieberbrunn</Middel>
+		  <Lang>Fieberbrunn</Lang>
+		</Namen>
+		<Land>A</Land>
+		<UICCode>8101155</UICCode>
+		<Lat>47.49111</Lat>
+		<Lon>12.528</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
 		<Code>FN</Code>
 		<Type>stoptreinstation</Type>
 		<Namen>		
@@ -3623,23 +3727,6 @@
 		<UICCode>8014350</UICCode>
 		<Lat>47.99789</Lat>
 		<Lon>7.84134</Lon>
-		<Synoniemen>
-			
-		</Synoniemen>
-	</Station>
-
-	<Station>
-		<Code>FRUTIG</Code>
-		<Type>intercitystation</Type>
-		<Namen>		
-		  <Kort>Frutigen</Kort>
-		  <Middel>Frutigen</Middel>
-		  <Lang>Frutigen</Lang>
-		</Namen>
-		<Land>CH</Land>
-		<UICCode>8507478</UICCode>
-		<Lat>46.58877</Lat>
-		<Lon>7.6516</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3844,23 +3931,6 @@
 		<UICCode>8400254</UICCode>
 		<Lat>52.230278</Lat>
 		<Lon>6.5844445</Lon>
-		<Synoniemen>
-			
-		</Synoniemen>
-	</Station>
-
-	<Station>
-		<Code>GOPPEN</Code>
-		<Type>intercitystation</Type>
-		<Namen>		
-		  <Kort>Goppenst.</Kort>
-		  <Middel>Goppenstein</Middel>
-		  <Lang>Goppenstein</Lang>
-		</Namen>
-		<Land>CH</Land>
-		<UICCode>8507474</UICCode>
-		<Lat>46.36774</Lat>
-		<Lon>7.75501</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4152,8 +4222,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400400</UICCode>
-		<Lat>52.38616</Lat>
-		<Lon>4.74579</Lon>
+		<Lat>52.384724</Lat>
+		<Lon>4.751667</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4458,8 +4528,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400404</UICCode>
-		<Lat>50.89605</Lat>
-		<Lon>5.9524655</Lon>
+		<Lat>50.896667</Lat>
+		<Lon>5.952222</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4662,8 +4732,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400433</UICCode>
-		<Lat>52.261593</Lat>
-		<Lon>6.767235</Lon>
+		<Lat>52.261665</Lat>
+		<Lon>6.773611</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4738,18 +4808,20 @@
 	</Station>
 
 	<Station>
-		<Code>HVSN</Code>
+		<Code>HVSM</Code>
 		<Type>stoptreinstation</Type>
 		<Namen>		
-		  <Kort>H'sum N</Kort>
-		  <Middel>Hilversum Noord</Middel>
-		  <Lang>Hilversum Noord</Lang>
+		  <Kort>Media Park</Kort>
+		  <Middel>H'sum Media Park</Middel>
+		  <Lang>Hilversum Media Park</Lang>
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400324</UICCode>
 		<Lat>52.238056</Lat>
 		<Lon>5.1738887</Lon>
 		<Synoniemen>
+			
+			<Synoniem>Hilversum Noord</Synoniem>
 			
 		</Synoniemen>
 	</Station>
@@ -5282,23 +5354,6 @@
 	</Station>
 
 	<Station>
-		<Code>KANDER</Code>
-		<Type>intercitystation</Type>
-		<Namen>		
-		  <Kort>Kandersteg</Kort>
-		  <Middel>Kandersteg</Middel>
-		  <Lang>Kandersteg</Lang>
-		</Namen>
-		<Land>CH</Land>
-		<UICCode>8507475</UICCode>
-		<Lat>46.49552</Lat>
-		<Lon>7.67126</Lon>
-		<Synoniemen>
-			
-		</Synoniemen>
-	</Station>
-
-	<Station>
 		<Code>BZL</Code>
 		<Type>stoptreinstation</Type>
 		<Namen>		
@@ -5798,6 +5853,23 @@
 	</Station>
 
 	<Station>
+		<Code>LANDQ</Code>
+		<Type>intercitystation</Type>
+		<Namen>		
+		  <Kort>Landquart</Kort>
+		  <Middel>Landquart</Middel>
+		  <Lang>Landquart</Lang>
+		</Namen>
+		<Land>CH</Land>
+		<UICCode>8509002</UICCode>
+		<Lat>46.96722</Lat>
+		<Lon>9.5538</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
 		<Code>LANDRY</Code>
 		<Type>intercitystation</Type>
 		<Namen>		
@@ -5823,7 +5895,7 @@
 		  <Lang>Langerwehe</Lang>
 		</Namen>
 		<Land>D</Land>
-		<UICCode>8069836</UICCode>
+		<UICCode>8015334</UICCode>
 		<Lat>50.817524</Lat>
 		<Lon>6.355194</Lon>
 		<Synoniemen>
@@ -6038,6 +6110,23 @@
 	</Station>
 
 	<Station>
+		<Code>LILLEE</Code>
+		<Type>intercitystation</Type>
+		<Namen>		
+		  <Kort>Lille E.</Kort>
+		  <Middel>Lille Europe</Middel>
+		  <Lang>Lille Europe</Lang>
+		</Namen>
+		<Land>F</Land>
+		<UICCode>8722326</UICCode>
+		<Lat>50.639442</Lat>
+		<Lon>3.074722</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
 		<Code>FLB</Code>
 		<Type>stoptreinstation</Type>
 		<Namen>		
@@ -6102,23 +6191,6 @@
 		<UICCode>8400399</UICCode>
 		<Lat>52.166668</Lat>
 		<Lon>6.4263887</Lon>
-		<Synoniemen>
-			
-		</Synoniemen>
-	</Station>
-
-	<Station>
-		<Code>LONDS</Code>
-		<Type>intercitystation</Type>
-		<Namen>		
-		  <Kort>London StP</Kort>
-		  <Middel>London St. Pancr</Middel>
-		  <Lang>London St. Pancras</Lang>
-		</Namen>
-		<Land>GB</Land>
-		<UICCode>7015400</UICCode>
-		<Lat>51.53239</Lat>
-		<Lon>0.12716</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -6299,6 +6371,23 @@
 	</Station>
 
 	<Station>
+		<Code>MTN</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Maastr N</Kort>
+		  <Middel>Maastricht Noord</Middel>
+		  <Lang>Maastricht Noord</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400449</UICCode>
+		<Lat>50.87087</Lat>
+		<Lon>5.71774</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
 		<Code>MTR</Code>
 		<Type>stoptreinstation</Type>
 		<Namen>		
@@ -6341,7 +6430,7 @@
 		  <Lang>Mannheim Hbf</Lang>
 		</Namen>
 		<Land>D</Land>
-		<UICCode>8014010</UICCode>
+		<UICCode>8014002</UICCode>
 		<Lat>49.479355</Lat>
 		<Lon>8.468921</Lon>
 		<Synoniemen>
@@ -6511,7 +6600,7 @@
 		  <Lang>Metelen land</Lang>
 		</Namen>
 		<Land>D</Land>
-		<UICCode>8021092</UICCode>
+		<UICCode>8021151</UICCode>
 		<Lat>52.162445</Lat>
 		<Lon>7.254423</Lon>
 		<Synoniemen>
@@ -6580,8 +6669,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400446</UICCode>
-		<Lat>51.76408</Lat>
-		<Lon>5.8778143</Lon>
+		<Lat>51.756943</Lat>
+		<Lon>5.872778</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -6682,7 +6771,7 @@
 		<Namen>		
 		  <Kort>Münster</Kort>
 		  <Middel>Münster (Westf.)</Middel>
-		  <Lang>Munster (Westf.) Hbf</Lang>
+		  <Lang>Münster (Westf.) Hbf</Lang>
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8021011</UICCode>
@@ -6830,23 +6919,6 @@
 		<UICCode>8400455</UICCode>
 		<Lat>51.96528</Lat>
 		<Lon>4.6169443</Lon>
-		<Synoniemen>
-			
-		</Synoniemen>
-	</Station>
-
-	<Station>
-		<Code>NSCH</Code>
-		<Type>knooppuntStoptreinstation</Type>
-		<Namen>		
-		  <Kort>Nweschans</Kort>
-		  <Middel>Nieuweschans</Middel>
-		  <Lang>Nieuweschans</Lang>
-		</Namen>
-		<Land>NL</Land>
-		<UICCode>8400457</UICCode>
-		<Lat>53.1844</Lat>
-		<Lon>7.19937</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7359,6 +7431,40 @@
 		<UICCode>5100081</UICCode>
 		<Lat>52.40199</Lat>
 		<Lon>16.91087</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>PRAHA</Code>
+		<Type>intercitystation</Type>
+		<Namen>		
+		  <Kort>Praha hl.n</Kort>
+		  <Middel>Praha hl.n.</Middel>
+		  <Lang>Praha hl.n.</Lang>
+		</Namen>
+		<Land>CZ</Land>
+		<UICCode>5457076</UICCode>
+		<Lat>50.08306</Lat>
+		<Lon>14.435</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>PRAHOL</Code>
+		<Type>intercitystation</Type>
+		<Namen>		
+		  <Kort>Praha-Hol.</Kort>
+		  <Middel>Praha-Holesovice</Middel>
+		  <Lang>Praha-Holesovice</Lang>
+		</Namen>
+		<Land>CZ</Land>
+		<UICCode>5457256</UICCode>
+		<Lat>50.1102</Lat>
+		<Lon>14.44</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -8423,23 +8529,6 @@
 	</Station>
 
 	<Station>
-		<Code>SPIEZ</Code>
-		<Type>intercitystation</Type>
-		<Namen>		
-		  <Kort>Spiez</Kort>
-		  <Middel>Spiez</Middel>
-		  <Lang>Spiez</Lang>
-		</Namen>
-		<Land>CH</Land>
-		<UICCode>8507483</UICCode>
-		<Lat>46.68639</Lat>
-		<Lon>7.67966</Lon>
-		<Synoniemen>
-			
-		</Synoniemen>
-	</Station>
-
-	<Station>
 		<Code>MARIA</Code>
 		<Type>stoptreinstation</Type>
 		<Namen>		
@@ -8814,23 +8903,6 @@
 	</Station>
 
 	<Station>
-		<Code>THUN</Code>
-		<Type>intercitystation</Type>
-		<Namen>		
-		  <Kort>Thun</Kort>
-		  <Middel>Thun</Middel>
-		  <Lang>Thun</Lang>
-		</Namen>
-		<Land>CH</Land>
-		<UICCode>8507100</UICCode>
-		<Lat>46.75553</Lat>
-		<Lon>7.62945</Lon>
-		<Synoniemen>
-			
-		</Synoniemen>
-	</Station>
-
-	<Station>
 		<Code>TL</Code>
 		<Type>knooppuntStoptreinstation</Type>
 		<Namen>		
@@ -9035,6 +9107,23 @@
 	</Station>
 
 	<Station>
+		<Code>USTI</Code>
+		<Type>intercitystation</Type>
+		<Namen>		
+		  <Kort>Usti nad L</Kort>
+		  <Middel>Usti nad Labem</Middel>
+		  <Lang>Usti nad Labem</Lang>
+		</Namen>
+		<Land>CZ</Land>
+		<UICCode>5453179</UICCode>
+		<Lat>50.65956</Lat>
+		<Lon>14.04473</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
 		<Code>UT</Code>
 		<Type>megastation</Type>
 		<Namen>		
@@ -9150,8 +9239,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400613</UICCode>
-		<Lat>52.10666</Lat>
-		<Lon>5.08363</Lon>
+		<Lat>52.103054</Lat>
+		<Lon>5.09</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
