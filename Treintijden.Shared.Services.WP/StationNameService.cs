@@ -54,22 +54,24 @@ namespace Treintijden.Shared.Services
             }
 
         }
-     
+
         public Station GetStationByName(string name)
         {
-            var allStations = GetStations();
+          name = name.ToLower();
 
-            var station = allStations.Where(x => x.Name == name).FirstOrDefault();
+          var allStations = GetStations();
 
-              if(station != null)
-                return station;
-              else
-              {
-                //Try international
-                allStations = GetStations(true);
+          var station = allStations.Where(x => x.Name.ToLower() == name).FirstOrDefault();
 
-                return allStations.Where(x => x.Name == name).FirstOrDefault();
-              }
+          if (station != null)
+            return station;
+          else
+          {
+            //Try international
+            allStations = GetStations(true);
+
+            return allStations.Where(x => x.Name.ToLower() == name).FirstOrDefault();
+          }
         }
 
         public Station GetStationByCode(string code)

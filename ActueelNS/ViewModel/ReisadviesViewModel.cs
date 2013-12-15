@@ -46,18 +46,30 @@ namespace ActueelNS.ViewModel
 
         public ObservableCollection<PlannerSearch> SearchHistory
         {
-            get { return _searchHistory; }
-            set { _searchHistory = value;
+          get { return _searchHistory; }
+          set
+          {
+
+            if (value == null)
+              _searchHistory = new ObservableCollection<PlannerSearch>();
+            else
+              _searchHistory = value;
+
             RaisePropertyChanged(() => SearchHistory);
             RaisePropertyChanged(() => SearchHistorySmall);
 
-            }
+          }
         }
 
 
         public List<PlannerSearch> SearchHistorySmall
         {
-            get { return _searchHistory.Take(5).ToList(); }
+            get {
+              if (_searchHistory != null)
+                return _searchHistory.Take(5).ToList();
+              else
+                return new List<PlannerSearch>();
+            }
         }
 
 

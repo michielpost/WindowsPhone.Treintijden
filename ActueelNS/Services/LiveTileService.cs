@@ -279,7 +279,7 @@ namespace ActueelNS.Services
 
         public void CreateStoringen()
         {
-            string uri = "/Views/Storingen.xaml?";
+            string uri = "/Views/Storingen.xaml";
 
             if (!Exists(uri))
             {

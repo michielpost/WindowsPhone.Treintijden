@@ -23,8 +23,6 @@ namespace ActueelNS.ViewModel
         public IStationService StationService { get; set; }
         public IStationNameService StationNameService { get; set; }
         public INSApiService NSApiService { get; set; }
-        //public IStoringenService StoringenService { get; set; }
-        //public IVertrektijdenService VertrektijdenService { get; set; }
         public ILiveTileService LiveTileService { get; set; }
 
         public DataLoader DataLoader { get; set; }
@@ -168,10 +166,8 @@ namespace ActueelNS.ViewModel
             StationService = SimpleIoc.Default.GetInstance<IStationService>();
             StationNameService = SimpleIoc.Default.GetInstance<IStationNameService>();
             NSApiService = SimpleIoc.Default.GetInstance<INSApiService>();
-            //VertrektijdenService = SimpleIoc.Default.GetInstance<IVertrektijdenService>();
             NavigationService = SimpleIoc.Default.GetInstance<INavigationService>();
             LiveTileService = SimpleIoc.Default.GetInstance<ILiveTileService>();
-            //StoringenService = SimpleIoc.Default.GetInstance<IStoringenService>();
 
             RefreshCommand = new RelayCommand(() => LoadTijden());
             DeleteCommand = new RelayCommand(async () => await DeleteStation());
@@ -191,14 +187,18 @@ namespace ActueelNS.ViewModel
 
         private async void LoadTijden()
         {
-            var result = await DataLoader.LoadAsync(() => NSApiService.GetVertrektijden(this.CurrentStation.Code));
+          var result = await DataLoader.LoadAsync(() => NSApiService.GetVertrektijden(this.CurrentStation.Code));
 
+          if (TijdList != null)
             TijdList.Clear();
-            if (result != null)
-            {
-              foreach (var s in result)
-                TijdList.Add(s);
-            }
+          else
+            TijdList = new ObservableCollection<Vertrektijd>();
+
+          if (result != null)
+          {
+            foreach (var s in result)
+              TijdList.Add(s);
+          }
         }
 
        
@@ -299,8 +299,20 @@ namespace ActueelNS.ViewModel
 
         internal async Task LoadStation(string station)
         {
+          //Check input
+          if (string.IsNullOrEmpty(station))
+            return;
+
           PageName = station;
           CurrentStation = StationNameService.GetStationByName(station);
+
+          //Dont continue if the station is not found
+          if (CurrentStation == null)
+          {
+            TijdList = new ObservableCollection<Vertrektijd>();
+            DataLoader.LoadingState = LoadingState.Error;
+            return;
+          }
 
           TijdList = null;
 
@@ -311,9 +323,18 @@ namespace ActueelNS.ViewModel
           {
             TijdList = new ObservableCollection<Vertrektijd>(list);
           }
+          else
+            TijdList = new ObservableCollection<Vertrektijd>();
 
-          var mystations = await StationService.GetMyStationsAsync();
-          InMyStations = mystations.Where(x => x.Code == CurrentStation.Code).Any();
+          try
+          {
+            var mystations = await StationService.GetMyStationsAsync();
+            InMyStations = mystations.Where(x => x.Code == CurrentStation.Code).Any();
+          }
+          catch
+          {
+            //This is secondary, dont crash
+          }
 
         }
 
