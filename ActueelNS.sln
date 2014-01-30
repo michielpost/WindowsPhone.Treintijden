@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActueelNS", "ActueelNS\ActueelNS.csproj", "{F2E6E890-C49B-4D33-91DA-E6793DCE8AF3}"
 EndProject
@@ -103,8 +103,8 @@ Global
 		{015E3DFE-EB56-429F-95EF-BAB5D41B23BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{015E3DFE-EB56-429F-95EF-BAB5D41B23BE}.Debug|ARM.ActiveCfg = Debug|ARM
 		{015E3DFE-EB56-429F-95EF-BAB5D41B23BE}.Debug|ARM.Build.0 = Debug|ARM
-		{015E3DFE-EB56-429F-95EF-BAB5D41B23BE}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{015E3DFE-EB56-429F-95EF-BAB5D41B23BE}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{015E3DFE-EB56-429F-95EF-BAB5D41B23BE}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{015E3DFE-EB56-429F-95EF-BAB5D41B23BE}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
 		{015E3DFE-EB56-429F-95EF-BAB5D41B23BE}.Debug|x64.ActiveCfg = Debug|Any CPU
 		{015E3DFE-EB56-429F-95EF-BAB5D41B23BE}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{015E3DFE-EB56-429F-95EF-BAB5D41B23BE}.Debug|x86.Build.0 = Debug|Any CPU
@@ -135,8 +135,8 @@ Global
 		{5A7FFDEC-5069-4CF4-A4B7-CF818E47DE83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A7FFDEC-5069-4CF4-A4B7-CF818E47DE83}.Debug|ARM.ActiveCfg = Debug|ARM
 		{5A7FFDEC-5069-4CF4-A4B7-CF818E47DE83}.Debug|ARM.Build.0 = Debug|ARM
-		{5A7FFDEC-5069-4CF4-A4B7-CF818E47DE83}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{5A7FFDEC-5069-4CF4-A4B7-CF818E47DE83}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{5A7FFDEC-5069-4CF4-A4B7-CF818E47DE83}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5A7FFDEC-5069-4CF4-A4B7-CF818E47DE83}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
 		{5A7FFDEC-5069-4CF4-A4B7-CF818E47DE83}.Debug|x64.ActiveCfg = Debug|Any CPU
 		{5A7FFDEC-5069-4CF4-A4B7-CF818E47DE83}.Debug|x86.ActiveCfg = Debug|x86
 		{5A7FFDEC-5069-4CF4-A4B7-CF818E47DE83}.Debug|x86.Build.0 = Debug|x86
@@ -153,8 +153,8 @@ Global
 		{A1712C50-92F6-4780-92E1-A4BB7E723705}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1712C50-92F6-4780-92E1-A4BB7E723705}.Debug|ARM.ActiveCfg = Debug|ARM
 		{A1712C50-92F6-4780-92E1-A4BB7E723705}.Debug|ARM.Build.0 = Debug|ARM
-		{A1712C50-92F6-4780-92E1-A4BB7E723705}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{A1712C50-92F6-4780-92E1-A4BB7E723705}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{A1712C50-92F6-4780-92E1-A4BB7E723705}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A1712C50-92F6-4780-92E1-A4BB7E723705}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
 		{A1712C50-92F6-4780-92E1-A4BB7E723705}.Debug|x64.ActiveCfg = Debug|x64
 		{A1712C50-92F6-4780-92E1-A4BB7E723705}.Debug|x64.Build.0 = Debug|x64
 		{A1712C50-92F6-4780-92E1-A4BB7E723705}.Debug|x86.ActiveCfg = Debug|x86
@@ -175,9 +175,9 @@ Global
 		{B39A2002-1EFB-477A-B3FC-6693042020C4}.Debug|ARM.ActiveCfg = Debug|ARM
 		{B39A2002-1EFB-477A-B3FC-6693042020C4}.Debug|ARM.Build.0 = Debug|ARM
 		{B39A2002-1EFB-477A-B3FC-6693042020C4}.Debug|ARM.Deploy.0 = Debug|ARM
-		{B39A2002-1EFB-477A-B3FC-6693042020C4}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{B39A2002-1EFB-477A-B3FC-6693042020C4}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{B39A2002-1EFB-477A-B3FC-6693042020C4}.Debug|Mixed Platforms.Deploy.0 = Debug|x86
+		{B39A2002-1EFB-477A-B3FC-6693042020C4}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B39A2002-1EFB-477A-B3FC-6693042020C4}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B39A2002-1EFB-477A-B3FC-6693042020C4}.Debug|Mixed Platforms.Deploy.0 = Debug|Any CPU
 		{B39A2002-1EFB-477A-B3FC-6693042020C4}.Debug|x64.ActiveCfg = Debug|x64
 		{B39A2002-1EFB-477A-B3FC-6693042020C4}.Debug|x64.Build.0 = Debug|x64
 		{B39A2002-1EFB-477A-B3FC-6693042020C4}.Debug|x64.Deploy.0 = Debug|x64

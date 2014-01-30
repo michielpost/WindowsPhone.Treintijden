@@ -51,12 +51,20 @@ namespace ActueelNS.Views
 
         void _vm_RitInfoAvailable(object sender, EventArgs e)
         {
-            //Scroll to current station
-          if (_vm.RitStops != null)
+          try
           {
-            var currentItem = _vm.RitStops.Where(x => x.IsCurrent).FirstOrDefault();
-            if (currentItem != null)
-              MainListBox.ScrollTo(currentItem);
+            //Scroll to current station
+            if (_vm != null && _vm.RitStops != null)
+            {
+              var currentItem = _vm.RitStops.Where(x => x.IsCurrent).FirstOrDefault();
+              if (currentItem != null)
+                MainListBox.ScrollTo(currentItem);
+
+            }
+
+          }
+          catch 
+          { //Ignore errors here 
           }
         }
 
