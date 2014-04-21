@@ -1,4 +1,14 @@
 
+Omzetten naar Universal App
+
+Treintijden app geofencing voor tile, station in de buurt op de tile tonen
+
+Wp8.1 samples
+http://code.msdn.microsoft.com/wpapps/Windows-Phone-81-samples-08631ca7
+
+Trein app TODO:
+- Traject kunnen opslaan, automatisch aankomende mogelijkheden tonen
+- overstap tijd tonen?
 
 ---
 
