@@ -683,6 +683,23 @@
 	</Station>
 
 	<Station>
+		<Code>VMW</Code>
+		<Type>facultatiefStation</Type>
+		<Namen>		
+		  <Kort>vd Madeweg</Kort>
+		  <Middel>Van der Madeweg</Middel>
+		  <Lang>Amsterdam Van der Madeweg</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400078</UICCode>
+		<Lat>52.330135</Lat>
+		<Lon>4.92975</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
 		<Code>ASDZ</Code>
 		<Type>intercitystation</Type>
 		<Namen>		
@@ -1331,23 +1348,6 @@
 	</Station>
 
 	<Station>
-		<Code>GSB</Code>
-		<Type>intercitystation</Type>
-		<Namen>		
-		  <Kort>Berlin Gsb</Kort>
-		  <Middel>Berlin Gesundbr.</Middel>
-		  <Lang>Berlin Gesundbrunnen</Lang>
-		</Namen>
-		<Land>D</Land>
-		<UICCode>8007799</UICCode>
-		<Lat>52.548634</Lat>
-		<Lon>13.390427</Lon>
-		<Synoniemen>
-			
-		</Synoniemen>
-	</Station>
-
-	<Station>
 		<Code>BERHBL</Code>
 		<Type>megastation</Type>
 		<Namen>		
@@ -1843,23 +1843,6 @@
 	</Station>
 
 	<Station>
-		<Code>BREMEN</Code>
-		<Type>knooppuntIntercitystation</Type>
-		<Namen>		
-		  <Kort>Bremen</Kort>
-		  <Middel>Bremen Hbf</Middel>
-		  <Lang>Bremen Hbf</Lang>
-		</Namen>
-		<Land>D</Land>
-		<UICCode>8013751</UICCode>
-		<Lat>53.08348</Lat>
-		<Lon>8.813834</Lon>
-		<Synoniemen>
-			
-		</Synoniemen>
-	</Station>
-
-	<Station>
 		<Code>BRESSX</Code>
 		<Type>stoptreinstation</Type>
 		<Namen>		
@@ -1905,23 +1888,6 @@
 		<UICCode>8015129</UICCode>
 		<Lat>51.294617</Lat>
 		<Lon>6.241174</Lon>
-		<Synoniemen>
-			
-		</Synoniemen>
-	</Station>
-
-	<Station>
-		<Code>FR</Code>
-		<Type>intercitystation</Type>
-		<Namen>		
-		  <Kort>Brugge</Kort>
-		  <Middel>Brugge</Middel>
-		  <Lang>Brugge</Lang>
-		</Namen>
-		<Land>B</Land>
-		<UICCode>8893096</UICCode>
-		<Lat>51.19767</Lat>
-		<Lon>3.217851</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3007,6 +2973,23 @@
 	</Station>
 
 	<Station>
+		<Code>FDP</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Duffel</Kort>
+		  <Middel>Duffel</Middel>
+		  <Lang>Duffel</Lang>
+		</Namen>
+		<Land>B</Land>
+		<UICCode>8822210</UICCode>
+		<Lat>51.09139</Lat>
+		<Lon>4.493056</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
 		<Code>DUISB</Code>
 		<Type>knooppuntIntercitystation</Type>
 		<Namen>		
@@ -3682,23 +3665,6 @@
 	</Station>
 
 	<Station>
-		<Code>FRANKO</Code>
-		<Type>stoptreinstation</Type>
-		<Namen>		
-		  <Kort>Frankf(Od)</Kort>
-		  <Middel>Frankfurt (Oder)</Middel>
-		  <Lang>Frankfurt (Oder)</Lang>
-		</Namen>
-		<Land>D</Land>
-		<UICCode>8010113</UICCode>
-		<Lat>52.336163</Lat>
-		<Lon>14.546509</Lon>
-		<Synoniemen>
-			
-		</Synoniemen>
-	</Station>
-
-	<Station>
 		<Code>FNAF</Code>
 		<Type>knooppuntIntercitystation</Type>
 		<Namen>		
@@ -4065,8 +4031,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400238</UICCode>
-		<Lat>53.20489</Lat>
-		<Lon>6.58519</Lon>
+		<Lat>53.20624</Lat>
+		<Lon>6.58254</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4222,8 +4188,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400400</UICCode>
-		<Lat>52.384724</Lat>
-		<Lon>4.751667</Lon>
+		<Lat>52.385937</Lat>
+		<Lon>4.747165</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4630,8 +4596,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400300</UICCode>
-		<Lat>51.468056</Lat>
-		<Lon>5.6313887</Lon>
+		<Lat>51.46794</Lat>
+		<Lon>5.63085</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4664,8 +4630,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400299</UICCode>
-		<Lat>51.470276</Lat>
-		<Lon>5.7033334</Lon>
+		<Lat>51.47068</Lat>
+		<Lon>5.70177</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4812,7 +4778,7 @@
 		<Type>stoptreinstation</Type>
 		<Namen>		
 		  <Kort>Media Park</Kort>
-		  <Middel>H'sum Media Park</Middel>
+		  <Middel>Media Park</Middel>
 		  <Lang>Hilversum Media Park</Lang>
 		</Namen>
 		<Land>NL</Land>
@@ -4974,23 +4940,6 @@
 		<UICCode>8400328</UICCode>
 		<Lat>52.28389</Lat>
 		<Lon>6.4202776</Lon>
-		<Synoniemen>
-			
-		</Synoniemen>
-	</Station>
-
-	<Station>
-		<Code>HOLT</Code>
-		<Type>stoptreinstation</Type>
-		<Namen>		
-		  <Kort>Holtwick</Kort>
-		  <Middel>Holtwick</Middel>
-		  <Lang>Holtwick</Lang>
-		</Namen>
-		<Land>D</Land>
-		<UICCode>8021121</UICCode>
-		<Lat>51.998676</Lat>
-		<Lon>7.1223164</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -5159,8 +5108,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400340</UICCode>
-		<Lat>52.035</Lat>
-		<Lon>5.1675</Lon>
+		<Lat>52.03402</Lat>
+		<Lon>5.16821</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -5176,8 +5125,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400335</UICCode>
-		<Lat>52.01724</Lat>
-		<Lon>5.179281</Lon>
+		<Lat>52.01701</Lat>
+		<Lon>5.17949</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -5255,9 +5204,9 @@
 		<Code>INNSB</Code>
 		<Type>knooppuntIntercitystation</Type>
 		<Namen>		
-		  <Kort>Innsbrück</Kort>
-		  <Middel>Innsbrück Hbf</Middel>
-		  <Lang>Innsbrück Hbf</Lang>
+		  <Kort>Innsbruck</Kort>
+		  <Middel>Innsbruck Hbf</Middel>
+		  <Lang>Innsbruck Hbf</Lang>
 		</Namen>
 		<Land>A</Land>
 		<UICCode>8101187</UICCode>
@@ -5686,8 +5635,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400368</UICCode>
-		<Lat>52.49454</Lat>
-		<Lon>4.761243</Lon>
+		<Lat>52.49511</Lat>
+		<Lon>4.75417</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -6110,7 +6059,7 @@
 	</Station>
 
 	<Station>
-		<Code>LILLEE</Code>
+		<Code>LILLE</Code>
 		<Type>intercitystation</Type>
 		<Namen>		
 		  <Kort>Lille E.</Kort>
@@ -6405,23 +6354,6 @@
 	</Station>
 
 	<Station>
-		<Code>MAGDEB</Code>
-		<Type>intercitystation</Type>
-		<Namen>		
-		  <Kort>Magdenburg</Kort>
-		  <Middel>Magdenburg Hbf</Middel>
-		  <Lang>Magdenburg Hbf</Lang>
-		</Namen>
-		<Land>D</Land>
-		<UICCode>8024001</UICCode>
-		<Lat>52.13035</Lat>
-		<Lon>11.62689</Lon>
-		<Synoniemen>
-			
-		</Synoniemen>
-	</Station>
-
-	<Station>
 		<Code>MANNHE</Code>
 		<Type>intercitystation</Type>
 		<Namen>		
@@ -6669,8 +6601,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400446</UICCode>
-		<Lat>51.756943</Lat>
-		<Lon>5.872778</Lon>
+		<Lat>51.77158</Lat>
+		<Lon>5.88145</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7242,23 +7174,6 @@
 		<UICCode>8400997</UICCode>
 		<Lat>52.583332</Lat>
 		<Lon>4.686667</Lon>
-		<Synoniemen>
-			
-		</Synoniemen>
-	</Station>
-
-	<Station>
-		<Code>FSD</Code>
-		<Type>intercitystation</Type>
-		<Namen>		
-		  <Kort>Oostende</Kort>
-		  <Middel>Oostende</Middel>
-		  <Lang>Oostende</Lang>
-		</Namen>
-		<Land>B</Land>
-		<UICCode>8807800</UICCode>
-		<Lat>51.22817</Lat>
-		<Lon>2.9258</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -8789,7 +8704,7 @@
 		<Namen>		
 		  <Kort>Stolberg S</Kort>
 		  <Middel>Stolberg Schn.</Middel>
-		  <Lang>Stolberg Schneidmuhle</Lang>
+		  <Lang>Stolberg Schneidemuhle</Lang>
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8037124</UICCode>

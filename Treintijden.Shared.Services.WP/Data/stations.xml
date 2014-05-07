@@ -1354,8 +1354,8 @@
     <name>Groningen Europapark</name>
     <id>gerp</id>
     <c>NL</c>
-    <lat>53.20489</lat>
-    <lon>6.58519</lon>
+    <lat>53.20624</lat>
+    <lon>6.58254</lon>
     <Syns>
       <Sy>Europapark</Sy>
     </Syns>
@@ -1401,8 +1401,8 @@
     <name>Halfweg-Zwanenburg</name>
     <id>hwzb</id>
     <c>NL</c>
-    <lat>52.384724</lat>
-    <lon>4.751667</lon>
+    <lat>52.385937</lat>
+    <lon>4.747165</lon>
     <Syns>
       <Sy>Halfweg-Zwanenb.</Sy>
     </Syns>
@@ -1570,8 +1570,8 @@
     <name>Helmond 't Hout</name>
     <id>hmh</id>
     <c>NL</c>
-    <lat>51.468056</lat>
-    <lon>5.6313887</lon>
+    <lat>51.46794</lat>
+    <lon>5.63085</lon>
     <Syns>
       <Sy>'t Hout</Sy>
       <Sy>t Hout</Sy>
@@ -1592,8 +1592,8 @@
     <name>Helmond Brouwhuis</name>
     <id>hmbh</id>
     <c>NL</c>
-    <lat>51.470276</lat>
-    <lon>5.7033334</lon>
+    <lat>51.47068</lat>
+    <lon>5.70177</lon>
     <Syns>
       <Sy>Brouwhuis</Sy>
     </Syns>
@@ -1657,7 +1657,6 @@
     <Syns>
       <Sy>Hilversum Noord</Sy>
       <Sy>Media Park</Sy>
-      <Sy>H'sum Media Park</Sy>
     </Syns>
   </s>
   <s>
@@ -1803,16 +1802,16 @@
     <name>Houten</name>
     <id>htn</id>
     <c>NL</c>
-    <lat>52.035</lat>
-    <lon>5.1675</lon>
+    <lat>52.03402</lat>
+    <lon>5.16821</lon>
     <Syns />
   </s>
   <s>
     <name>Houten Castellum</name>
     <id>htnc</id>
     <c>NL</c>
-    <lat>52.01724</lat>
-    <lon>5.179281</lon>
+    <lat>52.01701</lat>
+    <lon>5.17949</lon>
     <Syns>
       <Sy>Castellum</Sy>
     </Syns>
@@ -1945,8 +1944,8 @@
     <name>Krommenie-Assendelft</name>
     <id>kma</id>
     <c>NL</c>
-    <lat>52.49454</lat>
-    <lon>4.761243</lon>
+    <lat>52.49511</lat>
+    <lon>4.75417</lon>
     <Syns>
       <Sy>Krommenie-Ass.</Sy>
     </Syns>
@@ -2199,8 +2198,8 @@
     <name>Mook Molenhoek</name>
     <id>mmlh</id>
     <c>NL</c>
-    <lat>51.756943</lat>
-    <lon>5.872778</lon>
+    <lat>51.77158</lat>
+    <lon>5.88145</lon>
     <Syns>
       <Sy>Molenhoek</Sy>
     </Syns>
