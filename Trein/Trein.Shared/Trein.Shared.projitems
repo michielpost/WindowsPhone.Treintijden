@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
@@ -15,8 +15,25 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)DataModel\SampleDataSource.cs" />
-    <Content Include="$(MSBuildThisFileDirectory)DataModel\SampleData.json" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\NavigationService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Interfaces\ILiveTileService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Interfaces\INavigationService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\LiveTileService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\AboutViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\CustomViewModelBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\DonateViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\GpsWatcherModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\MainViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\MapViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\PlannerViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\PrijsViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\ReisadviesViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\RitInfoViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\SettingsViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\StationPickerViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\StationTijdenViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\StoringenViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\ViewModelLocator.cs" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\LightGray.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\MediumGray.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\DarkGray.png" />
@@ -24,6 +41,41 @@
     <Compile Include="$(MSBuildThisFileDirectory)Common\RelayCommand.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Common\SuspensionManager.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Common\ObservableDictionary.cs" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\add.rest.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\appbar.add.rest.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\appbar.cancel.rest.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\appbar.euro.rest.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\appbar.favs.addto.rest.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\appbar.feature.search.rest.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\appbar.numberlist.rest.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\appbar.pin.rest.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\appbar.refresh.rest.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\appbar.switch.rest.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\appbar.switch2.rest.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\appbar.time.rest.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\app_bar_me_icon.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\checkbox.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\Logos\logo_100.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Images\Logos\logo_159.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Images\Logos\logo_336.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Images\Logos\logo_wide_336_691.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Images\Men.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\Purchase\upgrade1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\Purchase\upgrade2.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\Purchase\upgrade3.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\shop.png" />
     <PRIResource Include="$(MSBuildThisFileDirectory)Strings\en-US\Resources.resw" />
+    <PRIResource Include="$(MSBuildThisFileDirectory)Strings\nl\Resources.resw" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)UserControls\" />
   </ItemGroup>
 </Project>

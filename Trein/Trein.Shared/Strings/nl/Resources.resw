@@ -118,19 +118,19 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Aan" xml:space="preserve">
-    <value>On</value>
+    <value>Aan</value>
   </data>
   <data name="AboutApi" xml:space="preserve">
-    <value>This application uses the official NS api.</value>
+    <value>Deze applicatie maakt gebruik van de officiële NS api.</value>
   </data>
   <data name="AboutEmailButton" xml:space="preserve">
     <value>e-mail</value>
   </data>
   <data name="AboutQuestions" xml:space="preserve">
-    <value>Do you have suggestions or questions? Please contact michiel@michielpost.nl</value>
+    <value>Heb je tips, suggesties of vragen? Neem dan contact op met michiel@michielpost.nl</value>
   </data>
   <data name="AboutReview" xml:space="preserve">
-    <value>Do you like Treintijden? Please submit a review to the marketplace.</value>
+    <value>Maak je met veel plezier gebruik van Treintijden? Laat dan een review achter op de Marketplace.</value>
   </data>
   <data name="AboutReviewButton" xml:space="preserve">
     <value>review</value>
@@ -139,349 +139,410 @@
     <value>Treintijden 2.3.2</value>
   </data>
   <data name="actueel" xml:space="preserve">
-    <value>current</value>
+    <value>actueel</value>
   </data>
   <data name="AddToCalendar" xml:space="preserve">
-    <value>Add to calendar</value>
+    <value>Aan agenda toevoegen</value>
   </data>
   <data name="AppTitle" xml:space="preserve">
     <value>TREINTIJDEN</value>
   </data>
   <data name="AskReview" xml:space="preserve">
-    <value>Good rates and reviews encourage me to create and release updates for this app. Would you like to rate Treintijden now?</value>
+    <value>Steun Treintijden door een goede review achter te laten in de marketplace. Wil je nu een review plaatsen?</value>
   </data>
   <data name="Caption_Disconnected" xml:space="preserve">
-    <value>Disconnected from peer</value>
+    <value>Verbinding verbroken</value>
   </data>
   <data name="Caption_Send" xml:space="preserve">
-    <value>Click to send.</value>
+    <value>Klik om te verzenden</value>
   </data>
   <data name="Caption_TapToConnect" xml:space="preserve">
-    <value>Tap to connect</value>
+    <value>Tap om verbinding te maken</value>
   </data>
   <data name="DonateError" xml:space="preserve">
-    <value>Cannot load badges, please try again later.</value>
+    <value>Kon geen badges laden, probeer het later nog eens.</value>
   </data>
   <data name="DonateIntro" xml:space="preserve">
-    <value>This is a free app. You can support the development by buying one of the badges listed below.</value>
+    <value>Treintijden is volledig gratis te gebruiken. Je kunt de ontwikkeling van de applicatie steunen door één of meerdere van onderstaande badges te kopen.</value>
   </data>
   <data name="DonatePrice" xml:space="preserve">
-    <value>Price</value>
+    <value>Prijs</value>
   </data>
   <data name="DonateTitle" xml:space="preserve">
-    <value>support this app</value>
+    <value>steun deze app</value>
   </data>
   <data name="favoriet" xml:space="preserve">
-    <value>favorite</value>
+    <value>favoriet</value>
   </data>
   <data name="herinnermij" xml:space="preserve">
-    <value>remind me</value>
+    <value>herinner mij</value>
   </data>
   <data name="historie" xml:space="preserve">
-    <value>history</value>
+    <value>historie</value>
   </data>
   <data name="informatie" xml:space="preserve">
-    <value>information</value>
+    <value>informatie</value>
   </data>
   <data name="instellingen" xml:space="preserve">
-    <value>settings</value>
+    <value>instellingen</value>
   </data>
   <data name="Ja" xml:space="preserve">
-    <value>yes</value>
+    <value>ja</value>
   </data>
   <data name="LocatieServiceUitgeschakeld" xml:space="preserve">
-    <value>Location services disabled on this device.</value>
+    <value>De locatie service is uitgeschakeld op deze telefoon.</value>
   </data>
   <data name="MainDonateButton" xml:space="preserve">
-    <value>support this app</value>
+    <value>steun deze applicatie</value>
   </data>
   <data name="MainInformatieButton" xml:space="preserve">
-    <value>information</value>
+    <value>informatie</value>
   </data>
   <data name="MainIntro1" xml:space="preserve">
-    <value>This is the list with your favorite stations.</value>
+    <value>Dit is de lijst met jouw favoriete stations.</value>
   </data>
   <data name="MainIntro2" xml:space="preserve">
-    <value>Add a station:</value>
+    <value>Voeg meteen een station toe:</value>
   </data>
   <data name="MainIntroButton" xml:space="preserve">
-    <value>add station</value>
+    <value>station toevoegen</value>
   </data>
   <data name="MainLocationLoading" xml:space="preserve">
-    <value>Updating location...</value>
+    <value>Locatiebepaling...</value>
   </data>
   <data name="MainPageHerplannen" xml:space="preserve">
-    <value>repeat search</value>
+    <value>herplannen</value>
   </data>
   <data name="MainPageRecent" xml:space="preserve">
-    <value>Recently planned</value>
+    <value>Recent gepland</value>
   </data>
   <data name="MainReviewButton" xml:space="preserve">
-    <value>rate this application</value>
+    <value>beoordeel deze applicatie</value>
   </data>
   <data name="MainSettingsButton" xml:space="preserve">
-    <value>settings</value>
+    <value>instellingen</value>
   </data>
   <data name="MainStoringenAppButton" xml:space="preserve">
-    <value>disruptions and maintenance</value>
+    <value>storingen en werkzaamheden</value>
   </data>
   <data name="Message_Disconnected" xml:space="preserve">
-    <value>You are no longer connected.</value>
+    <value>Connectie verbroken.</value>
   </data>
   <data name="NFCWaitPageText" xml:space="preserve">
-    <value>Waiting for data...</value>
+    <value>Wacht op data...</value>
   </data>
   <data name="NFCWaitPageTitle" xml:space="preserve">
-    <value>NFC Connection</value>
+    <value>NFC Connectie</value>
   </data>
   <data name="Nooit" xml:space="preserve">
-    <value>never</value>
+    <value>nooit</value>
   </data>
   <data name="planeenreis" xml:space="preserve">
-    <value>plan a trip</value>
+    <value>plan een reis</value>
   </data>
   <data name="planner" xml:space="preserve">
     <value>planner</value>
   </data>
   <data name="PlannerAankomst" xml:space="preserve">
-    <value>Arrival</value>
+    <value>Aankomst</value>
   </data>
   <data name="PlannerAankomstOption" xml:space="preserve">
-    <value>arrival</value>
+    <value>aankomst</value>
   </data>
   <data name="PlannerCard" xml:space="preserve">
-    <value>NS- or OV-yearcard</value>
+    <value>NS- of OV-Jaarkaart</value>
   </data>
   <data name="PlannerMijnStationsButton" xml:space="preserve">
-    <value>my stations</value>
+    <value>mijn stations</value>
   </data>
   <data name="PlannerSearchButton" xml:space="preserve">
-    <value>search</value>
+    <value>plan mijn reis</value>
   </data>
   <data name="PlannerToonHsl" xml:space="preserve">
-    <value>Show high speed trains</value>
+    <value>Toon hogesnelheidstreinen</value>
   </data>
   <data name="PlannerVertrek" xml:space="preserve">
-    <value>From</value>
+    <value>Vertrek</value>
   </data>
   <data name="PlannerVertrekOption" xml:space="preserve">
-    <value>departure</value>
+    <value>vertrek</value>
   </data>
   <data name="PlannerVia" xml:space="preserve">
     <value>Via</value>
   </data>
   <data name="prijs" xml:space="preserve">
-    <value>price</value>
+    <value>prijs</value>
   </data>
   <data name="PrijsEersteKlas" xml:space="preserve">
-    <value>first class</value>
+    <value>eerste klas</value>
   </data>
   <data name="PrijsEnkel" xml:space="preserve">
-    <value>one way</value>
+    <value>enkele reis</value>
   </data>
   <data name="PrijsError" xml:space="preserve">
-    <value>There was a problem getting price info. Please check your internet connection.</value>
+    <value>Er was een probleem met het ophalen van de prijzen. Mogelijk is er geen internet verbinding beschikbaar.</value>
   </data>
   <data name="PrijsGeenPrijs" xml:space="preserve">
-    <value>No price info available for this trip.</value>
+    <value>Geen prijsinformatie beschikbaar voor deze reis.</value>
   </data>
   <data name="PrijsLoading" xml:space="preserve">
-    <value>Updating price info...</value>
+    <value>Prijzen ophalen...</value>
   </data>
   <data name="PrijsRetour" xml:space="preserve">
-    <value>two way</value>
+    <value>retour</value>
   </data>
   <data name="PrijsTweedeKlas" xml:space="preserve">
-    <value>second class</value>
+    <value>tweede klas</value>
   </data>
   <data name="reisadvies" xml:space="preserve">
-    <value>trip overview</value>
+    <value>reisadvies</value>
   </data>
   <data name="ReisadviesAankomst" xml:space="preserve">
-    <value>arrival</value>
+    <value>aankomst</value>
   </data>
   <data name="ReisadviesDeleteHistory" xml:space="preserve">
-    <value>delete search history</value>
+    <value>verwijder zoekhistorie</value>
   </data>
   <data name="ReisadviesDoZoek" xml:space="preserve">
-    <value>Please plan a trip first.</value>
+    <value>Voer eerst een zoekopdracht uit met de reisplanner.</value>
   </data>
   <data name="ReisadviesEerder" xml:space="preserve">
-    <value>earlier</value>
+    <value>eerder</value>
   </data>
   <data name="ReisadviesEmailMenu" xml:space="preserve">
     <value>E-mail...</value>
   </data>
   <data name="ReisadviesError" xml:space="preserve">
-    <value>There was a problem planning this trip. Please check your internet connection.</value>
+    <value>Er was een probleem met het ophalen van dit reisadvies. Mogelijk is er geen internet verbinding beschikbaar.</value>
   </data>
   <data name="ReisadviesLater" xml:space="preserve">
     <value>later</value>
   </data>
   <data name="ReisadviesMijnStationsButton" xml:space="preserve">
-    <value>my stations</value>
+    <value>mijn stations</value>
   </data>
   <data name="ReisadviesNoHistory" xml:space="preserve">
-    <value>no search history</value>
+    <value>geen zoekgeschiedenis</value>
   </data>
   <data name="ReisadviesOverstap" xml:space="preserve">
-    <value>transfers</value>
+    <value>overstap</value>
   </data>
   <data name="ReisadviesReistijd" xml:space="preserve">
-    <value>time</value>
+    <value>reistijd</value>
   </data>
   <data name="ReisadviesRemindMe" xml:space="preserve">
-    <value>remind me</value>
+    <value>herinner mij</value>
   </data>
   <data name="ReisadviesRepeatButton" xml:space="preserve">
-    <value>repeat search</value>
+    <value>herhaal zoekopdracht</value>
   </data>
   <data name="ReisadviesTapShareButton" xml:space="preserve">
-    <value>tap to share</value>
+    <value>deel via NFC</value>
   </data>
   <data name="ReisadviesTerugreisButton" xml:space="preserve">
-    <value>return trip</value>
+    <value>terugreis</value>
   </data>
   <data name="ReisadviesVertraging" xml:space="preserve">
-    <value>warning: departure/arrival delay</value>
+    <value>let op: latere vertrek/aankomsttijd</value>
   </data>
   <data name="ReisadviesVertragingAankomst" xml:space="preserve">
-    <value>warning: arrival delay</value>
+    <value>let op: latere aankomsttijd</value>
   </data>
   <data name="ReisadviesVertragingVertrek" xml:space="preserve">
-    <value>warning: departure delay</value>
+    <value>let op: latere vertrektijd</value>
   </data>
   <data name="ReisadviesVertrek" xml:space="preserve">
-    <value>departure</value>
+    <value>vertrek</value>
   </data>
   <data name="reisplanner" xml:space="preserve">
-    <value>planner</value>
+    <value>reisplanner</value>
   </data>
   <data name="ReisplannerLoading" xml:space="preserve">
-    <value>Loading departure times...</value>
+    <value>Vertrektijden laden...</value>
+  </data>
+  <data name="ReleaseNotes" xml:space="preserve">
+    <value>Nieuw in 2.3.2
+- Station Maastricht Noord
+- Deel een geplande reis via e-mail
+
+Nieuw in 2.3.1
+- Drukte-indicator legenda
+- Kleine verbeteringen en bugfixes
+
+Nieuw in 2.3
+- Plan internationale reizen
+- Kleine verbeteringen en bugfixes
+
+Nieuw in 2.2.1
+- Snelheidsverbeteringen
+- Plaats een treinreis in je agenda
+- Planner scherm bugfixes
+
+Nieuw in 2.2
+- Ritinformatie van een trein. Klik bij de actuele vertrektijden op een trein en zie alle stations en aankomsttijden
+- Recent geplande treinreizen op het beginscherm
+
+Nieuw in 2.1.0.1
+- Station Hoevelaken
+- Bugfix
+
+Nieuw in 2.1
+- Deel je reis via NFC
+- Nieuwe stations dienstregeling 2013
+
+Nieuw in 2.0
+- Klaar voor Windows Phone 8
+- Hoge resolutie tiles
+- Station op de kaart tonen
+- Donaties mogelijk via In App Purchase
+
+Nieuw in 1.9
+- Release notes toegevoegd
+- Station Maarheeze toegevoegd
+- Favoriet knop bij vertrektijden van een station
+- Via station veld vervangen door checkbox bij planner
+- Nieuwe manier van stations kiezen
+- Ondersteuning voor stationsafkortingen bij zoeken naar een station
+- Vernieuwd reisadvies scherm
+
+Nieuw in 1.8
+- Layout uitlijning
+
+Nieuw in 1.7
+- Tombstoning support
+- ScheduledTask crash bij geen network fix
+
+Nieuw in 1.6
+- Nieuwe stations toegevoegd: Sassenheim, Westervoort, Hardinxveld Blauwe Zoom, Sliedrecht Baanhoek
+- Extra balk die toont of er vertrek/aankomst vertraging is bij geplande reis
+- Kleine bugfixes
+
+Nieuw in 1.5
+- Vertrek- en aankomstvertraging bij geplande reizen wordt getoond
+- Kleine bugfixes</value>
   </data>
   <data name="ReminderAdded" xml:space="preserve">
-    <value>The reminder is succesfully added.</value>
+    <value>De herinnering is succesvol toegevoegd.</value>
   </data>
   <data name="ReminderAppTitle" xml:space="preserve">
     <value>Treintijden</value>
   </data>
   <data name="ReminderButton" xml:space="preserve">
-    <value>add</value>
+    <value>toevoegen</value>
   </data>
   <data name="ReminderError" xml:space="preserve">
-    <value>It's not possible to add reminders in the past.</value>
+    <value>Het is niet mogelijk een herinnering in het verleden toe te voegen.</value>
   </data>
   <data name="ReminderIntro" xml:space="preserve">
-    <value>Remind me before the train leaves.</value>
+    <value>Herinner mij voordat de trein vertrekt.</value>
   </data>
   <data name="ReminderServiceFormat" xml:space="preserve">
-    <value>Your train to {0} leaves at {1} from station {2} from platform {3}.</value>
+    <value>Uw trein naar {0} vertrekt om {1} op station {2} van spoor {3}.</value>
   </data>
   <data name="ReminderUpcomming" xml:space="preserve">
-    <value>Upcomming reminders</value>
+    <value>Aankomende herinneringen</value>
   </data>
   <data name="RitInfoDruk" xml:space="preserve">
-    <value>busy</value>
+    <value>druk</value>
   </data>
   <data name="RitInfoError" xml:space="preserve">
-    <value>No data available.</value>
+    <value>Geen ritinformatie beschikbaar.</value>
   </data>
   <data name="RitInfoGemiddeld" xml:space="preserve">
-    <value>average</value>
+    <value>gemiddeld</value>
   </data>
   <data name="RitInfoLoading" xml:space="preserve">
-    <value>Loading train departure times...</value>
+    <value>Treintijden laden...</value>
   </data>
   <data name="RitInfoRustig" xml:space="preserve">
-    <value>quiet</value>
+    <value>rustig</value>
   </data>
   <data name="RitInfoViewModelRichting" xml:space="preserve">
-    <value>to</value>
+    <value>richting</value>
   </data>
   <data name="SettingsLanguageInput" xml:space="preserve">
-    <value>Language</value>
+    <value>Taal</value>
   </data>
   <data name="SettingsPrivacy" xml:space="preserve">
-    <value>The location data is only used to show stations near you. This can be disabled at any time in the settings menu. Your location data will not be sent to a central server and stays on your phone.</value>
+    <value>De locatie gegevens van de telefoon worden alleen gebruikt om automatisch stations bij u in de buurt te tonen. Dit kan uitgeschakeld worden in het instellingen menu.</value>
   </data>
   <data name="SettingsStationBuurt" xml:space="preserve">
-    <value>Show stations near me</value>
+    <value>Stations in de buurt tonen</value>
   </data>
   <data name="SettingsStoringen" xml:space="preserve">
-    <value>Show disruptions on live tile</value>
+    <value>Storingen tonen op live tile</value>
   </data>
   <data name="SettingsUseLocation" xml:space="preserve">
-    <value>Use location service</value>
+    <value>Locatie gebruiken</value>
   </data>
   <data name="SettingsZoeken" xml:space="preserve">
-    <value>Autofill from station</value>
+    <value>Vertrekstation invullen</value>
   </data>
   <data name="showonmap" xml:space="preserve">
-    <value>show on the map</value>
+    <value>toon op de kaart</value>
   </data>
   <data name="sluiten" xml:space="preserve">
-    <value>close</value>
+    <value>sluiten</value>
   </data>
   <data name="stationkeuze" xml:space="preserve">
-    <value>select station</value>
+    <value>stationkeuze</value>
   </data>
   <data name="stations" xml:space="preserve">
     <value>stations</value>
   </data>
   <data name="StationTijdenAddButton" xml:space="preserve">
-    <value>add to favorites</value>
+    <value>toevoegen aan favorieten</value>
   </data>
   <data name="StationTijdenDeleteButton" xml:space="preserve">
-    <value>delete station</value>
+    <value>verwijder station</value>
   </data>
   <data name="StationTijdenError" xml:space="preserve">
-    <value>There was a problem getting departure times. Please check your internet connection.</value>
+    <value>Er was een probleem met het ophalen van de vertrektijden. Mogelijk is er geen internet verbinding beschikbaar.</value>
   </data>
   <data name="StationTijdenLoading" xml:space="preserve">
-    <value>Loading departure times...</value>
+    <value>Vertrektijden laden...</value>
   </data>
   <data name="StationTijdenMapButton" xml:space="preserve">
-    <value>show on the map</value>
+    <value>toon op de kaart</value>
   </data>
   <data name="StationTijdenMijnStationsButton" xml:space="preserve">
-    <value>my stations</value>
+    <value>mijn stations</value>
   </data>
   <data name="StationTijdenPlanReisButton" xml:space="preserve">
-    <value>plan a trip</value>
+    <value>plan een reis</value>
   </data>
   <data name="storingen" xml:space="preserve">
-    <value>disruptions</value>
+    <value>storingen</value>
   </data>
   <data name="StoringenError" xml:space="preserve">
-    <value>There was a problem getting the disruptions. Please check your internet connection.</value>
+    <value>Er was een probleem met het ophalen van de storingen. Mogelijk is er geen internet verbinding beschikbaar.</value>
   </data>
   <data name="StoringenFormat" xml:space="preserve">
-    <value>{0} disruptions</value>
+    <value>{0} storingen</value>
   </data>
   <data name="StoringenGeen" xml:space="preserve">
-    <value>no disruptions</value>
+    <value>geen storingen</value>
   </data>
   <data name="StoringenGeenLong" xml:space="preserve">
-    <value>No current disruptions. Treintijden will automatically notify you when there are disruptions.</value>
+    <value>Op dit moment zijn er geen storingen bekend. Zodra er storingen zijn, zal Treintijden dit automatisch aangeven.</value>
   </data>
   <data name="StoringenLoading" xml:space="preserve">
-    <value>Loading disruptions...</value>
+    <value>Storingen laden...</value>
   </data>
   <data name="StoringenStoringenHeader" xml:space="preserve">
-    <value>disruptions</value>
+    <value>storingen</value>
   </data>
   <data name="StoringenWerkzaamhedenHeader" xml:space="preserve">
-    <value>maintenance</value>
+    <value>werkzaamheden</value>
   </data>
   <data name="StoringFormat" xml:space="preserve">
-    <value>{0} disruption</value>
+    <value>{0} storing</value>
   </data>
   <data name="TaskHelperOmschrijving" xml:space="preserve">
-    <value>Shows disruptions on tiles.</value>
+    <value>Toont het aantal storingen bij de vastgepinde tiles.</value>
   </data>
   <data name="terugreis" xml:space="preserve">
-    <value>switch</value>
+    <value>terugreis</value>
   </data>
   <data name="TileAdviesControlTitle" xml:space="preserve">
     <value>Treintijden</value>
@@ -490,31 +551,31 @@
     <value>Trein</value>
   </data>
   <data name="TileReisplanner" xml:space="preserve">
-    <value>Planner</value>
+    <value>Reisplanner</value>
   </data>
   <data name="TileStoringen" xml:space="preserve">
-    <value>Disruptions</value>
+    <value>Storingen</value>
   </data>
   <data name="toevoegen" xml:space="preserve">
-    <value>add</value>
+    <value>toevoegen</value>
   </data>
   <data name="Uit" xml:space="preserve">
-    <value>Off</value>
+    <value>Uit</value>
   </data>
   <data name="update" xml:space="preserve">
     <value>update</value>
   </data>
   <data name="vastpinnen" xml:space="preserve">
-    <value>pin</value>
+    <value>vastpinnen</value>
   </data>
   <data name="VerifyBluetooth" xml:space="preserve">
-    <value>Please ensure that Bluetooth is enabled.</value>
+    <value>Zorg dat Bluetooth aan staat.</value>
   </data>
   <data name="vertrektijden" xml:space="preserve">
-    <value>departures</value>
+    <value>vertrektijden</value>
   </data>
   <data name="verwijder" xml:space="preserve">
-    <value>delete</value>
+    <value>verwijder</value>
   </data>
   <data name="ViaStation" xml:space="preserve">
     <value>via station?</value>
