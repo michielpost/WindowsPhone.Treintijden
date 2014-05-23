@@ -138,7 +138,6 @@
       <Name>Treintijden.Shared.Services.Win8</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Page Include="Views\MainPage.xaml">
       <SubType>Designer</SubType>

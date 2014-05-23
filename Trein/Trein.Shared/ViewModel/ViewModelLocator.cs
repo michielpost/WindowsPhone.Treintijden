@@ -104,6 +104,7 @@ namespace Trein.ViewModel
 
             SimpleIoc.Default.Register<ILiveTileService, LiveTileService>();
             SimpleIoc.Default.Register<ISettingService, SettingService>();
+            SimpleIoc.Default.Register<INavigationService, NavigationService>();
 
 
             CreateMain();
