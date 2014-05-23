@@ -15,6 +15,9 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Treintijden.Shared.Services.Interfaces;
+using GalaSoft.MvvmLight.Ioc;
+using System.Threading.Tasks;
 
 // The Basic Page item template is documented at http://go.microsoft.com/fwlink/?LinkID=390556
 
@@ -23,11 +26,11 @@ namespace Trein.Views
   /// <summary>
   /// An empty page that can be used on its own or navigated to within a Frame.
   /// </summary>
-  public sealed partial class MainPage : Page
+  public sealed partial class AboutPage : Page
   {
     private NavigationHelper navigationHelper;
 
-    public MainPage()
+    public AboutPage()
     {
       this.InitializeComponent();
 
@@ -42,6 +45,33 @@ namespace Trein.Views
     public NavigationHelper NavigationHelper
     {
       get { return this.navigationHelper; }
+    }
+
+
+    private async Task LoadSettingsForReleaseNotes()
+    {
+      ISettingService settingService = SimpleIoc.Default.GetInstance<ISettingService>();
+      //if (settingService.GetCulture() != "nl-NL")
+        //ReleaseNotesPivot.Visibility = System.Windows.Visibility.Collapsed;
+    }
+
+
+    private void EmailButton_Click(object sender, RoutedEventArgs e)
+    {
+      //TODO
+      //EmailComposeTask emailComposeTask = new EmailComposeTask();
+
+      //emailComposeTask.Subject = "Treintijden WP v" + AppResources.AboutVersion.ToLower().Replace("treintijden", string.Empty).Trim();
+      //emailComposeTask.To = "michiel@michielpost.nl";
+      //emailComposeTask.Show();
+
+    }
+
+    private void ReviewButton_Click(object sender, RoutedEventArgs e)
+    {
+      //TODO
+      //MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
+      //marketplaceReviewTask.Show();
     }
 
 
@@ -98,5 +128,7 @@ namespace Trein.Views
     }
 
     #endregion
+
+  
   }
 }

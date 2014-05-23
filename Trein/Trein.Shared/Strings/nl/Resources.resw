@@ -132,10 +132,10 @@
   <data name="AboutReview" xml:space="preserve">
     <value>Maak je met veel plezier gebruik van Treintijden? Laat dan een review achter op de Marketplace.</value>
   </data>
-  <data name="AboutReviewButton" xml:space="preserve">
+  <data name="AboutReviewButton.Content" xml:space="preserve">
     <value>review</value>
   </data>
-  <data name="AboutVersion" xml:space="preserve">
+  <data name="AboutVersion.Text" xml:space="preserve">
     <value>Treintijden 2.3.2</value>
   </data>
   <data name="actueel" xml:space="preserve">

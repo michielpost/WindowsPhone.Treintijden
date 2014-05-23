@@ -20,18 +20,80 @@
 
 
 
-        <!--<SolidColorBrush x:Key="BackgroundColor" Color="White"></SolidColorBrush>
-        <SolidColorBrush x:Key="AlternateColor" Color="#6FA7BD"></SolidColorBrush>
-        <SolidColorBrush x:Key="SideBarBackgroundColor" Color="#3F89A7"></SolidColorBrush>
-        <SolidColorBrush x:Key="TextColor" Color="#333333"></SolidColorBrush>
+        <SolidColorBrush x:Key="BackgroundColor" Color="White"></SolidColorBrush>
+        <SolidColorBrush x:Key="AlternateColor" Color="#F2F2F7"></SolidColorBrush>
+        <SolidColorBrush x:Key="TextColor" Color="DarkBlue"></SolidColorBrush>
         <SolidColorBrush x:Key="ForegroundColor" Color="White"></SolidColorBrush>
         <SolidColorBrush x:Key="AlternateTextColor" Color="White"></SolidColorBrush>
         <SolidColorBrush x:Key="NotFilled" Color="Gray"></SolidColorBrush>
-        <SolidColorBrush x:Key="ControlBackgroundColor" Color="White"></SolidColorBrush>
+        <SolidColorBrush x:Key="ControlBackgroundColor" Color="LightBlue"></SolidColorBrush>
         <SolidColorBrush x:Key="GrayColor" Color="LightGray"></SolidColorBrush>
-        <SolidColorBrush x:Key="AppBarColor" Color="#395E6D"></SolidColorBrush>-->
 
 
+        <Style TargetType="TextBlock" BasedOn="{StaticResource BodyTextBlockStyle}" x:Key="PhoneTextNormalStyleCustom">
+            <Setter Property="Foreground" Value="{StaticResource TextColor}">
+            </Setter>
+        </Style>
+
+        <Style TargetType="TextBlock" BasedOn="{StaticResource HeaderTextBlockStyle}" x:Key="PhoneTextTitle1StyleCustom">
+            <Setter Property="Foreground" Value="{StaticResource TextColor}">
+            </Setter>
+        </Style>
+
+        <Style TargetType="TextBlock" BasedOn="{StaticResource SubheaderTextBlockStyle}" x:Key="PhoneTextLargeStyleCustom">
+            <Setter Property="Foreground" Value="{StaticResource TextColor}">
+            </Setter>
+        </Style>
+
+
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="{StaticResource BackgroundColor}"></Setter>
+            <Setter Property="Foreground" Value="{StaticResource TextColor}"></Setter>
+            <Setter Property="BorderBrush" Value="{StaticResource TextColor}"></Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid Background="Transparent">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="MouseOver"/>
+                                    <VisualState x:Name="Pressed">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentContainer">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource BackgroundColor}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="BorderBrush" Storyboard.TargetName="ButtonBackground">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource TextColor}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="ButtonBackground">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource TextColor}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentContainer">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource BackgroundColor}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="BorderBrush" Storyboard.TargetName="ButtonBackground">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Gray"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="ButtonBackground">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="LightGray"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <Border x:Name="ButtonBackground" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="0" Margin="{StaticResource PhoneTouchTargetOverhang}" Background="{TemplateBinding Background}">
+                                <ContentControl x:Name="ContentContainer" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" Foreground="{TemplateBinding Foreground}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Padding="{TemplateBinding Padding}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                            </Border>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
 
 
     </Application.Resources>
