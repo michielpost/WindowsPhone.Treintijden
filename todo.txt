@@ -1,4 +1,15 @@
 
+Quick fixes voor Win8 versie:
+- Geannuleerde trein beetje doorzichtig maken in vertrektijden overzicht
+- Gennuleerde trein niet tonen bij reisplanning of heel duidelijk tonen dat hij geannuleerd is
+
+Wat mij zinnig lijkt is het volgende:
+ - als resultaat van routeplanner is een route met een geannuleerde trein nooit de eerste die getoond wordt
+ - als je met eerder/later gaat bladeren, dan zie je hem wel, maar dan met een duidelijke "Let op" erbij over het feit dat er iets geannuleerd is.
+
+--------
+
+
 Omzetten naar Universal App
 
 Treintijden app geofencing voor tile, station in de buurt op de tile tonen
