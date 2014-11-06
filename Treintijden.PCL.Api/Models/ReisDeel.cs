@@ -114,6 +114,18 @@ namespace Treintijden.PCL.Api.Models
            
         }
 
+        public bool IsCancelled
+        {
+          get
+          {
+            if (!string.IsNullOrEmpty(this.Status) && Status.ToUpper() == "GEANNULEERD")
+              return true;
+
+            return false;
+          }
+
+        }
+
         private bool _isExpanded;
 
         [XmlIgnore]

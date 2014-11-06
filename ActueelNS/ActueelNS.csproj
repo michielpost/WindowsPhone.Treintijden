@@ -160,6 +160,7 @@
     <Compile Include="Converters\GroupToForegroundBrushValueConverter.cs" />
     <Compile Include="Converters\InverseVisibilityConverter.cs" />
     <Compile Include="Converters\BoolToSwitchConverter.cs" />
+    <Compile Include="Converters\ConditionalValueConverter.cs" />
     <Compile Include="Converters\VisibilityConverter.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>

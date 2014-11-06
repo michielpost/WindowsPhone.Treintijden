@@ -63,6 +63,18 @@ namespace Treintijden.PCL.Api.Models
 
         public bool IsAlternate { get; set; }
 
+        public bool IsCancelled
+        {
+          get
+          {
+            if (!string.IsNullOrEmpty(this.Opmerkingen) && Opmerkingen.Trim().ToLower() == "rijdt vandaag niet")
+              return true;
+
+            return false;
+          }
+
+        }
+
 
         public string RegelTwee
         {

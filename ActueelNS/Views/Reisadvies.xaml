@@ -41,6 +41,7 @@
 
         <converters:VisibilityConverter x:Key="VisibilityConverter" />
         <converters:AlternateColorConverter x:Key="AlternateColorConverter" />
+        <converters:ConditionalValueConverter x:Key="ConditionalValueConverter" />
 
         <Storyboard x:Name="ShowStep1Header" Duration="0:0:0.5">
 
@@ -528,6 +529,7 @@
                 </ListBox>
             </Grid>
 
+            <!--Reisadvies-->
             <Grid x:Name="AdviesContentPanel"
                   Grid.Row="2"
                   Margin="0,6,0,0">
@@ -558,7 +560,8 @@
                             <Grid x:Name="RootItem"
                                               Width="480"
                                 Background="{Binding IsAlternate, Converter={StaticResource AlternateColorConverter}}"
-                                Margin="0,0,0,0">
+                               Opacity="{Binding IsCancelled, Converter={StaticResource ConditionalValueConverter}, ConverterParameter=0.6|1}"
+                                  Margin="0,0,0,0">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="72" />
                                     <ColumnDefinition Width="*" />

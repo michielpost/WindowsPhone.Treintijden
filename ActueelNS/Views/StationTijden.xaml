@@ -35,6 +35,7 @@
         <converters:VisibilityConverter x:Key="VisibilityConverter" />
         <converters:InverseVisibilityConverter x:Key="InverseVisibilityConverter" />
         <converters:AlternateColorConverter x:Key="AlternateColorConverter" />
+        <converters:ConditionalValueConverter x:Key="ConditionalValueConverter" />
 
         <Storyboard x:Name="StoringenVisible">
             <DoubleAnimation Duration="0:0:0.5"
@@ -87,6 +88,7 @@
                     <DataTemplate>
                         <Grid x:Name="RootItem"
                               Margin="0,0,0,5"
+                              Opacity="{Binding IsCancelled, Converter={StaticResource ConditionalValueConverter}, ConverterParameter=0.6|1}"
                               Background="{Binding IsAlternate,Converter={StaticResource AlternateColorConverter}}">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="72" />
