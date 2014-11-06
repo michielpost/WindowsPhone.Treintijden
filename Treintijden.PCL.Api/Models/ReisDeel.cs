@@ -10,6 +10,10 @@ namespace Treintijden.PCL.Api.Models
     {
         public string Vervoerder { get; set; }
         public string VervoerType { get; set; }
+
+      /// <summary>
+        /// VOLGENS-PLAN, GEANNULEERD (=vervallen trein), GEWIJZIGD (=planaanpassing in de bijsturing op de dag zelf), OVERSTAP-NIET-MOGELIJK, VERTRAAGD, NIEUW (=extra trein).
+      /// </summary>
         public string Status { get; set; }
         public bool IsAankomst { get; set; }
 

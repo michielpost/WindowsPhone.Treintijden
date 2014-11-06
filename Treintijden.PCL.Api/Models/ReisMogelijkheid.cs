@@ -10,7 +10,11 @@ namespace Treintijden.PCL.Api.Models
     {
         public int AantalOverstappen { get; set; }
         public string GeplandeReisTijd { get; set; }
+      /// <summary>
+        /// VOLGENS-PLAN, GEWIJZIGD, VERTRAAGD, NIEUW, NIET-OPTIMAAL, NIET-MOGELIJK, PLAN-GEWIJZIGD
+      /// </summary>
         public string Status { get; set; }
+        public string Melding { get; set; }
 
         public bool Optimaal { get; set; }
 
@@ -289,6 +293,7 @@ namespace Treintijden.PCL.Api.Models
             return sb.ToString();
         }
 
-       
+
+
     }
 }

@@ -178,80 +178,86 @@ namespace ActueelNS.Views
             }
             else if (e.PropertyName == "SelectedReisMogelijkheid")
             {
-                if (_vm.SelectedReisMogelijkheid == null)
+              if (_vm.SelectedReisMogelijkheid == null)
+              {
+                VertragingPanel.Visibility = System.Windows.Visibility.Collapsed;
+
+                if (Step2InfoPanel.Visibility == System.Windows.Visibility.Visible)
                 {
-                    VertragingPanel.Visibility = System.Windows.Visibility.Collapsed;
+                  HideStep2Header.Begin();
+                  HideButtons.Begin();
+                  HideFinalList.Begin();
 
-                    if (Step2InfoPanel.Visibility == System.Windows.Visibility.Visible)
-                    {
-                        HideStep2Header.Begin();
-                        HideButtons.Begin();
-                        HideFinalList.Begin();
+                }
 
-                    }
-
-                    //Show all mogelijkheden
-                    if (_vm.SelectedSearch != null)
-                    {
-                        if (MogelijkhedenPanel.Visibility == System.Windows.Visibility.Collapsed)
-                            ShowStep1List.Begin();
-                       
-                    }
-                    else
-                    {
-                        if (MogelijkhedenPanel.Visibility == System.Windows.Visibility.Visible)
-                            HideStep1List.Begin();
-                    }
-
-                    (ApplicationBar.MenuItems[AddCalendarMenuIndex] as ApplicationBarMenuItem).IsEnabled = false; //Reminder
-                    (ApplicationBar.MenuItems[EmailMenuIndex] as ApplicationBarMenuItem).IsEnabled = false; //Share
+                //Show all mogelijkheden
+                if (_vm.SelectedSearch != null)
+                {
+                  if (MogelijkhedenPanel.Visibility == System.Windows.Visibility.Collapsed)
+                    ShowStep1List.Begin();
 
                 }
                 else
                 {
-                    if (MogelijkhedenPanel.Visibility == System.Windows.Visibility.Visible)
-                        HideStep1List.Begin();
+                  if (MogelijkhedenPanel.Visibility == System.Windows.Visibility.Visible)
+                    HideStep1List.Begin();
+                }
 
-                    if (Step2InfoPanel.Visibility == System.Windows.Visibility.Collapsed)
-                    {
-                        ShowStep2Header.Begin();
-                        ShowButtons.Begin();
-                        ShowFinalList.Begin();
-                    }
+                (ApplicationBar.MenuItems[AddCalendarMenuIndex] as ApplicationBarMenuItem).IsEnabled = false; //Reminder
+                (ApplicationBar.MenuItems[EmailMenuIndex] as ApplicationBarMenuItem).IsEnabled = false; //Share
 
-                    (ApplicationBar.MenuItems[AddCalendarMenuIndex] as ApplicationBarMenuItem).IsEnabled = true; //Reminder
-                    (ApplicationBar.MenuItems[EmailMenuIndex] as ApplicationBarMenuItem).IsEnabled = true; //Reminder
+              }
+              else
+              {
+                if (MogelijkhedenPanel.Visibility == System.Windows.Visibility.Visible)
+                  HideStep1List.Begin();
 
-                    if (!string.IsNullOrEmpty(_vm.SelectedReisMogelijkheid.VertrekVertraging)
-                        || !string.IsNullOrEmpty(_vm.SelectedReisMogelijkheid.AankomstVertraging))
-                    {
-                        VertragingPanel.Visibility = System.Windows.Visibility.Visible;
+                if (Step2InfoPanel.Visibility == System.Windows.Visibility.Collapsed)
+                {
+                  ShowStep2Header.Begin();
+                  ShowButtons.Begin();
+                  ShowFinalList.Begin();
+                }
 
-                        if (!string.IsNullOrEmpty(_vm.SelectedReisMogelijkheid.VertrekVertraging)
-                        && !string.IsNullOrEmpty(_vm.SelectedReisMogelijkheid.AankomstVertraging))
-                        {
-                            //Allebei
-                            VertragingTextBlock.Text = AppResources.ReisadviesVertraging;
+                (ApplicationBar.MenuItems[AddCalendarMenuIndex] as ApplicationBarMenuItem).IsEnabled = true; //Reminder
+                (ApplicationBar.MenuItems[EmailMenuIndex] as ApplicationBarMenuItem).IsEnabled = true; //Reminder
 
-                        }
-                        else if (!string.IsNullOrEmpty(_vm.SelectedReisMogelijkheid.VertrekVertraging))
-                        {
-                            //Vertrek
-                            VertragingTextBlock.Text = AppResources.ReisadviesVertragingVertrek;
-
-                        }
-                        else if (!string.IsNullOrEmpty(_vm.SelectedReisMogelijkheid.AankomstVertraging))
-                        {
-                            //Aankomst
-                            VertragingTextBlock.Text = AppResources.ReisadviesVertragingAankomst;
-                        }
-                    }
-                    else
-                    {
-                        VertragingPanel.Visibility = System.Windows.Visibility.Collapsed;
-                    }
+                if (!string.IsNullOrEmpty(_vm.SelectedReisMogelijkheid.Melding))
+                {
+                  VertragingPanel.Visibility = System.Windows.Visibility.Visible;
+                  VertragingTextBlock.Text = _vm.SelectedReisMogelijkheid.Melding;
 
                 }
+                else if (!string.IsNullOrEmpty(_vm.SelectedReisMogelijkheid.VertrekVertraging)
+                      || !string.IsNullOrEmpty(_vm.SelectedReisMogelijkheid.AankomstVertraging))
+                {
+                  VertragingPanel.Visibility = System.Windows.Visibility.Visible;
+
+                  if (!string.IsNullOrEmpty(_vm.SelectedReisMogelijkheid.VertrekVertraging)
+                  && !string.IsNullOrEmpty(_vm.SelectedReisMogelijkheid.AankomstVertraging))
+                  {
+                    //Allebei
+                    VertragingTextBlock.Text = AppResources.ReisadviesVertraging;
+
+                  }
+                  else if (!string.IsNullOrEmpty(_vm.SelectedReisMogelijkheid.VertrekVertraging))
+                  {
+                    //Vertrek
+                    VertragingTextBlock.Text = AppResources.ReisadviesVertragingVertrek;
+
+                  }
+                  else if (!string.IsNullOrEmpty(_vm.SelectedReisMogelijkheid.AankomstVertraging))
+                  {
+                    //Aankomst
+                    VertragingTextBlock.Text = AppResources.ReisadviesVertragingAankomst;
+                  }
+                }
+                else
+                {
+                  VertragingPanel.Visibility = System.Windows.Visibility.Collapsed;
+                }
+
+              }
 
                 if (_vm.CanPin())
                 {

@@ -65,6 +65,9 @@ namespace Treintijden.PCL.Api
                     if (element.Element("Optimaal") != null)
                         mogelijkheid.Optimaal = bool.Parse(element.Element("Optimaal").Value);
 
+                    if (element.Element("Melding") != null)
+                      mogelijkheid.Melding = XmlHelper.GetElementText(element.Element("Melding").Element("Text"));
+
                     mogelijkheid.ReisDelen = new List<ReisDeel>();
 
                     bool isAlternate = false;
