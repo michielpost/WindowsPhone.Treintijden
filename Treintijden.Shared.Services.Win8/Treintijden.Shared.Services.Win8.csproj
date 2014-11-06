@@ -175,10 +175,10 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.6.0.2\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.6\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Q42.WinRT">
-      <HintPath>..\packages\Q42.WinRT.1.2.4.42\lib\portable-win81+wpa81\Q42.WinRT.dll</HintPath>
+      <HintPath>..\packages\Q42.WinRT.1.2.5.42\lib\portable-win81+wpa81\Q42.WinRT.dll</HintPath>
     </Reference>
     <Reference Include="Q42.WinRT.Portable">
       <HintPath>..\packages\Q42.WinRT.Portable.1.2.3.42\lib\portable-net45+win+wpa81+wp80\Q42.WinRT.Portable.dll</HintPath>

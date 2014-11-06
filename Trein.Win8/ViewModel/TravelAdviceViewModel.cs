@@ -8,7 +8,6 @@ using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Messaging;
 using Windows.UI.Xaml.Media;
 using GalaSoft.MvvmLight.Command;
-using Microsoft.Practices.ServiceLocation;
 using GalaSoft.MvvmLight.Ioc;
 using Treintijden.PCL.Api.Models;
 using Treintijden.Shared.Services.Interfaces;
