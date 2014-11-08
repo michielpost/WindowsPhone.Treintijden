@@ -34,8 +34,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400320</UICCode>
-		<Lat>51.700554</Lat>
-		<Lon>5.318333</Lon>
+		<Lat>51.700553894043</Lat>
+		<Lon>5.3183331489563</Lon>
 		<Synoniemen>
 			
 			<Synoniem>Hertogenbosch Oost ('s)</Synoniem>
@@ -55,7 +55,7 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400388</UICCode>
-		<Lat>52.40917</Lat>
+		<Lat>52.4091682</Lat>
 		<Lon>5.893611</Lon>
 		<Synoniemen>
 			
@@ -91,8 +91,8 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8015342</UICCode>
-		<Lat>50.770176</Lat>
-		<Lon>6.1164665</Lon>
+		<Lat>50.7701764828895</Lat>
+		<Lon>6.11646652221679</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -108,8 +108,8 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8031372</UICCode>
-		<Lat>50.76987</Lat>
-		<Lon>6.07383</Lon>
+		<Lat>50.769871144942</Lat>
+		<Lon>6.07383012771606</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -142,8 +142,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400045</UICCode>
-		<Lat>51.921326</Lat>
-		<Lon>6.578627</Lon>
+		<Lat>51.9213265245505</Lat>
+		<Lon>6.57862722873687</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -176,8 +176,8 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8021123</UICCode>
-		<Lat>52.079796</Lat>
-		<Lon>7.0163584</Lon>
+		<Lat>52.079796120944</Lat>
+		<Lon>7.01635837554931</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -210,8 +210,8 @@
 		</Namen>
 		<Land>F</Land>
 		<UICCode>8731901</UICCode>
-		<Lat>43.52282</Lat>
-		<Lon>5.4453135</Lon>
+		<Lat>43.5228190773429</Lat>
+		<Lon>5.44531345367431</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -227,8 +227,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400049</UICCode>
-		<Lat>53.04639</Lat>
-		<Lon>5.8436112</Lon>
+		<Lat>53.0463905334473</Lat>
+		<Lon>5.84361124038696</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -278,8 +278,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400050</UICCode>
-		<Lat>52.63778</Lat>
-		<Lon>4.7397223</Lon>
+		<Lat>52.6377792358398</Lat>
+		<Lon>4.73972225189209</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -295,8 +295,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400052</UICCode>
-		<Lat>52.64389</Lat>
-		<Lon>4.764167</Lon>
+		<Lat>52.6438903808594</Lat>
+		<Lon>4.76416683197022</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -312,8 +312,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400051</UICCode>
-		<Lat>52.358055</Lat>
-		<Lon>6.6538887</Lon>
+		<Lat>52.3580551147461</Lat>
+		<Lon>6.65388870239258</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -329,8 +329,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400520</UICCode>
-		<Lat>52.341946</Lat>
-		<Lon>6.6666665</Lon>
+		<Lat>52.3419456481934</Lat>
+		<Lon>6.66666650772095</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -346,8 +346,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400081</UICCode>
-		<Lat>52.394165</Lat>
-		<Lon>5.2780557</Lon>
+		<Lat>52.3941650390625</Lat>
+		<Lon>5.2780556678772</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -382,8 +382,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400082</UICCode>
-		<Lat>52.3675</Lat>
-		<Lon>5.1902776</Lon>
+		<Lat>52.3675003051758</Lat>
+		<Lon>5.19027757644653</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -399,8 +399,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400226</UICCode>
-		<Lat>52.40333</Lat>
-		<Lon>5.3005557</Lon>
+		<Lat>52.4033317565918</Lat>
+		<Lon>5.30055570602417</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -411,13 +411,13 @@
 		<Type>stoptreinstation</Type>
 		<Namen>		
 		  <Kort>Parkwijk</Kort>
-		  <Middel>Parkwijk</Middel>
+		  <Middel>Almere Parkwijk</Middel>
 		  <Lang>Almere Parkwijk</Lang>
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400104</UICCode>
-		<Lat>52.376667</Lat>
-		<Lon>5.2447224</Lon>
+		<Lat>52.3766670227051</Lat>
+		<Lon>5.24472236633301</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -428,12 +428,12 @@
 		<Type>stoptreinstation</Type>
 		<Namen>		
 		  <Kort>Almere P</Kort>
-		  <Middel>Poort</Middel>
+		  <Middel>Almere Poort</Middel>
 		  <Lang>Almere Poort</Lang>
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400450</UICCode>
-		<Lat>52.342777</Lat>
+		<Lat>52.342778</Lat>
 		<Lon>5.151944</Lon>
 		<Synoniemen>
 			
@@ -450,8 +450,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400053</UICCode>
-		<Lat>52.124443</Lat>
-		<Lon>4.657778</Lon>
+		<Lat>52.1244430541992</Lat>
+		<Lon>4.65777778625488</Lon>
 		<Synoniemen>
 			
 			<Synoniem>Alphen aan den Rijn</Synoniem>
@@ -486,8 +486,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400055</UICCode>
-		<Lat>52.15389</Lat>
-		<Lon>5.3705554</Lon>
+		<Lat>52.1538887023926</Lat>
+		<Lon>5.37055540084839</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -503,8 +503,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400054</UICCode>
-		<Lat>52.174824</Lat>
-		<Lon>5.4038887</Lon>
+		<Lat>52.1748221374512</Lat>
+		<Lon>5.40388870239258</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -520,8 +520,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400228</UICCode>
-		<Lat>52.19278</Lat>
-		<Lon>5.433889</Lon>
+		<Lat>52.1927795410156</Lat>
+		<Lon>5.43388891220093</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -532,13 +532,13 @@
 		<Type>intercitystation</Type>
 		<Namen>		
 		  <Kort>Amstel</Kort>
-		  <Middel>Amstel</Middel>
+		  <Middel>Amsterdam Amstel</Middel>
 		  <Lang>Amsterdam Amstel</Lang>
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400057</UICCode>
-		<Lat>52.34667</Lat>
-		<Lon>4.917778</Lon>
+		<Lat>52.3466682434082</Lat>
+		<Lon>4.91777801513672</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -554,8 +554,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400074</UICCode>
-		<Lat>52.31222</Lat>
-		<Lon>4.946944</Lon>
+		<Lat>52.3122215270996</Lat>
+		<Lon>4.94694423675537</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -571,8 +571,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400058</UICCode>
-		<Lat>52.378887</Lat>
-		<Lon>4.9002776</Lon>
+		<Lat>52.3788871765137</Lat>
+		<Lon>4.90027761459351</Lon>
 		<Synoniemen>
 			
 			<Synoniem>Amsterdam</Synoniem>
@@ -607,8 +607,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400079</UICCode>
-		<Lat>52.357777</Lat>
-		<Lon>4.833889</Lon>
+		<Lat>52.3577766418457</Lat>
+		<Lon>4.83388900756836</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -624,8 +624,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400060</UICCode>
-		<Lat>52.360554</Lat>
-		<Lon>4.9311113</Lon>
+		<Lat>52.3605537414551</Lat>
+		<Lon>4.93111133575439</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -636,13 +636,13 @@
 		<Type>stoptreinstation</Type>
 		<Namen>		
 		  <Kort>A'dam RAI</Kort>
-		  <Middel>RAI</Middel>
+		  <Middel>Amsterdam RAI</Middel>
 		  <Lang>Amsterdam RAI</Lang>
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400056</UICCode>
-		<Lat>52.337223</Lat>
-		<Lon>4.890278</Lon>
+		<Lat>52.3372230529785</Lat>
+		<Lon>4.89027786254883</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -675,8 +675,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400059</UICCode>
-		<Lat>52.38889</Lat>
-		<Lon>4.8377776</Lon>
+		<Lat>52.3888893127441</Lat>
+		<Lon>4.83777761459351</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -692,7 +692,7 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400078</UICCode>
-		<Lat>52.330135</Lat>
+		<Lat>52.330134</Lat>
 		<Lon>4.92975</Lon>
 		<Synoniemen>
 			
@@ -709,8 +709,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400061</UICCode>
-		<Lat>52.33889</Lat>
-		<Lon>4.8716664</Lon>
+		<Lat>52.3388900756836</Lat>
+		<Lon>4.871666431427</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -726,8 +726,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400065</UICCode>
-		<Lat>52.86722</Lat>
-		<Lon>4.811111</Lon>
+		<Lat>52.8672218322754</Lat>
+		<Lon>4.81111097335815</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -743,8 +743,8 @@
 		</Namen>
 		<Land>B</Land>
 		<UICCode>8821121</UICCode>
-		<Lat>51.20018</Lat>
-		<Lon>4.4327703</Lon>
+		<Lat>51.2001783</Lat>
+		<Lon>4.4327702</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -777,8 +777,8 @@
 		</Namen>
 		<Land>B</Land>
 		<UICCode>8821063</UICCode>
-		<Lat>51.244938</Lat>
-		<Lon>4.425154</Lon>
+		<Lat>51.2449375</Lat>
+		<Lon>4.4251543</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -794,8 +794,8 @@
 		</Namen>
 		<Land>B</Land>
 		<UICCode>8821089</UICCode>
-		<Lat>51.261684</Lat>
-		<Lon>4.4274316</Lon>
+		<Lat>51.261686</Lat>
+		<Lon>4.4274315</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -828,8 +828,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400066</UICCode>
-		<Lat>52.209167</Lat>
-		<Lon>5.970278</Lon>
+		<Lat>52.2091674804687</Lat>
+		<Lon>5.97027778625488</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -845,8 +845,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400233</UICCode>
-		<Lat>52.205276</Lat>
-		<Lon>6.0005555</Lon>
+		<Lat>52.2052764892578</Lat>
+		<Lon>6.00055551528931</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -862,8 +862,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400229</UICCode>
-		<Lat>52.21528</Lat>
-		<Lon>6.0044446</Lon>
+		<Lat>52.2152786254883</Lat>
+		<Lon>6.00444459915161</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -879,8 +879,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400067</UICCode>
-		<Lat>53.325813</Lat>
-		<Lon>6.8619576</Lon>
+		<Lat>53.3258135</Lat>
+		<Lon>6.8619577</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -896,8 +896,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400068</UICCode>
-		<Lat>51.871944</Lat>
-		<Lon>4.992778</Lon>
+		<Lat>51.8719444274902</Lat>
+		<Lon>4.99277782440186</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -913,8 +913,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400069</UICCode>
-		<Lat>51.501667</Lat>
-		<Lon>3.6691666</Lon>
+		<Lat>51.5016670227051</Lat>
+		<Lon>3.66916656494141</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -930,8 +930,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400071</UICCode>
-		<Lat>51.985</Lat>
-		<Lon>5.8991666</Lon>
+		<Lat>51.9850006103516</Lat>
+		<Lon>5.89916658401489</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -947,8 +947,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400075</UICCode>
-		<Lat>51.988056</Lat>
-		<Lon>5.9438887</Lon>
+		<Lat>51.9880561828613</Lat>
+		<Lon>5.94388866424561</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -964,8 +964,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400072</UICCode>
-		<Lat>51.98528</Lat>
-		<Lon>5.9194446</Lon>
+		<Lat>51.985279083252</Lat>
+		<Lon>5.91944456100464</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -981,8 +981,25 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400227</UICCode>
-		<Lat>51.955</Lat>
-		<Lon>5.8519444</Lon>
+		<Lat>51.9550018310547</Lat>
+		<Lon>5.85194444656372</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>ASHFD</Code>
+		<Type>intercitystation</Type>
+		<Namen>		
+		  <Kort>AshfordINT</Kort>
+		  <Middel>Ashford Internat</Middel>
+		  <Lang>Ashford International</Lang>
+		</Namen>
+		<Land>GB</Land>
+		<UICCode>7054660</UICCode>
+		<Lat>51.14371</Lat>
+		<Lon>0.87612</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -998,8 +1015,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400073</UICCode>
-		<Lat>52.991665</Lat>
-		<Lon>6.570833</Lon>
+		<Lat>52.9916648864746</Lat>
+		<Lon>6.57083320617676</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -1015,8 +1032,8 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8002071</UICCode>
-		<Lat>48.36543</Lat>
-		<Lon>10.885477</Lon>
+		<Lat>48.3654307143927</Lat>
+		<Lon>10.88547706604</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -1049,8 +1066,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400086</UICCode>
-		<Lat>52.208332</Lat>
-		<Lon>5.2808332</Lon>
+		<Lat>52.2083320617676</Lat>
+		<Lon>5.28083324432373</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -1066,8 +1083,8 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8021156</UICCode>
-		<Lat>52.309685</Lat>
-		<Lon>7.158537</Lon>
+		<Lat>52.309685595156</Lat>
+		<Lon>7.15853691101074</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -1102,7 +1119,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8013585</UICCode>
-		<Lat>52.20546</Lat>
+		<Lat>52.205461</Lat>
 		<Lon>8.796932</Lon>
 		<Synoniemen>
 			
@@ -1153,7 +1170,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8014277</UICCode>
-		<Lat>48.79008</Lat>
+		<Lat>48.790082</Lat>
 		<Lon>8.190468</Lon>
 		<Synoniemen>
 			
@@ -1170,8 +1187,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400089</UICCode>
-		<Lat>53.360897</Lat>
-		<Lon>6.518558</Lon>
+		<Lat>53.3608969</Lat>
+		<Lon>6.5185581</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -1187,8 +1204,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400090</UICCode>
-		<Lat>51.85472</Lat>
-		<Lon>4.5533333</Lon>
+		<Lat>51.8547210693359</Lat>
+		<Lon>4.5533332824707</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -1204,8 +1221,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400091</UICCode>
-		<Lat>52.14</Lat>
-		<Lon>5.5902777</Lon>
+		<Lat>52.1399993896484</Lat>
+		<Lon>5.59027767181396</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -1221,8 +1238,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400092</UICCode>
-		<Lat>52.16139</Lat>
-		<Lon>5.5980554</Lon>
+		<Lat>52.1613883972168</Lat>
+		<Lon>5.59805536270142</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -1272,7 +1289,7 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400094</UICCode>
-		<Lat>53.306885</Lat>
+		<Lat>53.3068857</Lat>
 		<Lon>6.593054</Lon>
 		<Synoniemen>
 			
@@ -1289,8 +1306,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400096</UICCode>
-		<Lat>50.9475</Lat>
-		<Lon>5.786667</Lon>
+		<Lat>50.9474983215332</Lat>
+		<Lon>5.78666687011719</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -1306,8 +1323,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400097</UICCode>
-		<Lat>51.899445</Lat>
-		<Lon>5.1944447</Lon>
+		<Lat>51.8994445800781</Lat>
+		<Lon>5.19444465637207</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -1323,8 +1340,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400100</UICCode>
-		<Lat>52.85472</Lat>
-		<Lon>6.521111</Lon>
+		<Lat>52.8547210693359</Lat>
+		<Lon>6.52111101150513</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -1340,8 +1357,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400108</UICCode>
-		<Lat>51.49389</Lat>
-		<Lon>4.296111</Lon>
+		<Lat>51.4938888549805</Lat>
+		<Lon>4.29611110687256</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -1376,15 +1393,15 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8007817</UICCode>
-		<Lat>52.510498</Lat>
-		<Lon>13.434699</Lon>
+		<Lat>52.5104989</Lat>
+		<Lon>13.4346995</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
 	</Station>
 
 	<Station>
-		<Code>BERSUD</Code>
+		<Code>BPAF</Code>
 		<Type>intercitystation</Type>
 		<Namen>		
 		  <Kort>Berlin Süd</Kort>
@@ -1392,9 +1409,9 @@
 		  <Lang>Berlin Südkreuz</Lang>
 		</Namen>
 		<Land>D</Land>
-		<UICCode>8065971</UICCode>
-		<Lat>52.475</Lat>
-		<Lon>13.364721</Lon>
+		<UICCode>8011113</UICCode>
+		<Lat>52.47611</Lat>
+		<Lon>13.365</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -1427,8 +1444,25 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8003025</UICCode>
-		<Lat>52.534317</Lat>
-		<Lon>13.198947</Lon>
+		<Lat>52.5343152</Lat>
+		<Lon>13.1989467</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>BERSUD</Code>
+		<Type>intercitystation</Type>
+		<Namen>		
+		  <Kort>Berlin-Süd</Kort>
+		  <Middel>Berlin-Südkreuz</Middel>
+		  <Lang>Berlin-Südkreuz</Lang>
+		</Namen>
+		<Land>D</Land>
+		<UICCode>8065971</UICCode>
+		<Lat>52.475</Lat>
+		<Lon>13.364721</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -1444,8 +1478,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400112</UICCode>
-		<Lat>51.51</Lat>
-		<Lon>5.389167</Lon>
+		<Lat>51.5099983215332</Lat>
+		<Lon>5.38916683197022</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -1461,8 +1495,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400113</UICCode>
-		<Lat>52.478333</Lat>
-		<Lon>4.6566668</Lon>
+		<Lat>52.4783325195313</Lat>
+		<Lon>4.65666675567627</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -1478,7 +1512,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8000036</UICCode>
-		<Lat>52.029263</Lat>
+		<Lat>52.029261</Lat>
 		<Lon>8.532722</Lon>
 		<Synoniemen>
 			
@@ -1495,8 +1529,25 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400114</UICCode>
-		<Lat>52.13</Lat>
-		<Lon>5.203889</Lon>
+		<Lat>52.1300010681152</Lat>
+		<Lon>5.20388889312744</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>FIE</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Bilzen</Kort>
+		  <Middel>Bilzen</Middel>
+		  <Lang>Bilzen</Lang>
+		</Namen>
+		<Land>B</Land>
+		<UICCode>8831138</UICCode>
+		<Lat>50.868333</Lat>
+		<Lon>5.509167</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -1529,8 +1580,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400117</UICCode>
-		<Lat>51.3725</Lat>
-		<Lon>6.155</Lon>
+		<Lat>51.372501373291</Lat>
+		<Lon>6.15500020980835</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -1546,8 +1597,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400118</UICCode>
-		<Lat>52.404167</Lat>
-		<Lon>4.6275</Lon>
+		<Lat>52.404167175293</Lat>
+		<Lon>4.62750005722046</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -1580,8 +1631,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400121</UICCode>
-		<Lat>52.08139</Lat>
-		<Lon>4.746111</Lon>
+		<Lat>52.0813903808594</Lat>
+		<Lon>4.7461109161377</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -1614,8 +1665,8 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8015485</UICCode>
-		<Lat>50.732014</Lat>
-		<Lon>7.097125</Lon>
+		<Lat>50.7320141646745</Lat>
+		<Lon>7.09712505340576</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -1665,8 +1716,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400124</UICCode>
-		<Lat>52.29889</Lat>
-		<Lon>6.7480555</Lon>
+		<Lat>52.2988891601562</Lat>
+		<Lon>6.74805545806885</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -1682,8 +1733,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400125</UICCode>
-		<Lat>52.077778</Lat>
-		<Lon>4.6469445</Lon>
+		<Lat>52.0777778625488</Lat>
+		<Lon>4.64694452285767</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -1728,13 +1779,13 @@
 		<Type>stoptreinstation</Type>
 		<Namen>		
 		  <Kort>Bovenk Flo</Kort>
-		  <Middel>Flora</Middel>
+		  <Middel>Bovenkarspel Fl.</Middel>
 		  <Lang>Bovenkarspel Flora</Lang>
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400230</UICCode>
-		<Lat>52.69611</Lat>
-		<Lon>5.2527776</Lon>
+		<Lat>52.6961097717285</Lat>
+		<Lon>5.25277757644653</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -1750,8 +1801,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400127</UICCode>
-		<Lat>52.695</Lat>
-		<Lon>5.2377777</Lon>
+		<Lat>52.6949996948242</Lat>
+		<Lon>5.23777770996094</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -1767,8 +1818,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400128</UICCode>
-		<Lat>51.644524</Lat>
-		<Lon>5.939033</Lon>
+		<Lat>51.6445217676531</Lat>
+		<Lon>5.93903303146362</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -1818,8 +1869,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400131</UICCode>
-		<Lat>51.595554</Lat>
-		<Lon>4.78</Lon>
+		<Lat>51.5955543518066</Lat>
+		<Lon>4.78000020980835</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -1835,8 +1886,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400132</UICCode>
-		<Lat>51.606388</Lat>
-		<Lon>4.7208333</Lon>
+		<Lat>51.606388092041</Lat>
+		<Lon>4.72083330154419</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -1852,8 +1903,8 @@
 		</Namen>
 		<Land>B</Land>
 		<UICCode>8843901</UICCode>
-		<Lat>50.64383</Lat>
-		<Lon>5.611254</Lon>
+		<Lat>50.643829</Lat>
+		<Lon>5.6112542</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -1886,7 +1937,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8015129</UICCode>
-		<Lat>51.294617</Lat>
+		<Lat>51.294615</Lat>
 		<Lon>6.241174</Lon>
 		<Synoniemen>
 			
@@ -1903,8 +1954,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400136</UICCode>
-		<Lat>52.09111</Lat>
-		<Lon>6.1469445</Lon>
+		<Lat>52.0911102294922</Lat>
+		<Lon>6.14694452285767</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -1914,14 +1965,31 @@
 		<Code>BRUSL</Code>
 		<Type>stoptreinstation</Type>
 		<Namen>		
-		  <Kort>Brus Lucht</Kort>
-		  <Middel>Brussel Luchthvn</Middel>
-		  <Lang>Brussel Nat. Luchthaven</Lang>
+		  <Kort>Brus-Lucht</Kort>
+		  <Middel>Brussel-Luchthvn</Middel>
+		  <Lang>Brussel Luchth tot 14 dec</Lang>
 		</Namen>
 		<Land>B</Land>
 		<UICCode>8819406</UICCode>
 		<Lat>50.89575</Lat>
 		<Lon>4.48113</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>FBNL</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Brus Lucht</Kort>
+		  <Middel>Brussel Luchthvn</Middel>
+		  <Lang>Brussel Luchth. na 13 dec</Lang>
+		</Namen>
+		<Land>B</Land>
+		<UICCode>8819406</UICCode>
+		<Lat>50.896389</Lat>
+		<Lon>4.481943</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -1937,8 +2005,8 @@
 		</Namen>
 		<Land>B</Land>
 		<UICCode>8813003</UICCode>
-		<Lat>50.845467</Lat>
-		<Lon>4.3571134</Lon>
+		<Lat>50.8454658</Lat>
+		<Lon>4.3571135</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -1954,7 +2022,7 @@
 		</Namen>
 		<Land>B</Land>
 		<UICCode>8812005</UICCode>
-		<Lat>50.860527</Lat>
+		<Lat>50.8605262</Lat>
 		<Lon>4.3617873</Lon>
 		<Synoniemen>
 			
@@ -1971,7 +2039,7 @@
 		</Namen>
 		<Land>B</Land>
 		<UICCode>8814001</UICCode>
-		<Lat>50.83501</Lat>
+		<Lat>50.8350108</Lat>
 		<Lon>4.3345957</Lon>
 		<Synoniemen>
 			
@@ -1988,8 +2056,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400139</UICCode>
-		<Lat>53.256454</Lat>
-		<Lon>6.1446495</Lon>
+		<Lat>53.2564547</Lat>
+		<Lon>6.1446496</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2005,8 +2073,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400140</UICCode>
-		<Lat>50.896946</Lat>
-		<Lon>5.7366667</Lon>
+		<Lat>50.8969459533691</Lat>
+		<Lon>5.73666667938232</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2022,8 +2090,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400141</UICCode>
-		<Lat>52.063057</Lat>
-		<Lon>5.1944447</Lon>
+		<Lat>52.0630569458008</Lat>
+		<Lon>5.19444465637207</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2039,8 +2107,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400145</UICCode>
-		<Lat>52.265835</Lat>
-		<Lon>5.1630554</Lon>
+		<Lat>52.2658348083496</Lat>
+		<Lon>5.16305541992188</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2075,7 +2143,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8000059</UICCode>
-		<Lat>52.202076</Lat>
+		<Lat>52.202075</Lat>
 		<Lon>8.573876</Lon>
 		<Synoniemen>
 			
@@ -2094,8 +2162,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400147</UICCode>
-		<Lat>51.954166</Lat>
-		<Lon>4.5841665</Lon>
+		<Lat>51.9541664123535</Lat>
+		<Lon>4.58416652679443</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2111,8 +2179,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400151</UICCode>
-		<Lat>52.545834</Lat>
-		<Lon>4.6586113</Lon>
+		<Lat>52.5458335876465</Lat>
+		<Lon>4.65861129760742</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2145,8 +2213,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400152</UICCode>
-		<Lat>50.87611</Lat>
-		<Lon>6.0597224</Lon>
+		<Lat>50.8761100769043</Lat>
+		<Lon>6.05972242355347</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2196,8 +2264,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400153</UICCode>
-		<Lat>52.663612</Lat>
-		<Lon>6.7355556</Lon>
+		<Lat>52.6636123657227</Lat>
+		<Lon>6.73555564880371</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2230,8 +2298,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400155</UICCode>
-		<Lat>51.72668</Lat>
-		<Lon>5.874295</Lon>
+		<Lat>51.7266825879048</Lat>
+		<Lon>5.87429523468017</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2247,8 +2315,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400154</UICCode>
-		<Lat>51.946667</Lat>
-		<Lon>5.2269444</Lon>
+		<Lat>51.9466667175293</Lat>
+		<Lon>5.22694444656372</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2264,8 +2332,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400164</UICCode>
-		<Lat>52.44077</Lat>
-		<Lon>6.5759945</Lon>
+		<Lat>52.4407702</Lat>
+		<Lon>6.5759947</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2281,8 +2349,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400161</UICCode>
-		<Lat>52.694168</Lat>
-		<Lon>6.7580557</Lon>
+		<Lat>52.6941680908203</Lat>
+		<Lon>6.75805568695068</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2298,8 +2366,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400167</UICCode>
-		<Lat>52.498333</Lat>
-		<Lon>6.258611</Lon>
+		<Lat>52.4983329772949</Lat>
+		<Lon>6.25861120223999</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2315,8 +2383,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400188</UICCode>
-		<Lat>52.14722</Lat>
-		<Lon>4.456389</Lon>
+		<Lat>52.1472206115723</Lat>
+		<Lon>4.4563889503479</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2349,8 +2417,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400168</UICCode>
-		<Lat>53.188812</Lat>
-		<Lon>5.728157</Lon>
+		<Lat>53.1888115</Lat>
+		<Lon>5.7281572</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2366,8 +2434,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400169</UICCode>
-		<Lat>52.26</Lat>
-		<Lon>6.716111</Lon>
+		<Lat>52.2599983215332</Lat>
+		<Lon>6.7161111831665</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2383,8 +2451,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400170</UICCode>
-		<Lat>52.006668</Lat>
-		<Lon>4.356389</Lon>
+		<Lat>52.0066680908203</Lat>
+		<Lon>4.35638904571533</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2400,8 +2468,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400166</UICCode>
-		<Lat>51.990833</Lat>
-		<Lon>4.3647223</Lon>
+		<Lat>51.9908332824707</Lat>
+		<Lon>4.36472225189209</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2417,8 +2485,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400171</UICCode>
-		<Lat>53.333664</Lat>
-		<Lon>6.92408</Lon>
+		<Lat>53.3336625</Lat>
+		<Lon>6.9240797</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2434,8 +2502,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400175</UICCode>
-		<Lat>53.332085</Lat>
-		<Lon>6.906909</Lon>
+		<Lat>53.3320834</Lat>
+		<Lon>6.9069092</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2451,8 +2519,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400179</UICCode>
-		<Lat>52.140278</Lat>
-		<Lon>5.242778</Lon>
+		<Lat>52.1402778625488</Lat>
+		<Lon>5.24277782440186</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2468,8 +2536,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400282</UICCode>
-		<Lat>52.080276</Lat>
-		<Lon>4.325</Lon>
+		<Lat>52.0802764892578</Lat>
+		<Lon>4.32499980926514</Lon>
 		<Synoniemen>
 			
 			<Synoniem>'s-Gravenhage</Synoniem>
@@ -2489,8 +2557,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400280</UICCode>
-		<Lat>52.06972</Lat>
-		<Lon>4.3225</Lon>
+		<Lat>52.0697212219238</Lat>
+		<Lon>4.32250022888184</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2506,8 +2574,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400380</UICCode>
-		<Lat>52.07861</Lat>
-		<Lon>4.3427777</Lon>
+		<Lat>52.0786094665527</Lat>
+		<Lon>4.34277772903442</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2523,8 +2591,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400278</UICCode>
-		<Lat>52.090557</Lat>
-		<Lon>4.3694444</Lon>
+		<Lat>52.0905570983887</Lat>
+		<Lon>4.36944437026978</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2540,8 +2608,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400279</UICCode>
-		<Lat>52.05389</Lat>
-		<Lon>4.308611</Lon>
+		<Lat>52.0538902282715</Lat>
+		<Lon>4.3086109161377</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2557,8 +2625,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400379</UICCode>
-		<Lat>52.05528</Lat>
-		<Lon>4.3922224</Lon>
+		<Lat>52.0552787780762</Lat>
+		<Lon>4.39222240447998</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2574,8 +2642,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400311</UICCode>
-		<Lat>52.955276</Lat>
-		<Lon>4.7611113</Lon>
+		<Lat>52.9552764892578</Lat>
+		<Lon>4.76111125946045</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2591,8 +2659,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400303</UICCode>
-		<Lat>52.9325</Lat>
-		<Lon>4.764167</Lon>
+		<Lat>52.9324989318848</Lat>
+		<Lon>4.76416683197022</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2608,8 +2676,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400172</UICCode>
-		<Lat>51.455833</Lat>
-		<Lon>5.788889</Lon>
+		<Lat>51.4558334350586</Lat>
+		<Lon>5.78888893127441</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2625,8 +2693,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400173</UICCode>
-		<Lat>52.2575</Lat>
-		<Lon>6.1605554</Lon>
+		<Lat>52.2574996948242</Lat>
+		<Lon>6.16055536270142</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2642,8 +2710,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400185</UICCode>
-		<Lat>52.25028</Lat>
-		<Lon>6.2144446</Lon>
+		<Lat>52.2502784729004</Lat>
+		<Lon>6.21444463729858</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2660,7 +2728,7 @@
 		<Land>NL</Land>
 		<UICCode>8400174</UICCode>
 		<Lat>51.933502</Lat>
-		<Lon>6.1324105</Lon>
+		<Lon>6.1324106</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2676,8 +2744,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400165</UICCode>
-		<Lat>52.345833</Lat>
-		<Lon>4.9655557</Lon>
+		<Lat>52.345832824707</Lat>
+		<Lon>4.9655556678772</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2693,8 +2761,25 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400163</UICCode>
-		<Lat>52.330276</Lat>
-		<Lon>4.9558334</Lon>
+		<Lat>52.3302764892578</Lat>
+		<Lon>4.95583343505859</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>GDP</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Diepenbeek</Kort>
+		  <Middel>Diepenbeek</Middel>
+		  <Lang>Diepenbeek</Lang>
+		</Namen>
+		<Land>B</Land>
+		<UICCode>8831112</UICCode>
+		<Lat>50.910278</Lat>
+		<Lon>5.419722</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2710,8 +2795,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400176</UICCode>
-		<Lat>52.045</Lat>
-		<Lon>6.1030555</Lon>
+		<Lat>52.0449981689453</Lat>
+		<Lon>6.10305547714233</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2727,8 +2812,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400177</UICCode>
-		<Lat>51.958595</Lat>
-		<Lon>6.2962146</Lon>
+		<Lat>51.9585962</Lat>
+		<Lon>6.2962148</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2744,8 +2829,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400184</UICCode>
-		<Lat>51.95914</Lat>
-		<Lon>6.259852</Lon>
+		<Lat>51.9591413</Lat>
+		<Lon>6.2598521</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2778,8 +2863,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400180</UICCode>
-		<Lat>51.80722</Lat>
-		<Lon>4.6683335</Lon>
+		<Lat>51.8072204589844</Lat>
+		<Lon>4.66833353042603</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2795,8 +2880,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400186</UICCode>
-		<Lat>51.801945</Lat>
-		<Lon>4.7166667</Lon>
+		<Lat>51.801944732666</Lat>
+		<Lon>4.71666669845581</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2812,8 +2897,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400181</UICCode>
-		<Lat>51.79</Lat>
-		<Lon>4.671389</Lon>
+		<Lat>51.7900009155273</Lat>
+		<Lon>4.67138910293579</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2846,7 +2931,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8010053</UICCode>
-		<Lat>51.517895</Lat>
+		<Lat>51.517896</Lat>
 		<Lon>7.45929</Lon>
 		<Synoniemen>
 			
@@ -2863,7 +2948,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8010102</UICCode>
-		<Lat>51.547077</Lat>
+		<Lat>51.547076</Lat>
 		<Lon>7.510099</Lon>
 		<Synoniemen>
 			
@@ -2914,8 +2999,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400182</UICCode>
-		<Lat>52.065277</Lat>
-		<Lon>5.258611</Lon>
+		<Lat>52.0652770996094</Lat>
+		<Lon>5.25861120223999</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2931,8 +3016,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400183</UICCode>
-		<Lat>52.4425</Lat>
-		<Lon>4.6380553</Lon>
+		<Lat>52.4425010681152</Lat>
+		<Lon>4.63805532455444</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2948,8 +3033,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400192</UICCode>
-		<Lat>53.177807</Lat>
-		<Lon>5.6347413</Lon>
+		<Lat>53.1778086</Lat>
+		<Lon>5.6347411</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -2982,7 +3067,7 @@
 		</Namen>
 		<Land>B</Land>
 		<UICCode>8822210</UICCode>
-		<Lat>51.09139</Lat>
+		<Lat>51.091389</Lat>
 		<Lon>4.493056</Lon>
 		<Synoniemen>
 			
@@ -2999,8 +3084,8 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8010316</UICCode>
-		<Lat>51.42978</Lat>
-		<Lon>6.7759037</Lon>
+		<Lat>51.4297785713316</Lat>
+		<Lon>6.77590370178222</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3016,8 +3101,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400193</UICCode>
-		<Lat>51.943333</Lat>
-		<Lon>6.0147223</Lon>
+		<Lat>51.9433326721191</Lat>
+		<Lon>6.01472234725952</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3033,8 +3118,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400194</UICCode>
-		<Lat>52.323334</Lat>
-		<Lon>4.936389</Lon>
+		<Lat>52.3233337402344</Lat>
+		<Lon>4.93638896942139</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3050,7 +3135,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8015125</UICCode>
-		<Lat>51.25715</Lat>
+		<Lat>51.257149</Lat>
 		<Lon>6.33793</Lon>
 		<Synoniemen>
 			
@@ -3117,6 +3202,23 @@
 	</Station>
 
 	<Station>
+		<Code>EBBS</Code>
+		<Type>intercitystation</Type>
+		<Namen>		
+		  <Kort>Ebbsfleet</Kort>
+		  <Middel>Ebbsfleet Intern</Middel>
+		  <Lang>Ebbsfleet International</Lang>
+		</Namen>
+		<Land>GB</Land>
+		<UICCode>7015440</UICCode>
+		<Lat>51.44297</Lat>
+		<Lon>0.32095</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
 		<Code>EC</Code>
 		<Type>stoptreinstation</Type>
 		<Namen>		
@@ -3126,8 +3228,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400195</UICCode>
-		<Lat>51.100555</Lat>
-		<Lon>5.878889</Lon>
+		<Lat>51.1005554199219</Lat>
+		<Lon>5.87888908386231</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3143,8 +3245,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400201</UICCode>
-		<Lat>52.04361</Lat>
-		<Lon>5.6683335</Lon>
+		<Lat>52.0436096191406</Lat>
+		<Lon>5.66833353042603</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3160,8 +3262,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400200</UICCode>
-		<Lat>52.02778</Lat>
-		<Lon>5.6730556</Lon>
+		<Lat>52.0277786254883</Lat>
+		<Lon>5.67305564880371</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3194,8 +3296,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400219</UICCode>
-		<Lat>50.771946</Lat>
-		<Lon>5.71</Lon>
+		<Lat>50.7719459533691</Lat>
+		<Lon>5.71000003814697</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3211,7 +3313,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8015341</UICCode>
-		<Lat>50.78556</Lat>
+		<Lat>50.785561</Lat>
 		<Lon>6.154367</Lon>
 		<Synoniemen>
 			
@@ -3228,8 +3330,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400206</UICCode>
-		<Lat>51.443333</Lat>
-		<Lon>5.481389</Lon>
+		<Lat>51.4433326721191</Lat>
+		<Lon>5.48138904571533</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3245,8 +3347,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400196</UICCode>
-		<Lat>51.45111</Lat>
-		<Lon>5.4558334</Lon>
+		<Lat>51.4511108398438</Lat>
+		<Lon>5.45583343505859</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3262,8 +3364,8 @@
 		</Namen>
 		<Land>B</Land>
 		<UICCode>8821071</UICCode>
-		<Lat>51.28161</Lat>
-		<Lon>4.4341226</Lon>
+		<Lat>51.2816099</Lat>
+		<Lon>4.4341227</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3279,8 +3381,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400207</UICCode>
-		<Lat>51.916943</Lat>
-		<Lon>5.855</Lon>
+		<Lat>51.9169425964355</Lat>
+		<Lon>5.85500001907349</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3296,8 +3398,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400208</UICCode>
-		<Lat>52.79</Lat>
-		<Lon>6.8994446</Lon>
+		<Lat>52.7900009155273</Lat>
+		<Lon>6.89944458007812</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3313,8 +3415,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400407</UICCode>
-		<Lat>52.748867</Lat>
-		<Lon>6.8747807</Lon>
+		<Lat>52.7488663746914</Lat>
+		<Lon>6.87478065490722</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3330,7 +3432,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8010288</UICCode>
-		<Lat>51.834282</Lat>
+		<Lat>51.834283</Lat>
 		<Lon>6.255718</Lon>
 		<Synoniemen>
 			
@@ -3347,8 +3449,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400210</UICCode>
-		<Lat>52.699165</Lat>
-		<Lon>5.286389</Lon>
+		<Lat>52.6991653442383</Lat>
+		<Lon>5.28638887405396</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3364,7 +3466,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8008134</UICCode>
-		<Lat>51.304893</Lat>
+		<Lat>51.304892</Lat>
 		<Lon>7.343285</Lon>
 		<Synoniemen>
 			
@@ -3381,8 +3483,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400212</UICCode>
-		<Lat>52.2225</Lat>
-		<Lon>6.89</Lon>
+		<Lat>52.2224998474121</Lat>
+		<Lon>6.8899998664856</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3398,8 +3500,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400217</UICCode>
-		<Lat>52.22139</Lat>
-		<Lon>6.9511113</Lon>
+		<Lat>52.2213897705078</Lat>
+		<Lon>6.95111131668091</Lon>
 		<Synoniemen>
 			
 			<Synoniem>De Eschmarke</Synoniem>
@@ -3419,8 +3521,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400221</UICCode>
-		<Lat>52.2375</Lat>
-		<Lon>6.838889</Lon>
+		<Lat>52.2374992370605</Lat>
+		<Lon>6.83888912200928</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3453,8 +3555,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400216</UICCode>
-		<Lat>52.301666</Lat>
-		<Lon>5.6147223</Lon>
+		<Lat>52.3016662597656</Lat>
+		<Lon>5.61472225189209</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3470,7 +3572,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8015336</UICCode>
-		<Lat>50.813534</Lat>
+		<Lat>50.813532</Lat>
 		<Lon>6.251937</Lon>
 		<Synoniemen>
 			
@@ -3487,7 +3589,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8069831</UICCode>
-		<Lat>50.81476</Lat>
+		<Lat>50.814759</Lat>
 		<Lon>6.263203</Lon>
 		<Synoniemen>
 			
@@ -3504,7 +3606,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8069834</UICCode>
-		<Lat>50.812828</Lat>
+		<Lat>50.812827</Lat>
 		<Lon>6.293846</Lon>
 		<Synoniemen>
 			
@@ -3521,7 +3623,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8069835</UICCode>
-		<Lat>50.82437</Lat>
+		<Lat>50.824371</Lat>
 		<Lon>6.320676</Lon>
 		<Synoniemen>
 			
@@ -3538,7 +3640,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8069832</UICCode>
-		<Lat>50.81771</Lat>
+		<Lat>50.817712</Lat>
 		<Lon>6.251721</Lon>
 		<Synoniemen>
 			
@@ -3572,8 +3674,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400218</UICCode>
-		<Lat>51.575</Lat>
-		<Lon>4.6358333</Lon>
+		<Lat>51.5750007629395</Lat>
+		<Lon>4.63583326339722</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3589,8 +3691,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400338</UICCode>
-		<Lat>50.890556</Lat>
-		<Lon>6.045</Lon>
+		<Lat>50.8905563354492</Lat>
+		<Lon>6.04500007629395</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3606,8 +3708,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400234</UICCode>
-		<Lat>50.89605</Lat>
-		<Lon>6.0602474</Lon>
+		<Lat>50.8960498196442</Lat>
+		<Lon>6.0602474212646396</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3640,8 +3742,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400232</UICCode>
-		<Lat>53.18245</Lat>
-		<Lon>5.5483093</Lon>
+		<Lat>53.1824488</Lat>
+		<Lon>5.5483094</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3657,8 +3759,25 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8011068</UICCode>
-		<Lat>50.10712</Lat>
-		<Lon>8.663834</Lon>
+		<Lat>50.1071222</Lat>
+		<Lon>8.6638338</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>FRANKO</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Frankf(Od)</Kort>
+		  <Middel>Frankfurt (Oder)</Middel>
+		  <Lang>Frankfurt (Oder)</Lang>
+		</Namen>
+		<Land>D</Land>
+		<UICCode>8010113</UICCode>
+		<Lat>52.336163</Lat>
+		<Lon>14.546509</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3674,8 +3793,8 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8011090</UICCode>
-		<Lat>50.05317</Lat>
-		<Lon>8.570237</Lon>
+		<Lat>50.0531710299286</Lat>
+		<Lon>8.570237159729</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3742,8 +3861,8 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8029086</UICCode>
-		<Lat>48.619476</Lat>
-		<Lon>9.84184</Lon>
+		<Lat>48.6194774237368</Lat>
+		<Lon>9.84184026718139</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3759,8 +3878,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400244</UICCode>
-		<Lat>51.88278</Lat>
-		<Lon>5.271111</Lon>
+		<Lat>51.88301</Lat>
+		<Lon>5.27127</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3776,8 +3895,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400245</UICCode>
-		<Lat>51.419724</Lat>
-		<Lon>5.5505557</Lon>
+		<Lat>51.4197235107422</Lat>
+		<Lon>5.55055570602417</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3793,8 +3912,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400246</UICCode>
-		<Lat>50.966946</Lat>
-		<Lon>5.8430557</Lon>
+		<Lat>50.9669456481934</Lat>
+		<Lon>5.84305572509766</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3810,25 +3929,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400248</UICCode>
-		<Lat>50.975555</Lat>
-		<Lon>5.8247223</Lon>
-		<Synoniemen>
-			
-		</Synoniemen>
-	</Station>
-
-	<Station>
-		<Code>FGSP</Code>
-		<Type>stoptreinstation</Type>
-		<Namen>		
-		  <Kort>Gent St. P</Kort>
-		  <Middel>Gent St. Pieters</Middel>
-		  <Lang>Gent Sint Pieters</Lang>
-		</Namen>
-		<Land>B</Land>
-		<UICCode>8892007</UICCode>
-		<Lat>51.036175</Lat>
-		<Lon>3.710847</Lon>
+		<Lat>50.9755554199219</Lat>
+		<Lon>5.82472229003906</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3844,8 +3946,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400251</UICCode>
-		<Lat>51.58361</Lat>
-		<Lon>4.926111</Lon>
+		<Lat>51.583610534668</Lat>
+		<Lon>4.92611122131348</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3861,8 +3963,25 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400262</UICCode>
-		<Lat>52.218613</Lat>
-		<Lon>6.9744444</Lon>
+		<Lat>52.2186126708984</Lat>
+		<Lon>6.97444438934326</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>LGL</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Glons</Kort>
+		  <Middel>Glons</Middel>
+		  <Lang>Glons</Lang>
+		</Namen>
+		<Land>B</Land>
+		<UICCode>8841731</UICCode>
+		<Lat>50.750277</Lat>
+		<Lon>5.535278</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3878,8 +3997,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400253</UICCode>
-		<Lat>51.498055</Lat>
-		<Lon>3.8905556</Lon>
+		<Lat>51.4980545043945</Lat>
+		<Lon>3.89055562019348</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3895,8 +4014,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400254</UICCode>
-		<Lat>52.230278</Lat>
-		<Lon>6.5844445</Lon>
+		<Lat>52.2302780151367</Lat>
+		<Lon>6.58444452285767</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3912,8 +4031,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400256</UICCode>
-		<Lat>51.83389</Lat>
-		<Lon>4.9683332</Lon>
+		<Lat>51.8338890075684</Lat>
+		<Lon>4.96833324432373</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3929,8 +4048,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400258</UICCode>
-		<Lat>52.0175</Lat>
-		<Lon>4.7044444</Lon>
+		<Lat>52.0175018310547</Lat>
+		<Lon>4.70444440841675</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3941,13 +4060,13 @@
 		<Type>stoptreinstation</Type>
 		<Namen>		
 		  <Kort>Goverwelle</Kort>
-		  <Middel>Goverwelle</Middel>
+		  <Middel>Gouda Goverwelle</Middel>
 		  <Lang>Gouda Goverwelle</Lang>
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400257</UICCode>
-		<Lat>52.015</Lat>
-		<Lon>4.7408333</Lon>
+		<Lat>52.0149993896484</Lat>
+		<Lon>4.7408332824707</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3963,8 +4082,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400259</UICCode>
-		<Lat>52.609165</Lat>
-		<Lon>6.675833</Lon>
+		<Lat>52.6091651916504</Lat>
+		<Lon>6.67583322525024</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3980,8 +4099,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400267</UICCode>
-		<Lat>53.25574</Lat>
-		<Lon>6.3097787</Lon>
+		<Lat>53.2557403255735</Lat>
+		<Lon>6.30977869033813</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4014,8 +4133,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400263</UICCode>
-		<Lat>53.210556</Lat>
-		<Lon>6.564722</Lon>
+		<Lat>53.2105560302734</Lat>
+		<Lon>6.56472206115723</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4031,8 +4150,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400238</UICCode>
-		<Lat>53.20624</Lat>
-		<Lon>6.58254</Lon>
+		<Lat>53.20480027</Lat>
+		<Lon>6.5854178</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4048,8 +4167,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400264</UICCode>
-		<Lat>53.23015</Lat>
-		<Lon>6.5563173</Lon>
+		<Lat>53.2301469</Lat>
+		<Lon>6.5563172</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4065,8 +4184,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400266</UICCode>
-		<Lat>53.08889</Lat>
-		<Lon>5.8225</Lon>
+		<Lat>53.0888900756836</Lat>
+		<Lon>5.82250022888184</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4082,7 +4201,7 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400712</UICCode>
-		<Lat>50.833057</Lat>
+		<Lat>50.833056</Lat>
 		<Lon>5.898056</Lon>
 		<Synoniemen>
 			
@@ -4099,7 +4218,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8029066</UICCode>
-		<Lat>48.70019</Lat>
+		<Lat>48.700191</Lat>
 		<Lon>9.651685</Lon>
 		<Synoniemen>
 			
@@ -4118,7 +4237,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8002084</UICCode>
-		<Lat>48.460224</Lat>
+		<Lat>48.460226</Lat>
 		<Lon>10.278707</Lon>
 		<Synoniemen>
 			
@@ -4137,8 +4256,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400285</UICCode>
-		<Lat>52.38778</Lat>
-		<Lon>4.6383333</Lon>
+		<Lat>52.3877792358398</Lat>
+		<Lon>4.63833332061768</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4154,8 +4273,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400270</UICCode>
-		<Lat>52.38278</Lat>
-		<Lon>4.6730556</Lon>
+		<Lat>52.3827781677246</Lat>
+		<Lon>4.67305564880371</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4188,7 +4307,7 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400400</UICCode>
-		<Lat>52.385937</Lat>
+		<Lat>52.385935</Lat>
 		<Lon>4.747165</Lon>
 		<Synoniemen>
 			
@@ -4205,8 +4324,8 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8001071</UICCode>
-		<Lat>53.55264</Lat>
-		<Lon>10.00671</Lon>
+		<Lat>53.5526394</Lat>
+		<Lon>10.0067103</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4239,8 +4358,8 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8013552</UICCode>
-		<Lat>52.37704</Lat>
-		<Lon>9.741676</Lon>
+		<Lat>52.3770401</Lat>
+		<Lon>9.7416759</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4256,8 +4375,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400293</UICCode>
-		<Lat>52.572777</Lat>
-		<Lon>6.628611</Lon>
+		<Lat>52.5727767944336</Lat>
+		<Lon>6.62861108779907</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4273,8 +4392,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400294</UICCode>
-		<Lat>52.3375</Lat>
-		<Lon>5.6197224</Lon>
+		<Lat>52.3375015258789</Lat>
+		<Lon>5.61972236633301</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4307,8 +4426,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400295</UICCode>
-		<Lat>51.830555</Lat>
-		<Lon>4.8358335</Lon>
+		<Lat>51.8305549621582</Lat>
+		<Lon>4.83583354949951</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4324,8 +4443,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400297</UICCode>
-		<Lat>53.17611</Lat>
-		<Lon>6.6172223</Lon>
+		<Lat>53.1761093139648</Lat>
+		<Lon>6.61722230911255</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4341,8 +4460,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400296</UICCode>
-		<Lat>53.17042</Lat>
-		<Lon>5.4251933</Lon>
+		<Lat>53.1704205</Lat>
+		<Lon>5.4251932</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4358,8 +4477,25 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400298</UICCode>
-		<Lat>53.174915</Lat>
-		<Lon>5.4112887</Lon>
+		<Lat>53.174917</Lat>
+		<Lon>5.4112885</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>FHS</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Hasselt</Kort>
+		  <Middel>Hasselt</Middel>
+		  <Lang>Hasselt</Lang>
+		</Namen>
+		<Land>B</Land>
+		<UICCode>8831005</UICCode>
+		<Lat>50.930555</Lat>
+		<Lon>5.3275</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4375,8 +4511,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400317</UICCode>
-		<Lat>52.495277</Lat>
-		<Lon>4.6869445</Lon>
+		<Lat>52.4952774047852</Lat>
+		<Lon>4.68694448471069</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4392,8 +4528,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400302</UICCode>
-		<Lat>52.359165</Lat>
-		<Lon>4.6066666</Lon>
+		<Lat>52.3591651916504</Lat>
+		<Lon>4.60666656494141</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4409,8 +4545,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400305</UICCode>
-		<Lat>52.961388</Lat>
-		<Lon>5.9141665</Lon>
+		<Lat>52.9613876342773</Lat>
+		<Lon>5.91416645050049</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4426,8 +4562,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400301</UICCode>
-		<Lat>52.935276</Lat>
-		<Lon>5.9438887</Lon>
+		<Lat>52.9352760314941</Lat>
+		<Lon>5.94388866424561</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4443,8 +4579,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400306</UICCode>
-		<Lat>52.669724</Lat>
-		<Lon>4.8227777</Lon>
+		<Lat>52.6697235107422</Lat>
+		<Lon>4.82277774810791</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4460,8 +4596,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400307</UICCode>
-		<Lat>50.890835</Lat>
-		<Lon>5.975</Lon>
+		<Lat>50.8908348083496</Lat>
+		<Lon>5.97499990463257</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4477,8 +4613,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400409</UICCode>
-		<Lat>50.890167</Lat>
-		<Lon>5.9933424</Lon>
+		<Lat>50.8901689328708</Lat>
+		<Lon>5.99334239959716</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4511,8 +4647,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400308</UICCode>
-		<Lat>51.385</Lat>
-		<Lon>5.5694447</Lon>
+		<Lat>51.3849983215332</Lat>
+		<Lon>5.56944465637207</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4528,8 +4664,8 @@
 		</Namen>
 		<Land>B</Land>
 		<UICCode>8821519</UICCode>
-		<Lat>51.364826</Lat>
-		<Lon>4.4604306</Lon>
+		<Lat>51.364828</Lat>
+		<Lon>4.4604308</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4545,8 +4681,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400309</UICCode>
-		<Lat>52.599445</Lat>
-		<Lon>4.7005553</Lon>
+		<Lat>52.5994453430176</Lat>
+		<Lon>4.70055532455444</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4562,8 +4698,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400310</UICCode>
-		<Lat>52.427223</Lat>
-		<Lon>6.2211113</Lon>
+		<Lat>52.4272232055664</Lat>
+		<Lon>6.22111129760742</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4579,8 +4715,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400313</UICCode>
-		<Lat>51.475555</Lat>
-		<Lon>5.6619444</Lon>
+		<Lat>51.4755554199219</Lat>
+		<Lon>5.66194438934326</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4591,7 +4727,7 @@
 		<Type>stoptreinstation</Type>
 		<Namen>		
 		  <Kort>'t Hout</Kort>
-		  <Middel>t Hout</Middel>
+		  <Middel>Helmond 't Hout</Middel>
 		  <Lang>Helmond 't Hout</Lang>
 		</Namen>
 		<Land>NL</Land>
@@ -4613,8 +4749,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400242</UICCode>
-		<Lat>51.462223</Lat>
-		<Lon>5.607222</Lon>
+		<Lat>51.4622230529785</Lat>
+		<Lon>5.60722208023071</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4664,8 +4800,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400315</UICCode>
-		<Lat>51.922215</Lat>
-		<Lon>5.6737256</Lon>
+		<Lat>51.9222129</Lat>
+		<Lon>5.6737254</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4681,8 +4817,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400316</UICCode>
-		<Lat>52.261665</Lat>
-		<Lon>6.793889</Lon>
+		<Lat>52.2616653442383</Lat>
+		<Lon>6.79388904571533</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4693,12 +4829,12 @@
 		<Type>stoptreinstation</Type>
 		<Namen>		
 		  <Kort>Hengelo G</Kort>
-		  <Middel>Gezondheidspark</Middel>
+		  <Middel>Hengelo Gezondh.</Middel>
 		  <Lang>Hengelo Gezondheidspark</Lang>
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400433</UICCode>
-		<Lat>52.261665</Lat>
+		<Lat>52.261667</Lat>
 		<Lon>6.773611</Lon>
 		<Synoniemen>
 			
@@ -4715,8 +4851,25 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400312</UICCode>
-		<Lat>52.26889</Lat>
-		<Lon>6.8194447</Lon>
+		<Lat>52.2688903808594</Lat>
+		<Lon>6.81944465637207</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>LHS</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Herstal</Kort>
+		  <Middel>Herstal</Middel>
+		  <Lang>Herstal</Lang>
+		</Namen>
+		<Land>B</Land>
+		<UICCode>8841608</UICCode>
+		<Lat>50.66076</Lat>
+		<Lon>5.62231</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4732,7 +4885,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8015190</UICCode>
-		<Lat>50.870914</Lat>
+		<Lat>50.870916</Lat>
 		<Lon>6.094486</Lon>
 		<Synoniemen>
 			
@@ -4749,8 +4902,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400329</UICCode>
-		<Lat>52.3025</Lat>
-		<Lon>4.5655556</Lon>
+		<Lat>52.3025016784668</Lat>
+		<Lon>4.56555557250977</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4766,8 +4919,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400322</UICCode>
-		<Lat>52.225834</Lat>
-		<Lon>5.1819444</Lon>
+		<Lat>52.2258338928223</Lat>
+		<Lon>5.18194437026978</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4783,8 +4936,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400324</UICCode>
-		<Lat>52.238056</Lat>
-		<Lon>5.1738887</Lon>
+		<Lat>52.2380561828613</Lat>
+		<Lon>5.17388868331909</Lon>
 		<Synoniemen>
 			
 			<Synoniem>Hilversum Noord</Synoniem>
@@ -4802,8 +4955,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400570</UICCode>
-		<Lat>52.21611</Lat>
-		<Lon>5.187222</Lon>
+		<Lat>52.2161102294922</Lat>
+		<Lon>5.18722200393677</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4819,7 +4972,7 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400323</UICCode>
-		<Lat>52.94649</Lat>
+		<Lat>52.9464903</Lat>
 		<Lon>5.423063</Lon>
 		<Synoniemen>
 			
@@ -4853,8 +5006,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400325</UICCode>
-		<Lat>51.975277</Lat>
-		<Lon>4.128889</Lon>
+		<Lat>51.9752769470215</Lat>
+		<Lon>4.1288890838623</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4870,8 +5023,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400342</UICCode>
-		<Lat>51.981667</Lat>
-		<Lon>4.1197224</Lon>
+		<Lat>51.9816665649414</Lat>
+		<Lon>4.11972236633301</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4887,8 +5040,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400326</UICCode>
-		<Lat>50.905556</Lat>
-		<Lon>5.9305553</Lon>
+		<Lat>50.9055557250977</Lat>
+		<Lon>5.93055534362793</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4921,8 +5074,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400327</UICCode>
-		<Lat>52.177776</Lat>
-		<Lon>5.179167</Lon>
+		<Lat>52.1777763366699</Lat>
+		<Lon>5.17916679382324</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4938,8 +5091,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400328</UICCode>
-		<Lat>52.28389</Lat>
-		<Lon>6.4202776</Lon>
+		<Lat>52.2838897705078</Lat>
+		<Lon>6.42027759552002</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4955,7 +5108,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8010384</UICCode>
-		<Lat>51.50477</Lat>
+		<Lat>51.504767</Lat>
 		<Lon>7.619647</Lon>
 		<Synoniemen>
 			
@@ -4972,8 +5125,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400332</UICCode>
-		<Lat>52.293335</Lat>
-		<Lon>4.7005553</Lon>
+		<Lat>52.2933349609375</Lat>
+		<Lon>4.70055532455444</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -4989,8 +5142,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400330</UICCode>
-		<Lat>52.73389</Lat>
-		<Lon>6.473611</Lon>
+		<Lat>52.7338905334473</Lat>
+		<Lon>6.47361087799072</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -5006,8 +5159,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400331</UICCode>
-		<Lat>53.159817</Lat>
-		<Lon>6.770754</Lon>
+		<Lat>53.1598181316756</Lat>
+		<Lon>6.77075386047363</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -5023,8 +5176,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400334</UICCode>
-		<Lat>52.690556</Lat>
-		<Lon>5.183889</Lon>
+		<Lat>52.6905555725098</Lat>
+		<Lon>5.18388891220093</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -5040,8 +5193,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400337</UICCode>
-		<Lat>52.644722</Lat>
-		<Lon>5.0555553</Lon>
+		<Lat>52.6447219848633</Lat>
+		<Lon>5.05555534362793</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -5057,8 +5210,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400336</UICCode>
-		<Lat>52.65361</Lat>
-		<Lon>5.0855556</Lon>
+		<Lat>52.6536102294922</Lat>
+		<Lon>5.08555555343628</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -5091,8 +5244,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400339</UICCode>
-		<Lat>51.426388</Lat>
-		<Lon>6.042222</Lon>
+		<Lat>51.4263877868652</Lat>
+		<Lon>6.04222202301025</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -5142,8 +5295,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400341</UICCode>
-		<Lat>50.873333</Lat>
-		<Lon>5.797222</Lon>
+		<Lat>50.8733329772949</Lat>
+		<Lon>5.79722213745117</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -5159,7 +5312,7 @@
 		</Namen>
 		<Land>B</Land>
 		<UICCode>8821337</UICCode>
-		<Lat>51.15361</Lat>
+		<Lat>51.153611</Lat>
 		<Lon>4.465278</Lon>
 		<Synoniemen>
 			
@@ -5176,7 +5329,7 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400292</UICCode>
-		<Lat>53.218777</Lat>
+		<Lat>53.2187783</Lat>
 		<Lon>5.934543</Lon>
 		<Synoniemen>
 			
@@ -5193,8 +5346,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400722</UICCode>
-		<Lat>53.01466</Lat>
-		<Lon>5.6160803</Lon>
+		<Lat>53.0146614</Lat>
+		<Lon>5.6160801</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -5244,7 +5397,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8015131</UICCode>
-		<Lat>51.327183</Lat>
+		<Lat>51.327184</Lat>
 		<Lon>6.203225</Lon>
 		<Synoniemen>
 			
@@ -5261,7 +5414,7 @@
 		</Namen>
 		<Land>B</Land>
 		<UICCode>8821444</UICCode>
-		<Lat>51.391</Lat>
+		<Lat>51.3909989</Lat>
 		<Lon>4.4668202</Lon>
 		<Synoniemen>
 			
@@ -5278,8 +5431,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400353</UICCode>
-		<Lat>52.559723</Lat>
-		<Lon>5.9216666</Lon>
+		<Lat>52.5597229003906</Lat>
+		<Lon>5.92166662216186</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -5312,8 +5465,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400354</UICCode>
-		<Lat>51.480835</Lat>
-		<Lon>3.9561112</Lon>
+		<Lat>51.4808349609375</Lat>
+		<Lon>3.95611119270325</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -5346,7 +5499,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8014231</UICCode>
-		<Lat>48.99362</Lat>
+		<Lat>48.9936223</Lat>
 		<Lon>8.400743</Lon>
 		<Synoniemen>
 			
@@ -5363,8 +5516,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400355</UICCode>
-		<Lat>50.861668</Lat>
-		<Lon>6.0575</Lon>
+		<Lat>50.8616676330566</Lat>
+		<Lon>6.05749988555908</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -5397,8 +5550,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400359</UICCode>
-		<Lat>51.931385</Lat>
-		<Lon>5.5833464</Lon>
+		<Lat>51.9313869</Lat>
+		<Lon>5.5833465</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -5465,8 +5618,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400361</UICCode>
-		<Lat>52.178055</Lat>
-		<Lon>6.083611</Lon>
+		<Lat>52.1780548095703</Lat>
+		<Lon>6.08361101150513</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -5482,8 +5635,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400362</UICCode>
-		<Lat>50.86639</Lat>
-		<Lon>5.8905554</Lon>
+		<Lat>50.8663902282715</Lat>
+		<Lon>5.8905553817749</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -5499,7 +5652,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8019022</UICCode>
-		<Lat>50.351086</Lat>
+		<Lat>50.351085</Lat>
 		<Lon>7.588649</Lon>
 		<Synoniemen>
 			
@@ -5516,7 +5669,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8015195</UICCode>
-		<Lat>50.83173</Lat>
+		<Lat>50.831728</Lat>
 		<Lon>6.074485</Lon>
 		<Synoniemen>
 			
@@ -5550,7 +5703,7 @@
 		</Namen>
 		<Land>B</Land>
 		<UICCode>8821311</UICCode>
-		<Lat>51.13389</Lat>
+		<Lat>51.133889</Lat>
 		<Lon>4.476667</Lon>
 		<Synoniemen>
 			
@@ -5567,8 +5720,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400363</UICCode>
-		<Lat>52.45861</Lat>
-		<Lon>4.8055553</Lon>
+		<Lat>52.458610534668</Lat>
+		<Lon>4.80555534362793</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -5584,8 +5737,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400364</UICCode>
-		<Lat>52.469166</Lat>
-		<Lon>4.805</Lon>
+		<Lat>52.469165802002</Lat>
+		<Lon>4.80499982833862</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -5601,7 +5754,7 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400366</UICCode>
-		<Lat>52.90282</Lat>
+		<Lat>52.9028197</Lat>
 		<Lon>5.4106913</Lon>
 		<Synoniemen>
 			
@@ -5618,8 +5771,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400367</UICCode>
-		<Lat>51.433334</Lat>
-		<Lon>4.1169443</Lon>
+		<Lat>51.4333343505859</Lat>
+		<Lon>4.11694431304932</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -5652,8 +5805,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400369</UICCode>
-		<Lat>53.161736</Lat>
-		<Lon>6.7220883</Lon>
+		<Lat>53.1617362</Lat>
+		<Lon>6.7220882</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -5669,8 +5822,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400370</UICCode>
-		<Lat>51.465</Lat>
-		<Lon>4.0372224</Lon>
+		<Lat>51.4650001525879</Lat>
+		<Lon>4.03722238540649</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -5720,13 +5873,13 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8015458</UICCode>
-		<Lat>50.943214</Lat>
+		<Lat>50.9432158</Lat>
 		<Lon>6.9589214</Lon>
 		<Synoniemen>
 			
 			<Synoniem>Keulen</Synoniem>
 			
-			<Synoniem>Koln </Synoniem>
+			<Synoniem>Koln</Synoniem>
 			
 		</Synoniemen>
 	</Station>
@@ -5741,7 +5894,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8015559</UICCode>
-		<Lat>50.940872</Lat>
+		<Lat>50.940874</Lat>
 		<Lon>6.975001</Lon>
 		<Synoniemen>
 			
@@ -5760,8 +5913,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400382</UICCode>
-		<Lat>51.691113</Lat>
-		<Lon>4.6630554</Lon>
+		<Lat>51.6911125183105</Lat>
+		<Lon>4.66305541992188</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -5794,8 +5947,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400548</UICCode>
-		<Lat>50.89639</Lat>
-		<Lon>6.0191665</Lon>
+		<Lat>50.8963890075684</Lat>
+		<Lon>6.01916646957398</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -5845,7 +5998,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8015334</UICCode>
-		<Lat>50.817524</Lat>
+		<Lat>50.817525</Lat>
 		<Lon>6.355194</Lon>
 		<Synoniemen>
 			
@@ -5879,8 +6032,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400386</UICCode>
-		<Lat>51.894722</Lat>
-		<Lon>5.0913887</Lon>
+		<Lat>51.8947219848633</Lat>
+		<Lon>5.09138870239258</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -5896,8 +6049,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400387</UICCode>
-		<Lat>53.195835</Lat>
-		<Lon>5.792222</Lon>
+		<Lat>53.1958351135254</Lat>
+		<Lon>5.79222202301025</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -5930,8 +6083,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400389</UICCode>
-		<Lat>53.20218</Lat>
-		<Lon>5.8422966</Lon>
+		<Lat>53.2021808</Lat>
+		<Lon>5.8422968</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -5964,8 +6117,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400390</UICCode>
-		<Lat>52.16611</Lat>
-		<Lon>4.4816666</Lon>
+		<Lat>52.1661109924316</Lat>
+		<Lon>4.48166656494141</Lon>
 		<Synoniemen>
 			
 			<Synoniem>Leiden</Synoniem>
@@ -5983,8 +6136,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400384</UICCode>
-		<Lat>52.146946</Lat>
-		<Lon>4.4925</Lon>
+		<Lat>52.1469459533691</Lat>
+		<Lon>4.49249982833862</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -6000,8 +6153,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400394</UICCode>
-		<Lat>52.50778</Lat>
-		<Lon>5.472778</Lon>
+		<Lat>52.5077781677246</Lat>
+		<Lon>5.47277784347534</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -6059,16 +6212,50 @@
 	</Station>
 
 	<Station>
-		<Code>LILLE</Code>
+		<Code>LSL</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Liers</Kort>
+		  <Middel>Liers</Middel>
+		  <Lang>Liers</Lang>
+		</Namen>
+		<Land>B</Land>
+		<UICCode>8841673</UICCode>
+		<Lat>50.69822</Lat>
+		<Lon>5.56848</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>LILLEE</Code>
 		<Type>intercitystation</Type>
 		<Namen>		
 		  <Kort>Lille E.</Kort>
 		  <Middel>Lille Europe</Middel>
-		  <Lang>Lille Europe</Lang>
+		  <Lang>Lille Europe na 13 dec</Lang>
 		</Namen>
 		<Land>F</Land>
 		<UICCode>8722326</UICCode>
-		<Lat>50.639442</Lat>
+		<Lat>50.639444</Lat>
+		<Lon>3.074722</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>LILLE</Code>
+		<Type>intercitystation</Type>
+		<Namen>		
+		  <Kort>Lille-E.</Kort>
+		  <Middel>Lille-Europe</Middel>
+		  <Lang>Lille-Europe tot 14 dec</Lang>
+		</Namen>
+		<Land>F</Land>
+		<UICCode>8722326</UICCode>
+		<Lat>50.639444</Lat>
 		<Lon>3.074722</Lon>
 		<Synoniemen>
 			
@@ -6085,7 +6272,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8032572</UICCode>
-		<Lat>50.3825</Lat>
+		<Lat>50.382498</Lat>
 		<Lon>8.096112</Lon>
 		<Synoniemen>
 			
@@ -6129,6 +6316,40 @@
 	</Station>
 
 	<Station>
+		<Code>FLJ</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Liège-J.</Kort>
+		  <Middel>Liège-Jonfosse</Middel>
+		  <Lang>Liège-Jonfosse</Lang>
+		</Namen>
+		<Land>B</Land>
+		<UICCode>8841558</UICCode>
+		<Lat>50.64051</Lat>
+		<Lon>5.56197</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>FLGP</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Liège-P.</Kort>
+		  <Middel>Liège-Palais</Middel>
+		  <Lang>Liège-Palais</Lang>
+		</Namen>
+		<Land>B</Land>
+		<UICCode>8841525</UICCode>
+		<Lat>50.64648</Lat>
+		<Lon>5.57072</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
 		<Code>LC</Code>
 		<Type>stoptreinstation</Type>
 		<Namen>		
@@ -6138,8 +6359,25 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400399</UICCode>
-		<Lat>52.166668</Lat>
-		<Lon>6.4263887</Lon>
+		<Lat>52.1666679382324</Lat>
+		<Lon>6.42638874053955</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>LONDS</Code>
+		<Type>intercitystation</Type>
+		<Namen>		
+		  <Kort>London StP</Kort>
+		  <Middel>London St. Pancr</Middel>
+		  <Lang>London St. Pancras</Lang>
+		</Namen>
+		<Land>GB</Land>
+		<UICCode>7015400</UICCode>
+		<Lat>51.53239</Lat>
+		<Lon>0.12716</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -6155,7 +6393,7 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400403</UICCode>
-		<Lat>53.334713</Lat>
+		<Lat>53.3347145</Lat>
 		<Lon>6.7472625</Lon>
 		<Synoniemen>
 			
@@ -6172,8 +6410,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400405</UICCode>
-		<Lat>52.085278</Lat>
-		<Lon>5.6244445</Lon>
+		<Lat>52.085277557373</Lat>
+		<Lon>5.62444448471069</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -6227,8 +6465,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400432</UICCode>
-		<Lat>51.30376</Lat>
-		<Lon>5.630343</Lon>
+		<Lat>51.3037623603504</Lat>
+		<Lon>5.63034296035766</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -6244,8 +6482,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400417</UICCode>
-		<Lat>52.064167</Lat>
-		<Lon>5.37</Lon>
+		<Lat>52.0641670227051</Lat>
+		<Lon>5.36999988555908</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -6261,8 +6499,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400419</UICCode>
-		<Lat>52.135277</Lat>
-		<Lon>5.0336113</Lon>
+		<Lat>52.1352767944336</Lat>
+		<Lon>5.03361129760742</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -6278,8 +6516,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400422</UICCode>
-		<Lat>51.91611</Lat>
-		<Lon>4.254722</Lon>
+		<Lat>51.9161109924316</Lat>
+		<Lon>4.25472211837769</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -6295,8 +6533,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400421</UICCode>
-		<Lat>51.925835</Lat>
-		<Lon>4.236111</Lon>
+		<Lat>51.9258346557617</Lat>
+		<Lon>4.23611116409302</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -6312,8 +6550,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400424</UICCode>
-		<Lat>50.850277</Lat>
-		<Lon>5.7055554</Lon>
+		<Lat>50.8502769470215</Lat>
+		<Lon>5.70555543899536</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -6346,8 +6584,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400426</UICCode>
-		<Lat>50.83861</Lat>
-		<Lon>5.717222</Lon>
+		<Lat>50.8386116027832</Lat>
+		<Lon>5.71722221374512</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -6363,7 +6601,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8014002</UICCode>
-		<Lat>49.479355</Lat>
+		<Lat>49.479354</Lat>
 		<Lon>8.468921</Lon>
 		<Synoniemen>
 			
@@ -6380,7 +6618,7 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400427</UICCode>
-		<Lat>53.12964</Lat>
+		<Lat>53.1296368</Lat>
 		<Lon>5.7131996</Lon>
 		<Synoniemen>
 			
@@ -6397,8 +6635,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400428</UICCode>
-		<Lat>52.509445</Lat>
-		<Lon>6.575278</Lon>
+		<Lat>52.5094451904297</Lat>
+		<Lon>6.57527780532837</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -6448,8 +6686,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400430</UICCode>
-		<Lat>53.160725</Lat>
-		<Lon>6.7402987</Lon>
+		<Lat>53.1607232</Lat>
+		<Lon>6.7402989</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -6499,8 +6737,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400434</UICCode>
-		<Lat>50.88288</Lat>
-		<Lon>5.7509995</Lon>
+		<Lat>50.882879392551</Lat>
+		<Lon>5.75099945068359</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -6516,8 +6754,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400435</UICCode>
-		<Lat>52.690834</Lat>
-		<Lon>6.1975</Lon>
+		<Lat>52.6908340454102</Lat>
+		<Lon>6.19750022888184</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -6533,7 +6771,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8021151</UICCode>
-		<Lat>52.162445</Lat>
+		<Lat>52.162444</Lat>
 		<Lon>7.254423</Lon>
 		<Synoniemen>
 			
@@ -6550,8 +6788,25 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400436</UICCode>
-		<Lat>51.49472</Lat>
-		<Lon>3.6172223</Lon>
+		<Lat>51.4947204589844</Lat>
+		<Lon>3.61722230911255</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>LTM</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Milmort</Kort>
+		  <Middel>Milmort</Middel>
+		  <Lang>Milmort</Lang>
+		</Namen>
+		<Land>B</Land>
+		<UICCode>8841665</UICCode>
+		<Lat>50.69301</Lat>
+		<Lon>5.59983</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -6567,7 +6822,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8013578</UICCode>
-		<Lat>52.29014</Lat>
+		<Lat>52.290138</Lat>
 		<Lon>8.934728</Lon>
 		<Synoniemen>
 			
@@ -6584,7 +6839,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8019585</UICCode>
-		<Lat>50.444836</Lat>
+		<Lat>50.444834</Lat>
 		<Lon>7.825333</Lon>
 		<Synoniemen>
 			
@@ -6635,7 +6890,7 @@
 		</Namen>
 		<Land>B</Land>
 		<UICCode>8821238</UICCode>
-		<Lat>51.171112</Lat>
+		<Lat>51.171111</Lat>
 		<Lon>4.455833</Lon>
 		<Synoniemen>
 			
@@ -6688,8 +6943,8 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8020347</UICCode>
-		<Lat>48.1402</Lat>
-		<Lon>11.558347</Lon>
+		<Lat>48.1402033359505</Lat>
+		<Lon>11.558346748352</Lon>
 		<Synoniemen>
 			
 			<Synoniem>Munchen</Synoniem>
@@ -6707,7 +6962,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8021011</UICCode>
-		<Lat>51.95689</Lat>
+		<Lat>51.956892</Lat>
 		<Lon>7.635895</Lon>
 		<Synoniemen>
 			
@@ -6726,7 +6981,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8023783</UICCode>
-		<Lat>51.984985</Lat>
+		<Lat>51.984987</Lat>
 		<Lon>7.63861</Lon>
 		<Synoniemen>
 			
@@ -6764,8 +7019,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400452</UICCode>
-		<Lat>52.280277</Lat>
-		<Lon>5.1569443</Lon>
+		<Lat>52.2802772521973</Lat>
+		<Lon>5.15694427490234</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -6815,8 +7070,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400454</UICCode>
-		<Lat>52.718613</Lat>
-		<Lon>6.848611</Lon>
+		<Lat>52.7186126708984</Lat>
+		<Lon>6.84861087799072</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -6832,8 +7087,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400460</UICCode>
-		<Lat>52.25889</Lat>
-		<Lon>4.6455555</Lon>
+		<Lat>52.2588882446289</Lat>
+		<Lon>4.64555549621582</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -6849,8 +7104,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400455</UICCode>
-		<Lat>51.96528</Lat>
-		<Lon>4.6169443</Lon>
+		<Lat>51.9652786254883</Lat>
+		<Lon>4.61694431304932</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -6866,8 +7121,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400469</UICCode>
-		<Lat>52.22222</Lat>
-		<Lon>5.493889</Lon>
+		<Lat>52.2222213745117</Lat>
+		<Lon>5.49388885498047</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -6883,8 +7138,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400470</UICCode>
-		<Lat>51.843613</Lat>
-		<Lon>5.8522224</Lon>
+		<Lat>51.8436126708984</Lat>
+		<Lon>5.85222244262695</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -6895,13 +7150,30 @@
 		<Type>stoptreinstation</Type>
 		<Namen>		
 		  <Kort>Dukenburg</Kort>
-		  <Middel>Nm Dukenburg</Middel>
+		  <Middel>Dukenburg</Middel>
 		  <Lang>Nijmegen Dukenburg</Lang>
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400475</UICCode>
-		<Lat>51.824165</Lat>
-		<Lon>5.7955556</Lon>
+		<Lat>51.8241653442383</Lat>
+		<Lon>5.79555559158325</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>NMGO</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Goffert</Kort>
+		  <Middel>Nijmegen Goffert</Middel>
+		  <Lang>Nijmegen Goffert</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400477</UICCode>
+		<Lat>51.8273</Lat>
+		<Lon>5.822722</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -6917,8 +7189,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400468</UICCode>
-		<Lat>51.826946</Lat>
-		<Lon>5.8675</Lon>
+		<Lat>51.8269462585449</Lat>
+		<Lon>5.86749982833862</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -6929,7 +7201,7 @@
 		<Type>stoptreinstation</Type>
 		<Namen>		
 		  <Kort>Lent</Kort>
-		  <Middel>Lent</Middel>
+		  <Middel>Nijmegen Lent</Middel>
 		  <Lang>Nijmegen Lent</Lang>
 		</Namen>
 		<Land>NL</Land>
@@ -6985,8 +7257,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400466</UICCode>
-		<Lat>52.370834</Lat>
-		<Lon>5.785278</Lon>
+		<Lat>52.3708343505859</Lat>
+		<Lon>5.78527784347534</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7002,8 +7274,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400467</UICCode>
-		<Lat>50.919445</Lat>
-		<Lon>5.892778</Lon>
+		<Lat>50.9194450378418</Lat>
+		<Lon>5.89277791976929</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7019,8 +7291,8 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8022194</UICCode>
-		<Lat>49.44496</Lat>
-		<Lon>11.082609</Lon>
+		<Lat>49.4449634</Lat>
+		<Lon>11.0826087</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7036,8 +7308,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400480</UICCode>
-		<Lat>52.678055</Lat>
-		<Lon>4.9072223</Lon>
+		<Lat>52.6780548095703</Lat>
+		<Lon>4.90722227096558</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7070,7 +7342,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8021152</UICCode>
-		<Lat>52.201702</Lat>
+		<Lat>52.201703</Lat>
 		<Lon>7.182643</Lon>
 		<Synoniemen>
 			
@@ -7104,8 +7376,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400482</UICCode>
-		<Lat>51.582222</Lat>
-		<Lon>5.1941667</Lon>
+		<Lat>51.5822219848633</Lat>
+		<Lon>5.19416666030884</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7121,8 +7393,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400483</UICCode>
-		<Lat>52.30639</Lat>
-		<Lon>6.9347224</Lon>
+		<Lat>52.3063888549805</Lat>
+		<Lon>6.93472242355347</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7138,8 +7410,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400486</UICCode>
-		<Lat>52.33472</Lat>
-		<Lon>6.1130557</Lon>
+		<Lat>52.3347206115723</Lat>
+		<Lon>6.11305570602417</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7155,25 +7427,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400487</UICCode>
-		<Lat>52.509445</Lat>
-		<Lon>6.4158335</Lon>
-		<Synoniemen>
-			
-		</Synoniemen>
-	</Station>
-
-	<Station>
-		<Code>OLV</Code>
-		<Type>facultatiefStation</Type>
-		<Namen>		
-		  <Kort>Lieve Vrou</Kort>
-		  <Middel>OLV. ter Nood</Middel>
-		  <Lang>Onze Lieve Vrouwe t. Nood</Lang>
-		</Namen>
-		<Land>NL</Land>
-		<UICCode>8400997</UICCode>
-		<Lat>52.583332</Lat>
-		<Lon>4.686667</Lon>
+		<Lat>52.5094451904297</Lat>
+		<Lon>6.41583347320557</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7189,8 +7444,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400489</UICCode>
-		<Lat>51.995</Lat>
-		<Lon>5.84</Lon>
+		<Lat>51.9949989318848</Lat>
+		<Lon>5.84000015258789</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7206,7 +7461,7 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400494</UICCode>
-		<Lat>51.926163</Lat>
+		<Lat>51.9261615</Lat>
 		<Lon>5.6371145</Lon>
 		<Synoniemen>
 			
@@ -7223,7 +7478,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8021025</UICCode>
-		<Lat>52.27285</Lat>
+		<Lat>52.272851</Lat>
 		<Lon>8.061781</Lon>
 		<Synoniemen>
 			
@@ -7240,8 +7495,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400495</UICCode>
-		<Lat>51.765556</Lat>
-		<Lon>5.5322223</Lon>
+		<Lat>51.7655563354492</Lat>
+		<Lon>5.53222227096558</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7257,8 +7512,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400496</UICCode>
-		<Lat>51.758057</Lat>
-		<Lon>5.5055556</Lon>
+		<Lat>51.758056640625</Lat>
+		<Lon>5.50555562973022</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7274,8 +7529,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400498</UICCode>
-		<Lat>51.587776</Lat>
-		<Lon>4.5333333</Lon>
+		<Lat>51.587776184082</Lat>
+		<Lon>4.53333330154419</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7291,8 +7546,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400501</UICCode>
-		<Lat>52.39111</Lat>
-		<Lon>4.606111</Lon>
+		<Lat>52.3911094665527</Lat>
+		<Lon>4.6061110496521</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7412,8 +7667,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400508</UICCode>
-		<Lat>52.503056</Lat>
-		<Lon>4.953611</Lon>
+		<Lat>52.5030555725098</Lat>
+		<Lon>4.95361089706421</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7429,8 +7684,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400506</UICCode>
-		<Lat>52.51139</Lat>
-		<Lon>4.9683332</Lon>
+		<Lat>52.5113906860352</Lat>
+		<Lon>4.96833324432373</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7446,8 +7701,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400499</UICCode>
-		<Lat>52.49659</Lat>
-		<Lon>4.9356294</Lon>
+		<Lat>52.4965906325416</Lat>
+		<Lon>4.93562936782836</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7463,8 +7718,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400509</UICCode>
-		<Lat>52.265</Lat>
-		<Lon>5.575278</Lon>
+		<Lat>52.2649993896484</Lat>
+		<Lon>5.57527780532837</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7497,8 +7752,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400513</UICCode>
-		<Lat>52.391666</Lat>
-		<Lon>6.2775</Lon>
+		<Lat>52.3916664123535</Lat>
+		<Lon>6.27750015258789</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7514,8 +7769,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400515</UICCode>
-		<Lat>51.794167</Lat>
-		<Lon>5.6358333</Lon>
+		<Lat>51.7941665649414</Lat>
+		<Lon>5.63583326339722</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7531,8 +7786,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400518</UICCode>
-		<Lat>51.28322</Lat>
-		<Lon>6.0789585</Lon>
+		<Lat>51.2832191665301</Lat>
+		<Lon>6.07895851135253</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7548,8 +7803,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400519</UICCode>
-		<Lat>52.01</Lat>
-		<Lon>6.0305557</Lon>
+		<Lat>52.0099983215332</Lat>
+		<Lon>6.03055572509766</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7565,7 +7820,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8021067</UICCode>
-		<Lat>52.2763</Lat>
+		<Lat>52.276299</Lat>
 		<Lon>7.434255</Lon>
 		<Synoniemen>
 			
@@ -7582,8 +7837,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400517</UICCode>
-		<Lat>51.95861</Lat>
-		<Lon>5.5783334</Lon>
+		<Lat>51.958610534668</Lat>
+		<Lon>5.57833337783814</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7599,8 +7854,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400538</UICCode>
-		<Lat>52.31222</Lat>
-		<Lon>6.520278</Lon>
+		<Lat>52.3122215270996</Lat>
+		<Lon>6.52027797698975</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7616,8 +7871,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400505</UICCode>
-		<Lat>52.039722</Lat>
-		<Lon>4.3191667</Lon>
+		<Lat>52.039722442627</Lat>
+		<Lon>4.31916666030884</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7633,8 +7888,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400521</UICCode>
-		<Lat>51.42278</Lat>
-		<Lon>4.161111</Lon>
+		<Lat>51.422779083252</Lat>
+		<Lon>4.16111087799072</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7650,8 +7905,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400523</UICCode>
-		<Lat>51.193054</Lat>
-		<Lon>5.994167</Lon>
+		<Lat>51.1930541992188</Lat>
+		<Lon>5.9941668510437</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7667,8 +7922,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400525</UICCode>
-		<Lat>53.419212</Lat>
-		<Lon>6.760617</Lon>
+		<Lat>53.4192128</Lat>
+		<Lon>6.7606167</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7684,8 +7939,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400526</UICCode>
-		<Lat>51.54028</Lat>
-		<Lon>4.4583335</Lon>
+		<Lat>51.5402793884277</Lat>
+		<Lon>4.45833349227905</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7701,8 +7956,8 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8021121</UICCode>
-		<Lat>51.999466</Lat>
-		<Lon>7.121501</Lon>
+		<Lat>51.9994672604096</Lat>
+		<Lon>7.1215009689331</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7718,8 +7973,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400524</UICCode>
-		<Lat>51.71472</Lat>
-		<Lon>5.3680553</Lon>
+		<Lat>51.7147216796875</Lat>
+		<Lon>5.36805534362793</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7735,8 +7990,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400507</UICCode>
-		<Lat>51.951946</Lat>
-		<Lon>4.5536113</Lon>
+		<Lat>51.9519462585449</Lat>
+		<Lon>4.55361127853394</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7747,13 +8002,13 @@
 		<Type>intercitystation</Type>
 		<Namen>		
 		  <Kort>Blaak</Kort>
-		  <Middel>Blaak</Middel>
+		  <Middel>Rotterdam Blaak</Middel>
 		  <Lang>Rotterdam Blaak</Lang>
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400529</UICCode>
-		<Lat>51.920277</Lat>
-		<Lon>4.4888887</Lon>
+		<Lat>51.9202766418457</Lat>
+		<Lon>4.48888874053955</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7769,8 +8024,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400530</UICCode>
-		<Lat>51.925</Lat>
-		<Lon>4.4688888</Lon>
+		<Lat>51.9249992370605</Lat>
+		<Lon>4.46888875961304</Lon>
 		<Synoniemen>
 			
 			<Synoniem>Rotterdam</Synoniem>
@@ -7788,8 +8043,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400542</UICCode>
-		<Lat>51.88</Lat>
-		<Lon>4.5313888</Lon>
+		<Lat>51.8800010681152</Lat>
+		<Lon>4.53138875961304</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7805,8 +8060,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400531</UICCode>
-		<Lat>51.942223</Lat>
-		<Lon>4.4816666</Lon>
+		<Lat>51.9422225952148</Lat>
+		<Lon>4.48166656494141</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7822,8 +8077,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400534</UICCode>
-		<Lat>51.89389</Lat>
-		<Lon>4.519722</Lon>
+		<Lat>51.8938903808594</Lat>
+		<Lon>4.51972198486328</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7839,8 +8094,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400533</UICCode>
-		<Lat>51.904446</Lat>
-		<Lon>4.5102777</Lon>
+		<Lat>51.9044456481934</Lat>
+		<Lon>4.51027774810791</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7873,8 +8128,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400537</UICCode>
-		<Lat>52.08109</Lat>
-		<Lon>6.4492655</Lon>
+		<Lat>52.0810888</Lat>
+		<Lon>6.4492656</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7924,8 +8179,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400543</UICCode>
-		<Lat>52.433887</Lat>
-		<Lon>4.6325</Lon>
+		<Lat>52.4338874816895</Lat>
+		<Lon>4.63250017166138</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7941,8 +8196,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400544</UICCode>
-		<Lat>52.419724</Lat>
-		<Lon>4.6313887</Lon>
+		<Lat>52.4197235107422</Lat>
+		<Lon>4.63138866424561</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7958,8 +8213,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400545</UICCode>
-		<Lat>53.158916</Lat>
-		<Lon>6.7955647</Lon>
+		<Lat>53.1589183</Lat>
+		<Lon>6.7955648</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -7975,7 +8230,7 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400603</UICCode>
-		<Lat>52.21528</Lat>
+		<Lat>52.215278</Lat>
 		<Lon>4.517222</Lon>
 		<Synoniemen>
 			
@@ -8009,8 +8264,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400549</UICCode>
-		<Lat>52.784443</Lat>
-		<Lon>4.805278</Lon>
+		<Lat>52.7844429016113</Lat>
+		<Lon>4.80527782440186</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -8026,7 +8281,7 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400551</UICCode>
-		<Lat>53.165535</Lat>
+		<Lat>53.1655362</Lat>
 		<Lon>6.9777775</Lon>
 		<Synoniemen>
 			
@@ -8060,8 +8315,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400553</UICCode>
-		<Lat>51.921246</Lat>
-		<Lon>4.4089937</Lon>
+		<Lat>51.9212438128032</Lat>
+		<Lon>4.4089937210083</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -8077,8 +8332,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400563</UICCode>
-		<Lat>51.922222</Lat>
-		<Lon>4.382222</Lon>
+		<Lat>51.9222221374512</Lat>
+		<Lon>4.38222217559814</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -8094,8 +8349,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400555</UICCode>
-		<Lat>50.856388</Lat>
-		<Lon>5.8722224</Lon>
+		<Lat>50.856388092041</Lat>
+		<Lon>5.87222242355347</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -8111,8 +8366,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400554</UICCode>
-		<Lat>50.939167</Lat>
-		<Lon>5.8744445</Lon>
+		<Lat>50.9391670227051</Lat>
+		<Lon>5.87444448471069</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -8128,8 +8383,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400561</UICCode>
-		<Lat>52.309444</Lat>
-		<Lon>4.7619443</Lon>
+		<Lat>52.3094444274902</Lat>
+		<Lon>4.76194429397583</Lon>
 		<Synoniemen>
 			
 			<Synoniem>Amsterdam Airport</Synoniem>
@@ -8164,7 +8419,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8008136</UICCode>
-		<Lat>51.290527</Lat>
+		<Lat>51.290526</Lat>
 		<Lon>7.289681</Lon>
 		<Synoniemen>
 			
@@ -8181,7 +8436,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8008016</UICCode>
-		<Lat>51.44228</Lat>
+		<Lat>51.442281</Lat>
 		<Lon>7.55896</Lon>
 		<Synoniemen>
 			
@@ -8198,7 +8453,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8021112</UICCode>
-		<Lat>51.707886</Lat>
+		<Lat>51.707885</Lat>
 		<Lon>7.453396</Lon>
 		<Synoniemen>
 			
@@ -8232,8 +8487,8 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8015588</UICCode>
-		<Lat>50.79394</Lat>
-		<Lon>7.2030015</Lon>
+		<Lat>50.7939411</Lat>
+		<Lon>7.2030017</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -8249,8 +8504,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400559</UICCode>
-		<Lat>50.831474</Lat>
-		<Lon>5.979738</Lon>
+		<Lat>50.8314750744184</Lat>
+		<Lon>5.97973823547363</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -8283,8 +8538,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400564</UICCode>
-		<Lat>51.001667</Lat>
-		<Lon>5.858611</Lon>
+		<Lat>51.0016670227051</Lat>
+		<Lon>5.85861110687256</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -8300,8 +8555,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400565</UICCode>
-		<Lat>51.829723</Lat>
-		<Lon>4.778333</Lon>
+		<Lat>51.8297233581543</Lat>
+		<Lon>4.77833318710327</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -8317,7 +8572,7 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400497</UICCode>
-		<Lat>51.829723</Lat>
+		<Lat>51.829722</Lat>
 		<Lon>4.743333</Lon>
 		<Synoniemen>
 			
@@ -8334,8 +8589,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400566</UICCode>
-		<Lat>53.032867</Lat>
-		<Lon>5.6523967</Lon>
+		<Lat>53.0328688</Lat>
+		<Lon>5.6523969</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -8351,8 +8606,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400574</UICCode>
-		<Lat>53.04093</Lat>
-		<Lon>5.663181</Lon>
+		<Lat>53.0409319</Lat>
+		<Lon>5.6631808</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -8368,8 +8623,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400567</UICCode>
-		<Lat>52.173332</Lat>
-		<Lon>5.31</Lon>
+		<Lat>52.1733322143555</Lat>
+		<Lon>5.30999994277954</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -8385,8 +8640,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400571</UICCode>
-		<Lat>52.16528</Lat>
-		<Lon>5.303056</Lon>
+		<Lat>52.1652793884277</Lat>
+		<Lon>5.30305576324463</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -8402,8 +8657,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400569</UICCode>
-		<Lat>52.183613</Lat>
-		<Lon>5.3</Lon>
+		<Lat>52.1836128234863</Lat>
+		<Lon>5.30000019073486</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -8419,8 +8674,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400572</UICCode>
-		<Lat>50.943054</Lat>
-		<Lon>5.8516665</Lon>
+		<Lat>50.9430541992188</Lat>
+		<Lon>5.85166645050049</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -8504,8 +8759,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400575</UICCode>
-		<Lat>52.886555</Lat>
-		<Lon>5.360021</Lon>
+		<Lat>52.8865535</Lat>
+		<Lon>5.3600212</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -8521,8 +8776,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400576</UICCode>
-		<Lat>53.32621</Lat>
-		<Lon>6.6875553</Lon>
+		<Lat>53.3262092</Lat>
+		<Lon>6.6875551</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -8538,8 +8793,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400578</UICCode>
-		<Lat>52.79151</Lat>
-		<Lon>6.114556</Lon>
+		<Lat>52.7915109924316</Lat>
+		<Lon>6.11455576324463</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -8555,7 +8810,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8071069</UICCode>
-		<Lat>52.12344</Lat>
+		<Lat>52.123439</Lat>
 		<Lon>7.376031</Lon>
 		<Synoniemen>
 			
@@ -8572,7 +8827,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8021150</UICCode>
-		<Lat>52.11879</Lat>
+		<Lat>52.118791</Lat>
 		<Lon>7.397581</Lon>
 		<Synoniemen>
 			
@@ -8589,7 +8844,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8021143</UICCode>
-		<Lat>52.147385</Lat>
+		<Lat>52.147384</Lat>
 		<Lon>7.32934</Lon>
 		<Synoniemen>
 			
@@ -8623,7 +8878,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8037164</UICCode>
-		<Lat>50.76394</Lat>
+		<Lat>50.763938</Lat>
 		<Lon>6.230287</Lon>
 		<Synoniemen>
 			
@@ -8657,7 +8912,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8015338</UICCode>
-		<Lat>50.794918</Lat>
+		<Lat>50.794917</Lat>
 		<Lon>6.218432</Lon>
 		<Synoniemen>
 			
@@ -8674,7 +8929,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8037162</UICCode>
-		<Lat>50.77359</Lat>
+		<Lat>50.773589</Lat>
 		<Lon>6.223898</Lon>
 		<Synoniemen>
 			
@@ -8691,7 +8946,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8037156</UICCode>
-		<Lat>50.768772</Lat>
+		<Lat>50.768774</Lat>
 		<Lon>6.229604</Lon>
 		<Synoniemen>
 			
@@ -8742,8 +8997,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400582</UICCode>
-		<Lat>51.06139</Lat>
-		<Lon>5.8630557</Lon>
+		<Lat>51.0613899230957</Lat>
+		<Lon>5.86305570602417</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -8810,8 +9065,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400592</UICCode>
-		<Lat>51.922455</Lat>
-		<Lon>6.3642464</Lon>
+		<Lat>51.9224549</Lat>
+		<Lon>6.3642466</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -8827,8 +9082,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400596</UICCode>
-		<Lat>51.889446</Lat>
-		<Lon>5.422222</Lon>
+		<Lat>51.8894462585449</Lat>
+		<Lon>5.42222213745117</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -8839,13 +9094,13 @@
 		<Type>stoptreinstation</Type>
 		<Namen>		
 		  <Kort>Passewaaij</Kort>
-		  <Middel>Passewaaij</Middel>
+		  <Middel>Tiel Passewaaij</Middel>
 		  <Lang>Tiel Passewaaij</Lang>
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400600</UICCode>
-		<Lat>51.87389</Lat>
-		<Lon>5.3922224</Lon>
+		<Lat>51.8738899230957</Lat>
+		<Lon>5.39222240447998</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -8861,8 +9116,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400597</UICCode>
-		<Lat>51.560555</Lat>
-		<Lon>5.083611</Lon>
+		<Lat>51.5605545043945</Lat>
+		<Lon>5.08361101150513</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -8873,13 +9128,13 @@
 		<Type>stoptreinstation</Type>
 		<Namen>		
 		  <Kort>Reeshof</Kort>
-		  <Middel>Reeshof</Middel>
+		  <Middel>Tilburg Reeshof</Middel>
 		  <Lang>Tilburg Reeshof</Lang>
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400598</UICCode>
-		<Lat>51.573612</Lat>
-		<Lon>4.9944444</Lon>
+		<Lat>51.5736122131348</Lat>
+		<Lon>4.99444437026978</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -8895,8 +9150,25 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400594</UICCode>
-		<Lat>51.565</Lat>
-		<Lon>5.051111</Lon>
+		<Lat>51.564998626709</Lat>
+		<Lon>5.05111122131348</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>FTG</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Tongeren</Kort>
+		  <Middel>Tongeren</Middel>
+		  <Lang>Tongeren</Lang>
+		</Namen>
+		<Land>B</Land>
+		<UICCode>8831310</UICCode>
+		<Lat>50.784167</Lat>
+		<Lon>5.473056</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -8912,8 +9184,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400599</UICCode>
-		<Lat>52.237778</Lat>
-		<Lon>6.098611</Lon>
+		<Lat>52.2377777099609</Lat>
+		<Lon>6.09861087799072</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -8929,8 +9201,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400615</UICCode>
-		<Lat>52.521667</Lat>
-		<Lon>4.701667</Lon>
+		<Lat>52.5216674804687</Lat>
+		<Lon>4.70166683197022</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -8946,8 +9218,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400617</UICCode>
-		<Lat>53.409958</Lat>
-		<Lon>6.6748867</Lon>
+		<Lat>53.4099568</Lat>
+		<Lon>6.6748869</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -8963,8 +9235,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400618</UICCode>
-		<Lat>53.414585</Lat>
-		<Lon>6.7202973</Lon>
+		<Lat>53.4145845</Lat>
+		<Lon>6.7202975</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -8980,7 +9252,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8029103</UICCode>
-		<Lat>48.399014</Lat>
+		<Lat>48.399015</Lat>
 		<Lon>9.982165</Lon>
 		<Synoniemen>
 			
@@ -8997,8 +9269,8 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8010382</UICCode>
-		<Lat>51.53858</Lat>
-		<Lon>7.695306</Lon>
+		<Lat>51.5385828</Lat>
+		<Lon>7.6953056</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -9014,8 +9286,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400619</UICCode>
-		<Lat>53.401474</Lat>
-		<Lon>6.6093774</Lon>
+		<Lat>53.4014742</Lat>
+		<Lon>6.6093776</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -9048,8 +9320,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400621</UICCode>
-		<Lat>52.08889</Lat>
-		<Lon>5.1102777</Lon>
+		<Lat>52.0888900756836</Lat>
+		<Lon>5.11027765274048</Lon>
 		<Synoniemen>
 			
 			<Synoniem>Utrecht</Synoniem>
@@ -9079,13 +9351,13 @@
 		<Type>stoptreinstation</Type>
 		<Namen>		
 		  <Kort>Lunetten</Kort>
-		  <Middel>Lunetten</Middel>
+		  <Middel>Utrecht Lunetten</Middel>
 		  <Lang>Utrecht Lunetten</Lang>
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400623</UICCode>
-		<Lat>52.065556</Lat>
-		<Lon>5.1441665</Lon>
+		<Lat>52.0655555725098</Lat>
+		<Lon>5.14416646957397</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -9101,8 +9373,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400624</UICCode>
-		<Lat>52.087776</Lat>
-		<Lon>5.1313887</Lon>
+		<Lat>52.087776184082</Lat>
+		<Lon>5.13138866424561</Lon>
 		<Synoniemen>
 			
 			<Synoniem>Spoorwegmuseum</Synoniem>
@@ -9120,8 +9392,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400620</UICCode>
-		<Lat>52.11</Lat>
-		<Lon>5.124722</Lon>
+		<Lat>52.1100006103516</Lat>
+		<Lon>5.12472200393677</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -9132,13 +9404,13 @@
 		<Type>stoptreinstation</Type>
 		<Namen>		
 		  <Kort>Terwijde</Kort>
-		  <Middel>Terwijde</Middel>
+		  <Middel>Utrecht Terwijde</Middel>
 		  <Lang>Utrecht Terwijde</Lang>
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400614</UICCode>
-		<Lat>52.100555</Lat>
-		<Lon>5.0416665</Lon>
+		<Lat>52.1005554199219</Lat>
+		<Lon>5.04166650772095</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -9149,12 +9421,12 @@
 		<Type>stoptreinstation</Type>
 		<Namen>		
 		  <Kort>Zuilen</Kort>
-		  <Middel>Zuilen</Middel>
+		  <Middel>Utrecht Zuilen</Middel>
 		  <Lang>Utrecht Zuilen</Lang>
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400613</UICCode>
-		<Lat>52.103054</Lat>
+		<Lat>52.103055</Lat>
 		<Lon>5.09</Lon>
 		<Synoniemen>
 			
@@ -9188,8 +9460,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400632</UICCode>
-		<Lat>50.86972</Lat>
-		<Lon>5.832222</Lon>
+		<Lat>50.8697204589844</Lat>
+		<Lon>5.83222198486328</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -9205,7 +9477,7 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400635</UICCode>
-		<Lat>51.937256</Lat>
+		<Lat>51.937257</Lat>
 		<Lon>6.458839</Lon>
 		<Synoniemen>
 			
@@ -9239,8 +9511,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400627</UICCode>
-		<Lat>52.02</Lat>
-		<Lon>5.548611</Lon>
+		<Lat>52.0200004577637</Lat>
+		<Lon>5.54861116409302</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -9256,8 +9528,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400628</UICCode>
-		<Lat>52.028057</Lat>
-		<Lon>5.5313888</Lon>
+		<Lat>52.0280570983887</Lat>
+		<Lon>5.53138875961304</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -9273,8 +9545,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400637</UICCode>
-		<Lat>52.045834</Lat>
-		<Lon>5.573889</Lon>
+		<Lat>52.0458335876465</Lat>
+		<Lon>5.57388877868652</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -9290,8 +9562,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400638</UICCode>
-		<Lat>53.235184</Lat>
-		<Lon>5.9886613</Lon>
+		<Lat>53.2351834</Lat>
+		<Lon>5.9886615</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -9307,8 +9579,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400640</UICCode>
-		<Lat>51.99472</Lat>
-		<Lon>5.980278</Lon>
+		<Lat>51.9947204589844</Lat>
+		<Lon>5.98027801513672</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -9324,8 +9596,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400644</UICCode>
-		<Lat>51.36361</Lat>
-		<Lon>6.1727777</Lon>
+		<Lat>51.3636093139648</Lat>
+		<Lon>6.17277765274048</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -9341,8 +9613,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400646</UICCode>
-		<Lat>51.52657</Lat>
-		<Lon>6.014178</Lon>
+		<Lat>51.526568099007</Lat>
+		<Lon>6.01417779922485</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -9409,8 +9681,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400650</UICCode>
-		<Lat>51.903057</Lat>
-		<Lon>4.3441668</Lon>
+		<Lat>51.9030570983887</Lat>
+		<Lon>4.34416675567627</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -9426,8 +9698,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400649</UICCode>
-		<Lat>51.91028</Lat>
-		<Lon>4.3616667</Lon>
+		<Lat>51.9102783203125</Lat>
+		<Lon>4.36166667938232</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -9443,8 +9715,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400642</UICCode>
-		<Lat>51.904167</Lat>
-		<Lon>4.3130555</Lon>
+		<Lat>51.904167175293</Lat>
+		<Lon>4.31305551528931</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -9460,8 +9732,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400651</UICCode>
-		<Lat>52.103054</Lat>
-		<Lon>5.0108333</Lon>
+		<Lat>52.1030540466309</Lat>
+		<Lon>5.01083326339722</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -9477,8 +9749,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400652</UICCode>
-		<Lat>51.445835</Lat>
-		<Lon>3.5952778</Lon>
+		<Lat>51.4458351135254</Lat>
+		<Lon>3.59527778625488</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -9494,8 +9766,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400653</UICCode>
-		<Lat>51.46472</Lat>
-		<Lon>3.5952778</Lon>
+		<Lat>51.4647216796875</Lat>
+		<Lon>3.59527778625488</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -9511,8 +9783,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400656</UICCode>
-		<Lat>50.887222</Lat>
-		<Lon>5.930278</Lon>
+		<Lat>50.8872222900391</Lat>
+		<Lon>5.93027782440186</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -9528,8 +9800,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400658</UICCode>
-		<Lat>52.066666</Lat>
-		<Lon>4.3594446</Lon>
+		<Lat>52.0666656494141</Lat>
+		<Lon>4.3594446182251</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -9545,8 +9817,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400655</UICCode>
-		<Lat>52.224445</Lat>
-		<Lon>4.4844446</Lon>
+		<Lat>52.2244453430176</Lat>
+		<Lon>4.4844446182251</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -9562,8 +9834,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400659</UICCode>
-		<Lat>52.12528</Lat>
-		<Lon>4.4325</Lon>
+		<Lat>52.1252784729004</Lat>
+		<Lon>4.43249988555908</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -9579,8 +9851,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400668</UICCode>
-		<Lat>52.1575</Lat>
-		<Lon>6.143611</Lon>
+		<Lat>52.1575012207031</Lat>
+		<Lon>6.14361095428467</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -9596,7 +9868,7 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400661</UICCode>
-		<Lat>52.107193</Lat>
+		<Lat>52.1071949</Lat>
 		<Lon>6.3170457</Lon>
 		<Synoniemen>
 			
@@ -9630,8 +9902,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400666</UICCode>
-		<Lat>52.45719</Lat>
-		<Lon>6.569668</Lon>
+		<Lat>52.4571921</Lat>
+		<Lon>6.5696679</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -9647,8 +9919,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400667</UICCode>
-		<Lat>51.655556</Lat>
-		<Lon>5.2919445</Lon>
+		<Lat>51.6555557250977</Lat>
+		<Lon>5.29194450378418</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -9664,8 +9936,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400675</UICCode>
-		<Lat>52.044167</Lat>
-		<Lon>4.649722</Lon>
+		<Lat>52.0441665649414</Lat>
+		<Lon>4.6497220993042</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -9681,8 +9953,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400674</UICCode>
-		<Lat>52.055</Lat>
-		<Lon>4.6483335</Lon>
+		<Lat>52.0550003051758</Lat>
+		<Lon>4.64833354949951</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -9698,8 +9970,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400679</UICCode>
-		<Lat>53.390842</Lat>
-		<Lon>6.5671363</Lon>
+		<Lat>53.3908431</Lat>
+		<Lon>6.5671364</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -9766,8 +10038,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400684</UICCode>
-		<Lat>51.24861</Lat>
-		<Lon>5.703611</Lon>
+		<Lat>51.2486114501953</Lat>
+		<Lon>5.70361089706421</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -9783,8 +10055,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400685</UICCode>
-		<Lat>52.31278</Lat>
-		<Lon>5.0430555</Lon>
+		<Lat>52.3127784729004</Lat>
+		<Lon>5.04305553436279</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -9800,7 +10072,7 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400686</UICCode>
-		<Lat>51.957806</Lat>
+		<Lat>51.9578065</Lat>
 		<Lon>6.213844</Lon>
 		<Synoniemen>
 			
@@ -9834,8 +10106,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400690</UICCode>
-		<Lat>52.454166</Lat>
-		<Lon>6.0025</Lon>
+		<Lat>52.4541664123535</Lat>
+		<Lon>6.00250005722046</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -9868,8 +10140,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400691</UICCode>
-		<Lat>52.36139</Lat>
-		<Lon>6.5916667</Lon>
+		<Lat>52.3613891601562</Lat>
+		<Lon>6.59166669845581</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -9885,8 +10157,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400710</UICCode>
-		<Lat>51.81167</Lat>
-		<Lon>5.7308335</Lon>
+		<Lat>51.8116683959961</Lat>
+		<Lon>5.73083353042603</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -9902,8 +10174,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400711</UICCode>
-		<Lat>52.390278</Lat>
-		<Lon>6.1405554</Lon>
+		<Lat>52.3902778625488</Lat>
+		<Lon>6.1405553817749</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -9919,8 +10191,8 @@
 		</Namen>
 		<Land>B</Land>
 		<UICCode>8821436</UICCode>
-		<Lat>51.427708</Lat>
-		<Lon>4.463396</Lon>
+		<Lat>51.4277061</Lat>
+		<Lon>4.4633962</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -9936,7 +10208,7 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400696</UICCode>
-		<Lat>53.139236</Lat>
+		<Lat>53.1392377</Lat>
 		<Lon>7.035101</Lon>
 		<Synoniemen>
 			
@@ -9953,8 +10225,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400697</UICCode>
-		<Lat>53.3301</Lat>
-		<Lon>6.5202904</Lon>
+		<Lat>53.3300994</Lat>
+		<Lon>6.5202905</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -9970,8 +10242,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400698</UICCode>
-		<Lat>51.96773</Lat>
-		<Lon>6.715518</Lon>
+		<Lat>51.9677307</Lat>
+		<Lon>6.7155181</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -10004,8 +10276,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400702</UICCode>
-		<Lat>52.085</Lat>
-		<Lon>4.893611</Lon>
+		<Lat>52.0849990844727</Lat>
+		<Lon>4.89361095428467</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -10021,8 +10293,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400704</UICCode>
-		<Lat>52.005554</Lat>
-		<Lon>5.793611</Lon>
+		<Lat>52.0055541992188</Lat>
+		<Lon>5.7936110496521</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -10038,7 +10310,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8013017</UICCode>
-		<Lat>52.429493</Lat>
+		<Lat>52.429492</Lat>
 		<Lon>10.788195</Lon>
 		<Synoniemen>
 			
@@ -10055,8 +10327,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400705</UICCode>
-		<Lat>52.880833</Lat>
-		<Lon>6.003611</Lon>
+		<Lat>52.8808326721191</Lat>
+		<Lon>6.00361108779907</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -10072,7 +10344,7 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400706</UICCode>
-		<Lat>52.972485</Lat>
+		<Lat>52.9724864</Lat>
 		<Lon>5.4564285</Lon>
 		<Synoniemen>
 			
@@ -10089,8 +10361,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400707</UICCode>
-		<Lat>52.489166</Lat>
-		<Lon>4.792222</Lon>
+		<Lat>52.4891662597656</Lat>
+		<Lon>4.79222202301025</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -10140,7 +10412,7 @@
 		</Namen>
 		<Land>D</Land>
 		<UICCode>8008138</UICCode>
-		<Lat>51.273838</Lat>
+		<Lat>51.273839</Lat>
 		<Lon>7.221483</Lon>
 		<Synoniemen>
 			
@@ -10210,8 +10482,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400731</UICCode>
-		<Lat>52.43889</Lat>
-		<Lon>4.813611</Lon>
+		<Lat>52.4388885498047</Lat>
+		<Lon>4.81361103057861</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -10227,8 +10499,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400728</UICCode>
-		<Lat>52.456665</Lat>
-		<Lon>4.8202777</Lon>
+		<Lat>52.4566650390625</Lat>
+		<Lon>4.82027769088745</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -10244,8 +10516,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400732</UICCode>
-		<Lat>51.808887</Lat>
-		<Lon>5.2633333</Lon>
+		<Lat>51.8088874816895</Lat>
+		<Lon>5.26333332061768</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -10261,8 +10533,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400733</UICCode>
-		<Lat>52.37528</Lat>
-		<Lon>4.532778</Lon>
+		<Lat>52.3752784729004</Lat>
+		<Lon>4.53277778625488</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -10295,8 +10567,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400734</UICCode>
-		<Lat>51.920055</Lat>
-		<Lon>5.722841</Lon>
+		<Lat>51.920056</Lat>
+		<Lon>5.7228408</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -10312,8 +10584,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400735</UICCode>
-		<Lat>51.923054</Lat>
-		<Lon>6.071944</Lon>
+		<Lat>51.9230537414551</Lat>
+		<Lon>6.07194423675537</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -10346,8 +10618,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400741</UICCode>
-		<Lat>52.0475</Lat>
-		<Lon>4.4772224</Lon>
+		<Lat>52.0475006103516</Lat>
+		<Lon>4.47722244262695</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -10363,8 +10635,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400740</UICCode>
-		<Lat>52.04639</Lat>
-		<Lon>4.492778</Lon>
+		<Lat>52.0463905334473</Lat>
+		<Lon>4.49277782440186</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -10380,8 +10652,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400742</UICCode>
-		<Lat>53.15961</Lat>
-		<Lon>6.867914</Lon>
+		<Lat>53.1596122800056</Lat>
+		<Lon>6.8679141998291</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -10397,8 +10669,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400743</UICCode>
-		<Lat>53.24863</Lat>
-		<Lon>6.406236</Lon>
+		<Lat>53.2486292</Lat>
+		<Lon>6.4062361</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -10414,8 +10686,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400744</UICCode>
-		<Lat>52.14528</Lat>
-		<Lon>6.1941667</Lon>
+		<Lat>52.1452789306641</Lat>
+		<Lon>6.19416666030884</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -10448,8 +10720,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400752</UICCode>
-		<Lat>51.815</Lat>
-		<Lon>4.641667</Lon>
+		<Lat>51.814998626709</Lat>
+		<Lon>4.64166688919067</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -10465,8 +10737,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400747</UICCode>
-		<Lat>52.504723</Lat>
-		<Lon>6.091944</Lon>
+		<Lat>52.5047225952148</Lat>
+		<Lon>6.09194421768188</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
