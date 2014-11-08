@@ -157,7 +157,7 @@
     <value>review</value>
   </data>
   <data name="AboutVersion" xml:space="preserve">
-    <value>Treintijden 2.3.2</value>
+    <value>Treintijden 2.3.3</value>
   </data>
   <data name="actueel" xml:space="preserve">
     <value>actueel</value>
@@ -415,7 +415,11 @@
     <value>favoriet</value>
   </data>
   <data name="ReleaseNotes" xml:space="preserve">
-    <value>Nieuw in 2.3.2
+    <value>Nieuw in 2.3.3
+- Verbeterde weergave uitvallende treinen
+- Station Nijmegen Goffert
+
+Nieuw in 2.3.2
 - Station Maastricht Noord
 - Deel een geplande reis via e-mail
 
