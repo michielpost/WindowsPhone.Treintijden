@@ -498,7 +498,9 @@
                     </ListBox.ItemContainerStyle>
                     <ListBox.ItemTemplate>
                         <DataTemplate>
-                            <Grid Margin="12,3,3,3" Background="{Binding IsAlternate, Converter={StaticResource AlternateColorConverter}}">
+                            <Grid Margin="12,3,3,3"
+                                  Opacity="{Binding IsCancelled, Converter={StaticResource ConditionalValueConverter}, ConverterParameter=0.4|1}"
+                                  Background="{Binding IsAlternate, Converter={StaticResource AlternateColorConverter}}">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="120" />
                                     <ColumnDefinition Width="120" />

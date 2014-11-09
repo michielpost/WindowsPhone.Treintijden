@@ -96,6 +96,18 @@ namespace Treintijden.PCL.Api.Models
             }
         }
 
+        public bool IsCancelled
+        {
+          get
+          {
+            if (!string.IsNullOrEmpty(this.Status) && Status.ToUpper() == "NIET-MOGELIJK")
+              return true;
+
+            return false;
+          }
+
+        }
+
         private static string GetVertragingTekst(DateTime gepland, DateTime actueel)
         {
             string result = string.Empty;
