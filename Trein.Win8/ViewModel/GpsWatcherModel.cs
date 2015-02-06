@@ -191,9 +191,10 @@ namespace Trein.Win8.ViewModel
         private void CalcDistance(Station station)
         {
             //Geocoordinate stationGps = new Geocoordinate(station.Lat, station.Long);
-            if (CurrentLocation != null)
+            if (CurrentLocation != null
+              && CurrentLocation.Point != null)
             {
-                var dis = this.distance(CurrentLocation.Latitude, CurrentLocation.Longitude, station.Lat, station.Long, 'K');
+                var dis = this.distance(CurrentLocation.Point.Position.Latitude, CurrentLocation.Point.Position.Longitude, station.Lat, station.Long, 'K');
 
                 station.SetDistance(dis);
             }

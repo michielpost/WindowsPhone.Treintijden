@@ -1246,6 +1246,23 @@
 	</Station>
 
 	<Station>
+		<Code>BNZ</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>Barnevld Z</Kort>
+		  <Middel>Barneveld Zuid</Middel>
+		  <Lang>Barneveld Zuid</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400115</UICCode>
+		<Lat>52.128853</Lat>
+		<Lon>5.60246</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
 		<Code>BASELB</Code>
 		<Type>stoptreinstation</Type>
 		<Namen>		
@@ -1962,29 +1979,12 @@
 	</Station>
 
 	<Station>
-		<Code>BRUSL</Code>
-		<Type>stoptreinstation</Type>
-		<Namen>		
-		  <Kort>Brus-Lucht</Kort>
-		  <Middel>Brussel-Luchthvn</Middel>
-		  <Lang>Brussel Luchth tot 14 dec</Lang>
-		</Namen>
-		<Land>B</Land>
-		<UICCode>8819406</UICCode>
-		<Lat>50.89575</Lat>
-		<Lon>4.48113</Lon>
-		<Synoniemen>
-			
-		</Synoniemen>
-	</Station>
-
-	<Station>
 		<Code>FBNL</Code>
-		<Type>stoptreinstation</Type>
+		<Type>megastation</Type>
 		<Namen>		
 		  <Kort>Brus Lucht</Kort>
 		  <Middel>Brussel Luchthvn</Middel>
-		  <Lang>Brussel Luchth. na 13 dec</Lang>
+		  <Lang>Brussel Nat. Luchthaven</Lang>
 		</Namen>
 		<Land>B</Land>
 		<UICCode>8819406</UICCode>
@@ -5253,7 +5253,7 @@
 
 	<Station>
 		<Code>HTN</Code>
-		<Type>stoptreinstation</Type>
+		<Type>knooppuntStoptreinstation</Type>
 		<Namen>		
 		  <Kort>Houten</Kort>
 		  <Middel>Houten</Middel>
@@ -6234,24 +6234,7 @@
 		<Namen>		
 		  <Kort>Lille E.</Kort>
 		  <Middel>Lille Europe</Middel>
-		  <Lang>Lille Europe na 13 dec</Lang>
-		</Namen>
-		<Land>F</Land>
-		<UICCode>8722326</UICCode>
-		<Lat>50.639444</Lat>
-		<Lon>3.074722</Lon>
-		<Synoniemen>
-			
-		</Synoniemen>
-	</Station>
-
-	<Station>
-		<Code>LILLE</Code>
-		<Type>intercitystation</Type>
-		<Namen>		
-		  <Kort>Lille-E.</Kort>
-		  <Middel>Lille-Europe</Middel>
-		  <Lang>Lille-Europe tot 14 dec</Lang>
+		  <Lang>Lille Europe</Lang>
 		</Namen>
 		<Land>F</Land>
 		<UICCode>8722326</UICCode>
@@ -6576,7 +6559,7 @@
 
 	<Station>
 		<Code>MTR</Code>
-		<Type>stoptreinstation</Type>
+		<Type>knooppuntStoptreinstation</Type>
 		<Namen>		
 		  <Kort>Maastr Rw</Kort>
 		  <Middel>Maastricht Randw</Middel>
@@ -7206,8 +7189,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400451</UICCode>
-		<Lat>51.8642</Lat>
-		<Lon>5.8595</Lon>
+		<Lat>51.861811</Lat>
+		<Lon>5.859686</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>

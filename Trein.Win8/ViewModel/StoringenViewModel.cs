@@ -18,7 +18,7 @@ namespace Trein.Win8.ViewModel
         private readonly INSApiService _storingenService;
         public DataLoader DataLoader { get; set; }
 
-        private ResourceLoader _resourceLoader = new ResourceLoader("Resources");
+        private ResourceLoader _resourceLoader = ResourceLoader.GetForCurrentView("Resources");
 
         private List<Storing> _currentStoringen;
 

@@ -36,7 +36,7 @@ namespace Trein.Win8.ViewModel
 
     public class DonateViewModel : CustomViewModelBase
     {
-        private ResourceLoader _resourceLoader = new ResourceLoader("Resources");
+        private ResourceLoader _resourceLoader = ResourceLoader.GetForCurrentView("Resources");
 
         private bool _showUpgrade;
 
@@ -122,9 +122,9 @@ namespace Trein.Win8.ViewModel
                 {
 
 #if DEBUG
-                    var result = await CurrentAppSimulator.RequestProductPurchaseAsync(key.Code, false);
+                    var result = await CurrentAppSimulator.RequestProductPurchaseAsync(key.Code);
 #else
-                    var result = await CurrentApp.RequestProductPurchaseAsync(key.Code, false);
+                    var result = await CurrentApp.RequestProductPurchaseAsync(key.Code);
 #endif
 
                     CheckBuy();

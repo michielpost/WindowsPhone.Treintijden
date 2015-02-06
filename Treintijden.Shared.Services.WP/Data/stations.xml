@@ -459,6 +459,16 @@
     </Syns>
   </s>
   <s>
+    <name>Barneveld Zuid</name>
+    <id>bnz</id>
+    <c>NL</c>
+    <lat>52.128853</lat>
+    <lon>5.60246</lon>
+    <Syns>
+      <Sy>Barnevld Z</Sy>
+    </Syns>
+  </s>
+  <s>
     <name>Bedum</name>
     <id>bdm</id>
     <c>NL</c>
@@ -2289,8 +2299,8 @@
     <name>Nijmegen Lent</name>
     <id>nml</id>
     <c>NL</c>
-    <lat>51.8642</lat>
-    <lon>5.8595</lon>
+    <lat>51.861811</lat>
+    <lon>5.859686</lon>
     <Syns>
       <Sy>Lent</Sy>
     </Syns>

@@ -669,6 +669,16 @@
     </Syns>
   </s>
   <s>
+    <name>Barneveld Zuid</name>
+    <id>bnz</id>
+    <c>NL</c>
+    <lat>52.128853</lat>
+    <lon>5.60246</lon>
+    <Syns>
+      <Sy>Barnevld Z</Sy>
+    </Syns>
+  </s>
+  <s>
     <name>Basel Bad Bf</name>
     <id>baselb</id>
     <c>D</c>
@@ -1032,18 +1042,7 @@
     <Syns />
   </s>
   <s>
-    <name>Brussel Luchth tot 14 dec</name>
-    <id>brusl</id>
-    <c>B</c>
-    <lat>50.89575</lat>
-    <lon>4.48113</lon>
-    <Syns>
-      <Sy>Brus-Lucht</Sy>
-      <Sy>Brussel-Luchthvn</Sy>
-    </Syns>
-  </s>
-  <s>
-    <name>Brussel Luchth. na 13 dec</name>
+    <name>Brussel Nat. Luchthaven</name>
     <id>fbnl</id>
     <c>B</c>
     <lat>50.896389</lat>
@@ -3187,23 +3186,13 @@
     <Syns />
   </s>
   <s>
-    <name>Lille Europe na 13 dec</name>
+    <name>Lille Europe</name>
     <id>lillee</id>
     <c>F</c>
     <lat>50.639444</lat>
     <lon>3.074722</lon>
     <Syns>
       <Sy>Lille E.</Sy>
-    </Syns>
-  </s>
-  <s>
-    <name>Lille-Europe tot 14 dec</name>
-    <id>lille</id>
-    <c>F</c>
-    <lat>50.639444</lat>
-    <lon>3.074722</lon>
-    <Syns>
-      <Sy>Lille-E.</Sy>
     </Syns>
   </s>
   <s>
@@ -3701,8 +3690,8 @@
     <name>Nijmegen Lent</name>
     <id>nml</id>
     <c>NL</c>
-    <lat>51.8642</lat>
-    <lon>5.8595</lon>
+    <lat>51.861811</lat>
+    <lon>5.859686</lon>
     <Syns>
       <Sy>Lent</Sy>
     </Syns>

@@ -276,11 +276,12 @@ namespace Trein.Win8.ViewModel
                                                             TileOptions.ShowNameOnLogo,
                                                             logo);
 
+           //secondaryTile.VisualElements.ShowNameOnSquare150x150Logo = true;
            
 
             // Specify a foreground text value. 
             // The tile background color is inherited from the parent unless a separate value is specified.
-            secondaryTile.ForegroundText = ForegroundText.Light;
+            secondaryTile.VisualElements.ForegroundText = ForegroundText.Light;
 
             // Like the background color, the small tile logo is inherited from the parent application tile by default. Let's override it, just to see how that's done.
             //secondaryTile.SmallLogo = smallLogo;

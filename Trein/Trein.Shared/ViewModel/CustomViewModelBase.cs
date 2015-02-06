@@ -9,7 +9,7 @@ namespace Trein.ViewModel
 {
     public class CustomViewModelBase : ViewModelBase
     {
-      protected ResourceLoader _resourceLoader = new ResourceLoader("Resources");
+      protected ResourceLoader _resourceLoader = ResourceLoader.GetForCurrentView("Resources");
 
       public INavigationService NavigationService { get; set; }
 

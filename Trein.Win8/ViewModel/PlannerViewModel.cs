@@ -27,7 +27,7 @@ namespace Trein.Win8.ViewModel
 
     public class PlannerViewModel : CustomViewModelBase
     {
-        private ResourceLoader _resourceLoader = new ResourceLoader("Resources");
+        private ResourceLoader _resourceLoader = ResourceLoader.GetForCurrentView("Resources");
 
       //TODO
         //public WebServiceTextSearchProvider FromStationProvider;

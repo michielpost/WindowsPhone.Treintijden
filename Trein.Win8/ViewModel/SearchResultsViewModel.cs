@@ -15,7 +15,7 @@ namespace Trein.Win8.ViewModel
     public class SearchResultsViewModel : CustomViewModelBase
     {
         private readonly IStationNameService _stationService;
-        private ResourceLoader _resourceLoader = new ResourceLoader("Resources");
+        private ResourceLoader _resourceLoader = ResourceLoader.GetForCurrentView("Resources");
 
 
         private ObservableCollection<Station> _suggestStations = new ObservableCollection<Station>();

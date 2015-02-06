@@ -23,7 +23,7 @@ namespace Trein.Win8.ViewModel
         private readonly INSApiService _prijsService;
 
 
-        private ResourceLoader _resourceLoader = new ResourceLoader("Resources");
+        private ResourceLoader _resourceLoader = ResourceLoader.GetForCurrentView("Resources");
 
 
         private ReisMogelijkheid _reisMogelijkheid;
