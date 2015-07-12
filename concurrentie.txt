@@ -37,3 +37,29 @@ http://webservices.ns.nl/mobile-api-disruptions?actual=true
 
 
 http://webservices.ns.nl/mobile-api-prices-v2?from=Eindhoven&to=Best
+
+
+Authorization: Basic YW5kcm9pZDptdmR6aWc=
+Decoded Username:Password= android:mvdzig
+User-Agent: ReisplannerXtra/4.0.1 (Android; level:18)
+Accept-Encoding: gzip, deflate
+
+Bussen van 9292:
+http://ews-rpx.ns.nl/mobile-api-planner?fromStreet=Markt&fromCity=Delft&travelMethodFrom=OV9292&toStation=GVC&callerid=RPX:reisadvies&departure=true&hslAllowed=true&yearCard=false&minimalChangeTime=0&travelAdviceType=OPTIMAL&dateTime=2015-07-10T14:26&previousAdvices=1&nextAdvices=6&passing=true
+
+Straten voor een stad
+http://ews-rpx.ns.nl/mobile-api-streets?city=Amsterdam
+
+Met locatie:
+http://ews-rpx.ns.nl/mobile-api-planner?fromStreet=Markt&fromCity=Delft&travelMethodFrom=BICYCLE&toLatLong=52.0680887%2C4.3217472&travelMethodTo=WALK&callerid=RPX:reisadvies&departure=true&hslAllowed=true&yearCard=false&minimalChangeTime=0&travelAdviceType=OPTIMAL&dateTime=2015-07-10T14:26&previousAdvices=1&nextAdvices=6&passing=true
+
+Postcode:
+http://ews-rpx.ns.nl/mobile-api-geo?zipcode=2614lw
+
+Rit info
+http://nsmlab.cloudapp.net/v1/ritnummer/1234 (ritnummer)
+
+Trein info:
+http://nsmlab.cloudapp.net/v1/trein/3549
+
+
