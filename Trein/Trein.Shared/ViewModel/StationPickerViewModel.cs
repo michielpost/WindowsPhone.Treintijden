@@ -282,11 +282,11 @@ namespace Trein.ViewModel
             p = p.ToLower();
 
 
-            var stations = StationNameService.GetStations().Where(x => x.Name.ToLower().StartsWith(p)).Take(7);
+            var stations = StationNameService.GetStations().Where(x => x.Name.ToLower().StartsWith(p)).OrderBy(x => x.Sort).Take(7);
 
             if (stations.Count() < 7)
             {
-              var extraStations = StationNameService.GetStations().Where(x => x.StartsWith(p)).Take(7 - stations.Count());
+              var extraStations = StationNameService.GetStations().Where(x => x.StartsWith(p)).OrderBy(x => x.Sort).Take(7 - stations.Count());
 
               stations = stations.Union(extraStations);
             }

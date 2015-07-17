@@ -23,6 +23,9 @@ namespace ReadStationXmlConsole
 
         public string Country { get; set; }
 
+        public string Type { get; set; }
+
+
         public double Lat { get; set; }
 
         public double Long { get; set; }
@@ -54,6 +57,7 @@ namespace ReadStationXmlConsole
                             NameMiddel = x.Element("Namen").Element("Middel").Value,
                             NamesExtra = x.Descendants("Synoniem").Select(s => s.Value).ToList(),
                             Code = x.Element("Code").Value.ToLower(),
+                            Type = x.Element("Type").Value.ToLower(),
                             Country = x.Element("Land").Value,
                             //Alias = bool.Parse(x.Element("alias").Value),
                             Lat = double.Parse(x.Element("Lat").Value, CultureInfo.InvariantCulture),
@@ -105,6 +109,7 @@ namespace ReadStationXmlConsole
             new XElement("name", item.Name),
             new XElement("id", item.Code),
             new XElement("c", itemCountry),
+            new XElement("t", SetSortValue(item.Type)),
             new XElement("lat", item.Lat),
             new XElement("lon", item.Long), Synoniemen
             ));
@@ -114,6 +119,31 @@ namespace ReadStationXmlConsole
           newDoc.Add(stations);
 
           newDoc.Save(fileName);
+        }
+
+        private static int SetSortValue(string p)
+        {
+          switch (p)
+          {
+            case "megastation":
+              return 1;
+            case "knooppuntintercitystation":
+              return 2;
+            case "intercitystation":
+              return 3;
+            case "knooppuntsneltreinstation":
+              return 4;
+            case "sneltreinstation":
+              return 5;
+            case "knooppuntstoptreinstation":
+              return 6;
+            case "stoptreinstation":
+              return 7;
+            default:
+              break;
+          }
+
+          return 5;
         }
     }
 }

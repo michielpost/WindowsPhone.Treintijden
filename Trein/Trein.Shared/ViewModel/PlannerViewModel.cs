@@ -383,12 +383,12 @@ namespace Trein.ViewModel
                 p = p.ToLower();
 
                 //Do a normal starts with
-                var stations = StationNameService.GetStations().Where(x => x.Name.ToLower().StartsWith(p)).Take(8);
+                var stations = StationNameService.GetStations().Where(x => x.Name.ToLower().StartsWith(p)).OrderBy(x => x.Sort).Take(8);
 
                 if (stations.Count() < 8)
                 {
                     //Search extra names codes etc
-                    var extraStations = StationNameService.GetStations().Where(x => x.StartsWith(p)).Take(8 - stations.Count());
+                  var extraStations = StationNameService.GetStations().Where(x => x.StartsWith(p)).OrderBy(x => x.Sort).Take(8 - stations.Count());
 
                     stations = stations.Union(extraStations);
                 }
@@ -397,7 +397,7 @@ namespace Trein.ViewModel
                 if (stations.Count() <= 2)
                 {
                   //Search extra names codes etc
-                    var extraStations = StationNameService.GetStations(true).Where(x => x.StartsWith(p)).Take(8);
+                  var extraStations = StationNameService.GetStations(true).Where(x => x.StartsWith(p)).OrderBy(x => x.Sort).Take(8);
 
                 //Remove stations already found from extraStations
                   var dubbel = extraStations.Where(x => stations.Select(s => s.Code).Contains(x.Code)).ToList();

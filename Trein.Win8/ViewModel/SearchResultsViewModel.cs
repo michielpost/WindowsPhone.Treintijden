@@ -87,11 +87,11 @@ namespace Trein.Win8.ViewModel
                 //var newStations = await TaskEx.Run<List<Station>>(() =>
                 //    {
 
-                var stations = (_stationService.GetStations()).Where(x => x.Name.ToLower().StartsWith(p)).Take(15);
+                var stations = (_stationService.GetStations()).Where(x => x.Name.ToLower().StartsWith(p)).OrderBy(x => x.Sort).Take(15);
 
                 if (stations.Count() < 15)
                 {
-                    var extraStations = (_stationService.GetStations()).Where(x => x.StartsWith(p)).Take(15 - stations.Count());
+                  var extraStations = (_stationService.GetStations()).Where(x => x.StartsWith(p)).OrderBy(x => x.Sort).Take(15 - stations.Count());
 
                     stations = stations.Union(extraStations);
                 }

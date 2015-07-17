@@ -32,6 +32,7 @@ namespace Treintijden.Shared.Services
                             {
                                 Name = x.Element("name").Value,
                                 Code = x.Element("id").Value,
+                                Sort = int.Parse(x.Element("t").Value),
                                 NamesExtra = x.Descendants("Sy").Select(s => s.Value).ToArray(),
                                 Country = x.Element("c") != null ? x.Element("c").Value : null,
                                 //Alias = bool.Parse(x.Element("alias").Value),
