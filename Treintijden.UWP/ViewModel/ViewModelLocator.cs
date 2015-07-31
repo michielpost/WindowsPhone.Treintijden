@@ -7,6 +7,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Treintijden.PCL.Api;
+using Treintijden.PCL.Api.Interfaces;
+using Treintijden.Shared.Services;
+using Treintijden.Shared.Services.Interfaces;
+using Treintijden.Shared.Services.WP;
 using Treintijden.UWP.Views;
 
 namespace Treintijden.UWP.ViewModel
@@ -27,6 +32,14 @@ namespace Treintijden.UWP.ViewModel
 
       SimpleIoc.Default.Register<INavigationService>(() => nav);
       SimpleIoc.Default.Register<IDialogService, DialogService>();
+
+      SimpleIoc.Default.Register<IStationService, StationService>();
+      SimpleIoc.Default.Register<IStationNameService, StationNameService>();
+
+      SimpleIoc.Default.Register<IPlannerService, PlannerService>();
+      SimpleIoc.Default.Register<INSApiService>(() => new CachedNSApiService(new NSApiService(), SimpleIoc.Default.GetInstance<IPlannerService>()));
+
+      SimpleIoc.Default.Register<ISettingService, SettingService>();
 
       //if (ViewModelBase.IsInDesignModeStatic)
       //{
