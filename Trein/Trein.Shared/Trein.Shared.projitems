@@ -15,7 +15,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)Services\NavigationService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\Interfaces\ILiveTileService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\Interfaces\INavigationService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\LiveTileService.cs" />
@@ -34,9 +33,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)ViewModel\StationTijdenViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModel\StoringenViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModel\ViewModelLocator.cs" />
-    <Content Include="$(MSBuildThisFileDirectory)Assets\LightGray.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Assets\MediumGray.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Assets\DarkGray.png" />
     <Compile Include="$(MSBuildThisFileDirectory)Common\NavigationHelper.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Common\RelayCommand.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Common\SuspensionManager.cs" />
@@ -72,10 +68,5 @@
     <Content Include="$(MSBuildThisFileDirectory)Images\Purchase\upgrade2.png" />
     <Content Include="$(MSBuildThisFileDirectory)Images\Purchase\upgrade3.png" />
     <Content Include="$(MSBuildThisFileDirectory)Images\shop.png" />
-    <PRIResource Include="$(MSBuildThisFileDirectory)Strings\en-US\Resources.resw" />
-    <PRIResource Include="$(MSBuildThisFileDirectory)Strings\nl\Resources.resw" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="$(MSBuildThisFileDirectory)UserControls\" />
   </ItemGroup>
 </Project>

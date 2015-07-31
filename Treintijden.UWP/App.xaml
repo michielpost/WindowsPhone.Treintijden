@@ -4,5 +4,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Treintijden.UWP"
     RequestedTheme="Light">
-
+    <Application.Resources>
+        <vm:ViewModelLocator x:Key="Locator" xmlns:vm="using:Treintijden.UWP.ViewModel" />
+    </Application.Resources>
 </Application>
