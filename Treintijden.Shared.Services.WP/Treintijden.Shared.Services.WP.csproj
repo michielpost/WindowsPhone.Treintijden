@@ -109,8 +109,8 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Q42.WinRT.Phone, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Q42.WinRT.Phone.1.2.2.42\lib\wp80\Q42.WinRT.Phone.dll</HintPath>
+      <HintPath>..\packages\Q42.WinRT.1.4.2.42\lib\wp8\Q42.WinRT.Phone.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Q42.WinRT.Portable, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
