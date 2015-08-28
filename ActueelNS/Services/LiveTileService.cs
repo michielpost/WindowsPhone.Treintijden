@@ -161,14 +161,14 @@ namespace ActueelNS.Services
 
         
 
-        public void CreateAdvies(PlannerSearch search, int index, DateTime date)
+        public void CreateAdvies(PlannerSearch search, int index, ReisMogelijkheid mogelijkheid)
         {
             if (!Exists(string.Format("/Views/Reisadvies.xaml?id={0}&index={1}", search.Id, index)))
             {
 
                 var filenameInput = string.Format("/Shared/ShellContent/{0}_{1}.jpg", search.Id, index);
 
-                var filename = GenerateAdviesTile(search.VanStation.Name, search.NaarStation.Name, date.ToString("dd-MM-yyyy HH:mm", CultureInfo.InvariantCulture), filenameInput);
+                var filename = GenerateAdviesTile(search, mogelijkheid, search.VanStation.Name, search.NaarStation.Name, mogelijkheid.GeplandeVertrekTijd.ToString("dd-MM-yyyy HH:mm", CultureInfo.InvariantCulture), filenameInput);
                 var isoStoreTileImage = string.Format("isostore:{0}", filename);
 
                 // Create the Tile object and set some initial properties for the Tile.
@@ -195,10 +195,10 @@ namespace ActueelNS.Services
         }
 
 
-        private string GenerateAdviesTile(string from, string to, string date, string filename)
+        private string GenerateAdviesTile(PlannerSearch search, ReisMogelijkheid mogelijkheid, string from, string to, string date, string filename)
         {
             //FrameworkElement reflectedFE = ReflectedElement as FrameworkElement
-            TileAdviesControl tileControl = new TileAdviesControl(from, to, date);
+            TileAdviesControl tileControl = new TileAdviesControl(mogelijkheid, from, to, date);
             tileControl.Measure(new Size(336, 336));
             tileControl.Arrange(new Rect(0, 0, 336, 336));
             tileControl.UpdateLayout();
@@ -242,7 +242,7 @@ namespace ActueelNS.Services
                 }
                 else
                 {
-                    filename = GenerateAdviesTile(from, to, AppResources.TileReisplanner, filenameInput);
+                    filename = GenerateAdviesTile(null, null, from, to, AppResources.TileReisplanner, filenameInput);
                 }
 
                 var isoStoreTileImage = string.Format("isostore:{0}", filename);

@@ -157,7 +157,7 @@
     <value>review</value>
   </data>
   <data name="AboutVersion" xml:space="preserve">
-    <value>Treintijden 2.3.4</value>
+    <value>Treintijden 2.3.5</value>
   </data>
   <data name="actueel" xml:space="preserve">
     <value>actueel</value>
@@ -415,7 +415,11 @@
     <value>favoriet</value>
   </data>
   <data name="ReleaseNotes" xml:space="preserve">
-    <value>Nieuw in 2.3.4
+    <value>Nieuw in 2.3.5
+- Verbeteringen stations zoeken
+- Verbeteringen tiles
+
+Nieuw in 2.3.4
 - Station Barneveld Zuid
 
 Nieuw in 2.3.3

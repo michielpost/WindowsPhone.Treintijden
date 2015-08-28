@@ -20,7 +20,7 @@ namespace ActueelNS.Services.Interfaces
 
         //bool Exists(string name);
 
-        void CreateAdvies(PlannerSearch search, int index, DateTime date);
+        void CreateAdvies(PlannerSearch search, int index, ReisMogelijkheid mogelijkheid);
         bool ExistsCreateAdvies(PlannerSearch SelectedSearch, int p, DateTime dateTime);
 
 

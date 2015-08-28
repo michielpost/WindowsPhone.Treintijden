@@ -339,7 +339,7 @@ namespace ActueelNS.ViewModel
                 {
                     PlannerService.AddPermSearchAsync(SelectedSearch, ReisMogelijkheden);
 
-                    LiveTileService.CreateAdvies(SelectedSearch, index.Value, mogelijkheid.GeplandeVertrekTijd);
+                    LiveTileService.CreateAdvies(SelectedSearch, index.Value, mogelijkheid);
                 }
 
             }

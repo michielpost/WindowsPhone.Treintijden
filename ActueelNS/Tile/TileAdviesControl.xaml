@@ -35,7 +35,16 @@
                                         Padding="0,0,0,0" Width="35" Height="35" 	
                                             BorderThickness="2,2,2,2"
                                         HorizontalAlignment="Left" VerticalAlignment="Top">
-                    </Border>
+
+                                <TextBlock Margin="0,0,0,0"
+                                                   HorizontalAlignment="Center"
+                                                   VerticalAlignment="Bottom"
+                                                   FontFamily="{StaticResource PhoneFontFamilySemiBold}"
+                                                   FontSize="18"
+                                                   Foreground="{StaticResource TextColor}"
+                                                   x:Name="VertrekSpoor"
+                                                   Text="22a" />
+                            </Border>
                     <Border Background="{StaticResource TextColor}" 	
                                         Padding="0,0,0,0" Width="10" Height="10" 	
                                             BorderThickness="0,0,0,0"
@@ -68,6 +77,16 @@
                                         Padding="0,0,0,0" Width="35" Height="35" 	
                                             BorderThickness="2,2,2,2"
                                         HorizontalAlignment="Left" VerticalAlignment="Top">
+                                
+                                <TextBlock Margin="0,0,0,0"
+                                                   HorizontalAlignment="Center"
+                                                   VerticalAlignment="Bottom"
+                                                   FontFamily="{StaticResource PhoneFontFamilySemiBold}"
+                                                   FontSize="18"
+                                                   Foreground="{StaticResource TextColor}"
+                                                   x:Name="AankomstSpoor"
+                                                   Text="22a" />
+
                             </Border>
                             <Border Background="{StaticResource TextColor}" 	
                                         Padding="0,0,0,0" Width="10" Height="10" 	

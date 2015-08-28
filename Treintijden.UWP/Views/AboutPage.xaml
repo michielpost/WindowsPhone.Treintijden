@@ -9,6 +9,6 @@
      DataContext="{Binding About, Source={StaticResource Locator}}">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+        <Button  Content="Klik" />
     </Grid>
 </Page>

@@ -1,0 +1,50 @@
+
+About screen maken
+- header, text, buttons
+
+GpsViewModel maken met properties voor dichtsbijzijnde station
+
+Lijst maken met favoriete en dichtbije stations
+
+
+https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples
+
+
+Localization
+https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ApplicationResources
+
+GpsViewModel
+https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Geolocation
+
+ListView
+https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlListView
+
+ContextMenu
+https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ContextMenu
+
+AutoSuggest
+https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlAutoSuggestBox
+
+PullToRefresh
+https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlPullToRefresh
+
+
+MultipleViews
+https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MultipleViews
+
+
+Map
+https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MapControl
+
+Secondary Tiles
+https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SecondaryTiles
+
+Appointment
+https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Appointments
+
+Performance with DeferLoad
+https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlDeferLoadStrategy
+
+
+BackgroundTask
+https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BackgroundTask
