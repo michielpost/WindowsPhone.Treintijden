@@ -52,6 +52,12 @@
             <TextBlock x:Name="Richting"
                        Style="{StaticResource PhoneTextNormalStyleCustom}"
                        Text="{Binding Richting}" />
+
+            <StackPanel Grid.Row="0" Orientation="Horizontal" Visibility="{Binding TreinInfo, Converter={StaticResource VisibilityConverter}}">
+                <TextBlock Text="{Binding TreinInfo.Lengte}" Style="{StaticResource PhoneTextNormalStyleCustom}"></TextBlock>
+                <TextBlock Margin="-12,0,0,0" Text="{Binding Path=LocalizedResources.TrainCars,
+                                                  Source={StaticResource LocalizedStrings}}" Style="{StaticResource PhoneTextNormalStyleCustom}"></TextBlock>
+            </StackPanel>
         </StackPanel>
 
         <!--  ContentPanel - place additional content here  -->

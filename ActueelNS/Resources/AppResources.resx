@@ -591,4 +591,7 @@ Nieuw in 1.5
   <data name="ReisadviesEmailMenu" xml:space="preserve">
     <value>E-mail...</value>
   </data>
+  <data name="TrainCars" xml:space="preserve">
+    <value> treinstellen</value>
+  </data>
 </root>

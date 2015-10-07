@@ -519,4 +519,7 @@
   <data name="ReisadviesEmailMenu" xml:space="preserve">
     <value>E-mail...</value>
   </data>
+  <data name="TrainCars" xml:space="preserve">
+    <value> train units</value>
+  </data>
 </root>

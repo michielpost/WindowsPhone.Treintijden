@@ -1238,6 +1238,15 @@ namespace ActueelNS.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to  treinstellen.
+        /// </summary>
+        public static string TrainCars {
+            get {
+                return ResourceManager.GetString("TrainCars", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Uit.
         /// </summary>
         public static string Uit {
