@@ -115,7 +115,7 @@ namespace ActueelNS.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Treintijden 2.3.5.
+        ///   Looks up a localized string similar to Treintijden 2.3.6.
         /// </summary>
         public static string AboutVersion {
             get {
@@ -790,7 +790,10 @@ namespace ActueelNS.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Nieuw in 2.3.5
+        ///   Looks up a localized string similar to Nieuw in 2.3.6
+        ///- Tonen treinlengte bij ritinfo trein
+        ///
+        ///Nieuw in 2.3.5
         ///- Verbeteringen stations zoeken
         ///- Verbeteringen tiles
         ///
@@ -813,9 +816,7 @@ namespace ActueelNS.Resources {
         ///- Plan internationale reizen
         ///- Kleine verbeteringen en bugfixes
         ///
-        ///Nieuw in 2.2.1
-        ///- Snelheidsverbeteringen
-        ///- Plaats een tre [rest of string was truncated]&quot;;.
+        ///N [rest of string was truncated]&quot;;.
         /// </summary>
         public static string ReleaseNotes {
             get {
@@ -1234,6 +1235,15 @@ namespace ActueelNS.Resources {
         public static string toevoegen {
             get {
                 return ResourceManager.GetString("toevoegen", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to  treinstellen.
+        /// </summary>
+        public static string TrainCars {
+            get {
+                return ResourceManager.GetString("TrainCars", resourceCulture);
             }
         }
         

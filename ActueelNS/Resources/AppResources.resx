@@ -157,7 +157,7 @@
     <value>review</value>
   </data>
   <data name="AboutVersion" xml:space="preserve">
-    <value>Treintijden 2.3.5</value>
+    <value>Treintijden 2.3.6</value>
   </data>
   <data name="actueel" xml:space="preserve">
     <value>actueel</value>
@@ -415,7 +415,10 @@
     <value>favoriet</value>
   </data>
   <data name="ReleaseNotes" xml:space="preserve">
-    <value>Nieuw in 2.3.5
+    <value>Nieuw in 2.3.6
+- Tonen treinlengte bij ritinfo trein
+
+Nieuw in 2.3.5
 - Verbeteringen stations zoeken
 - Verbeteringen tiles
 
@@ -590,5 +593,8 @@ Nieuw in 1.5
   </data>
   <data name="ReisadviesEmailMenu" xml:space="preserve">
     <value>E-mail...</value>
+  </data>
+  <data name="TrainCars" xml:space="preserve">
+    <value> treinstellen</value>
   </data>
 </root>
