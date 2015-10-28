@@ -5,6 +5,7 @@ using GalaSoft.MvvmLight.Ioc;
 using Q42.WinRT.Portable.Data;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using Treintijden.PCL.Api.Interfaces;
 using Treintijden.PCL.Api.Models;
@@ -169,6 +170,9 @@ namespace ActueelNS.ViewModel
     private void PlanStation()
     {
       string name = _stationCode;
+      string tijd = string.Empty;
+      if (_vertrekTijd.HasValue)
+        tijd = _vertrekTijd.Value.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture) + "T" + _vertrekTijd.Value.ToString("HH:mm", CultureInfo.InvariantCulture);
 
       NavigationService.NavigateTo(new Uri(string.Format("/Views/Planner.xaml?from={0}&dateTime={1}", name, _vertrekTijd), UriKind.Relative));
     }

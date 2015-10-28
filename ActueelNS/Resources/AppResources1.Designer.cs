@@ -115,7 +115,7 @@ namespace ActueelNS.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Treintijden 2.3.7.
+        ///   Looks up a localized string similar to Treintijden 2.3.8.
         /// </summary>
         public static string AboutVersion {
             get {
@@ -790,7 +790,7 @@ namespace ActueelNS.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Nieuw in 2.3.7
+        ///   Looks up a localized string similar to Nieuw in 2.3.8
         ///- Direct plannen vanuit scherm met detail info treinrit
         ///
         ///Nieuw in 2.3.6
