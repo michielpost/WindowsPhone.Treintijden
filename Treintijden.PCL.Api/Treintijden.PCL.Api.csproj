@@ -43,6 +43,7 @@
     <Compile Include="Helpers\XmlHelper.cs" />
     <Compile Include="Interfaces\INSApiService.cs" />
     <Compile Include="Models\PlannerSearch.cs" />
+    <Compile Include="Models\Realtime\TreinenWebsocketResponse.cs" />
     <Compile Include="Models\ReisDeel.cs" />
     <Compile Include="Models\ReisMogelijkheid.cs" />
     <Compile Include="Models\ReisPrijs.cs" />

@@ -153,6 +153,10 @@
       <HintPath>..\packages\MvvmLightLibs.5.2.0.0\lib\wp8\System.Windows.Interactivity.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="WebSocket4Net, Version=0.14.1.0, Culture=neutral, PublicKeyToken=eb4e154b696bf72a, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebSocket4Net.0.14.1\lib\sl50-wp\WebSocket4Net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -216,6 +220,9 @@
     </Compile>
     <Compile Include="UserControls\RitInfoControl.xaml.cs">
       <DependentUpon>RitInfoControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\TreinMapControl.xaml.cs">
+      <DependentUpon>TreinMapControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="ViewModel\AboutViewModel.cs" />
     <Compile Include="ViewModel\CustomViewModelBase.cs" />
@@ -323,6 +330,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UserControls\RitInfoControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\TreinMapControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -106,8 +106,11 @@ namespace ActueelNS.ViewModel
     public async void Initialize(string ritId, string company, string trein, string richting, string stationCode)
 		{
 			PageName = trein;
-			Richting = AppResources.RitInfoViewModelRichting + " " + richting;
-			RitStops = new List<RitInfoStop>();
+
+      if(!string.IsNullOrEmpty(richting))
+			  Richting = AppResources.RitInfoViewModelRichting + " " + richting;
+
+      RitStops = new List<RitInfoStop>();
 			TreinInfo = null;
       _stationCode = stationCode;
 
