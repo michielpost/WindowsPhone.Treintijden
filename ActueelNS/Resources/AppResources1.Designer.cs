@@ -115,7 +115,7 @@ namespace ActueelNS.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Treintijden 2.3.6.
+        ///   Looks up a localized string similar to Treintijden 2.3.7.
         /// </summary>
         public static string AboutVersion {
             get {
@@ -790,7 +790,10 @@ namespace ActueelNS.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Nieuw in 2.3.6
+        ///   Looks up a localized string similar to Nieuw in 2.3.7
+        ///- Direct plannen vanuit scherm met detail info treinrit
+        ///
+        ///Nieuw in 2.3.6
         ///- Tonen treinlengte bij ritinfo trein
         ///
         ///Nieuw in 2.3.5
@@ -812,11 +815,7 @@ namespace ActueelNS.Resources {
         ///- Drukte-indicator legenda
         ///- Kleine verbeteringen en bugfixes
         ///
-        ///Nieuw in 2.3
-        ///- Plan internationale reizen
-        ///- Kleine verbeteringen en bugfixes
-        ///
-        ///N [rest of string was truncated]&quot;;.
+        ///Nieuw in [rest of string was truncated]&quot;;.
         /// </summary>
         public static string ReleaseNotes {
             get {

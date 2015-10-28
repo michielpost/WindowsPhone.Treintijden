@@ -12,7 +12,7 @@ namespace Treintijden.Shared.Services
     {
         private readonly string fileName = "last_stations";
 
-        StorageHelper<string[]> sh = new StorageHelper<string[]>(StorageType.Local);
+        StorageHelper<string[]> sh = new StorageHelper<string[]>(Windows.Storage.ApplicationData.Current.LocalFolder);
 
         public IStationNameService StationNameService { get; set; }
 

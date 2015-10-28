@@ -16,7 +16,7 @@ namespace Treintijden.Shared.Services
 
       private async Task<List<Station>> GetListFromStoreAsync()
         {
-          var sh = new StorageHelper<List<Station>>(StorageType.Local, serializerType: StorageSerializer.XML);
+          var sh = new StorageHelper<List<Station>>(Windows.Storage.ApplicationData.Current.LocalFolder, serializerType: StorageSerializer.XML);
           var list = await sh.LoadAsync("favorite");
 
             if(list == null)
@@ -30,7 +30,7 @@ namespace Treintijden.Shared.Services
             //Always save ordered
             stations = stations.OrderBy(x => x.Name).ToList();
 
-            var sh = new StorageHelper<List<Station>>(StorageType.Local, serializerType: StorageSerializer.XML);
+            var sh = new StorageHelper<List<Station>>(Windows.Storage.ApplicationData.Current.LocalFolder, serializerType: StorageSerializer.XML);
             return sh.SaveAsync(stations, "favorite");
         }
 

@@ -10,7 +10,7 @@ namespace Treintijden.Shared.Services
     {
         private readonly string fileName = "traject";
 
-        private Q42.WinRT.Storage.StorageHelper<List<Traject>> sh = new Q42.WinRT.Storage.StorageHelper<List<Traject>>(Q42.WinRT.Storage.StorageType.Local);
+        private Q42.WinRT.Storage.StorageHelper<List<Traject>> sh = new Q42.WinRT.Storage.StorageHelper<List<Traject>>(Windows.Storage.ApplicationData.Current.LocalFolder);
 
         public List<Traject> AllInMemmory { get; set; }
 

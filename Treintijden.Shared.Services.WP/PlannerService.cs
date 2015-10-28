@@ -15,7 +15,7 @@ namespace Treintijden.Shared.Services
       {
         try
         {
-          var sh = new StorageHelper<List<PlannerSearch>>(StorageType.Local, serializerType: StorageSerializer.XML);
+          var sh = new StorageHelper<List<PlannerSearch>>(Windows.Storage.ApplicationData.Current.LocalFolder, serializerType: StorageSerializer.XML);
           var list = await sh.LoadAsync("planning_searches");
 
           if (list == null)
@@ -52,7 +52,7 @@ namespace Treintijden.Shared.Services
             }
           }
 
-          var sh = new StorageHelper<List<PlannerSearch>>(StorageType.Local, serializerType: StorageSerializer.XML);
+          var sh = new StorageHelper<List<PlannerSearch>>(Windows.Storage.ApplicationData.Current.LocalFolder, serializerType: StorageSerializer.XML);
           await sh.SaveAsync(saveList, "planning_searches");
         }
         catch { }
@@ -62,7 +62,7 @@ namespace Treintijden.Shared.Services
       {
         try
         {
-          var sh = new StorageHelper<List<PlannerSearch>>(StorageType.Local, serializerType: StorageSerializer.XML);
+          var sh = new StorageHelper<List<PlannerSearch>>(Windows.Storage.ApplicationData.Current.LocalFolder, serializerType: StorageSerializer.XML);
           var list = await sh.LoadAsync("perm_searches");
 
           if (list == null)
@@ -81,7 +81,7 @@ namespace Treintijden.Shared.Services
       {
         try
         {
-          var sh = new StorageHelper<List<PlannerSearch>>(StorageType.Local, serializerType: StorageSerializer.XML);
+          var sh = new StorageHelper<List<PlannerSearch>>(Windows.Storage.ApplicationData.Current.LocalFolder, serializerType: StorageSerializer.XML);
           return sh.SaveAsync(list, "perm_searches");
         }
         catch {
@@ -144,7 +144,7 @@ namespace Treintijden.Shared.Services
         {
           try
           {
-            var sh = new StorageHelper<List<ReisMogelijkheid>>(StorageType.Local, serializerType: StorageSerializer.XML);
+            var sh = new StorageHelper<List<ReisMogelijkheid>>(Windows.Storage.ApplicationData.Current.LocalFolder, serializerType: StorageSerializer.XML);
 
             return sh.LoadAsync(string.Format("SearchResult_{0}", id));
           }
@@ -173,7 +173,7 @@ namespace Treintijden.Shared.Services
         {
             try
             {
-              var sh = new StorageHelper<List<ReisMogelijkheid>>(StorageType.Local, serializerType: StorageSerializer.XML);
+              var sh = new StorageHelper<List<ReisMogelijkheid>>(Windows.Storage.ApplicationData.Current.LocalFolder, serializerType: StorageSerializer.XML);
 
               await sh.SaveAsync(mogelijkheden, string.Format("SearchResult_{0}", id));
             }
@@ -184,7 +184,7 @@ namespace Treintijden.Shared.Services
         {
             try
             {
-              var sh = new StorageHelper<string>(StorageType.Local, serializerType: StorageSerializer.XML);
+              var sh = new StorageHelper<string>(Windows.Storage.ApplicationData.Current.LocalFolder, serializerType: StorageSerializer.XML);
 
                 await sh.DeleteAsync(string.Format("SearchResult_{0}", id));
             }

@@ -268,7 +268,7 @@
           "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
         }
       },
-      "Q42.WinRT/1.4.2.42": {
+      "Q42.WinRT/1.5.0.42": {
         "dependencies": {
           "Newtonsoft.Json": "[6.0.8, )",
           "Q42.WinRT.Portable": "(, )"
@@ -1936,7 +1936,7 @@
           "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
         }
       },
-      "Q42.WinRT/1.4.2.42": {
+      "Q42.WinRT/1.5.0.42": {
         "dependencies": {
           "Newtonsoft.Json": "[6.0.8, )",
           "Q42.WinRT.Portable": "(, )"
@@ -3637,7 +3637,7 @@
           "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
         }
       },
-      "Q42.WinRT/1.4.2.42": {
+      "Q42.WinRT/1.5.0.42": {
         "dependencies": {
           "Newtonsoft.Json": "[6.0.8, )",
           "Q42.WinRT.Portable": "(, )"
@@ -5343,7 +5343,7 @@
           "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
         }
       },
-      "Q42.WinRT/1.4.2.42": {
+      "Q42.WinRT/1.5.0.42": {
         "dependencies": {
           "Newtonsoft.Json": "[6.0.8, )",
           "Q42.WinRT.Portable": "(, )"
@@ -7044,7 +7044,7 @@
           "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
         }
       },
-      "Q42.WinRT/1.4.2.42": {
+      "Q42.WinRT/1.5.0.42": {
         "dependencies": {
           "Newtonsoft.Json": "[6.0.8, )",
           "Q42.WinRT.Portable": "(, )"
@@ -8750,7 +8750,7 @@
           "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
         }
       },
-      "Q42.WinRT/1.4.2.42": {
+      "Q42.WinRT/1.5.0.42": {
         "dependencies": {
           "Newtonsoft.Json": "[6.0.8, )",
           "Q42.WinRT.Portable": "(, )"
@@ -10451,7 +10451,7 @@
           "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
         }
       },
-      "Q42.WinRT/1.4.2.42": {
+      "Q42.WinRT/1.5.0.42": {
         "dependencies": {
           "Newtonsoft.Json": "[6.0.8, )",
           "Q42.WinRT.Portable": "(, )"
@@ -12733,8 +12733,8 @@
         "tools/install.ps1"
       ]
     },
-    "Q42.WinRT/1.4.2.42": {
-      "sha512": "RPGl6IeNOP3h3u+fbkFmc9QIHFVtrfGGP7DH35XOfLklwEp67yMoZEKgLRc6guRws4BqhijdJr91yb+2ocVr0w==",
+    "Q42.WinRT/1.5.0.42": {
+      "sha512": "NCyawGQf6uvLmI3FZzLKJHOY4V14SRO56e1F8XxPOxEVrHl3Jp/4jeapjuFTUgIHt1gERDK9vRWw8yE+r3d99g==",
       "type": "Package",
       "files": [
         "[Content_Types].xml",
@@ -12743,7 +12743,7 @@
         "lib/portable-win81+wpa81/Q42.WinRT.XML",
         "lib/wp8/Q42.WinRT.Phone.dll",
         "lib/wp8/Q42.WinRT.Phone.XML",
-        "package/services/metadata/core-properties/984862daad974f729fffb58f7bd36a8f.psmdcp",
+        "package/services/metadata/core-properties/6448ec5074014ea2af18ae4f2ccd4955.psmdcp",
         "Q42.WinRT.nuspec"
       ]
     },
@@ -15463,7 +15463,7 @@
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.0.0",
       "MvvmLight >= 5.2.0",
       "Newtonsoft.Json >= 7.0.1",
-      "Q42.WinRT >= 1.4.2.42"
+      "Q42.WinRT >= 1.5.0.42"
     ],
     "UAP,Version=v10.0": []
   }
