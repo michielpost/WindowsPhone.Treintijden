@@ -162,5 +162,20 @@
 
     </Grid>
 
+    <viewBase:ViewBase.ApplicationBar>
+        <shell:ApplicationBar BackgroundColor="{StaticResource AppBarColor}"
+                              ForegroundColor="{StaticResource AppBarForeColor}"
+                               Mode="Minimized"
+                              IsMenuEnabled="True"
+                              IsVisible="True">
+            
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem x:Name="PlanButton"
+                                              Click="PlanButton_Click"
+                                              Text="plan een reis" />
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </viewBase:ViewBase.ApplicationBar>
+
 
 </viewBase:ViewBase>

@@ -9,6 +9,7 @@ using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using ActueelNS.Views.Base;
 using ActueelNS.ViewModel;
+using ActueelNS.Resources;
 
 namespace ActueelNS.Views
 {
@@ -19,6 +20,8 @@ namespace ActueelNS.Views
         public RitInfoPage()
         {
             InitializeComponent();
+
+            (ApplicationBar.MenuItems[0] as ApplicationBarMenuItem).Text = AppResources.StationTijdenPlanReisButton;
         }
 
         protected override void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)
@@ -76,6 +79,10 @@ namespace ActueelNS.Views
                 GeenDataPanel.Visibility = System.Windows.Visibility.Collapsed;
         }
 
+        private void PlanButton_Click(object sender, System.EventArgs e)
+        {
+          _vm.PlanCommand.Execute(null);
+        }
 
-    }
+  }
 }

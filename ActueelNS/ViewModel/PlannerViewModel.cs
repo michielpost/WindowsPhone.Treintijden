@@ -302,11 +302,15 @@ namespace ActueelNS.ViewModel
             Settings = SettingService.GetSettings();
 
             if (!keepValues && !string.IsNullOrEmpty(from))
-                VanStation = StationNameService.GetStationByName(from);
+            {
+              VanStation = StationNameService.GetStationByName(from);
+              if (VanStation == null)
+                VanStation = StationNameService.GetStationByCode(from);
+            }
             else if (!keepValues)
             {
-                VanStation = null;
-                GetGpsStation();
+              VanStation = null;
+              GetGpsStation();
 
             }
 

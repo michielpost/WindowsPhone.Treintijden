@@ -1,4 +1,6 @@
 ﻿using ActueelNS.Resources;
+using ActueelNS.Services.Interfaces;
+using GalaSoft.MvvmLight.Command;
 using GalaSoft.MvvmLight.Ioc;
 using Q42.WinRT.Portable.Data;
 using System;
@@ -12,15 +14,19 @@ namespace ActueelNS.ViewModel
 {
 	public class RitInfoViewModel : CustomViewModelBase
 	{
-		public IStationService StationService { get; set; }
+    public INavigationService NavigationService { get; set; }
+    public IStationService StationService { get; set; }
 		public IStationNameService StationNameService { get; set; }
 		public INSApiService RitnummerService { get; set; }
 		public event EventHandler<EventArgs> RitInfoAvailable;
 
+    public RelayCommand PlanCommand { get; private set; }
+
+    private string _stationCode;
 
 
 
-		private string _pageName;
+    private string _pageName;
 
 		public string PageName
 		{
@@ -58,8 +64,9 @@ namespace ActueelNS.ViewModel
 		}
 
 		private TreinInfo _treinInfo;
+    private DateTime? _vertrekTijd;
 
-		public TreinInfo TreinInfo
+    public TreinInfo TreinInfo
 		{
 			get { return _treinInfo; }
 			set
@@ -76,8 +83,9 @@ namespace ActueelNS.ViewModel
 			StationService = SimpleIoc.Default.GetInstance<IStationService>();
 			StationNameService = SimpleIoc.Default.GetInstance<IStationNameService>();
 			RitnummerService = SimpleIoc.Default.GetInstance<INSApiService>();
+      NavigationService = SimpleIoc.Default.GetInstance<INavigationService>();
 
-			DataLoader = new DataLoader();
+      DataLoader = new DataLoader();
 
 			if (IsInDesignMode)
 			{
@@ -90,17 +98,20 @@ namespace ActueelNS.ViewModel
 				RitStops = list;
 			}
 
+      PlanCommand = new RelayCommand(() => PlanStation());
 
-		}
 
-		public async void Initialize(string ritId, string company, string trein, string richting, string stationCode)
+    }
+
+    public async void Initialize(string ritId, string company, string trein, string richting, string stationCode)
 		{
 			PageName = trein;
 			Richting = AppResources.RitInfoViewModelRichting + " " + richting;
 			RitStops = new List<RitInfoStop>();
 			TreinInfo = null;
+      _stationCode = stationCode;
 
-			var ritStopsLoader = DataLoader.LoadAsync(async () =>
+      var ritStopsLoader = DataLoader.LoadAsync(async () =>
 					{
 
 						var serviceInfo = await RitnummerService.GetRit(ritId, company, DateTime.Now);
@@ -118,8 +129,11 @@ namespace ActueelNS.ViewModel
 								if (station != null)
 									stop.Station = station.Name;
 
-								if (stop.Code.ToLower() == stationCode.ToLower())
-									stop.IsCurrent = true;
+                if (stop.Code.ToLower() == stationCode.ToLower())
+                {
+                  stop.IsCurrent = true;
+                  _vertrekTijd = stop.Departure;
+                }
 							}
 						}
 
@@ -148,5 +162,12 @@ namespace ActueelNS.ViewModel
 			catch { }
 
 		}
-	}
+
+    private void PlanStation()
+    {
+      string name = _stationCode;
+
+      NavigationService.NavigateTo(new Uri(string.Format("/Views/Planner.xaml?from={0}&dateTime={1}", name, _vertrekTijd), UriKind.Relative));
+    }
+  }
 }
