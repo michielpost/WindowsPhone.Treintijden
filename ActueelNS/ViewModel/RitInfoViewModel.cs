@@ -174,7 +174,7 @@ namespace ActueelNS.ViewModel
       if (_vertrekTijd.HasValue)
         tijd = _vertrekTijd.Value.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture) + "T" + _vertrekTijd.Value.ToString("HH:mm", CultureInfo.InvariantCulture);
 
-      NavigationService.NavigateTo(new Uri(string.Format("/Views/Planner.xaml?from={0}&dateTime={1}", name, _vertrekTijd), UriKind.Relative));
+      NavigationService.NavigateTo(new Uri(string.Format("/Views/Planner.xaml?from={0}&dateTime={1}", name, tijd), UriKind.Relative));
     }
   }
 }
