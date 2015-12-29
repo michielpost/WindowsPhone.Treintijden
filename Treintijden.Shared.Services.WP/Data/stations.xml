@@ -10,7 +10,6 @@
     <Syns>
       <Sy>Hertogenbosch ('s)</Sy>
       <Sy>Den Bosch</Sy>
-      <Sy>H'bosch</Sy>
     </Syns>
   </s>
   <s>
@@ -863,6 +862,18 @@
     <Syns />
   </s>
   <s>
+    <name>De Westereen</name>
+    <id>dwe</id>
+    <c>NL</c>
+    <t>7</t>
+    <lat>53.24817</lat>
+    <lon>6.03463</lon>
+    <Syns>
+      <Sy>Zwaagwesteinde</Sy>
+      <Sy>Westereen</Sy>
+    </Syns>
+  </s>
+  <s>
     <name>Deinum</name>
     <id>dei</id>
     <c>NL</c>
@@ -1148,13 +1159,15 @@
     <Syns />
   </s>
   <s>
-    <name>Dronrijp</name>
+    <name>Dronryp</name>
     <id>drp</id>
     <c>NL</c>
     <t>7</t>
     <lat>53.1778086</lat>
     <lon>5.6347411</lon>
-    <Syns />
+    <Syns>
+      <Sy>Dronrijp</Sy>
+    </Syns>
   </s>
   <s>
     <name>Dronten</name>
@@ -1233,14 +1246,15 @@
     <Syns />
   </s>
   <s>
-    <name>Eindhoven Beukenlaan</name>
-    <id>ehb</id>
+    <name>Eindhoven Strijp-S</name>
+    <id>ehs</id>
     <c>NL</c>
     <t>7</t>
     <lat>51.4511108398438</lat>
     <lon>5.45583343505859</lon>
     <Syns>
-      <Sy>Beukenlaan</Sy>
+      <Sy>Eindhoven Beukenlaan</Sy>
+      <Sy>Strijp-S</Sy>
     </Syns>
   </s>
   <s>
@@ -1301,14 +1315,15 @@
     </Syns>
   </s>
   <s>
-    <name>Enschede Drienerlo</name>
-    <id>esd</id>
+    <name>Enschede Kennispark</name>
+    <id>esk</id>
     <c>NL</c>
     <t>7</t>
     <lat>52.2374992370605</lat>
     <lon>6.83888912200928</lon>
     <Syns>
-      <Sy>Drienerlo</Sy>
+      <Sy>Enschede Drienerlo</Sy>
+      <Sy>Kennispark</Sy>
     </Syns>
   </s>
   <s>
@@ -1348,6 +1363,17 @@
     <Syns>
       <Sy>Eygelsh M</Sy>
       <Sy>Eygelshoven Mrkt</Sy>
+    </Syns>
+  </s>
+  <s>
+    <name>Feanwalden</name>
+    <id>fwd</id>
+    <c>NL</c>
+    <t>7</t>
+    <lat>53.2351834</lat>
+    <lon>5.9886615</lon>
+    <Syns>
+      <Sy>Veenwouden</Sy>
     </Syns>
   </s>
   <s>
@@ -1847,7 +1873,6 @@
     <lat>52.2380561828613</lat>
     <lon>5.17388868331909</lon>
     <Syns>
-      <Sy>Hilversum Noord</Sy>
       <Sy>Media Park</Sy>
     </Syns>
   </s>
@@ -3023,7 +3048,7 @@
     <Syns />
   </s>
   <s>
-    <name>Schiphol</name>
+    <name>Schiphol Airport</name>
     <id>shl</id>
     <c>NL</c>
     <t>1</t>
@@ -3414,15 +3439,6 @@
     <Syns>
       <Sy>De Klomp</Sy>
     </Syns>
-  </s>
-  <s>
-    <name>Veenwouden</name>
-    <id>vwd</id>
-    <c>NL</c>
-    <t>7</t>
-    <lat>53.2351834</lat>
-    <lon>5.9886615</lon>
-    <Syns />
   </s>
   <s>
     <name>Velp</name>
@@ -3911,15 +3927,6 @@
     <t>2</t>
     <lat>52.1452789306641</lat>
     <lon>6.19416666030884</lon>
-    <Syns />
-  </s>
-  <s>
-    <name>Zwaagwesteinde</name>
-    <id>zww</id>
-    <c>NL</c>
-    <t>7</t>
-    <lat>53.24817</lat>
-    <lon>6.03463</lon>
     <Syns />
   </s>
   <s>

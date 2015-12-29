@@ -115,7 +115,7 @@ namespace ActueelNS.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Treintijden 2.3.9.
+        ///   Looks up a localized string similar to Treintijden 2.3.10.
         /// </summary>
         public static string AboutVersion {
             get {
@@ -790,7 +790,10 @@ namespace ActueelNS.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Nieuw in 2.3.9
+        ///   Looks up a localized string similar to Nieuw in 2.3.10
+        ///- Stationnamen update december 2015
+        ///
+        ///Nieuw in 2.3.9
         ///- Direct plannen vanuit scherm met detail info treinrit
         ///
         ///Nieuw in 2.3.6
@@ -812,10 +815,7 @@ namespace ActueelNS.Resources {
         ///- Deel een geplande reis via e-mail
         ///
         ///Nieuw in 2.3.1
-        ///- Drukte-indicator legenda
-        ///- Kleine verbeteringen en bugfixes
-        ///
-        ///Nieuw in [rest of string was truncated]&quot;;.
+        ///- Drukte-indicator [rest of string was truncated]&quot;;.
         /// </summary>
         public static string ReleaseNotes {
             get {
