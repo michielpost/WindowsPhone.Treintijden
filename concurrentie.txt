@@ -57,9 +57,16 @@ Postcode:
 http://ews-rpx.ns.nl/mobile-api-geo?zipcode=2614lw
 
 Rit info
-http://nsmlab.cloudapp.net/v1/ritnummer/1234 (ritnummer)
+http://vt.ns-mlab.nl/v1/ritnummer/1234 (ritnummer)
 
 Trein info:
-http://nsmlab.cloudapp.net/v1/trein/3549
+http://vt.ns-mlab.nl/v1/trein/3549
+
+
+https://ews-rpx.ns.nl/mobile-api-serviceinfo?companycode=ns&datetime=2016-05-23T20%3A55%3A00%2B0200&ritnummer=1970
+iOS2011:iOS2001
+
+
+http://vt.ns-mlab.nl/v1/trein/1970?
 
 
