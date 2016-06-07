@@ -1238,7 +1238,7 @@ namespace ActueelNS.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to  treinstellen.
+        ///   Looks up a localized string similar to  rijtuigen.
         /// </summary>
         public static string TrainCars {
             get {
