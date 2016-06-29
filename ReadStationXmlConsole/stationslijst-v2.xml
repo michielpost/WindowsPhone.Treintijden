@@ -28,7 +28,7 @@
 		<Code>HTO</Code>
 		<Type>stoptreinstation</Type>
 		<Namen>		
-		  <Kort>H'bosch O</Kort>
+		  <Kort>Dn Bosch O</Kort>
 		  <Middel>Hertogenbosch O.</Middel>
 		  <Lang>'s-Hertogenbosch Oost</Lang>
 		</Namen>
@@ -60,6 +60,23 @@
 		<Synoniemen>
 			
 			<Synoniem>Harde ('t)</Synoniem>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>AHBF</Code>
+		<Type>knooppuntIntercitystation</Type>
+		<Namen>		
+		  <Kort>Aachen</Kort>
+		  <Middel>Aachen Hbf</Middel>
+		  <Lang>Aachen Hbf</Lang>
+		</Namen>
+		<Land>D</Land>
+		<UICCode>8015345</UICCode>
+		<Lat>50.7678</Lat>
+		<Lon>6.091499</Lon>
+		<Synoniemen>
 			
 		</Synoniemen>
 	</Station>
@@ -359,7 +376,7 @@
 		<Code>AMPO</Code>
 		<Type>stoptreinstation</Type>
 		<Namen>		
-		  <Kort>Almere P</Kort>
+		  <Kort>Almere Prt</Kort>
 		  <Middel>Almere Poort</Middel>
 		  <Lang>Almere Poort</Lang>
 		</Namen>
@@ -497,7 +514,7 @@
 		<Code>ASD</Code>
 		<Type>megastation</Type>
 		<Namen>		
-		  <Kort>A'dam C</Kort>
+		  <Kort>Amsterdam</Kort>
 		  <Middel>Amsterdam C.</Middel>
 		  <Lang>Amsterdam Centraal</Lang>
 		</Namen>
@@ -567,7 +584,7 @@
 		<Code>RAI</Code>
 		<Type>stoptreinstation</Type>
 		<Namen>		
-		  <Kort>A'dam RAI</Kort>
+		  <Kort>RAI</Kort>
 		  <Middel>Amsterdam RAI</Middel>
 		  <Lang>Amsterdam RAI</Lang>
 		</Namen>
@@ -635,7 +652,7 @@
 		<Code>ASDZ</Code>
 		<Type>intercitystation</Type>
 		<Namen>		
-		  <Kort>A'dam Z</Kort>
+		  <Kort>Amsterdm Z</Kort>
 		  <Middel>Amsterdam Zuid</Middel>
 		  <Lang>Amsterdam Zuid</Lang>
 		</Namen>
@@ -856,15 +873,17 @@
 		<Code>AH</Code>
 		<Type>knooppuntIntercitystation</Type>
 		<Namen>		
-		  <Kort>Arnhem</Kort>
-		  <Middel>Arnhem</Middel>
-		  <Lang>Arnhem</Lang>
+		  <Kort>Arnhem C</Kort>
+		  <Middel>Arnhem C.</Middel>
+		  <Lang>Arnhem Centraal</Lang>
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400071</UICCode>
 		<Lat>51.9850006103516</Lat>
 		<Lon>5.89916658401489</Lon>
 		<Synoniemen>
+			
+			<Synoniem>Arnhem</Synoniem>
 			
 		</Synoniemen>
 	</Station>
@@ -1744,7 +1763,7 @@
 		<Code>BHDV</Code>
 		<Type>stoptreinstation</Type>
 		<Namen>		
-		  <Kort>Boven-H.</Kort>
+		  <Kort>Boven-Har</Kort>
 		  <Middel>Boven-Hardinxv.</Middel>
 		  <Lang>Boven-Hardinxveld</Lang>
 		</Namen>
@@ -1945,23 +1964,6 @@
 	</Station>
 
 	<Station>
-		<Code>FBNL</Code>
-		<Type>megastation</Type>
-		<Namen>		
-		  <Kort>Brus Lucht</Kort>
-		  <Middel>Brussel Luchthvn</Middel>
-		  <Lang>Brussel Nat. Luchthaven</Lang>
-		</Namen>
-		<Land>B</Land>
-		<UICCode>8819406</UICCode>
-		<Lat>50.896389</Lat>
-		<Lon>4.481943</Lon>
-		<Synoniemen>
-			
-		</Synoniemen>
-	</Station>
-
-	<Station>
 		<Code>BRUSC</Code>
 		<Type>intercitystation</Type>
 		<Namen>		
@@ -2007,6 +2009,40 @@
 		<UICCode>8814001</UICCode>
 		<Lat>50.8350108</Lat>
 		<Lon>4.3345957</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>FBNL</Code>
+		<Type>megastation</Type>
+		<Namen>		
+		  <Kort>Brus Airpt</Kort>
+		  <Middel>Brussels Airport</Middel>
+		  <Lang>Brussels Airport-Zaventem</Lang>
+		</Namen>
+		<Land>B</Land>
+		<UICCode>8819406</UICCode>
+		<Lat>50.896389</Lat>
+		<Lon>4.481943</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>HBDP</Code>
+		<Type>megastation</Type>
+		<Namen>		
+		  <Kort>Budapest</Kort>
+		  <Middel>Budapest</Middel>
+		  <Lang>Budapest</Lang>
+		</Namen>
+		<Land>H</Land>
+		<UICCode>5510017</UICCode>
+		<Lat>47.500278</Lat>
+		<Lon>19.083889</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -3099,7 +3135,7 @@
 		<Code>DVD</Code>
 		<Type>knooppuntStoptreinstation</Type>
 		<Namen>		
-		  <Kort>Duivendt</Kort>
+		  <Kort>Duivendrt</Kort>
 		  <Middel>Duivendrecht</Middel>
 		  <Lang>Duivendrecht</Lang>
 		</Namen>
@@ -3724,23 +3760,6 @@
 	</Station>
 
 	<Station>
-		<Code>GDK</Code>
-		<Type>stoptreinstation</Type>
-		<Namen>		
-		  <Kort>Geerdijk</Kort>
-		  <Middel>Geerdijk</Middel>
-		  <Lang>Geerdijk</Lang>
-		</Namen>
-		<Land>NL</Land>
-		<UICCode>8400239</UICCode>
-		<Lat>52.47625</Lat>
-		<Lon>6.56674</Lon>
-		<Synoniemen>
-			
-		</Synoniemen>
-	</Station>
-
-	<Station>
 		<Code>GEISL</Code>
 		<Type>stoptreinstation</Type>
 		<Namen>		
@@ -3761,7 +3780,7 @@
 		<Code>GDM</Code>
 		<Type>knooppuntStoptreinstation</Type>
 		<Namen>		
-		  <Kort>G'malsen</Kort>
+		  <Kort>Geldermlsn</Kort>
 		  <Middel>Geldermalsen</Middel>
 		  <Lang>Geldermalsen</Lang>
 		</Namen>
@@ -4050,7 +4069,7 @@
 		<Code>GNN</Code>
 		<Type>stoptreinstation</Type>
 		<Namen>		
-		  <Kort>Groning N</Kort>
+		  <Kort>Groningn N</Kort>
 		  <Middel>Groningen Noord</Middel>
 		  <Lang>Groningen Noord</Lang>
 		</Namen>
@@ -4292,7 +4311,7 @@
 		<Code>HBZM</Code>
 		<Type>stoptreinstation</Type>
 		<Namen>		
-		  <Kort>Blauwe Z</Kort>
+		  <Kort>Blauwe Zm</Kort>
 		  <Middel>Blauwe Zoom</Middel>
 		  <Lang>Hardinxveld Blauwe Zoom</Lang>
 		</Namen>
@@ -4445,7 +4464,7 @@
 		<Code>HRY</Code>
 		<Type>facultatiefStation</Type>
 		<Namen>		
-		  <Kort>H'veen IJs</Kort>
+		  <Kort>IJsstadion</Kort>
 		  <Middel>IJsstadion</Middel>
 		  <Lang>Heerenveen IJsstadion</Lang>
 		</Namen>
@@ -4717,7 +4736,7 @@
 		<Code>HGLG</Code>
 		<Type>stoptreinstation</Type>
 		<Namen>		
-		  <Kort>Hengelo G</Kort>
+		  <Kort>Gezondhprk</Kort>
 		  <Middel>Hengelo Gezondh.</Middel>
 		  <Lang>Hengelo Gezondheidspark</Lang>
 		</Namen>
@@ -5159,8 +5178,8 @@
 		<Code>HTNC</Code>
 		<Type>stoptreinstation</Type>
 		<Namen>		
-		  <Kort>Houten C</Kort>
-		  <Middel>Castellum</Middel>
+		  <Kort>Houten Cas</Kort>
+		  <Middel>Houten Castellum</Middel>
 		  <Lang>Houten Castellum</Lang>
 		</Namen>
 		<Land>NL</Land>
@@ -5346,7 +5365,7 @@
 		<Code>BZL</Code>
 		<Type>stoptreinstation</Type>
 		<Namen>		
-		  <Kort>Kapelle-B</Kort>
+		  <Kort>Kapelle-Bi</Kort>
 		  <Middel>Kapelle-Biezel.</Middel>
 		  <Lang>Kapelle-Biezelinge</Lang>
 		</Namen>
@@ -5397,7 +5416,7 @@
 		<Code>KRD</Code>
 		<Type>knooppuntStoptreinstation</Type>
 		<Namen>		
-		  <Kort>Kerkrade</Kort>
+		  <Kort>Kerkrade C</Kort>
 		  <Middel>Kerkrade C.</Middel>
 		  <Lang>Kerkrade Centrum</Lang>
 		</Namen>
@@ -6000,7 +6019,7 @@
 		<Code>LLS</Code>
 		<Type>knooppuntIntercitystation</Type>
 		<Namen>		
-		  <Kort>Lelystad</Kort>
+		  <Kort>Lelystad C</Kort>
 		  <Middel>Lelystad C.</Middel>
 		  <Lang>Lelystad Centrum</Lang>
 		</Namen>
@@ -6248,6 +6267,23 @@
 		<UICCode>8400403</UICCode>
 		<Lat>53.3347145</Lat>
 		<Lon>6.7472625</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>LOURD</Code>
+		<Type>intercitystation</Type>
+		<Namen>		
+		  <Kort>Lourdes</Kort>
+		  <Middel>Lourdes</Middel>
+		  <Lang>Lourdes</Lang>
+		</Namen>
+		<Land>F</Land>
+		<UICCode>8767133</UICCode>
+		<Lat>43.100556</Lat>
+		<Lon>-0.041666</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -6550,7 +6586,7 @@
 		<Code>MTH</Code>
 		<Type>stoptreinstation</Type>
 		<Namen>		
-		  <Kort>Martensh</Kort>
+		  <Kort>Martenshk</Kort>
 		  <Middel>Martenshoek</Middel>
 		  <Lang>Martenshoek</Lang>
 		</Namen>
@@ -6900,7 +6936,7 @@
 		<Code>NDB</Code>
 		<Type>knooppuntStoptreinstation</Type>
 		<Namen>		
-		  <Kort>Naarden-B</Kort>
+		  <Kort>Naarden-Bu</Kort>
 		  <Middel>Naarden-Bussum</Middel>
 		  <Lang>Naarden-Bussum</Lang>
 		</Namen>
@@ -7820,7 +7856,7 @@
 		<Code>RB</Code>
 		<Type>stoptreinstation</Type>
 		<Namen>		
-		  <Kort>Rilland-B</Kort>
+		  <Kort>Rilland-Ba</Kort>
 		  <Middel>Rilland-Bath</Middel>
 		  <Lang>Rilland-Bath</Lang>
 		</Namen>
@@ -7854,7 +7890,7 @@
 		<Code>RD</Code>
 		<Type>stoptreinstation</Type>
 		<Namen>		
-		  <Kort>Roodesch</Kort>
+		  <Kort>Roodeschl</Kort>
 		  <Middel>Roodeschool</Middel>
 		  <Lang>Roodeschool</Lang>
 		</Namen>
@@ -7956,7 +7992,7 @@
 		<Code>RTD</Code>
 		<Type>megastation</Type>
 		<Namen>		
-		  <Kort>R'dam C</Kort>
+		  <Kort>Rotterdam</Kort>
 		  <Middel>Rotterdam C.</Middel>
 		  <Lang>Rotterdam Centraal</Lang>
 		</Namen>
@@ -7992,7 +8028,7 @@
 		<Code>RTN</Code>
 		<Type>stoptreinstation</Type>
 		<Namen>		
-		  <Kort>R'dam N</Kort>
+		  <Kort>Rotterdm N</Kort>
 		  <Middel>Rotterdam Noord</Middel>
 		  <Lang>Rotterdam Noord</Lang>
 		</Namen>
@@ -8026,7 +8062,7 @@
 		<Code>RTZ</Code>
 		<Type>stoptreinstation</Type>
 		<Namen>		
-		  <Kort>R'dam Z</Kort>
+		  <Kort>Rotterdm Z</Kort>
 		  <Middel>Rotterdam Zuid</Middel>
 		  <Lang>Rotterdam Zuid</Lang>
 		</Namen>
@@ -8646,8 +8682,8 @@
 		</Namen>
 		<Land>NL</Land>
 		<UICCode>8400572</UICCode>
-		<Lat>50.9430541992188</Lat>
-		<Lon>5.85166645050049</Lon>
+		<Lat>50.94327</Lat>
+		<Lon>5.850529</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
@@ -9014,7 +9050,7 @@
 		<Code>TBU</Code>
 		<Type>stoptreinstation</Type>
 		<Namen>		
-		  <Kort>Tilburg U</Kort>
+		  <Kort>Tilburg Un</Kort>
 		  <Middel>Tilburg Univers.</Middel>
 		  <Lang>Tilburg Universiteit</Lang>
 		</Namen>
@@ -9203,7 +9239,7 @@
 		<Code>UTLR</Code>
 		<Type>stoptreinstation</Type>
 		<Namen>		
-		  <Kort>Leidsche R</Kort>
+		  <Kort>LeidscheRn</Kort>
 		  <Middel>Leidsche Rijn</Middel>
 		  <Lang>Utrecht Leidsche Rijn</Lang>
 		</Namen>
@@ -9217,7 +9253,7 @@
 	</Station>
 
 	<Station>
-		<Code>UTL</Code>
+		<Code>UTLN</Code>
 		<Type>stoptreinstation</Type>
 		<Namen>		
 		  <Kort>Lunetten</Kort>
@@ -9783,7 +9819,7 @@
 		<Code>WAD</Code>
 		<Type>stoptreinstation</Type>
 		<Namen>		
-		  <Kort>Waddinxv</Kort>
+		  <Kort>Waddinxvn</Kort>
 		  <Middel>Waddinxveen</Middel>
 		  <Lang>Waddinxveen</Lang>
 		</Namen>
@@ -10414,7 +10450,7 @@
 		<Code>ZA</Code>
 		<Type>stoptreinstation</Type>
 		<Namen>		
-		  <Kort>Zetten-A</Kort>
+		  <Kort>Zetten-And</Kort>
 		  <Middel>Zetten-Andelst</Middel>
 		  <Lang>Zetten-Andelst</Lang>
 		</Namen>
@@ -10482,7 +10518,7 @@
 		<Code>ZTMO</Code>
 		<Type>stoptreinstation</Type>
 		<Namen>		
-		  <Kort>Z'meer O</Kort>
+		  <Kort>Zoetermr O</Kort>
 		  <Middel>Zoetermeer Oost</Middel>
 		  <Lang>Zoetermeer Oost</Lang>
 		</Namen>

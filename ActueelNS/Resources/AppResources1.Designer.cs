@@ -115,7 +115,7 @@ namespace ActueelNS.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Treintijden 2.3.10.
+        ///   Looks up a localized string similar to Treintijden 2.3.11.
         /// </summary>
         public static string AboutVersion {
             get {
@@ -790,7 +790,10 @@ namespace ActueelNS.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Nieuw in 2.3.10
+        ///   Looks up a localized string similar to Nieuw in 2.3.11
+        ///- Stationnamen update juni 2016
+        ///
+        ///Nieuw in 2.3.10
         ///- Stationnamen update december 2015
         ///
         ///Nieuw in 2.3.9
@@ -812,10 +815,7 @@ namespace ActueelNS.Resources {
         ///
         ///Nieuw in 2.3.2
         ///- Station Maastricht Noord
-        ///- Deel een geplande reis via e-mail
-        ///
-        ///Nieuw in 2.3.1
-        ///- Drukte-indicator [rest of string was truncated]&quot;;.
+        ///- Deel een geplande r [rest of string was truncated]&quot;;.
         /// </summary>
         public static string ReleaseNotes {
             get {

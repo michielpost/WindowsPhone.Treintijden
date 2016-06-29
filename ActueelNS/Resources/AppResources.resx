@@ -157,7 +157,7 @@
     <value>review</value>
   </data>
   <data name="AboutVersion" xml:space="preserve">
-    <value>Treintijden 2.3.10</value>
+    <value>Treintijden 2.3.11</value>
   </data>
   <data name="actueel" xml:space="preserve">
     <value>actueel</value>
@@ -415,7 +415,10 @@
     <value>favoriet</value>
   </data>
   <data name="ReleaseNotes" xml:space="preserve">
-    <value>Nieuw in 2.3.10
+    <value>Nieuw in 2.3.11
+- Stationnamen update juni 2016
+
+Nieuw in 2.3.10
 - Stationnamen update december 2015
 
 Nieuw in 2.3.9
