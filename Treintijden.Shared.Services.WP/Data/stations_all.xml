@@ -271,7 +271,7 @@
     <name>Amersfoort Vathorst</name>
     <id>avat</id>
     <c>NL</c>
-    <t>5</t>
+    <t>7</t>
     <lat>52.1927795410156</lat>
     <lon>5.43388891220093</lon>
     <Syns>
@@ -309,7 +309,7 @@
     <lat>52.3788871765137</lat>
     <lon>4.90027761459351</lon>
     <Syns>
-      <Sy>Amsterdam C.</Sy>
+      <Sy>Amsterdam CS</Sy>
     </Syns>
   </s>
   <s>
@@ -1190,7 +1190,7 @@
     <name>Budapest</name>
     <id>hbdp</id>
     <c>H</c>
-    <t>1</t>
+    <t>3</t>
     <lat>47.500278</lat>
     <lon>19.083889</lon>
     <Syns />
@@ -1324,7 +1324,7 @@
     <name>Como</name>
     <id>como</id>
     <c>I</c>
-    <t>2</t>
+    <t>3</t>
     <lat>45.80936</lat>
     <lon>9.07325</lon>
     <Syns />
@@ -2037,15 +2037,13 @@
     <Syns />
   </s>
   <s>
-    <name>Essen (Belgie)</name>
+    <name>Essen</name>
     <id>esn</id>
     <c>B</c>
     <t>7</t>
     <lat>51.46261</lat>
     <lon>4.45129</lon>
-    <Syns>
-      <Sy>Essen (B)</Sy>
-    </Syns>
+    <Syns />
   </s>
   <s>
     <name>Etten-Leur</name>
@@ -5269,6 +5267,18 @@
     <lon>5.04166650772095</lon>
     <Syns>
       <Sy>Terwijde</Sy>
+    </Syns>
+  </s>
+  <s>
+    <name>Utrecht Vaartsche Rijn</name>
+    <id>utvr</id>
+    <c>NL</c>
+    <t>7</t>
+    <lat>52.078889</lat>
+    <lon>5.121667</lon>
+    <Syns>
+      <Sy>VaartscheR</Sy>
+      <Sy>Vaartsche Rijn</Sy>
     </Syns>
   </s>
   <s>

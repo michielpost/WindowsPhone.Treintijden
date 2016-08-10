@@ -115,7 +115,7 @@ namespace ActueelNS.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Treintijden 2.3.11.
+        ///   Looks up a localized string similar to Treintijden 2.3.12.
         /// </summary>
         public static string AboutVersion {
             get {
@@ -790,7 +790,10 @@ namespace ActueelNS.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Nieuw in 2.3.11
+        ///   Looks up a localized string similar to Nieuw in 2.3.12
+        ///- Station Utrecht Vaartsche Rijn
+        ///
+        ///Nieuw in 2.3.11
         ///- Stationnamen update juni 2016
         ///
         ///Nieuw in 2.3.10
@@ -813,9 +816,7 @@ namespace ActueelNS.Resources {
         ///- Verbeterde weergave uitvallende treinen
         ///- Station Nijmegen Goffert
         ///
-        ///Nieuw in 2.3.2
-        ///- Station Maastricht Noord
-        ///- Deel een geplande r [rest of string was truncated]&quot;;.
+        ///Nieuw in 2.3 [rest of string was truncated]&quot;;.
         /// </summary>
         public static string ReleaseNotes {
             get {

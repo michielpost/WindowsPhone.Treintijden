@@ -461,7 +461,7 @@
 
 	<Station>
 		<Code>AVAT</Code>
-		<Type>sneltreinstation</Type>
+		<Type>stoptreinstation</Type>
 		<Namen>		
 		  <Kort>Vathorst</Kort>
 		  <Middel>Vathorst</Middel>
@@ -515,7 +515,7 @@
 		<Type>megastation</Type>
 		<Namen>		
 		  <Kort>Amsterdam</Kort>
-		  <Middel>Amsterdam C.</Middel>
+		  <Middel>Amsterdam CS</Middel>
 		  <Lang>Amsterdam Centraal</Lang>
 		</Namen>
 		<Land>NL</Land>
@@ -2033,7 +2033,7 @@
 
 	<Station>
 		<Code>HBDP</Code>
-		<Type>megastation</Type>
+		<Type>intercitystation</Type>
 		<Namen>		
 		  <Kort>Budapest</Kort>
 		  <Middel>Budapest</Middel>
@@ -2275,7 +2275,7 @@
 
 	<Station>
 		<Code>COMO</Code>
-		<Type>knooppuntIntercitystation</Type>
+		<Type>intercitystation</Type>
 		<Namen>		
 		  <Kort>Como</Kort>
 		  <Middel>Como</Middel>
@@ -3557,9 +3557,9 @@
 		<Code>ESN</Code>
 		<Type>stoptreinstation</Type>
 		<Namen>		
-		  <Kort>Essen (B)</Kort>
-		  <Middel>Essen (Belgie)</Middel>
-		  <Lang>Essen (Belgie)</Lang>
+		  <Kort>Essen</Kort>
+		  <Middel>Essen</Middel>
+		  <Lang>Essen</Lang>
 		</Namen>
 		<Land>B</Land>
 		<UICCode>8821402</UICCode>
@@ -9317,6 +9317,23 @@
 		<UICCode>8400614</UICCode>
 		<Lat>52.1005554199219</Lat>
 		<Lon>5.04166650772095</Lon>
+		<Synoniemen>
+			
+		</Synoniemen>
+	</Station>
+
+	<Station>
+		<Code>UTVR</Code>
+		<Type>stoptreinstation</Type>
+		<Namen>		
+		  <Kort>VaartscheR</Kort>
+		  <Middel>Vaartsche Rijn</Middel>
+		  <Lang>Utrecht Vaartsche Rijn</Lang>
+		</Namen>
+		<Land>NL</Land>
+		<UICCode>8400606</UICCode>
+		<Lat>52.078889</Lat>
+		<Lon>5.121667</Lon>
 		<Synoniemen>
 			
 		</Synoniemen>
